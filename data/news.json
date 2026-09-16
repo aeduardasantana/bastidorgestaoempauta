@@ -12,7 +12,7 @@
       "score": 8,
       "title": "Senado Notícias - Senado",
       "source": "Senado",
-      "date": "2026-09-14",
+      "date": "2026-09-16",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5DRi1BQnZjcUFfUFFqSnFXclhjSmZQNG94YlktRloxTEk1YWRhcVhHR1NQVXV1OWZLdVNKWHVGNXBIQl9yQWFZbU9LbHk?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
@@ -38,6 +38,354 @@
       },
       "use": {
         "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "sancionada-lei-de-incentivo-instala-o-de-data-centers-senadosenado",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 8,
+      "title": "Sancionada lei de incentivo à instalação de data centers - Senado",
+      "source": "Senado",
+      "date": "2026-09-16",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNG5ra3Z5bDZhTTJRWmQtRzJsS3c0XzhoZUJRY0dBOWdYNmtmMG1QaGtNOElINFd6TU9TRnZfY0hQMHAwVzdtLS1YNW0tYmlZYzFGZWhPOEl1WW15b2lPcm84ZDFoMG1TZDFtU1Vzamt2My1hX3RoaldPRUk5RnZRbHFsSVBkTnROZ1FhV0lnc1Z5ekY3aWVUV05DQm5KcWxYTHpqdjU5SF95eGk2RmhJQzFUZ2ZOc2kwNlE?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": true,
+        "title": "Sancionada lei de incentivo à instalação de data centers - Senado",
+        "source": "Senado",
+        "date": "2026-09-16",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNG5ra3Z5bDZhTTJRWmQtRzJsS3c0XzhoZUJRY0dBOWdYNmtmMG1QaGtNOElINFd6TU9TRnZfY0hQMHAwVzdtLS1YNW0tYmlZYzFGZWhPOEl1WW15b2lPcm84ZDFoMG1TZDFtU1Vzamt2My1hX3RoaldPRUk5RnZRbHFsSVBkTnROZ1FhV0lnc1Z5ekY3aWVUV05DQm5KcWxYTHpqdjU5SF95eGk2RmhJQzFUZ2ZOc2kwNlE?oc=5"
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "lei-facilita-corte-de-impostos-para-data-centers-e-programas-contra-c-ncer-senadosenado",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 8,
+      "title": "Lei facilita corte de impostos para data centers e programas contra câncer - Senado",
+      "source": "Senado",
+      "date": "2026-09-16",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOTBSNDFCX1NEenJzRkM2RU84MW84UWtMODhOU1V2THdFTXJmdVJ0UFk1eVhJeVRCS2pKOGJLRUl1OW5IUTF4LUNkajZ0X2tXc09hbEJjdVdBUE84a0p1T3REXzkzRThNSFpIYTRiQ3Y2bF9yaVNWTFpub3dkb3VDVVZGd1h1LWFhaERzS0ppdjBEdWxRcWw3dm5ER1FKU3dsUm9Kbm53VldOQThNcVJKbTJ1a19fbEdRVjBDdFRsYWYxX3lIUWg0aXBjbw?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": true,
+        "title": "Lei facilita corte de impostos para data centers e programas contra câncer - Senado",
+        "source": "Senado",
+        "date": "2026-09-16",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOTBSNDFCX1NEenJzRkM2RU84MW84UWtMODhOU1V2THdFTXJmdVJ0UFk1eVhJeVRCS2pKOGJLRUl1OW5IUTF4LUNkajZ0X2tXc09hbEJjdVdBUE84a0p1T3REXzkzRThNSFpIYTRiQ3Y2bF9yaVNWTFpub3dkb3VDVVZGd1h1LWFhaERzS0ppdjBEdWxRcWw3dm5ER1FKU3dsUm9Kbm53VldOQThNcVJKbTJ1a19fbEdRVjBDdFRsYWYxX3lIUWg0aXBjbw?oc=5"
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "pol-tica-nacional-de-conscientiza-o-e-orienta-o-sobre-lam-agora-lei-senadosenado",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 8,
+      "title": "Política nacional de conscientização e orientação sobre LAM agora é lei - Senado",
+      "source": "Senado",
+      "date": "2026-09-16",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeW1udllBMEhGaU1iSkxiRDBvcVM2bWkzYV8yQmtqbnFvc3FtdnE3Ujg5eTk3WDRTem1GRzA2LXFFUUVKUmpmUENwUVhLSWN0MGZPMUpoZElWeDc2dkFHNVVxRWJ1TGJjX0NaeDRZNkVWUDVUMjhTbWloWXJfMmdYbFhIWU0xblNmQ2l6Z3AzRm1hZnhnTFZYVkt2TjNJUmZCcHhjNWtBSS1WQ1BRMEZQVnJQSGs0YTRQU1htc2pPNVJBR0JHc1RV?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": true,
+        "title": "Política nacional de conscientização e orientação sobre LAM agora é lei - Senado",
+        "source": "Senado",
+        "date": "2026-09-16",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeW1udllBMEhGaU1iSkxiRDBvcVM2bWkzYV8yQmtqbnFvc3FtdnE3Ujg5eTk3WDRTem1GRzA2LXFFUUVKUmpmUENwUVhLSWN0MGZPMUpoZElWeDc2dkFHNVVxRWJ1TGJjX0NaeDRZNkVWUDVUMjhTbWloWXJfMmdYbFhIWU0xblNmQ2l6Z3AzRm1hZnhnTFZYVkt2TjNJUmZCcHhjNWtBSS1WQ1BRMEZQVnJQSGs0YTRQU1htc2pPNVJBR0JHc1RV?oc=5"
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "projeto-cria-piso-salarial-nacional-de-r-2-450-para-recepcionistas-portal-da-c-mara-dos-de",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 8,
+      "title": "Projeto cria piso salarial nacional de R$ 2.450 para recepcionistas - Portal da Câmara dos Deputados",
+      "source": "Portal da Câmara dos Deputados",
+      "date": "2026-09-15",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQc2c2TVdwcGk3TzdkNDBLNkcyWldwWUhqR3ZqZlpnX3ZlSDYzRElSMVlWVkd5S0RYVXFRRGd3TURUeURPVVhtN2twMlZLUXZDaUdKZEw1THl5ZkdCRllKX08xNUY4cDlhRWl3Rl93RklxOXlobGJXcnp2WE8taDJTWGFVOHYxY2VLUWlMN1h3MnoweEtkTVVMR0tGY0JHSm9PcGpxRkcwOW41X2pqNzRnNkNJZDdQWVJzN2UyaFpLOTFIN1RPekpOdTM5ZVBQOE1oZloxdTVGY0VDU0FYQldoc3RXRmJoTmt2cHdOYw?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": true,
+        "title": "Projeto cria piso salarial nacional de R$ 2.450 para recepcionistas - Portal da Câmara dos Deputados",
+        "source": "Portal da Câmara dos Deputados",
+        "date": "2026-09-15",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdUJxaVFZN1lvTHpOUmNtU25ydVQ2a1hwRWZqNlVIYXlJZFQxM0ZWckExX0RJWXU0eGF4OUVsVExadjEzbUpkdEJaTjJGbVNtYlRDYUtUbnRSeEN0d0kwR2lUSWFkVU9tX3V0Nkl1QWMxU2M5Nno2d0JId1dBYWlrX25hRlV5Z040RjZrQ3VUbll6LWRGNmFCQlk4Z2k2Zi1DQk9MZnNDUHdIY05GeGc?oc=5"
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "projeto-prev-inclus-o-autom-tica-de-aposentados-de-baixa-renda-na-tarifa-social-de-energia",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 8,
+      "title": "Projeto prevê inclusão automática de aposentados de baixa renda na Tarifa Social de Energia Elétrica - Portal da Câmara dos Deputados",
+      "source": "Portal da Câmara dos Deputados",
+      "date": "2026-09-15",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdUJpRVRabFEwNGpJTnd3WElvQm5YdlJMQ2ppT1Q4bXkyd29aN1ZzcnNkcFF2LTY5SDV2QWVEVkFTRklPZFJVSExHb3V1Y2Vmelo2eFdkTU1MenZCNC1yRmdycXA1bng5MFRnb3dVS24welR0STZ5b0lyM2Q1UEtfRVBxdTRfSFJyeEhMVlFSQmc4YjF6Z3g4Y0hMNXlZYzZIdWI2NnFzYlh2Q0IxZk5pNDR3Ylc2anZWb2pjNldpRzhBLWloTVVkcFA1bk4wRDJNQkI5REtFRk9tb3c?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": true,
+        "title": "Projeto prevê inclusão automática de aposentados de baixa renda na Tarifa Social de Energia Elétrica - Portal da Câmara dos Deputados",
+        "source": "Portal da Câmara dos Deputados",
+        "date": "2026-09-15",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdUJpRVRabFEwNGpJTnd3WElvQm5YdlJMQ2ppT1Q4bXkyd29aN1ZzcnNkcFF2LTY5SDV2QWVEVkFTRklPZFJVSExHb3V1Y2Vmelo2eFdkTU1MenZCNC1yRmdycXA1bng5MFRnb3dVS24welR0STZ5b0lyM2Q1UEtfRVBxdTRfSFJyeEhMVlFSQmc4YjF6Z3g4Y0hMNXlZYzZIdWI2NnFzYlh2Q0IxZk5pNDR3Ylc2anZWb2pjNldpRzhBLWloTVVkcFA1bk4wRDJNQkI5REtFRk9tb3c?oc=5"
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "projeto-amplia-certificado-de-sa-de-mental-para-incluir-preven-o-ao-v-cio-em-apostas-porta",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 8,
+      "title": "Projeto amplia certificado de saúde mental para incluir prevenção ao vício em apostas - Portal da Câmara dos Deputados",
+      "source": "Portal da Câmara dos Deputados",
+      "date": "2026-09-14",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDd1NV9BMnBoQkc0bkVpc18zZDZLNmgxS3ZBbjRUdTVDS2pKOWNaVV9GV3VSZDBSVDd6dmtSMWpwLWZydXR3WGc4djk5SzZHRWRQa0JPeDg1c25udm1UNnFFaWR6cExfNG5FQnZTd1REMUZlNFZGNE4tSC04V1FkRjNVYm1lU1V1V3NUN0xkM3MzTzYwZndpN254ejF6N3NFYUlZSUNNVGNCSDhUbUpGcm84cDVOMDg4c2VxSzFpZTBoS3gyc19j?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "projeto-isenta-profissionais-da-sa-de-do-imposto-de-renda-sobre-horas-extras-nas-redes-p-b",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 8,
+      "title": "Projeto isenta profissionais da saúde do Imposto de Renda sobre horas extras nas redes pública e privada - Portal da Câmara dos Deputados",
+      "source": "Portal da Câmara dos Deputados",
+      "date": "2026-09-14",
+      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOWjRlR0kxdXE5SDlHNGRkU3JoaDBuYVAzaGJHR3htUWh5MkJWbjFMMHpMV3NuckRGbzNBVXlwYXM3RXRfVVRNUVdsMkdOUXhuSDZ5MTF4ZHhFNHlrZXBNR1VDZWVGeHVBZ2p2Vlg3VXpnV0RFTVVjV1Q5ZUdOSmNrR0swWjc1aUpXOUxHWU5NYUhoYlpMWk9WcGVEc2VfVkFNVVd4azVCSmVfLUlfeXdEdU1HcF9WTXNreWR4cS1NNmdhSG1sRTVqQ0FtTTNNOVZSOC1tUWdhZmt5VHFJSnFFM1FxYVV6NGxNbGt3czlqdDM5ZnItX1RWMWpZbHpjQ0ZLaGhSVkZCVmwzTm9GOUM5UUVWUUIwVm9fdVN3WDJIaU9uQWxUU3hIbFhYMXJkeDhxX3Qxel9jWkFnMnJDbzQ2X2hWQzJxNnZnWkp0VmxwQVg5NXk4WlQ5a25wWUNmR2ZjOFBUTW0tdmw?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": true,
+        "title": "Projeto isenta profissionais da saúde do Imposto de Renda sobre horas extras nas redes pública e privada - Portal da Câmara dos Deputados",
+        "source": "Portal da Câmara dos Deputados",
+        "date": "2026-09-14",
+        "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOWjRlR0kxdXE5SDlHNGRkU3JoaDBuYVAzaGJHR3htUWh5MkJWbjFMMHpMV3NuckRGbzNBVXlwYXM3RXRfVVRNUVdsMkdOUXhuSDZ5MTF4ZHhFNHlrZXBNR1VDZWVGeHVBZ2p2Vlg3VXpnV0RFTVVjV1Q5ZUdOSmNrR0swWjc1aUpXOUxHWU5NYUhoYlpMWk9WcGVEc2VfVkFNVVd4azVCSmVfLUlfeXdEdU1HcF9WTXNreWR4cS1NNmdhSG1sRTVqQ0FtTTNNOVZSOC1tUWdhZmt5VHFJSnFFM1FxYVV6NGxNbGt3czlqdDM5ZnItX1RWMWpZbHpjQ0ZLaGhSVkZCVmwzTm9GOUM5UUVWUUIwVm9fdVN3WDJIaU9uQWxUU3hIbFhYMXJkeDhxX3Qxel9jWkFnMnJDbzQ2X2hWQzJxNnZnWkp0VmxwQVg5NXk4WlQ5a25wWUNmR2ZjOFBUTW0tdmw?oc=5"
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "aprovado-pelo-senado-fundo-para-promover-acesso-justi-a-gratuita-vira-lei-senado-not-cias-",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 8,
+      "title": "Aprovado pelo Senado, fundo para promover acesso à Justiça gratuita vira lei — Senado Notícias - Senado",
+      "source": "Senado",
+      "date": "2026-09-08",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYi1uRS1LYTlGMi1JbFRycE1vWGh6WFVXX2xEU0ZCVFBuTzRlcXpqVS1VWTJxMERBZFpmLXdKWGNqWDBheWtPVDQ5YUdOTEw3TDJQTXJYMWRKSURQRngzOHZFWkJCSHNudEZaYTNKUl8tLTB6N3hWNWpNdkhTVUlXYnJZUXlHOWFlaElSZHlHLUJ2TXZ0SFZfaW0tVmNNaGpnTnVsUnRfdWh6c2Y2MFBpS2JxZkNOOUY4dnhMck1LQzFTMzFLTlU5dGxQQzQ?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "alta-dos-juros-nos-eua-o-que-esperar-do-d-lar-e-das-bolsas-investnewsinvestnews",
+      "agenda": "Mercado e trabalho",
+      "impact": "Custo e caixa",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 5,
+      "title": "Alta dos juros nos EUA: o que esperar do dólar e das bolsas - InvestNews",
+      "source": "InvestNews",
+      "date": "2026-09-16",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa0FoN3l5S1lrX0FGdWFwWVQtRjU4cnI2cWRub2w2SXlJOG5KS1RYNUdRWF9MakN6bXR4dzJyVzJEQXVmUHVKU3pNRHlpQ0VqQWJtWnI4VGhuSzZOSXZYYW85TVFIQ3BPZnYxTk9NRXR2V3RJcnpYUHpjUW85MmRQLdIBhgFBVV95cUxOVmo5OU5udU5QY21xTlpaM0pERGlxMklHeGtxYnctNlJHeHF4NEZUS1dBbkluRFFLbzU4dnVLbDRiczVYOXR3b2VvZzF6SHhHdVNCcFU0U084OGVrMDZBdjY0SVEza1k4N01ULWpkVl8wdVNNMGlwZGtYUXZJWVhxeERPVDRJdw?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "Donos de empresas, diretoria financeira, operações e RH.",
+        "interest": "Identificar efeitos sobre caixa, contratação, preço, investimento ou planejamento.",
+        "search": "mercado brasileiro empresas; custo empresarial; emprego e empresas",
+        "sensation": "Segurança e curiosidade"
+      },
+      "packaging": {
+        "opening": "Este fato pode chegar ao caixa antes de aparecer nos relatórios. A questão é onde a empresa será pressionada.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "IMPACTO NO CAIXA",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
@@ -82,7 +430,7 @@
       }
     },
     {
-      "id": "o-que-muda-nos-investimentos-no-brasil-com-a-1-alta-de-juros-nos-eua-em-tr-s-anos-exameexa",
+      "id": "onde-est-o-as-oportunidades-de-investimento-no-mercado-global-nos-pr-ximos-12-meses-forbes",
       "agenda": "Mercado e trabalho",
       "impact": "Custo e caixa",
       "scope": "Nacional",
@@ -90,10 +438,10 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 5,
-      "title": "O que muda nos investimentos no Brasil com a 1ª alta de juros nos EUA em três anos? - Exame",
-      "source": "Exame",
+      "title": "Onde Estão as Oportunidades de Investimento no Mercado Global nos Próximos 12 Meses - Forbes Brasil",
+      "source": "Forbes Brasil",
       "date": "2026-09-16",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSnFmUW1BZUR2ekZ3SUlVYVRjMmVJRDV5Mm5HbEJ4cGVFODJJNDY4M085RVdib1EtcUxZN1RvRmlidlZYX3FCQ3lxSm9XSU9BRWk0aGdqMzRseGhtM2dweGp6d19jTlJJaUFxdXRzOXdLT1A1bGo4RWY4Y0xKdjBBSDAteDFNVmtxLWRiS21Ya09UcUlSb25nRmp2T0xHejN6N0Zub1JKbmRjRVlybEtaS25rYU5SZlpR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxYlFkR3ZkeXkzNTFhYkFfVXFINUwtZjNRdnQ5Rm9qZVM3eGtyQjcwcGdQQzlGRlAtYm9Sb1FrMXFYbmM3VVB4Z0sxWkxldURTdi1PRG4xVHNTX1RSSVBrTzIzMmplUW5NRmh6VDYxaWxRSzY2cnF4MA?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
@@ -134,46 +482,6 @@
       "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
-      },
-      "audience": {
-        "public": "Donos de empresas, diretoria financeira, operações e RH.",
-        "interest": "Identificar efeitos sobre caixa, contratação, preço, investimento ou planejamento.",
-        "search": "mercado brasileiro empresas; custo empresarial; emprego e empresas",
-        "sensation": "Segurança e curiosidade"
-      },
-      "packaging": {
-        "opening": "Este fato pode chegar ao caixa antes de aparecer nos relatórios. A questão é onde a empresa será pressionada.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "IMPACTO NO CAIXA",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Noticiar com redação própria e citar a fonte.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      }
-    },
-    {
-      "id": "pequenos-escrit-rios-de-assessoria-v-o-desaparecer-mercado-financeiro-passa-por-onda-de-fu",
-      "agenda": "Mercado e trabalho",
-      "impact": "Custo e caixa",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Repercussão jornalística",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 5,
-      "title": "Pequenos escritórios de assessoria vão desaparecer? Mercado financeiro passa por onda de fusões - Estadão",
-      "source": "Estadão",
-      "date": "2026-09-15",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNHBQaFpTVHZ1MkR5ck9Xc1I3ZVhDaUF1MWtWaUtUYlowbGdwNkQzRGFSVUNVYW5MYnVGR1lDZDFVbkYwTDNScDNjOEVDTlMyNnp2ME5EMjFYdjhFcHhpd1VPY1dxLWU1dzNGRHZEZkxyT1Y1YXY2N3pXczFuNXAyMHBxcmY5ZW1WWDlJV1FvM0l6M1BHZlVSU0REM1JpbzduNzFMbmVaSExjX1JhTUV4dF9NQ2oyMHU1dXJtbXhaWWUwM0V0N2hLd3NIU18tUlRPaGNIbmxQTmlVVGEyTHM5Ml9fS2dqUGR3cHRJ0gHwAUFVX3lxTE9LbkVLdk9aMHJwX2owS2czd1ZzZHlRak92ejFIT3drV3h6VG5KLUc3ZkpMMkEwX0UwZldNM1BraGtScmtPX2lEa05EbmM1blplVTN6dVctRnFDSU52b0dFTjBNNXpwUkVtdElGNTlZS0NoaEFUMnJCbTVzcE9rd0NzS3Z3U2pLc2o5RWJmU3E3ZkVRM0NrNDY5bmMxdWpHcGFvSG5sMUIxdXFPRGdsWFN0bDRlZzhsZzFKMktzelA2YmxxTWRfc0xTR0poVFk5QlpvLWFNZUMyQkdlcjJ2RUs0WGRsQnRvTkw5RUxpdTdPQw?oc=5",
-      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
-      "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
-      "origin": {
-        "found": true,
-        "title": "Pequenos escritórios de assessoria vão desaparecer? Mercado financeiro passa por onda de fusões - Estadão",
-        "source": "Estadão",
-        "date": "2026-09-15",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNHBQaFpTVHZ1MkR5ck9Xc1I3ZVhDaUF1MWtWaUtUYlowbGdwNkQzRGFSVUNVYW5MYnVGR1lDZDFVbkYwTDNScDNjOEVDTlMyNnp2ME5EMjFYdjhFcHhpd1VPY1dxLWU1dzNGRHZEZkxyT1Y1YXY2N3pXczFuNXAyMHBxcmY5ZW1WWDlJV1FvM0l6M1BHZlVSU0REM1JpbzduNzFMbmVaSExjX1JhTUV4dF9NQ2oyMHU1dXJtbXhaWWUwM0V0N2hLd3NIU18tUlRPaGNIbmxQTmlVVGEyTHM5Ml9fS2dqUGR3cHRJ0gHwAUFVX3lxTE9LbkVLdk9aMHJwX2owS2czd1ZzZHlRak92ejFIT3drV3h6VG5KLUc3ZkpMMkEwX0UwZldNM1BraGtScmtPX2lEa05EbmM1blplVTN6dVctRnFDSU52b0dFTjBNNXpwUkVtdElGNTlZS0NoaEFUMnJCbTVzcE9rd0NzS3Z3U2pLc2o5RWJmU3E3ZkVRM0NrNDY5bmMxdWpHcGFvSG5sMUIxdXFPRGdsWFN0bDRlZzhsZzFKMktzelA2YmxxTWRfc0xTR0poVFk5QlpvLWFNZUMyQkdlcjJ2RUs0WGRsQnRvTkw5RUxpdTdPQw?oc=5"
       },
       "audience": {
         "public": "Donos de empresas, diretoria financeira, operações e RH.",
@@ -566,8 +874,8 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "Caixa entra em greve nacional e Banco do Brasil tem paralisação parcial a partir desta 5ª - Folha de S.Paulo",
-      "source": "Folha de S.Paulo",
+      "title": "Caixa entra em greve nacional e Banco do Brasil tem paralisação parcial a partir desta 5ª - folha.uol.com.br",
+      "source": "folha.uol.com.br",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT1FBakFwS1dmZzAzU2tQWW04bVhZaUZxNVNSYmVyWnVtZmdMUWUybWhvRFdDMlpqWk8wdnRERWhTMm4tUUhkSjJtWWZmQU45anBqRFNzV3c0dG16bVdrdTNTQ3prVTNqdUx3ZHZTRUxJUzRkOTJUWTE0RTlDTFZlQnF6dElOWTlObTBIcXFRbUhMdk9OYzBFNnVzM1BYOExDQUtsN0hqcnhPYXpZY3lkSXNyV29CaUlnV0dMNEE2NVpYbzBoYUNmdUxkOGdxeWhDODJMY0d1Nk0?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
@@ -602,14 +910,18 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "NR-1 possibilita repensar gestão de pessoas, cultura organizacional e papel da liderança - futurodasaude.com.br",
-      "source": "futurodasaude.com.br",
+      "title": "NR-1 possibilita repensar gestão de pessoas, cultura organizacional e papel da liderança - Futuro da Saúde",
+      "source": "Futuro da Saúde",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObER0aW5vR0hUMUZqZzJ1RV9FektIZU1GUDRYT1JoeEZGbFV3eFFkb3lsTkJBT0l3ZlVTVzVlTHRnVWJ5VHNHc3lnNVdsbkRhcmRhUDI2VW9GZDNQa01ST2pYTDlnOERvYnNVUVJoazZJZU82SEtXVzB0Yng4UFB4SWNJajBMUjByRUZN?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
-        "found": false
+        "found": true,
+        "title": "NR-1 possibilita repensar gestão de pessoas, cultura organizacional e papel da liderança - Futuro da Saúde",
+        "source": "Futuro da Saúde",
+        "date": "2026-09-10",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObER0aW5vR0hUMUZqZzJ1RV9FektIZU1GUDRYT1JoeEZGbFV3eFFkb3lsTkJBT0l3ZlVTVzVlTHRnVWJ5VHNHc3lnNVdsbkRhcmRhUDI2VW9GZDNQa01ST2pYTDlnOERvYnNVUVJoazZJZU82SEtXVzB0Yng4UFB4SWNJajBMUjByRUZN?oc=5"
       },
       "audience": {
         "public": "Lideranças, RH, Business Partners e donos de empresas.",
@@ -706,7 +1018,7 @@
       }
     },
     {
-      "id": "the-chro-has-outgrown-the-operating-model-now-what-hrmorninghrmorning",
+      "id": "the-chro-has-outgrown-the-operating-model-now-what-hrmorning-comhrmorning-com",
       "agenda": "Mundo corporativo internacional",
       "impact": "Pessoas e trabalho",
       "scope": "Internacional",
@@ -714,8 +1026,8 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "The CHRO Has Outgrown the Operating Model. Now What? - HRMorning",
-      "source": "HRMorning",
+      "title": "The CHRO Has Outgrown the Operating Model. Now What? - hrmorning.com",
+      "source": "hrmorning.com",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1hd0pOeGFlMjY2WVhlM3dHb3NOV3NxUW44UjVmR1EwR3VablhPYkEzQkxod20yMWNkZ2E5eWZyRG1yS2VHSVpDZXRYQ0Q1dzhpbFFGS2d6Y0NqVWlXWVNEODFHaWJMWDM4b0xCSXpyT05aXzQ?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
@@ -742,7 +1054,7 @@
       }
     },
     {
-      "id": "-s-v-speras-de-greve-caixa-e-empregados-devem-ter-nova-rodada-de-negocia-o-veja-abril-com-",
+      "id": "-s-v-speras-de-greve-caixa-e-empregados-devem-ter-nova-rodada-de-negocia-o-vejaveja",
       "agenda": "Trabalho e representação",
       "impact": "Pessoas e trabalho",
       "scope": "Nacional",
@@ -750,8 +1062,8 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "Às vésperas de greve, Caixa e empregados devem ter nova rodada de negociação - veja.abril.com.br",
-      "source": "veja.abril.com.br",
+      "title": "Às vésperas de greve, Caixa e empregados devem ter nova rodada de negociação - VEJA",
+      "source": "VEJA",
       "date": "2026-09-09",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXN2UjBQbTBmbmU2TTdkZlpfUGtDQ2xmTENhT2xGUENNam04WU5rZHVfZGpQQXdQVTZ6dWVGa3JKMWkzX0RmUkIwdnFVcWptc1FkZHJRZWJhWE01SUJIclJDdHdiTDhtY2t3M21BN0pUeHZCMjhIQW54dVRVTDB1SDhBM1EtRU9xY1BfV0UwOFBNdFNleFg5Rk5BX1d0Sy10NnpCaVA2SjRwMGNaa1JDRA?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
@@ -872,6 +1184,42 @@
         "interest": "Comparar práticas internacionais sem importar soluções fora de contexto.",
         "search": "corporate leadership trends; workplace culture; gestão internacional",
         "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "comexvis-www-gov-brwww-gov-br",
+      "agenda": "Relações internacionais",
+      "impact": "Mercado e reputação",
+      "scope": "Internacional",
+      "territory": "Internacional",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 3,
+      "title": "ComexVis - www.gov.br",
+      "source": "www.gov.br",
+      "date": "2020-12-04",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVDRtTkxCZV9pNC1YU25odm5oSEJiZmk3enA5enNxSGtBR21BOHZMQ1JGX2pSY1AxRUxMbXh2ZlNISVBINHBkdjlObmFRMEVxa3pxcEJsOHpyZjdkMlRLYzlvMkRpblRBb3ZvT0tHbGd2cTRHYUtESHR6alNOdDM0VGNkWU0zVGV3WHdzYW9QMnk5ZWdNSW5mcWM4WWkteHcy?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em mercado e reputação? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar. Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil — sem presumir equivalência.",
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "Lideranças de empresas exportadoras, importadoras e negócios expostos ao mercado externo.",
+        "interest": "Entender efeito comercial, reputacional ou regulatório de relações internacionais.",
+        "search": "relações internacionais empresas brasileiras; acordo comercial impacto empresas",
+        "sensation": "Segurança e curiosidade"
       },
       "packaging": {
         "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",

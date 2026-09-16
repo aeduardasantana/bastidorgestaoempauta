@@ -43,7 +43,7 @@ GENERIC_TITLES={"notícias","últimas notícias","senado notícias","câmara not
 def is_article(item):
  title=item["title"].strip()
  source=item["source"].strip()
- base=re.sub(r"\\s*[-–—]\\s*"+re.escape(source)+r"\\s*$","",title,flags=re.I).strip().lower()
+ base=re.sub(r"\s*[-–—]\s*"+re.escape(source)+r"\s*$","",title,flags=re.I).strip().lower()
  if base in GENERIC_TITLES or len(base)<24:return False
  if base==source.lower() or base.endswith("notícias"):return False
  return True

@@ -10,6 +10,12 @@ import json,re,xml.etree.ElementTree as ET
 STREAMS={
  "Empresa em Pauta":("CEO empresa decisão estratégia expansão demissão aquisição","Operação e estratégia","Nacional","br"),
  "Poder e regras":("projeto de lei regulamentação fiscalização empresas trabalho Câmara Senado","Risco jurídico/regulatório","Federal","br"),
+ "Poder e regras — Senado oficial":("site:www12.senado.leg.br/noticias/materias empresas lei sancionada regulamentação data centers","Risco jurídico/regulatório","Federal","br"),
+ "Poder e regras — Câmara oficial":("site:camara.leg.br/noticias empresas projeto de lei regulamentação trabalho tributação","Risco jurídico/regulatório","Federal","br"),
+ "Poder e regras — Planalto oficial":("site:gov.br/planalto empresas lei decreto regulamentação sanção","Risco jurídico/regulatório","Federal","br"),
+ "Poder e regras — MTE oficial":("site:gov.br/trabalho-e-emprego empresas trabalho fiscalização norma regulamentadora","Risco jurídico/regulatório","Federal","br"),
+ "Poder e regras — reguladores":("site:gov.br empresas Banco Central Receita Federal Cade CVM regulamentação","Risco jurídico/regulatório","Federal","br"),
+ "Relações internacionais — Itamaraty oficial":("site:gov.br/mre empresas comércio exterior acordo embaixada exportação","Mercado e reputação","Internacional","br"),
  "Poder e regras — municipal":("prefeitura câmara municipal alvará ISS licenciamento empresas","Risco jurídico/regulatório","Municipal","br"),
  "Poder e regras — estadual":("governo estadual ICMS licenciamento empresas regulamentação","Risco jurídico/regulatório","Estadual","br"),
  "Mercado e trabalho":("empresas mercado emprego investimento juros Brasil","Custo e caixa","Nacional","br"),
@@ -86,13 +92,13 @@ for stream,(query,impact,scope,locale) in STREAMS.items():
   compare=(" Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil — sem presumir equivalência." if scope=="Internacional" else "")
   items.append({
    "id":re.sub(r"[^a-z0-9]+","-",key)[:90],
-   "agenda":"Poder e regras" if stream.startswith("Poder e regras") else stream,
+   "agenda":"Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream),
    "impact":impact,"scope":scope,
    "territory":"Confirmar na fonte" if scope in ["Municipal","Estadual"] else ("Brasil" if scope in ["Federal","Nacional"] else "Internacional"),
    "evidence":evidence,"sourceType":"Fonte jornalística ou institucional — confirmar origem","score":score,**x,
    "summary":"Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
    "angle":f"O que este fato pode mudar para empresas em {impact.lower()}? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar."+local+compare,
-   "origin":origin(x["title"],locale),"audience":audience_for("Poder e regras" if stream.startswith("Poder e regras") else stream),"packaging":packaging_for("Poder e regras" if stream.startswith("Poder e regras") else stream,impact),"use":use
+   "origin":origin(x["title"],locale),"audience":audience_for("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream)),"packaging":packaging_for("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream),impact),"use":use
   })
 items.sort(key=lambda x:(x["score"],x["date"]),reverse=True)
 Path("data/news.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":items},ensure_ascii=False,indent=2),encoding="utf-8")

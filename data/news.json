@@ -2,46 +2,6 @@
   "updatedAt": "2026-09-16",
   "items": [
     {
-      "id": "senado-not-cias-senadosenado",
-      "agenda": "Poder e regras",
-      "impact": "Risco jurídico/regulatório",
-      "scope": "Federal",
-      "territory": "Brasil",
-      "evidence": "Documento/ato oficial",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 8,
-      "title": "Senado Notícias - Senado",
-      "source": "Senado",
-      "date": "2026-09-16",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5DRi1BQnZjcUFfUFFqSnFXclhjSmZQNG94YlktRloxTEk1YWRhcVhHR1NQVXV1OWZLdVNKWHVGNXBIQl9yQWFZbU9LbHk?oc=5",
-      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
-      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
-      "origin": {
-        "found": true,
-        "title": "Senado recebe PLP 74/2026 com exceções tributárias para datacenters e resseguradoras - atlaspublico.com.br",
-        "source": "atlaspublico.com.br",
-        "date": "2026-09-03",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPclhhejAxeDktZDNQVmpzbUc4dkNwWVlsb0FaV3RtaDJnbC1HLS14UFRwX3BFVHRVazctRnVjMnhqS2JWcTVMbjVvV1Vib2xYc2gxV21pRkZzckFIUk05X2sxZFJoX1Q3N1YwcEdoN21UeTdkcU9oWkJaUlVvMmpPaGNNZGl1UnNNMkdTYW5qcndJMG4waGpYNm8tcGVLZTVESXZRdUFnV1k?oc=5"
-      },
-      "audience": {
-        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
-        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
-        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
-        "sensation": "Segurança e liberdade"
-      },
-      "packaging": {
-        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "NOVA REGRA: O QUE MUDA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Analisar o ato ou documento original; usar redação própria.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      }
-    },
-    {
       "id": "sancionada-lei-de-incentivo-instala-o-de-data-centers-senadosenado",
       "agenda": "Poder e regras",
       "impact": "Risco jurídico/regulatório",
@@ -257,7 +217,11 @@
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
-        "found": false
+        "found": true,
+        "title": "Projeto amplia certificado de saúde mental para incluir prevenção ao vício em apostas - Portal da Câmara dos Deputados",
+        "source": "Portal da Câmara dos Deputados",
+        "date": "2026-09-14",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDd1NV9BMnBoQkc0bkVpc18zZDZLNmgxS3ZBbjRUdTVDS2pKOWNaVV9GV3VSZDBSVDd6dmtSMWpwLWZydXR3WGc4djk5SzZHRWRQa0JPeDg1c25udm1UNnFFaWR6cExfNG5FQnZTd1REMUZlNFZGNE4tSC04V1FkRjNVYm1lU1V1V3NUN0xkM3MzTzYwZndpN254ejF6N3NFYUlZSUNNVGNCSDhUbUpGcm84cDVOMDg4c2VxSzFpZTBoS3gyc19j?oc=5"
       },
       "audience": {
         "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
@@ -298,42 +262,6 @@
         "source": "Portal da Câmara dos Deputados",
         "date": "2026-09-14",
         "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOWjRlR0kxdXE5SDlHNGRkU3JoaDBuYVAzaGJHR3htUWh5MkJWbjFMMHpMV3NuckRGbzNBVXlwYXM3RXRfVVRNUVdsMkdOUXhuSDZ5MTF4ZHhFNHlrZXBNR1VDZWVGeHVBZ2p2Vlg3VXpnV0RFTVVjV1Q5ZUdOSmNrR0swWjc1aUpXOUxHWU5NYUhoYlpMWk9WcGVEc2VfVkFNVVd4azVCSmVfLUlfeXdEdU1HcF9WTXNreWR4cS1NNmdhSG1sRTVqQ0FtTTNNOVZSOC1tUWdhZmt5VHFJSnFFM1FxYVV6NGxNbGt3czlqdDM5ZnItX1RWMWpZbHpjQ0ZLaGhSVkZCVmwzTm9GOUM5UUVWUUIwVm9fdVN3WDJIaU9uQWxUU3hIbFhYMXJkeDhxX3Qxel9jWkFnMnJDbzQ2X2hWQzJxNnZnWkp0VmxwQVg5NXk4WlQ5a25wWUNmR2ZjOFBUTW0tdmw?oc=5"
-      },
-      "audience": {
-        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
-        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
-        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
-        "sensation": "Segurança e liberdade"
-      },
-      "packaging": {
-        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "NOVA REGRA: O QUE MUDA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Analisar o ato ou documento original; usar redação própria.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      }
-    },
-    {
-      "id": "aprovado-pelo-senado-fundo-para-promover-acesso-justi-a-gratuita-vira-lei-senado-not-cias-",
-      "agenda": "Poder e regras",
-      "impact": "Risco jurídico/regulatório",
-      "scope": "Federal",
-      "territory": "Brasil",
-      "evidence": "Documento/ato oficial",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 8,
-      "title": "Aprovado pelo Senado, fundo para promover acesso à Justiça gratuita vira lei — Senado Notícias - Senado",
-      "source": "Senado",
-      "date": "2026-09-08",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYi1uRS1LYTlGMi1JbFRycE1vWGh6WFVXX2xEU0ZCVFBuTzRlcXpqVS1VWTJxMERBZFpmLXdKWGNqWDBheWtPVDQ5YUdOTEw3TDJQTXJYMWRKSURQRngzOHZFWkJCSHNudEZaYTNKUl8tLTB6N3hWNWpNdkhTVUlXYnJZUXlHOWFlaElSZHlHLUJ2TXZ0SFZfaW0tVmNNaGpnTnVsUnRfdWh6c2Y2MFBpS2JxZkNOOUY4dnhMck1LQzFTMzFLTlU5dGxQQzQ?oc=5",
-      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
-      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
-      "origin": {
-        "found": false
       },
       "audience": {
         "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
@@ -934,6 +862,42 @@
       }
     },
     {
+      "id": "livro-gratuito-orienta-pequenos-neg-cios-para-melhores-escolhas-sobre-financiamentos-ag-nc",
+      "agenda": "Mercado e trabalho",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Fonte institucional",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 3,
+      "title": "Livro gratuito orienta pequenos negócios para melhores escolhas sobre financiamentos - Agência Sebrae de Notícias",
+      "source": "Agência Sebrae de Notícias",
+      "date": "2026-09-14",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONlNTUWNON0MxeGE5dklpTFd4Wk1fVzN1ZFVhc0tYbjhfbHJ0d3hjYVpraWEtRFUxVFN0cEhVSThtTUlBTUxZc1VGQ3Ryd2ZuSWtqLXMtdnREWlIzX0RvaHZxTVEtcW51b0pqcjFDM2RmU0xhSFFYcjF1UmZVZm5RS1o1YW1IVWs1MXZhNkZIZ2xwNHpLUW03RmkzTHlXb3NfdkRVcGZudW1SbV83TWl1S2F4UnN3M1JsOWNNQTNVRm9DSnFGWlNKM3Z4RVYwTm8?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "Donos de empresas, diretoria financeira, operações e RH.",
+        "interest": "Identificar efeitos sobre caixa, contratação, preço, investimento ou planejamento.",
+        "search": "mercado brasileiro empresas; custo empresarial; emprego e empresas",
+        "sensation": "Segurança e curiosidade"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Tratar como fonte interessada; buscar documento ou contraponto.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
       "id": "o-que-o-avan-o-chin-s-ensina-ind-stria-automotiva-brasileira-exameexame",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
@@ -1042,7 +1006,7 @@
       }
     },
     {
-      "id": "ram-charan-mentor-de-ceos-e-autor-best-seller-confirmado-na-b55-conference-infomoney-com-b",
+      "id": "ram-charan-mentor-de-ceos-e-autor-best-seller-confirmado-na-b55-conference-infomoneyinfomo",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
       "scope": "Nacional",
@@ -1050,8 +1014,8 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "Ram Charan, mentor de CEOs e autor best-seller, é confirmado na B55 Conference - infomoney.com.br",
-      "source": "infomoney.com.br",
+      "title": "Ram Charan, mentor de CEOs e autor best-seller, é confirmado na B55 Conference - InfoMoney",
+      "source": "InfoMoney",
       "date": "2026-09-11",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWTliSUtXWDNhTHo4VHVQTkkzZE05T0F6REdoanlpcjVlZ2pFUnhiMkl4TzFoTmdtOG5hbHY3WVl1YXY3Q3hBb21kenNhcnl6YWpfZFFUODhPUHZwWUpIN2JYZkltcUxGbzhVTXk5TTBMcENVY3Y3bW1uZTdtVXRtWVlNcWVJdXRscHl3WmM0WXk1d21tdlk4TlZzQ0Y5eHBOUkJXS2VrT2JaeTZLVDYwQkJGVm5Kd9IBuwFBVV95cUxQVUE1LVQtR0wtRFYybHNQaXExc0xpekk2R2lXcWNUY05ma3NWeUR5cVZ6TTVHUVhXdDB0bTl4TG9pTDk0aEFBRVNrNEZSbXRaWXVYUWhIR2dLc3RGSV9Ka09zNkZlRHdzamRvWU5BX2JXZXYxYVp3eEZ5WmJUaDN2V0RnWUVkcHFCaGg4WFNxRDh6RXZxc3VpUjlQQnc4YkFFNG1JdElFOThNUUJzQjJNd0JrNlV6ZmN4LU00?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
@@ -1078,7 +1042,7 @@
       }
     },
     {
-      "id": "-guia-branca-de-um-nibus-comprado-por-acaso-a-r-23-bi-de-receita-infomoney-com-brinfomoney",
+      "id": "-guia-branca-de-um-nibus-comprado-por-acaso-a-r-23-bi-de-receita-infomoneyinfomoney",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
       "scope": "Nacional",
@@ -1086,8 +1050,8 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "Águia Branca: de um ônibus comprado por acaso a R$ 23 bi de receita - infomoney.com.br",
-      "source": "infomoney.com.br",
+      "title": "Águia Branca: de um ônibus comprado por acaso a R$ 23 bi de receita - InfoMoney",
+      "source": "InfoMoney",
       "date": "2026-09-11",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbUc2cVlKSG5FRkRQUHpvd0xQbVpZdFJBajhPUllwVHpkSGI3dzFTT2lxWlhVcFdGb21VbkRPMXVtd0NzTkprQTBvc3NjTjdpVE0wNGx1bEtYT1diZDdzdWlhYUU2b0JsNW04RnV3U2dZMVlrNTJqN2RSbmRGVXhIOXRQRzh0OTVSU2ZGX3ZzOWh5dGJWc2pqcjJDRzRiY2liM3IwZEJaUdIBrAFBVV95cUxPRTY2djlQei1OQi1yN2RCRFFBRmlnRDhjV0x2eFptbXNkS3NCZGRWVGpXejdkYThRWFRaLV9xd2FjZFM0N1c1V0lyNGdRVEdPU0dfME9WVWNnNG9WamhGY180SnA5WndzUGlmbUtGc0RZNHVRZFM0Sl9EWUwtcDUwUVhFbm5VcHFnSTlNazRBVFBud3YwQkgxb2xRaUh0OTVuME5pc0thQjRUU2ky?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
@@ -1114,16 +1078,16 @@
       }
     },
     {
-      "id": "empregados-da-caixa-votam-nova-proposta-nesta-sexta-feira-11-sindicato-dos-banc-riossindic",
+      "id": "empregados-da-caixa-votam-nova-proposta-nesta-sexta-feira-11-spbancarios-com-brspbancarios",
       "agenda": "Trabalho e representação",
       "impact": "Pessoas e trabalho",
       "scope": "Nacional",
       "territory": "Brasil",
-      "evidence": "Fonte institucional",
+      "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - Sindicato dos Bancários",
-      "source": "Sindicato dos Bancários",
+      "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - spbancarios.com.br",
+      "source": "spbancarios.com.br",
       "date": "2026-09-11",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZV9Qc21SemNtRGJ1Q2xocVNST0JrUy1ydVFqbjVXUzZtR2Y3Q09Bd3BjT1RBVDRCN2FjOF9hX1owNS1sZFNIYU1nNXlDNHo5RkNaUnRHMktIMGxVNjVEdnVvYXh0RVBwLUlES2pfd2F2amJjRFZoX3AySG9LRGtIdnkwb1B6MlBTWl95YXNUMDRMTEdUd0htcEhLaw?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
@@ -1145,7 +1109,7 @@
         "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
       },
       "use": {
-        "label": "Tratar como fonte interessada; buscar documento ou contraponto.",
+        "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
@@ -1222,7 +1186,7 @@
       }
     },
     {
-      "id": "9-em-cada-10-empresas-precisam-mudar-mas-poucas-t-m-gente-para-isso-infomoney-com-brinfomo",
+      "id": "9-em-cada-10-empresas-precisam-mudar-mas-poucas-t-m-gente-para-isso-infomoneyinfomoney",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
       "scope": "Nacional",
@@ -1230,8 +1194,8 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "9 em cada 10 empresas precisam mudar — mas poucas têm gente para isso - infomoney.com.br",
-      "source": "infomoney.com.br",
+      "title": "9 em cada 10 empresas precisam mudar — mas poucas têm gente para isso - InfoMoney",
+      "source": "InfoMoney",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTWZ5UDZVVjBhS1BkLUN2RFVacVpvOUV2U0R1TUZycU5fM3YwT1p5aW5TV1FYWlVMQVNrbUNXcjhkemNNdXNfR2Z1X2hFMlFCd1NxeHZRMVB1bnlyaXRublVXVkFTVllWc1lfVHpXMnRUcDRXN0dfR0ZlUmhOV1d2bG8zN2h1SkdSVUdYY2hBckNCalQ1SVVxYklZYzFFZlROQU5tWVplNlRkZ9IBrwFBVV95cUxQQ0JPd01EQ1hCWTZDTDFrYmQ3TEc1YXI1WTdVR2hYV2UzNTR6RUllYVJ5NWJpd2sySTRkZWlmMkp5Vy1TUUhJb3U1aGVvVld5TWxNdHM3Sks1ZTZtZTQ5ZmN6U2YydjFpMmwzeWllS09Rak5kZDFSWjNnSmtIaVp5aUJ2LUNPUW51Y2VxY0w5UmlxbVNJVXBDRVE0SlQ3N0huRF9rOGpKV0NIckxIbnBR?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
@@ -1266,8 +1230,8 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "Monte Bravo incorpora Elliot e estreia no mercado de trading com 18 mil contas ativas - infomoney.com.br",
-      "source": "infomoney.com.br",
+      "title": "Monte Bravo incorpora Elliot e estreia no mercado de trading com 18 mil contas ativas - InfoMoney",
+      "source": "InfoMoney",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMzhMUWZvbzhSbkl4OHNWRmJxczJ0NDdpZVJXT3ZySnZHUDJZQ3hCWlhMcG9zR1p0S1R1X2Y4cTZmOThOd3Zyam9MOWJxZkRhWGpWbS1aMy1NWFFWQnVNRWpKUllFNGU2eklGdm1lUHdXenVHZjRaaEp0eVF2T09Nd0h0Q1J5bEVWbWFCSzUtdl9Ed1Uta1ZnTE93YU1sX1NKeGlULVFoZGRjQkZOb0gwdEt2cTVRQ0o1VFNUbUo3dXk3Z9IBxwFBVV95cUxOTi1qaUFsd3VqTGhxMm40STZQcV9tQkdmaHlrNURrV0diRTNWSk1FQkNhOW41bEtoclBPUjVrRG9MOFVkc2ZrY0tyQnk2ZlM4MVpxY1Y5dlQtQ01wZGp6NE4xREpwNmF0ZFJUcGZ2enpOM0V1U2lWMVA1c3M1dmdYZXR2bW1ldnZHU2Nhb1FqcFFyM3B4dmZaTXJreUxYMVVXbWxIM1BvUWQ5eWs4NEVWLWc5WENrYmFkZGhWLVMzOXMtVXZtWEFZ?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
@@ -1290,6 +1254,42 @@
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "nordeste-se-destaca-com-44-vencedores-no-pr-mio-top-100-de-artesanato-de-2026-ag-ncia-sebr",
+      "agenda": "Mercado e trabalho",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Fonte institucional",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 3,
+      "title": "Nordeste se destaca com 44 vencedores no Prêmio TOP 100 de Artesanato de 2026 - Agência Sebrae de Notícias",
+      "source": "Agência Sebrae de Notícias",
+      "date": "2026-09-10",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYkdXVG9BUldXa1gwbEl4Ul9BazBXb2Jib0NOUEx4MTc0UlNyOWlEdXdNcHgzRXM2NENZazZaUUs3YlpUaGVTdG9LbmRPQllKMmJqWHp3YWdkTHJhTkFQNDhCT0tQX3gwUTAwVlNjOWN0VlBfY2U2ajRUSjllRlRVbkFOM0lJNFFIQ2E3QlhDU0E0ZWx1MTlnaWhrcUtyVFhfWVFBYktSYUNTUkI5bnpBdGY1VUFpVE14M09KTTk2Sm5MMXhtcFFUbg?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "Donos de empresas, diretoria financeira, operações e RH.",
+        "interest": "Identificar efeitos sobre caixa, contratação, preço, investimento ou planejamento.",
+        "search": "mercado brasileiro empresas; custo empresarial; emprego e empresas",
+        "sensation": "Segurança e curiosidade"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Tratar como fonte interessada; buscar documento ou contraponto.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
@@ -1446,7 +1446,7 @@
       }
     },
     {
-      "id": "a-ia-transformar-as-opera-es-de-gest-o-de-ativos-funds-societyfunds-society",
+      "id": "a-ia-transformar-as-opera-es-de-gest-o-de-ativos-fundssociety-comfundssociety-com",
       "agenda": "IA e gestão",
       "impact": "Operação e estratégia",
       "scope": "Nacional",
@@ -1454,18 +1454,14 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "A IA transformará as operações de gestão de ativos - Funds Society",
-      "source": "Funds Society",
+      "title": "A IA transformará as operações de gestão de ativos - fundssociety.com",
+      "source": "fundssociety.com",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORnNiZFg2LVR3MldoVE4tVENIM2t2ZWpmT0Z5MUtfZVAxazRqc001N3JzWmt3Qk1pcTVLQTRYN0kxUHFBSnRnZGVNLWV3NmNRcEx2TjVhOVo1R2oyTlFaMWVBSXRvUGk3N0IwX1cwMldVTVlvVmdOcVFJUDcwRmRoNThNUE5XaDFmR1NTTVB4Z2k0QQ?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
-        "found": true,
-        "title": "A IA transformará as operações de gestão de ativos - Funds Society",
-        "source": "Funds Society",
-        "date": "2026-09-10",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORnNiZFg2LVR3MldoVE4tVENIM2t2ZWpmT0Z5MUtfZVAxazRqc001N3JzWmt3Qk1pcTVLQTRYN0kxUHFBSnRnZGVNLWV3NmNRcEx2TjVhOVo1R2oyTlFaMWVBSXRvUGk3N0IwX1cwMldVTVlvVmdOcVFJUDcwRmRoNThNUE5XaDFmR1NTTVB4Z2k0QQ?oc=5"
+        "found": false
       },
       "audience": {
         "public": "CEOs, operações, RH e gestores de inovação.",
@@ -1486,7 +1482,7 @@
       }
     },
     {
-      "id": "the-chro-has-outgrown-the-operating-model-now-what-hrmorning-comhrmorning-com",
+      "id": "the-chro-has-outgrown-the-operating-model-now-what-hrmorninghrmorning",
       "agenda": "Mundo corporativo internacional",
       "impact": "Pessoas e trabalho",
       "scope": "Internacional",
@@ -1494,8 +1490,8 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "The CHRO Has Outgrown the Operating Model. Now What? - hrmorning.com",
-      "source": "hrmorning.com",
+      "title": "The CHRO Has Outgrown the Operating Model. Now What? - HRMorning",
+      "source": "HRMorning",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1hd0pOeGFlMjY2WVhlM3dHb3NOV3NxUW44UjVmR1EwR3VablhPYkEzQkxod20yMWNkZ2E5eWZyRG1yS2VHSVpDZXRYQ0Q1dzhpbFFGS2d6Y0NqVWlXWVNEODFHaWJMWDM4b0xCSXpyT05aXzQ?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
@@ -1590,6 +1586,42 @@
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "feira-de-neg-cios-do-vale-do-jari-inicia-com-foco-na-gera-o-de-oportunidades-e-novos-neg-c",
+      "agenda": "Mercado e trabalho",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Fonte institucional",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 3,
+      "title": "Feira de Negócios do Vale do Jari inicia com foco na geração de oportunidades e novos negócios - Agência Sebrae de Notícias",
+      "source": "Agência Sebrae de Notícias",
+      "date": "2026-09-06",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeGlyTkJUQzRYY24yOHRnLXh3WjNsbVVpMi1MdVB6QUlJdWRrOGdSTVkyRjJiREVINDdGMnpYY2Y0YzNhUUVtUm13cFZRNUt4dXBHQlpVNDY3SFFQVDNsOUNDWXFLZE5fWDd5VTI3YVp6YW9PQUlKa0VqNzdVcXB0SGVlZUlLY0FxQzdkTGp1UDdmWWNJNDRGdFlySEVYek9BQXIxY1lRR1I3RFhVRDBkZ1JjV0tqbGplWXdETkFnNFZsNG5wbDEzQmtnR3dDUGQ4VmE4ZVBHVVZfM1NxQTV3Wmo0OA?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "Donos de empresas, diretoria financeira, operações e RH.",
+        "interest": "Identificar efeitos sobre caixa, contratação, preço, investimento ou planejamento.",
+        "search": "mercado brasileiro empresas; custo empresarial; emprego e empresas",
+        "sensation": "Segurança e curiosidade"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Tratar como fonte interessada; buscar documento ou contraponto.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },

@@ -27,108 +27,20 @@
       }
     },
     {
-      "id": "ribamar-silva-refor-a-atua-o-em-defesa-das-pessoas-com-defici-ncia-ap-s-aprova-o-de-projet",
-      "agenda": "Poder e regras",
-      "impact": "Risco jurídico/regulatório",
-      "evidence": "Documento/ato oficial",
-      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
-      "score": 8,
-      "title": "Ribamar Silva reforça atuação em defesa das pessoas com deficiência após aprovação de projeto na Câmara - podemos.org.br",
-      "source": "podemos.org.br",
-      "date": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeGJMTVU1T0t6Tjh1VGFSN0Y5dEpUanpYMWUwWUtLd1JHWVp2Q1Y3SUFGMVhEdk9ZRVU3Rko1VkFIVzkxTVFBRC0wMVQ4ZnBhVmdPdENRSE1XUlc4eUlPZzFnMkJRQ3NlOGllVnVEQ2pSdjFTMlJHaVlENFVDVGpRMDJKZnpRZ0Rrb1JnYWlyNm1TcDNBakktZG1yTDN6YUFLMVYxRDFka1Y3VWVQdEpLVA?oc=5",
-      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
-      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
-      "origin": {
-        "found": false
-      },
-      "use": {
-        "label": "Analisar o ato ou documento original; usar redação própria.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      }
-    },
-    {
-      "id": "incentivo-para-instala-o-de-data-centers-no-brasil-aprovado-pelo-senado-conselho-regional-",
-      "agenda": "Poder e regras",
-      "impact": "Risco jurídico/regulatório",
-      "evidence": "Documento/ato oficial",
-      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
-      "score": 8,
-      "title": "Incentivo para instalação de data centers no Brasil é aprovado pelo Senado - Conselho Regional de Contabilidade do Maranhão",
-      "source": "Conselho Regional de Contabilidade do Maranhão",
-      "date": "2026-09-03",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGw1M0FfSXFlUUppLUZUbGRYTV9JWjNHZnFWNzFtMHU3Sl83MTcwbDJWeTRrUU93WEs3TmtFQ2Vtb1NkdldscnFOdWNoQXZ4SFBPRGNmOWx4bU1EY1l2UUJDWmlQY1ZITmJnMEhRYWhURGoyUmVRZnFqcFhzcmpWOGhtMlZoQmJic1YzU3hhbWt0bVcwMlI5OVBlaWRqOXhnYjZlYlphcw?oc=5",
-      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
-      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
-      "origin": {
-        "found": false
-      },
-      "use": {
-        "label": "Analisar o ato ou documento original; usar redação própria.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      }
-    },
-    {
-      "id": "c-mara-aprova-isen-o-da-taxa-das-blusinhas-texto-vai-ao-senado-dcomerciodcomercio",
-      "agenda": "Poder e regras",
-      "impact": "Risco jurídico/regulatório",
-      "evidence": "Documento/ato oficial",
-      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
-      "score": 8,
-      "title": "Câmara aprova isenção da taxa das blusinhas; texto vai ao Senado - DComercio",
-      "source": "DComercio",
-      "date": "2026-09-03",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdXo0bTJNck5RX3lidkJFTFFrSU5KWC1iS3RJU3RqN0U2SVlWNjFRdU4wV1NfMVR3ckNZV0JZYURhU05NWGxkdGJSVFNhNjVGWFVqUGhOR3FqN3lIZWl2OXQtYWctb1hya2tHYWM5M2dPNGc0empheE5xNFpTM2ZyQWJjNldLS1h4YnZCTnhYRzIzczY0M0FMekZSeHJDSDNTM0g0?oc=5",
-      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
-      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
-      "origin": {
-        "found": false
-      },
-      "use": {
-        "label": "Analisar o ato ou documento original; usar redação própria.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      }
-    },
-    {
-      "id": "por-que-a-empresa-brasileira-compra-ia-redu-o-de-custo-o-d-cimo-motivo-startsestartse",
-      "agenda": "IA e gestão",
-      "impact": "Operação e estratégia",
-      "evidence": "Documento/ato oficial",
-      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
-      "score": 6,
-      "title": "Por que a empresa brasileira compra IA: redução de custo é o décimo motivo - StartSe",
-      "source": "StartSe",
-      "date": "2026-09-16",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MMHNSTVdnNTZRbXo4Rk5yVVhhZDBiM0ZuaW1ob2V6RHY5c0FJbG9hWWd2YmkzRXJaYkNKdlh2LTd0cHFkRk14VWxmZXE4VS1jdVZydlhIajVVLVY2RXIzdU13U2RGWDh4WEJCZ0E4bmhMUTRpZ3hF?oc=5",
-      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
-      "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
-      "origin": {
-        "found": false
-      },
-      "use": {
-        "label": "Analisar o ato ou documento original; usar redação própria.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      }
-    },
-    {
-      "id": "brasil-e-eua-decidem-juros-em-meio-a-press-es-globais-xp-investimentosxp-investimentos",
+      "id": "brasil-e-eua-decidem-juros-em-meio-a-press-es-globais-conteudos-xpi-com-brconteudos-xpi-co",
       "agenda": "Mercado e trabalho",
       "impact": "Custo e caixa",
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional - confirmar origem",
       "score": 5,
-      "title": "Brasil e EUA decidem juros em meio a pressões globais - XP Investimentos",
-      "source": "XP Investimentos",
+      "title": "Brasil e EUA decidem juros em meio a pressões globais - conteudos.xpi.com.br",
+      "source": "conteudos.xpi.com.br",
       "date": "2026-09-16",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSGp6ZEV6YlpkbmJacXdwVHUzenJiUTBiVjdKTGFFOVRld21XNUZCWW1SSGwtQnUxWG9OMWVfU0RHdWx4VzZkQWpZMlFpYnZpbk5xQTQ1ZVl6RlhYUC1PUjFJdTdoNVBZNVZKWnJoWHlOWjJuRWJlcXpIRGh5UjB3QlZWQWtHeGVwOEZaM1VpVTZ3OUpSYmRQQ1E3OFU?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
-        "found": true,
-        "title": "Brasil e EUA decidem juros em meio a pressões globais - XP Investimentos",
-        "source": "XP Investimentos",
-        "date": "2026-09-16",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSGp6ZEV6YlpkbmJacXdwVHUzenJiUTBiVjdKTGFFOVRld21XNUZCWW1SSGwtQnUxWG9OMWVfU0RHdWx4VzZkQWpZMlFpYnZpbk5xQTQ1ZVl6RlhYUC1PUjFJdTdoNVBZNVZKWnJoWHlOWjJuRWJlcXpIRGh5UjB3QlZWQWtHeGVwOEZaM1VpVTZ3OUpSYmRQQ1E3OFU?oc=5"
+        "found": false
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
@@ -163,18 +75,35 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional - confirmar origem",
       "score": 5,
-      "title": "Pequenos escritórios de assessoria vão desaparecer? Mercado financeiro passa por onda de fusões - Estadão",
-      "source": "Estadão",
+      "title": "Pequenos escritórios de assessoria vão desaparecer? Mercado financeiro passa por onda de fusões - estadao.com.br",
+      "source": "estadao.com.br",
       "date": "2026-09-15",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNHBQaFpTVHZ1MkR5ck9Xc1I3ZVhDaUF1MWtWaUtUYlowbGdwNkQzRGFSVUNVYW5MYnVGR1lDZDFVbkYwTDNScDNjOEVDTlMyNnp2ME5EMjFYdjhFcHhpd1VPY1dxLWU1dzNGRHZEZkxyT1Y1YXY2N3pXczFuNXAyMHBxcmY5ZW1WWDlJV1FvM0l6M1BHZlVSU0REM1JpbzduNzFMbmVaSExjX1JhTUV4dF9NQ2oyMHU1dXJtbXhaWWUwM0V0N2hLd3NIU18tUlRPaGNIbmxQTmlVVGEyTHM5Ml9fS2dqUGR3cHRJ0gHwAUFVX3lxTE9LbkVLdk9aMHJwX2owS2czd1ZzZHlRak92ejFIT3drV3h6VG5KLUc3ZkpMMkEwX0UwZldNM1BraGtScmtPX2lEa05EbmM1blplVTN6dVctRnFDSU52b0dFTjBNNXpwUkVtdElGNTlZS0NoaEFUMnJCbTVzcE9rd0NzS3Z3U2pLc2o5RWJmU3E3ZkVRM0NrNDY5bmMxdWpHcGFvSG5sMUIxdXFPRGdsWFN0bDRlZzhsZzFKMktzelA2YmxxTWRfc0xTR0poVFk5QlpvLWFNZUMyQkdlcjJ2RUs0WGRsQnRvTkw5RUxpdTdPQw?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
-        "found": true,
-        "title": "Pequenos escritórios de assessoria vão desaparecer? Mercado financeiro passa por onda de fusões - Estadão",
-        "source": "Estadão",
-        "date": "2026-09-15",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNHBQaFpTVHZ1MkR5ck9Xc1I3ZVhDaUF1MWtWaUtUYlowbGdwNkQzRGFSVUNVYW5MYnVGR1lDZDFVbkYwTDNScDNjOEVDTlMyNnp2ME5EMjFYdjhFcHhpd1VPY1dxLWU1dzNGRHZEZkxyT1Y1YXY2N3pXczFuNXAyMHBxcmY5ZW1WWDlJV1FvM0l6M1BHZlVSU0REM1JpbzduNzFMbmVaSExjX1JhTUV4dF9NQ2oyMHU1dXJtbXhaWWUwM0V0N2hLd3NIU18tUlRPaGNIbmxQTmlVVGEyTHM5Ml9fS2dqUGR3cHRJ0gHwAUFVX3lxTE9LbkVLdk9aMHJwX2owS2czd1ZzZHlRak92ejFIT3drV3h6VG5KLUc3ZkpMMkEwX0UwZldNM1BraGtScmtPX2lEa05EbmM1blplVTN6dVctRnFDSU52b0dFTjBNNXpwUkVtdElGNTlZS0NoaEFUMnJCbTVzcE9rd0NzS3Z3U2pLc2o5RWJmU3E3ZkVRM0NrNDY5bmMxdWpHcGFvSG5sMUIxdXFPRGdsWFN0bDRlZzhsZzFKMktzelA2YmxxTWRfc0xTR0poVFk5QlpvLWFNZUMyQkdlcjJ2RUs0WGRsQnRvTkw5RUxpdTdPQw?oc=5"
+        "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "ribamar-silva-refor-a-atua-o-em-defesa-das-pessoas-com-defici-ncia-ap-s-aprova-o-de-projet",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 5,
+      "title": "Ribamar Silva reforça atuação em defesa das pessoas com deficiência após aprovação de projeto na Câmara - podemos.org.br",
+      "source": "podemos.org.br",
+      "date": "2026-09-10",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeGJMTVU1T0t6Tjh1VGFSN0Y5dEpUanpYMWUwWUtLd1JHWVp2Q1Y3SUFGMVhEdk9ZRVU3Rko1VkFIVzkxTVFBRC0wMVQ4ZnBhVmdPdENRSE1XUlc4eUlPZzFnMkJRQ3NlOGllVnVEQ2pSdjFTMlJHaVlENFVDVGpRMDJKZnpRZ0Rrb1JnYWlyNm1TcDNBakktZG1yTDN6YUFLMVYxRDFka1Y3VWVQdEpLVA?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
@@ -203,14 +132,77 @@
       }
     },
     {
+      "id": "incentivo-para-instala-o-de-data-centers-no-brasil-aprovado-pelo-senado-conselho-regional-",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 5,
+      "title": "Incentivo para instalação de data centers no Brasil é aprovado pelo Senado - Conselho Regional de Contabilidade do Maranhão",
+      "source": "Conselho Regional de Contabilidade do Maranhão",
+      "date": "2026-09-03",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGw1M0FfSXFlUUppLUZUbGRYTV9JWjNHZnFWNzFtMHU3Sl83MTcwbDJWeTRrUU93WEs3TmtFQ2Vtb1NkdldscnFOdWNoQXZ4SFBPRGNmOWx4bU1EY1l2UUJDWmlQY1ZITmJnMEhRYWhURGoyUmVRZnFqcFhzcmpWOGhtMlZoQmJic1YzU3hhbWt0bVcwMlI5OVBlaWRqOXhnYjZlYlphcw?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "c-mara-aprova-isen-o-da-taxa-das-blusinhas-texto-vai-ao-senado-dcomerciodcomercio",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 5,
+      "title": "Câmara aprova isenção da taxa das blusinhas; texto vai ao Senado - DComercio",
+      "source": "DComercio",
+      "date": "2026-09-03",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdXo0bTJNck5RX3lidkJFTFFrSU5KWC1iS3RJU3RqN0U2SVlWNjFRdU4wV1NfMVR3ckNZV0JZYURhU05NWGxkdGJSVFNhNjVGWFVqUGhOR3FqN3lIZWl2OXQtYWctb1hya2tHYWM5M2dPNGc0empheE5xNFpTM2ZyQWJjNldLS1h4YnZCTnhYRzIzczY0M0FMekZSeHJDSDNTM0g0?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "por-que-a-empresa-brasileira-compra-ia-redu-o-de-custo-o-d-cimo-motivo-startsestartse",
+      "agenda": "IA e gestão",
+      "impact": "Operação e estratégia",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "Por que a empresa brasileira compra IA: redução de custo é o décimo motivo - StartSe",
+      "source": "StartSe",
+      "date": "2026-09-16",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MMHNSTVdnNTZRbXo4Rk5yVVhhZDBiM0ZuaW1ob2V6RHY5c0FJbG9hWWd2YmkzRXJaYkNKdlh2LTd0cHFkRk14VWxmZXE4VS1jdVZydlhIajVVLVY2RXIzdU13U2RGWDh4WEJCZ0E4bmhMUTRpZ3hF?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
       "id": "i-run-an-organization-dedicated-to-collective-grieving-i-recognize-a-familiar-dynamic-with",
       "agenda": "Mundo corporativo internacional",
       "impact": "Pessoas e trabalho",
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional - confirmar origem",
       "score": 3,
-      "title": "I run an organization dedicated to collective grieving. I recognize a familiar dynamic with AI in the workplace - fortune.com",
-      "source": "fortune.com",
+      "title": "I run an organization dedicated to collective grieving. I recognize a familiar dynamic with AI in the workplace - Fortune",
+      "source": "Fortune",
       "date": "2026-09-13",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BcDdsUWZ3VUxBZWlQbmUzcHlZOXhqTmphQ1BCSk5yWGVFWm56S0NuNEdtUWFQSkN2allBSzZOVU1pMDdIY0hzVnJBQUNUSkhIYmV2SXgyMGZjVDVvRlZJcUxxcXVhVC1HTUY3dElR?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
@@ -248,7 +240,7 @@
       "id": "empregados-da-caixa-votam-nova-proposta-nesta-sexta-feira-11-sindicato-dos-banc-riossindic",
       "agenda": "Trabalho e representação",
       "impact": "Pessoas e trabalho",
-      "evidence": "Repercussão jornalística",
+      "evidence": "Fonte institucional",
       "sourceType": "Fonte jornalística ou institucional - confirmar origem",
       "score": 3,
       "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - Sindicato dos Bancários",
@@ -261,7 +253,7 @@
         "found": false
       },
       "use": {
-        "label": "Noticiar com redação própria e citar a fonte.",
+        "label": "Tratar como fonte interessada; buscar documento ou contraponto.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
@@ -293,18 +285,14 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional - confirmar origem",
       "score": 3,
-      "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
-      "source": "O GLOBO",
+      "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - oglobo.globo.com",
+      "source": "oglobo.globo.com",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVGV4c2NWYXV0ZUZodGFvYlJjU0NhMXg4bUEzQ29WUEQtNGg1TmM0WTFfUlpRWGsxVjVqZUR2TEpsencwVUJSOW1FMjY5cUxPZ1o2aUE3b1B3Vm5Hd0tZaFp4V3ZYOTdRYllxRDhTSDM4MzZ6WkFxOGZzbmpzRXpzakFOZFBscm5NWjJiSnBCUjEySjFsU1Y3RV9QUzFWQjhEXzVUdTk5VkR5Rl90X0FHam40MElvQm5tRWhLUjBrUjMweXIxLWtFRzBkdlhhRmxRbk1LT24xM1I1YW9NSzZkeFF1bzBuU1VmaFpGTNIB-wFBVV95cUxQS0R2WndZdEptNjdKaW53Qk9VaUFsOG9tREZSOUFBdDAyUkJQN0ZfVUIyQTAzeHpKNU1pMWd4UmhrQjhUWWpFTDBFbXU1SllxQ0tBZWdmMGJsUWVoeHprb3VtUlhhekRlMmxUREdIaUw2Rzd1bXl4SXVYMloyQXVJUTc3cnZYTktyYS1iRHRsaGhHREVXdjZ3WWI1TFJjQVlWVlNTSndKQjFtdW14YXZTUUowV3VCcGJ2akVtOWpQaVZRb2RPeV9sRGtfSGR4UlFoMzZ4WkhINmxVbGllYkZZZ3czNk1XQlB2VU8xMEp5bWEtN0tycGYwdTBLbw?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
-        "found": true,
-        "title": "CSN recebe mais de três propostas por ativos de infraestrutura | Setembro 2026 - XP Investimentos",
-        "source": "XP Investimentos",
-        "date": "2026-09-15",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeDF5dWpjbzltZldWbEtPWldzV0hWY202M21IOHlzbmpxOWZlUk9pMnJUUVcwbXREd0I2RGNMRXY3NE9WRWRBR1pqMHljeUlUb2Nwakk4Qk4wRlRpWG91QVk0dVhaTEZvcVVmSXF1Q0x2bjNIOHRBeTl2VFlIdXllMTR6M0Y3N1dnWnZEUUNXN0VhelE4YzFicQ?oc=5"
+        "found": false
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
@@ -463,14 +451,14 @@
       }
     },
     {
-      "id": "a-ia-saiu-da-ti-e-entrou-na-gest-o-portal-erpportal-erp",
+      "id": "a-ia-saiu-da-ti-e-entrou-na-gest-o-portalerp-comportalerp-com",
       "agenda": "IA e gestão",
       "impact": "Operação e estratégia",
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional - confirmar origem",
       "score": 3,
-      "title": "A IA saiu da TI e entrou na gestão - Portal ERP",
-      "source": "Portal ERP",
+      "title": "A IA saiu da TI e entrou na gestão - portalerp.com",
+      "source": "portalerp.com",
       "date": "2026-09-04",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84MUVTT2hVVWdtR194dGM4QWRLVGEtZjBMeDRpZjA1NFRuYzFMUTNRbHJFMEFQMmNybFFxRGZGWW5zTkRHM0J6bFpqQUVHZWRYaHA3a3JvMGRRRTJtR0JBd3NmVHFnaENHOUpTcFZ6a1lwWEtq?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",

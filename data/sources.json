@@ -216,6 +216,33 @@
       "function": "Fatos relevantes, resultados, comunicados ao mercado e documentos de companhias abertas.",
       "alignment": "Mudança de CEO, aquisição, reestruturação, governança, investimento e risco.",
       "care": "Documento confirma a declaração ou ato informado; não comprova automaticamente o resultado prometido."
+    },
+    {
+      "source": "TV, cinema, streaming e plataformas",
+      "group": "Indústria de mídia, audiovisual e plataformas",
+      "type": "Setor empresarial",
+      "status": "Monitorada",
+      "function": "Movimentos de liderança, reestruturação, publicidade, assinaturas, IA, distribuição, greves, direitos autorais, acessibilidade e governança.",
+      "alignment": "Liderança, trabalho criativo, tecnologia, reputação e organização de operações complexas.",
+      "care": "Excluir celebridade, elenco, lançamento e vida pessoal. Só entra decisão empresarial com consequência verificável."
+    },
+    {
+      "source": "Globo, SBT, Record, Band, Netflix, Disney, Warner, Amazon, YouTube, Spotify e Meta",
+      "group": "Indústria de mídia, audiovisual e plataformas",
+      "type": "Fonte corporativa interessada",
+      "status": "Consulta dirigida",
+      "function": "Newsroom, RI, resultados e comunicados de plataformas e grupos de mídia.",
+      "alignment": "Empresa em Pauta e comparação de práticas de gestão em larga escala.",
+      "care": "Comunicado confirma o anúncio da empresa; buscar cobertura independente ou documento quando necessário."
+    },
+    {
+      "source": "Meio & Mensagem, Tela Viva, Variety, Deadline e The Hollywood Reporter",
+      "group": "Indústria de mídia, audiovisual e plataformas",
+      "type": "Jornalística especializada",
+      "status": "Consulta dirigida",
+      "function": "Cobertura de mídia, publicidade, audiovisual, plataformas e mudanças de mercado.",
+      "alignment": "Contexto para decisões corporativas do setor.",
+      "care": "Selecionar somente notícia de negócio, trabalho, estratégia ou governança."
     }
   ]
 }

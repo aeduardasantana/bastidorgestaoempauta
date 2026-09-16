@@ -39,13 +39,22 @@ def d(v):
  try: return parsedate_to_datetime(v).date().isoformat()
  except: return datetime.now(timezone.utc).date().isoformat()
 
+GENERIC_TITLES={"notícias","últimas notícias","senado notícias","câmara notícias","camara notícias","home","início","inicio","notícias - senado","news"}
+def is_article(item):
+ title=item["title"].strip()
+ source=item["source"].strip()
+ base=re.sub(r"\\s*[-–—]\\s*"+re.escape(source)+r"\\s*$","",title,flags=re.I).strip().lower()
+ if base in GENERIC_TITLES or len(base)<24:return False
+ if base==source.lower() or base.endswith("notícias"):return False
+ return True
+
 def feed(q,n=4,locale="br"):
  suffix="&hl=en-US&gl=US&ceid=US:en" if locale=="us" else "&hl=pt-BR&gl=BR&ceid=BR:pt-419"
  u="https://news.google.com/rss/search?q="+quote(q+" when:14d")+suffix
  try: r=ET.fromstring(urlopen(Request(u,headers=HEADERS),timeout=30).read())
  except Exception as e:
   print("falha",e); return []
- return [{"title":clean(i.findtext("title")),"source":clean(i.findtext("source")) or "Google Notícias","date":d(i.findtext("pubDate")or""),"url":i.findtext("link")} for i in r.findall("./channel/item")[:n] if i.findtext("title") and i.findtext("link")]
+ items=[{"title":clean(i.findtext("title")),"source":clean(i.findtext("source")) or "Google Notícias","date":d(i.findtext("pubDate")or""),"url":i.findtext("link")} for i in r.findall("./channel/item")[:n] if i.findtext("title") and i.findtext("link")]\n return [item for item in items if is_article(item)]
 
 def origin(t,locale):
  c=feed('"'+t+'"',5,locale)

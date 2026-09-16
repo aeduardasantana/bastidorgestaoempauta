@@ -1,6 +1,11 @@
 name: Atualizar Radar Diário
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/atualizar_radar.py"
+      - ".github/workflows/atualizar-radar.yml"
   schedule:
     - cron: "0 10 * * 1-5"
 permissions:

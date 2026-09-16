@@ -29,7 +29,8 @@ STREAMS={
  "Pessoas e liderança":("liderança gestão pessoas saúde mental trabalho empresas","Pessoas e trabalho","Nacional","br"),
  "NR-1 / AEP":("NR-1 AEP riscos psicossociais empresas","Risco jurídico/regulatório","Nacional","br"),
  "IA e gestão":("inteligência artificial gestão empresas trabalho","Operação e estratégia","Nacional","br"),
- "Mundo corporativo internacional":("CEO company culture workplace leadership business","Pessoas e trabalho","Internacional","us")
+ "Mundo corporativo internacional":("CEO company culture workplace leadership business","Pessoas e trabalho","Internacional","us"),
+ "Mídia, audiovisual e plataformas":("Netflix Disney Warner Globo SBT Record streaming televisão cinema CEO reestruturação demissões IA publicidade assinaturas","Operação e estratégia","Nacional","br")
 }
 HEADERS={"User-Agent":"Mozilla/5.0 (BastidorGestaoEmPauta/1.0)"}
 

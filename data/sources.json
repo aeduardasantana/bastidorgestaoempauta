@@ -1,0 +1,149 @@
+{
+  "updatedAt": "2026-09-16",
+  "sources": [
+    {
+      "source": "MTE",
+      "group": "Obrigação e risco",
+      "type": "Fonte primária",
+      "status": "Monitorada",
+      "function": "NRs, fiscalização, DET, Caged, relações de trabalho e orientação ao empregador.",
+      "alignment": "NR-1/AEP, riscos psicossociais, trabalho e conformidade.",
+      "care": "Confirmar portaria, norma ou dado citado antes de gravar."
+    },
+    {
+      "source": "Senado e Câmara",
+      "group": "Obrigação e risco",
+      "type": "Fonte institucional",
+      "status": "Monitorada",
+      "function": "Projetos, tramitação, aprovação e sanção de medidas com efeito empresarial.",
+      "alignment": "Regulação, tributação, trabalho e infraestrutura.",
+      "care": "Notícia legislativa não confirma vigência; buscar lei, ato ou Diário Oficial."
+    },
+    {
+      "source": "Planalto e Diário Oficial",
+      "group": "Obrigação e risco",
+      "type": "Fonte primária",
+      "status": "Monitorada",
+      "function": "Leis, decretos, medidas provisórias e atos do Executivo.",
+      "alignment": "Regulação com consequência direta para empresas.",
+      "care": "Usar o ato original; explicar apenas o alcance confirmado."
+    },
+    {
+      "source": "TST, TRTs e MPT",
+      "group": "Obrigação e risco",
+      "type": "Fonte primária",
+      "status": "Monitorada",
+      "function": "Jurisprudência, fiscalização e condutas trabalhistas que revelam risco organizacional.",
+      "alignment": "Liderança, assédio, saúde mental e relações de trabalho.",
+      "care": "Casos individuais vão para Duarda; Gestão em Pauta usa apenas a leitura sistêmica."
+    },
+    {
+      "source": "Banco Central, Receita, Cade e CVM",
+      "group": "Mercado e regulação",
+      "type": "Fonte primária",
+      "status": "Monitorada",
+      "function": "Crédito, concorrência, tributação, mercado financeiro e regulação.",
+      "alignment": "Caixa, mercado, estratégia e decisão empresarial.",
+      "care": "Não transformar indicador macro em recomendação financeira."
+    },
+    {
+      "source": "Itamaraty e MDIC",
+      "group": "Mercado e regulação",
+      "type": "Fonte primária",
+      "status": "Monitorada",
+      "function": "Comércio exterior, diplomacia econômica, acordos e acesso a mercados.",
+      "alignment": "Empresas exportadoras, importadoras e cadeias internacionais.",
+      "care": "Só entra se houver consequência empresarial verificável."
+    },
+    {
+      "source": "Agência Sebrae",
+      "group": "Sinal setorial",
+      "type": "Fonte institucional",
+      "status": "Monitorada",
+      "function": "Pequenos negócios, economia regional, inovação, dados e empreendedorismo.",
+      "alignment": "Dor de MPEs, mercado local e oportunidade de profissionalização.",
+      "care": "Sobrepõe conteúdo genérico e capacitação; usar como sinal, nunca como prova única."
+    },
+    {
+      "source": "CNI, Fecomércio e associações setoriais",
+      "group": "Sinal setorial",
+      "type": "Fonte interessada",
+      "status": "Consulta dirigida",
+      "function": "Agenda empresarial, dados de setor e impacto regional.",
+      "alignment": "Custos, licenças, tributação, emprego e operação.",
+      "care": "Identificar interesse institucional e confirmar com fonte pública ou contraponto."
+    },
+    {
+      "source": "Sindicatos e centrais",
+      "group": "Trabalho e representação",
+      "type": "Fonte interessada",
+      "status": "Consulta dirigida",
+      "function": "Negociação coletiva, greve, mobilização e reivindicações.",
+      "alignment": "Relações de trabalho e preparação de lideranças.",
+      "care": "Nunca tratar posição sindical como fato sem documento ou outra fonte."
+    },
+    {
+      "source": "Valor Econômico",
+      "group": "Decisão empresarial",
+      "type": "Jornalística",
+      "status": "Consulta dirigida",
+      "function": "Empresas, economia, negócios e decisões corporativas.",
+      "alignment": "Estratégia, mercado, expansão e reestruturação.",
+      "care": "Usar como reportagem; não reproduzir texto ou material protegido."
+    },
+    {
+      "source": "Brazil Journal",
+      "group": "Decisão empresarial",
+      "type": "Jornalística",
+      "status": "Monitorada",
+      "function": "CEOs, governança, crédito, tecnologia e movimentos corporativos.",
+      "alignment": "Empresa em Pauta e decisão de liderança.",
+      "care": "Fato jornalístico requer confirmação quando houver ato, dado ou documento disponível."
+    },
+    {
+      "source": "Exame, PEGN e InfoMoney Business",
+      "group": "Decisão empresarial",
+      "type": "Jornalística",
+      "status": "Monitorada",
+      "function": "Negócios, inovação, empreendedorismo, mercado e gestão.",
+      "alignment": "Empresas, estratégia, IA, trabalho e crescimento.",
+      "care": "Selecionar apenas matérias com consequência clara, não listas ou opinião."
+    },
+    {
+      "source": "NeoFeed e Bloomberg Línea",
+      "group": "Decisão empresarial",
+      "type": "Jornalística",
+      "status": "Consulta dirigida",
+      "function": "Inovação, capital, tecnologia e negócios nacionais e internacionais.",
+      "alignment": "Movimentos de mercado e comparações corporativas.",
+      "care": "Separar análise jornalística de fato confirmado."
+    },
+    {
+      "source": "IBGE, Ipea e dados públicos",
+      "group": "Dados de contexto",
+      "type": "Fonte primária",
+      "status": "Consulta dirigida",
+      "function": "Indicadores de trabalho, renda, setor e território.",
+      "alignment": "Contexto para pauta, sem substituir a notícia principal.",
+      "care": "Citar período, metodologia e limite do indicador."
+    },
+    {
+      "source": "OIT, OECD, Eurofound",
+      "group": "Referência internacional",
+      "type": "Organismo multilateral",
+      "status": "Consulta dirigida",
+      "function": "Dados e recomendações sobre trabalho, emprego e condições organizacionais.",
+      "alignment": "Comparação Brasil-exterior e contexto de riscos psicossociais.",
+      "care": "Não aplicar recomendação estrangeira como regra brasileira."
+    },
+    {
+      "source": "SHRM, CIPD, MIT Sloan e relatórios de consultorias",
+      "group": "Referência internacional",
+      "type": "Referência técnica",
+      "status": "Consulta dirigida",
+      "function": "Práticas de gestão, trabalho, liderança e tecnologia.",
+      "alignment": "Repertório para reflexão, não notícia-base.",
+      "care": "Tratar como referência, considerando interesse comercial e contexto cultural."
+    }
+  ]
+}

@@ -54,7 +54,8 @@ def feed(q,n=4,locale="br"):
  try: r=ET.fromstring(urlopen(Request(u,headers=HEADERS),timeout=30).read())
  except Exception as e:
   print("falha",e); return []
- items=[{"title":clean(i.findtext("title")),"source":clean(i.findtext("source")) or "Google Notícias","date":d(i.findtext("pubDate")or""),"url":i.findtext("link")} for i in r.findall("./channel/item")[:n] if i.findtext("title") and i.findtext("link")]\n return [item for item in items if is_article(item)]
+ items=[{"title":clean(i.findtext("title")),"source":clean(i.findtext("source")) or "Google Notícias","date":d(i.findtext("pubDate")or""),"url":i.findtext("link")} for i in r.findall("./channel/item")[:n] if i.findtext("title") and i.findtext("link")]
+ return [item for item in items if is_article(item)]
 
 def origin(t,locale):
  c=feed('"'+t+'"',5,locale)

@@ -13,4 +13,4 @@ A seleção fica armazenada apenas no navegador utilizado.
 ## Atualização automática
 O arquivo `data/news.json` será preenchido pelo workflow `.github/workflows/atualizar-radar.yml`, que coleta RSS do Google Notícias a partir das consultas definidas em `scripts/atualizar_radar.py`.
 
-O GitHub Pages deve ser configurado para publicar a branch `main` na raiz do repositório. O domínio personalizado previsto é `bastidorgestaoempauta.grupoeduardabispo.com.br`.
+O domínio personalizado previsto é `bastidorgp.grupoeduardabispo.com.br`.

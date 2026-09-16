@@ -2,267 +2,506 @@
   "updatedAt": "2026-09-16",
   "items": [
     {
-      "id": "escala-no-franchising-exige-l-deres-processos-e-acesso-a-capital-valor-econ-micovalor-econ",
-      "theme": "Liderança",
-      "title": "Escala no franchising exige líderes, processos e acesso a capital - Valor Econômico",
-      "source": "Valor Econômico",
-      "date": "2026-09-16",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ2N6bGFGYjB0WENYWHpFamt5MVBXWVFGTTY2dW9Dc3hTb21GMS1oZmNwWjVUMmZOSlFYSGNhT2xUSkxNMUJRcGpWZzhLQ1NVTzRnWldBZWNTcWlfaXRvMU42emNnUWhpVTBwSnUzQXZZeDYwOUp1dTdMXzVzSi14YU5sM21hQml0U3Y0ZTF3QWhneXMxbnlLeEZLZW1QeTBaMWNtT0NIYXBIUkxnUDVyYlJ6QWZxR0VZSzAyX24wONIBzgFBVV95cUxPSG53RVVSdVFhOFNQN2NxazRSU2lTNmNxUHJwcVRqaVFyZUxFRTctWUx2WlhiVnkxQk5qX29VSDM0czJvam1LWmdDbkVpN0dsbmMtdUJyaGpNMVpQamFLWVM0cVVpT3hFZWxvQi0ydUQ4U0VUc3JWVXdZVnRVQ0gwUGpVTEEwN3ZkRkRyTXFFWGt0dDR5X2JMWVVPaGVQSXI3b0QzbHpsbGtFR05NWHljcEc5aHBkdG1ad2dSTHg0RHVQZ0RaVHpUSVM2eTdUUQ?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "id": "senado-not-cias-senadosenado",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 8,
+      "title": "Senado Notícias - Senado",
+      "source": "Senado",
+      "date": "2026-09-14",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5DRi1BQnZjcUFfUFFqSnFXclhjSmZQNG94YlktRloxTEk1YWRhcVhHR1NQVXV1OWZLdVNKWHVGNXBIQl9yQWFZbU9LbHk?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": true,
+        "title": "Senado recebe PLP 74/2026 com exceções tributárias para datacenters e resseguradoras - atlaspublico.com.br",
+        "source": "atlaspublico.com.br",
+        "date": "2026-09-03",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPclhhejAxeDktZDNQVmpzbUc4dkNwWVlsb0FaV3RtaDJnbC1HLS14UFRwX3BFVHRVazctRnVjMnhqS2JWcTVMbjVvV1Vib2xYc2gxV21pRkZzckFIUk05X2sxZFJoX1Q3N1YwcEdoN21UeTdkcU9oWkJaUlVvMmpPaGNNZGl1UnNNMkdTYW5qcndJMG4waGpYNm8tcGVLZTVESXZRdUFnV1k?oc=5"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "ribamar-silva-refor-a-atua-o-em-defesa-das-pessoas-com-defici-ncia-ap-s-aprova-o-de-projet",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 8,
+      "title": "Ribamar Silva reforça atuação em defesa das pessoas com deficiência após aprovação de projeto na Câmara - podemos.org.br",
+      "source": "podemos.org.br",
+      "date": "2026-09-10",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeGJMTVU1T0t6Tjh1VGFSN0Y5dEpUanpYMWUwWUtLd1JHWVp2Q1Y3SUFGMVhEdk9ZRVU3Rko1VkFIVzkxTVFBRC0wMVQ4ZnBhVmdPdENRSE1XUlc4eUlPZzFnMkJRQ3NlOGllVnVEQ2pSdjFTMlJHaVlENFVDVGpRMDJKZnpRZ0Rrb1JnYWlyNm1TcDNBakktZG1yTDN6YUFLMVYxRDFka1Y3VWVQdEpLVA?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "incentivo-para-instala-o-de-data-centers-no-brasil-aprovado-pelo-senado-conselho-regional-",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 8,
+      "title": "Incentivo para instalação de data centers no Brasil é aprovado pelo Senado - Conselho Regional de Contabilidade do Maranhão",
+      "source": "Conselho Regional de Contabilidade do Maranhão",
+      "date": "2026-09-03",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGw1M0FfSXFlUUppLUZUbGRYTV9JWjNHZnFWNzFtMHU3Sl83MTcwbDJWeTRrUU93WEs3TmtFQ2Vtb1NkdldscnFOdWNoQXZ4SFBPRGNmOWx4bU1EY1l2UUJDWmlQY1ZITmJnMEhRYWhURGoyUmVRZnFqcFhzcmpWOGhtMlZoQmJic1YzU3hhbWt0bVcwMlI5OVBlaWRqOXhnYjZlYlphcw?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "c-mara-aprova-isen-o-da-taxa-das-blusinhas-texto-vai-ao-senado-dcomerciodcomercio",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 8,
+      "title": "Câmara aprova isenção da taxa das blusinhas; texto vai ao Senado - DComercio",
+      "source": "DComercio",
+      "date": "2026-09-03",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdXo0bTJNck5RX3lidkJFTFFrSU5KWC1iS3RJU3RqN0U2SVlWNjFRdU4wV1NfMVR3ckNZV0JZYURhU05NWGxkdGJSVFNhNjVGWFVqUGhOR3FqN3lIZWl2OXQtYWctb1hya2tHYWM5M2dPNGc0empheE5xNFpTM2ZyQWJjNldLS1h4YnZCTnhYRzIzczY0M0FMekZSeHJDSDNTM0g0?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
       "id": "por-que-a-empresa-brasileira-compra-ia-redu-o-de-custo-o-d-cimo-motivo-startsestartse",
-      "theme": "IA e gestão",
+      "agenda": "IA e gestão",
+      "impact": "Operação e estratégia",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 6,
       "title": "Por que a empresa brasileira compra IA: redução de custo é o décimo motivo - StartSe",
       "source": "StartSe",
       "date": "2026-09-16",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MMHNSTVdnNTZRbXo4Rk5yVVhhZDBiM0ZuaW1ob2V6RHY5c0FJbG9hWWd2YmkzRXJaYkNKdlh2LTd0cHFkRk14VWxmZXE4VS1jdVZydlhIajVVLVY2RXIzdU13U2RGWDh4WEJCZ0E4bmhMUTRpZ3hF?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
-      "id": "trabalhar-mais-n-o-garante-promo-o-o-que-realmente-faz-uma-carreira-avan-ar-nas-empresas-c",
-      "theme": "Carreira",
-      "title": "Trabalhar mais não garante promoção: o que realmente faz uma carreira avançar nas empresas - Contadores.cnt.br",
-      "source": "Contadores.cnt.br",
+      "id": "brasil-e-eua-decidem-juros-em-meio-a-press-es-globais-xp-investimentosxp-investimentos",
+      "agenda": "Mercado e trabalho",
+      "impact": "Custo e caixa",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 5,
+      "title": "Brasil e EUA decidem juros em meio a pressões globais - XP Investimentos",
+      "source": "XP Investimentos",
       "date": "2026-09-16",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOT2RPLWZlMzBZdk8wQzRWeUROdUIwVnZfN2hmc1Izel9INFdXbTFmdjR4Wjc0QlFKMDVjTWg0aFJYRnMwWHczRmNuRGQtaVdZWUdydDFtMlkzMUtYVUpDR05wb215d0E2ekEtMnY4Nmxkc3ZhdkVFS1RiRHE2aGhqV2tpYjRCYlBlcFo0NWU3clhBc3pqOGd4cFRZSXQ1WG9WcEFuUkJwWVgyNUlxdWZzdVZ4ZHdyckVrU3FHRnpjYnlCWFJkUDlwcGpLUjYwVGtJTnM0TnZrZXFWM0hsUmpGNlpwR3NjQ0FPcXFZYzJR?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSGp6ZEV6YlpkbmJacXdwVHUzenJiUTBiVjdKTGFFOVRld21XNUZCWW1SSGwtQnUxWG9OMWVfU0RHdWx4VzZkQWpZMlFpYnZpbk5xQTQ1ZVl6RlhYUC1PUjFJdTdoNVBZNVZKWnJoWHlOWjJuRWJlcXpIRGh5UjB3QlZWQWtHeGVwOEZaM1VpVTZ3OUpSYmRQQ1E3OFU?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": true,
-        "title": "Trabalhar mais não garante promoção: o que realmente faz uma carreira avançar nas empresas - Contadores.cnt.br",
-        "source": "Contadores.cnt.br",
+        "title": "Brasil e EUA decidem juros em meio a pressões globais - XP Investimentos",
+        "source": "XP Investimentos",
         "date": "2026-09-16",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOT2RPLWZlMzBZdk8wQzRWeUROdUIwVnZfN2hmc1Izel9INFdXbTFmdjR4Wjc0QlFKMDVjTWg0aFJYRnMwWHczRmNuRGQtaVdZWUdydDFtMlkzMUtYVUpDR05wb215d0E2ekEtMnY4Nmxkc3ZhdkVFS1RiRHE2aGhqV2tpYjRCYlBlcFo0NWU3clhBc3pqOGd4cFRZSXQ1WG9WcEFuUkJwWVgyNUlxdWZzdVZ4ZHdyckVrU3FHRnpjYnlCWFJkUDlwcGpLUjYwVGtJTnM0TnZrZXFWM0hsUmpGNlpwR3NjQ0FPcXFZYzJR?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSGp6ZEV6YlpkbmJacXdwVHUzenJiUTBiVjdKTGFFOVRld21XNUZCWW1SSGwtQnUxWG9OMWVfU0RHdWx4VzZkQWpZMlFpYnZpbk5xQTQ1ZVl6RlhYUC1PUjFJdTdoNVBZNVZKWnJoWHlOWjJuRWJlcXpIRGh5UjB3QlZWQWtHeGVwOEZaM1VpVTZ3OUpSYmRQQ1E3OFU?oc=5"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
-      "id": "86-dos-l-deres-dizem-que-a-empresa-n-o-est-pronta-para-ia-startsestartse",
-      "theme": "Liderança",
-      "title": "86% dos líderes dizem que a empresa não está pronta para IA - StartSe",
-      "source": "StartSe",
-      "date": "2026-09-15",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMXI4cWJEYnpDWmxKT0FjdjAtMWVfOGd6YkcyNmRoWEM5MjlJSG4xRnRaVGN6a3JiQXlad1JMaFNQcDdhMG9MQlFPU2JfOHdLeFYzaFB6SWtwc2RERWROOVRHZklzUTZzekRvN0dUazNDUGU2bUV4dWhiblRmWE8xbFRuS2V4NDJsY2xZYjg0dVJjVEY5NnIweUhGR1pldHc?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "id": "n-o-faz-sentido-combater-infla-o-com-taxa-de-juros-brasil-de-fatobrasil-de-fato",
+      "agenda": "Mercado e trabalho",
+      "impact": "Custo e caixa",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 5,
+      "title": "Não faz sentido combater inflação com taxa de juros - Brasil de Fato",
+      "source": "Brasil de Fato",
+      "date": "2026-09-16",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNEd4Z2t1TXdDMVlzTXE0YkZUaTAzNWI1VVNwWE9NRXh6dkhjRDlZTzE2ek5YNFgxODBXamptbEtpUjBnNTNPMFlSQjVjU2lRbXk2NEpNd2dOYjI4QmgyRkxqU2Q2U2s2SkZWZ0U4Sk5PeHNuZjhSdWZIUjBfeGp5MmdLd0kxdFg4NWxiNnZZVW1XTnZoSmo2d1pDS2JkazcxSDZrelBIYXc1TlgtRVNjWGZkcy13TGtRWEJBNnRfQQ?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
-      "id": "ufes-est-divulgando-a-realiza-o-de-evento-que-debater-sa-de-mental-e-riscos-psicossociais-",
-      "theme": "Riscos psicossociais",
-      "title": "Ufes está divulgando a realização de evento que debaterá saúde mental e riscos psicossociais no ambiente de trabalho - Grafitti News",
-      "source": "Grafitti News",
+      "id": "pequenos-escrit-rios-de-assessoria-v-o-desaparecer-mercado-financeiro-passa-por-onda-de-fu",
+      "agenda": "Mercado e trabalho",
+      "impact": "Custo e caixa",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 5,
+      "title": "Pequenos escritórios de assessoria vão desaparecer? Mercado financeiro passa por onda de fusões - Estadão",
+      "source": "Estadão",
       "date": "2026-09-15",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMmhfaEtKdUozYjM3dlFKZUVnTnNTOVZFT0Y2NkRqUGFiZlk5SktHM0xmRGdDUGVET0QzV2RKWFFkSlBybXNtbkJxREhWT1REU3pJVldJLVFramstMnU5YzZyWVhjbzhhWVRrVEpXWnBiYy1ZYVV5SUYtaC1OTXhFLWJGOFZZTk5uanM3cjhsNFBGRkNBLVY3bG1YQXBrUWxvYnlybmR4ekM4QjdiU1ZmcjMydDl6VTNUTkV5aGp0TDFrejIzVHpyY3RoVVR6RndGU3NscEtZLVU1OWxOclE?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNHBQaFpTVHZ1MkR5ck9Xc1I3ZVhDaUF1MWtWaUtUYlowbGdwNkQzRGFSVUNVYW5MYnVGR1lDZDFVbkYwTDNScDNjOEVDTlMyNnp2ME5EMjFYdjhFcHhpd1VPY1dxLWU1dzNGRHZEZkxyT1Y1YXY2N3pXczFuNXAyMHBxcmY5ZW1WWDlJV1FvM0l6M1BHZlVSU0REM1JpbzduNzFMbmVaSExjX1JhTUV4dF9NQ2oyMHU1dXJtbXhaWWUwM0V0N2hLd3NIU18tUlRPaGNIbmxQTmlVVGEyTHM5Ml9fS2dqUGR3cHRJ0gHwAUFVX3lxTE9LbkVLdk9aMHJwX2owS2czd1ZzZHlRak92ejFIT3drV3h6VG5KLUc3ZkpMMkEwX0UwZldNM1BraGtScmtPX2lEa05EbmM1blplVTN6dVctRnFDSU52b0dFTjBNNXpwUkVtdElGNTlZS0NoaEFUMnJCbTVzcE9rd0NzS3Z3U2pLc2o5RWJmU3E3ZkVRM0NrNDY5bmMxdWpHcGFvSG5sMUIxdXFPRGdsWFN0bDRlZzhsZzFKMktzelA2YmxxTWRfc0xTR0poVFk5QlpvLWFNZUMyQkdlcjJ2RUs0WGRsQnRvTkw5RUxpdTdPQw?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": true,
-        "title": "Ufes está divulgando a realização de evento que debaterá saúde mental e riscos psicossociais no ambiente de trabalho - Grafitti News",
-        "source": "Grafitti News",
+        "title": "Pequenos escritórios de assessoria vão desaparecer? Mercado financeiro passa por onda de fusões - Estadão",
+        "source": "Estadão",
         "date": "2026-09-15",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMmhfaEtKdUozYjM3dlFKZUVnTnNTOVZFT0Y2NkRqUGFiZlk5SktHM0xmRGdDUGVET0QzV2RKWFFkSlBybXNtbkJxREhWT1REU3pJVldJLVFramstMnU5YzZyWVhjbzhhWVRrVEpXWnBiYy1ZYVV5SUYtaC1OTXhFLWJGOFZZTk5uanM3cjhsNFBGRkNBLVY3bG1YQXBrUWxvYnlybmR4ekM4QjdiU1ZmcjMydDl6VTNUTkV5aGp0TDFrejIzVHpyY3RoVVR6RndGU3NscEtZLVU1OWxOclE?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNHBQaFpTVHZ1MkR5ck9Xc1I3ZVhDaUF1MWtWaUtUYlowbGdwNkQzRGFSVUNVYW5MYnVGR1lDZDFVbkYwTDNScDNjOEVDTlMyNnp2ME5EMjFYdjhFcHhpd1VPY1dxLWU1dzNGRHZEZkxyT1Y1YXY2N3pXczFuNXAyMHBxcmY5ZW1WWDlJV1FvM0l6M1BHZlVSU0REM1JpbzduNzFMbmVaSExjX1JhTUV4dF9NQ2oyMHU1dXJtbXhaWWUwM0V0N2hLd3NIU18tUlRPaGNIbmxQTmlVVGEyTHM5Ml9fS2dqUGR3cHRJ0gHwAUFVX3lxTE9LbkVLdk9aMHJwX2owS2czd1ZzZHlRak92ejFIT3drV3h6VG5KLUc3ZkpMMkEwX0UwZldNM1BraGtScmtPX2lEa05EbmM1blplVTN6dVctRnFDSU52b0dFTjBNNXpwUkVtdElGNTlZS0NoaEFUMnJCbTVzcE9rd0NzS3Z3U2pLc2o5RWJmU3E3ZkVRM0NrNDY5bmMxdWpHcGFvSG5sMUIxdXFPRGdsWFN0bDRlZzhsZzFKMktzelA2YmxxTWRfc0xTR0poVFk5QlpvLWFNZUMyQkdlcjJ2RUs0WGRsQnRvTkw5RUxpdTdPQw?oc=5"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
-      "id": "semin-rio-sobre-sa-de-mental-e-gest-o-de-riscos-psicossociais-acontece-nesta-quarta-feira-",
-      "theme": "Riscos psicossociais",
-      "title": "Seminário sobre saúde mental e gestão de riscos psicossociais acontece nesta quarta-feira (16), em São João Nepomuceno - radiocatedraljf.com.br",
-      "source": "radiocatedraljf.com.br",
-      "date": "2026-09-15",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNcERUcVQxcTAzTzdJUjFxZWF2QWxQM1JSSlE5WDJJeGZRdmFIZUdCMGt1LXlpdVA2RGFUa0xPM0lZY2p0b19jcUZrTF85VXZidzJteW5iRlRCNGkxaE9sMzQ0WVNUOHdVY3dNczVXVlIwazhkc2NjM1pJbEVJbk5PVmF0SzJkTVJDbHRHbjFDLWViNHBMRUROa2xfeW04eEN6REg3cGxUSDhjTHBzUE0yUzR5Z2I5X0xtNUlROUk2dlFSeEJpdVBNcXBBYkc2ME82NGdiTVk1alRnQUhpck1WR0dTMlcwNUk?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "id": "d-lar-fecha-em-alta-com-mercado-de-trabalho-forte-nos-eua-bolsa-fica-est-vel-folha-de-s-pa",
+      "agenda": "Mercado e trabalho",
+      "impact": "Custo e caixa",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 5,
+      "title": "Dólar fecha em alta com mercado de trabalho forte nos EUA; Bolsa fica estável - Folha de S.Paulo",
+      "source": "Folha de S.Paulo",
+      "date": "2026-09-04",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUExKdXFlanVCMnU5UkEtYTkxb29YbmtHMXFtcVEzYk9iY01aSVNoclVoQnI4aW1tVHdIUHVDZ0MwOExoTFpveFRPRUF0blNVdUlNWVFBYl9qeXBpWDZ5eW5IVUFCUkRHN1o3bEoya2RzaEp2bzJxRVdrczJlYTFqUHJBZ09MUWlQc01YYnJZTWhHakdGclVhdkMzVkZxd0JHNjhodjlfajBBSk1FdFphOGhZbkhBak51TjNHaEktTkZ6Q3ByY201QVQzX25qd2ZHa1pJ?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
-      "id": "empresas-de-aparecida-ofertam-quase-2-5-mil-vagas-de-emprego-nesta-semana-atrav-s-do-sime-",
-      "theme": "Mercado e trabalho",
-      "title": "Empresas de Aparecida ofertam quase 2,5 mil vagas de emprego nesta semana, através do SIME - Prefeitura de Aparecida de Goiânia",
-      "source": "Prefeitura de Aparecida de Goiânia",
-      "date": "2026-09-14",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSGxodnNzcFNhbVBuSE5xU1FMSmhkYlIxbGh5enU1cTJVTTJ6UEZjLTQtMFVSTEVLdVdYR1JLM05ESE5BS1RranR6bk5nNHU0aUhTVnAtM1ppSXFkVTdUWWNNTXdGdFJHbmo3amhhSlJibkRRMU14dzZVcDhhYUVBNUxKUWd3dDh3M3ZPWExnMjhUU0cwT2RaME5xUDdQYUdhQjFfbjM4UEwzU1dqTnVQSDhTZnhERlk?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
-      "origin": {
-        "found": false
-      }
-    },
-    {
-      "id": "setembro-amarelo-alerta-para-sa-de-mental-no-setor-cont-bil-contabeis-com-brcontabeis-com-",
-      "theme": "Riscos psicossociais",
-      "title": "Setembro Amarelo alerta para saúde mental no setor contábil - contabeis.com.br",
-      "source": "contabeis.com.br",
+      "id": "i-run-an-organization-dedicated-to-collective-grieving-i-recognize-a-familiar-dynamic-with",
+      "agenda": "Mundo corporativo internacional",
+      "impact": "Pessoas e trabalho",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "I run an organization dedicated to collective grieving. I recognize a familiar dynamic with AI in the workplace - fortune.com",
+      "source": "fortune.com",
       "date": "2026-09-13",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdzdaNE03MGxtQkNtbG9mdUktZlUxYkt3bzFSVmQxZFRNZkNVWWhLZUxjTUhHcXo0Mk1CUFNXNUJMRVlydktuSEkzbzUtcm1fR1k3aTJENWFaOE1Kcy1zd09yelZQM0tjUktiOTNNT1BYS1UwZkRIbElscmFZZF9maUJ3UFh6VWtzRVJxVXVranJnbFZiZXNNZUVNSjFCSTVFLWo2aEROZw?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BcDdsUWZ3VUxBZWlQbmUzcHlZOXhqTmphQ1BCSk5yWGVFWm56S0NuNEdtUWFQSkN2allBSzZOVU1pMDdIY0hzVnJBQUNUSkhIYmV2SXgyMGZjVDVvRlZJcUxxcXVhVC1HTUY3dElR?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar. Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil - sem presumir equivalência.",
       "origin": {
         "found": false
-      }
-    },
-    {
-      "id": "o-senac-gramado-promove-entre-os-dias-14-e-18-de-setembro-a-feira-de-oportunidades-evento-",
-      "theme": "Carreira",
-      "title": "O Senac Gramado promove, entre os dias 14 e 18 de setembro, a Feira de Oportunidades, evento com foco em empregabilidade, competências para o futuro e novas oportunidades de carreira. Com o tema “Acelere seu futuro”, a programação inclui uma séri - instagram.com",
-      "source": "instagram.com",
-      "date": "2026-09-13",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBnR1hPMml2SHo2Z0pHTXVuY3ZlRkdqbXNSUW1VSlpCQTJOOHFzSVlxYnI5cmM4YXVsR1lMOC03TWNIOEgzMzZ5aExvRS11b004cWc?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
-      "origin": {
-        "found": true,
-        "title": "O novo atrativo turístico que fica na divisa entre Gramado e Igrejinha, está 800 metros acima do mar e tem uma vista privilegiada para o Vale do Sinos, Vale do Paranhana e região metropolitana de Porto Alegre está aberto ao público. De forma inicial, o local - instagram.com",
-        "source": "instagram.com",
-        "date": "2024-06-05",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1NW5DdjY5eGVYbHdWUHBFX1RHcnhlaS1LazA4b0NVNEQzdkJYMXZuNkJWNTZYMGVJUVRJck1JNFNtdjZ6X0VjYmlYOVJIZ2tZNGc?oc=5"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
       "id": "ranking-global-aponta-25-riscos-ligados-gest-o-de-pessoas-valor-econ-micovalor-econ-mico",
-      "theme": "IA e gestão",
+      "agenda": "Pessoas e liderança",
+      "impact": "Pessoas e trabalho",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
       "title": "Ranking global aponta 25 riscos ligados à gestão de pessoas - Valor Econômico",
       "source": "Valor Econômico",
       "date": "2026-09-12",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUVp5ZGhfRVZXTnoxRWdYNjY4dVVObW05RHQ4czJqNng1cGdONEd4QnVsaVFuWWZBaG54UE1Gek03akVzY0Fpcjdkbm5BUXNiQ1dGQ3Z5N3Z2VzdDN1NrSEMyaXhRd05IeDA4ZVBPNnpEemZkZmRMYllhSFR4UW42WWJnM1ZOZnFkM3cyY25rWkZYUU9NOEZ4ZzN6MzgyOURic1kyVVE5WjJMRVZjX3VGbHJSd0VrbE8y0gHHAUFVX3lxTFAwdDI1dUd4T204UzJpcGpzc3F3dDdzVFVHdTFBbWFOUmxwUDlfd0JiTEEtanJQMjVPUUoxUENLT3VyV3V1TERfR3B3YVhib1dnNDJiMk5GclRZbWo4VUpnTW5LWXhhMVBlcWFNOFUxUWRtTTI3TkNQUWtGRnFOdWxpajNHS1laeEVsVWxiZENRX09UdEVySGpVdDBSUWI3cXZlYnhvajRySGwwZW1RT2RGU0FwcVZqa3RIZ2hnbWpxVDgyWWo5ZGs?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
-      "id": "sinpospetro-rj-promove-curso-sobre-sa-de-mental-no-trabalho-r-dio-pe-o-brasilr-dio-pe-o-br",
-      "theme": "Riscos psicossociais",
-      "title": "Sinpospetro-RJ promove curso sobre saúde mental no trabalho - Rádio Peão Brasil",
-      "source": "Rádio Peão Brasil",
+      "id": "empregados-da-caixa-votam-nova-proposta-nesta-sexta-feira-11-sindicato-dos-banc-riossindic",
+      "agenda": "Trabalho e representação",
+      "impact": "Pessoas e trabalho",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - Sindicato dos Bancários",
+      "source": "Sindicato dos Bancários",
       "date": "2026-09-11",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcTVxNmg2Wjl2bWpNd0RSRnlFZVBSMEc5MVF6Ul9pVE9MakNaMXhsSTNZRE5jUGhqZTlXVXF5YzVvLURBSVQ1YXZvWlpiV3dYdkFWS0p6RjVndFVxLXYwU0l0VWNHajZNaWY5UF9DODJJZ3cyUUxXWnJnWU1kYW5iLWxlc0VNR3MwM3ZMQ0h4Z0VVT2p6WHc?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZV9Qc21SemNtRGJ1Q2xocVNST0JrUy1ydVFqbjVXUzZtR2Y3Q09Bd3BjT1RBVDRCN2FjOF9hX1owNS1sZFNIYU1nNXlDNHo5RkNaUnRHMktIMGxVNjVEdnVvYXh0RVBwLUlES2pfd2F2amJjRFZoX3AySG9LRGtIdnkwb1B6MlBTWl95YXNUMDRMTEdUd0htcEhLaw?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
-      "id": "crie-oportunidades-2026-re-ne-mais-de-mil-inscri-es-e-aproxima-estudantes-e-diplomados-do-",
-      "theme": "Mercado e trabalho",
-      "title": "Crie Oportunidades 2026 reúne mais de mil inscrições e aproxima estudantes e diplomados do mercado de trabalho - univates.br",
-      "source": "univates.br",
+      "id": "o-apag-o-da-lideran-a-come-a-na-sa-de-mental-de-quem-lidera-di-rio-de-s-o-paulodi-rio-de-s",
+      "agenda": "Pessoas e liderança",
+      "impact": "Pessoas e trabalho",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "O apagão da liderança começa na saúde mental de quem lidera - Diário de São Paulo",
+      "source": "Diário de São Paulo",
       "date": "2026-09-11",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcy1mLWZ6RFN5NGZoUVgwZ29rUm95MU8zQkhRVmpFOV9DYmMtQkVKN2xPY2RCTWFjZTFHTC1nVlRtejFNZ1haS0J3UzZxQUM1eGxVT2dYWDVLcGdzZ0lyanFBRVNJTm54cG5zN1FWQXctRjRNcW1hVU9SR2Q5MGVLM0FSeGZTbWlRd0kyQmIweG5kSWV4Mi0yc01jTExvRjA5eFg0VWFtazAtZG5VSHlnWXE5MEVYV2hQdnpMVHE0OThRa0xOQURqLUVndV9keUUyQzBRRWxmU1k2Y00?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTlFhQzk4LTdoWnZZM09zSld4bkJXN0NwaVhmVE16STVMT2s1OUs4b2dpODduZXJDb1ZfWDRlTXIyM0NGWkdzaVlDZXBDWU5MdTljZ0Q2WFBNelB4NlZicnR3R2NxVjU4ZFBnR0hEeVdGYlM1cmFRc1BaWmJrdU5CNzNFclotbE1NS21qRy1BRXkySUZ4b2UtMHlwYmh5NmM2OENnVldjbnZyRUN3dmw00gGvAUFVX3lxTE1OUWFDOTgtN2hadlkzT3NKV3huQlc3Q3BpWGZUTXpJNUxPazU5SzhvZ2k4N25lckNvVl9YNGVNcjIzQ0ZaR3NpWUNlcENZTkx1OWNnRDZYUE16UHg2VmJydHdHY3FWNThkUGdHSER5V0ZiUzVyYVFzUFpaYmt1TkI3M0VyWi1sTU1LbWpHLUFFeTJJRnhvZS0weXBiaHk2YzY4Q2dWV2NudnJFQ3d2bDQ?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
-      "id": "feiras-do-emprega-transporte-re-nem-mais-de-3-mil-vagas-em-setembro-sest-senatsest-senat",
-      "theme": "Mercado e trabalho",
-      "title": "Feiras do Emprega Transporte reúnem mais de 3 mil vagas em setembro - Sest Senat",
-      "source": "Sest Senat",
-      "date": "2026-09-11",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZEg5WXNBZWdudEd5aklEUkJnSzMwTUNHTVZja3NnUDQxWEdkYW1vMmotanF5VFd4eUd4dTJRM1ZQVm9UYUtfemh2V2E2TDdTUFdtMm0yTjhWM1FkYkljVldkNWZNMFVTdGtPcVZpSDg3TkxuYkNiWGtFdHFWdTNWSm1hOEt3NmZlOUZST1ZGVEZqeDdzaHNKV1FZU3d5NF9xWU8xcC1B?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
+      "agenda": "Trabalho e representação",
+      "impact": "Pessoas e trabalho",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
+      "source": "O GLOBO",
+      "date": "2026-09-10",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVGV4c2NWYXV0ZUZodGFvYlJjU0NhMXg4bUEzQ29WUEQtNGg1TmM0WTFfUlpRWGsxVjVqZUR2TEpsencwVUJSOW1FMjY5cUxPZ1o2aUE3b1B3Vm5Hd0tZaFp4V3ZYOTdRYllxRDhTSDM4MzZ6WkFxOGZzbmpzRXpzakFOZFBscm5NWjJiSnBCUjEySjFsU1Y3RV9QUzFWQjhEXzVUdTk5VkR5Rl90X0FHam40MElvQm5tRWhLUjBrUjMweXIxLWtFRzBkdlhhRmxRbk1LT24xM1I1YW9NSzZkeFF1bzBuU1VmaFpGTNIB-wFBVV95cUxQS0R2WndZdEptNjdKaW53Qk9VaUFsOG9tREZSOUFBdDAyUkJQN0ZfVUIyQTAzeHpKNU1pMWd4UmhrQjhUWWpFTDBFbXU1SllxQ0tBZWdmMGJsUWVoeHprb3VtUlhhekRlMmxUREdIaUw2Rzd1bXl4SXVYMloyQXVJUTc3cnZYTktyYS1iRHRsaGhHREVXdjZ3WWI1TFJjQVlWVlNTSndKQjFtdW14YXZTUUowV3VCcGJ2akVtOWpQaVZRb2RPeV9sRGtfSGR4UlFoMzZ4WkhINmxVbGllYkZZZ3czNk1XQlB2VU8xMEp5bWEtN0tycGYwdTBLbw?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": true,
+        "title": "CSN recebe mais de três propostas por ativos de infraestrutura | Setembro 2026 - XP Investimentos",
+        "source": "XP Investimentos",
+        "date": "2026-09-15",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeDF5dWpjbzltZldWbEtPWldzV0hWY202M21IOHlzbmpxOWZlUk9pMnJUUVcwbXREd0I2RGNMRXY3NE9WRWRBR1pqMHljeUlUb2Nwakk4Qk4wRlRpWG91QVk0dVhaTEZvcVVmSXF1Q0x2bjNIOHRBeTl2VFlIdXllMTR6M0Y3N1dnWnZEUUNXN0VhelE4YzFicQ?oc=5"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "caixa-entra-em-greve-nacional-e-banco-do-brasil-tem-paralisa-o-parcial-a-partir-desta-5-fo",
+      "agenda": "Trabalho e representação",
+      "impact": "Pessoas e trabalho",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "Caixa entra em greve nacional e Banco do Brasil tem paralisação parcial a partir desta 5ª - Folha de S.Paulo",
+      "source": "Folha de S.Paulo",
+      "date": "2026-09-10",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT1FBakFwS1dmZzAzU2tQWW04bVhZaUZxNVNSYmVyWnVtZmdMUWUybWhvRFdDMlpqWk8wdnRERWhTMm4tUUhkSjJtWWZmQU45anBqRFNzV3c0dG16bVdrdTNTQ3prVTNqdUx3ZHZTRUxJUzRkOTJUWTE0RTlDTFZlQnF6dElOWTlObTBIcXFRbUhMdk9OYzBFNnVzM1BYOExDQUtsN0hqcnhPYXpZY3lkSXNyV29CaUlnV0dMNEE2NVpYbzBoYUNmdUxkOGdxeWhDODJMY0d1Nk0?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
       "id": "nr-1-possibilita-repensar-gest-o-de-pessoas-cultura-organizacional-e-papel-da-lideran-a-fu",
-      "theme": "Liderança",
-      "title": "NR-1 possibilita repensar gestão de pessoas, cultura organizacional e papel da liderança - Futuro da Saúde",
-      "source": "Futuro da Saúde",
+      "agenda": "Pessoas e liderança",
+      "impact": "Pessoas e trabalho",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "NR-1 possibilita repensar gestão de pessoas, cultura organizacional e papel da liderança - futurodasaude.com.br",
+      "source": "futurodasaude.com.br",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObER0aW5vR0hUMUZqZzJ1RV9FektIZU1GUDRYT1JoeEZGbFV3eFFkb3lsTkJBT0l3ZlVTVzVlTHRnVWJ5VHNHc3lnNVdsbkRhcmRhUDI2VW9GZDNQa01ST2pYTDlnOERvYnNVUVJoazZJZU82SEtXVzB0Yng4UFB4SWNJajBMUjByRUZN?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
-      "origin": {
-        "found": true,
-        "title": "NR-1 possibilita repensar gestão de pessoas, cultura organizacional e papel da liderança - Futuro da Saúde",
-        "source": "Futuro da Saúde",
-        "date": "2026-09-10",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObER0aW5vR0hUMUZqZzJ1RV9FektIZU1GUDRYT1JoeEZGbFV3eFFkb3lsTkJBT0l3ZlVTVzVlTHRnVWJ5VHNHc3lnNVdsbkRhcmRhUDI2VW9GZDNQa01ST2pYTDlnOERvYnNVUVJoazZJZU82SEtXVzB0Yng4UFB4SWNJajBMUjByRUZN?oc=5"
-      }
-    },
-    {
-      "id": "na-era-da-ia-67-7-das-empresas-apontam-lideran-a-e-influ-ncia-social-como-compet-ncias-cha",
-      "theme": "Liderança",
-      "title": "Na era da IA, 67,7% das empresas apontam liderança e influência social como competências-chave para o futuro - Portal Nosso Meio",
-      "source": "Portal Nosso Meio",
-      "date": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOU5aa1QxZVVLeG9pbnRVMHZwRDhYVWUzTVpDUHpvcXhSVXBZcFVIZDJmSmpfVkFpYUlLTllkLW0zZ2RhQmJYUlJmd2Fyc1o4SUdpTWI0NEZmWXAydDg0VkVIQkd0VW0wOGdITkRnZ0pFNHBSS2UxYVAtVS02R21pSDBKdmhkbllXTzZ1cU9ONnF3YkEyX2wxRHI3d0JnaGFmdk1yNTI0dUxZdHg5TzF5Vm1ENkZWLU5SN2lxcDFINEtQMDFpQUxwUFlKZw?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
-      "origin": {
-        "found": true,
-        "title": "Na era da IA, 67,7% das empresas apontam liderança e influência social como competências-chave para o futuro - Portal Nosso Meio",
-        "source": "Portal Nosso Meio",
-        "date": "2026-09-10",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOU5aa1QxZVVLeG9pbnRVMHZwRDhYVWUzTVpDUHpvcXhSVXBZcFVIZDJmSmpfVkFpYUlLTllkLW0zZ2RhQmJYUlJmd2Fyc1o4SUdpTWI0NEZmWXAydDg0VkVIQkd0VW0wOGdITkRnZ0pFNHBSS2UxYVAtVS02R21pSDBKdmhkbllXTzZ1cU9ONnF3YkEyX2wxRHI3d0JnaGFmdk1yNTI0dUxZdHg5TzF5Vm1ENkZWLU5SN2lxcDFINEtQMDFpQUxwUFlKZw?oc=5"
-      }
-    },
-    {
-      "id": "quase-2-mil-oportunidades-portal-jundia-empreendedora-conecta-quem-procura-emprego-s-empre",
-      "theme": "Mercado e trabalho",
-      "title": "Quase 2 mil oportunidades: Portal Jundiaí Empreendedora conecta quem procura emprego às empresas que estão contratando - Prefeitura de Jundiaí",
-      "source": "Prefeitura de Jundiaí",
-      "date": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQaEE1Y2F2dmlqVHEybUtRU3hZTi12V2czTEt6a2lhNk5wYUkyUllsNi12bjlyeUwyRS1PeEY4Q2RlaFJMRWh2dldlNDNlekxRdXBiTEtHMjFQWmk5OVFzdHk4R1Q5OUh4eXVFVzJrOXE2QmJyUTIzLW8wSGgtN0FpdUtIOUxCZkNYMGsyRE83c3RFdVhfNnhzR003X3B2SWJtZ2VsSzJVR1ZPTEU2WEwzaWlvU3czTHY0MzUtQnB6QVRQMllSZW5VWkE1VDJxcGN6SEFNM3BydktyMHpKYkRkUkNPaFl2Y1JJeDJLZUpiLXh1bkdITGU4?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "agir-incorpora-sa-de-mental-estrat-gia-de-gest-o-terraterra",
+      "agenda": "Pessoas e liderança",
+      "impact": "Pessoas e trabalho",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "Agir incorpora saúde mental à estratégia de gestão - Terra",
+      "source": "Terra",
+      "date": "2026-09-10",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZDgzdnR5OXhpNi1wQVNCMjlFWWF1ZFhYalBid3QtcHQ2WjJiU19lUjl2WjBmNjZ2RlRVZ0tBYURoMEpuOVB5elhQM2VWSGZVOG5CRkktSVRlMG9kRUlXeXhrMG1LN01XSnNZck1FT0lDZ2p5SWZjbEZZRkxSdVBoOHVoRjdYbWVVajBxV1RPWFoyYkZVaTRsYVZvQzV0dGhUTGtqNEFWT0Z6MDBZNG1zZ2c1LWpDeDkyLWx4YzFoMWV6bzhoOXA4eDZR?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
       "id": "a-ia-transformar-as-opera-es-de-gest-o-de-ativos-funds-societyfunds-society",
-      "theme": "IA e gestão",
+      "agenda": "IA e gestão",
+      "impact": "Operação e estratégia",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
       "title": "A IA transformará as operações de gestão de ativos - Funds Society",
       "source": "Funds Society",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORnNiZFg2LVR3MldoVE4tVENIM2t2ZWpmT0Z5MUtfZVAxazRqc001N3JzWmt3Qk1pcTVLQTRYN0kxUHFBSnRnZGVNLWV3NmNRcEx2TjVhOVo1R2oyTlFaMWVBSXRvUGk3N0IwX1cwMldVTVlvVmdOcVFJUDcwRmRoNThNUE5XaDFmR1NTTVB4Z2k0QQ?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": true,
         "title": "A IA transformará as operações de gestão de ativos - Funds Society",
         "source": "Funds Society",
         "date": "2026-09-10",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORnNiZFg2LVR3MldoVE4tVENIM2t2ZWpmT0Z5MUtfZVAxazRqc001N3JzWmt3Qk1pcTVLQTRYN0kxUHFBSnRnZGVNLWV3NmNRcEx2TjVhOVo1R2oyTlFaMWVBSXRvUGk3N0IwX1cwMldVTVlvVmdOcVFJUDcwRmRoNThNUE5XaDFmR1NTTVB4Z2k0QQ?oc=5"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
-      "id": "crescimento-profissional-se-constr-i-dentro-da-opera-o-g1g1",
-      "theme": "Carreira",
-      "title": "Crescimento profissional se constrói dentro da operação - G1",
-      "source": "G1",
+      "id": "the-chro-has-outgrown-the-operating-model-now-what-hrmorninghrmorning",
+      "agenda": "Mundo corporativo internacional",
+      "impact": "Pessoas e trabalho",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "The CHRO Has Outgrown the Operating Model. Now What? - HRMorning",
+      "source": "HRMorning",
       "date": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNYWpST1lxYUJJeVFsbmM4NFVxQkZVWFNWc0ozMFV6QW9GZzJlenpKN3VVSTZEd3REd3RKVVczQ2FWQnZndnljMHQwM0xmcWotWl9EMkd6XzUwNEEyakJXTUtDcHVkT3U2ZXlLLXFqbEZOcnY4MUFZbElPSUpvYjFWQWM5Y3FsbW85V3FaOUVoN2hWMGVIRzc4ZGtKcXdxNVFqaktLejJZakVDUDlrVEdjbWU5OXRrd1ZiSHptZ3Rxd1NlNHZtekt6eGk5SVBTVHVJUTE0cmtIT0MySEJJWUZCTFRRZ3dZcm9xLVcycU81SWpyQU5KcGd1c1lYZXR4SVEzVzhxUtIBkwJBVV95cUxPdnMtd2UzaU1vc1hqRExBaXJ3Rms0Y3lfV2FsQmhvY1pfSThTeVBWUFZ5em1YemV5WV9QQklUelhjdVY0NWJ0NVRsNWVMcEpNeUl2bXFybWIwVmFRRGJqZElBYjRjOTEzdnhzZTlJWXE0TkFHRUsyNkV2M2JNOWNsN0lMbGxTRVdCOEJ1NVRxUWphWUdXUno5RFBwbmpWVTZtZUFzZnRVZVFCTHY4WkxzMHhoMGNPZU0yUU9xUGpMUFRUenRsWXJ1ZV9OVElfZjBobDJzMmF2Y2ZfY1BHMmVXN3hIaXFGd0RsRDVxLVRSQm4xTUtTSzhtSGpTQkFka2FwZExJbEhqdkpPNDVlcEw2VzdGdw?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1hd0pOeGFlMjY2WVhlM3dHb3NOV3NxUW44UjVmR1EwR3VablhPYkEzQkxod20yMWNkZ2E5eWZyRG1yS2VHSVpDZXRYQ0Q1dzhpbFFGS2d6Y0NqVWlXWVNEODFHaWJMWDM4b0xCSXpyT05aXzQ?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar. Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil - sem presumir equivalência.",
       "origin": {
         "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
-      "id": "a-m-quina-n-o-tem-raiva-e-por-isso-que-ela-vai-gerir-melhor-que-voc-jovem-panjovem-pan",
-      "theme": "IA e gestão",
-      "title": "A máquina não tem raiva. E é por isso que ela vai gerir melhor que você - Jovem Pan",
-      "source": "Jovem Pan",
+      "id": "-s-v-speras-de-greve-caixa-e-empregados-devem-ter-nova-rodada-de-negocia-o-vejaveja",
+      "agenda": "Trabalho e representação",
+      "impact": "Pessoas e trabalho",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "Às vésperas de greve, Caixa e empregados devem ter nova rodada de negociação - VEJA",
+      "source": "VEJA",
       "date": "2026-09-09",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObExYV1FJczNmeGY1ckN1MlVrTi1EWFhkbE10UC1VWlRVT2lBMm5DdWpNTTR6dUxzMDk1R29HSEF0YklNMFR6VzNxMVh3LTFkanYxejdJcEFpN2FMMGJCWWZNdGxsSTNwRXBXUXhPYUFSQVZrX3h6OFBZcXJpOWF5U3VyVHViSjJROGZZSVRpeURyT0JpRUxoVDJKbmJYbVVXQjZ2bk4xYXRTWWdCd0E4?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXN2UjBQbTBmbmU2TTdkZlpfUGtDQ2xmTENhT2xGUENNam04WU5rZHVfZGpQQXdQVTZ6dWVGa3JKMWkzX0RmUkIwdnFVcWptc1FkZHJRZWJhWE01SUJIclJDdHdiTDhtY2t3M21BN0pUeHZCMjhIQW54dVRVTDB1SDhBM1EtRU9xY1BfV0UwOFBNdFNleFg5Rk5BX1d0Sy10NnpCaVA2SjRwMGNaa1JDRA?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
-      "id": "sal-rio-lidera-decis-es-de-carreira-mas-crescimento-profissional-e-benef-cios-ganham-espa-",
-      "theme": "Carreira",
-      "title": "Salário lidera decisões de carreira, mas crescimento profissional e benefícios ganham espaço | SEGS... - SEGS Portal Nacional",
-      "source": "SEGS Portal Nacional",
+      "id": "ai-is-reshaping-how-organizations-work-but-leadership-and-culture-lag-behind-lifehealth-co",
+      "agenda": "Mundo corporativo internacional",
+      "impact": "Pessoas e trabalho",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "AI Is Reshaping How Organizations Work, But Leadership And Culture Lag Behind - lifehealth.com",
+      "source": "lifehealth.com",
       "date": "2026-09-09",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMklUNlZ0QTNuRE9KXzFDUDhHaE1sUzAtUk9CaGZRa2lXbmRuY2lsRWlaRW5XNTZyUEk1YnZ5NlQzVEFjRVo2NUUyVTR6RnZkeEF2OHJtb3Z5MUFjdF9CUWUteko0TWRxbHFaNVNlaEtncDFMTjU0V1RqVnRzX0NtdjA2OGFxSmRsZmpXUDlMZ3ZqR1ZhWXJhR09FdlFldTNfc0JoMGRWSWU0MFp0N0hTUjc3blc4YnRzX0xtQ0wzelZJMTEtT2d6Qjh30gHPAUFVX3lxTFBRdXFLNTB3LTY3aEtpdlZwcUM0X1NVNXE1OTdGSVZMakpDallWN3FVYnMzZ1lIaFpHUFJOMkxJd0hWZFVPalcxV0VDVHU0VklWcU1XZmF1elN4WWZRWXpfMUpjWWp5Qm1KRFpPQ3lIOVVrR2tjOXk1b2FqLUlzRmVWb3VneXBkX0M3U1o0ZmVVem5aRWFCMjdnaUNicTFkZnE4SGR4ZmNzb3BBX183bC1OMkpIcm56Y0Z3Wi1OYURBY0JPZ01DNVdSN1UxS0owNA?oc=5",
-      "summary": "Notícia coletada para triagem editorial. Confirme os fatos na fonte e avalie sua relação com liderança, pessoas, trabalho e gestão.",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSHJWQXhHWGR2dmNTMjF6QXRYdWVrWHhfRHlCWG1HaW5vZWRyTjdyOC16SzlJS3pGWWNpZzVqY0JUZzdERDdvN2pCOXcwelBzU2NnelF0TFZ4SXhCLW1uTGU5WjJqWFZpc1lWU0RHX3NnbGpIU0FhQTFKTUtFb3pMTmlhWXNfd0pzV18xdm9obkxZblRIUjNJLWZRSUNRbERCR3NKb3JXOA?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar. Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil - sem presumir equivalência.",
       "origin": {
         "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "a-ia-saiu-da-ti-e-entrou-na-gest-o-portal-erpportal-erp",
+      "agenda": "IA e gestão",
+      "impact": "Operação e estratégia",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "A IA saiu da TI e entrou na gestão - Portal ERP",
+      "source": "Portal ERP",
+      "date": "2026-09-04",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84MUVTT2hVVWdtR194dGM4QWRLVGEtZjBMeDRpZjA1NFRuYzFMUTNRbHJFMEFQMmNybFFxRGZGWW5zTkRHM0J6bFpqQUVHZWRYaHA3a3JvMGRRRTJtR0JBd3NmVHFnaENHOUpTcFZ6a1lwWEtq?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "c-suite-job-titles-what-do-they-really-mean-business-combusiness-com",
+      "agenda": "Mundo corporativo internacional",
+      "impact": "Pessoas e trabalho",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional - confirmar origem",
+      "score": 3,
+      "title": "C-Suite Job Titles: What Do They Really Mean? - Business.com",
+      "source": "Business.com",
+      "date": "2026-09-04",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HSE9HT1c3TDBOWGlmRl9GTlBiNkd6SW51dWYyTnBscWpkVEUyZl9jR3NRc3FxaF92blhXR2NCZ3Fac09tdGgyQkQ1WDdDVHUwUFdfOC05TmtrYTFpelE5Nk1Vdw?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar. Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil - sem presumir equivalência.",
+      "origin": {
+        "found": false
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     }
   ]

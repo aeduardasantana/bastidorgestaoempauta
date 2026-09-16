@@ -20,10 +20,12 @@ def feed(q,n=4,locale="br"):
  return [{"title":clean(i.findtext("title")),"source":clean(i.findtext("source")) or "Google Notícias","date":d(i.findtext("pubDate")or""),"url":i.findtext("link")}for i in r.findall("./channel/item")[:n]if i.findtext("title")and i.findtext("link")]
 def origin(t,locale):
  c=feed('"'+t+'"',5,locale);return {"found":bool(c),**(min(c,key=lambda x:x["date"])if c else {})}
+OFFICIAL_SOURCES=("senado","câmara","camara","planalto","ministério","ministerio","itamaraty","diário oficial","tribunal","trt","tst","stf","mte","mpt","receita federal","banco central","ibge")
 def safety(x):
- text=(x["title"]+" "+x["source"]).lower();alert="Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+ text=(x["title"]+" "+x["source"]).lower(); source=x["source"].lower();alert="Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
  if any(k in text for k in["sigilo","vazamento","dados pessoais","segredo","confidencial"]):return {"label":"Não usar sem revisão humana.","alert":"Possível sigilo, dado pessoal ou informação sensível."},"Exige confirmação"
- if any(k in text for k in["lei","decreto","portaria","projeto de lei","tribunal","ministério","itamaraty","senado","câmara"]):return {"label":"Analisar o ato ou documento original; usar redação própria.","alert":alert},"Documento/ato oficial"
+ if any(k in source for k in OFFICIAL_SOURCES):return {"label":"Analisar o ato ou documento original; usar redação própria.","alert":alert},"Documento/ato oficial"
+ if any(k in source for k in["sindicato","associação","partido","federação","confederação"]):return {"label":"Tratar como fonte interessada; buscar documento ou contraponto.","alert":alert},"Fonte institucional"
  return {"label":"Noticiar com redação própria e citar a fonte.","alert":alert},"Repercussão jornalística"
 items=[];seen=set()
 for agenda,(query,impact,locale) in STREAMS.items():

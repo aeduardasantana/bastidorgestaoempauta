@@ -5,35 +5,73 @@ from pathlib import Path
 from urllib.parse import quote
 from urllib.request import Request,urlopen
 import json,re,xml.etree.ElementTree as ET
-STREAMS={"Empresa em Pauta":("CEO empresa decisão estratégia expansão demissão aquisição", "Operação e estratégia","br"),"Poder e regras":("projeto de lei regulamentação fiscalização empresas trabalho Câmara Senado", "Risco jurídico/regulatório","br"),"Mercado e trabalho":("empresas mercado emprego investimento juros Brasil","Custo e caixa","br"),"Relações internacionais":("Itamaraty diplomacia embaixada acordo comercial exportação importação empresas Brasil","Mercado e reputação","br"),"Trabalho e representação":("sindicato convenção coletiva greve negociação empresas","Pessoas e trabalho","br"),"Pessoas e liderança":("liderança gestão pessoas saúde mental trabalho empresas","Pessoas e trabalho","br"),"NR-1 / AEP":("NR-1 AEP riscos psicossociais empresas","Risco jurídico/regulatório","br"),"IA e gestão":("inteligência artificial gestão empresas trabalho","Operação e estratégia","br"),"Mundo corporativo internacional":("CEO company culture workplace leadership business","Pessoas e trabalho","us")}
+
+# Agenda, consulta, consequência, localidade editorial e idioma da busca.
+STREAMS={
+ "Empresa em Pauta":("CEO empresa decisão estratégia expansão demissão aquisição","Operação e estratégia","Nacional","br"),
+ "Poder e regras":("projeto de lei regulamentação fiscalização empresas trabalho Câmara Senado","Risco jurídico/regulatório","Federal","br"),
+ "Poder e regras — municipal":("prefeitura câmara municipal alvará ISS licenciamento empresas","Risco jurídico/regulatório","Municipal","br"),
+ "Poder e regras — estadual":("governo estadual ICMS licenciamento empresas regulamentação","Risco jurídico/regulatório","Estadual","br"),
+ "Mercado e trabalho":("empresas mercado emprego investimento juros Brasil","Custo e caixa","Nacional","br"),
+ "Relações internacionais":("Itamaraty diplomacia embaixada acordo comercial exportação importação empresas Brasil","Mercado e reputação","Internacional","br"),
+ "Trabalho e representação":("sindicato convenção coletiva greve negociação empresas","Pessoas e trabalho","Nacional","br"),
+ "Pessoas e liderança":("liderança gestão pessoas saúde mental trabalho empresas","Pessoas e trabalho","Nacional","br"),
+ "NR-1 / AEP":("NR-1 AEP riscos psicossociais empresas","Risco jurídico/regulatório","Nacional","br"),
+ "IA e gestão":("inteligência artificial gestão empresas trabalho","Operação e estratégia","Nacional","br"),
+ "Mundo corporativo internacional":("CEO company culture workplace leadership business","Pessoas e trabalho","Internacional","us")
+}
 HEADERS={"User-Agent":"Mozilla/5.0 (BastidorGestaoEmPauta/1.0)"}
-def clean(t):return re.sub(r"<[^>]+>","",unescape(t or "")).strip()
+
+def clean(t): return re.sub(r"<[^>]+>","",unescape(t or "")).strip()
 def d(v):
- try:return parsedate_to_datetime(v).date().isoformat()
- except:return datetime.now(timezone.utc).date().isoformat()
+ try: return parsedate_to_datetime(v).date().isoformat()
+ except: return datetime.now(timezone.utc).date().isoformat()
+
 def feed(q,n=4,locale="br"):
- if locale=="us":suffix="&hl=en-US&gl=US&ceid=US:en"
- else:suffix="&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+ suffix="&hl=en-US&gl=US&ceid=US:en" if locale=="us" else "&hl=pt-BR&gl=BR&ceid=BR:pt-419"
  u="https://news.google.com/rss/search?q="+quote(q+" when:14d")+suffix
- try:r=ET.fromstring(urlopen(Request(u,headers=HEADERS),timeout=30).read())
- except Exception as e:print("falha",e);return []
- return [{"title":clean(i.findtext("title")),"source":clean(i.findtext("source")) or "Google Notícias","date":d(i.findtext("pubDate")or""),"url":i.findtext("link")}for i in r.findall("./channel/item")[:n]if i.findtext("title")and i.findtext("link")]
+ try: r=ET.fromstring(urlopen(Request(u,headers=HEADERS),timeout=30).read())
+ except Exception as e:
+  print("falha",e); return []
+ return [{"title":clean(i.findtext("title")),"source":clean(i.findtext("source")) or "Google Notícias","date":d(i.findtext("pubDate")or""),"url":i.findtext("link")} for i in r.findall("./channel/item")[:n] if i.findtext("title") and i.findtext("link")]
+
 def origin(t,locale):
- c=feed('"'+t+'"',5,locale);return {"found":bool(c),**(min(c,key=lambda x:x["date"])if c else {})}
-OFFICIAL_SOURCES=("senado","câmara","camara","planalto","ministério","ministerio","itamaraty","diário oficial","tribunal","trt","tst","stf","mte","mpt","receita federal","banco central","ibge")
+ c=feed('"'+t+'"',5,locale)
+ return {"found":bool(c),**(min(c,key=lambda x:x["date"]) if c else {})}
+
+OFFICIAL_SOURCES=("senado","câmara","camara","planalto","ministério","ministerio","itamaraty","diário oficial","tribunal","trt","tst","stf","mte","mpt","receita federal","banco central","ibge","prefeitura","governo do estado","assembleia legislativa","câmara municipal","camara municipal")
+
 def safety(x):
- text=(x["title"]+" "+x["source"]).lower(); source=x["source"].lower();alert="Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
- if any(k in text for k in["sigilo","vazamento","dados pessoais","segredo","confidencial"]):return {"label":"Não usar sem revisão humana.","alert":"Possível sigilo, dado pessoal ou informação sensível."},"Exige confirmação"
- if any(k in source for k in OFFICIAL_SOURCES):return {"label":"Analisar o ato ou documento original; usar redação própria.","alert":alert},"Documento/ato oficial"
- if any(k in source for k in["sindicato","associação","partido","federação","confederação"]):return {"label":"Tratar como fonte interessada; buscar documento ou contraponto.","alert":alert},"Fonte institucional"
+ text=(x["title"]+" "+x["source"]).lower()
+ source=x["source"].lower()
+ alert="Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+ if any(k in text for k in["sigilo","vazamento","dados pessoais","segredo","confidencial"]):
+  return {"label":"Não usar sem revisão humana.","alert":"Possível sigilo, dado pessoal ou informação sensível."},"Exige confirmação"
+ if any(k in source for k in OFFICIAL_SOURCES):
+  return {"label":"Analisar o ato ou documento original; usar redação própria.","alert":alert},"Documento/ato oficial"
+ if any(k in source for k in["sindicato","associação","partido","federação","confederação"]):
+  return {"label":"Tratar como fonte interessada; buscar documento ou contraponto.","alert":alert},"Fonte institucional"
  return {"label":"Noticiar com redação própria e citar a fonte.","alert":alert},"Repercussão jornalística"
-items=[];seen=set()
-for agenda,(query,impact,locale) in STREAMS.items():
+
+items=[]; seen=set()
+for stream,(query,impact,scope,locale) in STREAMS.items():
  for x in feed(query,4,locale):
   key=(x["title"]+x["source"]).lower()
-  if key in seen:continue
-  seen.add(key);use,evidence=safety(x);score=3+(3 if agenda=="Empresa em Pauta" else 0)+(3 if evidence=="Documento/ato oficial" else 0)+(2 if impact in["Custo e caixa","Risco jurídico/regulatório"]else 0)
-  compare=" Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil - sem presumir equivalência." if locale=="us" else ""
-  items.append({"id":re.sub(r"[^a-z0-9]+","-",key)[:90],"agenda":agenda,"impact":impact,"evidence":evidence,"sourceType":"Fonte jornalística ou institucional - confirmar origem","score":score,**x,"summary":"Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.","angle":f"O que este fato pode mudar para empresas em {impact.lower()}? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar."+compare,"origin":origin(x["title"],locale),"use":use})
+  if key in seen: continue
+  seen.add(key)
+  use,evidence=safety(x)
+  score=3+(3 if stream=="Empresa em Pauta" else 0)+(3 if evidence=="Documento/ato oficial" else 0)+(2 if impact in["Custo e caixa","Risco jurídico/regulatório"] else 0)
+  local=(" Para pauta municipal ou estadual, confirmar o território, o ato aplicável, as empresas/setores afetados e se o efeito é local ou pode se repetir em outros lugares." if scope in ["Municipal","Estadual"] else "")
+  compare=(" Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil — sem presumir equivalência." if scope=="Internacional" else "")
+  items.append({
+   "id":re.sub(r"[^a-z0-9]+","-",key)[:90],
+   "agenda":"Poder e regras" if stream.startswith("Poder e regras") else stream,
+   "impact":impact,"scope":scope,
+   "territory":"Confirmar na fonte" if scope in ["Municipal","Estadual"] else ("Brasil" if scope in ["Federal","Nacional"] else "Internacional"),
+   "evidence":evidence,"sourceType":"Fonte jornalística ou institucional — confirmar origem","score":score,**x,
+   "summary":"Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+   "angle":f"O que este fato pode mudar para empresas em {impact.lower()}? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar."+local+compare,
+   "origin":origin(x["title"],locale),"use":use
+  })
 items.sort(key=lambda x:(x["score"],x["date"]),reverse=True)
 Path("data/news.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":items},ensure_ascii=False,indent=2),encoding="utf-8")

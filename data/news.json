@@ -23,6 +23,19 @@
         "date": "2026-09-03",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPclhhejAxeDktZDNQVmpzbUc4dkNwWVlsb0FaV3RtaDJnbC1HLS14UFRwX3BFVHRVazctRnVjMnhqS2JWcTVMbjVvV1Vib2xYc2gxV21pRkZzckFIUk05X2sxZFJoX1Q3N1YwcEdoN21UeTdkcU9oWkJaUlVvMmpPaGNNZGl1UnNNMkdTYW5qcndJMG4waGpYNm8tcGVLZTVESXZRdUFnV1k?oc=5"
       },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Analisar o ato ou documento original; usar redação própria.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
@@ -50,6 +63,55 @@
         "date": "2026-09-16",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSGp6ZEV6YlpkbmJacXdwVHUzenJiUTBiVjdKTGFFOVRld21XNUZCWW1SSGwtQnUxWG9OMWVfU0RHdWx4VzZkQWpZMlFpYnZpbk5xQTQ1ZVl6RlhYUC1PUjFJdTdoNVBZNVZKWnJoWHlOWjJuRWJlcXpIRGh5UjB3QlZWQWtHeGVwOEZaM1VpVTZ3OUpSYmRQQ1E3OFU?oc=5"
       },
+      "audience": {
+        "public": "Donos de empresas, diretoria financeira, operações e RH.",
+        "interest": "Identificar efeitos sobre caixa, contratação, preço, investimento ou planejamento.",
+        "search": "mercado brasileiro empresas; custo empresarial; emprego e empresas",
+        "sensation": "Segurança e curiosidade"
+      },
+      "packaging": {
+        "opening": "Este fato pode chegar ao caixa antes de aparecer nos relatórios. A questão é onde a empresa será pressionada.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "IMPACTO NO CAIXA",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "o-que-muda-nos-investimentos-no-brasil-com-a-1-alta-de-juros-nos-eua-em-tr-s-anos-exameexa",
+      "agenda": "Mercado e trabalho",
+      "impact": "Custo e caixa",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 5,
+      "title": "O que muda nos investimentos no Brasil com a 1ª alta de juros nos EUA em três anos? - Exame",
+      "source": "Exame",
+      "date": "2026-09-16",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSnFmUW1BZUR2ekZ3SUlVYVRjMmVJRDV5Mm5HbEJ4cGVFODJJNDY4M085RVdib1EtcUxZN1RvRmlidlZYX3FCQ3lxSm9XSU9BRWk0aGdqMzRseGhtM2dweGp6d19jTlJJaUFxdXRzOXdLT1A1bGo4RWY4Y0xKdjBBSDAteDFNVmtxLWRiS21Ya09UcUlSb25nRmp2T0xHejN6N0Zub1JKbmRjRVlybEtaS25rYU5SZlpR?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "Donos de empresas, diretoria financeira, operações e RH.",
+        "interest": "Identificar efeitos sobre caixa, contratação, preço, investimento ou planejamento.",
+        "search": "mercado brasileiro empresas; custo empresarial; emprego e empresas",
+        "sensation": "Segurança e curiosidade"
+      },
+      "packaging": {
+        "opening": "Este fato pode chegar ao caixa antes de aparecer nos relatórios. A questão é onde a empresa será pressionada.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "IMPACTO NO CAIXA",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
@@ -72,6 +134,19 @@
       "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "audience": {
+        "public": "Donos de empresas, diretoria financeira, operações e RH.",
+        "interest": "Identificar efeitos sobre caixa, contratação, preço, investimento ou planejamento.",
+        "search": "mercado brasileiro empresas; custo empresarial; emprego e empresas",
+        "sensation": "Segurança e curiosidade"
+      },
+      "packaging": {
+        "opening": "Este fato pode chegar ao caixa antes de aparecer nos relatórios. A questão é onde a empresa será pressionada.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "IMPACTO NO CAIXA",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
@@ -100,6 +175,19 @@
         "date": "2026-09-15",
         "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNHBQaFpTVHZ1MkR5ck9Xc1I3ZVhDaUF1MWtWaUtUYlowbGdwNkQzRGFSVUNVYW5MYnVGR1lDZDFVbkYwTDNScDNjOEVDTlMyNnp2ME5EMjFYdjhFcHhpd1VPY1dxLWU1dzNGRHZEZkxyT1Y1YXY2N3pXczFuNXAyMHBxcmY5ZW1WWDlJV1FvM0l6M1BHZlVSU0REM1JpbzduNzFMbmVaSExjX1JhTUV4dF9NQ2oyMHU1dXJtbXhaWWUwM0V0N2hLd3NIU18tUlRPaGNIbmxQTmlVVGEyTHM5Ml9fS2dqUGR3cHRJ0gHwAUFVX3lxTE9LbkVLdk9aMHJwX2owS2czd1ZzZHlRak92ejFIT3drV3h6VG5KLUc3ZkpMMkEwX0UwZldNM1BraGtScmtPX2lEa05EbmM1blplVTN6dVctRnFDSU52b0dFTjBNNXpwUkVtdElGNTlZS0NoaEFUMnJCbTVzcE9rd0NzS3Z3U2pLc2o5RWJmU3E3ZkVRM0NrNDY5bmMxdWpHcGFvSG5sMUIxdXFPRGdsWFN0bDRlZzhsZzFKMktzelA2YmxxTWRfc0xTR0poVFk5QlpvLWFNZUMyQkdlcjJ2RUs0WGRsQnRvTkw5RUxpdTdPQw?oc=5"
       },
+      "audience": {
+        "public": "Donos de empresas, diretoria financeira, operações e RH.",
+        "interest": "Identificar efeitos sobre caixa, contratação, preço, investimento ou planejamento.",
+        "search": "mercado brasileiro empresas; custo empresarial; emprego e empresas",
+        "sensation": "Segurança e curiosidade"
+      },
+      "packaging": {
+        "opening": "Este fato pode chegar ao caixa antes de aparecer nos relatórios. A questão é onde a empresa será pressionada.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "IMPACTO NO CAIXA",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
@@ -122,6 +210,19 @@
       "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
@@ -146,28 +247,18 @@
       "origin": {
         "found": false
       },
-      "use": {
-        "label": "Noticiar com redação própria e citar a fonte.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      }
-    },
-    {
-      "id": "d-lar-fecha-em-alta-com-mercado-de-trabalho-forte-nos-eua-bolsa-fica-est-vel-folha-de-s-pa",
-      "agenda": "Mercado e trabalho",
-      "impact": "Custo e caixa",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Repercussão jornalística",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 5,
-      "title": "Dólar fecha em alta com mercado de trabalho forte nos EUA; Bolsa fica estável - Folha de S.Paulo",
-      "source": "Folha de S.Paulo",
-      "date": "2026-09-04",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUExKdXFlanVCMnU5UkEtYTkxb29YbmtHMXFtcVEzYk9iY01aSVNoclVoQnI4aW1tVHdIUHVDZ0MwOExoTFpveFRPRUF0blNVdUlNWVFBYl9qeXBpWDZ5eW5IVUFCUkRHN1o3bEoya2RzaEp2bzJxRVdrczJlYTFqUHJBZ09MUWlQc01YYnJZTWhHakdGclVhdkMzVkZxd0JHNjhodjlfajBBSk1FdFphOGhZbkhBak51TjNHaEktTkZ6Q3ByY201QVQzX25qd2ZHa1pJ?oc=5",
-      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
-      "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
-      "origin": {
-        "found": false
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
@@ -192,6 +283,19 @@
       "origin": {
         "found": false
       },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
@@ -214,6 +318,19 @@
       "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
@@ -238,6 +355,19 @@
       "origin": {
         "found": false
       },
+      "audience": {
+        "public": "CEOs, operações, RH e gestores de inovação.",
+        "interest": "Avaliar produtividade, impacto humano, governança e adoção responsável.",
+        "search": "IA para empresas; inteligência artificial gestão; IA e trabalho",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
@@ -260,6 +390,19 @@
       "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar. Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil — sem presumir equivalência.",
       "origin": {
         "found": false
+      },
+      "audience": {
+        "public": "Lideranças, RH e empresas que acompanham tendências globais.",
+        "interest": "Comparar práticas internacionais sem importar soluções fora de contexto.",
+        "search": "corporate leadership trends; workplace culture; gestão internacional",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
@@ -284,6 +427,19 @@
       "origin": {
         "found": false
       },
+      "audience": {
+        "public": "Lideranças, RH, Business Partners e donos de empresas.",
+        "interest": "Transformar um fato em decisão sobre pessoas, cultura e gestão.",
+        "search": "liderança nas empresas; gestão de pessoas; cultura organizacional",
+        "sensation": "Pertencimento e segurança"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
@@ -307,6 +463,19 @@
       "origin": {
         "found": false
       },
+      "audience": {
+        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
+        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
+        "search": "convenção coletiva empresas; sindicato negociação empresas",
+        "sensation": "Segurança e pertencimento"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Tratar como fonte interessada; buscar documento ou contraponto.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
@@ -329,6 +498,19 @@
       "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "audience": {
+        "public": "Lideranças, RH, Business Partners e donos de empresas.",
+        "interest": "Transformar um fato em decisão sobre pessoas, cultura e gestão.",
+        "search": "liderança nas empresas; gestão de pessoas; cultura organizacional",
+        "sensation": "Pertencimento e segurança"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
@@ -357,6 +539,19 @@
         "date": "2026-09-15",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeDF5dWpjbzltZldWbEtPWldzV0hWY202M21IOHlzbmpxOWZlUk9pMnJUUVcwbXREd0I2RGNMRXY3NE9WRWRBR1pqMHljeUlUb2Nwakk4Qk4wRlRpWG91QVk0dVhaTEZvcVVmSXF1Q0x2bjNIOHRBeTl2VFlIdXllMTR6M0Y3N1dnWnZEUUNXN0VhelE4YzFicQ?oc=5"
       },
+      "audience": {
+        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
+        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
+        "search": "convenção coletiva empresas; sindicato negociação empresas",
+        "sensation": "Segurança e pertencimento"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
@@ -380,6 +575,19 @@
       "origin": {
         "found": false
       },
+      "audience": {
+        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
+        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
+        "search": "convenção coletiva empresas; sindicato negociação empresas",
+        "sensation": "Segurança e pertencimento"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
@@ -394,18 +602,27 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "NR-1 possibilita repensar gestão de pessoas, cultura organizacional e papel da liderança - Futuro da Saúde",
-      "source": "Futuro da Saúde",
+      "title": "NR-1 possibilita repensar gestão de pessoas, cultura organizacional e papel da liderança - futurodasaude.com.br",
+      "source": "futurodasaude.com.br",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObER0aW5vR0hUMUZqZzJ1RV9FektIZU1GUDRYT1JoeEZGbFV3eFFkb3lsTkJBT0l3ZlVTVzVlTHRnVWJ5VHNHc3lnNVdsbkRhcmRhUDI2VW9GZDNQa01ST2pYTDlnOERvYnNVUVJoazZJZU82SEtXVzB0Yng4UFB4SWNJajBMUjByRUZN?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
-        "found": true,
-        "title": "NR-1 possibilita repensar gestão de pessoas, cultura organizacional e papel da liderança - Futuro da Saúde",
-        "source": "Futuro da Saúde",
-        "date": "2026-09-10",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObER0aW5vR0hUMUZqZzJ1RV9FektIZU1GUDRYT1JoeEZGbFV3eFFkb3lsTkJBT0l3ZlVTVzVlTHRnVWJ5VHNHc3lnNVdsbkRhcmRhUDI2VW9GZDNQa01ST2pYTDlnOERvYnNVUVJoazZJZU82SEtXVzB0Yng4UFB4SWNJajBMUjByRUZN?oc=5"
+        "found": false
+      },
+      "audience": {
+        "public": "Lideranças, RH, Business Partners e donos de empresas.",
+        "interest": "Transformar um fato em decisão sobre pessoas, cultura e gestão.",
+        "search": "liderança nas empresas; gestão de pessoas; cultura organizacional",
+        "sensation": "Pertencimento e segurança"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
@@ -429,6 +646,19 @@
       "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "audience": {
+        "public": "Lideranças, RH, Business Partners e donos de empresas.",
+        "interest": "Transformar um fato em decisão sobre pessoas, cultura e gestão.",
+        "search": "liderança nas empresas; gestão de pessoas; cultura organizacional",
+        "sensation": "Pertencimento e segurança"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
@@ -457,6 +687,19 @@
         "date": "2026-09-10",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORnNiZFg2LVR3MldoVE4tVENIM2t2ZWpmT0Z5MUtfZVAxazRqc001N3JzWmt3Qk1pcTVLQTRYN0kxUHFBSnRnZGVNLWV3NmNRcEx2TjVhOVo1R2oyTlFaMWVBSXRvUGk3N0IwX1cwMldVTVlvVmdOcVFJUDcwRmRoNThNUE5XaDFmR1NTTVB4Z2k0QQ?oc=5"
       },
+      "audience": {
+        "public": "CEOs, operações, RH e gestores de inovação.",
+        "interest": "Avaliar produtividade, impacto humano, governança e adoção responsável.",
+        "search": "IA para empresas; inteligência artificial gestão; IA e trabalho",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
@@ -480,13 +723,26 @@
       "origin": {
         "found": false
       },
+      "audience": {
+        "public": "Lideranças, RH e empresas que acompanham tendências globais.",
+        "interest": "Comparar práticas internacionais sem importar soluções fora de contexto.",
+        "search": "corporate leadership trends; workplace culture; gestão internacional",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
     {
-      "id": "-s-v-speras-de-greve-caixa-e-empregados-devem-ter-nova-rodada-de-negocia-o-vejaveja",
+      "id": "-s-v-speras-de-greve-caixa-e-empregados-devem-ter-nova-rodada-de-negocia-o-veja-abril-com-",
       "agenda": "Trabalho e representação",
       "impact": "Pessoas e trabalho",
       "scope": "Nacional",
@@ -494,14 +750,27 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "Às vésperas de greve, Caixa e empregados devem ter nova rodada de negociação - VEJA",
-      "source": "VEJA",
+      "title": "Às vésperas de greve, Caixa e empregados devem ter nova rodada de negociação - veja.abril.com.br",
+      "source": "veja.abril.com.br",
       "date": "2026-09-09",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXN2UjBQbTBmbmU2TTdkZlpfUGtDQ2xmTENhT2xGUENNam04WU5rZHVfZGpQQXdQVTZ6dWVGa3JKMWkzX0RmUkIwdnFVcWptc1FkZHJRZWJhWE01SUJIclJDdHdiTDhtY2t3M21BN0pUeHZCMjhIQW54dVRVTDB1SDhBM1EtRU9xY1BfV0UwOFBNdFNleFg5Rk5BX1d0Sy10NnpCaVA2SjRwMGNaa1JDRA?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": false
+      },
+      "audience": {
+        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
+        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
+        "search": "convenção coletiva empresas; sindicato negociação empresas",
+        "sensation": "Segurança e pertencimento"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
@@ -526,6 +795,19 @@
       "origin": {
         "found": false
       },
+      "audience": {
+        "public": "Lideranças, RH e empresas que acompanham tendências globais.",
+        "interest": "Comparar práticas internacionais sem importar soluções fora de contexto.",
+        "search": "corporate leadership trends; workplace culture; gestão internacional",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
@@ -549,6 +831,19 @@
       "origin": {
         "found": false
       },
+      "audience": {
+        "public": "CEOs, operações, RH e gestores de inovação.",
+        "interest": "Avaliar produtividade, impacto humano, governança e adoção responsável.",
+        "search": "IA para empresas; inteligência artificial gestão; IA e trabalho",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
@@ -563,14 +858,27 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "C-Suite Job Titles: What Do They Really Mean? - business.com",
-      "source": "business.com",
+      "title": "C-Suite Job Titles: What Do They Really Mean? - Business.com",
+      "source": "Business.com",
       "date": "2026-09-04",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HSE9HT1c3TDBOWGlmRl9GTlBiNkd6SW51dWYyTnBscWpkVEUyZl9jR3NRc3FxaF92blhXR2NCZ3Fac09tdGgyQkQ1WDdDVHUwUFdfOC05TmtrYTFpelE5Nk1Vdw?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar. Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil — sem presumir equivalência.",
       "origin": {
         "found": false
+      },
+      "audience": {
+        "public": "Lideranças, RH e empresas que acompanham tendências globais.",
+        "interest": "Comparar práticas internacionais sem importar soluções fora de contexto.",
+        "search": "corporate leadership trends; workplace culture; gestão internacional",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",

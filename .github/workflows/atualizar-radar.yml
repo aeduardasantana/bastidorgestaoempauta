@@ -1,0 +1,23 @@
+name: Atualizar Radar Diário
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 10 * * 1-5"
+permissions:
+  contents: write
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/atualizar_radar.py
+      - name: Registrar atualização
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git diff --cached --quiet || git commit -m "Atualiza radar editorial"
+          git push

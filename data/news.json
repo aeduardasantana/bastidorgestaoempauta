@@ -1,1 +1,4 @@
-{"updatedAt":"2026-09-16","items":[{"id":"demo-1","theme":"Liderança","date":"2026-09-16","source":"Exemplo editorial","title":"Selecione notícias do Radar Diário para construir seu primeiro episódio","summary":"Este cartão é apenas demonstrativo. A coleta automática substituirá o radar por títulos e links das fontes configuradas.","url":"https://news.google.com/"},{"id":"demo-2","theme":"Riscos psicossociais","date":"2026-09-16","source":"Exemplo editorial","title":"A leitura DHO transforma uma notícia em pauta de gestão","summary":"Use a seleção para separar fatos que rendem episódio diário daqueles que devem compor o Giro da Semana.","url":"https://news.google.com/"}]}
+{
+  "updatedAt": "2026-09-16",
+  "items": []
+}

@@ -243,6 +243,24 @@
       "function": "Cobertura de mídia, publicidade, audiovisual, plataformas e mudanças de mercado.",
       "alignment": "Contexto para decisões corporativas do setor.",
       "care": "Selecionar somente notícia de negócio, trabalho, estratégia ou governança."
+    },
+    {
+      "source": "YouTube — vídeos oficiais",
+      "group": "Vídeo e conteúdo audiovisual",
+      "type": "Fonte complementar",
+      "status": "Consulta dirigida",
+      "function": "Localiza pronunciamentos, audiências, resultados, webinars, entrevistas e comunicados institucionais em vídeo.",
+      "alignment": "Checar se o tema já foi explicado pela fonte responsável e ampliar o repertório antes da gravação.",
+      "care": "Validar se o canal é oficial, data, vídeo íntegro e vínculo com o fato. Vídeo oficial comprova uma declaração, não necessariamente o resultado anunciado."
+    },
+    {
+      "source": "YouTube — análises e especialistas",
+      "group": "Vídeo e conteúdo audiovisual",
+      "type": "Referência e opinião",
+      "status": "Consulta dirigida",
+      "function": "Mapeia leituras de mercado, gestão, liderança e contexto do tema.",
+      "alignment": "Ajuda a identificar debate existente e diferenciais de abordagem para o Gestão em Pauta.",
+      "care": "Não usar análise de terceiro como prova do fato. Separar opinião, comentário e dado verificável."
     }
   ]
 }

@@ -60,7 +60,7 @@ def safety(x):
   return {"label":"Não usar sem revisão humana.","alert":"Possível sigilo, dado pessoal ou informação sensível."},"Exige confirmação"
  if any(k in source for k in OFFICIAL_SOURCES):
   return {"label":"Analisar o ato ou documento original; usar redação própria.","alert":alert},"Documento/ato oficial"
- if any(k in source for k in["sindicato","associação","partido","federação","confederação"]):
+ if any(k in source for k in["sindicato","associação","partido","federação","confederação","sebrae"]):
   return {"label":"Tratar como fonte interessada; buscar documento ou contraponto.","alert":alert},"Fonte institucional"
  return {"label":"Noticiar com redação própria e citar a fonte.","alert":alert},"Repercussão jornalística"
 

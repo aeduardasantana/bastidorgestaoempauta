@@ -2,6 +2,42 @@
   "updatedAt": "2026-09-16",
   "sources": [
     {
+      "source": "Google Notícias",
+      "group": "Buscador",
+      "type": "Agregador de descoberta",
+      "status": "Monitorada",
+      "function": "Localiza candidatos a pauta em múltiplos veículos e fontes oficiais.",
+      "alignment": "Radar amplo de empresas, trabalho, regulação e relações internacionais.",
+      "care": "Nunca citar como fonte final. Abrir a publicação original antes de usar."
+    },
+    {
+      "source": "Bing News",
+      "group": "Buscador",
+      "type": "Agregador de descoberta",
+      "status": "Consulta manual",
+      "function": "Busca alternativa para ampliar a descoberta e comparar cobertura.",
+      "alignment": "Encontrar veículos e pautas ausentes no Google.",
+      "care": "Não é fonte final; confirmar URL, data e origem."
+    },
+    {
+      "source": "Yahoo! News",
+      "group": "Buscador",
+      "type": "Agregador de descoberta",
+      "status": "Consulta manual",
+      "function": "Busca alternativa, especialmente para cobertura internacional e de agências.",
+      "alignment": "Ampliação de descoberta internacional.",
+      "care": "Não é fonte final; confirmar URL, data e origem."
+    },
+    {
+      "source": "DuckDuckGo News",
+      "group": "Buscador",
+      "type": "Agregador de descoberta",
+      "status": "Consulta manual",
+      "function": "Busca alternativa com resultados distintos dos demais agregadores.",
+      "alignment": "Reduzir dependência de um único buscador.",
+      "care": "Não é fonte final; confirmar URL, data e origem."
+    },
+    {
       "source": "MTE",
       "group": "Obrigação e risco",
       "type": "Fonte primária",
@@ -144,6 +180,42 @@
       "function": "Práticas de gestão, trabalho, liderança e tecnologia.",
       "alignment": "Repertório para reflexão, não notícia-base.",
       "care": "Tratar como referência, considerando interesse comercial e contexto cultural."
+    },
+    {
+      "source": "Newsrooms corporativos globais",
+      "group": "Grupos empresariais globais",
+      "type": "Fonte corporativa interessada",
+      "status": "Consulta dirigida",
+      "function": "Comunicados sobre estratégia, liderança, investimento, operação, tecnologia, cultura e sustentabilidade.",
+      "alignment": "Empresa em Pauta: decisões reais de gestão e organização do trabalho.",
+      "care": "Afirmar apenas que a empresa anunciou ou declarou. Buscar fato relevante, resultado, documento ou cobertura independente."
+    },
+    {
+      "source": "Coca-Cola, Cargill e McDonald’s",
+      "group": "Grupos empresariais globais",
+      "type": "Fonte corporativa interessada",
+      "status": "Consulta dirigida",
+      "function": "Newsrooms, relatórios e comunicados de grandes empregadores e cadeias globais.",
+      "alignment": "Operações, franquias, cadeia de suprimentos, liderança, emprego e marca.",
+      "care": "Escolher fatos com lição aplicável ao Brasil; não transformar propaganda corporativa em análise."
+    },
+    {
+      "source": "BlackRock",
+      "group": "Grupos empresariais globais",
+      "type": "Investidor institucional interessado",
+      "status": "Consulta dirigida",
+      "function": "Cartas, pesquisas e posicionamentos sobre investimentos, governança, tecnologia e mercado.",
+      "alignment": "Tendências de capital, governança e riscos que afetam decisões empresariais.",
+      "care": "Distinguir análise de mercado de fato. A BlackRock possui interesse econômico e não representa consenso."
+    },
+    {
+      "source": "RI, B3 e CVM",
+      "group": "Empresas listadas e mercado",
+      "type": "Fonte primária",
+      "status": "Consulta dirigida",
+      "function": "Fatos relevantes, resultados, comunicados ao mercado e documentos de companhias abertas.",
+      "alignment": "Mudança de CEO, aquisição, reestruturação, governança, investimento e risco.",
+      "care": "Documento confirma a declaração ou ato informado; não comprova automaticamente o resultado prometido."
     }
   ]
 }

@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-09-17",
   "items": [
+    {
+      "id": "nova-lei-cria-incentivo-fiscal-para-instala-o-de-datacenters-no-brasil-portal-da-c-mara-do",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 8,
+      "title": "Nova lei cria incentivo fiscal para instalação de datacenters no Brasil - Portal da Câmara dos Deputados",
+      "source": "Portal da Câmara dos Deputados",
+      "date": "2026-09-16",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbzJENTRHYzRnb0gzWl82OWRUbjk0ek83YnpkTTBvUzhUeTl2ZjdXdXVOZmlxckpIM1h0WVdNN3hyMzAxckt3ZE5xUHl0UEFNVzlfTlNnUWVaM3FEbHBNckNFMmtkdndfYkRKWWpDZ2tiYWJKTVlPc2lkUVNVR0I0Qy1aZTB6QWJRbXB4RV9YR1VOV3Fod1FYb3JXcjlWU0FmdUk2Wi05ZDRlMUdaSm9WY1Nrbzk?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": true,
+        "title": "Nova lei cria incentivo fiscal para instalação de datacenters no Brasil - Portal da Câmara dos Deputados",
+        "source": "Portal da Câmara dos Deputados",
+        "date": "2026-09-16",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbzJENTRHYzRnb0gzWl82OWRUbjk0ek83YnpkTTBvUzhUeTl2ZjdXdXVOZmlxckpIM1h0WVdNN3hyMzAxckt3ZE5xUHl0UEFNVzlfTlNnUWVaM3FEbHBNckNFMmtkdndfYkRKWWpDZ2tiYWJKTVlPc2lkUVNVR0I0Qy1aZTB6QWJRbXB4RV9YR1VOV3Fod1FYb3JXcjlWU0FmdUk2Wi05ZDRlMUdaSm9WY1Nrbzk?oc=5"
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
     {
       "id": "sancionada-lei-de-incentivo-instala-o-de-data-centers-senadosenado",
       "agenda": "Poder e regras",
@@ -122,7 +162,7 @@
       }
     },
     {
-      "id": "projeto-cria-piso-salarial-nacional-de-r-2-450-para-recepcionistas-portal-da-c-mara-dos-de",
+      "id": "projeto-estende-a-institutos-estaduais-de-pesquisa-agropecu-ria-a-isen-o-de-taxas-j-conced",
       "agenda": "Poder e regras",
       "impact": "Risco jurídico/regulatório",
       "scope": "Federal",
@@ -130,18 +170,18 @@
       "evidence": "Documento/ato oficial",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 8,
-      "title": "Projeto cria piso salarial nacional de R$ 2.450 para recepcionistas - Portal da Câmara dos Deputados",
+      "title": "Projeto estende a institutos estaduais de pesquisa agropecuária a isenção de taxas já concedida à Embrapa - Portal da Câmara dos Deputados",
       "source": "Portal da Câmara dos Deputados",
-      "date": "2026-09-15",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQc2c2TVdwcGk3TzdkNDBLNkcyWldwWUhqR3ZqZlpnX3ZlSDYzRElSMVlWVkd5S0RYVXFRRGd3TURUeURPVVhtN2twMlZLUXZDaUdKZEw1THl5ZkdCRllKX08xNUY4cDlhRWl3Rl93RklxOXlobGJXcnp2WE8taDJTWGFVOHYxY2VLUWlMN1h3MnoweEtkTVVMR0tGY0JHSm9PcGpxRkcwOW41X2pqNzRnNkNJZDdQWVJzN2UyaFpLOTFIN1RPekpOdTM5ZVBQOE1oZloxdTVGY0VDU0FYQldoc3RXRmJoTmt2cHdOYw?oc=5",
+      "date": "2026-09-16",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWXA0eDdKcFczVXVXcU0xbm41RGFrdU5LZGlxaGljMEQ4ZEg0SmV3ai1obVN1T2JCeHZFNU84UnU2R2xfZ1ZYQmVac2JkMW1ObmpiQllWb1dMYmhOMWxHVGpPTTI5MXQ0WldEcjFkbDJiRldPVTBwaUtNZ0tiV3hwcWdTbTJQZUw1NDZXWFNOUkVjRnQzSkViYkk4UUUzX1VfcTBHRGpsaGhCSThaWF9SX3piM05NZDZySVJrdnJZNmw5QWlkYm1RZWFMalRobV9aQy16UE9QWFNkZ1d1MkVZX2hR?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": true,
-        "title": "Projeto cria piso salarial nacional de R$ 2.450 para recepcionistas - Portal da Câmara dos Deputados",
+        "title": "Projeto estende a institutos estaduais de pesquisa agropecuária a isenção de taxas já concedida à Embrapa - Portal da Câmara dos Deputados",
         "source": "Portal da Câmara dos Deputados",
-        "date": "2026-09-15",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdUJxaVFZN1lvTHpOUmNtU25ydVQ2a1hwRWZqNlVIYXlJZFQxM0ZWckExX0RJWXU0eGF4OUVsVExadjEzbUpkdEJaTjJGbVNtYlRDYUtUbnRSeEN0d0kwR2lUSWFkVU9tX3V0Nkl1QWMxU2M5Nno2d0JId1dBYWlrX25hRlV5Z040RjZrQ3VUbll6LWRGNmFCQlk4Z2k2Zi1DQk9MZnNDUHdIY05GeGc?oc=5"
+        "date": "2026-09-16",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWXA0eDdKcFczVXVXcU0xbm41RGFrdU5LZGlxaGljMEQ4ZEg0SmV3ai1obVN1T2JCeHZFNU84UnU2R2xfZ1ZYQmVac2JkMW1ObmpiQllWb1dMYmhOMWxHVGpPTTI5MXQ0WldEcjFkbDJiRldPVTBwaUtNZ0tiV3hwcWdTbTJQZUw1NDZXWFNOUkVjRnQzSkViYkk4UUUzX1VfcTBHRGpsaGhCSThaWF9SX3piM05NZDZySVJrdnJZNmw5QWlkYm1RZWFMalRobV9aQy16UE9QWFNkZ1d1MkVZX2hR?oc=5"
       },
       "audience": {
         "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
@@ -162,7 +202,7 @@
       }
     },
     {
-      "id": "projeto-prev-inclus-o-autom-tica-de-aposentados-de-baixa-renda-na-tarifa-social-de-energia",
+      "id": "projeto-cria-piso-salarial-nacional-de-r-2-450-para-recepcionistas-portal-da-c-mara-dos-de",
       "agenda": "Poder e regras",
       "impact": "Risco jurídico/regulatório",
       "scope": "Federal",
@@ -170,18 +210,18 @@
       "evidence": "Documento/ato oficial",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 8,
-      "title": "Projeto prevê inclusão automática de aposentados de baixa renda na Tarifa Social de Energia Elétrica - Portal da Câmara dos Deputados",
+      "title": "Projeto cria piso salarial nacional de R$ 2.450 para recepcionistas - Portal da Câmara dos Deputados",
       "source": "Portal da Câmara dos Deputados",
       "date": "2026-09-15",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdUJpRVRabFEwNGpJTnd3WElvQm5YdlJMQ2ppT1Q4bXkyd29aN1ZzcnNkcFF2LTY5SDV2QWVEVkFTRklPZFJVSExHb3V1Y2Vmelo2eFdkTU1MenZCNC1yRmdycXA1bng5MFRnb3dVS24welR0STZ5b0lyM2Q1UEtfRVBxdTRfSFJyeEhMVlFSQmc4YjF6Z3g4Y0hMNXlZYzZIdWI2NnFzYlh2Q0IxZk5pNDR3Ylc2anZWb2pjNldpRzhBLWloTVVkcFA1bk4wRDJNQkI5REtFRk9tb3c?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdUJxaVFZN1lvTHpOUmNtU25ydVQ2a1hwRWZqNlVIYXlJZFQxM0ZWckExX0RJWXU0eGF4OUVsVExadjEzbUpkdEJaTjJGbVNtYlRDYUtUbnRSeEN0d0kwR2lUSWFkVU9tX3V0Nkl1QWMxU2M5Nno2d0JId1dBYWlrX25hRlV5Z040RjZrQ3VUbll6LWRGNmFCQlk4Z2k2Zi1DQk9MZnNDUHdIY05GeGc?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": true,
-        "title": "Projeto prevê inclusão automática de aposentados de baixa renda na Tarifa Social de Energia Elétrica - Portal da Câmara dos Deputados",
+        "title": "Projeto cria piso salarial nacional de R$ 2.450 para recepcionistas - Portal da Câmara dos Deputados",
         "source": "Portal da Câmara dos Deputados",
         "date": "2026-09-15",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdUJpRVRabFEwNGpJTnd3WElvQm5YdlJMQ2ppT1Q4bXkyd29aN1ZzcnNkcFF2LTY5SDV2QWVEVkFTRklPZFJVSExHb3V1Y2Vmelo2eFdkTU1MenZCNC1yRmdycXA1bng5MFRnb3dVS24welR0STZ5b0lyM2Q1UEtfRVBxdTRfSFJyeEhMVlFSQmc4YjF6Z3g4Y0hMNXlZYzZIdWI2NnFzYlh2Q0IxZk5pNDR3Ylc2anZWb2pjNldpRzhBLWloTVVkcFA1bk4wRDJNQkI5REtFRk9tb3c?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdUJxaVFZN1lvTHpOUmNtU25ydVQ2a1hwRWZqNlVIYXlJZFQxM0ZWckExX0RJWXU0eGF4OUVsVExadjEzbUpkdEJaTjJGbVNtYlRDYUtUbnRSeEN0d0kwR2lUSWFkVU9tX3V0Nkl1QWMxU2M5Nno2d0JId1dBYWlrX25hRlV5Z040RjZrQ3VUbll6LWRGNmFCQlk4Z2k2Zi1DQk9MZnNDUHdIY05GeGc?oc=5"
       },
       "audience": {
         "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
@@ -242,7 +282,7 @@
       }
     },
     {
-      "id": "projeto-isenta-profissionais-da-sa-de-do-imposto-de-renda-sobre-horas-extras-nas-redes-p-b",
+      "id": "redu-o-de-tributos-de-resseguradoras-nacionais-vai-san-o-senadosenado",
       "agenda": "Poder e regras",
       "impact": "Risco jurídico/regulatório",
       "scope": "Federal",
@@ -250,18 +290,18 @@
       "evidence": "Documento/ato oficial",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 8,
-      "title": "Projeto isenta profissionais da saúde do Imposto de Renda sobre horas extras nas redes pública e privada - Portal da Câmara dos Deputados",
-      "source": "Portal da Câmara dos Deputados",
-      "date": "2026-09-14",
-      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOWjRlR0kxdXE5SDlHNGRkU3JoaDBuYVAzaGJHR3htUWh5MkJWbjFMMHpMV3NuckRGbzNBVXlwYXM3RXRfVVRNUVdsMkdOUXhuSDZ5MTF4ZHhFNHlrZXBNR1VDZWVGeHVBZ2p2Vlg3VXpnV0RFTVVjV1Q5ZUdOSmNrR0swWjc1aUpXOUxHWU5NYUhoYlpMWk9WcGVEc2VfVkFNVVd4azVCSmVfLUlfeXdEdU1HcF9WTXNreWR4cS1NNmdhSG1sRTVqQ0FtTTNNOVZSOC1tUWdhZmt5VHFJSnFFM1FxYVV6NGxNbGt3czlqdDM5ZnItX1RWMWpZbHpjQ0ZLaGhSVkZCVmwzTm9GOUM5UUVWUUIwVm9fdVN3WDJIaU9uQWxUU3hIbFhYMXJkeDhxX3Qxel9jWkFnMnJDbzQ2X2hWQzJxNnZnWkp0VmxwQVg5NXk4WlQ5a25wWUNmR2ZjOFBUTW0tdmw?oc=5",
+      "title": "Redução de tributos de resseguradoras nacionais vai à sanção - Senado",
+      "source": "Senado",
+      "date": "2026-09-03",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOHZNeGZUUUg3b0x0ZFRyRjRzUno1dlVzbUJET3l5VlQ5S0UzOVhxZTBKRWl5SkljWFB1VzdlR0hSWjZ5ak5iSnBFUmt5VDJjTnZmT3V1dWhXcnZqeHVUR1hiSW0tNXozWnp4bG9QVWthMzZoaGJoUU9ZQ2lqbHBIcU9CUy1JbnRFQWh4aDByYUF2RWlIZ0QwTVB4VmM4azlUWGQtZER3ZEpod3dPenY2am5EQ0ttQmxG?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": true,
-        "title": "Projeto isenta profissionais da saúde do Imposto de Renda sobre horas extras nas redes pública e privada - Portal da Câmara dos Deputados",
-        "source": "Portal da Câmara dos Deputados",
-        "date": "2026-09-14",
-        "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOWjRlR0kxdXE5SDlHNGRkU3JoaDBuYVAzaGJHR3htUWh5MkJWbjFMMHpMV3NuckRGbzNBVXlwYXM3RXRfVVRNUVdsMkdOUXhuSDZ5MTF4ZHhFNHlrZXBNR1VDZWVGeHVBZ2p2Vlg3VXpnV0RFTVVjV1Q5ZUdOSmNrR0swWjc1aUpXOUxHWU5NYUhoYlpMWk9WcGVEc2VfVkFNVVd4azVCSmVfLUlfeXdEdU1HcF9WTXNreWR4cS1NNmdhSG1sRTVqQ0FtTTNNOVZSOC1tUWdhZmt5VHFJSnFFM1FxYVV6NGxNbGt3czlqdDM5ZnItX1RWMWpZbHpjQ0ZLaGhSVkZCVmwzTm9GOUM5UUVWUUIwVm9fdVN3WDJIaU9uQWxUU3hIbFhYMXJkeDhxX3Qxel9jWkFnMnJDbzQ2X2hWQzJxNnZnWkp0VmxwQVg5NXk4WlQ5a25wWUNmR2ZjOFBUTW0tdmw?oc=5"
+        "title": "Redução de tributos de resseguradoras nacionais vai à sanção - Senado",
+        "source": "Senado",
+        "date": "2026-09-03",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOHZNeGZUUUg3b0x0ZFRyRjRzUno1dlVzbUJET3l5VlQ5S0UzOVhxZTBKRWl5SkljWFB1VzdlR0hSWjZ5ak5iSnBFUmt5VDJjTnZmT3V1dWhXcnZqeHVUR1hiSW0tNXozWnp4bG9QVWthMzZoaGJoUU9ZQ2lqbHBIcU9CUy1JbnRFQWh4aDByYUF2RWlIZ0QwTVB4VmM4azlUWGQtZER3ZEpod3dPenY2am5EQ0ttQmxG?oc=5"
       },
       "audience": {
         "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
@@ -502,7 +542,7 @@
       }
     },
     {
-      "id": "incentivo-para-instala-o-de-data-centers-no-brasil-aprovado-pelo-senado-conselho-regional-",
+      "id": "incentivo-para-instala-o-de-data-centers-no-brasil-aprovado-pelo-senado-crcma-org-brcrcma-",
       "agenda": "Poder e regras",
       "impact": "Risco jurídico/regulatório",
       "scope": "Federal",
@@ -510,46 +550,10 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 5,
-      "title": "Incentivo para instalação de data centers no Brasil é aprovado pelo Senado - Conselho Regional de Contabilidade do Maranhão",
-      "source": "Conselho Regional de Contabilidade do Maranhão",
+      "title": "Incentivo para instalação de data centers no Brasil é aprovado pelo Senado - crcma.org.br",
+      "source": "crcma.org.br",
       "date": "2026-09-03",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGw1M0FfSXFlUUppLUZUbGRYTV9JWjNHZnFWNzFtMHU3Sl83MTcwbDJWeTRrUU93WEs3TmtFQ2Vtb1NkdldscnFOdWNoQXZ4SFBPRGNmOWx4bU1EY1l2UUJDWmlQY1ZITmJnMEhRYWhURGoyUmVRZnFqcFhzcmpWOGhtMlZoQmJic1YzU3hhbWt0bVcwMlI5OVBlaWRqOXhnYjZlYlphcw?oc=5",
-      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
-      "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
-      "origin": {
-        "found": false
-      },
-      "audience": {
-        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
-        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
-        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
-        "sensation": "Segurança e liberdade"
-      },
-      "packaging": {
-        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "NOVA REGRA: O QUE MUDA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Noticiar com redação própria e citar a fonte.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      }
-    },
-    {
-      "id": "c-mara-aprova-isen-o-da-taxa-das-blusinhas-texto-vai-ao-senado-dcomerciodcomercio",
-      "agenda": "Poder e regras",
-      "impact": "Risco jurídico/regulatório",
-      "scope": "Federal",
-      "territory": "Brasil",
-      "evidence": "Repercussão jornalística",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 5,
-      "title": "Câmara aprova isenção da taxa das blusinhas; texto vai ao Senado - DComercio",
-      "source": "DComercio",
-      "date": "2026-09-03",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdXo0bTJNck5RX3lidkJFTFFrSU5KWC1iS3RJU3RqN0U2SVlWNjFRdU4wV1NfMVR3ckNZV0JZYURhU05NWGxkdGJSVFNhNjVGWFVqUGhOR3FqN3lIZWl2OXQtYWctb1hya2tHYWM5M2dPNGc0empheE5xNFpTM2ZyQWJjNldLS1h4YnZCTnhYRzIzczY0M0FMekZSeHJDSDNTM0g0?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em risco jurídico/regulatório? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
@@ -646,7 +650,43 @@
       }
     },
     {
-      "id": "por-que-a-empresa-brasileira-compra-ia-redu-o-de-custo-o-d-cimo-motivo-startsestartse",
+      "id": "como-a-tecnologia-esta-transformando-a-venda-de-brindes-no-brasil-pequenas-empresas-grande",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 3,
+      "title": "Como a tecnologia está transformando a venda de brindes no Brasil - Pequenas Empresas & Grandes Negócios",
+      "source": "Pequenas Empresas & Grandes Negócios",
+      "date": "2026-09-16",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcmZMNzlUX2dtT3o4RTlRTnEydXJWLUM5NDZFYXhvTG9IREl3eGw3dWQ3ZFhmVmhJX3h2bzJlMEwxeFRMY1Rrd3NKM1N0YlNQV0FUOWZ5T2F0dFJxa0ZVU2tzdmc3Tk9RMEUzUXVteUJ1Yk5lV0UzajdHeFJLZzV2ZTRONUZoNDktX3JNNVRYSjIyY3Mxc3VveTRUUGp6X2R3OExPZHBGQ2tkTHJVSjc1T2ZXXzBHU1Q5dllPWFJwbHlCSzZMd3JPX09KSjBJUFc4am5jalNPcFZrMHFvRUJRYXRJd9IB8gFBVV95cUxONUl3RTJwUXdxUUtnT2lTWnZBRW5BMWU5SnE5TU8zMTMxWFRPRm9qd21EcS1XT3lkNTdZT1Rzd0NwaWtjVldUdWI1SkR5YlJLS1BKNzJKUThHSkRfRk1YQmJwdE55VGhnQi13NDhKc1FJVmROSVBQWFB1ejRGbEZHVHNpLVBLYzQxM0xvSllBSUlEcmFveGxoY25VZkZERU5qT0NPc0JaSDlPQU1aQVYySEpZei1QUUY1Q3dDczQyUGNmNmJwNURlNTNVd1ZrOVNsU1cwY2x3V3Y4OGVpQXJPLTIwdFJCYm0yYk1ETlZ4cmtzdw?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "por-que-a-empresa-brasileira-compra-ia-redu-o-de-custo-o-d-cimo-motivo-startse-comstartse-",
       "agenda": "IA e gestão",
       "impact": "Operação e estratégia",
       "scope": "Nacional",
@@ -654,8 +694,8 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "Por que a empresa brasileira compra IA: redução de custo é o décimo motivo - StartSe",
-      "source": "StartSe",
+      "title": "Por que a empresa brasileira compra IA: redução de custo é o décimo motivo - startse.com",
+      "source": "startse.com",
       "date": "2026-09-16",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MMHNSTVdnNTZRbXo4Rk5yVVhhZDBiM0ZuaW1ob2V6RHY5c0FJbG9hWWd2YmkzRXJaYkNKdlh2LTd0cHFkRk14VWxmZXE4VS1jdVZydlhIajVVLVY2RXIzdU13U2RGWDh4WEJCZ0E4bmhMUTRpZ3hF?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
@@ -667,6 +707,46 @@
         "public": "CEOs, operações, RH e gestores de inovação.",
         "interest": "Avaliar produtividade, impacto humano, governança e adoção responsável.",
         "search": "IA para empresas; inteligência artificial gestão; IA e trabalho",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      }
+    },
+    {
+      "id": "bilingual-leadership-the-business-case-and-the-moral-case-fast-companyfast-company",
+      "agenda": "Mundo corporativo internacional",
+      "impact": "Pessoas e trabalho",
+      "scope": "Internacional",
+      "territory": "Internacional",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 3,
+      "title": "Bilingual leadership: The business case and the moral case - Fast Company",
+      "source": "Fast Company",
+      "date": "2026-09-16",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVmV5U0NabHpNU2VCUldlX0pucVFjcExoUGVXYlRUaXZOY3JadVUwN1lKTzQyZF9DNExrN01HMVptN2pWWjF6Y3l4YVg1bmtaVDVHcUQyWkxISTJmLXB1RUFPTDhqbGZWZDQ0Z2lFb0lQLXZNWjNyaE1Ycm5MWnBiLTNHdkFjXzZ0bGF0ZVp4aDBVMVpNYmtCcWZn?oc=5",
+      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
+      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar. Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil — sem presumir equivalência.",
+      "origin": {
+        "found": true,
+        "title": "Bilingual leadership: The business case and the moral case - Fast Company",
+        "source": "Fast Company",
+        "date": "2026-09-16",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVmV5U0NabHpNU2VCUldlX0pucVFjcExoUGVXYlRUaXZOY3JadVUwN1lKTzQyZF9DNExrN01HMVptN2pWWjF6Y3l4YVg1bmtaVDVHcUQyWkxISTJmLXB1RUFPTDhqbGZWZDQ0Z2lFb0lQLXZNWjNyaE1Ycm5MWnBiLTNHdkFjXzZ0bGF0ZVp4aDBVMVpNYmtCcWZn?oc=5"
+      },
+      "audience": {
+        "public": "Lideranças, RH e empresas que acompanham tendências globais.",
+        "interest": "Comparar práticas internacionais sem importar soluções fora de contexto.",
+        "search": "corporate leadership trends; workplace culture; gestão internacional",
         "sensation": "Curiosidade e recompensa"
       },
       "packaging": {
@@ -730,42 +810,6 @@
       "source": "Pequenas Empresas & Grandes Negócios",
       "date": "2026-09-15",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNkJIMWJJWjBtbEVrbXlKVUQyaTBfVXczUHgyNE92X1AtQldXbjYxWEQ3NmJuRm90ZTNnb05qWEJLNy1JN2lmVTFQTGxYek1hczRDSkdhaWxzbXVSMEhRNm1rNzJWYXpYaUtTWmlNbXRyZGZSVjVzQlpxbzdzWEJ5dUp2b3B0TUo0RXgzMDA0a2FfWHpEd2MtdVo1XzJjb1JTMy10UDdadnVMdEh0TnJEMDNPRncyU25IV2pCbGdJOG5fd0Yz0gHTAUFVX3lxTE9tVmI4b0RINFk1RWJLZVZhNDU2VUZYQVZJQlNNVl9EeVVtQ1pDTlhZMllNX3lTek5ocjRXWFUwRExEOGg4Uno4YTIzb2tzcnkyc2RJbGU5VUdxdDR1X2Q4OTFhcmlsVngwZ3hsa1kxalUwdWdPaVdBT0U5Y2Y5YnpodmY5UjZ3VWw3ekdKVG5KUFZRS1RodDFCRlpoQjNlT3FLTmJrc1REazZ4X2NvUERxT2pJTy1odmFVR3VUNTVnSUNsMHVSQXI2VnhJQmhHNkFxTzQ?oc=5",
-      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
-      "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
-      "origin": {
-        "found": false
-      },
-      "audience": {
-        "public": "CEOs, donos de empresa, diretores de operação e RH.",
-        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
-        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
-        "sensation": "Curiosidade e recompensa"
-      },
-      "packaging": {
-        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "DECISÃO DE CEO",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Noticiar com redação própria e citar a fonte.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      }
-    },
-    {
-      "id": "pegn-labs-aborda-expans-o-intelig-ncia-artificial-e-governan-a-no-somos-multi-pequenas-emp",
-      "agenda": "Empresa em Pauta",
-      "impact": "Operação e estratégia",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Repercussão jornalística",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 3,
-      "title": "PEGN Labs aborda expansão, inteligência artificial e governança no Somos Multi - Pequenas Empresas & Grandes Negócios",
-      "source": "Pequenas Empresas & Grandes Negócios",
-      "date": "2026-09-15",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTWNwSmRCZ2pvamdOUWpJaFlNQXNwbGROTHZmUnFxY0RIM1VHd3d1SjVlWFFCMHFJRUtLTjhLb3JmWWxDVkRERnR1bkdpc0JUQXlOSmdqYnpYZkp0bUw4R1A0M0NzbGQxNnZOQ1ZSYWhvZkwtX25Yb2tCX1hwR3poN3Q3X05ySXYzdEliWmxBMHFLekdiZ1hEZzhtR0dIOGFxU0hqZkNDNWZaanY4SnNCZXBVTTZWS2pVT1FHS25taFpVc21BQW1FYUJzeldqdVZ4Z2FtczRR0gHkAUFVX3lxTFBrdEhfcTF0a3ZFbmxPaG00WktfWHZNV0RjYUlLdG42OHJhWHBvT2I1Y0tMNV9nMGJuNnJiNnFtcTkwanY4bzRhbjJ5VlRKQkFud2ZBWkNWWXY2MUd4NXhIdko5ekVnV2xYLWR4TlhFVWZLdWpnYjNrNFMycHFUaHdRcnk0QXRNWVZ3dk9KMDh0bm94MUF6SmYwUGRjQ0FSQTFfVnVxSmZwWWpseE00c3BWcVpwTkgtRGJkbVA2eXJycUs1LWtLbVFTN08yRjkwYkViSnpWZ0tFSHFqUVMwdG5mc2QwRA?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
@@ -934,42 +978,6 @@
       }
     },
     {
-      "id": "i-run-an-organization-dedicated-to-collective-grieving-i-recognize-a-familiar-dynamic-with",
-      "agenda": "Mundo corporativo internacional",
-      "impact": "Pessoas e trabalho",
-      "scope": "Internacional",
-      "territory": "Internacional",
-      "evidence": "Repercussão jornalística",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 3,
-      "title": "I run an organization dedicated to collective grieving. I recognize a familiar dynamic with AI in the workplace - Fortune",
-      "source": "Fortune",
-      "date": "2026-09-13",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BcDdsUWZ3VUxBZWlQbmUzcHlZOXhqTmphQ1BCSk5yWGVFWm56S0NuNEdtUWFQSkN2allBSzZOVU1pMDdIY0hzVnJBQUNUSkhIYmV2SXgyMGZjVDVvRlZJcUxxcXVhVC1HTUY3dElR?oc=5",
-      "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
-      "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar. Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil — sem presumir equivalência.",
-      "origin": {
-        "found": false
-      },
-      "audience": {
-        "public": "Lideranças, RH e empresas que acompanham tendências globais.",
-        "interest": "Comparar práticas internacionais sem importar soluções fora de contexto.",
-        "search": "corporate leadership trends; workplace culture; gestão internacional",
-        "sensation": "Curiosidade e recompensa"
-      },
-      "packaging": {
-        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Noticiar com redação própria e citar a fonte.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      }
-    },
-    {
       "id": "ranking-global-aponta-25-riscos-ligados-gest-o-de-pessoas-valor-econ-micovalor-econ-mico",
       "agenda": "Pessoas e liderança",
       "impact": "Pessoas e trabalho",
@@ -1078,16 +1086,16 @@
       }
     },
     {
-      "id": "empregados-da-caixa-votam-nova-proposta-nesta-sexta-feira-11-spbancarios-com-brspbancarios",
+      "id": "empregados-da-caixa-votam-nova-proposta-nesta-sexta-feira-11-sindicato-dos-banc-riossindic",
       "agenda": "Trabalho e representação",
       "impact": "Pessoas e trabalho",
       "scope": "Nacional",
       "territory": "Brasil",
-      "evidence": "Repercussão jornalística",
+      "evidence": "Fonte institucional",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - spbancarios.com.br",
-      "source": "spbancarios.com.br",
+      "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - Sindicato dos Bancários",
+      "source": "Sindicato dos Bancários",
       "date": "2026-09-11",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZV9Qc21SemNtRGJ1Q2xocVNST0JrUy1ydVFqbjVXUzZtR2Y3Q09Bd3BjT1RBVDRCN2FjOF9hX1owNS1sZFNIYU1nNXlDNHo5RkNaUnRHMktIMGxVNjVEdnVvYXh0RVBwLUlES2pfd2F2amJjRFZoX3AySG9LRGtIdnkwb1B6MlBTWl95YXNUMDRMTEdUd0htcEhLaw?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
@@ -1109,7 +1117,7 @@
         "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
       },
       "use": {
-        "label": "Noticiar com redação própria e citar a fonte.",
+        "label": "Tratar como fonte interessada; buscar documento ou contraponto.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       }
     },
@@ -1446,7 +1454,7 @@
       }
     },
     {
-      "id": "a-ia-transformar-as-opera-es-de-gest-o-de-ativos-fundssociety-comfundssociety-com",
+      "id": "a-ia-transformar-as-opera-es-de-gest-o-de-ativos-funds-societyfunds-society",
       "agenda": "IA e gestão",
       "impact": "Operação e estratégia",
       "scope": "Nacional",
@@ -1454,14 +1462,18 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 3,
-      "title": "A IA transformará as operações de gestão de ativos - fundssociety.com",
-      "source": "fundssociety.com",
+      "title": "A IA transformará as operações de gestão de ativos - Funds Society",
+      "source": "Funds Society",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORnNiZFg2LVR3MldoVE4tVENIM2t2ZWpmT0Z5MUtfZVAxazRqc001N3JzWmt3Qk1pcTVLQTRYN0kxUHFBSnRnZGVNLWV3NmNRcEx2TjVhOVo1R2oyTlFaMWVBSXRvUGk3N0IwX1cwMldVTVlvVmdOcVFJUDcwRmRoNThNUE5XaDFmR1NTTVB4Z2k0QQ?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em operação e estratégia? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
-        "found": false
+        "found": true,
+        "title": "A IA transformará as operações de gestão de ativos - Funds Society",
+        "source": "Funds Society",
+        "date": "2026-09-10",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORnNiZFg2LVR3MldoVE4tVENIM2t2ZWpmT0Z5MUtfZVAxazRqc001N3JzWmt3Qk1pcTVLQTRYN0kxUHFBSnRnZGVNLWV3NmNRcEx2TjVhOVo1R2oyTlFaMWVBSXRvUGk3N0IwX1cwMldVTVlvVmdOcVFJUDcwRmRoNThNUE5XaDFmR1NTTVB4Z2k0QQ?oc=5"
       },
       "audience": {
         "public": "CEOs, operações, RH e gestores de inovação.",

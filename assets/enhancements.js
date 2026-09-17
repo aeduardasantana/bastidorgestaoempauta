@@ -30,33 +30,44 @@ DADOS COPIADOS DA JANELA “ORIGEM, USO E SEGURANÇA EDITORIAL”
 ${content}
 
 TAREFA PARA O CHATGPT
-Acesse a publicação original e leia o corpo da matéria. O título, o score e as hipóteses do Bastidor servem apenas para localizar e orientar a investigação; não os trate como prova.
+Esta é a etapa de CURADORIA EDITORIAL. O Bastidor fez apenas descoberta e triagem preliminar por título, fonte e metadados.
 
-1. Separe fatos confirmados, declarações atribuídas e hipóteses.
-2. Identifique o fato econômico, regulatório ou empresarial que iniciou o acontecimento.
-3. Verifique se existe uma decisão empresarial concreta.
-4. Explique eventual mudança na organização do trabalho, sem inventar consequências ausentes na fonte.
-5. Identifique pessoas ou grupos afetados e a responsabilidade da liderança.
-6. Avalie a aderência ao Gestão em Pauta e ao Desenvolvimento Humano Aplicado ao Trabalho.
-7. Classifique como: Pauta principal, Giro semanal, Acompanhar ou Não usar.
-8. Sugira manchete, perspectiva de análise, público interessado, buscas prováveis, hashtags e uma prévia do que Eduarda poderia falar.
-9. Informe restrições de reprodução e diferencie propriedade da informação de propriedade do texto.
-10. Se o corpo da fonte não estiver acessível, declare essa limitação e não complete lacunas.`;try{await navigator.clipboard.writeText(text)}catch{copyFallback(text)}copyDetailButton.textContent="✓ Copiado";setTimeout(()=>copyDetailButton.textContent="⧉ Copiar análise",1800)}
+Acesse a publicação original e leia o corpo da matéria. O título, o score, o cenário, a porta de entrada e as hipóteses do Bastidor servem apenas para orientar a investigação. Não os trate como prova.
+
+1. Identifique a publicação original ou fonte primária quando possível.
+2. Informe a data da publicação e, separadamente, a data do acontecimento principal quando forem diferentes.
+3. Separe fatos confirmados, declarações atribuídas, análises/opiniões da fonte, hipóteses e inferências.
+4. Identifique o fato empresarial, econômico, tecnológico ou regulatório que iniciou ou atualizou o acontecimento.
+5. Verifique se existe decisão empresarial concreta.
+6. Explique eventual mudança na organização do trabalho apenas quando houver base suficiente.
+7. Identifique pessoas ou grupos envolvidos e, quando sustentado pelas fontes, a responsabilidade gerencial ou de liderança.
+8. Avalie a aderência ao Gestão em Pauta e ao posicionamento de Desenvolvimento Humano Aplicado ao Trabalho.
+9. Não exija que o conteúdo sustente sozinho uma pauta principal. Avalie também seu valor como notícia diária, contexto, acompanhamento ou elemento de uma análise maior.
+10. Somente após a apuração, classifique em uma ou mais possibilidades: forte candidato a aprofundamento; notícia relevante para a edição diária; candidato a análise temática; acompanhamento; contexto; reserva; não usar.
+11. Sugira possíveis conexões com outros acontecimentos, mas não monte o espelho da edição.
+12. Se houver potencial para série temática, informe.
+13. Quando pertinente, sugira manchete baseada no corpo, perspectiva de análise, público interessado, motivo de interesse, buscas prováveis, palavras-chave, hashtags e uma prévia do que Eduarda poderia desenvolver.
+14. Informe restrições de reprodução e diferencie propriedade da informação de propriedade do texto, imagem, vídeo, tabela ou infográfico.
+15. Se o corpo da fonte não estiver acessível, declare essa limitação e não complete lacunas.
+
+IMPORTANTE: não escreva o roteiro, não monte o espelho e não faça a escalada. Essas tarefas pertencem à etapa seguinte do fluxo editorial.`;try{await navigator.clipboard.writeText(text)}catch{copyFallback(text)}copyDetailButton.textContent="✓ Copiado";setTimeout(()=>copyDetailButton.textContent="⧉ Copiar análise",1800)}
 copyDetailButton.onclick=copyDetailForChatGPT;
 
 // A curadoria por API está desativada. Coleta, filtros e classificação são gratuitos.
-function scoreInfo(x){const p=x.editorialPotential;if(p)return {value:p.score*10,label:p.recommendation,note:"Potencial editorial preliminar. Usa somente título, fonte e metadados; não substitui a leitura."};if(x.score===null||x.score===undefined)return {value:null,label:"Em cálculo",note:"Sem dados suficientes para priorizar."};const value=Math.max(0,Math.min(100,x.score>11?Math.round(x.score):Math.round(((x.score-3)/8)*100)));return {value,label:value>=75?"Pauta principal":value>=50?"Giro semanal":value>=25?"Acompanhar":"Não priorizar",note:"Triagem preliminar; confirme o corpo da fonte."}}
-function potentialBox(x){const p=x.editorialPotential;if(!p)return '<div class="detail-box warn"><b>Potencial editorial ainda não recalculado.</b><br>Aguarde a próxima atualização do radar.</div>';const questions=(p.questions||[]).map(q=>'<li>'+plain(q)+'</li>').join(""),missing=(p.missing||[]).map(q=>'<li>'+plain(q)+'</li>').join(""),related=(x.relatedSources||[]).map(s=>'<li><a href="'+safeUrl(s.url)+'" target="_blank" rel="noopener">'+plain(s.source)+' - '+plain(s.title)+'</a></li>').join("");return '<div class="detail-box"><b>Leitura sistêmica preliminar</b><br><small>'+plain(p.caveat)+'</small><br><br><b>Recomendação:</b> '+plain(p.recommendation)+' - '+p.score+'/10<br><b>Cenário:</b> '+plain(p.event)+'<br><b>Porta de entrada:</b> '+plain(p.economicTrigger)+'<br><b>Questão organizacional:</b> '+plain(p.organizationalHypothesis)+(questions?'<br><b>Perguntas para validar no corpo:</b><ul>'+questions+'</ul>':"")+(missing?'<b>Ainda precisa confirmar:</b><ul>'+missing+'</ul>':"")+(related?'<b>Outras fontes do mesmo acontecimento:</b><ul>'+related+'</ul>':"")+'</div>'}
+function triageLabel(value){return value>=81?"Prioridade muito alta":value>=61?"Prioridade alta":value>=41?"Prioridade média":value>=21?"Prioridade baixa":"Prioridade muito baixa"}
+function scoreInfo(x){const raw=x.editorialPotential?.score;const value=Number.isFinite(raw)?Math.max(0,Math.min(100,Math.round(raw*10))):(x.score===null||x.score===undefined?null:Math.max(0,Math.min(100,x.score>11?Math.round(x.score):Math.round(((x.score-3)/8)*100))));if(value===null)return {value:null,label:"Em cálculo",note:"Sem dados suficientes para priorizar."};return {value,label:triageLabel(value),note:"Potencial preliminar calculado por título, fonte e metadados. Não determina o uso editorial final."}}
+function potentialBox(x){const p=x.editorialPotential;if(!p)return '<div class="detail-box warn"><b>Prioridade de investigação ainda não calculada.</b><br>Aguarde a próxima atualização do radar.</div>';const questions=(p.questions||[]).map(q=>'<li>'+plain(q)+'</li>').join(""),missing=(p.missing||[]).map(q=>'<li>'+plain(q)+'</li>').join(""),related=(x.relatedSources||[]).map(s=>'<li><a href="'+safeUrl(s.url)+'" target="_blank" rel="noopener">'+plain(s.source)+' - '+plain(s.title)+'</a></li>').join("");return '<div class="detail-box"><b>Hipóteses de investigação</b><br><small>Conteúdo preliminar produzido por título, fonte e metadados. Não representa conclusão sobre o acontecimento.</small><br><br><b>Prioridade de investigação:</b> '+p.score+'/10<br><b>Cenário a verificar:</b> '+plain(p.event)+'<br><b>Porta de entrada a verificar:</b> '+plain(p.economicTrigger)+'<br><b>Hipótese organizacional a investigar:</b> '+plain(p.organizationalHypothesis)+(questions?'<br><b>Perguntas para validar no corpo:</b><ul>'+questions+'</ul>':"")+(missing?'<b>Ainda precisa confirmar:</b><ul>'+missing+'</ul>':"")+(related?'<b>Outras fontes do mesmo acontecimento:</b><ul>'+related+'</ul>':"")+'</div>'}
 function analysisBox(x){const preliminary=potentialBox(x),b=x.bodyAnalysis;if(!b)return preliminary+'<div class="detail-box warn"><b>Triagem manual.</b><br>Abra a fonte e confirme fatos, datas, envolvidos e consequências antes de decidir. O sistema não está utilizando a API da OpenAI.</div>';if(!b.status?.startsWith("analisado"))return preliminary+'<div class="detail-box warn"><b>Revisão manual necessária:</b><br>'+plain(b.reason||"O corpo da publicação não pôde ser validado.")+'</div>';const e=b.editorial||{},r=b.relevance||{},facts=(b.facts_confirmed||[]).map(v=>'<li>'+plain(v)+'</li>').join(""),statements=(b.source_statements||[]).map(v=>'<li>'+plain(v)+'</li>').join(""),consequences=(b.managerial_consequences||[]).map(v=>'<li>'+plain(v)+'</li>').join("");return preliminary+'<div class="detail-box"><b>Curadoria já realizada</b><br><small>Resultado preservado da execução anterior. Nenhuma nova análise por API será feita.</small><br><br><b>Veredito:</b> '+plain(r.verdict||"A validar")+' - '+plain(r.reason||"")+'<br><b>Manchete sugerida:</b> '+plain(e.headline||"")+'<br><b>Prévia de fala:</b> '+plain(e.speaking_preview||"")+(facts?'<br><br><b>Fatos confirmados:</b><ul>'+facts+'</ul>':"")+(statements?'<b>Declarações atribuídas:</b><ul>'+statements+'</ul>':"")+(consequences?'<b>Consequências gerenciais:</b><ul>'+consequences+'</ul>':"")+'<b>Restrições de uso:</b> '+plain(b.restrictions||b.source_owner_note||"Usar redação própria e atribuir a fonte.")+'<br><b>Cuidado editorial:</b> '+plain(b.caution||"Validar fonte e contexto.")+'</div>'}
 
-function decorateCuratedCards(){document.querySelectorAll(".news-card").forEach(card=>{if(card.querySelector(".curation-verdict"))return;const item=news.find(x=>x.title===card.querySelector("h4")?.textContent),analysis=item?.bodyAnalysis,p=item?.editorialPotential;if(!item)return;const box=document.createElement("div");box.className="curation-verdict "+(analysis?.status?.startsWith("analisado")?"ready":(p?.recommendation==="Não priorizar"?"manual":"preliminary"));box.innerHTML=analysis?.status?.startsWith("analisado")?'<b>'+plain(analysis.relevance?.verdict||"A validar")+'</b><span>Curadoria anterior preservada</span>':'<b>'+plain(p?.recommendation||"Triagem manual")+'</b><span>'+(p?plain(p.event)+' - hipótese para validar na fonte':'Aguardando atualização do radar')+'</span>';card.querySelector(".summary").after(box)})}
+function decorateCuratedCards(){document.querySelectorAll(".news-card").forEach(card=>{if(card.querySelector(".curation-verdict"))return;const item=[...news,...videos].find(x=>x.title===card.querySelector("h4")?.textContent),analysis=item?.bodyAnalysis,p=item?.editorialPotential;if(!item)return;const box=document.createElement("div"),priority=scoreInfo(item);box.className="curation-verdict "+(analysis?.status?.startsWith("analisado")?"ready":((priority.value??100)<=20?"manual":"preliminary"));box.innerHTML=analysis?.status?.startsWith("analisado")?'<b>'+plain(analysis.relevance?.verdict||"Conteúdo já analisado")+'</b><span>Curadoria anterior do corpo preservada</span>':'<b>'+plain(priority.label)+'</b><span>'+(p?plain(p.event)+' - hipótese de investigação a validar na fonte':'Aguardando atualização do radar')+'</span>';card.querySelector(".summary").after(box)})}
 const gridObserver=new MutationObserver(decorateCuratedCards);gridObserver.observe(document.querySelector("#newsGrid"),{childList:true});
 document.head.insertAdjacentHTML("beforeend",'<style>.copy-detail{margin-left:auto;margin-right:8px;padding:5px 7px;white-space:nowrap;text-decoration:none;font-size:11px;color:#80561f;border:1px solid transparent;border-radius:3px}.copy-detail:hover{border-color:#d8d2c7;background:#f2eee6}.results-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}.copy-results{padding:6px 8px;white-space:nowrap;text-decoration:none;font-size:11px;color:#80561f;border:1px solid #d8d2c7;border-radius:3px;background:transparent}.copy-results:hover{background:#f2eee6;border-color:#b48b53}.copy-results:disabled{color:#899099;border-color:#ddd8cf;cursor:not-allowed}.curation-verdict{padding:10px 12px;background:#e5eee9;border-left:3px solid #1f4b42;display:grid;gap:4px;font-size:12px}.curation-verdict.preliminary{background:#edf0f2;border-color:#718596}.curation-verdict.manual{background:#f5e7df;border-color:#9b5c3b}.curation-verdict span{color:#52606c;line-height:1.35}@media(max-width:600px){.copy-detail{margin-left:auto}.results-actions{justify-content:flex-start}}</style>');
 
-const potentialLabel=document.createElement("label");potentialLabel.innerHTML='Potencial editorial<select id="potentialFilter"><option value="Todos">Todos os potenciais</option><option>Pauta principal</option><option>Giro semanal</option><option>Acompanhar</option><option>Não priorizar</option></select>';document.querySelector("#apply").before(potentialLabel);
-const filterBeforePotential=filter;filter=function(){const items=filterBeforePotential(),choice=document.querySelector("#potentialFilter")?.value||"Todos";return choice==="Todos"?items:items.filter(x=>x.editorialPotential?.recommendation===choice)};
+const potentialLabel=document.createElement("label");potentialLabel.innerHTML='Prioridade de triagem<select id="potentialFilter"><option value="Todos">Todas as prioridades</option><option value="muito-alta">Muito alta</option><option value="alta">Alta</option><option value="media">Média</option><option value="baixa">Baixa</option><option value="muito-baixa">Muito baixa</option></select>';document.querySelector("#apply").before(potentialLabel);
+function triageBand(item){const value=scoreInfo(item).value??-1;return value>=81?"muito-alta":value>=61?"alta":value>=41?"media":value>=21?"baixa":"muito-baixa"}
+const filterBeforePotential=filter;filter=function(){const items=filterBeforePotential(),choice=document.querySelector("#potentialFilter")?.value||"Todos";return choice==="Todos"?items:items.filter(x=>triageBand(x)===choice)};
 document.querySelector("#potentialFilter").onchange=render;
-document.querySelector(".notice small").innerHTML='<b>Potencial editorial:</b> 0–3 Não priorizar · 4–5 Acompanhar · 6–7 Giro semanal · 8–10 Pauta principal. É uma hipótese baseada em título, fonte e metadados; confirme o corpo da publicação.';
+document.querySelector(".notice small").innerHTML='<b>Prioridade de triagem:</b> 0–20 muito baixa · 21–40 baixa · 41–60 média · 61–80 alta · 81–100 muito alta. Potencial preliminar calculado por título, fonte e metadados. Não determina o uso editorial final.';
 
 const copyResultsButton=document.createElement("button");copyResultsButton.type="button";copyResultsButton.className="text-button copy-results";copyResultsButton.title="Copiar os resultados filtrados para uma curadoria geral no ChatGPT";
 const resultsActions=document.createElement("div");resultsActions.className="results-actions";const clearSelectionButton=document.querySelector("#clearSelection");clearSelectionButton.before(resultsActions);resultsActions.append(copyResultsButton,clearSelectionButton);
@@ -72,7 +83,7 @@ Consequência: ${item.impact||"Não classificada"}
 Abrangência: ${item.scope||"Não classificada"}
 Evidência: ${item.evidence||"Não classificada"}
 Resumo coletado: ${item.summary||"Não informado"}
-Potencial preliminar: ${potential.score??"Não calculado"}/10 — ${potential.recommendation||"Não classificado"}
+Prioridade de investigação: ${potential.score??"Não calculada"}/10${Number.isFinite(potential.score)?` — ${triageLabel(potential.score*10)}`:""}
 Cenário preliminar: ${potential.event||"Não informado"}
 Porta de entrada econômica/regulatória: ${potential.economicTrigger||"Não informada"}
 Hipótese organizacional: ${potential.organizationalHypothesis||item.angle||"Não informada"}
@@ -98,25 +109,35 @@ Agenda: ${selectedOptionText("#agenda")}
 Consequência: ${selectedOptionText("#impact")}
 Fonte/evidência: ${selectedOptionText("#evidence")}
 Abrangência: ${selectedOptionText("#scope")}
-Potencial editorial: ${selectedOptionText("#potentialFilter")}
+Prioridade de triagem: ${selectedOptionText("#potentialFilter")}
 Busca digitada: ${search}
 Quantidade: ${items.length}
 
 ${items.map(resultForChatGPT).join("\n\n────────────────────────────\n\n")}
 
 TAREFA PARA O CHATGPT
-Faça uma curadoria comparativa de todos os resultados. Não decida apenas por título, resumo ou score do Bastidor: eles são hipóteses de descoberta. Acesse os links, leia o corpo das publicações e declare o que não conseguir verificar.
+Faça uma CURADORIA COMPARATIVA dos resultados encontrados.
 
-1. Analise cada resultado individualmente e agrupe os que tratam do mesmo acontecimento.
-2. Localize e priorize a fonte original, oficial ou mais antiga; diferencie fonte interessada, documento oficial e repercussão jornalística.
-3. Separe fatos confirmados, declarações atribuídas, interpretações, hipóteses e inferências. Não invente efeitos humanos nem faça aconselhamento jurídico.
-4. Informe restrições de reprodução: a informação pode ser noticiada com redação própria; texto, imagem, vídeo, tabela e infográfico de terceiros não devem ser copiados sem autorização.
-5. Avalie cada acontecimento pelo percurso: dinheiro/regra/mercado → decisão empresarial → mudança no trabalho → pessoas → responsabilidade da liderança.
-6. Julgue a aderência ao Gestão em Pauta, ao Desenvolvimento Humano Aplicado ao Trabalho e à atuação do GEB, considerando empresários, CEOs, diretores, lideranças, RH, SST, jurídico, financeiro e gestores.
-7. Entregue um ranking e classifique em: Pauta principal, Segunda opção, Giro semanal, Acompanhar ou Não priorizar. Descarte conteúdo meramente promocional, evento, lista ou opinião genérica.
-8. Para as pautas viáveis, proponha manchete baseada no corpo, perspectiva própria da Eduarda, público-alvo, motivo de interesse, pesquisas prováveis, palavras-chave, hashtags e uma breve prévia do que ela poderia falar.
-9. Explique por que a primeira pauta é superior às demais e quais fatos ainda precisam ser confirmados.
-10. Não escreva o roteiro completo antes que eu escolha a pauta.`}
+O Bastidor realizou apenas descoberta e triagem preliminar por títulos, fontes e metadados. Não decida com base no título, resumo, score, cenário ou hipótese preliminar. Acesse as fontes e leia o corpo das publicações antes de concluir.
+
+1. Analise cada resultado individualmente.
+2. Agrupe resultados que tratem do mesmo acontecimento ou sejam apenas repercussões de uma mesma origem.
+3. Localize e priorize fonte primária, fonte oficial, publicação original e publicação mais antiga pertinente.
+4. Diferencie claramente documento/fonte oficial, fonte interessada, reportagem independente, entrevista, análise/opinião e repercussão.
+5. Separe fatos confirmados, declarações atribuídas, interpretações, hipóteses e inferências.
+6. Identifique a data real do fato quando ela for diferente da data de publicação fornecida pelo Bastidor.
+7. Quando aplicável, avalie o percurso: mercado/dinheiro/regra/tecnologia → decisão empresarial → organização do trabalho → pessoas → responsabilidade da liderança. Não force todas as notícias a preencherem todas as etapas.
+8. Avalie a aderência ao Gestão em Pauta e ao Desenvolvimento Humano Aplicado ao Trabalho.
+9. Não use a ausência de uma “grande pauta” como motivo para concluir que não há conteúdo diário. O Gestão em Pauta funciona como jornal empresarial diário e uma edição pode conter acontecimentos de relevância intermediária.
+10. Para cada acontecimento, classifique após a apuração em uma ou mais possibilidades: forte candidato a aprofundamento; notícia relevante para a edição diária; candidato a análise temática; acompanhamento; contexto; reserva; não usar.
+11. Identifique conexões editoriais possíveis entre acontecimentos, sem transformar conexão temática em causalidade.
+12. Identifique possíveis séries temáticas quando houver recorrência suficiente.
+13. Para os conteúdos viáveis, proponha manchete baseada no corpo, perspectiva própria de análise, público interessado, motivo de interesse, pesquisas prováveis, palavras-chave, hashtags e uma breve prévia do que Eduarda poderia desenvolver.
+14. Informe o que ainda precisa ser apurado antes de utilizar cada conteúdo.
+15. Informe restrições de reprodução: a informação pode ser noticiada com redação própria; texto, fotografia, vídeo, tabela, arte ou infográfico de terceiros não devem ser simplesmente reproduzidos.
+16. Ao final, produza uma síntese chamada “PACOTE DE CURADORIA PARA O CHAT DE ESTRUTURAÇÃO”, contendo somente acontecimentos validados, importância de cada um, fatos essenciais, conexões identificadas, possíveis análises, conteúdos em acompanhamento, possíveis séries e lacunas ainda existentes.
+
+NÃO monte escalada, espelho, ordem dos blocos, roteiro ou Mapa Mental. Essas decisões pertencem ao Chat 3.`}
 function updateCopyResultsButton(){const count=filter().length;copyResultsButton.disabled=!count;copyResultsButton.textContent=count?`⧉ Copiar ${count} resultado${count===1?"":"s"}`:"⧉ Sem resultados"}
 async function copyFilteredResults(){const text=filteredResultsText();try{await navigator.clipboard.writeText(text)}catch{copyFallback(text)}copyResultsButton.textContent="✓ Resultados copiados";setTimeout(updateCopyResultsButton,1800)}
 copyResultsButton.onclick=copyFilteredResults;const copyResultsObserver=new MutationObserver(updateCopyResultsButton);copyResultsObserver.observe(document.querySelector("#newsGrid"),{childList:true});updateCopyResultsButton();

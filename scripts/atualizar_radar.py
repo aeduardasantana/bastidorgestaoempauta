@@ -161,6 +161,24 @@ CORPO DA MATÉRIA:
   print("falha IA",item.get("title","")[:80],type(error).__name__)
   return {"status":"revisao_manual","reason":"A análise automática não ficou disponível nesta execução. Abra a fonte e valide o corpo manualmente."}
 
+def analyze_by_source_lookup(item,reason):
+ instructions="""Você é analista editorial do programa brasileiro Gestão em Pauta, do GEB - Grupo Eduarda Bispo. Use a ferramenta de pesquisa somente para localizar a publicação ORIGINAL correspondente ao título e à fonte informados. Leia o conteúdo da fonte original ou do documento oficial vinculado; não trate réplica, comentário ou título como prova. Se não localizar ou não conseguir acessar essa publicação, responda exatamente {\"manual_review\":true,\"reason\":\"...\"}. Não complete lacunas com conhecimento externo, suposição ou opinião e não reproduza trechos longos.
+Se acessar a publicação original, retorne SOMENTE JSON válido com as chaves: factual_summary; facts_confirmed (lista de até 4 fatos); source_statements (lista de até 2 declarações atribuídas); relevance (verdict: GRAVAR AGORA, ACOMPANHAR ou NÃO PRIORITÁRIA; reason); editorial (headline, angle, speaking_preview de até 120 palavras, audience, search_intent separado por ponto e vírgula, hashtags de até 6); caution; canonical_url."""
+ user=f"""Título: {item.get('title')}
+Fonte informada pelo radar: {item.get('source')}
+Link do radar: {item.get('url')}
+Motivo pelo qual a extração direta não bastou: {reason}"""
+ payload={"model":"gpt-5.6-terra","tools":[{"type":"web_search"}],"input":[{"role":"developer","content":instructions},{"role":"user","content":user}],"max_output_tokens":1200}
+ request=Request("https://api.openai.com/v1/responses",data=json.dumps(payload).encode("utf-8"),headers={"Authorization":"Bearer "+OPENAI_API_KEY,"Content-Type":"application/json"},method="POST")
+ try:
+  with urlopen(request,timeout=90) as response:data=json.loads(response.read().decode("utf-8"))
+  answer=json_answer(response_text(data))
+  if answer.get("manual_review"):return {"status":"revisao_manual","reason":answer.get("reason","A publicação original não ficou acessível para validação.")}
+  return {"status":"analisado_por_busca","sourceUrl":answer.get("canonical_url",""),"bodyCharacters":0,**answer}
+ except Exception as error:
+  print("falha IA web",item.get("title","")[:80],type(error).__name__)
+  return {"status":"revisao_manual","reason":"A publicação original não ficou acessível para validação nesta execução."}
+
 def apply_body_analysis(items):
  if not OPENAI_API_KEY:
   print("OPENAI_API_KEY ausente; análise de corpo não executada.");return
@@ -168,9 +186,9 @@ def apply_body_analysis(items):
  for item in candidates:
   body,final_url,reason=extract_article_body(item.get("url",""))
   if not body:
-   item["bodyAnalysis"]={"status":"revisao_manual","reason":reason or "Corpo indisponível para análise.","sourceUrl":final_url};continue
+   item["bodyAnalysis"]=analyze_by_source_lookup(item,reason or "Corpo indisponível para análise.");continue
   analysis=analyze_article(item,body,final_url);item["bodyAnalysis"]=analysis
-  if analysis.get("status")=="analisado":
+  if analysis.get("status","").startswith("analisado"):
    editorial=analysis.get("editorial",{})
    item["summary"]=analysis.get("factual_summary") or item["summary"]
    item["angle"]=editorial.get("angle") or item["angle"]

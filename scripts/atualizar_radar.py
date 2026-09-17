@@ -4,7 +4,8 @@ from html import unescape
 from pathlib import Path
 from urllib.parse import quote
 from urllib.request import Request,urlopen
-import json,re,xml.etree.ElementTree as ET
+import json,os,re,xml.etree.ElementTree as ET
+from urllib.parse import urlencode
 
 # Agenda, consulta, consequência, localidade editorial e idioma da busca.
 STREAMS={
@@ -96,6 +97,54 @@ def packaging_for(agenda,impact):
  elif impact=="Custo e caixa": base.update({"opening":"Este fato pode chegar ao caixa antes de aparecer nos relatórios. A questão é onde a empresa será pressionada.","thumbnail":"IMPACTO NO CAIXA"})
  return base
 
+YOUTUBE_API_KEY=os.environ.get("YOUTUBE_API_KEY","")
+INSTITUTIONAL_CHANNELS=("tv senado","senado federal","câmara dos deputados","camara dos deputados","tv câmara","tv camara","govbr","ministério do trabalho e emprego","ministerio do trabalho e emprego","itamaraty","banco central do brasil","receita federal","mte")
+CORPORATE_WORDS=("oficial","investor","relações com investidores","relacoes com investidores","ri ","b3","sebrae","cni","fecomércio","fecomercio","blackrock","coca-cola","cargill","mcdonald","netflix","disney","warner","globo","sbt","record","amazon","meta")
+JOURNALISTIC_WORDS=("valor","exame","infomoney","bloomberg","cnn","globo news","band news","record news","bbc","reuters","estadao","folha","veja","cnbc")
+def agenda_for_stream(stream):
+ return "Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream)))
+def duration_label(v):
+ m=re.fullmatch(r"PT(?:(\\d+)H)?(?:(\\d+)M)?(?:(\\d+)S)?",v or "")
+ if not m:return "Duração não informada"
+ h,mi,se=[int(x or 0) for x in m.groups()]
+ return (f"{h}h " if h else "")+(f"{mi}min " if mi else "")+f"{se}s"
+def channel_classification(channel):
+ name=(channel or "").lower()
+ if any(k in name for k in INSTITUTIONAL_CHANNELS):return "Canal institucional - validar","Fonte institucional"
+ if any(k in name for k in CORPORATE_WORDS):return "Canal corporativo - validar","Fonte institucional"
+ if any(k in name for k in JOURNALISTIC_WORDS):return "Canal jornalístico - validar","Repercussão jornalística"
+ return "Canal de análise ou origem a validar","Exige confirmação"
+def youtube_videos():
+ if not YOUTUBE_API_KEY:
+  print("YOUTUBE_API_KEY ausente; radar de vídeos não atualizado.")
+  return []
+ since=(datetime.now(timezone.utc).replace(hour=0,minute=0,second=0,microsecond=0)).isoformat().replace("+00:00","Z")
+ found=[]; seen_video=set()
+ for stream,(query,impact,scope,locale) in STREAMS.items():
+  params={"part":"snippet","type":"video","order":"date","maxResults":3,"q":query,"publishedAfter":since,"key":YOUTUBE_API_KEY,"relevanceLanguage":"pt" if locale=="br" else "en"}
+  try:
+   data=json.loads(urlopen(Request("https://www.googleapis.com/youtube/v3/search?"+urlencode(params),headers=HEADERS),timeout=30).read())
+  except Exception as e:
+   print("falha YouTube",stream,e);continue
+  for result in data.get("items",[]):
+   video_id=result.get("id",{}).get("videoId")
+   snippet=result.get("snippet",{})
+   if not video_id or video_id in seen_video:continue
+   seen_video.add(video_id)
+   agenda=agenda_for_stream(stream); channel=snippet.get("channelTitle","Canal não identificado")
+   channel_type,evidence=channel_classification(channel)
+   score=3+(3 if agenda=="Empresa em Pauta" else 0)+(3 if evidence=="Fonte institucional" else 0)+(2 if impact in["Custo e caixa","Risco jurídico/regulatório"] else 0)
+   found.append({"id":"yt-"+video_id,"videoId":video_id,"title":snippet.get("title","Vídeo sem título"),"source":channel,"channelId":snippet.get("channelId",""),"date":snippet.get("publishedAt","")[:10],"url":"https://www.youtube.com/watch?v="+video_id,"agenda":agenda,"impact":impact,"scope":scope,"territory":"Confirmar na fonte" if scope in ["Municipal","Estadual"] else ("Brasil" if scope in ["Federal","Nacional"] else "Internacional"),"evidence":evidence,"sourceType":channel_type,"score":score,"summary":"Vídeo localizado no YouTube. Confira o canal e assista ao conteúdo antes de usar qualquer declaração como fonte.","angle":"Verificar se o vídeo confirma uma declaração, apresenta análise ou apenas repercute o tema. Não usar título, corte ou comentário como prova do fato.","query":query,"duration":"Duração em atualização","use":{"label":"Usar apenas após assistir ao conteúdo e identificar o tipo de canal.","alert":"Não reproduzir vídeo, trecho, transcrição, imagem ou miniatura de terceiro sem autorização."}})
+ ids=[x["videoId"] for x in found]
+ durations={}
+ for i in range(0,len(ids),50):
+  try:
+   data=json.loads(urlopen(Request("https://www.googleapis.com/youtube/v3/videos?"+urlencode({"part":"contentDetails","id":",".join(ids[i:i+50]),"key":YOUTUBE_API_KEY}),headers=HEADERS),timeout=30).read())
+   durations.update({x["id"]:duration_label(x.get("contentDetails",{}).get("duration","")) for x in data.get("items",[])})
+  except Exception as e:print("falha duração YouTube",e)
+ for x in found:x["duration"]=durations.get(x["videoId"],x["duration"])
+ return sorted(found,key=lambda x:(x["score"],x["date"]),reverse=True)
+
 items=[]; seen=set()
 for stream,(query,impact,scope,locale) in STREAMS.items():
  for x in feed(query,4,locale):
@@ -117,4 +166,4 @@ for stream,(query,impact,scope,locale) in STREAMS.items():
    "origin":origin(x["title"],locale),"audience":audience_for("Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream)))),"packaging":packaging_for("Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream))),impact),"use":use
   })
 items.sort(key=lambda x:(x["score"],x["date"]),reverse=True)
-Path("data/news.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
+Path("data/news.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":items},ensure_ascii=False,indent=2),encoding="utf-8")\nvideos=youtube_videos()\nPath("data/videos.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":videos},ensure_ascii=False,indent=2),encoding="utf-8")

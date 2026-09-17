@@ -1,4 +1,4 @@
-from datetime import datetime,timezone
+from datetime import datetime,timezone,timedelta
 from email.utils import parsedate_to_datetime
 from html import unescape
 from pathlib import Path
@@ -118,7 +118,7 @@ def youtube_videos():
  if not YOUTUBE_API_KEY:
   print("YOUTUBE_API_KEY ausente; radar de vídeos não atualizado.")
   return []
- since=(datetime.now(timezone.utc).replace(hour=0,minute=0,second=0,microsecond=0)).isoformat().replace("+00:00","Z")
+ since=((datetime.now(timezone.utc)-timedelta(days=14)).replace(hour=0,minute=0,second=0,microsecond=0)).isoformat().replace("+00:00","Z")
  found=[]; seen_video=set()
  for stream,(query,impact,scope,locale) in STREAMS.items():
   params={"part":"snippet","type":"video","order":"date","maxResults":3,"q":query,"publishedAfter":since,"key":YOUTUBE_API_KEY,"relevanceLanguage":"pt" if locale=="br" else "en"}

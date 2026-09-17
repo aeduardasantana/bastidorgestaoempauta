@@ -41,9 +41,41 @@
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       },
       "bodyAnalysis": {
-        "status": "revisao_manual",
-        "reason": "O corpo acessível da matéria não trouxe texto suficiente para análise confiável.",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbzJENTRHYzRnb0gzWl82OWRUbjk0ek83YnpkTTBvUzhUeTl2ZjdXdXVOZmlxckpIM1h0WVdNN3hyMzAxckt3ZE5xUHl0UEFNVzlfTlNnUWVaM3FEbHBNckNFMmtkdndfYkRKWWpDZ2tiYWJKTVlPc2lkUVNVR0I0Qy1aZTB6QWJRbXB4RV9YR1VOV3Fod1FYb3JXcjlWU0FmdUk2Wi05ZDRlMUdaSm9WY1Nrbzk?oc=5&hl=en-US&gl=US&ceid=US:en"
+        "status": "analisado_por_busca",
+        "sourceUrl": "https://www.camara.leg.br/noticias/1304932-nova-lei-cria-incentivo-fiscal-para-instalacao-de-datacenters-no-brasil",
+        "bodyCharacters": 0,
+        "factual_summary": "O presidente da República sancionou a Lei 15.504/26, que institui o Regime Especial de Tributação para Serviços de Datacenter (Redata). A norma suspende tributos sobre equipamentos e componentes destinados a datacenters habilitados, mediante contrapartidas de sustentabilidade, atendimento ao mercado interno e investimentos em inovação.",
+        "facts_confirmed": [
+          "A Lei 15.504/26 foi sancionada e cria o Redata.",
+          "O regime alcança datacenters de armazenagem, processamento e gestão de dados, incluindo computação em nuvem, alto desempenho e aplicações de inteligência artificial.",
+          "A suspensão tributária abrange PIS/Pasep, Cofins, tributos incidentes na importação, IPI e Imposto de Importação, para produtos adquiridos no Brasil ou importados.",
+          "As empresas devem investir no país o equivalente a 2% do valor dos produtos beneficiados; ao menos 40% desse total deve financiar iniciativas da economia digital no Norte, Nordeste e Centro-Oeste."
+        ],
+        "source_statements": [
+          "A Agência Câmara informa que a lei prevê incentivos fiscais para a instalação de datacenters no Brasil, com foco em computação em nuvem e inteligência artificial.",
+          "Segundo a Agência Câmara, empresas habilitadas devem suprir toda a demanda de energia elétrica com fontes renováveis ou de baixa emissão."
+        ],
+        "relevance": {
+          "verdict": "GRAVAR AGORA",
+          "reason": "A sanção da Lei 15.504/26 cria um novo marco tributário para investimentos em infraestrutura digital e abre pauta imediata sobre competitividade, energia, inteligência artificial e regionalização de investimentos."
+        },
+        "editorial": {
+          "headline": "Redata: nova lei muda a conta para datacenters e IA no Brasil",
+          "angle": "O que o incentivo fiscal exige das empresas e como as contrapartidas de energia, inovação e atendimento ao mercado interno moldam a atração de infraestrutura digital.",
+          "speaking_preview": "O Brasil passou a contar com o Redata, regime tributário voltado à instalação de datacenters. A lei suspende tributos sobre equipamentos e componentes, mas condiciona o benefício a compromissos concretos: energia renovável ou de baixa emissão, destinação de parte da capacidade ao mercado interno e investimentos em inovação. O debate para empresas e gestores não é apenas sobre redução de custo: é sobre capacidade digital, localização de infraestrutura e os critérios necessários para acessar o novo regime.",
+          "audience": "Executivos, empreendedores de tecnologia, gestores públicos, investidores, profissionais de inovação e infraestrutura digital.",
+          "search_intent": "Redata; Lei 15.504/26; incentivo fiscal para datacenters; datacenters no Brasil; tributação de infraestrutura digital; inteligência artificial",
+          "hashtags": [
+            "#GestãoEmPauta",
+            "#Datacenters",
+            "#Redata",
+            "#InteligênciaArtificial",
+            "#Inovação",
+            "#Tecnologia"
+          ]
+        },
+        "caution": "A matéria confirma a sanção e as regras gerais, mas a aplicação prática do regime depende de habilitação e de critérios e procedimentos definidos em regulamento.",
+        "canonical_url": "https://www.camara.leg.br/noticias/1304932-nova-lei-cria-incentivo-fiscal-para-instalacao-de-datacenters-no-brasil"
       }
     },
     {
@@ -86,9 +118,41 @@
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       },
       "bodyAnalysis": {
-        "status": "revisao_manual",
-        "reason": "O corpo acessível da matéria não trouxe texto suficiente para análise confiável.",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNG5ra3Z5bDZhTTJRWmQtRzJsS3c0XzhoZUJRY0dBOWdYNmtmMG1QaGtNOElINFd6TU9TRnZfY0hQMHAwVzdtLS1YNW0tYmlZYzFGZWhPOEl1WW15b2lPcm84ZDFoMG1TZDFtU1Vzamt2My1hX3RoaldPRUk5RnZRbHFsSVBkTnROZ1FhV0lnc1Z5ekY3aWVUV05DQm5KcWxYTHpqdjU5SF95eGk2RmhJQzFUZ2ZOc2kwNlE?oc=5&hl=en-US&gl=US&ceid=US:en"
+        "status": "analisado_por_busca",
+        "sourceUrl": "https://www12.senado.leg.br/noticias/materias/2026/09/16/sancionada-lei-de-incentivo-para-a-instalacao-de-data-centers",
+        "bodyCharacters": 0,
+        "factual_summary": "A Presidência da República sancionou a Lei 15.504, publicada em 16 de setembro de 2026, que cria o Regime Especial de Tributação para Serviços de Datacenter (Redata). O regime prevê suspensão de tributos para aquisição de equipamentos destinados a data centers, condicionada a exigências de mercado interno, sustentabilidade, energia e investimento no país.",
+        "facts_confirmed": [
+          "A Lei 15.504 institui o Redata, voltado a empresas de centros de processamento de dados.",
+          "O regime prevê suspensão de Imposto de Importação, PIS/Cofins, PIS/Cofins-Importação e IPI para itens elegíveis.",
+          "Os incentivos incluem cinco anos de suspensão tributária na compra de equipamentos.",
+          "As empresas habilitadas devem destinar ao mercado brasileiro ao menos 10% do fornecimento efetivo de processamento, armazenagem e tratamento de dados instalado."
+        ],
+        "source_statements": [
+          "Segundo a Agência Senado, a lei busca estimular a instalação de data centers e favorecer investimentos em inteligência artificial no Brasil.",
+          "A Agência Senado informa que a habilitação ao Redata dependerá de autorização do Ministério da Fazenda e do cumprimento de contrapartidas ambientais e de investimento."
+        ],
+        "relevance": {
+          "verdict": "GRAVAR AGORA",
+          "reason": "A sanção transforma o incentivo tributário para data centers em marco legal vigente e abre pauta imediata sobre investimento, infraestrutura digital, IA, energia e contrapartidas empresariais."
+        },
+        "editorial": {
+          "headline": "Redata sancionado: o que muda para data centers, IA e infraestrutura digital no Brasil",
+          "angle": "Explicar os incentivos tributários do novo regime e as contrapartidas que empresas precisarão cumprir para acessar os benefícios.",
+          "speaking_preview": "A nova lei cria o Redata, um regime tributário para estimular a instalação de data centers no país. O ponto central não é apenas a suspensão de impostos sobre equipamentos: as empresas terão de cumprir requisitos de fornecimento ao mercado brasileiro, uso de energia limpa ou renovável, eficiência hídrica e investimentos locais. A conversa pode mostrar o que a medida sinaliza para nuvem, inteligência artificial, cadeia de tecnologia e desenvolvimento regional — e quais definições ainda dependerão de regulamentação.",
+          "audience": "Executivos, gestores de tecnologia, empresários, investidores, profissionais de inovação e formuladores de políticas públicas.",
+          "search_intent": "Redata; Lei 15.504; incentivo fiscal para data centers; data centers e inteligência artificial; tributação de tecnologia no Brasil",
+          "hashtags": [
+            "#DataCenters",
+            "#InteligênciaArtificial",
+            "#Tecnologia",
+            "#Inovação",
+            "#Tributação",
+            "#InfraestruturaDigital"
+          ]
+        },
+        "caution": "A operacionalização do Redata depende de regulamentação, incluindo critérios de sustentabilidade e regras específicas para parte das contrapartidas. A matéria cita estimativas governamentais de renúncia tributária, que devem ser apresentadas como estimativa, não como resultado realizado.",
+        "canonical_url": "https://www12.senado.leg.br/noticias/materias/2026/09/16/sancionada-lei-de-incentivo-para-a-instalacao-de-data-centers"
       }
     },
     {
@@ -131,9 +195,41 @@
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       },
       "bodyAnalysis": {
-        "status": "revisao_manual",
-        "reason": "O corpo acessível da matéria não trouxe texto suficiente para análise confiável.",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOTBSNDFCX1NEenJzRkM2RU84MW84UWtMODhOU1V2THdFTXJmdVJ0UFk1eVhJeVRCS2pKOGJLRUl1OW5IUTF4LUNkajZ0X2tXc09hbEJjdVdBUE84a0p1T3REXzkzRThNSFpIYTRiQ3Y2bF9yaVNWTFpub3dkb3VDVVZGd1h1LWFhaERzS0ppdjBEdWxRcWw3dm5ER1FKU3dsUm9Kbm53VldOQThNcVJKbTJ1a19fbEdRVjBDdFRsYWYxX3lIUWg0aXBjbw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        "status": "analisado_por_busca",
+        "sourceUrl": "https://www12.senado.leg.br/noticias/materias/2026/09/16/lei-facilita-corte-de-impostos-para-data-centers-e-programas-contra-cancer",
+        "bodyCharacters": 0,
+        "factual_summary": "A Lei Complementar 237, sancionada em 15 de setembro de 2026, flexibiliza exclusivamente para 2026 exigências fiscais aplicáveis à proposição e análise de benefícios tributários destinados, entre outros, a data centers, Pronon, Pronas/PCD, áreas de livre comércio da Região Norte e resseguradoras locais. A norma decorre do PLP 74/2026 e teve um trecho vetado sobre transferências voluntárias a municípios de até 65 mil habitantes.",
+        "facts_confirmed": [
+          "A Lei Complementar 237 foi sancionada em 15 de setembro de 2026 e publicada no Diário Oficial da União.",
+          "Para os incentivos abrangidos, parlamentares podem ser dispensados, em 2026, de requisitos como estimativa de impacto orçamentário-financeiro, compensação de receita e limite global de 2% do PIB para benefícios tributários federais.",
+          "A lei abrange o Regime Especial de Tributação para Serviços de Datacenter (Redata), além de Pronon, Pronas/PCD, áreas de livre comércio do Norte e resseguradoras locais.",
+          "O texto teve veto no dispositivo que dispensaria municípios de até 65 mil habitantes de comprovar regularidade de dívidas com a União para receber transferências voluntárias."
+        ],
+        "source_statements": [
+          "Segundo a Agência Senado, a flexibilização busca viabilizar a análise de incentivos fiscais específicos em 2026.",
+          "Segundo o relatório citado pela Agência Senado, os incentivos devem constar no Orçamento e ser considerados na meta de resultado primário."
+        ],
+        "relevance": {
+          "verdict": "GRAVAR AGORA",
+          "reason": "A sanção cria uma janela regulatória imediata para a tramitação de incentivos tributários, com efeito direto no debate sobre implantação de data centers e custos fiscais. A abordagem deve distinguir a flexibilização de regras para aprovar benefícios da concessão automática de desonerações."
+        },
+        "editorial": {
+          "headline": "Lei flexibiliza regras fiscais para incentivos a data centers em 2026",
+          "angle": "O que muda para empresas, investidores e setor público quando o Congresso pode analisar incentivos tributários a data centers com exceções temporárias às travas fiscais.",
+          "speaking_preview": "A Lei Complementar 237 abriu, apenas para 2026, exceções a exigências fiscais na criação e análise de determinados incentivos tributários. Entre os segmentos alcançados está o Redata, regime voltado aos serviços de data center. O ponto central para gestores não é uma redução automática de impostos: a norma facilita a tramitação de propostas de benefício, dispensando etapas como estimativa de impacto e compensação de receita em casos previstos. Vamos explicar quais setores entram, quais controles foram flexibilizados e por que planejamento orçamentário e segurança regulatória continuam decisivos.",
+          "audience": "Executivos de tecnologia, finanças, tributário, infraestrutura digital, investidores e gestores públicos",
+          "search_intent": "Lei Complementar 237 2026; incentivos fiscais data centers; Redata; tributação de data centers; impacto fiscal",
+          "hashtags": [
+            "#DataCenters",
+            "#Redata",
+            "#Tributação",
+            "#IncentivosFiscais",
+            "#InfraestruturaDigital",
+            "#GestãoEmPauta"
+          ]
+        },
+        "caution": "A publicação trata de exceções procedimentais e fiscais para propostas e análise de incentivos em 2026; não afirma que todos os data centers receberão redução tributária automática. A matéria também informa que o Redata foi sancionado separadamente.",
+        "canonical_url": "https://www12.senado.leg.br/noticias/materias/2026/09/16/lei-facilita-corte-de-impostos-para-data-centers-e-programas-contra-cancer"
       }
     },
     {
@@ -176,9 +272,41 @@
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       },
       "bodyAnalysis": {
-        "status": "revisao_manual",
-        "reason": "O corpo acessível da matéria não trouxe texto suficiente para análise confiável.",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeW1udllBMEhGaU1iSkxiRDBvcVM2bWkzYV8yQmtqbnFvc3FtdnE3Ujg5eTk3WDRTem1GRzA2LXFFUUVKUmpmUENwUVhLSWN0MGZPMUpoZElWeDc2dkFHNVVxRWJ1TGJjX0NaeDRZNkVWUDVUMjhTbWloWXJfMmdYbFhIWU0xblNmQ2l6Z3AzRm1hZnhnTFZYVkt2TjNJUmZCcHhjNWtBSS1WQ1BRMEZQVnJQSGs0YTRQU1htc2pPNVJBR0JHc1RV?oc=5&hl=en-US&gl=US&ceid=US:en"
+        "status": "analisado_por_busca",
+        "sourceUrl": "https://www12.senado.leg.br/noticias/materias/2026/09/16/politica-nacional-de-conscientizacao-e-orientacao-sobre-lam-agora-e-lei",
+        "bodyCharacters": 0,
+        "factual_summary": "A Presidência da República sancionou a Política Nacional de Conscientização e Orientação sobre a Linfangioleiomiomatose (LAM), instituída pela Lei 15.505, de 2026. A norma prevê ações no SUS para ampliar diagnóstico, tratamento, acompanhamento e produção de dados sobre a doença rara.",
+        "facts_confirmed": [
+          "A Lei 15.505, de 2026, foi publicada em edição extraordinária do Diário Oficial da União em 15 de setembro de 2026.",
+          "A política prevê orientação a profissionais de saúde sobre sintomas e diagnóstico da LAM.",
+          "A lei estabelece a criação de centros de referência para diagnóstico, tratamento e acompanhamento de pacientes.",
+          "A norma determina um sistema nacional de coleta e processamento de dados e o acesso, pelo SUS, aos meios disponíveis de tratamento e controle da doença."
+        ],
+        "source_statements": [
+          "Segundo a Agência Senado, a LAM acomete principalmente mulheres jovens e pode causar perda progressiva da capacidade respiratória.",
+          "Segundo a Agência Senado, o diagnóstico tardio e a dificuldade de acesso a locais de tratamento foram apontados como obstáculos para pessoas com LAM."
+        ],
+        "relevance": {
+          "verdict": "ACOMPANHAR",
+          "reason": "A sanção cria uma diretriz nacional relevante para gestão pública de saúde e doenças raras, mas a publicação não detalha orçamento, cronograma, regulamentação ou capacidade operacional para execução imediata."
+        },
+        "editorial": {
+          "headline": "Nova lei cria política nacional para ampliar atenção a pacientes com LAM no SUS",
+          "angle": "O que muda na gestão da atenção a doenças raras com a previsão de centros de referência, capacitação profissional e dados nacionais.",
+          "speaking_preview": "A nova política nacional sobre LAM formaliza uma agenda de assistência para uma doença rara: melhorar o diagnóstico, orientar profissionais, estruturar centros de referência e organizar dados sobre os casos. Para gestores, o ponto de atenção é a passagem da lei para a operação: definição de rede, protocolos, financiamento e indicadores. A medida também reforça como dados e linhas de cuidado são decisivos para reduzir atrasos diagnósticos em doenças raras.",
+          "audience": "gestores públicos de saúde; lideranças hospitalares; profissionais de saúde; organizações de pacientes",
+          "search_intent": "lei LAM SUS; política nacional doenças raras; centros de referência LAM; diagnóstico de LAM",
+          "hashtags": [
+            "#GestãoEmSaúde",
+            "#SUS",
+            "#DoençasRaras",
+            "#LAM",
+            "#PolíticasPúblicas",
+            "#GestãoPública"
+          ]
+        },
+        "caution": "A matéria confirma a sanção e as diretrizes da lei, mas não apresenta regulamentação, recursos, metas, prazos de implantação ou lista de centros de referência.",
+        "canonical_url": "https://www12.senado.leg.br/noticias/materias/2026/09/16/politica-nacional-de-conscientizacao-e-orientacao-sobre-lam-agora-e-lei"
       }
     },
     {
@@ -221,9 +349,41 @@
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       },
       "bodyAnalysis": {
-        "status": "revisao_manual",
-        "reason": "O corpo acessível da matéria não trouxe texto suficiente para análise confiável.",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWXA0eDdKcFczVXVXcU0xbm41RGFrdU5LZGlxaGljMEQ4ZEg0SmV3ai1obVN1T2JCeHZFNU84UnU2R2xfZ1ZYQmVac2JkMW1ObmpiQllWb1dMYmhOMWxHVGpPTTI5MXQ0WldEcjFkbDJiRldPVTBwaUtNZ0tiV3hwcWdTbTJQZUw1NDZXWFNOUkVjRnQzSkViYkk4UUUzX1VfcTBHRGpsaGhCSThaWF9SX3piM05NZDZySVJrdnJZNmw5QWlkYm1RZWFMalRobV9aQy16UE9QWFNkZ1d1MkVZX2hR?oc=5&hl=en-US&gl=US&ceid=US:en"
+        "status": "analisado_por_busca",
+        "sourceUrl": "https://www.camara.leg.br/noticias/1304996-projeto-estende-a-institutos-estaduais-de-pesquisa-agropecuaria-a-isencao-de-taxas-ja-concedida-a-embrapa",
+        "bodyCharacters": 0,
+        "factual_summary": "O PL 3336/2026 propõe isentar organizações estaduais de pesquisa agropecuária de taxas federais relacionadas ao registro de patentes, produtos e tecnologias para o agronegócio. A proposta está em análise na Câmara dos Deputados e amplia aos institutos estaduais um benefício já concedido à Embrapa.",
+        "facts_confirmed": [
+          "O projeto é o PL 3336/2026.",
+          "A isenção proposta abrange pedidos perante INPI, SNPC, Anvisa e Ibama.",
+          "O autor é o deputado Arnaldo Jardim (Cidadania-SP).",
+          "A tramitação prevista é conclusiva nas comissões de Agricultura; Finanças e Tributação; e Constituição e Justiça e de Cidadania."
+        ],
+        "source_statements": [
+          "Segundo a Agência Câmara, a medida busca isentar as organizações estaduais de pesquisa agropecuária de taxas federais para registros ligados ao agronegócio.",
+          "Arnaldo Jardim afirmou que a redução de custos pode favorecer a proteção de ativos tecnológicos e o sistema público de pesquisa agropecuária."
+        ],
+        "relevance": {
+          "verdict": "GRAVAR AGORA",
+          "reason": "A proposta põe em pauta custo regulatório, inovação e proteção de tecnologias na pesquisa agropecuária estadual, com impacto potencial para instituições públicas e cadeias regionais do agronegócio."
+        },
+        "editorial": {
+          "headline": "PL propõe zerar taxas federais para institutos estaduais de pesquisa agropecuária",
+          "angle": "O que muda para a inovação agropecuária se organizações estaduais passarem a ter isenção semelhante à da Embrapa.",
+          "speaking_preview": "O Gestão em Pauta analisa o PL 3336/2026, que pretende estender às organizações estaduais de pesquisa agropecuária a isenção de taxas federais para registros de patentes, cultivares, produtos e tecnologias. A discussão passa pelo custo de proteger inovação pública, pelo papel dos institutos regionais e pelo estágio real da proposta: ela ainda está em análise na Câmara. Quais órgãos seriam alcançados, quais são os próximos passos e por que o tema interessa ao agronegócio?",
+          "audience": "gestores do agronegócio; lideranças de institutos de pesquisa; produtores; profissionais de inovação e políticas públicas",
+          "search_intent": "PL 3336/2026; isenção de taxas para pesquisa agropecuária; Oepas; patentes no agronegócio; Embrapa",
+          "hashtags": [
+            "#GestãoEmPauta",
+            "#Agronegócio",
+            "#Inovação",
+            "#PesquisaAgropecuária",
+            "#Embrapa",
+            "#CâmaraDosDeputados"
+          ]
+        },
+        "caution": "Trata-se de projeto de lei em análise, não de isenção já vigente para os institutos estaduais. A aprovação depende da tramitação na Câmara e no Senado.",
+        "canonical_url": "https://www.camara.leg.br/noticias/1304996-projeto-estende-a-institutos-estaduais-de-pesquisa-agropecuaria-a-isencao-de-taxas-ja-concedida-a-embrapa"
       }
     },
     {
@@ -383,7 +543,7 @@
       }
     },
     {
-      "id": "brasil-e-eua-decidem-juros-em-meio-a-press-es-globais-xp-investimentosxp-investimentos",
+      "id": "brasil-e-eua-decidem-juros-em-meio-a-press-es-globais-conteudos-xpi-com-brconteudos-xpi-co",
       "agenda": "Mercado e trabalho",
       "impact": "Custo e caixa",
       "scope": "Nacional",
@@ -391,18 +551,14 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 5,
-      "title": "Brasil e EUA decidem juros em meio a pressões globais - XP Investimentos",
-      "source": "XP Investimentos",
+      "title": "Brasil e EUA decidem juros em meio a pressões globais - conteudos.xpi.com.br",
+      "source": "conteudos.xpi.com.br",
       "date": "2026-09-16",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSGp6ZEV6YlpkbmJacXdwVHUzenJiUTBiVjdKTGFFOVRld21XNUZCWW1SSGwtQnUxWG9OMWVfU0RHdWx4VzZkQWpZMlFpYnZpbk5xQTQ1ZVl6RlhYUC1PUjFJdTdoNVBZNVZKWnJoWHlOWjJuRWJlcXpIRGh5UjB3QlZWQWtHeGVwOEZaM1VpVTZ3OUpSYmRQQ1E3OFU?oc=5",
       "summary": "Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
       "angle": "O que este fato pode mudar para empresas em custo e caixa? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
-        "found": true,
-        "title": "Brasil e EUA decidem juros em meio a pressões globais - XP Investimentos",
-        "source": "XP Investimentos",
-        "date": "2026-09-16",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSGp6ZEV6YlpkbmJacXdwVHUzenJiUTBiVjdKTGFFOVRld21XNUZCWW1SSGwtQnUxWG9OMWVfU0RHdWx4VzZkQWpZMlFpYnZpbk5xQTQ1ZVl6RlhYUC1PUjFJdTdoNVBZNVZKWnJoWHlOWjJuRWJlcXpIRGh5UjB3QlZWQWtHeGVwOEZaM1VpVTZ3OUpSYmRQQ1E3OFU?oc=5"
+        "found": false
       },
       "audience": {
         "public": "Donos de empresas, diretoria financeira, operações e RH.",
@@ -1343,8 +1499,8 @@
       "angle": "O que este fato pode mudar para empresas em pessoas e trabalho? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar.",
       "origin": {
         "found": true,
-        "title": "CSN recebe mais de três propostas por ativos de infraestrutura | Setembro 2026 - XP Investimentos",
-        "source": "XP Investimentos",
+        "title": "CSN recebe mais de três propostas por ativos de infraestrutura | Setembro 2026 - conteudos.xpi.com.br",
+        "source": "conteudos.xpi.com.br",
         "date": "2026-09-15",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeDF5dWpjbzltZldWbEtPWldzV0hWY202M21IOHlzbmpxOWZlUk9pMnJUUVcwbXREd0I2RGNMRXY3NE9WRWRBR1pqMHljeUlUb2Nwakk4Qk4wRlRpWG91QVk0dVhaTEZvcVVmSXF1Q0x2bjNIOHRBeTl2VFlIdXllMTR6M0Y3N1dnWnZEUUNXN0VhelE4YzFicQ?oc=5"
       },

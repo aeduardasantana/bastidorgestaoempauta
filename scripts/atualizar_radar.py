@@ -80,20 +80,20 @@ def norm(text):
  text=unicodedata.normalize("NFKD",text or "").encode("ascii","ignore").decode().lower()
  return re.sub(r"[^a-z0-9 ]+"," ",text)
 
-PROMO_TERMS=("premio","vencedores","feira de negocios","conference","conferencia","evento","mentor de ceos","livro gratuito","curso gratuito")
+PROMO_TERMS=("premio","vencedores","feira de negocios","conference","conferencia","evento","mentor de ceos","livro gratuito","curso gratuito","aborda","debate","ganham protagonismo","franquias baratas","lista de","agenda de presidente")
 PURE_FINANCE_TERMS=("dolar","bolsas","selic","taxa de juros","dividendos","cotacao","acoes")
-DECISION_TERMS=("investe","investimento","expansao","nova fabrica","reestruturacao","demissao","demite","aquisicao","adquire","fusao","incorpora","fechamento","fecha unidade","renuncia","nomeia","novo ceo","troca de ceo","greve","negociacao","piso salarial","trabalho presencial","home office")
-HUMAN_TERMS=("lideranca","trabalho","empregados","funcionarios","equipe","pessoas","saude mental","riscos psicossociais","sobrecarga","rotatividade","afastamento","cultura","salario","qualificacao","greve","sindicato","contratacao","demissao")
+DECISION_TERMS=("investe","investimento","expansao","nova fabrica","reestruturacao","demissao","demite","aquisicao","adquire","fusao","incorpora","fechamento","fecha unidade","renuncia","nomeia","novo ceo","novo vp","troca de ceo","greve","negociacao","piso salarial","trabalho presencial","home office","investment","expansion","restructuring","layoff","layoffs","acquisition","merger","appoints","resigns","new ceo")
+HUMAN_TERMS=("lideranca","lideres","trabalho","empregados","funcionarios","equipe","pessoas","saude mental","riscos psicossociais","nr 1","sobrecarga","rotatividade","afastamento","cultura","salario","qualificacao","greve","sindicato","contratacao","demissao","leadership","workplace","employees","workers","jobs","culture","layoff","layoffs")
 
 EVENTS=(
- ("Redução, reestruturação ou fechamento",("corta custos","reducao de custos","reestruturacao","demissao","demite","fechamento","fecha unidade"),"Pressão financeira","Investigar redução de equipe, redistribuição de tarefas, metas, comunicação e segurança no emprego."),
- ("Expansão ou investimento",("investe","investimento","expansao","nova fabrica","nova unidade","crescer","crescimento"),"Capital e crescimento","Investigar contratação, formação de lideranças, capacidade operacional, cultura e integração da nova estrutura."),
- ("Fusão, aquisição ou incorporação",("aquisicao","adquire","fusao","incorpora","compra empresa"),"Capital e estratégia","Investigar sobreposição de papéis, integração cultural, autonomia, comunicação e retenção de pessoas."),
- ("Mudança de comando",("novo ceo","troca de ceo","nomeia","renuncia","sucessao","presidente deixa"),"Governança","Investigar continuidade estratégica, sucessão, confiança interna e efeitos sobre a cultura."),
+ ("Redução, reestruturação ou fechamento",("corta custos","reducao de custos","reestruturacao","demissao","demite","fechamento","fecha unidade","restructuring","layoff","layoffs","closes"),"Pressão financeira","Investigar redução de equipe, redistribuição de tarefas, metas, comunicação e segurança no emprego."),
+ ("Fusão, aquisição ou incorporação",("aquisicao","adquire","fusao","incorpora","compra empresa","acquisition","merger","acquires"),"Capital e estratégia","Investigar sobreposição de papéis, integração cultural, autonomia, comunicação e retenção de pessoas."),
+ ("Expansão ou investimento",("investe","investimento","expansao","nova fabrica","nova unidade","crescer","crescimento","investment","expansion","new plant"),"Capital e crescimento","Investigar contratação, formação de lideranças, capacidade operacional, cultura e integração da nova estrutura."),
+ ("Mudança de comando",("novo ceo","novo vp","troca de ceo","nomeia","renuncia","sucessao","presidente deixa","new ceo","appoints","resigns"),"Governança","Investigar continuidade estratégica, sucessão, confiança interna e efeitos sobre a cultura."),
  ("Tecnologia e redesenho do trabalho",("inteligencia artificial"," ia ","automacao","tecnologia transforma","digitalizacao"),"Tecnologia e produtividade","Investigar funções alteradas, autonomia, capacitação, critérios de desempenho e insegurança profissional."),
  ("Relações coletivas de trabalho",("greve","sindicato","convencao coletiva","negociacao coletiva","paralisacao"),"Custo e relações de trabalho","Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação."),
  ("Regulação com efeito empresarial",("lei","projeto","decreto","regulamentacao","norma","fiscalizacao","piso salarial"),"Regra ou política pública","Confirmar obrigação, prazo, setores atingidos e mudanças necessárias em processo, liderança, qualificação ou condições de trabalho."),
- ("Risco psicossocial e saúde no trabalho",("saude mental","risco psicossocial","burnout","assedio","afastamento","ansiedade"),"Saúde, risco e continuidade","Investigar organização do trabalho, suporte, relações, liderança, prevenção e acompanhamento."),
+ ("Risco psicossocial e saúde no trabalho",("nr 1","saude mental","risco psicossocial","burnout","assedio","afastamento","ansiedade"),"Saúde, risco e continuidade","Investigar organização do trabalho, suporte, relações, liderança, prevenção e acompanhamento."),
 )
 
 def editorial_potential(title,agenda,evidence):
@@ -131,7 +131,9 @@ def merge_duplicates(items):
   tokens=topic_tokens(item["title"],item["source"]);match=None
   for candidate in result:
    other=topic_tokens(candidate["title"],candidate["source"]);shared=len(tokens&other);union=len(tokens|other) or 1
-   if item["editorialPotential"]["event"]==candidate["editorialPotential"]["event"] and shared>=4 and shared/union>=.36:
+   same_event=item["editorialPotential"]["event"]==candidate["editorialPotential"]["event"]
+   labor_event=item["editorialPotential"]["event"]=="Relações coletivas de trabalho"
+   if same_event and ((shared>=4 and shared/union>=.36) or (labor_event and shared>=3 and shared/union>=.24)):
     match=candidate;break
   if match:
    match.setdefault("relatedSources",[]).append({"title":item["title"],"source":item["source"],"date":item["date"],"url":item["url"]})

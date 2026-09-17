@@ -50,9 +50,9 @@ def is_article(item):
  if base==source.lower() or base.endswith("notícias"):return False
  return True
 
-def feed(q,n=4,locale="br"):
+def feed(q,n=12,locale="br"):
  suffix="&hl=en-US&gl=US&ceid=US:en" if locale=="us" else "&hl=pt-BR&gl=BR&ceid=BR:pt-419"
- u="https://news.google.com/rss/search?q="+quote(q+" when:14d")+suffix
+ u="https://news.google.com/rss/search?q="+quote(q+" when:30d")+suffix
  try: r=ET.fromstring(urlopen(Request(u,headers=HEADERS),timeout=30).read())
  except Exception as e:
   print("falha",e); return []
@@ -250,7 +250,7 @@ def youtube_videos():
 
 items=[]; seen=set()
 for stream,(query,impact,scope,locale) in STREAMS.items():
- for x in feed(query,4,locale):
+ for x in feed(query,12,locale):
   key=(x["title"]+x["source"]).lower()
   if key in seen: continue
   seen.add(key)
@@ -269,7 +269,7 @@ for stream,(query,impact,scope,locale) in STREAMS.items():
    "origin":origin(x["title"],locale),"audience":audience_for("Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream)))),"packaging":packaging_for("Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream))),impact),"use":use
   })
 items.sort(key=lambda x:(x["score"],x["date"]),reverse=True)
-apply_body_analysis(items)
+# A análise com IA é sob demanda: a coleta e os filtros não consomem crédito.
 Path("data/news.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
 videos=youtube_videos()
 Path("data/videos.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":videos},ensure_ascii=False,indent=2),encoding="utf-8")

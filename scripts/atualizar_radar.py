@@ -5,33 +5,32 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import quote
 from urllib.request import Request,urlopen
-import json,os,re,xml.etree.ElementTree as ET
+import json,os,re,unicodedata,xml.etree.ElementTree as ET
 from urllib.parse import urlencode
 
 # Agenda, consulta, consequência, localidade editorial e idioma da busca.
 STREAMS={
- "Empresa em Pauta":("CEO empresa decisão estratégia expansão demissão aquisição","Operação e estratégia","Nacional","br"),
- "Empresa em Pauta — Brazil Journal":("site:braziljournal.com CEO empresa estratégia aquisição governança reestruturação","Operação e estratégia","Nacional","br"),
- "Empresa em Pauta — Exame":("site:exame.com negócios CEO empresa liderança estratégia trabalho","Operação e estratégia","Nacional","br"),
- "Empresa em Pauta — PEGN":("site:revistapegn.globo.com empresa empreendedor gestão pessoas crescimento","Operação e estratégia","Nacional","br"),
- "Empresa em Pauta — InfoMoney":("site:infomoney.com.br business empresas CEO estratégia gestão","Operação e estratégia","Nacional","br"),
- "Sinal setorial — Agência Sebrae":("site:agenciasebrae.com.br empresas gestão pessoas inovação dados economia","Operação e estratégia","Nacional","br"),
- "Poder e regras":("projeto de lei regulamentação fiscalização empresas trabalho Câmara Senado","Risco jurídico/regulatório","Federal","br"),
- "Poder e regras — Senado oficial":("site:www12.senado.leg.br/noticias/materias empresas lei sancionada regulamentação data centers","Risco jurídico/regulatório","Federal","br"),
- "Poder e regras — Câmara oficial":("site:camara.leg.br/noticias empresas projeto de lei regulamentação trabalho tributação","Risco jurídico/regulatório","Federal","br"),
+ "Empresa em Pauta — decisões":("empresa CEO anuncia investimento expansão reestruturação demissão aquisição fusão fechamento sucessão","Operação e estratégia","Nacional","br"),
+ "Empresa em Pauta — Brazil Journal":("site:braziljournal.com empresa CEO aquisição fusão sucessão reestruturação investimento","Operação e estratégia","Nacional","br"),
+ "Empresa em Pauta — Exame":("site:exame.com/negocios empresa investe fábrica expansão demissão aquisição CEO","Operação e estratégia","Nacional","br"),
+ "Empresa em Pauta — InfoMoney":("site:infomoney.com.br/business empresa aquisição incorporação reestruturação expansão CEO","Operação e estratégia","Nacional","br"),
+ "Empresa em Pauta — PEGN":("site:revistapegn.globo.com empresa expansão sucessão franquia contratação gestão equipe","Operação e estratégia","Nacional","br"),
+ "Poder e regras — trabalho":("projeto lei empresas empregadores trabalho salário saúde mental qualificação Câmara Senado","Risco jurídico/regulatório","Federal","br"),
+ "Poder e regras — Senado oficial":("site:www12.senado.leg.br/noticias/materias empresas trabalho emprego qualificação saúde mental regulamentação","Risco jurídico/regulatório","Federal","br"),
+ "Poder e regras — Câmara oficial":("site:camara.leg.br/noticias empresas trabalho emprego piso salarial saúde mental regulamentação","Risco jurídico/regulatório","Federal","br"),
  "Poder e regras — Planalto oficial":("site:gov.br/planalto empresas lei decreto regulamentação sanção","Risco jurídico/regulatório","Federal","br"),
  "Poder e regras — MTE oficial":("site:gov.br/trabalho-e-emprego empresas trabalho fiscalização norma regulamentadora","Risco jurídico/regulatório","Federal","br"),
  "Poder e regras — reguladores":("site:gov.br empresas Banco Central Receita Federal Cade CVM regulamentação","Risco jurídico/regulatório","Federal","br"),
  "Relações internacionais — Itamaraty oficial":("site:gov.br/mre empresas comércio exterior acordo embaixada exportação","Mercado e reputação","Internacional","br"),
  "Poder e regras — municipal":("prefeitura câmara municipal alvará ISS licenciamento empresas","Risco jurídico/regulatório","Municipal","br"),
  "Poder e regras — estadual":("governo estadual ICMS licenciamento empresas regulamentação","Risco jurídico/regulatório","Estadual","br"),
- "Mercado e trabalho":("empresas mercado emprego investimento juros Brasil","Custo e caixa","Nacional","br"),
+ "Mercado e trabalho":("empresa juros corta custos adia investimento reduz contratações reestrutura operação Brasil","Custo e caixa","Nacional","br"),
  "Relações internacionais":("Itamaraty diplomacia embaixada acordo comercial exportação importação empresas Brasil","Mercado e reputação","Internacional","br"),
  "Trabalho e representação":("sindicato convenção coletiva greve negociação empresas","Pessoas e trabalho","Nacional","br"),
- "Pessoas e liderança":("liderança gestão pessoas saúde mental trabalho empresas","Pessoas e trabalho","Nacional","br"),
+ "Pessoas e liderança":("empresa liderança saúde mental trabalho cultura rotatividade afastamento sobrecarga mudança","Pessoas e trabalho","Nacional","br"),
  "NR-1 / AEP":("NR-1 AEP riscos psicossociais empresas","Risco jurídico/regulatório","Nacional","br"),
- "IA e gestão":("inteligência artificial gestão empresas trabalho","Operação e estratégia","Nacional","br"),
- "Mundo corporativo internacional":("CEO company culture workplace leadership business","Pessoas e trabalho","Internacional","us"),
+ "IA e gestão":("empresa inteligência artificial muda trabalho funções empregos liderança automação","Operação e estratégia","Nacional","br"),
+ "Mundo corporativo internacional":("company CEO restructuring layoffs expansion workplace leadership culture acquisition","Pessoas e trabalho","Internacional","us"),
  "Mídia, audiovisual e plataformas":("Netflix Disney Warner Globo SBT Record streaming televisão cinema CEO reestruturação demissões IA publicidade assinaturas","Operação e estratégia","Nacional","br")
 }
 HEADERS={"User-Agent":"Mozilla/5.0 (BastidorGestaoEmPauta/1.0)"}
@@ -76,6 +75,69 @@ def safety(x):
  if any(k in source for k in["sindicato","associação","partido","federação","confederação","sebrae"]):
   return {"label":"Tratar como fonte interessada; buscar documento ou contraponto.","alert":alert},"Fonte institucional"
  return {"label":"Noticiar com redação própria e citar a fonte.","alert":alert},"Repercussão jornalística"
+
+def norm(text):
+ text=unicodedata.normalize("NFKD",text or "").encode("ascii","ignore").decode().lower()
+ return re.sub(r"[^a-z0-9 ]+"," ",text)
+
+PROMO_TERMS=("premio","vencedores","feira de negocios","conference","conferencia","evento","mentor de ceos","livro gratuito","curso gratuito")
+PURE_FINANCE_TERMS=("dolar","bolsas","selic","taxa de juros","dividendos","cotacao","acoes")
+DECISION_TERMS=("investe","investimento","expansao","nova fabrica","reestruturacao","demissao","demite","aquisicao","adquire","fusao","incorpora","fechamento","fecha unidade","renuncia","nomeia","novo ceo","troca de ceo","greve","negociacao","piso salarial","trabalho presencial","home office")
+HUMAN_TERMS=("lideranca","trabalho","empregados","funcionarios","equipe","pessoas","saude mental","riscos psicossociais","sobrecarga","rotatividade","afastamento","cultura","salario","qualificacao","greve","sindicato","contratacao","demissao")
+
+EVENTS=(
+ ("Redução, reestruturação ou fechamento",("corta custos","reducao de custos","reestruturacao","demissao","demite","fechamento","fecha unidade"),"Pressão financeira","Investigar redução de equipe, redistribuição de tarefas, metas, comunicação e segurança no emprego."),
+ ("Expansão ou investimento",("investe","investimento","expansao","nova fabrica","nova unidade","crescer","crescimento"),"Capital e crescimento","Investigar contratação, formação de lideranças, capacidade operacional, cultura e integração da nova estrutura."),
+ ("Fusão, aquisição ou incorporação",("aquisicao","adquire","fusao","incorpora","compra empresa"),"Capital e estratégia","Investigar sobreposição de papéis, integração cultural, autonomia, comunicação e retenção de pessoas."),
+ ("Mudança de comando",("novo ceo","troca de ceo","nomeia","renuncia","sucessao","presidente deixa"),"Governança","Investigar continuidade estratégica, sucessão, confiança interna e efeitos sobre a cultura."),
+ ("Tecnologia e redesenho do trabalho",("inteligencia artificial"," ia ","automacao","tecnologia transforma","digitalizacao"),"Tecnologia e produtividade","Investigar funções alteradas, autonomia, capacitação, critérios de desempenho e insegurança profissional."),
+ ("Relações coletivas de trabalho",("greve","sindicato","convencao coletiva","negociacao coletiva","paralisacao"),"Custo e relações de trabalho","Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação."),
+ ("Regulação com efeito empresarial",("lei","projeto","decreto","regulamentacao","norma","fiscalizacao","piso salarial"),"Regra ou política pública","Confirmar obrigação, prazo, setores atingidos e mudanças necessárias em processo, liderança, qualificação ou condições de trabalho."),
+ ("Risco psicossocial e saúde no trabalho",("saude mental","risco psicossocial","burnout","assedio","afastamento","ansiedade"),"Saúde, risco e continuidade","Investigar organização do trabalho, suporte, relações, liderança, prevenção e acompanhamento."),
+)
+
+def editorial_potential(title,agenda,evidence):
+ text=" "+norm(title)+" "
+ event="Contexto econômico ou empresarial"
+ trigger="Dinheiro, mercado ou reputação"
+ investigation="Confirmar no corpo se existe decisão empresarial e mudança concreta na organização do trabalho."
+ for name,terms,money,question in EVENTS:
+  if any(term in text for term in terms):event,trigger,investigation=name,money,question;break
+ promotional=any(term in text for term in PROMO_TERMS)
+ pure_finance=any(term in text for term in PURE_FINANCE_TERMS) and not any(term in text for term in DECISION_TERMS+HUMAN_TERMS)
+ fact=2 if evidence=="Documento/ato oficial" or any(term in text for term in DECISION_TERMS) else (1 if any(term in text for term in ("ranking","pesquisa","dados","aponta","mostra")) else 0)
+ decision=2 if any(term in text for term in DECISION_TERMS) else (1 if event.startswith("Regulação") else 0)
+ organization=2 if event not in ("Contexto econômico ou empresarial","Regulação com efeito empresarial") else (1 if event.startswith("Regulação") else 0)
+ human=2 if any(term in text for term in HUMAN_TERMS) else (1 if organization else 0)
+ authority=2 if agenda in ("Pessoas e liderança","NR-1 / AEP","Trabalho e representação") or human==2 else (1 if agenda in ("Empresa em Pauta","IA e gestão","Mundo corporativo internacional","Poder e regras") else 0)
+ score=max(0,min(10,fact+decision+organization+human+authority-(4 if promotional else 0)-(3 if pure_finance else 0)))
+ recommendation="Pauta principal" if score>=8 else ("Giro semanal" if score>=6 else ("Acompanhar" if score>=4 else "Não priorizar"))
+ missing=[]
+ if fact<2:missing.append("fato concreto no corpo")
+ if decision<2:missing.append("decisão empresarial")
+ if organization<2:missing.append("mudança organizacional")
+ if human<2:missing.append("consequência humana")
+ return {"score":score,"recommendation":recommendation,"event":event,"economicTrigger":trigger,"organizationalHypothesis":investigation,"questions":["Qual decisão concreta foi tomada?","O que muda no trabalho, nos papéis, nas metas ou nos recursos?","Quem absorve a consequência e qual responsabilidade cabe à liderança?"],"missing":missing,"caveat":"Classificação preliminar baseada em título, fonte e metadados. Não confirma o conteúdo da matéria.","promotional":promotional,"pureFinance":pure_finance}
+
+STOPWORDS={"a","o","as","os","de","da","do","das","dos","e","em","no","na","nos","nas","para","por","com","um","uma","ao","aos","que","como","sobre","brasil","brasileira","brasileiro","the","and","of","to","in","for"}
+def topic_tokens(title,source):
+ base=re.sub(r"\s*[-–—]\s*"+re.escape(source)+r"\s*$","",title,flags=re.I)
+ return {token for token in norm(base).split() if len(token)>2 and token not in STOPWORDS}
+
+def merge_duplicates(items):
+ ordered=sorted(items,key=lambda x:((1 if x["evidence"]=="Documento/ato oficial" else 0),x["score"],x["date"]),reverse=True)
+ result=[]
+ for item in ordered:
+  tokens=topic_tokens(item["title"],item["source"]);match=None
+  for candidate in result:
+   other=topic_tokens(candidate["title"],candidate["source"]);shared=len(tokens&other);union=len(tokens|other) or 1
+   if item["editorialPotential"]["event"]==candidate["editorialPotential"]["event"] and shared>=4 and shared/union>=.36:
+    match=candidate;break
+  if match:
+   match.setdefault("relatedSources",[]).append({"title":item["title"],"source":item["source"],"date":item["date"],"url":item["url"]})
+  else:
+   item["relatedSources"]=[];result.append(item)
+ return result
 
 def audience_for(agenda):
  base={
@@ -255,19 +317,23 @@ for stream,(query,impact,scope,locale) in STREAMS.items():
   if key in seen: continue
   seen.add(key)
   use,evidence=safety(x)
-  score=3+(3 if stream=="Empresa em Pauta" else 0)+(3 if evidence=="Documento/ato oficial" else 0)+(2 if impact in["Custo e caixa","Risco jurídico/regulatório"] else 0)
+  agenda="Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream)))
+  potential=editorial_potential(x["title"],agenda,evidence)
+  score=potential["score"]*10
   local=(" Para pauta municipal ou estadual, confirmar o território, o ato aplicável, as empresas/setores afetados e se o efeito é local ou pode se repetir em outros lugares." if scope in ["Municipal","Estadual"] else "")
   compare=(" Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil — sem presumir equivalência." if scope=="Internacional" else "")
   items.append({
    "id":re.sub(r"[^a-z0-9]+","-",key)[:90],
-   "agenda":"Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream))),
+   "agenda":agenda,
    "impact":impact,"scope":scope,
    "territory":"Confirmar na fonte" if scope in ["Municipal","Estadual"] else ("Brasil" if scope in ["Federal","Nacional"] else "Internacional"),
    "evidence":evidence,"sourceType":"Fonte jornalística ou institucional — confirmar origem","score":score,**x,
-   "summary":"Notícia coletada para triagem. Abra a fonte e valide o fato antes de transformá-lo em análise.",
-   "angle":f"O que este fato pode mudar para empresas em {impact.lower()}? Separar fato confirmado, declaração da fonte e consequência gerencial antes de gravar."+local+compare,
-   "origin":origin(x["title"],locale),"audience":audience_for("Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream)))),"packaging":packaging_for("Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream))),impact),"use":use
+   "summary":f"Candidata localizada. Cenário preliminar: {potential['event']}. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
+   "angle":potential["organizationalHypothesis"]+local+compare,
+   "editorialPotential":potential,
+   "origin":origin(x["title"],locale),"audience":audience_for(agenda),"packaging":packaging_for(agenda,impact),"use":use
   })
+items=merge_duplicates(items)
 items.sort(key=lambda x:(x["score"],x["date"]),reverse=True)
 # A análise com IA é sob demanda: a coleta e os filtros não consomem crédito.
 Path("data/news.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":items},ensure_ascii=False,indent=2),encoding="utf-8")

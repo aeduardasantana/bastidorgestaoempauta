@@ -104,7 +104,7 @@ JOURNALISTIC_WORDS=("valor","exame","infomoney","bloomberg","cnn","globo news","
 def agenda_for_stream(stream):
  return "Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream)))
 def duration_label(v):
- m=re.fullmatch(r"PT(?:(\\d+)H)?(?:(\\d+)M)?(?:(\\d+)S)?",v or "")
+ m=re.fullmatch(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?",v or "")
  if not m:return "Duração não informada"
  h,mi,se=[int(x or 0) for x in m.groups()]
  return (f"{h}h " if h else "")+(f"{mi}min " if mi else "")+f"{se}s"

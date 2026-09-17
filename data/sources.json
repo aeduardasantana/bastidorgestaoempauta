@@ -290,6 +290,53 @@
       "function": "Mapeia leituras de mercado, gestão, liderança e contexto do tema.",
       "alignment": "Ajuda a identificar debate existente e diferenciais de abordagem para o Gestão em Pauta.",
       "care": "Serve para repertório, mapeamento do debate e identificação de ângulos já explorados. Não usar análise de terceiro como prova do acontecimento; separar opinião, comentário e dado verificável."
+    },
+    {
+      "source": "Reclame Aqui",
+      "group": "Reputação e experiência do consumidor",
+      "type": "Plataforma de reputação e experiência do consumidor",
+      "status": "Consulta dirigida",
+      "flow": "Sinal, acompanhamento e evidência contextual",
+      "function": "Identificar recorrência de reclamações, mudanças percebidas na experiência do consumidor e possíveis sinais reputacionais ou operacionais.",
+      "alignment": "Reputação, experiência do cliente, operação, qualidade, mudança organizacional e risco empresarial.",
+      "care": "Não generalizar reclamações da plataforma para toda a base de clientes; verificar volume, período, natureza e outras fontes."
+    },
+    {
+      "source": "GPTW",
+      "group": "Referência técnica e ambiente de trabalho",
+      "type": "Referência técnica e certificadora privada",
+      "status": "Consulta dirigida",
+      "flow": "Referência, contexto e descoberta",
+      "function": "Pesquisas, rankings, certificações e conteúdos sobre experiência do trabalhador, cultura e ambiente organizacional.",
+      "alignment": "Desenvolvimento humano aplicado ao trabalho, liderança, cultura e experiência dos trabalhadores.",
+      "care": "Rankings, pesquisas e certificações seguem metodologia própria e não equivalem a auditoria integral da organização."
+    }
+  ],
+  "interestSignals": [
+    {
+      "source": "Google Trends",
+      "status": "Integração futura",
+      "role": "Atenção de busca"
+    },
+    {
+      "source": "X/Twitter",
+      "status": "Integração futura",
+      "role": "Conversação pública"
+    },
+    {
+      "source": "YouTube",
+      "status": "Pesquisa já disponível; sinal editorial futuro",
+      "role": "Interesse audiovisual e repertório"
+    },
+    {
+      "source": "Comunidades especializadas",
+      "status": "Integração futura",
+      "role": "Debate setorial"
+    },
+    {
+      "source": "Mercado em movimento",
+      "status": "Arquitetura preparada",
+      "role": "Sinal para investigar o acontecimento empresarial subjacente"
     }
   ]
 }

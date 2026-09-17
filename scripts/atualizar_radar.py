@@ -179,6 +179,15 @@ Motivo pelo qual a extração direta não bastou: {reason}"""
   print("falha IA web",item.get("title","")[:80],type(error).__name__)
   return {"status":"revisao_manual","reason":"A publicação original não ficou acessível para validação nesta execução."}
 
+def enrich_item_from_analysis(item,analysis):
+ if not analysis.get("status","").startswith("analisado"):return
+ editorial=analysis.get("editorial",{})
+ item["summary"]=analysis.get("factual_summary") or item["summary"]
+ item["angle"]=editorial.get("angle") or item["angle"]
+ defaults=audience_for(item["agenda"])
+ item["audience"]={"public":editorial.get("audience") or defaults["public"],"interest":analysis.get("relevance",{}).get("reason") or defaults["interest"],"search":editorial.get("search_intent") or defaults["search"],"sensation":defaults["sensation"]}
+ item["packaging"]={**packaging_for(item["agenda"],item["impact"]),"opening":editorial.get("angle") or packaging_for(item["agenda"],item["impact"])["opening"],"thumbnail":editorial.get("headline") or packaging_for(item["agenda"],item["impact"])["thumbnail"],"keywords":editorial.get("search_intent") or packaging_for(item["agenda"],item["impact"])["keywords"],"hashtags":editorial.get("hashtags","")}
+
 def apply_body_analysis(items):
  if not OPENAI_API_KEY:
   print("OPENAI_API_KEY ausente; análise de corpo não executada.");return
@@ -186,15 +195,10 @@ def apply_body_analysis(items):
  for item in candidates:
   body,final_url,reason=extract_article_body(item.get("url",""))
   if not body:
-   item["bodyAnalysis"]=analyze_by_source_lookup(item,reason or "Corpo indisponível para análise.");continue
+   analysis=analyze_by_source_lookup(item,reason or "Corpo indisponível para análise.")
+   item["bodyAnalysis"]=analysis;enrich_item_from_analysis(item,analysis);continue
   analysis=analyze_article(item,body,final_url);item["bodyAnalysis"]=analysis
-  if analysis.get("status","").startswith("analisado"):
-   editorial=analysis.get("editorial",{})
-   item["summary"]=analysis.get("factual_summary") or item["summary"]
-   item["angle"]=editorial.get("angle") or item["angle"]
-   defaults=audience_for(item["agenda"])
-   item["audience"]={"public":editorial.get("audience") or defaults["public"],"interest":analysis.get("relevance",{}).get("reason") or defaults["interest"],"search":editorial.get("search_intent") or defaults["search"],"sensation":defaults["sensation"]}
-   item["packaging"]={**packaging_for(item["agenda"],item["impact"]),"opening":editorial.get("angle") or packaging_for(item["agenda"],item["impact"])["opening"],"thumbnail":editorial.get("headline") or packaging_for(item["agenda"],item["impact"])["thumbnail"],"keywords":editorial.get("search_intent") or packaging_for(item["agenda"],item["impact"])["keywords"],"hashtags":editorial.get("hashtags","")}
+  enrich_item_from_analysis(item,analysis)
 
 YOUTUBE_API_KEY=os.environ.get("YOUTUBE_API_KEY","")
 INSTITUTIONAL_CHANNELS=("tv senado","senado federal","câmara dos deputados","camara dos deputados","tv câmara","tv camara","govbr","ministério do trabalho e emprego","ministerio do trabalho e emprego","itamaraty","banco central do brasil","receita federal","mte")

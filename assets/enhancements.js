@@ -14,6 +14,36 @@ document.addEventListener("click",e=>{const b=e.target.closest(".detail-button")
 function editPauta(){const list=document.querySelector("#pautaList"),items=Object.values(selections);list.innerHTML=items.length?items.map(x=>'<div class="detail-box"><b>'+x.title+'</b><br><small>'+x.agenda+' - '+x.source+'</small><br><label>Destino <select data-status="'+x.id+'"><option value="">Classificar depois</option><option value="gravar">Gravar agora</option><option value="giro">Reservar para o Giro</option><option value="acompanhar">Acompanhar</option><option value="nao-usar">Não usar</option></select></label> <button class="text-button" data-remove="'+x.id+'">Remover</button></div>').join(""):"<p>Nenhuma notícia na pauta.</p>";list.querySelectorAll("[data-status]").forEach(s=>{s.value=selections[s.dataset.status].status||"";s.onchange=()=>{selections[s.dataset.status].status=s.value;save();editPauta()}});list.querySelectorAll("[data-remove]").forEach(b=>b.onclick=()=>{delete selections[b.dataset.remove];save();editPauta()});document.querySelector("#pautaDialog").showModal()}
 document.querySelector("#editPauta").onclick=editPauta;document.querySelector("[data-close-pauta]").onclick=()=>document.querySelector("#pautaDialog").close();
 
+const copyDetailButton=document.createElement("button");copyDetailButton.type="button";copyDetailButton.className="button copy-detail";copyDetailButton.textContent="Copiar para análise no ChatGPT";document.querySelector("#detailDialog .dialog-head [data-close]").before(copyDetailButton);
+function currentDetailItem(){const title=document.querySelector("#detailTitle")?.textContent;return [...news,...videos].find(item=>item.title===title)}
+function copyFallback(text){const area=document.createElement("textarea");area.value=text;area.setAttribute("readonly","");area.style.position="fixed";area.style.opacity="0";document.body.append(area);area.select();document.execCommand("copy");area.remove()}
+async function copyDetailForChatGPT(){const item=currentDetailItem(),content=document.querySelector("#detailContent")?.innerText.trim()||"",text=`GESTÃO EM PAUTA - SOLICITAÇÃO DE ANÁLISE EDITORIAL
+
+NOTÍCIA LOCALIZADA
+Título: ${item?.title||document.querySelector("#detailTitle")?.textContent||""}
+Fonte: ${item?.source||"Não identificada"}
+Data: ${item?.date||"Não identificada"}
+Link: ${item?.url||"Não disponível"}
+Agenda preliminar: ${item?.agenda||"Não classificada"}
+
+DADOS COPIADOS DA JANELA “ORIGEM, USO E SEGURANÇA EDITORIAL”
+${content}
+
+TAREFA PARA O CHATGPT
+Acesse a publicação original e leia o corpo da matéria. O título, o score e as hipóteses do Bastidor servem apenas para localizar e orientar a investigação; não os trate como prova.
+
+1. Separe fatos confirmados, declarações atribuídas e hipóteses.
+2. Identifique o fato econômico, regulatório ou empresarial que iniciou o acontecimento.
+3. Verifique se existe uma decisão empresarial concreta.
+4. Explique eventual mudança na organização do trabalho, sem inventar consequências ausentes na fonte.
+5. Identifique pessoas ou grupos afetados e a responsabilidade da liderança.
+6. Avalie a aderência ao Gestão em Pauta e ao Desenvolvimento Humano Aplicado ao Trabalho.
+7. Classifique como: Pauta principal, Giro semanal, Acompanhar ou Não usar.
+8. Sugira manchete, perspectiva de análise, público interessado, buscas prováveis, hashtags e uma prévia do que Eduarda poderia falar.
+9. Informe restrições de reprodução e diferencie propriedade da informação de propriedade do texto.
+10. Se o corpo da fonte não estiver acessível, declare essa limitação e não complete lacunas.`;try{await navigator.clipboard.writeText(text)}catch{copyFallback(text)}copyDetailButton.textContent="Copiado ✓";setTimeout(()=>copyDetailButton.textContent="Copiar para análise no ChatGPT",1800)}
+copyDetailButton.onclick=copyDetailForChatGPT;
+
 // A curadoria por API está desativada. Coleta, filtros e classificação são gratuitos.
 function scoreInfo(x){const p=x.editorialPotential;if(p)return {value:p.score*10,label:p.recommendation,note:"Potencial editorial preliminar. Usa somente título, fonte e metadados; não substitui a leitura."};if(x.score===null||x.score===undefined)return {value:null,label:"Em cálculo",note:"Sem dados suficientes para priorizar."};const value=Math.max(0,Math.min(100,x.score>11?Math.round(x.score):Math.round(((x.score-3)/8)*100)));return {value,label:value>=75?"Pauta principal":value>=50?"Giro semanal":value>=25?"Acompanhar":"Não priorizar",note:"Triagem preliminar; confirme o corpo da fonte."}}
 function potentialBox(x){const p=x.editorialPotential;if(!p)return '<div class="detail-box warn"><b>Potencial editorial ainda não recalculado.</b><br>Aguarde a próxima atualização do radar.</div>';const questions=(p.questions||[]).map(q=>'<li>'+plain(q)+'</li>').join(""),missing=(p.missing||[]).map(q=>'<li>'+plain(q)+'</li>').join(""),related=(x.relatedSources||[]).map(s=>'<li><a href="'+safeUrl(s.url)+'" target="_blank" rel="noopener">'+plain(s.source)+' - '+plain(s.title)+'</a></li>').join("");return '<div class="detail-box"><b>Leitura sistêmica preliminar</b><br><small>'+plain(p.caveat)+'</small><br><br><b>Recomendação:</b> '+plain(p.recommendation)+' - '+p.score+'/10<br><b>Cenário:</b> '+plain(p.event)+'<br><b>Porta de entrada:</b> '+plain(p.economicTrigger)+'<br><b>Questão organizacional:</b> '+plain(p.organizationalHypothesis)+(questions?'<br><b>Perguntas para validar no corpo:</b><ul>'+questions+'</ul>':"")+(missing?'<b>Ainda precisa confirmar:</b><ul>'+missing+'</ul>':"")+(related?'<b>Outras fontes do mesmo acontecimento:</b><ul>'+related+'</ul>':"")+'</div>'}
@@ -21,7 +51,7 @@ function analysisBox(x){const preliminary=potentialBox(x),b=x.bodyAnalysis;if(!b
 
 function decorateCuratedCards(){document.querySelectorAll(".news-card").forEach(card=>{if(card.querySelector(".curation-verdict"))return;const item=news.find(x=>x.title===card.querySelector("h4")?.textContent),analysis=item?.bodyAnalysis,p=item?.editorialPotential;if(!item)return;const box=document.createElement("div");box.className="curation-verdict "+(analysis?.status?.startsWith("analisado")?"ready":(p?.recommendation==="Não priorizar"?"manual":"preliminary"));box.innerHTML=analysis?.status?.startsWith("analisado")?'<b>'+plain(analysis.relevance?.verdict||"A validar")+'</b><span>Curadoria anterior preservada</span>':'<b>'+plain(p?.recommendation||"Triagem manual")+'</b><span>'+(p?plain(p.event)+' - hipótese para validar na fonte':'Aguardando atualização do radar')+'</span>';card.querySelector(".summary").after(box)})}
 const gridObserver=new MutationObserver(decorateCuratedCards);gridObserver.observe(document.querySelector("#newsGrid"),{childList:true});
-document.head.insertAdjacentHTML("beforeend",'<style>.curation-verdict{padding:10px 12px;background:#e5eee9;border-left:3px solid #1f4b42;display:grid;gap:4px;font-size:12px}.curation-verdict.preliminary{background:#edf0f2;border-color:#718596}.curation-verdict.manual{background:#f5e7df;border-color:#9b5c3b}.curation-verdict span{color:#52606c;line-height:1.35}</style>');
+document.head.insertAdjacentHTML("beforeend",'<style>.copy-detail{margin-left:auto;margin-right:12px;white-space:nowrap}.curation-verdict{padding:10px 12px;background:#e5eee9;border-left:3px solid #1f4b42;display:grid;gap:4px;font-size:12px}.curation-verdict.preliminary{background:#edf0f2;border-color:#718596}.curation-verdict.manual{background:#f5e7df;border-color:#9b5c3b}.curation-verdict span{color:#52606c;line-height:1.35}@media(max-width:600px){#detailDialog .dialog-head{flex-wrap:wrap}.copy-detail{order:3;width:100%;margin:12px 0 0;text-align:center}}</style>');
 
 const potentialLabel=document.createElement("label");potentialLabel.innerHTML='Potencial editorial<select id="potentialFilter"><option value="Todos">Todos os potenciais</option><option>Pauta principal</option><option>Giro semanal</option><option>Acompanhar</option><option>Não priorizar</option></select>';document.querySelector("#apply").before(potentialLabel);
 const filterBeforePotential=filter;filter=function(){const items=filterBeforePotential(),choice=document.querySelector("#potentialFilter")?.value||"Todos";return choice==="Todos"?items:items.filter(x=>x.editorialPotential?.recommendation===choice)};

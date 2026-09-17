@@ -51,9 +51,72 @@ function analysisBox(x){const preliminary=potentialBox(x),b=x.bodyAnalysis;if(!b
 
 function decorateCuratedCards(){document.querySelectorAll(".news-card").forEach(card=>{if(card.querySelector(".curation-verdict"))return;const item=news.find(x=>x.title===card.querySelector("h4")?.textContent),analysis=item?.bodyAnalysis,p=item?.editorialPotential;if(!item)return;const box=document.createElement("div");box.className="curation-verdict "+(analysis?.status?.startsWith("analisado")?"ready":(p?.recommendation==="Não priorizar"?"manual":"preliminary"));box.innerHTML=analysis?.status?.startsWith("analisado")?'<b>'+plain(analysis.relevance?.verdict||"A validar")+'</b><span>Curadoria anterior preservada</span>':'<b>'+plain(p?.recommendation||"Triagem manual")+'</b><span>'+(p?plain(p.event)+' - hipótese para validar na fonte':'Aguardando atualização do radar')+'</span>';card.querySelector(".summary").after(box)})}
 const gridObserver=new MutationObserver(decorateCuratedCards);gridObserver.observe(document.querySelector("#newsGrid"),{childList:true});
-document.head.insertAdjacentHTML("beforeend",'<style>.copy-detail{margin-left:auto;margin-right:8px;padding:5px 7px;white-space:nowrap;text-decoration:none;font-size:11px;color:#80561f;border:1px solid transparent;border-radius:3px}.copy-detail:hover{border-color:#d8d2c7;background:#f2eee6}.curation-verdict{padding:10px 12px;background:#e5eee9;border-left:3px solid #1f4b42;display:grid;gap:4px;font-size:12px}.curation-verdict.preliminary{background:#edf0f2;border-color:#718596}.curation-verdict.manual{background:#f5e7df;border-color:#9b5c3b}.curation-verdict span{color:#52606c;line-height:1.35}@media(max-width:600px){.copy-detail{margin-left:auto}}</style>');
+document.head.insertAdjacentHTML("beforeend",'<style>.copy-detail{margin-left:auto;margin-right:8px;padding:5px 7px;white-space:nowrap;text-decoration:none;font-size:11px;color:#80561f;border:1px solid transparent;border-radius:3px}.copy-detail:hover{border-color:#d8d2c7;background:#f2eee6}.results-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}.copy-results{padding:6px 8px;white-space:nowrap;text-decoration:none;font-size:11px;color:#80561f;border:1px solid #d8d2c7;border-radius:3px;background:transparent}.copy-results:hover{background:#f2eee6;border-color:#b48b53}.copy-results:disabled{color:#899099;border-color:#ddd8cf;cursor:not-allowed}.curation-verdict{padding:10px 12px;background:#e5eee9;border-left:3px solid #1f4b42;display:grid;gap:4px;font-size:12px}.curation-verdict.preliminary{background:#edf0f2;border-color:#718596}.curation-verdict.manual{background:#f5e7df;border-color:#9b5c3b}.curation-verdict span{color:#52606c;line-height:1.35}@media(max-width:600px){.copy-detail{margin-left:auto}.results-actions{justify-content:flex-start}}</style>');
 
 const potentialLabel=document.createElement("label");potentialLabel.innerHTML='Potencial editorial<select id="potentialFilter"><option value="Todos">Todos os potenciais</option><option>Pauta principal</option><option>Giro semanal</option><option>Acompanhar</option><option>Não priorizar</option></select>';document.querySelector("#apply").before(potentialLabel);
 const filterBeforePotential=filter;filter=function(){const items=filterBeforePotential(),choice=document.querySelector("#potentialFilter")?.value||"Todos";return choice==="Todos"?items:items.filter(x=>x.editorialPotential?.recommendation===choice)};
 document.querySelector("#potentialFilter").onchange=render;
 document.querySelector(".notice small").innerHTML='<b>Potencial editorial:</b> 0–3 Não priorizar · 4–5 Acompanhar · 6–7 Giro semanal · 8–10 Pauta principal. É uma hipótese baseada em título, fonte e metadados; confirme o corpo da publicação.';
+
+const copyResultsButton=document.createElement("button");copyResultsButton.type="button";copyResultsButton.className="text-button copy-results";copyResultsButton.title="Copiar os resultados filtrados para uma curadoria geral no ChatGPT";
+const resultsActions=document.createElement("div");resultsActions.className="results-actions";const clearSelectionButton=document.querySelector("#clearSelection");clearSelectionButton.before(resultsActions);resultsActions.append(copyResultsButton,clearSelectionButton);
+function selectedOptionText(selector){const select=document.querySelector(selector);return select?.selectedOptions?.[0]?.textContent?.trim()||"Não informado"}
+function listText(values){return Array.isArray(values)&&values.length?values.map(value=>`- ${value}`).join("\n"):"- Não informado"}
+function resultForChatGPT(item,index){const potential=item.editorialPotential||{},body=item.bodyAnalysis||{},origin=item.origin||{},related=item.relatedSources||[],audience=audienceFor(item),packaging=packagingFor(item),use=item.use||{};return `RESULTADO ${index+1}
+Título localizado: ${item.title||"Não informado"}
+Fonte exibida: ${item.source||"Não identificada"}
+Data: ${item.date||"Não identificada"}
+Link: ${item.url||"Não disponível"}
+Agenda: ${item.agenda||"Não classificada"}
+Consequência: ${item.impact||"Não classificada"}
+Abrangência: ${item.scope||"Não classificada"}
+Evidência: ${item.evidence||"Não classificada"}
+Resumo coletado: ${item.summary||"Não informado"}
+Potencial preliminar: ${potential.score??"Não calculado"}/10 — ${potential.recommendation||"Não classificado"}
+Cenário preliminar: ${potential.event||"Não informado"}
+Porta de entrada econômica/regulatória: ${potential.economicTrigger||"Não informada"}
+Hipótese organizacional: ${potential.organizationalHypothesis||item.angle||"Não informada"}
+Perguntas para validar no corpo:
+${listText(potential.questions)}
+Ainda precisa confirmar:
+${listText(potential.missing)}
+Publicação mais antiga localizada: ${origin.found?`${origin.source||"Fonte não identificada"} — ${origin.date||"data não identificada"} — ${origin.url||"link não disponível"}`:"Não localizada automaticamente"}
+Fontes relacionadas ao mesmo acontecimento:
+${related.length?related.map(source=>`- ${source.source||"Fonte não identificada"}: ${source.title||"Sem título"} — ${source.url||"sem link"}`).join("\n"):"- Nenhuma relacionada pelo sistema"}
+Uso editorial indicado: ${use.label||"Usar redação própria e atribuir a fonte."}
+Alerta de reprodução: ${use.alert||"Confirmar direitos e não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiros."}
+Curadoria anterior do corpo: ${body.status||"Não executada"}${body.relevance?.verdict?` — ${body.relevance.verdict}: ${body.relevance.reason||""}`:""}
+Público preliminar: ${audience.public}
+Busca provável preliminar: ${audience.search}
+Empacotamento preliminar: ${packaging.thumbnail} | ${packaging.keywords}`}
+function filteredResultsText(){const items=filter(),search=document.querySelector("#searchInput")?.value.trim()||"Sem termo",kind=mode==="news"?"Notícias":"Vídeos";return `GESTÃO EM PAUTA — SOLICITAÇÃO DE CURADORIA GERAL
+
+RESULTADOS ATUALMENTE FILTRADOS NO BASTIDOR
+Tipo: ${kind}
+Período: ${selectedOptionText("#period")}
+Agenda: ${selectedOptionText("#agenda")}
+Consequência: ${selectedOptionText("#impact")}
+Fonte/evidência: ${selectedOptionText("#evidence")}
+Abrangência: ${selectedOptionText("#scope")}
+Potencial editorial: ${selectedOptionText("#potentialFilter")}
+Busca digitada: ${search}
+Quantidade: ${items.length}
+
+${items.map(resultForChatGPT).join("\n\n────────────────────────────\n\n")}
+
+TAREFA PARA O CHATGPT
+Faça uma curadoria comparativa de todos os resultados. Não decida apenas por título, resumo ou score do Bastidor: eles são hipóteses de descoberta. Acesse os links, leia o corpo das publicações e declare o que não conseguir verificar.
+
+1. Analise cada resultado individualmente e agrupe os que tratam do mesmo acontecimento.
+2. Localize e priorize a fonte original, oficial ou mais antiga; diferencie fonte interessada, documento oficial e repercussão jornalística.
+3. Separe fatos confirmados, declarações atribuídas, interpretações, hipóteses e inferências. Não invente efeitos humanos nem faça aconselhamento jurídico.
+4. Informe restrições de reprodução: a informação pode ser noticiada com redação própria; texto, imagem, vídeo, tabela e infográfico de terceiros não devem ser copiados sem autorização.
+5. Avalie cada acontecimento pelo percurso: dinheiro/regra/mercado → decisão empresarial → mudança no trabalho → pessoas → responsabilidade da liderança.
+6. Julgue a aderência ao Gestão em Pauta, ao Desenvolvimento Humano Aplicado ao Trabalho e à atuação do GEB, considerando empresários, CEOs, diretores, lideranças, RH, SST, jurídico, financeiro e gestores.
+7. Entregue um ranking e classifique em: Pauta principal, Segunda opção, Giro semanal, Acompanhar ou Não priorizar. Descarte conteúdo meramente promocional, evento, lista ou opinião genérica.
+8. Para as pautas viáveis, proponha manchete baseada no corpo, perspectiva própria da Eduarda, público-alvo, motivo de interesse, pesquisas prováveis, palavras-chave, hashtags e uma breve prévia do que ela poderia falar.
+9. Explique por que a primeira pauta é superior às demais e quais fatos ainda precisam ser confirmados.
+10. Não escreva o roteiro completo antes que eu escolha a pauta.`}
+function updateCopyResultsButton(){const count=filter().length;copyResultsButton.disabled=!count;copyResultsButton.textContent=count?`⧉ Copiar ${count} resultado${count===1?"":"s"}`:"⧉ Sem resultados"}
+async function copyFilteredResults(){const text=filteredResultsText();try{await navigator.clipboard.writeText(text)}catch{copyFallback(text)}copyResultsButton.textContent="✓ Resultados copiados";setTimeout(updateCopyResultsButton,1800)}
+copyResultsButton.onclick=copyFilteredResults;const copyResultsObserver=new MutationObserver(updateCopyResultsButton);copyResultsObserver.observe(document.querySelector("#newsGrid"),{childList:true});updateCopyResultsButton();

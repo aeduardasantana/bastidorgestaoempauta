@@ -129,11 +129,13 @@ def merge_duplicates(items):
  result=[]
  for item in ordered:
   tokens=topic_tokens(item["title"],item["source"]);match=None
+  item_cluster=("bancarios-caixa-bb" if item["editorialPotential"]["event"]=="Relações coletivas de trabalho" and ("caixa" in tokens or "bancarios" in tokens or ("banco" in tokens and "brasil" in tokens)) else "")
   for candidate in result:
    other=topic_tokens(candidate["title"],candidate["source"]);shared=len(tokens&other);union=len(tokens|other) or 1
    same_event=item["editorialPotential"]["event"]==candidate["editorialPotential"]["event"]
    labor_event=item["editorialPotential"]["event"]=="Relações coletivas de trabalho"
-   if same_event and ((shared>=4 and shared/union>=.36) or (labor_event and shared>=3 and shared/union>=.24)):
+   candidate_cluster=("bancarios-caixa-bb" if labor_event and ("caixa" in other or "bancarios" in other or ("banco" in other and "brasil" in other)) else "")
+   if same_event and ((item_cluster and item_cluster==candidate_cluster) or (shared>=4 and shared/union>=.36) or (labor_event and shared>=3 and shared/union>=.24)):
     match=candidate;break
   if match:
    match.setdefault("relatedSources",[]).append({"title":item["title"],"source":item["source"],"date":item["date"],"url":item["url"]})

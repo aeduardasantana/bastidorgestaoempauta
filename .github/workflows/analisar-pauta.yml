@@ -7,14 +7,14 @@ permissions:
   issues: write
 jobs:
   analisar:
-    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, '[ANALISAR]')
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, '[CURADORIA]')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Analisar conteúdo escolhido
+      - name: Analisar todos os resultados escolhidos
         run: python scripts/analisar_pauta.py
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -23,13 +23,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/news.json
-          git commit -m "Analisa pauta selecionada #${{ github.event.issue.number }}"
+          git commit -m "Publica curadoria geral #${{ github.event.issue.number }}"
           git pull --rebase origin main
           git push
       - name: Confirmar conclusão
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh issue comment "${{ github.event.issue.number }}" --body "Análise concluída e publicada no Bastidor. Aguarde a atualização do GitHub Pages e recarregue a página."
+          gh issue comment "${{ github.event.issue.number }}" --body "Curadoria geral concluída e publicada no Bastidor. Aguarde a atualização do GitHub Pages e recarregue a página."
           gh issue close "${{ github.event.issue.number }}"
-

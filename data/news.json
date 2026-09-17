@@ -109,120 +109,22 @@
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       },
-      "relatedSources": []
-    },
-    {
-      "id": "greve-do-banco-do-brasil-termina-na-maior-parte-do-pa-s-ap-s-aprova-o-de-acordo-g1g1",
-      "agenda": "Trabalho e representação",
-      "impact": "Pessoas e trabalho",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Repercussão jornalística",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 100,
-      "title": "Greve do Banco do Brasil termina na maior parte do país após aprovação de acordo - G1",
-      "source": "G1",
-      "date": "2026-09-11",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR3hseXJPTmY3WUNoeE1yMGRPOTVZTWZGc0JELWRWMlV2a0tpZ25LNDh1WHBuUzBJeDBkWWtVTndVT2tEWVZSOC0wcjA0REpMeEhGNU9Ha3ppakhPR050cnhSS0lRZW5uX1Jtd3h4QXJqVm92Q1pfN0xZTnVvTHFEdWxfaHJGbTFPd29sOEJ1dklyZDJiSDhrTDZSeFdqSkZKbWRRN3VaeXZaZ9IBuAFBVV95cUxPaWhBQldiRzhLWjN6b1VDWEQwV3dId05zbm5uX0cxTHBLbUVFX0k3eTNTNEJic3VFWDZvTFJwbVZJNmx3aXBPMEdtZkgzbi1YRTUyRndYbjFfN3RHcXZWcTFkVHVONlQ0WDlfMVJVMVlhSDRfYUZ6cXhDX2Z3Vkx4TjlKMjF5aXQ0TkQ0VU9IY1hGS0c2a1F5WnE2Nk1vdjBGbWd6b1pwX2o0cDJpSG10N1RsSGlNcWlE?oc=5",
-      "summary": "Candidata localizada. Cenário preliminar: Relações coletivas de trabalho. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
-      "angle": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
-      "editorialPotential": {
-        "score": 10,
-        "recommendation": "Pauta principal",
-        "event": "Relações coletivas de trabalho",
-        "economicTrigger": "Custo e relações de trabalho",
-        "organizationalHypothesis": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
-        "questions": [
-          "Qual decisão concreta foi tomada?",
-          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
-          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
-        ],
-        "missing": [],
-        "caveat": "Classificação preliminar baseada em título, fonte e metadados. Não confirma o conteúdo da matéria.",
-        "promotional": false,
-        "pureFinance": false
-      },
-      "origin": {
-        "found": false
-      },
-      "audience": {
-        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
-        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
-        "search": "convenção coletiva empresas; sindicato negociação empresas",
-        "sensation": "Segurança e pertencimento"
-      },
-      "packaging": {
-        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Noticiar com redação própria e citar a fonte.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      },
-      "relatedSources": []
-    },
-    {
-      "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
-      "agenda": "Trabalho e representação",
-      "impact": "Pessoas e trabalho",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Repercussão jornalística",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 100,
-      "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
-      "source": "O GLOBO",
-      "date": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVGV4c2NWYXV0ZUZodGFvYlJjU0NhMXg4bUEzQ29WUEQtNGg1TmM0WTFfUlpRWGsxVjVqZUR2TEpsencwVUJSOW1FMjY5cUxPZ1o2aUE3b1B3Vm5Hd0tZaFp4V3ZYOTdRYllxRDhTSDM4MzZ6WkFxOGZzbmpzRXpzakFOZFBscm5NWjJiSnBCUjEySjFsU1Y3RV9QUzFWQjhEXzVUdTk5VkR5Rl90X0FHam40MElvQm5tRWhLUjBrUjMweXIxLWtFRzBkdlhhRmxRbk1LT24xM1I1YW9NSzZkeFF1bzBuU1VmaFpGTNIB-wFBVV95cUxQS0R2WndZdEptNjdKaW53Qk9VaUFsOG9tREZSOUFBdDAyUkJQN0ZfVUIyQTAzeHpKNU1pMWd4UmhrQjhUWWpFTDBFbXU1SllxQ0tBZWdmMGJsUWVoeHprb3VtUlhhekRlMmxUREdIaUw2Rzd1bXl4SXVYMloyQXVJUTc3cnZYTktyYS1iRHRsaGhHREVXdjZ3WWI1TFJjQVlWVlNTSndKQjFtdW14YXZTUUowV3VCcGJ2akVtOWpQaVZRb2RPeV9sRGtfSGR4UlFoMzZ4WkhINmxVbGllYkZZZ3czNk1XQlB2VU8xMEp5bWEtN0tycGYwdTBLbw?oc=5",
-      "summary": "Candidata localizada. Cenário preliminar: Relações coletivas de trabalho. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
-      "angle": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
-      "editorialPotential": {
-        "score": 10,
-        "recommendation": "Pauta principal",
-        "event": "Relações coletivas de trabalho",
-        "economicTrigger": "Custo e relações de trabalho",
-        "organizationalHypothesis": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
-        "questions": [
-          "Qual decisão concreta foi tomada?",
-          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
-          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
-        ],
-        "missing": [],
-        "caveat": "Classificação preliminar baseada em título, fonte e metadados. Não confirma o conteúdo da matéria.",
-        "promotional": false,
-        "pureFinance": false
-      },
-      "origin": {
-        "found": true,
-        "title": "CSN recebe mais de três propostas por ativos de infraestrutura | Setembro 2026 - XP Investimentos",
-        "source": "XP Investimentos",
-        "date": "2026-09-15",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeDF5dWpjbzltZldWbEtPWldzV0hWY202M21IOHlzbmpxOWZlUk9pMnJUUVcwbXREd0I2RGNMRXY3NE9WRWRBR1pqMHljeUlUb2Nwakk4Qk4wRlRpWG91QVk0dVhaTEZvcVVmSXF1Q0x2bjNIOHRBeTl2VFlIdXllMTR6M0Y3N1dnWnZEUUNXN0VhelE4YzFicQ?oc=5"
-      },
-      "audience": {
-        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
-        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
-        "search": "convenção coletiva empresas; sindicato negociação empresas",
-        "sensation": "Segurança e pertencimento"
-      },
-      "packaging": {
-        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Noticiar com redação própria e citar a fonte.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      },
       "relatedSources": [
         {
-          "title": "Caixa entra em greve nacional e Banco do Brasil tem paralisação parcial a partir desta quinta-feira - G1",
-          "source": "G1",
+          "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
+          "source": "O GLOBO",
+          "date": "2026-09-10",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVGV4c2NWYXV0ZUZodGFvYlJjU0NhMXg4bUEzQ29WUEQtNGg1TmM0WTFfUlpRWGsxVjVqZUR2TEpsencwVUJSOW1FMjY5cUxPZ1o2aUE3b1B3Vm5Hd0tZaFp4V3ZYOTdRYllxRDhTSDM4MzZ6WkFxOGZzbmpzRXpzakFOZFBscm5NWjJiSnBCUjEySjFsU1Y3RV9QUzFWQjhEXzVUdTk5VkR5Rl90X0FHam40MElvQm5tRWhLUjBrUjMweXIxLWtFRzBkdlhhRmxRbk1LT24xM1I1YW9NSzZkeFF1bzBuU1VmaFpGTNIB-wFBVV95cUxQS0R2WndZdEptNjdKaW53Qk9VaUFsOG9tREZSOUFBdDAyUkJQN0ZfVUIyQTAzeHpKNU1pMWd4UmhrQjhUWWpFTDBFbXU1SllxQ0tBZWdmMGJsUWVoeHprb3VtUlhhekRlMmxUREdIaUw2Rzd1bXl4SXVYMloyQXVJUTc3cnZYTktyYS1iRHRsaGhHREVXdjZ3WWI1TFJjQVlWVlNTSndKQjFtdW14YXZTUUowV3VCcGJ2akVtOWpQaVZRb2RPeV9sRGtfSGR4UlFoMzZ4WkhINmxVbGllYkZZZ3czNk1XQlB2VU8xMEp5bWEtN0tycGYwdTBLbw?oc=5"
+        },
+        {
+          "title": "Agências do Banco do Brasil e da Caixa realizam greve em Cascavel - Sindicato dos Bancários de Cascavel",
+          "source": "Sindicato dos Bancários de Cascavel",
+          "date": "2026-09-10",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNemRtejVPMWF1Rk1NVmV1MzdjSzZwa3dPYVFaTXNNa2xJVFFZVFNFU1laYjBMTnB5cHNuR3FYci1vS1YzNzZ5WmFQSmI3UHdGMjZ1bHgwZ3oyZkZ3cHVSTVBEQlRBM2pDaDEtZkFEZjgyT2ZJdm1oc0VuNEpJa2MtVzkyWkRRRl9aRTNnbkhuWTNsQndFWlJ2MkpzMlhJM3A0TWlpM29NT2xnUFVBQXBYQg?oc=5"
+        },
+        {
+          "title": "Caixa entra em greve nacional e Banco do Brasil tem paralisação parcial a partir desta quinta-feira - g1.globo.com",
+          "source": "g1.globo.com",
           "date": "2026-09-10",
           "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNam5jZVZvTHNHVWhubEdQd3pNVVRYcWVLbXFWMlpUQ0xPZGpaNVo1LXkweXBZSFUteW5UN3FsYzVZTFNPZG1xMHNqTWhtWlZxWkZqOE8wWTFiZ2ZhN0hmbi1mQmlWemV5bnpUZTNzV09URktnd2R2bGlDZGcyUGdzVkNRLUxXNENucFJ2d1gxa1hGQzh0bHFLQm52cjhHR3ZINlEwaF9ZaUJ5NnduVF85QVRrUHN0T216UWstRkJTZUp1cXIxYTFDRHVXclR2YXpBZ3BaS2NvUjVRN2kteDlEMzVKWXRRSjlYRnVJYUYzY0Z5MndOY0tCTNIBhwJBVV95cUxQOFZOMzAyNHJ1MllnRWIzd3l6MGZhVldmYVdrRElXVnZLZjFEQU85NkhfZ1BIaWtQZVpkWVRnbGNBRDRjNHpVV1FycTlDbEhGWk14bFFMdnlPQVA5aTd6UGdJLW5sc3E1N2lpem9Jb2ZxREZueXFubERLaDVOdXJpXzVQVF9LY1J4cUxiaUJCRmRaMllzRWRDRnFqUzRWTG9hYlBDN3FpcnBFN1NuUGpCMnJzSDFHNlVOWmRMOGFZZjlGM0FPMDFqTVNCZE1oZVJPRnR4cV9rbjN4cjFTbndVaEFlQlNTYjUxZlU1MWdwYzJBR2ZFTFF5cnNLczNmTWVzdUo1cktxbw?oc=5"
         },
@@ -233,72 +135,39 @@
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT1FBakFwS1dmZzAzU2tQWW04bVhZaUZxNVNSYmVyWnVtZmdMUWUybWhvRFdDMlpqWk8wdnRERWhTMm4tUUhkSjJtWWZmQU45anBqRFNzV3c0dG16bVdrdTNTQ3prVTNqdUx3ZHZTRUxJUzRkOTJUWTE0RTlDTFZlQnF6dElOWTlObTBIcXFRbUhMdk9OYzBFNnVzM1BYOExDQUtsN0hqcnhPYXpZY3lkSXNyV29CaUlnV0dMNEE2NVpYbzBoYUNmdUxkOGdxeWhDODJMY0d1Nk0?oc=5"
         },
         {
+          "title": "Às vésperas de greve, Caixa e empregados devem ter nova rodada de negociação - VEJA",
+          "source": "VEJA",
+          "date": "2026-09-09",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXN2UjBQbTBmbmU2TTdkZlpfUGtDQ2xmTENhT2xGUENNam04WU5rZHVfZGpQQXdQVTZ6dWVGa3JKMWkzX0RmUkIwdnFVcWptc1FkZHJRZWJhWE01SUJIclJDdHdiTDhtY2t3M21BN0pUeHZCMjhIQW54dVRVTDB1SDhBM1EtRU9xY1BfV0UwOFBNdFNleFg5Rk5BX1d0Sy10NnpCaVA2SjRwMGNaa1JDRA?oc=5"
+        },
+        {
           "title": "Sem negociação, bancários da Caixa entram em greve nacional a partir desta quinta - Correio do Povo",
           "source": "Correio do Povo",
           "date": "2026-09-09",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSU1QX1Q1RTN1OGE1WTZvU2NtVXl4RlZSa3lkanhSZ1dwRDlOQk5ZSzJPVmM4M2FXbzZHbVExWVdGS3VjM1hpSE9aQkpabm5kUm1QWTdPZHdOeUtwUWZSN2RqZ2NkcjM4eWdDWG94dlRQUFc0TUNkWGpLX3g2TXNzX3VQT0pUazU1a3lIRS1KQW1Fek8xS2Z6YjNMbmlHV3NIZDZsSkwyOWp0N1FhQVIxaWV0TnFjX1dOelhuaWt2cXNOckpxQmhsV056cXRQR0VxZFR5ekg3UGVudzhsYUhN?oc=5"
+        },
+        {
+          "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - Sindicato dos Bancários",
+          "source": "Sindicato dos Bancários",
+          "date": "2026-09-11",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZV9Qc21SemNtRGJ1Q2xocVNST0JrUy1ydVFqbjVXUzZtR2Y3Q09Bd3BjT1RBVDRCN2FjOF9hX1owNS1sZFNIYU1nNXlDNHo5RkNaUnRHMktIMGxVNjVEdnVvYXh0RVBwLUlES2pfd2F2amJjRFZoX3AySG9LRGtIdnkwb1B6MlBTWl95YXNUMDRMTEdUd0htcEhLaw?oc=5"
+        },
+        {
+          "title": "Bancários alcançam aumento real para 2026 e 2027, mantêm direitos e avançam em novas conquistas - Sindicato dos Bancários",
+          "source": "Sindicato dos Bancários",
+          "date": "2026-08-31",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN0dnRmxIcmoyVFhYNWJXSlAxZENwemNTMXFVNEdKaXdqeG81M09tLUY3b09fd200WTk3Sm5RSlhTZDgzY29UUjA5SkhrTFM2XzBvYkpKVXdmSWxKVUZiVUJrQXN0NUd6QTZKR2g0ZndUeE01Zi00X01IbXlaZ2lUa1gxZ290bEw3dkc1b1ZGVjlCWFJaaDFNTmp5XzZid0RadlBBVUo5WEdLaXRvOGdyaXlHck9lSFZEZEE?oc=5"
+        },
+        {
+          "title": "Nove mesas, nenhum índice: bancários cobram valorização dos bancos - Sindicato dos Bancários",
+          "source": "Sindicato dos Bancários",
+          "date": "2026-08-25",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaHZzRkh2NGRrb1pRcW9KTkxycnViZ2V5NHFxd3I5bHpiaEpLcURfc2ZPZ3NUQWh2QUdCRE5PQlhCaXQxSVc3U0JCUmM1UWlyWEdtSzRabVNZVXNhemZnSmYwMnlRUGMxYzdWWEZHUEl0ZXJrbGo2dk5sMkNGVUJNUTNKclR2SW5FdjJXOXc3bkhpWjJyanlNNndhVG9TbDhH?oc=5"
         }
       ]
     },
     {
-      "id": "ag-ncias-do-banco-do-brasil-e-da-caixa-realizam-greve-em-cascavel-sindicato-dos-banc-rios-",
-      "agenda": "Trabalho e representação",
-      "impact": "Pessoas e trabalho",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Fonte institucional",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 100,
-      "title": "Agências do Banco do Brasil e da Caixa realizam greve em Cascavel - Sindicato dos Bancários de Cascavel",
-      "source": "Sindicato dos Bancários de Cascavel",
-      "date": "2026-09-10",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNemRtejVPMWF1Rk1NVmV1MzdjSzZwa3dPYVFaTXNNa2xJVFFZVFNFU1laYjBMTnB5cHNuR3FYci1vS1YzNzZ5WmFQSmI3UHdGMjZ1bHgwZ3oyZkZ3cHVSTVBEQlRBM2pDaDEtZkFEZjgyT2ZJdm1oc0VuNEpJa2MtVzkyWkRRRl9aRTNnbkhuWTNsQndFWlJ2MkpzMlhJM3A0TWlpM29NT2xnUFVBQXBYQg?oc=5",
-      "summary": "Candidata localizada. Cenário preliminar: Relações coletivas de trabalho. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
-      "angle": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
-      "editorialPotential": {
-        "score": 10,
-        "recommendation": "Pauta principal",
-        "event": "Relações coletivas de trabalho",
-        "economicTrigger": "Custo e relações de trabalho",
-        "organizationalHypothesis": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
-        "questions": [
-          "Qual decisão concreta foi tomada?",
-          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
-          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
-        ],
-        "missing": [],
-        "caveat": "Classificação preliminar baseada em título, fonte e metadados. Não confirma o conteúdo da matéria.",
-        "promotional": false,
-        "pureFinance": false
-      },
-      "origin": {
-        "found": true,
-        "title": "Agências do Banco do Brasil e da Caixa realizam greve em Cascavel - Sindicato dos Bancários de Cascavel",
-        "source": "Sindicato dos Bancários de Cascavel",
-        "date": "2026-09-10",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNemRtejVPMWF1Rk1NVmV1MzdjSzZwa3dPYVFaTXNNa2xJVFFZVFNFU1laYjBMTnB5cHNuR3FYci1vS1YzNzZ5WmFQSmI3UHdGMjZ1bHgwZ3oyZkZ3cHVSTVBEQlRBM2pDaDEtZkFEZjgyT2ZJdm1oc0VuNEpJa2MtVzkyWkRRRl9aRTNnbkhuWTNsQndFWlJ2MkpzMlhJM3A0TWlpM29NT2xnUFVBQXBYQg?oc=5"
-      },
-      "audience": {
-        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
-        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
-        "search": "convenção coletiva empresas; sindicato negociação empresas",
-        "sensation": "Segurança e pertencimento"
-      },
-      "packaging": {
-        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Tratar como fonte interessada; buscar documento ou contraponto.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      },
-      "relatedSources": []
-    },
-    {
-      "id": "-s-v-speras-de-greve-caixa-e-empregados-devem-ter-nova-rodada-de-negocia-o-vejaveja",
+      "id": "greve-do-banco-do-brasil-termina-na-maior-parte-do-pa-s-ap-s-aprova-o-de-acordo-g1-globo-c",
       "agenda": "Trabalho e representação",
       "impact": "Pessoas e trabalho",
       "scope": "Nacional",
@@ -306,10 +175,10 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 100,
-      "title": "Às vésperas de greve, Caixa e empregados devem ter nova rodada de negociação - VEJA",
-      "source": "VEJA",
-      "date": "2026-09-09",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXN2UjBQbTBmbmU2TTdkZlpfUGtDQ2xmTENhT2xGUENNam04WU5rZHVfZGpQQXdQVTZ6dWVGa3JKMWkzX0RmUkIwdnFVcWptc1FkZHJRZWJhWE01SUJIclJDdHdiTDhtY2t3M21BN0pUeHZCMjhIQW54dVRVTDB1SDhBM1EtRU9xY1BfV0UwOFBNdFNleFg5Rk5BX1d0Sy10NnpCaVA2SjRwMGNaa1JDRA?oc=5",
+      "title": "Greve do Banco do Brasil termina na maior parte do país após aprovação de acordo - g1.globo.com",
+      "source": "g1.globo.com",
+      "date": "2026-09-11",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR3hseXJPTmY3WUNoeE1yMGRPOTVZTWZGc0JELWRWMlV2a0tpZ25LNDh1WHBuUzBJeDBkWWtVTndVT2tEWVZSOC0wcjA0REpMeEhGNU9Ha3ppakhPR050cnhSS0lRZW5uX1Jtd3h4QXJqVm92Q1pfN0xZTnVvTHFEdWxfaHJGbTFPd29sOEJ1dklyZDJiSDhrTDZSeFdqSkZKbWRRN3VaeXZaZ9IBuAFBVV95cUxPaWhBQldiRzhLWjN6b1VDWEQwV3dId05zbm5uX0cxTHBLbUVFX0k3eTNTNEJic3VFWDZvTFJwbVZJNmx3aXBPMEdtZkgzbi1YRTUyRndYbjFfN3RHcXZWcTFkVHVONlQ0WDlfMVJVMVlhSDRfYUZ6cXhDX2Z3Vkx4TjlKMjF5aXQ0TkQ0VU9IY1hGS0c2a1F5WnE2Nk1vdjBGbWd6b1pwX2o0cDJpSG10N1RsSGlNcWlE?oc=5",
       "summary": "Candidata localizada. Cenário preliminar: Relações coletivas de trabalho. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
       "angle": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
       "editorialPotential": {
@@ -515,62 +384,6 @@
       "relatedSources": []
     },
     {
-      "id": "empregados-da-caixa-votam-nova-proposta-nesta-sexta-feira-11-sindicato-dos-banc-riossindic",
-      "agenda": "Trabalho e representação",
-      "impact": "Pessoas e trabalho",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Fonte institucional",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 60,
-      "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - Sindicato dos Bancários",
-      "source": "Sindicato dos Bancários",
-      "date": "2026-09-11",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZV9Qc21SemNtRGJ1Q2xocVNST0JrUy1ydVFqbjVXUzZtR2Y3Q09Bd3BjT1RBVDRCN2FjOF9hX1owNS1sZFNIYU1nNXlDNHo5RkNaUnRHMktIMGxVNjVEdnVvYXh0RVBwLUlES2pfd2F2amJjRFZoX3AySG9LRGtIdnkwb1B6MlBTWl95YXNUMDRMTEdUd0htcEhLaw?oc=5",
-      "summary": "Candidata localizada. Cenário preliminar: Relações coletivas de trabalho. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
-      "angle": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
-      "editorialPotential": {
-        "score": 6,
-        "recommendation": "Giro semanal",
-        "event": "Relações coletivas de trabalho",
-        "economicTrigger": "Custo e relações de trabalho",
-        "organizationalHypothesis": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
-        "questions": [
-          "Qual decisão concreta foi tomada?",
-          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
-          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
-        ],
-        "missing": [
-          "fato concreto no corpo",
-          "decisão empresarial"
-        ],
-        "caveat": "Classificação preliminar baseada em título, fonte e metadados. Não confirma o conteúdo da matéria.",
-        "promotional": false,
-        "pureFinance": false
-      },
-      "origin": {
-        "found": false
-      },
-      "audience": {
-        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
-        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
-        "search": "convenção coletiva empresas; sindicato negociação empresas",
-        "sensation": "Segurança e pertencimento"
-      },
-      "packaging": {
-        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Tratar como fonte interessada; buscar documento ou contraponto.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      },
-      "relatedSources": []
-    },
-    {
       "id": "mercado-de-trabalho-muda-com-avan-o-da-intelig-ncia-artificial-it-insightit-insight",
       "agenda": "IA e gestão",
       "impact": "Operação e estratégia",
@@ -678,118 +491,6 @@
       },
       "use": {
         "label": "Noticiar com redação própria e citar a fonte.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      },
-      "relatedSources": []
-    },
-    {
-      "id": "banc-rios-alcan-am-aumento-real-para-2026-e-2027-mant-m-direitos-e-avan-am-em-novas-conqui",
-      "agenda": "Trabalho e representação",
-      "impact": "Pessoas e trabalho",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Fonte institucional",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 60,
-      "title": "Bancários alcançam aumento real para 2026 e 2027, mantêm direitos e avançam em novas conquistas - Sindicato dos Bancários",
-      "source": "Sindicato dos Bancários",
-      "date": "2026-08-31",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN0dnRmxIcmoyVFhYNWJXSlAxZENwemNTMXFVNEdKaXdqeG81M09tLUY3b09fd200WTk3Sm5RSlhTZDgzY29UUjA5SkhrTFM2XzBvYkpKVXdmSWxKVUZiVUJrQXN0NUd6QTZKR2g0ZndUeE01Zi00X01IbXlaZ2lUa1gxZ290bEw3dkc1b1ZGVjlCWFJaaDFNTmp5XzZid0RadlBBVUo5WEdLaXRvOGdyaXlHck9lSFZEZEE?oc=5",
-      "summary": "Candidata localizada. Cenário preliminar: Relações coletivas de trabalho. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
-      "angle": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
-      "editorialPotential": {
-        "score": 6,
-        "recommendation": "Giro semanal",
-        "event": "Relações coletivas de trabalho",
-        "economicTrigger": "Custo e relações de trabalho",
-        "organizationalHypothesis": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
-        "questions": [
-          "Qual decisão concreta foi tomada?",
-          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
-          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
-        ],
-        "missing": [
-          "fato concreto no corpo",
-          "decisão empresarial"
-        ],
-        "caveat": "Classificação preliminar baseada em título, fonte e metadados. Não confirma o conteúdo da matéria.",
-        "promotional": false,
-        "pureFinance": false
-      },
-      "origin": {
-        "found": false
-      },
-      "audience": {
-        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
-        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
-        "search": "convenção coletiva empresas; sindicato negociação empresas",
-        "sensation": "Segurança e pertencimento"
-      },
-      "packaging": {
-        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Tratar como fonte interessada; buscar documento ou contraponto.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      },
-      "relatedSources": []
-    },
-    {
-      "id": "nove-mesas-nenhum-ndice-banc-rios-cobram-valoriza-o-dos-bancos-sindicato-dos-banc-riossind",
-      "agenda": "Trabalho e representação",
-      "impact": "Pessoas e trabalho",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Fonte institucional",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 60,
-      "title": "Nove mesas, nenhum índice: bancários cobram valorização dos bancos - Sindicato dos Bancários",
-      "source": "Sindicato dos Bancários",
-      "date": "2026-08-25",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaHZzRkh2NGRrb1pRcW9KTkxycnViZ2V5NHFxd3I5bHpiaEpLcURfc2ZPZ3NUQWh2QUdCRE5PQlhCaXQxSVc3U0JCUmM1UWlyWEdtSzRabVNZVXNhemZnSmYwMnlRUGMxYzdWWEZHUEl0ZXJrbGo2dk5sMkNGVUJNUTNKclR2SW5FdjJXOXc3bkhpWjJyanlNNndhVG9TbDhH?oc=5",
-      "summary": "Candidata localizada. Cenário preliminar: Relações coletivas de trabalho. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
-      "angle": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
-      "editorialPotential": {
-        "score": 6,
-        "recommendation": "Giro semanal",
-        "event": "Relações coletivas de trabalho",
-        "economicTrigger": "Custo e relações de trabalho",
-        "organizationalHypothesis": "Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação.",
-        "questions": [
-          "Qual decisão concreta foi tomada?",
-          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
-          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
-        ],
-        "missing": [
-          "fato concreto no corpo",
-          "decisão empresarial"
-        ],
-        "caveat": "Classificação preliminar baseada em título, fonte e metadados. Não confirma o conteúdo da matéria.",
-        "promotional": false,
-        "pureFinance": false
-      },
-      "origin": {
-        "found": false
-      },
-      "audience": {
-        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
-        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
-        "search": "convenção coletiva empresas; sindicato negociação empresas",
-        "sensation": "Segurança e pertencimento"
-      },
-      "packaging": {
-        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Tratar como fonte interessada; buscar documento ou contraponto.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       },
       "relatedSources": []
@@ -1368,7 +1069,7 @@
       "relatedSources": []
     },
     {
-      "id": "projeto-para-parcelar-licenciamento-de-ve-culos-em-goi-s-aprovado-em-comiss-o-daqui-opopul",
+      "id": "projeto-para-parcelar-licenciamento-de-ve-culos-em-goi-s-aprovado-em-comiss-o-daquidaqui",
       "agenda": "Poder e regras",
       "impact": "Risco jurídico/regulatório",
       "scope": "Estadual",
@@ -1376,8 +1077,8 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 40,
-      "title": "Projeto para parcelar licenciamento de veículos em Goiás é aprovado em comissão - daqui.opopular.com.br",
-      "source": "daqui.opopular.com.br",
+      "title": "Projeto para parcelar licenciamento de veículos em Goiás é aprovado em comissão - Daqui",
+      "source": "Daqui",
       "date": "2026-09-02",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaS1jMmpXMFpwU1hxazZLNFZvRWlEMWt5c2ktc1VMQXNZbDlhRTRPVl9wQUVuN3IxZnBLMldQcUN1cE1FYzFpa1RDYWZqUlgtbktmb0JfckU3cXozSEVhdFlXaUlhLWl5VC1HTERycUxzd3l6Q2xiQVFpMkVqRDNHc3FmOXRRRXNBOG8wbVg2Zmh3cnFYalZEQ1EyU3FCTWd4WjhaVFdqWlBlQU85aGpXb0ZsRXp2OWJ2dkF1cXQxNW9jRDQ?oc=5",
       "summary": "Candidata localizada. Cenário preliminar: Regulação com efeito empresarial. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",

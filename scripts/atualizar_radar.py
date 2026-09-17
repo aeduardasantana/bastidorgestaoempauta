@@ -15,6 +15,23 @@ STREAMS={
  "Empresa em Pauta — Exame":("site:exame.com/negocios empresa investe fábrica expansão demissão aquisição CEO","Operação e estratégia","Nacional","br"),
  "Empresa em Pauta — InfoMoney":("site:infomoney.com.br/business empresa aquisição incorporação reestruturação expansão CEO","Operação e estratégia","Nacional","br"),
  "Empresa em Pauta — PEGN":("site:revistapegn.globo.com empresa expansão sucessão franquia contratação gestão equipe","Operação e estratégia","Nacional","br"),
+ "Veículos BR — Valor":("site:valor.globo.com/empresas empresa investimento aquisição expansão reestruturação CEO produção logística","Operação e estratégia","Nacional","br"),
+ "Veículos BR — NeoFeed e Bloomberg Línea":("(site:neofeed.com.br OR site:bloomberglinea.com.br) empresa investimento aquisição expansão reestruturação tecnologia CEO","Operação e estratégia","Nacional","br"),
+ "Veículos BR — G1, CNN e UOL":("(site:g1.globo.com OR site:cnnbrasil.com.br OR site:economia.uol.com.br) empresa investimento aquisição expansão fechamento demissão contratação regulamentação","Operação e estratégia","Nacional","br"),
+ "Veículos BR — Estadão, Folha e O Globo":("(site:estadao.com.br OR site:folha.uol.com.br/mercado OR site:oglobo.globo.com/economia) empresa investimento fusão aquisição reestruturação produção trabalho","Operação e estratégia","Nacional","br"),
+ "Veículos BR — Agência Brasil":("site:agenciabrasil.ebc.com.br empresa economia trabalho regulamentação investimento produção exportação","Risco jurídico/regulatório","Nacional","br"),
+ "Veículos BR — Band, SBT, Record e Jovem Pan":("(site:band.uol.com.br OR site:sbtnews.sbt.com.br OR site:noticias.r7.com OR site:jovempan.com.br) empresa economia investimento trabalho regulamentação","Operação e estratégia","Nacional","br"),
+ "Fontes internacionais — Reuters, Bloomberg e CNBC":("(Reuters OR Bloomberg OR CNBC) company investment acquisition merger expansion restructuring layoffs CEO Brazil","Operação e estratégia","Internacional","us"),
+ "Fontes internacionais — FT e WSJ":("(Financial Times OR Wall Street Journal) company earnings guidance acquisition restructuring supply chain Brazil","Custo e caixa","Internacional","us"),
+ "Fontes internacionais — AP, BBC e CNN Business":("(Associated Press OR BBC Business OR CNN Business) company investment layoffs hiring regulation automation Brazil","Operação e estratégia","Internacional","us"),
+ "Empresas globais — newsrooms e RI em português":("empresa global Brasil newsroom relações com investidores comunicado investimento fábrica produção logística expansão reestruturação","Operação e estratégia","Nacional","br"),
+ "Empresas globais — newsrooms e RI em inglês":("global company Brazil newsroom investor relations press release investment factory production supply chain expansion restructuring","Operação e estratégia","Internacional","us"),
+ "Sinais empresariais — capital e governança":("empresa aporte investimento fusão aquisição mudança CEO resultados guidance ações crédito juros tributação tarifas","Custo e caixa","Nacional","br"),
+ "Sinais empresariais — operação e trabalho":("empresa expansão fechamento reestruturação demissões contratações jornada greve negociação coletiva produtividade fábrica produção logística cadeia de suprimentos","Pessoas e trabalho","Nacional","br"),
+ "Sinais empresariais — tecnologia, regra e responsabilização":("empresa automação inteligência artificial regulamentação investigação multa decisão judicial importação exportação","Risco jurídico/regulatório","Nacional","br"),
+ "Business signals — capital and governance":("company funding investment merger acquisition CEO change earnings guidance shares credit interest rates taxes tariffs Brazil","Custo e caixa","Internacional","us"),
+ "Business signals — operations and workforce":("company expansion closure restructuring layoffs hiring working hours strike collective bargaining productivity factory production logistics supply chain Brazil","Pessoas e trabalho","Internacional","us"),
+ "Business signals — technology and regulation":("company automation artificial intelligence regulation investigation fine court ruling imports exports Brazil","Risco jurídico/regulatório","Internacional","us"),
  "Poder e regras — trabalho":("projeto lei empresas empregadores trabalho salário saúde mental qualificação Câmara Senado","Risco jurídico/regulatório","Federal","br"),
  "Poder e regras — Senado oficial":("site:www12.senado.leg.br/noticias/materias empresas trabalho emprego qualificação saúde mental regulamentação","Risco jurídico/regulatório","Federal","br"),
  "Poder e regras — Câmara oficial":("site:camara.leg.br/noticias empresas trabalho emprego piso salarial saúde mental regulamentação","Risco jurídico/regulatório","Federal","br"),
@@ -111,13 +128,13 @@ def editorial_potential(title,agenda,evidence):
  human=2 if any(term in text for term in HUMAN_TERMS) else (1 if organization else 0)
  authority=2 if agenda in ("Pessoas e liderança","NR-1 / AEP","Trabalho e representação") or human==2 else (1 if agenda in ("Empresa em Pauta","IA e gestão","Mundo corporativo internacional","Poder e regras") else 0)
  score=max(0,min(10,fact+decision+organization+human+authority-(4 if promotional else 0)-(3 if pure_finance else 0)))
- recommendation="Pauta principal" if score>=8 else ("Giro semanal" if score>=6 else ("Acompanhar" if score>=4 else "Não priorizar"))
+ triage_priority="Prioridade muito alta" if score>=8.1 else ("Prioridade alta" if score>=6.1 else ("Prioridade média" if score>=4.1 else ("Prioridade baixa" if score>=2.1 else "Prioridade muito baixa")))
  missing=[]
  if fact<2:missing.append("fato concreto no corpo")
  if decision<2:missing.append("decisão empresarial")
  if organization<2:missing.append("mudança organizacional")
  if human<2:missing.append("consequência humana")
- return {"score":score,"recommendation":recommendation,"event":event,"economicTrigger":trigger,"organizationalHypothesis":investigation,"questions":["Qual decisão concreta foi tomada?","O que muda no trabalho, nos papéis, nas metas ou nos recursos?","Quem absorve a consequência e qual responsabilidade cabe à liderança?"],"missing":missing,"caveat":"Classificação preliminar baseada em título, fonte e metadados. Não confirma o conteúdo da matéria.","promotional":promotional,"pureFinance":pure_finance}
+ return {"score":score,"triagePriority":triage_priority,"event":event,"economicTrigger":trigger,"organizationalHypothesis":investigation,"questions":["Qual decisão concreta foi tomada?","O que muda no trabalho, nos papéis, nas metas ou nos recursos?","Quem absorve a consequência e qual responsabilidade cabe à liderança?"],"missing":missing,"caveat":"Hipótese de investigação baseada em título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.","promotional":promotional,"pureFinance":pure_finance}
 
 STOPWORDS={"a","o","as","os","de","da","do","das","dos","e","em","no","na","nos","nas","para","por","com","um","uma","ao","aos","que","como","sobre","brasil","brasileira","brasileiro","the","and","of","to","in","for"}
 def topic_tokens(title,source):

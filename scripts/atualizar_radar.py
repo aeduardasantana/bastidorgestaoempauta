@@ -1,6 +1,7 @@
 from datetime import datetime,timezone,timedelta
 from email.utils import parsedate_to_datetime
 from html import unescape
+from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import quote
 from urllib.request import Request,urlopen
@@ -97,6 +98,86 @@ def packaging_for(agenda,impact):
  elif impact=="Custo e caixa": base.update({"opening":"Este fato pode chegar ao caixa antes de aparecer nos relatórios. A questão é onde a empresa será pressionada.","thumbnail":"IMPACTO NO CAIXA"})
  return base
 
+OPENAI_API_KEY=os.environ.get("OPENAI_API_KEY","")
+MAX_AI_ANALYSES=5
+MAX_ARTICLE_CHARS=24000
+
+class BodyExtractor(HTMLParser):
+ def __init__(self):
+  super().__init__();self.parts=[];self.capture=False;self.skip=0
+ def handle_starttag(self,tag,attrs):
+  if tag in ("script","style","noscript","svg","nav","footer","header","form","aside"):self.skip+=1
+  if not self.skip and tag in ("p","li","h1","h2","h3","blockquote"):self.capture=True
+ def handle_endtag(self,tag):
+  if tag in ("script","style","noscript","svg","nav","footer","header","form","aside") and self.skip:self.skip-=1
+  if tag in ("p","li","h1","h2","h3","blockquote"):self.capture=False
+ def handle_data(self,data):
+  text=" ".join(data.split())
+  if self.capture and not self.skip and len(text)>20:self.parts.append(text)
+
+def extract_article_body(url):
+ try:
+  request=Request(url,headers={**HEADERS,"Accept":"text/html,application/xhtml+xml"})
+  with urlopen(request,timeout=25) as response:
+   final_url=response.geturl();mime=response.headers.get_content_type();raw=response.read(800000)
+  if mime not in ("text/html","application/xhtml+xml"):return None,final_url,"A fonte não entregou uma página de artigo em HTML."
+  parser=BodyExtractor();parser.feed(raw.decode("utf-8","ignore"))
+  blocked=("cookies","privacidade","assine","subscribe","publicidade","javascript")
+  paragraphs=[];seen=set()
+  for part in parser.parts:
+   normalized=" ".join(part.split());key=normalized.lower()
+   if key in seen or any(word in key for word in blocked) or len(normalized)<45:continue
+   seen.add(key);paragraphs.append(normalized)
+  body="\n".join(paragraphs)
+  if len(body)<700:return None,final_url,"O corpo acessível da matéria não trouxe texto suficiente para análise confiável."
+  return body[:MAX_ARTICLE_CHARS],final_url,None
+ except Exception as error:return None,url,f"Não foi possível obter o corpo da fonte ({type(error).__name__})."
+
+def response_text(payload):
+ chunks=[]
+ for output in payload.get("output",[]):
+  for content in output.get("content",[]):
+   if isinstance(content.get("text"),str):chunks.append(content["text"])
+ return "\n".join(chunks) or str(payload.get("output_text",""))
+
+def json_answer(text):
+ text=(text or "").strip();start,end=text.find("{"),text.rfind("}")
+ if start<0 or end<start:raise ValueError("A resposta não veio em JSON.")
+ return json.loads(text[start:end+1])
+
+def analyze_article(item,body,final_url):
+ instructions="""Você é analista editorial do programa brasileiro Gestão em Pauta, do GEB - Grupo Eduarda Bispo. Use exclusivamente o CORPO DA MATÉRIA recebido. Não complete lacunas com conhecimento externo, título, suposição ou opinião. Se o corpo não sustentar uma afirmação, diga que não é possível afirmar. Não reproduza trechos longos nem texto da fonte. Não dê aconselhamento jurídico.
+Retorne SOMENTE JSON válido com estas chaves: factual_summary; facts_confirmed (lista de até 4 fatos); source_statements (lista de até 2 declarações atribuídas); relevance (verdict: GRAVAR AGORA, ACOMPANHAR ou NÃO PRIORITÁRIA; reason); editorial (headline, angle, speaking_preview de até 120 palavras, audience, search_intent separado por ponto e vírgula, hashtags de até 6); caution."""
+ user=f"""METADADOS PARA ORGANIZAÇÃO, NÃO COMO PROVA: agenda={item.get('agenda')}; consequência={item.get('impact')}; abrangência={item.get('scope')}.
+URL final acessada: {final_url}
+CORPO DA MATÉRIA:
+{body}"""
+ payload={"model":"gpt-5.6-terra","input":[{"role":"developer","content":instructions},{"role":"user","content":user}],"max_output_tokens":1200}
+ request=Request("https://api.openai.com/v1/responses",data=json.dumps(payload).encode("utf-8"),headers={"Authorization":"Bearer "+OPENAI_API_KEY,"Content-Type":"application/json"},method="POST")
+ try:
+  with urlopen(request,timeout=60) as response:data=json.loads(response.read().decode("utf-8"))
+  return {"status":"analisado","sourceUrl":final_url,"bodyCharacters":len(body),**json_answer(response_text(data))}
+ except Exception as error:
+  print("falha IA",item.get("title","")[:80],type(error).__name__)
+  return {"status":"revisao_manual","reason":"A análise automática não ficou disponível nesta execução. Abra a fonte e valide o corpo manualmente."}
+
+def apply_body_analysis(items):
+ if not OPENAI_API_KEY:
+  print("OPENAI_API_KEY ausente; análise de corpo não executada.");return
+ candidates=sorted(items,key=lambda x:(x.get("score",0),x.get("date","")),reverse=True)[:MAX_AI_ANALYSES]
+ for item in candidates:
+  body,final_url,reason=extract_article_body(item.get("url",""))
+  if not body:
+   item["bodyAnalysis"]={"status":"revisao_manual","reason":reason or "Corpo indisponível para análise.","sourceUrl":final_url};continue
+  analysis=analyze_article(item,body,final_url);item["bodyAnalysis"]=analysis
+  if analysis.get("status")=="analisado":
+   editorial=analysis.get("editorial",{})
+   item["summary"]=analysis.get("factual_summary") or item["summary"]
+   item["angle"]=editorial.get("angle") or item["angle"]
+   defaults=audience_for(item["agenda"])
+   item["audience"]={"public":editorial.get("audience") or defaults["public"],"interest":analysis.get("relevance",{}).get("reason") or defaults["interest"],"search":editorial.get("search_intent") or defaults["search"],"sensation":defaults["sensation"]}
+   item["packaging"]={**packaging_for(item["agenda"],item["impact"]),"opening":editorial.get("angle") or packaging_for(item["agenda"],item["impact"])["opening"],"thumbnail":editorial.get("headline") or packaging_for(item["agenda"],item["impact"])["thumbnail"],"keywords":editorial.get("search_intent") or packaging_for(item["agenda"],item["impact"])["keywords"],"hashtags":editorial.get("hashtags","")}
+
 YOUTUBE_API_KEY=os.environ.get("YOUTUBE_API_KEY","")
 INSTITUTIONAL_CHANNELS=("tv senado","senado federal","câmara dos deputados","camara dos deputados","tv câmara","tv camara","govbr","ministério do trabalho e emprego","ministerio do trabalho e emprego","itamaraty","banco central do brasil","receita federal","mte")
 CORPORATE_WORDS=("oficial","investor","relações com investidores","relacoes com investidores","ri ","b3","sebrae","cni","fecomércio","fecomercio","blackrock","coca-cola","cargill","mcdonald","netflix","disney","warner","globo","sbt","record","amazon","meta")
@@ -166,6 +247,7 @@ for stream,(query,impact,scope,locale) in STREAMS.items():
    "origin":origin(x["title"],locale),"audience":audience_for("Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream)))),"packaging":packaging_for("Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream))),impact),"use":use
   })
 items.sort(key=lambda x:(x["score"],x["date"]),reverse=True)
+apply_body_analysis(items)
 Path("data/news.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
 videos=youtube_videos()
 Path("data/videos.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":videos},ensure_ascii=False,indent=2),encoding="utf-8")

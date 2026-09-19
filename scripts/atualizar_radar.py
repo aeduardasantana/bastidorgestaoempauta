@@ -63,6 +63,7 @@ STREAMS={
  "Mídia, audiovisual e plataformas":("Netflix Disney Warner Globo SBT Record streaming televisão cinema CEO reestruturação demissões IA publicidade assinaturas","Operação e estratégia","Nacional","br")
 }
 HEADERS={"User-Agent":"Mozilla/5.0 (BastidorGestaoEmPauta/1.0)"}
+FEED_STATS={"queries":0,"retrieved":0,"rejectedNonArticle":0,"rejectedByDate":0,"accepted":0}
 
 def clean(t): return re.sub(r"<[^>]+>","",unescape(t or "")).strip()
 def d(v):
@@ -86,13 +87,20 @@ def is_article(item):
  return True
 
 def feed(q,n=12,locale="br"):
+ FEED_STATS["queries"]+=1
  suffix="&hl=en-US&gl=US&ceid=US:en" if locale=="us" else "&hl=pt-BR&gl=BR&ceid=BR:pt-419"
  u="https://news.google.com/rss/search?q="+quote(q+" when:30d")+suffix
  try: r=ET.fromstring(urlopen(Request(u,headers=HEADERS),timeout=30).read())
  except Exception as e:
   print("falha",e); return []
  items=[{"title":clean(i.findtext("title")),"source":clean(i.findtext("source")) or "Google Notícias","date":d(i.findtext("pubDate")or""),"url":i.findtext("link")} for i in r.findall("./channel/item")[:n] if i.findtext("title") and i.findtext("link")]
- return [item for item in items if is_article(item) and within_window(item["date"],30)]
+ FEED_STATS["retrieved"]+=len(items)
+ article_items=[item for item in items if is_article(item)]
+ FEED_STATS["rejectedNonArticle"]+=len(items)-len(article_items)
+ valid=[item for item in article_items if within_window(item["date"],30)]
+ FEED_STATS["rejectedByDate"]+=len(article_items)-len(valid)
+ FEED_STATS["accepted"]+=len(valid)
+ return valid
 
 def origin(t,locale):
  c=feed('"'+t+'"',5,locale)
@@ -223,24 +231,68 @@ def topic_tokens(title,source):
  base=re.sub(r"\s*[-–—]\s*"+re.escape(source)+r"\s*$","",title,flags=re.I)
  return {token for token in norm(base).split() if len(token)>2 and token not in STOPWORDS}
 
+def cluster_signature(item):
+ potential=item.get("editorialPotential",{})
+ families=set((potential.get("semanticFamilies") or {}).keys())
+ tokens=topic_tokens(item["title"],item["source"])
+ entities={t for t in tokens if len(t)>=5}
+ return families,tokens,entities
+
 def merge_duplicates(items):
  ordered=sorted(items,key=lambda x:((1 if x["evidence"]=="Documento/ato oficial" else 0),x["score"],x["date"]),reverse=True)
  result=[]
  for item in ordered:
-  tokens=topic_tokens(item["title"],item["source"]);match=None
-  item_cluster=("bancarios-caixa-bb" if item["editorialPotential"]["event"]=="Relações coletivas de trabalho" and ("caixa" in tokens or "bancarios" in tokens or ("banco" in tokens and "brasil" in tokens)) else "")
+  families,tokens,entities=cluster_signature(item);match=None;match_reason=""
   for candidate in result:
-   other=topic_tokens(candidate["title"],candidate["source"]);shared=len(tokens&other);union=len(tokens|other) or 1
+   cfamilies,other,centities=cluster_signature(candidate)
+   shared=len(tokens&other);union=len(tokens|other) or 1
+   entity_shared=len(entities&centities)
    same_event=item["editorialPotential"]["event"]==candidate["editorialPotential"]["event"]
-   labor_event=item["editorialPotential"]["event"]=="Relações coletivas de trabalho"
-   candidate_cluster=("bancarios-caixa-bb" if labor_event and ("caixa" in other or "bancarios" in other or ("banco" in other and "brasil" in other)) else "")
-   if same_event and ((item_cluster and item_cluster==candidate_cluster) or (shared>=4 and shared/union>=.36) or (labor_event and shared>=3 and shared/union>=.24)):
-    match=candidate;break
+   family_overlap=bool(families&cfamilies)
+   close_date=abs((datetime.fromisoformat(item["date"]).date()-datetime.fromisoformat(candidate["date"]).date()).days)<=3
+   if close_date and ((same_event and shared>=4 and shared/union>=.32) or (family_overlap and entity_shared>=2 and shared>=3)):
+    match=candidate;match_reason="mesmo fato provável por similaridade temática, entidades e proximidade temporal";break
   if match:
-   match.setdefault("relatedSources",[]).append({"title":item["title"],"source":item["source"],"date":item["date"],"url":item["url"]})
+   match.setdefault("relatedSources",[]).append({"title":item["title"],"source":item["source"],"date":item["date"],"url":item["url"],"score":item["score"]})
+   match["clusterSize"]=1+len(match["relatedSources"])
+   match["clusterReason"]=match_reason
   else:
-   item["relatedSources"]=[];result.append(item)
+   item["relatedSources"]=[];item["clusterSize"]=1;item["clusterReason"]="item principal do cluster";result.append(item)
  return result
+
+def radar_diagnostics(raw_items,clustered_items,feed_stats):
+ score_bands={"80-100":0,"60-70":0,"40-50":0,"20-30":0,"0-10":0}
+ agendas={};events={};sources={}
+ for item in clustered_items:
+  s=item.get("score",0)
+  band="80-100" if s>=80 else ("60-70" if s>=60 else ("40-50" if s>=40 else ("20-30" if s>=20 else "0-10")))
+  score_bands[band]+=1
+  agendas[item["agenda"]]=agendas.get(item["agenda"],0)+1
+  ev=item.get("editorialPotential",{}).get("event","Não classificado");events[ev]=events.get(ev,0)+1
+  sources[item["source"]]=sources.get(item["source"],0)+1
+ duplicate_count=max(0,len(raw_items)-len(clustered_items))
+ high=sum(1 for x in clustered_items if x.get("score",0)>=80)
+ low=sum(1 for x in clustered_items if x.get("score",0)<=10)
+ return {
+  "generatedAt":datetime.now(timezone.utc).isoformat(),
+  "windowDays":30,
+  "collection":feed_stats,
+  "rawCandidates":len(raw_items),
+  "clusters":len(clustered_items),
+  "duplicatesMerged":duplicate_count,
+  "scoreBands":score_bands,
+  "highPriorityShare":round(high/max(1,len(clustered_items)),3),
+  "veryLowPriorityShare":round(low/max(1,len(clustered_items)),3),
+  "agendaDistribution":dict(sorted(agendas.items(),key=lambda kv:kv[1],reverse=True)),
+  "eventDistribution":dict(sorted(events.items(),key=lambda kv:kv[1],reverse=True)),
+  "topSources":dict(sorted(sources.items(),key=lambda kv:kv[1],reverse=True)[:15]),
+  "qualityFlags":{
+   "emptyRadar":len(clustered_items)==0,
+   "highPriorityInflation":high/max(1,len(clustered_items))>0.35,
+   "lowPriorityNoise":low/max(1,len(clustered_items))>0.60,
+   "duplicatePressure":duplicate_count/max(1,len(raw_items))>0.30
+  }
+ }
 
 def audience_for(agenda):
  base={
@@ -436,9 +488,12 @@ for stream,(query,impact,scope,locale) in STREAMS.items():
    "editorialPotential":potential,
    "origin":origin(x["title"],locale),"audience":audience_for(agenda),"packaging":packaging_for(agenda,impact),"use":use
   })
+raw_items=list(items)
 items=merge_duplicates(items)
 items.sort(key=lambda x:(x["score"],x["date"]),reverse=True)
+diagnostics=radar_diagnostics(raw_items,items,FEED_STATS)
 # A análise com IA é sob demanda: a coleta e os filtros não consomem crédito.
 Path("data/news.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
+Path("data/diagnostics.json").write_text(json.dumps(diagnostics,ensure_ascii=False,indent=2),encoding="utf-8")
 videos=youtube_videos()
 Path("data/videos.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":videos},ensure_ascii=False,indent=2),encoding="utf-8")

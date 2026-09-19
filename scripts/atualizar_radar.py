@@ -118,54 +118,105 @@ def norm(text):
 
 PROMO_TERMS=("premio","vencedores","feira de negocios","conference","conferencia","evento","mentor de ceos","livro gratuito","curso gratuito","aborda","debate","ganham protagonismo","franquias baratas","lista de","agenda de presidente","publieditorial","conteudo patrocinado","inscricoes abertas","webinar gratuito")
 HARD_PROMO_TERMS=("publieditorial","conteudo patrocinado","inscricoes abertas","webinar gratuito","livro gratuito","curso gratuito","agenda de presidente")
-MATERIALITY_TERMS=("investimento","investe","milhoes","bilhoes","empregos","trabalhadores","contratacao","contrata","fornecedores","infraestrutura","impacto economico","movimenta","turismo","rede hoteleira","empresas","produtora","producao audiovisual","cadeia produtiva","renuncia fiscal","incentivo fiscal","patrocinio","patrocinador","ativacao de marca","naming rights","concessao","licitacao","operacao","receita","faturamento","investment","jobs","workers","suppliers","economic impact","sponsorship")
-CULTURE_EVENT_TERMS=("cultura","cultural","festival","show","audiovisual","cinema","musica","economia criativa","rock in rio","carnaval","festa popular","evento esportivo","feira","congresso","exposicao")
-PURE_FINANCE_TERMS=("dolar","bolsas","selic","taxa de juros","dividendos","cotacao","acoes")
-DECISION_TERMS=("investe","investimento","expansao","nova fabrica","nova unidade","reestruturacao","demissao","demite","aquisicao","adquire","fusao","incorpora","cisao","fechamento","fecha unidade","renuncia","nomeia","novo ceo","novo vp","troca de ceo","greve","negociacao","piso salarial","trabalho presencial","home office","recuperacao judicial","falencia","concessao","autorizacao","licenca","licenciamento","contrato","edital","incentivo fiscal","abre filial","fecha filial","patrocinio","naming rights","investment","expansion","restructuring","layoff","layoffs","acquisition","merger","appoints","resigns","new ceo","bankruptcy","judicial recovery","sponsorship")
-HUMAN_TERMS=("lideranca","lideres","trabalho","empregados","funcionarios","equipe","pessoas","saude mental","riscos psicossociais","nr 1","sobrecarga","rotatividade","afastamento","cultura","salario","qualificacao","greve","sindicato","contratacao","demissao","turno","jornada","terceirizacao","transferencia","unidade","filial","fabrica","trabalhadores","empregos","leadership","workplace","employees","workers","jobs","culture","layoff","layoffs")
+PURE_FINANCE_TERMS=("dolar","bolsa fecha","selic","taxa basica de juros","dividendos","cotacao","acoes despencam","acoes sobem","poupanca","tesouro direto")
 
-EVENTS=(
- ("Redução, reestruturação ou fechamento",("corta custos","reducao de custos","reestruturacao","demissao","demite","fechamento","fecha unidade","restructuring","layoff","layoffs","closes"),"Pressão financeira","Investigar redução de equipe, redistribuição de tarefas, metas, comunicação e segurança no emprego."),
- ("Fusão, aquisição ou incorporação",("aquisicao","adquire","fusao","incorpora","compra empresa","acquisition","merger","acquires"),"Capital e estratégia","Investigar sobreposição de papéis, integração cultural, autonomia, comunicação e retenção de pessoas."),
- ("Expansão ou investimento",("investe","investimento","expansao","nova fabrica","nova unidade","crescer","crescimento","investment","expansion","new plant"),"Capital e crescimento","Investigar contratação, formação de lideranças, capacidade operacional, cultura e integração da nova estrutura."),
- ("Mudança de comando",("novo ceo","novo vp","troca de ceo","nomeia","renuncia","sucessao","presidente deixa","new ceo","appoints","resigns"),"Governança","Investigar continuidade estratégica, sucessão, confiança interna e efeitos sobre a cultura."),
- ("Tecnologia e redesenho do trabalho",("inteligencia artificial"," ia ","automacao","tecnologia transforma","digitalizacao"),"Tecnologia e produtividade","Investigar funções alteradas, autonomia, capacitação, critérios de desempenho e insegurança profissional."),
- ("Relações coletivas de trabalho",("greve","sindicato","convencao coletiva","negociacao coletiva","paralisacao"),"Custo e relações de trabalho","Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação."),
- ("Economia criativa e fomento",("edital cultural","edital de cultura","fomento cultural","incentivo a cultura","incentivo cultural","audiovisual","economia criativa"),"Investimento e cadeia criativa","Investigar volume mobilizado, organizações beneficiadas, contratação, fornecedores, empregos e capacidade de execução."),
- ("Grandes eventos e ecossistemas temporários",("festival","rock in rio","carnaval","festa popular","evento esportivo","feira","congresso","exposicao"),"Operação e ecossistema econômico","Investigar trabalhadores, fornecedores, terceirização, infraestrutura, turismo, operação, liderança e impacto econômico."),
- ("Patrocínio, experiência e ativação de marca",("patrocinio","patrocinador","ativacao de marca","experiencia de marca","naming rights","sponsorship"),"Marketing e estratégia","Investigar investimento, objetivo empresarial, relacionamento, experiência, operação e retorno estratégico."),
- ("Regulação com efeito empresarial",("lei","projeto","decreto","regulamentacao","norma","fiscalizacao","piso salarial","portaria","resolucao","edital","autorizacao","licenca","licenciamento","concessao","incentivo fiscal"),"Regra ou política pública","Confirmar obrigação, prazo, setores atingidos e mudanças necessárias em processo, liderança, qualificação ou condições de trabalho."),
- ("Crise financeira ou reorganização judicial",("recuperacao judicial","falencia","pedido de recuperacao","bankruptcy","judicial recovery"),"Continuidade e solvência","Investigar continuidade operacional, emprego, fornecedores, governança, comunicação e reorganização da empresa."),
- ("Registro ou ato societário relevante",("junta comercial","incorporacao","cisao","dissolucao","abre filial","fecha filial","capital social","administrador"),"Estrutura societária e operação","Confirmar se o ato representa mudança material de controle, estrutura, presença territorial ou governança antes de tratá-lo como pauta."),
- ("Risco psicossocial e saúde no trabalho",("nr 1","saude mental","risco psicossocial","burnout","assedio","afastamento","ansiedade"),"Saúde, risco e continuidade","Investigar organização do trabalho, suporte, relações, liderança, prevenção e acompanhamento."),
-)
+SEMANTIC_FAMILIES={
+ "expansion":("expansao","expande","amplia producao","amplia capacidade","aumenta capacidade","nova fabrica","nova unidade","nova planta","abre unidade","abre loja","inaugura","cresce producao","crescimento da producao","entra no mercado","vai entrar no","estrear na pista","expansion","new plant"),
+ "investment":("investe","investimento bilionario","investimento milionário","investimento milionario","injeta","aporta","aporte","capta","captacao","financia","financiamento","r$","us$","£","milhoes","bilhoes","investment","funding"),
+ "control":("aquisicao","adquire","compra empresa","compra 100","troca de dono","novo dono","muda de dono","mudanca de controle","controlador","incorpora","fusao","cisao","merger","acquisition","acquires"),
+ "leadership":("novo ceo","novo vp","troca de ceo","ex ceo retorna","ceo retorna","retorna para a operacao","nomeia","renuncia","sucessao","presidente deixa","new ceo","appoints","resigns"),
+ "restructuring":("reestruturacao","reorganiza","redesenha","renova mix","renovam mix","renova operacao","renovam operacoes","encolher","corta custos","reducao de custos","demissao","demite","fechamento","fecha unidade","restructuring","layoff","layoffs","closes"),
+ "operations":("operacao","operacoes","producao","capacidade produtiva","logistica","falha logistica","cadeia de suprimentos","fornecedores","terceirizacao","infraestrutura","planta industrial","fabrica"),
+ "workforce":("empregos","trabalhadores","empregados","funcionarios","contratacao","contrata","equipe","jornada","turno","salario","greve","sindicato","negociacao coletiva","workforce","workers","employees","jobs","hiring"),
+ "regulation":("regulamentacao","nova regra","lei sancionada","sancionado","decreto","portaria","resolucao","fiscalizacao","licenca","licenciamento","concessao","autorizacao","edital","incentivo fiscal","reducao do icms","icms","tributacao"),
+ "distress":("recuperacao judicial","recuperacao extrajudicial","falencia","pedido de recuperacao","insolvencia","bankruptcy","judicial recovery"),
+ "technology":("inteligencia artificial"," ia ","automacao","digitalizacao","tecnologia transforma","semicondutor","semiconductor"),
+ "people_risk":("nr 1","saude mental","risco psicossocial","burnout","assedio","afastamento","ansiedade","rotatividade","sobrecarga"),
+ "creative":("edital cultural","edital de cultura","fomento cultural","incentivo a cultura","incentivo cultural","audiovisual","economia criativa","produtora audiovisual"),
+ "events":("festival","rock in rio","carnaval","festa popular","evento esportivo","feira empresarial","feira de negocios","congresso empresarial","congresso medico","congresso de tecnologia","exposicao comercial","festival de musica"),
+ "sponsorship":("patrocinio","patrocinador","ativacao de marca","ativar uma marca","experiencia de marca","naming rights","recorde de marcas","atrai negocios","plataforma de posicionamento","conexao com consumidores","sponsorship")
+}
+
+BUSINESS_CONTEXT=("empresa","companhia","industria","varejo","rede","grupo","ceo","vp","fabrica","loja","operacao","producao","mercado","negocios","receita","faturamento","marca","franquia","banco","fintech","startup","pme","fornecedores","trabalhadores","empregos")
+PUBLIC_INVESTMENT_CONTEXT=("governo","presidente","ministro","ministerio","prefeitura","estado","educacao","faculdade","politica publica","programa publico")
+PERSONAL_FINANCE_CONTEXT=("poupanca","investidor","investidores","renda fixa","tesouro direto","carteira","aplicacao","aplicacoes","cdb","fundos de investimento")
+MATERIALITY_TERMS=("r$","us$","£","milhoes","bilhoes","empregos","trabalhadores","contratacao","fornecedores","infraestrutura","impacto economico","movimenta","receita","faturamento","capacidade produtiva","producao","operacao","operacoes","negocios","cadeia produtiva","turismo","rede hoteleira","investimento bilionario","investimento milionario","injeta","aporta","aporte","capta","captacao")
+
+EVENT_META={
+ "restructuring":("Redução, reestruturação ou fechamento","Pressão financeira","Investigar redução de equipe, redistribuição de tarefas, metas, comunicação e segurança no emprego."),
+ "control":("Fusão, aquisição ou mudança de controle","Capital e estratégia","Investigar mudança de controle, integração, governança, sobreposição de papéis, autonomia e retenção."),
+ "expansion":("Expansão ou aumento de capacidade","Capital e crescimento","Investigar capacidade operacional, contratação, liderança, integração e recursos exigidos pela expansão."),
+ "leadership":("Mudança de comando","Governança","Investigar continuidade estratégica, sucessão, confiança interna e efeitos sobre a cultura."),
+ "distress":("Crise financeira ou reorganização judicial","Continuidade e solvência","Investigar continuidade operacional, emprego, fornecedores, governança e reorganização."),
+ "people_risk":("Risco psicossocial e saúde no trabalho","Saúde, risco e continuidade","Investigar organização do trabalho, suporte, relações, liderança, prevenção e acompanhamento."),
+ "workforce":("Relações e força de trabalho","Pessoas e operação","Investigar emprego, jornada, negociação, distribuição de trabalho e continuidade operacional."),
+ "technology":("Tecnologia e redesenho do trabalho","Tecnologia e produtividade","Investigar funções alteradas, autonomia, capacitação, desempenho e insegurança profissional."),
+ "sponsorship":("Patrocínio, experiência e ativação de marca","Marketing e estratégia","Investigar investimento, objetivo empresarial, experiência, operação e retorno estratégico."),
+ "events":("Grandes eventos e ecossistemas temporários","Operação e ecossistema econômico","Investigar trabalhadores, fornecedores, infraestrutura, turismo, operação e impacto econômico."),
+ "creative":("Economia criativa e fomento","Investimento e cadeia criativa","Investigar recursos mobilizados, organizações beneficiadas, contratação, fornecedores e capacidade de execução."),
+ "regulation":("Regulação com efeito empresarial","Regra ou política pública","Confirmar setores atingidos, obrigação, prazo e mudanças necessárias em processos, custos ou trabalho."),
+ "operations":("Mudança operacional ou produtiva","Operação e capacidade","Investigar processo, logística, capacidade, recursos, liderança e efeitos sobre o trabalho."),
+ "investment":("Investimento ou movimentação de capital","Capital e estratégia","Confirmar quem investe, finalidade, escala e consequência empresarial concreta.")
+}
+
+def has_phrase(text,phrase):
+ return (" "+phrase.strip()+" ") in text
+
+def family_hits(text):
+ return {name:[term for term in terms if has_phrase(text,term)] for name,terms in SEMANTIC_FAMILIES.items() if any(has_phrase(text,term) for term in terms)}
 
 def editorial_potential(title,agenda,evidence):
  text=" "+norm(title)+" "
- event="Contexto econômico ou empresarial"
- trigger="Dinheiro, mercado ou reputação"
- investigation="Confirmar no corpo se existe decisão empresarial e mudança concreta na organização do trabalho."
- for name,terms,money,question in EVENTS:
-  if any(term in text for term in terms):event,trigger,investigation=name,money,question;break
- has_materiality=any(term in text for term in MATERIALITY_TERMS)
- culture_or_event=any(term in text for term in CULTURE_EVENT_TERMS)
- hard_promotional=any(term in text for term in HARD_PROMO_TERMS)
- promotional=any(term in text for term in PROMO_TERMS) and not (culture_or_event and has_materiality) and not (("patrocinio" in text or "patrocinador" in text or "naming rights" in text) and has_materiality)
- pure_finance=any(term in text for term in PURE_FINANCE_TERMS) and not any(term in text for term in DECISION_TERMS+HUMAN_TERMS)
- fact=2 if evidence=="Documento/ato oficial" or any(term in text for term in DECISION_TERMS) else (1 if any(term in text for term in ("ranking","pesquisa","dados","aponta","mostra","balanco","relatorio","edital","ata","comunicado")) else 0)
- decision=2 if any(term in text for term in DECISION_TERMS) else (1 if event.startswith("Regulação") or event.startswith("Registro") or event.startswith("Crise") or (culture_or_event and has_materiality) else 0)
- organization=2 if event not in ("Contexto econômico ou empresarial","Regulação com efeito empresarial") and (not culture_or_event or has_materiality) else (1 if event.startswith("Regulação") or evidence=="Documento/ato oficial" or (culture_or_event and has_materiality) else 0)
- human=2 if any(term in text for term in HUMAN_TERMS) else (1 if organization else 0)
- authority=2 if agenda in ("Pessoas e liderança","NR-1 / AEP","Trabalho e representação") or human==2 else (1 if agenda in ("Empresa em Pauta","IA e gestão","Mundo corporativo internacional","Poder e regras") or evidence=="Documento/ato oficial" else 0)
- source_bonus=1 if evidence=="Documento/ato oficial" and has_materiality and (decision>=1 or organization>=1) else 0
- score=max(0,min(10,fact+decision+organization+human+authority+source_bonus-(4 if promotional else 0)-(4 if hard_promotional else 0)-(3 if pure_finance else 0)))
- triage_priority="Prioridade muito alta" if score>=8.1 else ("Prioridade alta" if score>=6.1 else ("Prioridade média" if score>=4.1 else ("Prioridade baixa" if score>=2.1 else "Prioridade muito baixa")))
+ hits=family_hits(text)
+ business_context=any(has_phrase(text,t) for t in BUSINESS_CONTEXT)
+ public_context=any(has_phrase(text,t) for t in PUBLIC_INVESTMENT_CONTEXT)
+ personal_finance=any(has_phrase(text,t) for t in PERSONAL_FINANCE_CONTEXT)
+ materiality=any(has_phrase(text,t) for t in MATERIALITY_TERMS)
+ hard_promotional=any(has_phrase(text,t) for t in HARD_PROMO_TERMS)
+
+ # "investimento" só é decisão empresarial quando existe contexto empresarial/materialidade.
+ generic_investment=has_phrase(text,"investimento") or has_phrase(text,"investimentos")
+ investment_business=("investment" in hits and (business_context or materiality)) and not personal_finance
+ if ("investment" in hits) and (personal_finance or (public_context and not business_context)):
+  hits.pop("investment",None)
+
+ # Congresso legislativo não é congresso/evento; eventos exigem termos qualificados.
+ culture_or_event=bool(set(hits)&{"creative","events","sponsorship"})
+ promotional=any(has_phrase(text,t) for t in PROMO_TERMS) and not (culture_or_event and (materiality or business_context))
+
+ # Ordem de precedência: fatos empresariais mais concretos antes de categorias amplas.
+ precedence=("restructuring","control","expansion","leadership","distress","people_risk","workforce","technology","sponsorship","events","creative","regulation","operations","investment")
+ primary=next((name for name in precedence if name in hits),None)
+ if primary:
+  event,trigger,investigation=EVENT_META[primary]
+ else:
+  event,trigger,investigation="Contexto econômico ou empresarial","Dinheiro, mercado ou reputação","Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano."
+
+ concrete_families=set(hits)&{"restructuring","control","expansion","leadership","distress","workforce","sponsorship","regulation","operations"}
+ fact=2 if concrete_families or investment_business else (1 if materiality or evidence=="Documento/ato oficial" or any(has_phrase(text,t) for t in ("ranking","pesquisa","dados","balanco","relatorio","comunicado")) else 0)
+ decision=2 if set(hits)&{"restructuring","control","expansion","leadership","distress","sponsorship"} or investment_business else (1 if set(hits)&{"regulation","operations","creative","events","technology","workforce"} else 0)
+ organization=2 if set(hits)&{"restructuring","control","expansion","leadership","distress","operations","workforce"} else (1 if set(hits)&{"technology","sponsorship","events","creative","regulation"} and (materiality or business_context) else 0)
+ human=2 if set(hits)&{"workforce","people_risk"} else (1 if organization>=1 or any(has_phrase(text,t) for t in ("lideranca","lideres","cultura organizacional","equipe","funcionarios","empregados")) else 0)
+
+ # Autoridade editorial não deve ser criada apenas pela origem oficial.
+ authority=2 if agenda in ("Pessoas e liderança","NR-1 / AEP","Trabalho e representação") and (human or organization) else (1 if agenda in ("Empresa em Pauta","IA e gestão","Mundo corporativo internacional","Poder e regras") and (fact or decision) else 0)
+ source_bonus=1 if evidence=="Documento/ato oficial" and materiality and decision>=1 else 0
+
+ pure_finance=any(has_phrase(text,t) for t in PURE_FINANCE_TERMS) and not concrete_families and not business_context
+ score=fact+decision+organization+human+authority+source_bonus
+ if materiality and (business_context or concrete_families or culture_or_event):score+=1
+ if promotional:score-=4
+ if hard_promotional:score-=4
+ if pure_finance or personal_finance:score-=4
+ score=max(0,min(10,score))
+
+ triage_priority="Prioridade muito alta" if score>=8 else ("Prioridade alta" if score>=6 else ("Prioridade média" if score>=4 else ("Prioridade baixa" if score>=2 else "Prioridade muito baixa")))
  missing=[]
- if fact<2:missing.append("fato concreto no corpo")
+ if fact<2:missing.append("fato concreto no título")
  if decision<2:missing.append("decisão empresarial")
  if organization<2:missing.append("mudança organizacional")
  if human<2:missing.append("consequência humana")
- return {"score":score,"triagePriority":triage_priority,"event":event,"economicTrigger":trigger,"organizationalHypothesis":investigation,"questions":["Qual decisão concreta foi tomada?","O que muda no trabalho, nos papéis, nas metas ou nos recursos?","Quem absorve a consequência e qual responsabilidade cabe à liderança?"],"missing":missing,"caveat":"Hipótese de investigação baseada em título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.","promotional":promotional,"hardPromotional":hard_promotional,"materiality":has_materiality,"pureFinance":pure_finance}
+ return {"score":score,"triagePriority":triage_priority,"event":event,"economicTrigger":trigger,"organizationalHypothesis":investigation,"questions":["Qual decisão concreta foi tomada?","O que muda no trabalho, nos papéis, nas metas ou nos recursos?","Quem absorve a consequência e qual responsabilidade cabe à liderança?"],"missing":missing,"caveat":"Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.","promotional":promotional,"hardPromotional":hard_promotional,"materiality":materiality,"pureFinance":pure_finance,"semanticFamilies":hits,"businessContext":business_context}
 
 STOPWORDS={"a","o","as","os","de","da","do","das","dos","e","em","no","na","nos","nas","para","por","com","um","uma","ao","aos","que","como","sobre","brasil","brasileira","brasileiro","the","and","of","to","in","for"}
 def topic_tokens(title,source):

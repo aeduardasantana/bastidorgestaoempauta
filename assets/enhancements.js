@@ -144,7 +144,7 @@ copyResultsButton.onclick=copyFilteredResults;const copyResultsObserver=new Muta
 
 
 async function loadTrendStrip(){
- const render=(id,items)=>{const el=document.getElementById(id);if(!el)return;el.innerHTML=items?.length?items.slice(0,5).map(x=>`<button class="trend-pill" title="${x.radarStatus||""}"><i>${x.movement||"→"}</i> ${x.term}${x.relatedClusters?.length?'<b> · NO RADAR</b>':''}</button>`).join(""):'<span class="trend-unavailable">Indisponível nesta atualização</span>'}
+ const render=(id,items)=>{const el=document.getElementById(id);if(!el)return;el.innerHTML=items?.length?items.slice(0,5).map(x=>{const q=encodeURIComponent(x.term);const href=`https://www.google.com/search?q=${q}`;return `<a class="trend-pill" href="${href}" target="_blank" rel="noopener" title="${x.radarStatus||""}"><i>${x.movement||"→"}</i> <span>${x.term}</span>${x.relatedClusters?.length?'<b> · NO RADAR</b>':''}</a>`}).join(""):'<span class="trend-unavailable">Indisponível nesta atualização</span>'}
  try{
   const data=await fetch("data/trends.json?"+Date.now()).then(r=>{if(!r.ok)throw Error();return r.json()})
   render("trendsBR",data.regions?.BR?.items);render("trendsUS",data.regions?.US?.items)

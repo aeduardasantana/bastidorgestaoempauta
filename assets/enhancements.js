@@ -157,22 +157,4 @@ loadTrendStrip();
 ;;
 
 
-(function initFloatingVoiceReader(){
- const synth=window.speechSynthesis,selBtn=document.getElementById("readerPlaySelection"),pageBtn=document.getElementById("readerPlayPage"),pause=document.getElementById("readerPause"),stop=document.getElementById("readerStop"),status=document.getElementById("readerStatus");
- if(!selBtn||!pageBtn||!pause||!stop||!status)return;
- if(!("speechSynthesis" in window)){status.textContent="Leitura por voz não disponível neste navegador";selBtn.disabled=pageBtn.disabled=true;return}
- let lastSelection="",active=false,queue=[],pos=0,token=0;
- document.addEventListener("selectionchange",()=>{const t=window.getSelection?.().toString().replace(/\s+/g," ").trim();if(t)lastSelection=t});
- const voice=()=>{const v=synth.getVoices();return v.find(x=>/^pt-BR$/i.test(x.lang)&&/google/i.test(x.name))||v.find(x=>/^pt-BR$/i.test(x.lang))||v.find(x=>/^pt/i.test(x.lang))||v[0]||null};
- const split=t=>{const out=[];for(let i=0;i<t.length;){let e=Math.min(i+180,t.length);if(e<t.length){const s=t.lastIndexOf(" ",e);if(s>i+60)e=s}out.push(t.slice(i,e).trim());i=e}return out.filter(Boolean)};
- const state=on=>{active=on;pause.disabled=stop.disabled=!on;pause.textContent="⏸";if(!on)status.textContent="Selecione um texto ou ouça a página"};
- const readNext=my=>{if(my!==token||pos>=queue.length){if(my===token)state(false);return}const u=new SpeechSynthesisUtterance(queue[pos++]);u.lang="pt-BR";u.rate=.95;const v=voice();if(v)u.voice=v;u.onend=()=>readNext(my);u.onerror=e=>{if(!["canceled","interrupted"].includes(e.error))readNext(my)};synth.speak(u)};
- const startRead=(text,label)=>{if(!text){status.textContent="Nenhum texto selecionado";return}synth.cancel();token++;queue=split(text);pos=0;state(true);status.textContent=label;const my=token;setTimeout(()=>readNext(my),150)};
- const pageText=()=>{const root=document.querySelector("main");if(!root)return"";const clone=root.cloneNode(true);clone.querySelectorAll("button,select,input,dialog,script,.card-actions,.video-row").forEach(x=>x.remove());return clone.innerText.replace(/\s+/g," ").trim()};
- selBtn.onpointerdown=e=>e.preventDefault();
- selBtn.onclick=()=>startRead(lastSelection||window.getSelection?.().toString().trim(),"Lendo texto selecionado…");
- pageBtn.onclick=()=>startRead(pageText(),"Lendo a página…");
- pause.onclick=()=>{if(!active)return;if(synth.paused){synth.resume();pause.textContent="⏸";status.textContent="Leitura retomada"}else{synth.pause();pause.textContent="▶";status.textContent="Leitura pausada"}};
- stop.onclick=()=>{token++;synth.cancel();state(false)};
- synth.getVoices();if("onvoiceschanged" in synth)synth.onvoiceschanged=()=>synth.getVoices();
-})();
+;

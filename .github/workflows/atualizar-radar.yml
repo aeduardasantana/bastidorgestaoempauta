@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "scripts/atualizar_radar.py"
+      - "scripts/atualizar_radar.py"\n      - "scripts/atualizar_tendencias.py"
       - ".github/workflows/atualizar-radar.yml"
   schedule:
     - cron: "0 10 * * 1-5"
@@ -21,7 +21,7 @@ jobs:
       - name: Testar classificação do radar\n        run: python tests/test_radar.py\n      - name: Atualizar radar\n        run: python scripts/atualizar_radar.py
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-      - name: Registrar atualização
+      - name: Atualizar faixa Agora em Alta\n        run: python scripts/atualizar_tendencias.py\n      - name: Registrar atualização
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

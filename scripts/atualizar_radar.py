@@ -57,6 +57,9 @@ STREAMS={
  "NR-1 / AEP":("NR-1 AEP riscos psicossociais empresas","Risco jurídico/regulatório","Nacional","br"),
  "IA e gestão":("empresa inteligência artificial muda trabalho funções empregos liderança automação","Operação e estratégia","Nacional","br"),
  "Mundo corporativo internacional":("company CEO restructuring layoffs expansion workplace leadership culture acquisition","Pessoas e trabalho","Internacional","us"),
+ "Economia criativa e cultura — fomento":("(site:gov.br/cultura OR site:gov.br/ancine OR \"secretaria de cultura\") edital fomento incentivo investimento audiovisual produtora festival economia criativa contratação empregos","Operação e estratégia","Nacional","br"),
+ "Grandes eventos — ecossistema econômico":("(festival OR feira OR congresso OR exposição OR evento esportivo OR festa popular) investimento empregos trabalhadores fornecedores infraestrutura turismo operação impacto econômico empresas","Operação e estratégia","Nacional","br"),
+ "Patrocínio e experiência de marca":("(patrocínio OR patrocinador OR ativação de marca OR experiência de marca OR naming rights) investimento estratégia empresas festival evento marketing","Mercado e reputação","Nacional","br"),
  "Mídia, audiovisual e plataformas":("Netflix Disney Warner Globo SBT Record streaming televisão cinema CEO reestruturação demissões IA publicidade assinaturas","Operação e estratégia","Nacional","br")
 }
 HEADERS={"User-Agent":"Mozilla/5.0 (BastidorGestaoEmPauta/1.0)"}
@@ -65,6 +68,13 @@ def clean(t): return re.sub(r"<[^>]+>","",unescape(t or "")).strip()
 def d(v):
  try: return parsedate_to_datetime(v).date().isoformat()
  except: return datetime.now(timezone.utc).date().isoformat()
+
+def within_window(date_iso,days=30):
+ try:
+  published=datetime.fromisoformat(date_iso).date()
+  today=datetime.now(timezone.utc).date()
+  return today-timedelta(days=days)<=published<=today
+ except: return False
 
 GENERIC_TITLES={"notícias","últimas notícias","senado notícias","câmara notícias","camara notícias","home","início","inicio","notícias - senado","news"}
 def is_article(item):
@@ -82,7 +92,7 @@ def feed(q,n=12,locale="br"):
  except Exception as e:
   print("falha",e); return []
  items=[{"title":clean(i.findtext("title")),"source":clean(i.findtext("source")) or "Google Notícias","date":d(i.findtext("pubDate")or""),"url":i.findtext("link")} for i in r.findall("./channel/item")[:n] if i.findtext("title") and i.findtext("link")]
- return [item for item in items if is_article(item)]
+ return [item for item in items if is_article(item) and within_window(item["date"],30)]
 
 def origin(t,locale):
  c=feed('"'+t+'"',5,locale)
@@ -107,9 +117,12 @@ def norm(text):
  return re.sub(r"[^a-z0-9 ]+"," ",text)
 
 PROMO_TERMS=("premio","vencedores","feira de negocios","conference","conferencia","evento","mentor de ceos","livro gratuito","curso gratuito","aborda","debate","ganham protagonismo","franquias baratas","lista de","agenda de presidente","publieditorial","conteudo patrocinado","inscricoes abertas","webinar gratuito")
+HARD_PROMO_TERMS=("publieditorial","conteudo patrocinado","inscricoes abertas","webinar gratuito","livro gratuito","curso gratuito","agenda de presidente")
+MATERIALITY_TERMS=("investimento","investe","milhoes","bilhoes","empregos","trabalhadores","contratacao","contrata","fornecedores","infraestrutura","impacto economico","movimenta","turismo","rede hoteleira","empresas","produtora","producao audiovisual","cadeia produtiva","renuncia fiscal","incentivo fiscal","patrocinio","patrocinador","ativacao de marca","naming rights","concessao","licitacao","operacao","receita","faturamento","investment","jobs","workers","suppliers","economic impact","sponsorship")
+CULTURE_EVENT_TERMS=("cultura","cultural","festival","show","audiovisual","cinema","musica","economia criativa","rock in rio","carnaval","festa popular","evento esportivo","feira","congresso","exposicao")
 PURE_FINANCE_TERMS=("dolar","bolsas","selic","taxa de juros","dividendos","cotacao","acoes")
-DECISION_TERMS=("investe","investimento","expansao","nova fabrica","nova unidade","reestruturacao","demissao","demite","aquisicao","adquire","fusao","incorpora","cisao","fechamento","fecha unidade","renuncia","nomeia","novo ceo","novo vp","troca de ceo","greve","negociacao","piso salarial","trabalho presencial","home office","recuperacao judicial","falencia","concessao","autorizacao","licenca","licenciamento","contrato","edital","incentivo fiscal","abre filial","fecha filial","investment","expansion","restructuring","layoff","layoffs","acquisition","merger","appoints","resigns","new ceo","bankruptcy","judicial recovery")
-HUMAN_TERMS=("lideranca","lideres","trabalho","empregados","funcionarios","equipe","pessoas","saude mental","riscos psicossociais","nr 1","sobrecarga","rotatividade","afastamento","cultura","salario","qualificacao","greve","sindicato","contratacao","demissao","turno","jornada","terceirizacao","transferencia","unidade","filial","fabrica","leadership","workplace","employees","workers","jobs","culture","layoff","layoffs")
+DECISION_TERMS=("investe","investimento","expansao","nova fabrica","nova unidade","reestruturacao","demissao","demite","aquisicao","adquire","fusao","incorpora","cisao","fechamento","fecha unidade","renuncia","nomeia","novo ceo","novo vp","troca de ceo","greve","negociacao","piso salarial","trabalho presencial","home office","recuperacao judicial","falencia","concessao","autorizacao","licenca","licenciamento","contrato","edital","incentivo fiscal","abre filial","fecha filial","patrocinio","naming rights","investment","expansion","restructuring","layoff","layoffs","acquisition","merger","appoints","resigns","new ceo","bankruptcy","judicial recovery","sponsorship")
+HUMAN_TERMS=("lideranca","lideres","trabalho","empregados","funcionarios","equipe","pessoas","saude mental","riscos psicossociais","nr 1","sobrecarga","rotatividade","afastamento","cultura","salario","qualificacao","greve","sindicato","contratacao","demissao","turno","jornada","terceirizacao","transferencia","unidade","filial","fabrica","trabalhadores","empregos","leadership","workplace","employees","workers","jobs","culture","layoff","layoffs")
 
 EVENTS=(
  ("Redução, reestruturação ou fechamento",("corta custos","reducao de custos","reestruturacao","demissao","demite","fechamento","fecha unidade","restructuring","layoff","layoffs","closes"),"Pressão financeira","Investigar redução de equipe, redistribuição de tarefas, metas, comunicação e segurança no emprego."),
@@ -118,6 +131,9 @@ EVENTS=(
  ("Mudança de comando",("novo ceo","novo vp","troca de ceo","nomeia","renuncia","sucessao","presidente deixa","new ceo","appoints","resigns"),"Governança","Investigar continuidade estratégica, sucessão, confiança interna e efeitos sobre a cultura."),
  ("Tecnologia e redesenho do trabalho",("inteligencia artificial"," ia ","automacao","tecnologia transforma","digitalizacao"),"Tecnologia e produtividade","Investigar funções alteradas, autonomia, capacitação, critérios de desempenho e insegurança profissional."),
  ("Relações coletivas de trabalho",("greve","sindicato","convencao coletiva","negociacao coletiva","paralisacao"),"Custo e relações de trabalho","Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação."),
+ ("Economia criativa e fomento",("edital cultural","edital de cultura","fomento cultural","incentivo a cultura","incentivo cultural","audiovisual","economia criativa"),"Investimento e cadeia criativa","Investigar volume mobilizado, organizações beneficiadas, contratação, fornecedores, empregos e capacidade de execução."),
+ ("Grandes eventos e ecossistemas temporários",("festival","rock in rio","carnaval","festa popular","evento esportivo","feira","congresso","exposicao"),"Operação e ecossistema econômico","Investigar trabalhadores, fornecedores, terceirização, infraestrutura, turismo, operação, liderança e impacto econômico."),
+ ("Patrocínio, experiência e ativação de marca",("patrocinio","patrocinador","ativacao de marca","experiencia de marca","naming rights","sponsorship"),"Marketing e estratégia","Investigar investimento, objetivo empresarial, relacionamento, experiência, operação e retorno estratégico."),
  ("Regulação com efeito empresarial",("lei","projeto","decreto","regulamentacao","norma","fiscalizacao","piso salarial","portaria","resolucao","edital","autorizacao","licenca","licenciamento","concessao","incentivo fiscal"),"Regra ou política pública","Confirmar obrigação, prazo, setores atingidos e mudanças necessárias em processo, liderança, qualificação ou condições de trabalho."),
  ("Crise financeira ou reorganização judicial",("recuperacao judicial","falencia","pedido de recuperacao","bankruptcy","judicial recovery"),"Continuidade e solvência","Investigar continuidade operacional, emprego, fornecedores, governança, comunicação e reorganização da empresa."),
  ("Registro ou ato societário relevante",("junta comercial","incorporacao","cisao","dissolucao","abre filial","fecha filial","capital social","administrador"),"Estrutura societária e operação","Confirmar se o ato representa mudança material de controle, estrutura, presença territorial ou governança antes de tratá-lo como pauta."),
@@ -131,22 +147,25 @@ def editorial_potential(title,agenda,evidence):
  investigation="Confirmar no corpo se existe decisão empresarial e mudança concreta na organização do trabalho."
  for name,terms,money,question in EVENTS:
   if any(term in text for term in terms):event,trigger,investigation=name,money,question;break
- promotional=any(term in text for term in PROMO_TERMS)
+ has_materiality=any(term in text for term in MATERIALITY_TERMS)
+ culture_or_event=any(term in text for term in CULTURE_EVENT_TERMS)
+ hard_promotional=any(term in text for term in HARD_PROMO_TERMS)
+ promotional=any(term in text for term in PROMO_TERMS) and not (culture_or_event and has_materiality) and not (("patrocinio" in text or "patrocinador" in text or "naming rights" in text) and has_materiality)
  pure_finance=any(term in text for term in PURE_FINANCE_TERMS) and not any(term in text for term in DECISION_TERMS+HUMAN_TERMS)
  fact=2 if evidence=="Documento/ato oficial" or any(term in text for term in DECISION_TERMS) else (1 if any(term in text for term in ("ranking","pesquisa","dados","aponta","mostra","balanco","relatorio","edital","ata","comunicado")) else 0)
- decision=2 if any(term in text for term in DECISION_TERMS) else (1 if event.startswith("Regulação") or event.startswith("Registro") or event.startswith("Crise") else 0)
- organization=2 if event not in ("Contexto econômico ou empresarial","Regulação com efeito empresarial") else (1 if event.startswith("Regulação") or evidence=="Documento/ato oficial" else 0)
+ decision=2 if any(term in text for term in DECISION_TERMS) else (1 if event.startswith("Regulação") or event.startswith("Registro") or event.startswith("Crise") or (culture_or_event and has_materiality) else 0)
+ organization=2 if event not in ("Contexto econômico ou empresarial","Regulação com efeito empresarial") and (not culture_or_event or has_materiality) else (1 if event.startswith("Regulação") or evidence=="Documento/ato oficial" or (culture_or_event and has_materiality) else 0)
  human=2 if any(term in text for term in HUMAN_TERMS) else (1 if organization else 0)
- authority=2 if agenda in ("Pessoas e liderança","NR-1 / AEP","Trabalho e representação") or human==2 or evidence=="Documento/ato oficial" else (1 if agenda in ("Empresa em Pauta","IA e gestão","Mundo corporativo internacional","Poder e regras") else 0)
- source_bonus=1 if evidence=="Documento/ato oficial" and (decision>=1 or organization>=1) else 0
- score=max(0,min(10,fact+decision+organization+human+authority+source_bonus-(4 if promotional else 0)-(3 if pure_finance else 0)))
+ authority=2 if agenda in ("Pessoas e liderança","NR-1 / AEP","Trabalho e representação") or human==2 else (1 if agenda in ("Empresa em Pauta","IA e gestão","Mundo corporativo internacional","Poder e regras") or evidence=="Documento/ato oficial" else 0)
+ source_bonus=1 if evidence=="Documento/ato oficial" and has_materiality and (decision>=1 or organization>=1) else 0
+ score=max(0,min(10,fact+decision+organization+human+authority+source_bonus-(4 if promotional else 0)-(4 if hard_promotional else 0)-(3 if pure_finance else 0)))
  triage_priority="Prioridade muito alta" if score>=8.1 else ("Prioridade alta" if score>=6.1 else ("Prioridade média" if score>=4.1 else ("Prioridade baixa" if score>=2.1 else "Prioridade muito baixa")))
  missing=[]
  if fact<2:missing.append("fato concreto no corpo")
  if decision<2:missing.append("decisão empresarial")
  if organization<2:missing.append("mudança organizacional")
  if human<2:missing.append("consequência humana")
- return {"score":score,"triagePriority":triage_priority,"event":event,"economicTrigger":trigger,"organizationalHypothesis":investigation,"questions":["Qual decisão concreta foi tomada?","O que muda no trabalho, nos papéis, nas metas ou nos recursos?","Quem absorve a consequência e qual responsabilidade cabe à liderança?"],"missing":missing,"caveat":"Hipótese de investigação baseada em título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.","promotional":promotional,"pureFinance":pure_finance}
+ return {"score":score,"triagePriority":triage_priority,"event":event,"economicTrigger":trigger,"organizationalHypothesis":investigation,"questions":["Qual decisão concreta foi tomada?","O que muda no trabalho, nos papéis, nas metas ou nos recursos?","Quem absorve a consequência e qual responsabilidade cabe à liderança?"],"missing":missing,"caveat":"Hipótese de investigação baseada em título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.","promotional":promotional,"hardPromotional":hard_promotional,"materiality":has_materiality,"pureFinance":pure_finance}
 
 STOPWORDS={"a","o","as","os","de","da","do","das","dos","e","em","no","na","nos","nas","para","por","com","um","uma","ao","aos","que","como","sobre","brasil","brasileira","brasileiro","the","and","of","to","in","for"}
 def topic_tokens(title,source):

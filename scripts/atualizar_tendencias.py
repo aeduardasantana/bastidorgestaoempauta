@@ -7,8 +7,6 @@ from xml.etree import ElementTree as ET
 HEADERS={"User-Agent":"Mozilla/5.0 (BastidorGestaoEmPauta/1.0)"}
 REGIONS={
  "BR":{"label":"Brasil","provider":"Google Trends","active":True},
- "US":{"label":"Estados Unidos","provider":"Google Trends","active":True},
- "CN":{"label":"China","provider":None,"active":False,"note":"Fonte adequada ainda em avaliação; não usar Google como proxy do mercado chinês."}
 }
 
 def norm(s):

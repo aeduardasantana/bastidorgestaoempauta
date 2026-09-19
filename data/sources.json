@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17",
+  "updatedAt": "2026-09-18",
   "sources": [
     {
       "source": "Google Notícias",
@@ -310,6 +310,76 @@
       "function": "Pesquisas, rankings, certificações e conteúdos sobre experiência do trabalhador, cultura e ambiente organizacional.",
       "alignment": "Desenvolvimento humano aplicado ao trabalho, liderança, cultura e experiência dos trabalhadores.",
       "care": "Rankings, pesquisas e certificações seguem metodologia própria e não equivalem a auditoria integral da organização."
+    },
+    {
+      "source": "Imprensa regional tradicional",
+      "group": "Cobertura regional",
+      "type": "Jornalística",
+      "status": "Monitorada",
+      "flow": "Descoberta, contexto e confirmação local",
+      "function": "Captar fatos empresariais e trabalhistas apurados localmente antes ou sem repercussão nacional.",
+      "alignment": "Expansões, fábricas, emprego, fechamento de unidades, investimentos, crises, licenciamento e decisões empresariais regionais.",
+      "care": "Regional não significa baixa relevância. Avaliar materialidade do fato e confirmar documentos primários quando disponíveis."
+    },
+    {
+      "source": "O Popular e imprensa do Centro-Oeste",
+      "group": "Cobertura regional",
+      "type": "Jornalística",
+      "status": "Monitorada",
+      "flow": "Descoberta, contexto e confirmação local",
+      "function": "Cobertura empresarial, econômica, pública e trabalhista de Goiás e Centro-Oeste.",
+      "alignment": "Fatos regionais com consequência organizacional, econômica ou empresarial.",
+      "care": "Priorizar reportagem original e fatos concretos; evitar colunas sociais, opinião genérica e conteúdo promocional."
+    },
+    {
+      "source": "Diário Oficial da União e Imprensa Nacional",
+      "group": "Fontes públicas primárias",
+      "type": "Fonte oficial e documental",
+      "status": "Monitorada",
+      "flow": "Descoberta, confirmação e evidência",
+      "function": "Atos normativos, autorizações, sanções, editais, concessões, contratos e decisões públicas com possível efeito empresarial.",
+      "alignment": "Regulação, operação, mercado, trabalho, contratos e riscos.",
+      "care": "Nem todo ato publicado é pauta. Exigir materialidade empresarial e identificar alcance, vigência, destinatários e consequência concreta."
+    },
+    {
+      "source": "Diários oficiais estaduais e municipais",
+      "group": "Fontes públicas primárias",
+      "type": "Fonte oficial e documental",
+      "status": "Monitorada",
+      "flow": "Descoberta, confirmação e evidência",
+      "function": "Licenças, incentivos, contratos, concessões, atos administrativos e normas locais que podem antecipar movimentos empresariais.",
+      "alignment": "Investimento, expansão, operação, licenciamento, emprego e ambiente de negócios.",
+      "care": "Confirmar território e alcance. Não extrapolar ato local para realidade nacional."
+    },
+    {
+      "source": "Juntas Comerciais",
+      "group": "Registro empresarial",
+      "type": "Fonte oficial registral",
+      "status": "Monitorada",
+      "flow": "Descoberta e confirmação documental",
+      "function": "Sinais de constituição, transformação, incorporação, fusão, cisão, dissolução, filiais, capital e administração.",
+      "alignment": "Governança, M&A, expansão, retração e mudança societária.",
+      "care": "Ato registral isolado não prova estratégia, impacto ou consequência humana; confirmar materialidade e contexto antes de pautar."
+    },
+    {
+      "source": "Cartórios e registros públicos",
+      "group": "Registro empresarial",
+      "type": "Fonte registral primária",
+      "status": "Consulta dirigida",
+      "flow": "Sinal, confirmação documental e investigação",
+      "function": "Identificar atos registrais potencialmente relacionados a imóveis empresariais, garantias, incorporações, protestos e reorganizações.",
+      "alignment": "Expansão física, investimento, crédito, crise, patrimônio e operação.",
+      "care": "Tratar como sinal documental. Respeitar dados pessoais e sigilo; não expor pessoas físicas nem inferir crise, fraude ou estratégia sem confirmação."
+    },
+    {
+      "source": "Judiciário empresarial e tribunais",
+      "group": "Fontes públicas primárias",
+      "type": "Fonte oficial e documental",
+      "status": "Monitorada",
+      "flow": "Descoberta, confirmação e evidência",
+      "function": "Recuperação judicial, falência, concorrência, contratos, grupos econômicos e decisões com impacto organizacional.",
+      "alignment": "Continuidade, governança, trabalho, fornecedores, risco e operação.",
+      "care": "Diferenciar decisão processual, decisão definitiva e alegação das partes. Caso individual não equivale a tendência."
     }
   ],
   "interestSignals": [

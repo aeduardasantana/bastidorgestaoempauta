@@ -21,6 +21,10 @@ STREAMS={
  "Veículos BR — Estadão, Folha e O Globo":("(site:estadao.com.br OR site:folha.uol.com.br/mercado OR site:oglobo.globo.com/economia) empresa investimento fusão aquisição reestruturação produção trabalho","Operação e estratégia","Nacional","br"),
  "Veículos BR — Agência Brasil":("site:agenciabrasil.ebc.com.br empresa economia trabalho regulamentação investimento produção exportação","Risco jurídico/regulatório","Nacional","br"),
  "Veículos BR — Band, SBT, Record e Jovem Pan":("(site:band.uol.com.br OR site:sbtnews.sbt.com.br OR site:noticias.r7.com OR site:jovempan.com.br) empresa economia investimento trabalho regulamentação","Operação e estratégia","Nacional","br"),
+ "Veículos regionais — Centro-Oeste":("(site:opopular.com.br OR site:correiodoestado.com.br OR site:campograndenews.com.br OR site:midiamax.uol.com.br OR site:olhardireto.com.br) empresa investimento fábrica expansão fechamento demissão contratação sindicato licenciamento recuperação judicial aquisição","Operação e estratégia","Estadual","br"),
+ "Veículos regionais — Sul":("(site:gazetadopovo.com.br OR site:clicrbs.com.br OR site:nsctotal.com.br OR site:gauchazh.clicrbs.com.br) empresa investimento fábrica expansão fechamento demissão contratação aquisição recuperação judicial","Operação e estratégia","Estadual","br"),
+ "Veículos regionais — Sudeste":("(site:otempo.com.br OR site:em.com.br OR site:atribuna.com.br OR site:diariodaregiao.com.br) empresa investimento fábrica expansão fechamento demissão contratação aquisição recuperação judicial","Operação e estratégia","Estadual","br"),
+ "Veículos regionais — Norte e Nordeste":("(site:diariodonordeste.verdesmares.com.br OR site:jornaldocommercio.com OR site:atarde.com.br OR site:correio24horas.com.br OR site:oliberal.com OR site:d24am.com) empresa investimento fábrica expansão fechamento demissão contratação aquisição recuperação judicial","Operação e estratégia","Estadual","br"),
  "Fontes internacionais — Reuters, Bloomberg e CNBC":("(Reuters OR Bloomberg OR CNBC) company investment acquisition merger expansion restructuring layoffs CEO Brazil","Operação e estratégia","Internacional","us"),
  "Fontes internacionais — FT e WSJ":("(Financial Times OR Wall Street Journal) company earnings guidance acquisition restructuring supply chain Brazil","Custo e caixa","Internacional","us"),
  "Fontes internacionais — AP, BBC e CNN Business":("(Associated Press OR BBC Business OR CNN Business) company investment layoffs hiring regulation automation Brazil","Operação e estratégia","Internacional","us"),
@@ -38,6 +42,11 @@ STREAMS={
  "Poder e regras — Planalto oficial":("site:gov.br/planalto empresas lei decreto regulamentação sanção","Risco jurídico/regulatório","Federal","br"),
  "Poder e regras — MTE oficial":("site:gov.br/trabalho-e-emprego empresas trabalho fiscalização norma regulamentadora","Risco jurídico/regulatório","Federal","br"),
  "Poder e regras — reguladores":("site:gov.br empresas Banco Central Receita Federal Cade CVM regulamentação","Risco jurídico/regulatório","Federal","br"),
+ "Diários oficiais — União":("(site:in.gov.br OR site:gov.br/imprensanacional) empresa edital portaria resolução decreto autorização concessão sanção licença multa contrato nomeação intervenção recuperação","Risco jurídico/regulatório","Federal","br"),
+ "Diários oficiais — estados":("(\"diário oficial\" OR \"diario oficial\") empresa edital licença ambiental concessão autorização contrato incentivo fiscal indústria comércio trabalho","Risco jurídico/regulatório","Estadual","br"),
+ "Juntas comerciais e registro empresarial":("(junta comercial OR juceg OR jucesp OR jucemg OR jucepar OR jucisrs) empresa constituição transformação incorporação fusão cisão dissolução filial capital administrador","Operação e estratégia","Estadual","br"),
+ "Registro empresarial e cartórios":("(cartório OR registro de imóveis OR registro civil de pessoas jurídicas OR protesto) empresa aquisição imóvel industrial garantia alienação recuperação judicial falência incorporação empreendimento","Operação e estratégia","Estadual","br"),
+ "Judiciário empresarial":("(site:jus.br OR site:trf1.jus.br OR site:trf2.jus.br OR site:trf3.jus.br OR site:trf4.jus.br OR site:trf5.jus.br OR site:stj.jus.br) empresa recuperação judicial falência grupo econômico concorrência contrato trabalho assédio indenização","Risco jurídico/regulatório","Nacional","br"),
  "Relações internacionais — Itamaraty oficial":("site:gov.br/mre empresas comércio exterior acordo embaixada exportação","Mercado e reputação","Internacional","br"),
  "Poder e regras — municipal":("prefeitura câmara municipal alvará ISS licenciamento empresas","Risco jurídico/regulatório","Municipal","br"),
  "Poder e regras — estadual":("governo estadual ICMS licenciamento empresas regulamentação","Risco jurídico/regulatório","Estadual","br"),
@@ -79,7 +88,7 @@ def origin(t,locale):
  c=feed('"'+t+'"',5,locale)
  return {"found":bool(c),**(min(c,key=lambda x:x["date"]) if c else {})}
 
-OFFICIAL_SOURCES=("senado","câmara","camara","planalto","ministério","ministerio","itamaraty","diário oficial","tribunal","trt","tst","stf","mte","mpt","receita federal","banco central","ibge","prefeitura","governo do estado","assembleia legislativa","câmara municipal","camara municipal")
+OFFICIAL_SOURCES=("senado","câmara","camara","planalto","ministério","ministerio","itamaraty","diário oficial","diario oficial","imprensa nacional","tribunal","trt","tst","stf","stj","trf","mte","mpt","receita federal","banco central","ibge","prefeitura","governo do estado","assembleia legislativa","câmara municipal","camara municipal","junta comercial","juceg","jucesp","jucemg","jucepar","jucisrs","cvm","cade")
 
 def safety(x):
  text=(x["title"]+" "+x["source"]).lower()
@@ -97,10 +106,10 @@ def norm(text):
  text=unicodedata.normalize("NFKD",text or "").encode("ascii","ignore").decode().lower()
  return re.sub(r"[^a-z0-9 ]+"," ",text)
 
-PROMO_TERMS=("premio","vencedores","feira de negocios","conference","conferencia","evento","mentor de ceos","livro gratuito","curso gratuito","aborda","debate","ganham protagonismo","franquias baratas","lista de","agenda de presidente")
+PROMO_TERMS=("premio","vencedores","feira de negocios","conference","conferencia","evento","mentor de ceos","livro gratuito","curso gratuito","aborda","debate","ganham protagonismo","franquias baratas","lista de","agenda de presidente","publieditorial","conteudo patrocinado","inscricoes abertas","webinar gratuito")
 PURE_FINANCE_TERMS=("dolar","bolsas","selic","taxa de juros","dividendos","cotacao","acoes")
-DECISION_TERMS=("investe","investimento","expansao","nova fabrica","reestruturacao","demissao","demite","aquisicao","adquire","fusao","incorpora","fechamento","fecha unidade","renuncia","nomeia","novo ceo","novo vp","troca de ceo","greve","negociacao","piso salarial","trabalho presencial","home office","investment","expansion","restructuring","layoff","layoffs","acquisition","merger","appoints","resigns","new ceo")
-HUMAN_TERMS=("lideranca","lideres","trabalho","empregados","funcionarios","equipe","pessoas","saude mental","riscos psicossociais","nr 1","sobrecarga","rotatividade","afastamento","cultura","salario","qualificacao","greve","sindicato","contratacao","demissao","leadership","workplace","employees","workers","jobs","culture","layoff","layoffs")
+DECISION_TERMS=("investe","investimento","expansao","nova fabrica","nova unidade","reestruturacao","demissao","demite","aquisicao","adquire","fusao","incorpora","cisao","fechamento","fecha unidade","renuncia","nomeia","novo ceo","novo vp","troca de ceo","greve","negociacao","piso salarial","trabalho presencial","home office","recuperacao judicial","falencia","concessao","autorizacao","licenca","licenciamento","contrato","edital","incentivo fiscal","abre filial","fecha filial","investment","expansion","restructuring","layoff","layoffs","acquisition","merger","appoints","resigns","new ceo","bankruptcy","judicial recovery")
+HUMAN_TERMS=("lideranca","lideres","trabalho","empregados","funcionarios","equipe","pessoas","saude mental","riscos psicossociais","nr 1","sobrecarga","rotatividade","afastamento","cultura","salario","qualificacao","greve","sindicato","contratacao","demissao","turno","jornada","terceirizacao","transferencia","unidade","filial","fabrica","leadership","workplace","employees","workers","jobs","culture","layoff","layoffs")
 
 EVENTS=(
  ("Redução, reestruturação ou fechamento",("corta custos","reducao de custos","reestruturacao","demissao","demite","fechamento","fecha unidade","restructuring","layoff","layoffs","closes"),"Pressão financeira","Investigar redução de equipe, redistribuição de tarefas, metas, comunicação e segurança no emprego."),
@@ -109,7 +118,9 @@ EVENTS=(
  ("Mudança de comando",("novo ceo","novo vp","troca de ceo","nomeia","renuncia","sucessao","presidente deixa","new ceo","appoints","resigns"),"Governança","Investigar continuidade estratégica, sucessão, confiança interna e efeitos sobre a cultura."),
  ("Tecnologia e redesenho do trabalho",("inteligencia artificial"," ia ","automacao","tecnologia transforma","digitalizacao"),"Tecnologia e produtividade","Investigar funções alteradas, autonomia, capacitação, critérios de desempenho e insegurança profissional."),
  ("Relações coletivas de trabalho",("greve","sindicato","convencao coletiva","negociacao coletiva","paralisacao"),"Custo e relações de trabalho","Investigar reivindicações, percepção de justiça, comunicação, continuidade operacional e qualidade da negociação."),
- ("Regulação com efeito empresarial",("lei","projeto","decreto","regulamentacao","norma","fiscalizacao","piso salarial"),"Regra ou política pública","Confirmar obrigação, prazo, setores atingidos e mudanças necessárias em processo, liderança, qualificação ou condições de trabalho."),
+ ("Regulação com efeito empresarial",("lei","projeto","decreto","regulamentacao","norma","fiscalizacao","piso salarial","portaria","resolucao","edital","autorizacao","licenca","licenciamento","concessao","incentivo fiscal"),"Regra ou política pública","Confirmar obrigação, prazo, setores atingidos e mudanças necessárias em processo, liderança, qualificação ou condições de trabalho."),
+ ("Crise financeira ou reorganização judicial",("recuperacao judicial","falencia","pedido de recuperacao","bankruptcy","judicial recovery"),"Continuidade e solvência","Investigar continuidade operacional, emprego, fornecedores, governança, comunicação e reorganização da empresa."),
+ ("Registro ou ato societário relevante",("junta comercial","incorporacao","cisao","dissolucao","abre filial","fecha filial","capital social","administrador"),"Estrutura societária e operação","Confirmar se o ato representa mudança material de controle, estrutura, presença territorial ou governança antes de tratá-lo como pauta."),
  ("Risco psicossocial e saúde no trabalho",("nr 1","saude mental","risco psicossocial","burnout","assedio","afastamento","ansiedade"),"Saúde, risco e continuidade","Investigar organização do trabalho, suporte, relações, liderança, prevenção e acompanhamento."),
 )
 
@@ -122,12 +133,13 @@ def editorial_potential(title,agenda,evidence):
   if any(term in text for term in terms):event,trigger,investigation=name,money,question;break
  promotional=any(term in text for term in PROMO_TERMS)
  pure_finance=any(term in text for term in PURE_FINANCE_TERMS) and not any(term in text for term in DECISION_TERMS+HUMAN_TERMS)
- fact=2 if evidence=="Documento/ato oficial" or any(term in text for term in DECISION_TERMS) else (1 if any(term in text for term in ("ranking","pesquisa","dados","aponta","mostra")) else 0)
- decision=2 if any(term in text for term in DECISION_TERMS) else (1 if event.startswith("Regulação") else 0)
- organization=2 if event not in ("Contexto econômico ou empresarial","Regulação com efeito empresarial") else (1 if event.startswith("Regulação") else 0)
+ fact=2 if evidence=="Documento/ato oficial" or any(term in text for term in DECISION_TERMS) else (1 if any(term in text for term in ("ranking","pesquisa","dados","aponta","mostra","balanco","relatorio","edital","ata","comunicado")) else 0)
+ decision=2 if any(term in text for term in DECISION_TERMS) else (1 if event.startswith("Regulação") or event.startswith("Registro") or event.startswith("Crise") else 0)
+ organization=2 if event not in ("Contexto econômico ou empresarial","Regulação com efeito empresarial") else (1 if event.startswith("Regulação") or evidence=="Documento/ato oficial" else 0)
  human=2 if any(term in text for term in HUMAN_TERMS) else (1 if organization else 0)
- authority=2 if agenda in ("Pessoas e liderança","NR-1 / AEP","Trabalho e representação") or human==2 else (1 if agenda in ("Empresa em Pauta","IA e gestão","Mundo corporativo internacional","Poder e regras") else 0)
- score=max(0,min(10,fact+decision+organization+human+authority-(4 if promotional else 0)-(3 if pure_finance else 0)))
+ authority=2 if agenda in ("Pessoas e liderança","NR-1 / AEP","Trabalho e representação") or human==2 or evidence=="Documento/ato oficial" else (1 if agenda in ("Empresa em Pauta","IA e gestão","Mundo corporativo internacional","Poder e regras") else 0)
+ source_bonus=1 if evidence=="Documento/ato oficial" and (decision>=1 or organization>=1) else 0
+ score=max(0,min(10,fact+decision+organization+human+authority+source_bonus-(4 if promotional else 0)-(3 if pure_finance else 0)))
  triage_priority="Prioridade muito alta" if score>=8.1 else ("Prioridade alta" if score>=6.1 else ("Prioridade média" if score>=4.1 else ("Prioridade baixa" if score>=2.1 else "Prioridade muito baixa")))
  missing=[]
  if fact<2:missing.append("fato concreto no corpo")

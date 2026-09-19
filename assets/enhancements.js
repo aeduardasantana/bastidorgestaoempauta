@@ -152,3 +152,19 @@ async function loadTrendStrip(){
  }catch(e){render("trendsBR",[]);render("trendsUS",[])}
 }
 loadTrendStrip();
+
+
+(function initVoiceReader(){
+ const synth=window.speechSynthesis,play=document.getElementById("readerPlay"),pause=document.getElementById("readerPause"),stop=document.getElementById("readerStop");
+ if(!play||!pause||!stop)return;
+ if(!("speechSynthesis" in window)){play.disabled=true;play.textContent="🔇 Leitor indisponível";return}
+ let speaking=false;
+ const setState=on=>{speaking=on;pause.disabled=!on;stop.disabled=!on;play.textContent=on?"🔊 Reiniciar":"🔊 Ouvir";if(!on)pause.textContent="⏸ Pausar"};
+ const pageText=()=>{const root=document.querySelector("main");if(!root)return"";const clone=root.cloneNode(true);clone.querySelectorAll("button,select,input,dialog,script,.card-actions,.video-row").forEach(x=>x.remove());return clone.innerText.replace(/\s+/g," ").trim()};
+ const voice=()=>{const vs=synth.getVoices();return vs.find(v=>/^pt-BR$/i.test(v.lang)&&/google/i.test(v.name))||vs.find(v=>/^pt-BR$/i.test(v.lang))||vs.find(v=>/^pt/i.test(v.lang))||null};
+ const speak=()=>{synth.cancel();const text=pageText();if(!text)return;const u=new SpeechSynthesisUtterance(text);u.lang="pt-BR";u.rate=1;u.pitch=1;const v=voice();if(v)u.voice=v;u.onend=()=>setState(false);u.onerror=()=>setState(false);setState(true);synth.speak(u)};
+ play.onclick=speak;
+ pause.onclick=()=>{if(!speaking)return;if(synth.paused){synth.resume();pause.textContent="⏸ Pausar"}else{synth.pause();pause.textContent="▶ Continuar"}};
+ stop.onclick=()=>{synth.cancel();setState(false)};
+ window.addEventListener("beforeunload",()=>synth.cancel());
+})();

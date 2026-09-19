@@ -141,3 +141,14 @@ NÃO monte escalada, espelho, ordem dos blocos, roteiro ou Mapa Mental. Essas de
 function updateCopyResultsButton(){const count=filter().length;copyResultsButton.disabled=!count;copyResultsButton.textContent=count?`⧉ Copiar ${count} resultado${count===1?"":"s"}`:"⧉ Sem resultados"}
 async function copyFilteredResults(){const text=filteredResultsText();try{await navigator.clipboard.writeText(text)}catch{copyFallback(text)}copyResultsButton.textContent="✓ Resultados copiados";setTimeout(updateCopyResultsButton,1800)}
 copyResultsButton.onclick=copyFilteredResults;const copyResultsObserver=new MutationObserver(updateCopyResultsButton);copyResultsObserver.observe(document.querySelector("#newsGrid"),{childList:true});updateCopyResultsButton();
+
+
+async function loadTrendStrip(){
+ const render=(id,items)=>{const el=document.getElementById(id);if(!el)return;el.innerHTML=items?.length?items.slice(0,5).map(x=>`<button class="trend-pill" title="${x.radarStatus||""}"><i>${x.movement||"→"}</i> ${x.term}${x.relatedClusters?.length?'<b> · NO RADAR</b>':''}</button>`).join(""):'<span class="trend-unavailable">Indisponível nesta atualização</span>'}
+ try{
+  const data=await fetch("data/trends.json?"+Date.now()).then(r=>{if(!r.ok)throw Error();return r.json()})
+  render("trendsBR",data.regions?.BR?.items);render("trendsUS",data.regions?.US?.items)
+  const info=document.getElementById("trendsInfo");if(info)info.onclick=()=>alert("Esta faixa mostra atenção pública e não altera score, prioridade ou seleção editorial. “NO RADAR” indica apenas que há notícia relacionada entre os clusters encontrados. China permanece separada até definirmos uma fonte adequada. X será ativado somente por conector oficial sustentável.")
+ }catch(e){render("trendsBR",[]);render("trendsUS",[])}
+}
+loadTrendStrip();

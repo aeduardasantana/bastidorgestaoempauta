@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T03:59:39.956065+00:00",
+  "updatedAt": "2026-09-21T16:15:36.980033+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "pantoja",
+          "term": "dolar",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "tigres fc",
+          "term": "cratera",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "this is us",
+          "term": "r7",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ortega",
+          "term": "teste",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "netflix top movies right now",
+          "term": "w",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "iphone 15 pro to buy",
+          "term": "wpp",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "where to watch nfl games",
+          "term": "calendário 2026",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "latest iphone rumors",
+          "term": "word",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "what is phishing",
+          "term": "stop",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,12 +82,28 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "cryptocurrency trading",
+          "term": "greve banco caixa",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "greve-de-banc-rios-da-caixa-entra-no-7-dia-veja-situa-o-sbtnews-sbt-com-brsbtnews-sbt-com-",
+              "title": "Greve de bancários da Caixa entra no 7º dia; veja situação - sbtnews.sbt.com.br",
+              "score": 90
+            },
+            {
+              "id": "caixa-e-funcion-rios-voltam-a-negociar-nesta-quarta-greve-segue-sem-prazo-para-acabar-g1g1",
+              "title": "Caixa e funcionários voltam a negociar nesta quarta; greve segue sem prazo para acabar - G1",
+              "score": 90
+            },
+            {
+              "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
+              "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
+              "score": 90
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         }
       ]
     }
@@ -99,16 +115,21 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 19,
+    "count": 20,
     "items": [
+      {
+        "id": "trabalhadores-offshore-entram-em-greve-e-cobram-reajuste-de-15-em-maca-portalviu-com-brpor",
+        "title": "Trabalhadores offshore entram em greve e cobram reajuste de 15% em Macaé - portalviu.com.br",
+        "score": 100
+      },
       {
         "id": "petrobras-acompanha-negocia-es-entre-empresas-contratadas-e-trabalhadores-em-greve-em-camp",
         "title": "Petrobras acompanha negociações entre empresas contratadas e trabalhadores em greve em Campos - Notícias Agrícolas",
         "score": 100
       },
       {
-        "id": "greve-de-banc-rios-da-caixa-entra-no-7-dia-veja-situa-o-sbt-newssbt-news",
-        "title": "Greve de bancários da Caixa entra no 7º dia; veja situação - SBT News",
+        "id": "greve-de-banc-rios-da-caixa-entra-no-7-dia-veja-situa-o-sbtnews-sbt-com-brsbtnews-sbt-com-",
+        "title": "Greve de bancários da Caixa entra no 7º dia; veja situação - sbtnews.sbt.com.br",
         "score": 90
       },
       {
@@ -117,8 +138,8 @@
         "score": 90
       },
       {
-        "id": "gigante-das-bebidas-inaugura-f-brica-de-r-400-milh-es-e-gera-10-mil-empregos-atarde-com-br",
-        "title": "Gigante das bebidas inaugura fábrica de R$ 400 milhões e gera 10 mil empregos - atarde.com.br",
+        "id": "gigante-das-bebidas-inaugura-f-brica-de-r-400-milh-es-e-gera-10-mil-empregos-a-tardea-tard",
+        "title": "Gigante das bebidas inaugura fábrica de R$ 400 milhões e gera 10 mil empregos - A TARDE",
         "score": 90
       },
       {
@@ -132,18 +153,23 @@
         "score": 90
       },
       {
-        "id": "-sozinho-voc-n-o-consegue-fazer-nada-diz-caito-maia-ap-s-an-ncio-de-novo-vp-da-chilli-bean",
-        "title": "'Sozinho você não consegue fazer nada', diz Caito Maia após anúncio de novo VP da Chilli Beans - Pequenas Empresas & Grandes Negócios",
+        "id": "nove-mesas-nenhum-ndice-banc-rios-cobram-valoriza-o-dos-bancos-sindicato-dos-banc-riossind",
+        "title": "Nove mesas, nenhum índice: bancários cobram valorização dos bancos - Sindicato dos Bancários",
         "score": 90
       },
       {
-        "id": "banc-rios-alcan-am-aumento-real-para-2026-e-2027-mant-m-direitos-e-avan-am-em-novas-conqui",
-        "title": "Bancários alcançam aumento real para 2026 e 2027, mantêm direitos e avançam em novas conquistas - Sindicato dos Bancários",
-        "score": 90
+        "id": "empresa-prev-investir-r-72-milh-es-em-nova-f-brica-no-cear-di-rio-do-nordestedi-rio-do-nor",
+        "title": "Empresa prevê investir R$ 72 milhões em nova fábrica no Ceará - Diário do Nordeste",
+        "score": 80
       },
       {
-        "id": "gigante-chinesa-anuncia-f-brica-no-brasil-com-10-mil-empregos-atarde-com-bratarde-com-br",
-        "title": "Gigante chinesa anuncia fábrica no Brasil com 10 mil empregos - atarde.com.br",
+        "id": "gigante-de-chocolates-recebe-investimento-bilion-rio-e-expande-f-brica-no-brasil-a-tardea-",
+        "title": "Gigante de chocolates recebe investimento bilionário e expande fábrica no Brasil - A TARDE",
+        "score": 80
+      },
+      {
+        "id": "gigante-chinesa-anuncia-f-brica-no-brasil-com-10-mil-empregos-a-tardea-tarde",
+        "title": "Gigante chinesa anuncia fábrica no Brasil com 10 mil empregos - A TARDE",
         "score": 80
       },
       {
@@ -153,7 +179,7 @@
       },
       {
         "id": "gigante-dos-carros-anuncia-novo-investimento-de-r-2-bilh-es-no-brasil-e-produ-o-de-novos-m",
-        "title": "Gigante dos carros anuncia novo investimento de R$ 2 bilhões no Brasil e produção de novos modelos - Jornal Correio",
+        "title": "Gigante dos carros anuncia novo investimento de R$ 2 bilhões no Brasil e produção de novos modelos - correio24horas.com.br",
         "score": 80
       },
       {
@@ -162,18 +188,13 @@
         "score": 80
       },
       {
-        "id": "layoff-tracker-sionna-says-good-bye-to-46-of-staffers-including-exec-biospacebiospace",
-        "title": "Layoff Tracker: Sionna says good-bye to 46% of staffers, including exec - BioSpace",
+        "id": "layoff-tracker-sionna-says-good-bye-to-46-of-staffers-including-exec-biospace-combiospace-",
+        "title": "Layoff Tracker: Sionna says good-bye to 46% of staffers, including exec - biospace.com",
         "score": 80
       },
       {
         "id": "avenue-vai-entrar-no-chile-e-se-prepara-para-atuar-em-cr-dito-e-infraestrutura-na-europa-n",
         "title": "Avenue vai entrar no Chile e se prepara para atuar em crédito e infraestrutura na Europa - NeoFeed",
-        "score": 80
-      },
-      {
-        "id": "de-hamb-rguer-a-perfume-franquias-apostam-no-rock-in-rio-como-plataforma-de-posicionamento",
-        "title": "De hambúrguer a perfume: franquias apostam no Rock in Rio como plataforma de posicionamento e conexão com consumidores - Pequenas Empresas & Grandes Negócios",
         "score": 80
       },
       {
@@ -200,8 +221,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 0,
-    "withoutRadar": 10,
-    "highPriorityOutsideTrends": 19
+    "withRadar": 1,
+    "withoutRadar": 9,
+    "highPriorityOutsideTrends": 20
   }
 }

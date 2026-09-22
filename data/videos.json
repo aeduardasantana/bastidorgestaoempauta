@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-22",
   "items": [
     {
       "id": "yt-bxjWdxXJL9c",
@@ -44,30 +44,6 @@
       "angle": "Verificar se o vídeo confirma uma declaração, apresenta análise ou apenas repercute o tema. Não usar título, corte ou comentário como prova do fato.",
       "query": "NR-1 AEP riscos psicossociais empresas",
       "duration": "50min 47s",
-      "use": {
-        "label": "Usar apenas após assistir ao conteúdo e identificar o tipo de canal.",
-        "alert": "Não reproduzir vídeo, trecho, transcrição, imagem ou miniatura de terceiro sem autorização."
-      }
-    },
-    {
-      "id": "yt-81YUwgpZTNM",
-      "videoId": "81YUwgpZTNM",
-      "title": "Questionário de Risco Psicossocial vale como prova na fiscalização? #shorts  #gestãoderiscos #nr1",
-      "source": "Engenharia & Expansão.",
-      "channelId": "UCEuASbHPdW5opW1bjvKxlcw",
-      "date": "2026-09-07",
-      "url": "https://www.youtube.com/watch?v=81YUwgpZTNM",
-      "agenda": "NR-1 / AEP",
-      "impact": "Risco jurídico/regulatório",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Exige confirmação",
-      "sourceType": "Canal de análise ou origem a validar",
-      "score": 5,
-      "summary": "Vídeo localizado no YouTube. Confira o canal e assista ao conteúdo antes de usar qualquer declaração como fonte.",
-      "angle": "Verificar se o vídeo confirma uma declaração, apresenta análise ou apenas repercute o tema. Não usar título, corte ou comentário como prova do fato.",
-      "query": "NR-1 AEP riscos psicossociais empresas",
-      "duration": "36s",
       "use": {
         "label": "Usar apenas após assistir ao conteúdo e identificar o tipo de canal.",
         "alert": "Não reproduzir vídeo, trecho, transcrição, imagem ou miniatura de terceiro sem autorização."

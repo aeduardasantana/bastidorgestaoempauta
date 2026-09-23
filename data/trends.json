@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T14:24:01.119433+00:00",
+  "updatedAt": "2026-09-23T14:44:51.355324+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "procurador",
+          "term": "greve",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "caso isabelle",
+          "term": "eduardo baptista",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,15 +26,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "stop",
+          "term": "enzo monteiro",
           "source": "Google Trends",
           "position": 3,
-          "movement": "↑",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "pesquisa senado sp",
+          "term": "seleção brasileira",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "josé carlos oliveira",
+          "term": "mikel arteta",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "converse",
+          "term": "gta 6",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,83 +58,37 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "msn",
+          "term": "previsão do tempo são paulo",
           "source": "Google Trends",
           "position": 7,
+          "movement": "NOVO",
+          "relatedClusters": [
+            {
+              "id": "agenda-justi-a-juvenil-adolescentes-do-sistema-socioeducativo-s-o-capacitados-em-economia-",
+              "title": "Agenda Justiça Juvenil: adolescentes do sistema socioeducativo são capacitados em economia criativa - Portal CNJ",
+              "score": 10
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
+        },
+        {
+          "term": "vorcaro",
+          "source": "Google Trends",
+          "position": 8,
           "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "desenrola brasil",
-          "source": "Google Trends",
-          "position": 8,
-          "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
-              "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
-              "score": 90
-            },
-            {
-              "id": "gigante-de-chocolates-recebe-investimento-bilion-rio-e-expande-f-brica-no-brasil-a-tardea-",
-              "title": "Gigante de chocolates recebe investimento bilionário e expande fábrica no Brasil - A TARDE",
-              "score": 80
-            },
-            {
-              "id": "gigante-chinesa-anuncia-f-brica-no-brasil-com-10-mil-empregos-a-tardea-tarde",
-              "title": "Gigante chinesa anuncia fábrica no Brasil com 10 mil empregos - A TARDE",
-              "score": 80
-            },
-            {
-              "id": "gigante-dos-carros-anuncia-novo-investimento-de-r-2-bilh-es-no-brasil-e-produ-o-de-novos-m",
-              "title": "Gigante dos carros anuncia novo investimento de R$ 2 bilhões no Brasil e produção de novos modelos - Jornal Correio",
-              "score": 80
-            },
-            {
-              "id": "renault-e-geely-anunciam-novo-investimento-bilion-rio-no-brasil-jornal-correiojornal-corre",
-              "title": "Renault e Geely anunciam novo investimento bilionário no Brasil - Jornal Correio",
-              "score": 40
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
-        },
-        {
-          "term": "jogo do brasil",
+          "term": "datafolha",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
-              "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
-              "score": 90
-            },
-            {
-              "id": "gigante-de-chocolates-recebe-investimento-bilion-rio-e-expande-f-brica-no-brasil-a-tardea-",
-              "title": "Gigante de chocolates recebe investimento bilionário e expande fábrica no Brasil - A TARDE",
-              "score": 80
-            },
-            {
-              "id": "gigante-chinesa-anuncia-f-brica-no-brasil-com-10-mil-empregos-a-tardea-tarde",
-              "title": "Gigante chinesa anuncia fábrica no Brasil com 10 mil empregos - A TARDE",
-              "score": 80
-            },
-            {
-              "id": "gigante-dos-carros-anuncia-novo-investimento-de-r-2-bilh-es-no-brasil-e-produ-o-de-novos-m",
-              "title": "Gigante dos carros anuncia novo investimento de R$ 2 bilhões no Brasil e produção de novos modelos - Jornal Correio",
-              "score": 80
-            },
-            {
-              "id": "renault-e-geely-anunciam-novo-investimento-bilion-rio-no-brasil-jornal-correiojornal-corre",
-              "title": "Renault e Geely anunciam novo investimento bilionário no Brasil - Jornal Correio",
-              "score": 40
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "jason momoa",
+          "term": "cristiano zanin",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -151,7 +105,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 14,
+    "count": 19,
     "items": [
       {
         "id": "petrobras-acompanha-negocia-es-entre-empresas-contratadas-e-trabalhadores-em-greve-em-camp",
@@ -159,13 +113,28 @@
         "score": 100
       },
       {
-        "id": "caixa-e-banc-rios-retomam-negocia-es-nesta-quarta-16-mas-greve-segue-sem-prazo-para-termin",
-        "title": "Caixa e bancários retomam negociações nesta quarta (16), mas greve segue sem prazo para terminar - Folha de S.Paulo",
+        "id": "sindicato-convoca-trabalhadores-do-banrisul-para-assembleia-virtual-na-segunda-14-sindicat",
+        "title": "Sindicato convoca trabalhadores do Banrisul para assembleia virtual na segunda 14 - Sindicato dos Bancários",
+        "score": 100
+      },
+      {
+        "id": "greve-na-bacia-de-campos-avan-a-e-chega-a-cerca-de-30-unidades-offshore-trt-tenta-acordo-n",
+        "title": "Greve na Bacia de Campos avança e chega a cerca de 30 unidades offshore; TRT tenta acordo nesta quarta - Clique Diário",
+        "score": 90
+      },
+      {
+        "id": "caixa-e-funcion-rios-voltam-a-negociar-nesta-quarta-greve-segue-sem-prazo-para-acabar-g1g1",
+        "title": "Caixa e funcionários voltam a negociar nesta quarta; greve segue sem prazo para acabar - G1",
         "score": 90
       },
       {
         "id": "empregados-da-caixa-votam-nova-proposta-nesta-sexta-feira-11-sindicato-dos-banc-riossindic",
         "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - Sindicato dos Bancários",
+        "score": 90
+      },
+      {
+        "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
+        "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
         "score": 90
       },
       {
@@ -179,56 +148,66 @@
         "score": 80
       },
       {
+        "id": "gigante-de-chocolates-recebe-investimento-bilion-rio-e-expande-f-brica-no-brasil-a-tardea-",
+        "title": "Gigante de chocolates recebe investimento bilionário e expande fábrica no Brasil - A TARDE",
+        "score": 80
+      },
+      {
+        "id": "gigante-dos-supermercados-vai-fal-ncia-e-demite-5-mil-funcion-rios-a-tardea-tarde",
+        "title": "Gigante dos supermercados vai à falência e demite 5 mil funcionários - A TARDE",
+        "score": 80
+      },
+      {
+        "id": "gigante-chinesa-anuncia-f-brica-no-brasil-com-10-mil-empregos-a-tardea-tarde",
+        "title": "Gigante chinesa anuncia fábrica no Brasil com 10 mil empregos - A TARDE",
+        "score": 80
+      },
+      {
         "id": "practo-reshuffles-leadership-team-appoints-jagnoor-singh-as-ceo-people-matters-hr-newspeop",
         "title": "Practo reshuffles leadership team, appoints Jagnoor Singh as CEO - People Matters - HR News",
         "score": 80
       },
       {
-        "id": "centen-rias-renovam-mix-e-opera-es-sem-abandonar-legado-valor-globo-comvalor-globo-com",
-        "title": "Centenárias renovam mix e operações sem abandonar legado - valor.globo.com",
+        "id": "centen-rias-renovam-mix-e-opera-es-sem-abandonar-legado-valor-econ-micovalor-econ-mico",
+        "title": "Centenárias renovam mix e operações sem abandonar legado - Valor Econômico",
         "score": 80
       },
       {
-        "id": "para-virar-a-chave-mclaren-injeta-500-milh-es-e-vai-estrear-na-pista-dos-suvs-neofeedneofe",
-        "title": "Para virar a chave, McLaren injeta £ 500 milhões e vai estrear na pista dos SUVs - NeoFeed",
+        "id": "gigante-dos-carros-anuncia-novo-investimento-de-r-2-bilh-es-no-brasil-e-produ-o-de-novos-m",
+        "title": "Gigante dos carros anuncia novo investimento de R$ 2 bilhões no Brasil e produção de novos modelos - Jornal Correio",
+        "score": 80
+      },
+      {
+        "id": "para-virar-a-chave-mclaren-injeta-500-milh-es-e-vai-estrear-na-pista-dos-suvs-neofeed-com-",
+        "title": "Para virar a chave, McLaren injeta £ 500 milhões e vai estrear na pista dos SUVs - neofeed.com.br",
         "score": 80
       },
       {
         "id": "avenue-vai-entrar-no-chile-e-se-prepara-para-atuar-em-cr-dito-e-infraestrutura-na-europa-n",
-        "title": "Avenue vai entrar no Chile e se prepara para atuar em crédito e infraestrutura na Europa - NeoFeed",
-        "score": 80
-      },
-      {
-        "id": "gupy-investe-r-2-milh-es-em-ferramenta-de-recrutamento-por-whatsapp-com-ia-para-pequenas-e",
-        "title": "Gupy investe R$ 2 milhões em ferramenta de recrutamento por WhatsApp com IA para pequenas empresas - Pequenas Empresas & Grandes Negócios",
+        "title": "Avenue vai entrar no Chile e se prepara para atuar em crédito e infraestrutura na Europa - neofeed.com.br",
         "score": 80
       },
       {
         "id": "o-m-a-da-ciberseguran-a-spx-e-embraer-articulam-fus-o-e-criam-empresa-de-r-700-milh-es-neo",
-        "title": "O M&A da cibersegurança: SPX e Embraer articulam fusão e criam empresa de R$ 700 milhões - NeoFeed",
+        "title": "O M&A da cibersegurança: SPX e Embraer articulam fusão e criam empresa de R$ 700 milhões - neofeed.com.br",
         "score": 80
       },
       {
-        "id": "ga-cha-fcc-expande-produ-o-de-poliuretano-valor-globo-comvalor-globo-com",
-        "title": "Gaúcha FCC expande produção de poliuretano - valor.globo.com",
+        "id": "ga-cha-fcc-expande-produ-o-de-poliuretano-valor-econ-micovalor-econ-mico",
+        "title": "Gaúcha FCC expande produção de poliuretano - Valor Econômico",
         "score": 80
       },
       {
-        "id": "ri-happy-troca-de-dono-e-ex-ceo-retorna-para-a-opera-o-da-companhia-neofeedneofeed",
-        "title": "Ri Happy troca de dono e ex-CEO retorna para a operação da companhia - NeoFeed",
-        "score": 80
-      },
-      {
-        "id": "a-sequoia-teve-de-encolher-agora-o-ceo-explica-como-pretende-voltar-a-gerar-r-1-bi-em-rece",
-        "title": "A Sequoia teve de encolher. Agora, o CEO explica como pretende voltar a gerar R$ 1 bi em receita - NeoFeed",
+        "id": "ri-happy-troca-de-dono-e-ex-ceo-retorna-para-a-opera-o-da-companhia-neofeed-com-brneofeed-",
+        "title": "Ri Happy troca de dono e ex-CEO retorna para a operação da companhia - neofeed.com.br",
         "score": 80
       }
     ]
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 2,
-    "withoutRadar": 8,
-    "highPriorityOutsideTrends": 14
+    "withRadar": 1,
+    "withoutRadar": 9,
+    "highPriorityOutsideTrends": 19
   }
 }

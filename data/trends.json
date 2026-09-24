@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T14:44:51.355324+00:00",
+  "updatedAt": "2026-09-24T14:40:36.892647+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "greve",
+          "term": "tom cruise",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "eduardo baptista",
+          "term": "senegal x moçambique",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,15 +26,41 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "enzo monteiro",
+          "term": "tomorrowland brasil",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "nuvia-capta-r-10-milh-es-para-acelerar-expans-o-no-brasil-e-na-am-rica-latina-pequenas-emp",
+              "title": "Nuvia capta R$ 10 milhões para acelerar expansão no Brasil e na América Latina - Pequenas Empresas & Grandes Negócios",
+              "score": 90
+            },
+            {
+              "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
+              "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
+              "score": 90
+            },
+            {
+              "id": "gigante-de-chocolates-recebe-investimento-bilion-rio-e-expande-f-brica-no-brasil-a-tardea-",
+              "title": "Gigante de chocolates recebe investimento bilionário e expande fábrica no Brasil - A TARDE",
+              "score": 80
+            },
+            {
+              "id": "gigante-chinesa-anuncia-f-brica-no-brasil-com-10-mil-empregos-a-tardea-tarde",
+              "title": "Gigante chinesa anuncia fábrica no Brasil com 10 mil empregos - A TARDE",
+              "score": 80
+            },
+            {
+              "id": "fintech-da-gera-o-z-ng-cash-capta-us-15-milh-es-para-avan-ar-em-cr-dito-e-cripto-bloomberg",
+              "title": "Fintech da Geração Z, NG.Cash capta US$ 15 milhões para avançar em crédito e cripto - Bloomberg Línea Brasil",
+              "score": 50
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "seleção brasileira",
+          "term": "quadrilha",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +68,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "mikel arteta",
+          "term": "coreia do sul x equador",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +76,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "gta 6",
+          "term": "lotofacil 3787",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,21 +84,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "previsão do tempo são paulo",
+          "term": "japão x uruguai",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "agenda-justi-a-juvenil-adolescentes-do-sistema-socioeducativo-s-o-capacitados-em-economia-",
-              "title": "Agenda Justiça Juvenil: adolescentes do sistema socioeducativo são capacitados em economia criativa - Portal CNJ",
-              "score": 10
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "vorcaro",
+          "term": "nobreza do amor",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -80,7 +100,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "datafolha",
+          "term": "rodrigo faro",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -88,7 +108,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "cristiano zanin",
+          "term": "alemanha",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -105,16 +125,11 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 19,
+    "count": 14,
     "items": [
       {
         "id": "petrobras-acompanha-negocia-es-entre-empresas-contratadas-e-trabalhadores-em-greve-em-camp",
         "title": "Petrobras acompanha negociações entre empresas contratadas e trabalhadores em greve em Campos - Notícias Agrícolas",
-        "score": 100
-      },
-      {
-        "id": "sindicato-convoca-trabalhadores-do-banrisul-para-assembleia-virtual-na-segunda-14-sindicat",
-        "title": "Sindicato convoca trabalhadores do Banrisul para assembleia virtual na segunda 14 - Sindicato dos Bancários",
         "score": 100
       },
       {
@@ -123,8 +138,8 @@
         "score": 90
       },
       {
-        "id": "caixa-e-funcion-rios-voltam-a-negociar-nesta-quarta-greve-segue-sem-prazo-para-acabar-g1g1",
-        "title": "Caixa e funcionários voltam a negociar nesta quarta; greve segue sem prazo para acabar - G1",
+        "id": "greve-de-banc-rios-da-caixa-entra-no-7-dia-veja-situa-o-sbt-newssbt-news",
+        "title": "Greve de bancários da Caixa entra no 7º dia; veja situação - SBT News",
         "score": 90
       },
       {
@@ -133,8 +148,8 @@
         "score": 90
       },
       {
-        "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
-        "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
+        "id": "justi-a-decreta-fal-ncia-de-rede-que-chegou-a-ter-96-supermercados-e-5-mil-funcion-rios-em",
+        "title": "Justiça decreta falência de rede que chegou a ter 96 supermercados e 5 mil funcionários em SP - Exame",
         "score": 90
       },
       {
@@ -143,23 +158,18 @@
         "score": 90
       },
       {
+        "id": "par-movimenta-r-38-38-bilh-es-com-produ-o-agr-cola-em-2025-economia-o-liberal-oliberal-com",
+        "title": "Pará movimenta R$ 38,38 bilhões com produção agrícola em 2025 | Economia | O Liberal - oliberal.com",
+        "score": 80
+      },
+      {
         "id": "empresa-prev-investir-r-72-milh-es-em-nova-f-brica-no-cear-di-rio-do-nordestedi-rio-do-nor",
         "title": "Empresa prevê investir R$ 72 milhões em nova fábrica no Ceará - Diário do Nordeste",
         "score": 80
       },
       {
-        "id": "gigante-de-chocolates-recebe-investimento-bilion-rio-e-expande-f-brica-no-brasil-a-tardea-",
-        "title": "Gigante de chocolates recebe investimento bilionário e expande fábrica no Brasil - A TARDE",
-        "score": 80
-      },
-      {
-        "id": "gigante-dos-supermercados-vai-fal-ncia-e-demite-5-mil-funcion-rios-a-tardea-tarde",
-        "title": "Gigante dos supermercados vai à falência e demite 5 mil funcionários - A TARDE",
-        "score": 80
-      },
-      {
-        "id": "gigante-chinesa-anuncia-f-brica-no-brasil-com-10-mil-empregos-a-tardea-tarde",
-        "title": "Gigante chinesa anuncia fábrica no Brasil com 10 mil empregos - A TARDE",
+        "id": "oracle-cuts-jobs-at-abilene-data-centre-tied-to-openai-s-stargate-project-people-matters-h",
+        "title": "Oracle cuts jobs at Abilene data centre tied to OpenAI's Stargate project - People Matters - HR News",
         "score": 80
       },
       {
@@ -173,28 +183,13 @@
         "score": 80
       },
       {
-        "id": "gigante-dos-carros-anuncia-novo-investimento-de-r-2-bilh-es-no-brasil-e-produ-o-de-novos-m",
-        "title": "Gigante dos carros anuncia novo investimento de R$ 2 bilhões no Brasil e produção de novos modelos - Jornal Correio",
-        "score": 80
-      },
-      {
         "id": "para-virar-a-chave-mclaren-injeta-500-milh-es-e-vai-estrear-na-pista-dos-suvs-neofeed-com-",
         "title": "Para virar a chave, McLaren injeta £ 500 milhões e vai estrear na pista dos SUVs - neofeed.com.br",
         "score": 80
       },
       {
-        "id": "avenue-vai-entrar-no-chile-e-se-prepara-para-atuar-em-cr-dito-e-infraestrutura-na-europa-n",
-        "title": "Avenue vai entrar no Chile e se prepara para atuar em crédito e infraestrutura na Europa - neofeed.com.br",
-        "score": 80
-      },
-      {
         "id": "o-m-a-da-ciberseguran-a-spx-e-embraer-articulam-fus-o-e-criam-empresa-de-r-700-milh-es-neo",
         "title": "O M&A da cibersegurança: SPX e Embraer articulam fusão e criam empresa de R$ 700 milhões - neofeed.com.br",
-        "score": 80
-      },
-      {
-        "id": "ga-cha-fcc-expande-produ-o-de-poliuretano-valor-econ-micovalor-econ-mico",
-        "title": "Gaúcha FCC expande produção de poliuretano - Valor Econômico",
         "score": 80
       },
       {
@@ -208,6 +203,6 @@
     "trendItems": 10,
     "withRadar": 1,
     "withoutRadar": 9,
-    "highPriorityOutsideTrends": 19
+    "highPriorityOutsideTrends": 14
   }
 }

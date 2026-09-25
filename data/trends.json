@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T14:40:36.892647+00:00",
+  "updatedAt": "2026-09-25T15:02:00.863322+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "tom cruise",
+          "term": "moçambique x senegal",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "senegal x moçambique",
+          "term": "jair cunha",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,41 +26,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "tomorrowland brasil",
+          "term": "mauro junior",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "nuvia-capta-r-10-milh-es-para-acelerar-expans-o-no-brasil-e-na-am-rica-latina-pequenas-emp",
-              "title": "Nuvia capta R$ 10 milhões para acelerar expansão no Brasil e na América Latina - Pequenas Empresas & Grandes Negócios",
-              "score": 90
-            },
-            {
-              "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
-              "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
-              "score": 90
-            },
-            {
-              "id": "gigante-de-chocolates-recebe-investimento-bilion-rio-e-expande-f-brica-no-brasil-a-tardea-",
-              "title": "Gigante de chocolates recebe investimento bilionário e expande fábrica no Brasil - A TARDE",
-              "score": 80
-            },
-            {
-              "id": "gigante-chinesa-anuncia-f-brica-no-brasil-com-10-mil-empregos-a-tardea-tarde",
-              "title": "Gigante chinesa anuncia fábrica no Brasil com 10 mil empregos - A TARDE",
-              "score": 80
-            },
-            {
-              "id": "fintech-da-gera-o-z-ng-cash-capta-us-15-milh-es-para-avan-ar-em-cr-dito-e-cripto-bloomberg",
-              "title": "Fintech da Geração Z, NG.Cash capta US$ 15 milhões para avançar em crédito e cripto - Bloomberg Línea Brasil",
-              "score": 50
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "quadrilha",
+          "term": "cbf",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -68,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "coreia do sul x equador",
+          "term": "lotofacil 3788",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -76,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "lotofacil 3787",
+          "term": "arthur dias",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -84,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "japão x uruguai",
+          "term": "globoplay",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -92,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "nobreza do amor",
+          "term": "caze tv",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -100,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "rodrigo faro",
+          "term": "getv",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -108,7 +82,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "alemanha",
+          "term": "globo ao vivo",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -125,7 +99,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 14,
+    "count": 27,
     "items": [
       {
         "id": "petrobras-acompanha-negocia-es-entre-empresas-contratadas-e-trabalhadores-em-greve-em-camp",
@@ -133,18 +107,48 @@
         "score": 100
       },
       {
+        "id": "ia-pode-mudar-empregos-e-criar-novas-profiss-es-especialista-explica-o-que-vem-pela-frente",
+        "title": "IA pode mudar empregos e criar novas profissões: especialista explica o que vem pela frente - Folha Vitória",
+        "score": 90
+      },
+      {
+        "id": "depois-da-contratac-a-o-admissa-o-ainda-e-um-gargalo-manual-para-o-rh-pequenas-empresas-gr",
+        "title": "Depois da contratação, admissão ainda é um gargalo manual para o RH - Pequenas Empresas & Grandes Negócios",
+        "score": 90
+      },
+      {
+        "id": "yduqs-dona-da-est-cio-e-afya-de-medicina-confirmam-fus-o-e-criam-grupo-de-r-9-bilh-es-pequ",
+        "title": "Yduqs, dona da Estácio, e Afya, de medicina, confirmam fusão e criam grupo de R$ 9 bilhões - Pequenas Empresas & Grandes Negócios",
+        "score": 90
+      },
+      {
+        "id": "-falta-de-ingle-s-trava-sucessa-o-de-executivos-pequenas-empresas-grandes-neg-ciospequenas",
+        "title": "​Falta de inglês trava sucessão de executivos - Pequenas Empresas & Grandes Negócios",
+        "score": 90
+      },
+      {
+        "id": "empres-rio-viraliza-ao-afirmar-que-n-o-limita-hor-rio-de-almo-o-dos-funcion-rios-dois-lado",
+        "title": "Empresário viraliza ao afirmar que não limita horário de almoço dos funcionários: 'Dois lados do relógio' - Pequenas Empresas & Grandes Negócios",
+        "score": 90
+      },
+      {
         "id": "greve-na-bacia-de-campos-avan-a-e-chega-a-cerca-de-30-unidades-offshore-trt-tenta-acordo-n",
         "title": "Greve na Bacia de Campos avança e chega a cerca de 30 unidades offshore; TRT tenta acordo nesta quarta - Clique Diário",
         "score": 90
       },
       {
-        "id": "greve-de-banc-rios-da-caixa-entra-no-7-dia-veja-situa-o-sbt-newssbt-news",
-        "title": "Greve de bancários da Caixa entra no 7º dia; veja situação - SBT News",
+        "id": "caixa-e-funcion-rios-voltam-a-negociar-nesta-quarta-greve-segue-sem-prazo-para-acabar-g1g1",
+        "title": "Caixa e funcionários voltam a negociar nesta quarta; greve segue sem prazo para acabar - G1",
         "score": 90
       },
       {
         "id": "empregados-da-caixa-votam-nova-proposta-nesta-sexta-feira-11-sindicato-dos-banc-riossindic",
         "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - Sindicato dos Bancários",
+        "score": 90
+      },
+      {
+        "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
+        "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
         "score": 90
       },
       {
@@ -158,8 +162,28 @@
         "score": 90
       },
       {
-        "id": "par-movimenta-r-38-38-bilh-es-com-produ-o-agr-cola-em-2025-economia-o-liberal-oliberal-com",
-        "title": "Pará movimenta R$ 38,38 bilhões com produção agrícola em 2025 | Economia | O Liberal - oliberal.com",
+        "id": "delivery-sem-gargalo-8-dicas-para-organizar-a-opera-o-do-seu-restaurante-pequenas-empresas",
+        "title": "Delivery sem gargalo: 8 dicas para organizar a operação do seu restaurante - Pequenas Empresas & Grandes Negócios",
+        "score": 80
+      },
+      {
+        "id": "google-quer-dobrar-infraestrutura-t-cnica-no-brasil-at-2030-ia-ag-ntica-um-dos-focos-da-co",
+        "title": "Google quer dobrar infraestrutura técnica no Brasil até 2030; IA agêntica é um dos focos da companhia - Pequenas Empresas & Grandes Negócios",
+        "score": 80
+      },
+      {
+        "id": "mais-voos-e-infraestrutura-para-aragua-na-dorinha-ouve-demandas-de-empres-rios-para-impuls",
+        "title": "Mais voos e infraestrutura para Araguaína: Dorinha ouve demandas de empresários para impulsionar a economia da região - tribunadopovoto.com.br",
+        "score": 80
+      },
+      {
+        "id": "inspand-de-provedora-de-internet-a-fa-brica-de-treinamento-com-ia-pequenas-empresas-grande",
+        "title": "Inspand, de provedora de internet a fábrica de treinamento com IA - Pequenas Empresas & Grandes Negócios",
+        "score": 80
+      },
+      {
+        "id": "par-movimenta-r-38-38-bilh-es-com-produ-o-agr-cola-em-2025-economia-o-liberal-o-liberalo-l",
+        "title": "Pará movimenta R$ 38,38 bilhões com produção agrícola em 2025 | Economia | O Liberal - O Liberal",
         "score": 80
       },
       {
@@ -173,6 +197,16 @@
         "score": 80
       },
       {
+        "id": "gigante-de-chocolates-recebe-investimento-bilion-rio-e-expande-f-brica-no-brasil-a-tardea-",
+        "title": "Gigante de chocolates recebe investimento bilionário e expande fábrica no Brasil - A TARDE",
+        "score": 80
+      },
+      {
+        "id": "gigante-chinesa-anuncia-f-brica-no-brasil-com-10-mil-empregos-a-tardea-tarde",
+        "title": "Gigante chinesa anuncia fábrica no Brasil com 10 mil empregos - A TARDE",
+        "score": 80
+      },
+      {
         "id": "practo-reshuffles-leadership-team-appoints-jagnoor-singh-as-ceo-people-matters-hr-newspeop",
         "title": "Practo reshuffles leadership team, appoints Jagnoor Singh as CEO - People Matters - HR News",
         "score": 80
@@ -183,26 +217,31 @@
         "score": 80
       },
       {
-        "id": "para-virar-a-chave-mclaren-injeta-500-milh-es-e-vai-estrear-na-pista-dos-suvs-neofeed-com-",
-        "title": "Para virar a chave, McLaren injeta £ 500 milhões e vai estrear na pista dos SUVs - neofeed.com.br",
+        "id": "para-virar-a-chave-mclaren-injeta-500-milh-es-e-vai-estrear-na-pista-dos-suvs-neofeedneofe",
+        "title": "Para virar a chave, McLaren injeta £ 500 milhões e vai estrear na pista dos SUVs - NeoFeed",
         "score": 80
       },
       {
         "id": "o-m-a-da-ciberseguran-a-spx-e-embraer-articulam-fus-o-e-criam-empresa-de-r-700-milh-es-neo",
-        "title": "O M&A da cibersegurança: SPX e Embraer articulam fusão e criam empresa de R$ 700 milhões - neofeed.com.br",
+        "title": "O M&A da cibersegurança: SPX e Embraer articulam fusão e criam empresa de R$ 700 milhões - NeoFeed",
         "score": 80
       },
       {
-        "id": "ri-happy-troca-de-dono-e-ex-ceo-retorna-para-a-opera-o-da-companhia-neofeed-com-brneofeed-",
-        "title": "Ri Happy troca de dono e ex-CEO retorna para a operação da companhia - neofeed.com.br",
+        "id": "itc-infotech-happiest-minds-merger-won-t-lead-to-layoffs-management-says-people-matters-hr",
+        "title": "ITC Infotech-Happiest Minds merger won't lead to layoffs, management says - People Matters - HR News",
+        "score": 80
+      },
+      {
+        "id": "ri-happy-troca-de-dono-e-ex-ceo-retorna-para-a-opera-o-da-companhia-neofeedneofeed",
+        "title": "Ri Happy troca de dono e ex-CEO retorna para a operação da companhia - NeoFeed",
         "score": 80
       }
     ]
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 1,
-    "withoutRadar": 9,
-    "highPriorityOutsideTrends": 14
+    "withRadar": 0,
+    "withoutRadar": 10,
+    "highPriorityOutsideTrends": 27
   }
 }

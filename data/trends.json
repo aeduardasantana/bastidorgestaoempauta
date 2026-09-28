@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T15:02:00.863322+00:00",
+  "updatedAt": "2026-09-28T17:58:55.711743+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "moçambique x senegal",
+          "term": "chico buarque",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "jair cunha",
+          "term": "geórgia x ucrânia",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "mauro junior",
+          "term": "inss",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "cbf",
+          "term": "zimbábue x rd congo",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "lotofacil 3788",
+          "term": "the last of us",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "arthur dias",
+          "term": "gov",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "globoplay",
+          "term": "criança",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "caze tv",
+          "term": "pesquisa btg nexus presidente",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "getv",
+          "term": "soldado",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,7 +82,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "globo ao vivo",
+          "term": "arrascaeta",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -99,12 +99,22 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 27,
+    "count": 26,
     "items": [
+      {
+        "id": "greve-offshore-cresce-e-trt-tenta-acordo-entre-trabalhadores-e-empresas-o-diao-dia",
+        "title": "Greve offshore cresce e TRT tenta acordo entre trabalhadores e empresas - O Dia",
+        "score": 100
+      },
       {
         "id": "petrobras-acompanha-negocia-es-entre-empresas-contratadas-e-trabalhadores-em-greve-em-camp",
         "title": "Petrobras acompanha negociações entre empresas contratadas e trabalhadores em greve em Campos - Notícias Agrícolas",
         "score": 100
+      },
+      {
+        "id": "ia-muda-fun-es-e-amplia-press-o-sobre-trabalhadores-quem-fica-com-os-ganhos-brasil-de-fato",
+        "title": "IA muda funções e amplia pressão sobre trabalhadores: quem fica com os ganhos? - Brasil de Fato",
+        "score": 90
       },
       {
         "id": "ia-pode-mudar-empregos-e-criar-novas-profiss-es-especialista-explica-o-que-vem-pela-frente",
@@ -127,18 +137,18 @@
         "score": 90
       },
       {
-        "id": "empres-rio-viraliza-ao-afirmar-que-n-o-limita-hor-rio-de-almo-o-dos-funcion-rios-dois-lado",
-        "title": "Empresário viraliza ao afirmar que não limita horário de almoço dos funcionários: 'Dois lados do relógio' - Pequenas Empresas & Grandes Negócios",
+        "id": "layoff-tracker-novo-workforce-down-13-000-biospacebiospace",
+        "title": "Layoff Tracker: Novo workforce down 13,000 - BioSpace",
         "score": 90
       },
       {
-        "id": "greve-na-bacia-de-campos-avan-a-e-chega-a-cerca-de-30-unidades-offshore-trt-tenta-acordo-n",
-        "title": "Greve na Bacia de Campos avança e chega a cerca de 30 unidades offshore; TRT tenta acordo nesta quarta - Clique Diário",
+        "id": "fem-cut-sp-pressiona-grupos-patronais-sem-acordo-e-protocola-avisos-de-greve-smabcsmabc",
+        "title": "FEM-CUT/SP pressiona grupos patronais sem acordo e protocola avisos de greve - SMABC",
         "score": 90
       },
       {
-        "id": "caixa-e-funcion-rios-voltam-a-negociar-nesta-quarta-greve-segue-sem-prazo-para-acabar-g1g1",
-        "title": "Caixa e funcionários voltam a negociar nesta quarta; greve segue sem prazo para acabar - G1",
+        "id": "caixa-e-banc-rios-retomam-negocia-es-nesta-quarta-16-mas-greve-segue-sem-prazo-para-termin",
+        "title": "Caixa e bancários retomam negociações nesta quarta (16), mas greve segue sem prazo para terminar - Folha de S.Paulo",
         "score": 90
       },
       {
@@ -152,8 +162,13 @@
         "score": 90
       },
       {
+        "id": "caixa-entra-em-greve-por-tempo-indeterminado-veja-o-que-est-em-jogo-exame-comexame-com",
+        "title": "Caixa entra em greve por tempo indeterminado; veja o que está em jogo - exame.com",
+        "score": 90
+      },
+      {
         "id": "justi-a-decreta-fal-ncia-de-rede-que-chegou-a-ter-96-supermercados-e-5-mil-funcion-rios-em",
-        "title": "Justiça decreta falência de rede que chegou a ter 96 supermercados e 5 mil funcionários em SP - Exame",
+        "title": "Justiça decreta falência de rede que chegou a ter 96 supermercados e 5 mil funcionários em SP - exame.com",
         "score": 90
       },
       {
@@ -162,13 +177,13 @@
         "score": 90
       },
       {
-        "id": "delivery-sem-gargalo-8-dicas-para-organizar-a-opera-o-do-seu-restaurante-pequenas-empresas",
-        "title": "Delivery sem gargalo: 8 dicas para organizar a operação do seu restaurante - Pequenas Empresas & Grandes Negócios",
+        "id": "google-quer-dobrar-infraestrutura-t-cnica-no-brasil-at-2030-ia-ag-ntica-um-dos-focos-da-co",
+        "title": "Google quer dobrar infraestrutura técnica no Brasil até 2030; IA agêntica é um dos focos da companhia - Pequenas Empresas & Grandes Negócios",
         "score": 80
       },
       {
-        "id": "google-quer-dobrar-infraestrutura-t-cnica-no-brasil-at-2030-ia-ag-ntica-um-dos-focos-da-co",
-        "title": "Google quer dobrar infraestrutura técnica no Brasil até 2030; IA agêntica é um dos focos da companhia - Pequenas Empresas & Grandes Negócios",
+        "id": "delivery-sem-gargalo-8-dicas-para-organizar-a-opera-o-do-seu-restaurante-pequenas-empresas",
+        "title": "Delivery sem gargalo: 8 dicas para organizar a operação do seu restaurante - Pequenas Empresas & Grandes Negócios",
         "score": 80
       },
       {
@@ -177,33 +192,8 @@
         "score": 80
       },
       {
-        "id": "inspand-de-provedora-de-internet-a-fa-brica-de-treinamento-com-ia-pequenas-empresas-grande",
-        "title": "Inspand, de provedora de internet a fábrica de treinamento com IA - Pequenas Empresas & Grandes Negócios",
-        "score": 80
-      },
-      {
-        "id": "par-movimenta-r-38-38-bilh-es-com-produ-o-agr-cola-em-2025-economia-o-liberal-o-liberalo-l",
-        "title": "Pará movimenta R$ 38,38 bilhões com produção agrícola em 2025 | Economia | O Liberal - O Liberal",
-        "score": 80
-      },
-      {
         "id": "empresa-prev-investir-r-72-milh-es-em-nova-f-brica-no-cear-di-rio-do-nordestedi-rio-do-nor",
         "title": "Empresa prevê investir R$ 72 milhões em nova fábrica no Ceará - Diário do Nordeste",
-        "score": 80
-      },
-      {
-        "id": "oracle-cuts-jobs-at-abilene-data-centre-tied-to-openai-s-stargate-project-people-matters-h",
-        "title": "Oracle cuts jobs at Abilene data centre tied to OpenAI's Stargate project - People Matters - HR News",
-        "score": 80
-      },
-      {
-        "id": "gigante-de-chocolates-recebe-investimento-bilion-rio-e-expande-f-brica-no-brasil-a-tardea-",
-        "title": "Gigante de chocolates recebe investimento bilionário e expande fábrica no Brasil - A TARDE",
-        "score": 80
-      },
-      {
-        "id": "gigante-chinesa-anuncia-f-brica-no-brasil-com-10-mil-empregos-a-tardea-tarde",
-        "title": "Gigante chinesa anuncia fábrica no Brasil com 10 mil empregos - A TARDE",
         "score": 80
       },
       {
@@ -212,28 +202,33 @@
         "score": 80
       },
       {
-        "id": "centen-rias-renovam-mix-e-opera-es-sem-abandonar-legado-valor-econ-micovalor-econ-mico",
-        "title": "Centenárias renovam mix e operações sem abandonar legado - Valor Econômico",
+        "id": "centen-rias-renovam-mix-e-opera-es-sem-abandonar-legado-valor-globo-comvalor-globo-com",
+        "title": "Centenárias renovam mix e operações sem abandonar legado - valor.globo.com",
         "score": 80
       },
       {
-        "id": "para-virar-a-chave-mclaren-injeta-500-milh-es-e-vai-estrear-na-pista-dos-suvs-neofeedneofe",
-        "title": "Para virar a chave, McLaren injeta £ 500 milhões e vai estrear na pista dos SUVs - NeoFeed",
+        "id": "para-virar-a-chave-mclaren-injeta-500-milh-es-e-vai-estrear-na-pista-dos-suvs-neofeed-com-",
+        "title": "Para virar a chave, McLaren injeta £ 500 milhões e vai estrear na pista dos SUVs - neofeed.com.br",
+        "score": 80
+      },
+      {
+        "id": "conselho-da-volkswagen-aprova-plano-liderado-pelo-ceo-para-cortar-50-mil-empregos-bloomber",
+        "title": "Conselho da Volkswagen aprova plano liderado pelo CEO para cortar 50 mil empregos - bloomberglinea.com.br",
         "score": 80
       },
       {
         "id": "o-m-a-da-ciberseguran-a-spx-e-embraer-articulam-fus-o-e-criam-empresa-de-r-700-milh-es-neo",
-        "title": "O M&A da cibersegurança: SPX e Embraer articulam fusão e criam empresa de R$ 700 milhões - NeoFeed",
+        "title": "O M&A da cibersegurança: SPX e Embraer articulam fusão e criam empresa de R$ 700 milhões - neofeed.com.br",
         "score": 80
       },
       {
-        "id": "itc-infotech-happiest-minds-merger-won-t-lead-to-layoffs-management-says-people-matters-hr",
-        "title": "ITC Infotech-Happiest Minds merger won't lead to layoffs, management says - People Matters - HR News",
+        "id": "uber-cuts-3-300-jobs-as-it-prepares-10-billion-robotaxi-push-people-matters-hr-newspeople-",
+        "title": "Uber cuts 3,300 jobs as it prepares $10 billion robotaxi push - People Matters - HR News",
         "score": 80
       },
       {
-        "id": "ri-happy-troca-de-dono-e-ex-ceo-retorna-para-a-opera-o-da-companhia-neofeedneofeed",
-        "title": "Ri Happy troca de dono e ex-CEO retorna para a operação da companhia - NeoFeed",
+        "id": "ri-happy-troca-de-dono-e-ex-ceo-retorna-para-a-opera-o-da-companhia-neofeed-com-brneofeed-",
+        "title": "Ri Happy troca de dono e ex-CEO retorna para a operação da companhia - neofeed.com.br",
         "score": 80
       }
     ]
@@ -242,6 +237,6 @@
     "trendItems": 10,
     "withRadar": 0,
     "withoutRadar": 10,
-    "highPriorityOutsideTrends": 27
+    "highPriorityOutsideTrends": 26
   }
 }

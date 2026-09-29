@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T17:58:55.711743+00:00",
+  "updatedAt": "2026-09-29T16:22:00.233580+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "chico buarque",
+          "term": "pesquisa atlas intel",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "geórgia x ucrânia",
+          "term": "lito sousa",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "inss",
+          "term": "spotify caiu",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "zimbábue x rd congo",
+          "term": "feriado",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "the last of us",
+          "term": "cabo verde x ruanda",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "gov",
+          "term": "paulo guedes",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "criança",
+          "term": "biometria",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "pesquisa btg nexus presidente",
+          "term": "herança",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "soldado",
+          "term": "claude fora do ar",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,7 +82,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "arrascaeta",
+          "term": "lobista",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -99,7 +99,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 26,
+    "count": 29,
     "items": [
       {
         "id": "greve-offshore-cresce-e-trt-tenta-acordo-entre-trabalhadores-e-empresas-o-diao-dia",
@@ -110,6 +110,11 @@
         "id": "petrobras-acompanha-negocia-es-entre-empresas-contratadas-e-trabalhadores-em-greve-em-camp",
         "title": "Petrobras acompanha negociações entre empresas contratadas e trabalhadores em greve em Campos - Notícias Agrícolas",
         "score": 100
+      },
+      {
+        "id": "sindicato-esclarece-empregados-da-caixa-sobre-diss-dio-no-tst-e-alerta-para-riscos-ao-act-",
+        "title": "Sindicato esclarece empregados da Caixa sobre dissídio no TST e alerta para riscos ao ACT - Sindicato dos Bancários",
+        "score": 90
       },
       {
         "id": "ia-muda-fun-es-e-amplia-press-o-sobre-trabalhadores-quem-fica-com-os-ganhos-brasil-de-fato",
@@ -142,6 +147,16 @@
         "score": 90
       },
       {
+        "id": "audi-ncia-de-professores-em-greve-da-grande-bh-e-escolas-privadas-termina-sem-acordo-g1g1",
+        "title": "Audiência de professores em greve da Grande BH e escolas privadas termina sem acordo - G1",
+        "score": 90
+      },
+      {
+        "id": "nuvia-capta-r-10-milh-es-para-acelerar-expans-o-no-brasil-e-na-am-rica-latina-pequenas-emp",
+        "title": "Nuvia capta R$ 10 milhões para acelerar expansão no Brasil e na América Latina - Pequenas Empresas & Grandes Negócios",
+        "score": 90
+      },
+      {
         "id": "fem-cut-sp-pressiona-grupos-patronais-sem-acordo-e-protocola-avisos-de-greve-smabcsmabc",
         "title": "FEM-CUT/SP pressiona grupos patronais sem acordo e protocola avisos de greve - SMABC",
         "score": 90
@@ -162,24 +177,14 @@
         "score": 90
       },
       {
-        "id": "caixa-entra-em-greve-por-tempo-indeterminado-veja-o-que-est-em-jogo-exame-comexame-com",
-        "title": "Caixa entra em greve por tempo indeterminado; veja o que está em jogo - exame.com",
-        "score": 90
-      },
-      {
         "id": "justi-a-decreta-fal-ncia-de-rede-que-chegou-a-ter-96-supermercados-e-5-mil-funcion-rios-em",
-        "title": "Justiça decreta falência de rede que chegou a ter 96 supermercados e 5 mil funcionários em SP - exame.com",
+        "title": "Justiça decreta falência de rede que chegou a ter 96 supermercados e 5 mil funcionários em SP - Exame",
         "score": 90
       },
       {
         "id": "banc-rios-alcan-am-aumento-real-para-2026-e-2027-mant-m-direitos-e-avan-am-em-novas-conqui",
         "title": "Bancários alcançam aumento real para 2026 e 2027, mantêm direitos e avançam em novas conquistas - Sindicato dos Bancários",
         "score": 90
-      },
-      {
-        "id": "google-quer-dobrar-infraestrutura-t-cnica-no-brasil-at-2030-ia-ag-ntica-um-dos-focos-da-co",
-        "title": "Google quer dobrar infraestrutura técnica no Brasil até 2030; IA agêntica é um dos focos da companhia - Pequenas Empresas & Grandes Negócios",
-        "score": 80
       },
       {
         "id": "delivery-sem-gargalo-8-dicas-para-organizar-a-opera-o-do-seu-restaurante-pequenas-empresas",
@@ -202,23 +207,28 @@
         "score": 80
       },
       {
-        "id": "centen-rias-renovam-mix-e-opera-es-sem-abandonar-legado-valor-globo-comvalor-globo-com",
-        "title": "Centenárias renovam mix e operações sem abandonar legado - valor.globo.com",
+        "id": "centen-rias-renovam-mix-e-opera-es-sem-abandonar-legado-valor-econ-micovalor-econ-mico",
+        "title": "Centenárias renovam mix e operações sem abandonar legado - Valor Econômico",
         "score": 80
       },
       {
-        "id": "para-virar-a-chave-mclaren-injeta-500-milh-es-e-vai-estrear-na-pista-dos-suvs-neofeed-com-",
-        "title": "Para virar a chave, McLaren injeta £ 500 milhões e vai estrear na pista dos SUVs - neofeed.com.br",
+        "id": "para-virar-a-chave-mclaren-injeta-500-milh-es-e-vai-estrear-na-pista-dos-suvs-neofeedneofe",
+        "title": "Para virar a chave, McLaren injeta £ 500 milhões e vai estrear na pista dos SUVs - NeoFeed",
+        "score": 80
+      },
+      {
+        "id": "avenue-vai-entrar-no-chile-e-se-prepara-para-atuar-em-cr-dito-e-infraestrutura-na-europa-n",
+        "title": "Avenue vai entrar no Chile e se prepara para atuar em crédito e infraestrutura na Europa - NeoFeed",
         "score": 80
       },
       {
         "id": "conselho-da-volkswagen-aprova-plano-liderado-pelo-ceo-para-cortar-50-mil-empregos-bloomber",
-        "title": "Conselho da Volkswagen aprova plano liderado pelo CEO para cortar 50 mil empregos - bloomberglinea.com.br",
+        "title": "Conselho da Volkswagen aprova plano liderado pelo CEO para cortar 50 mil empregos - Bloomberg Línea Brasil",
         "score": 80
       },
       {
         "id": "o-m-a-da-ciberseguran-a-spx-e-embraer-articulam-fus-o-e-criam-empresa-de-r-700-milh-es-neo",
-        "title": "O M&A da cibersegurança: SPX e Embraer articulam fusão e criam empresa de R$ 700 milhões - neofeed.com.br",
+        "title": "O M&A da cibersegurança: SPX e Embraer articulam fusão e criam empresa de R$ 700 milhões - NeoFeed",
         "score": 80
       },
       {
@@ -227,8 +237,13 @@
         "score": 80
       },
       {
-        "id": "ri-happy-troca-de-dono-e-ex-ceo-retorna-para-a-opera-o-da-companhia-neofeed-com-brneofeed-",
-        "title": "Ri Happy troca de dono e ex-CEO retorna para a operação da companhia - neofeed.com.br",
+        "id": "itc-infotech-happiest-minds-merger-won-t-lead-to-layoffs-management-says-people-matters-hr",
+        "title": "ITC Infotech-Happiest Minds merger won't lead to layoffs, management says - People Matters - HR News",
+        "score": 80
+      },
+      {
+        "id": "ri-happy-troca-de-dono-e-ex-ceo-retorna-para-a-opera-o-da-companhia-neofeedneofeed",
+        "title": "Ri Happy troca de dono e ex-CEO retorna para a operação da companhia - NeoFeed",
         "score": 80
       }
     ]
@@ -237,6 +252,6 @@
     "trendItems": 10,
     "withRadar": 0,
     "withoutRadar": 10,
-    "highPriorityOutsideTrends": 26
+    "highPriorityOutsideTrends": 29
   }
 }

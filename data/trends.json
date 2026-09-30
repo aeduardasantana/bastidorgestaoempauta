@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T16:22:00.233580+00:00",
+  "updatedAt": "2026-09-30T16:17:31.308447+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "pesquisa atlas intel",
+          "term": "avião",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "lito sousa",
+          "term": "carlos jordy",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "spotify caiu",
+          "term": "eritreia x áfrica do sul",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "feriado",
+          "term": "engavetamento",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "cabo verde x ruanda",
+          "term": "naufrágio",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "paulo guedes",
+          "term": "água",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "biometria",
+          "term": "luciano huck vorcaro",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "herança",
+          "term": "aviação",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "claude fora do ar",
+          "term": "almoço",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,7 +82,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "lobista",
+          "term": "décimo terceiro salário",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -99,17 +99,22 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 29,
+    "count": 23,
     "items": [
-      {
-        "id": "greve-offshore-cresce-e-trt-tenta-acordo-entre-trabalhadores-e-empresas-o-diao-dia",
-        "title": "Greve offshore cresce e TRT tenta acordo entre trabalhadores e empresas - O Dia",
-        "score": 100
-      },
       {
         "id": "petrobras-acompanha-negocia-es-entre-empresas-contratadas-e-trabalhadores-em-greve-em-camp",
         "title": "Petrobras acompanha negociações entre empresas contratadas e trabalhadores em greve em Campos - Notícias Agrícolas",
         "score": 100
+      },
+      {
+        "id": "sindicato-convoca-trabalhadores-do-banrisul-para-assembleia-virtual-na-segunda-14-sindicat",
+        "title": "Sindicato convoca trabalhadores do Banrisul para assembleia virtual na segunda 14 - Sindicato dos Bancários",
+        "score": 100
+      },
+      {
+        "id": "india-gcc-layoffs-estimates-range-from-5-000-to-30-000-as-ai-changes-hiring-priorities-peo",
+        "title": "India GCC layoffs: Estimates range from 5,000 to 30,000 as AI changes hiring priorities - People Matters - HR News",
+        "score": 90
       },
       {
         "id": "sindicato-esclarece-empregados-da-caixa-sobre-diss-dio-no-tst-e-alerta-para-riscos-ao-act-",
@@ -127,16 +132,6 @@
         "score": 90
       },
       {
-        "id": "depois-da-contratac-a-o-admissa-o-ainda-e-um-gargalo-manual-para-o-rh-pequenas-empresas-gr",
-        "title": "Depois da contratação, admissão ainda é um gargalo manual para o RH - Pequenas Empresas & Grandes Negócios",
-        "score": 90
-      },
-      {
-        "id": "yduqs-dona-da-est-cio-e-afya-de-medicina-confirmam-fus-o-e-criam-grupo-de-r-9-bilh-es-pequ",
-        "title": "Yduqs, dona da Estácio, e Afya, de medicina, confirmam fusão e criam grupo de R$ 9 bilhões - Pequenas Empresas & Grandes Negócios",
-        "score": 90
-      },
-      {
         "id": "-falta-de-ingle-s-trava-sucessa-o-de-executivos-pequenas-empresas-grandes-neg-ciospequenas",
         "title": "​Falta de inglês trava sucessão de executivos - Pequenas Empresas & Grandes Negócios",
         "score": 90
@@ -147,18 +142,18 @@
         "score": 90
       },
       {
-        "id": "audi-ncia-de-professores-em-greve-da-grande-bh-e-escolas-privadas-termina-sem-acordo-g1g1",
-        "title": "Audiência de professores em greve da Grande BH e escolas privadas termina sem acordo - G1",
+        "id": "greve-na-bacia-de-campos-avan-a-e-chega-a-cerca-de-30-unidades-offshore-trt-tenta-acordo-n",
+        "title": "Greve na Bacia de Campos avança e chega a cerca de 30 unidades offshore; TRT tenta acordo nesta quarta - Clique Diário",
         "score": 90
       },
       {
-        "id": "nuvia-capta-r-10-milh-es-para-acelerar-expans-o-no-brasil-e-na-am-rica-latina-pequenas-emp",
-        "title": "Nuvia capta R$ 10 milhões para acelerar expansão no Brasil e na América Latina - Pequenas Empresas & Grandes Negócios",
+        "id": "microsoft-layoffs-extend-to-xbox-as-268-employees-lose-jobs-people-matters-hr-newspeople-m",
+        "title": "Microsoft layoffs extend to Xbox as 268 employees lose jobs - People Matters - HR News",
         "score": 90
       },
       {
-        "id": "fem-cut-sp-pressiona-grupos-patronais-sem-acordo-e-protocola-avisos-de-greve-smabcsmabc",
-        "title": "FEM-CUT/SP pressiona grupos patronais sem acordo e protocola avisos de greve - SMABC",
+        "id": "ibuild-amplia-presenc-a-nacional-e-inaugura-novas-unidades-em-tre-s-lagoas-e-bauru-em-apen",
+        "title": "iBUILD amplia presença nacional e inaugura novas unidades em Três Lagoas e Bauru em apenas nove dias - Pequenas Empresas & Grandes Negócios",
         "score": 90
       },
       {
@@ -174,16 +169,6 @@
       {
         "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
         "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
-        "score": 90
-      },
-      {
-        "id": "justi-a-decreta-fal-ncia-de-rede-que-chegou-a-ter-96-supermercados-e-5-mil-funcion-rios-em",
-        "title": "Justiça decreta falência de rede que chegou a ter 96 supermercados e 5 mil funcionários em SP - Exame",
-        "score": 90
-      },
-      {
-        "id": "banc-rios-alcan-am-aumento-real-para-2026-e-2027-mant-m-direitos-e-avan-am-em-novas-conqui",
-        "title": "Bancários alcançam aumento real para 2026 e 2027, mantêm direitos e avançam em novas conquistas - Sindicato dos Bancários",
         "score": 90
       },
       {
@@ -217,16 +202,6 @@
         "score": 80
       },
       {
-        "id": "avenue-vai-entrar-no-chile-e-se-prepara-para-atuar-em-cr-dito-e-infraestrutura-na-europa-n",
-        "title": "Avenue vai entrar no Chile e se prepara para atuar em crédito e infraestrutura na Europa - NeoFeed",
-        "score": 80
-      },
-      {
-        "id": "conselho-da-volkswagen-aprova-plano-liderado-pelo-ceo-para-cortar-50-mil-empregos-bloomber",
-        "title": "Conselho da Volkswagen aprova plano liderado pelo CEO para cortar 50 mil empregos - Bloomberg Línea Brasil",
-        "score": 80
-      },
-      {
         "id": "o-m-a-da-ciberseguran-a-spx-e-embraer-articulam-fus-o-e-criam-empresa-de-r-700-milh-es-neo",
         "title": "O M&A da cibersegurança: SPX e Embraer articulam fusão e criam empresa de R$ 700 milhões - NeoFeed",
         "score": 80
@@ -240,11 +215,6 @@
         "id": "itc-infotech-happiest-minds-merger-won-t-lead-to-layoffs-management-says-people-matters-hr",
         "title": "ITC Infotech-Happiest Minds merger won't lead to layoffs, management says - People Matters - HR News",
         "score": 80
-      },
-      {
-        "id": "ri-happy-troca-de-dono-e-ex-ceo-retorna-para-a-opera-o-da-companhia-neofeedneofeed",
-        "title": "Ri Happy troca de dono e ex-CEO retorna para a operação da companhia - NeoFeed",
-        "score": 80
       }
     ]
   },
@@ -252,6 +222,6 @@
     "trendItems": 10,
     "withRadar": 0,
     "withoutRadar": 10,
-    "highPriorityOutsideTrends": 29
+    "highPriorityOutsideTrends": 23
   }
 }

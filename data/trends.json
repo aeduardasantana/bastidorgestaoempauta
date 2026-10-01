@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T16:17:31.308447+00:00",
+  "updatedAt": "2026-10-01T16:55:08.183932+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "avião",
+          "term": "brawl stars",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "carlos jordy",
+          "term": "caixa",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "eritreia x áfrica do sul",
+          "term": "jornalista",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "engavetamento",
+          "term": "br-153",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "naufrágio",
+          "term": "penhora",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "água",
+          "term": "estudante de medicina",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,15 +58,21 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "luciano huck vorcaro",
+          "term": "estados unidos",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "dr-consulta-espera-parceria-com-o-sus-e-v-10-estados-para-m-a-e-expans-o-diz-ceo-bloomberg",
+              "title": "Dr. Consulta espera parceria com o SUS e vê 10 estados para M&A e expansão, diz CEO - Bloomberg Línea Brasil",
+              "score": 70
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "aviação",
+          "term": "stf",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +80,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "almoço",
+          "term": "tom brady",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,7 +88,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "décimo terceiro salário",
+          "term": "viviane barci de moraes",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -99,7 +105,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 23,
+    "count": 22,
     "items": [
       {
         "id": "petrobras-acompanha-negocia-es-entre-empresas-contratadas-e-trabalhadores-em-greve-em-camp",
@@ -112,8 +118,8 @@
         "score": 100
       },
       {
-        "id": "india-gcc-layoffs-estimates-range-from-5-000-to-30-000-as-ai-changes-hiring-priorities-peo",
-        "title": "India GCC layoffs: Estimates range from 5,000 to 30,000 as AI changes hiring priorities - People Matters - HR News",
+        "id": "nestl-anuncia-investimento-r-7-bilh-es-no-brasil-e-2-mil-empregos-a-tardea-tarde",
+        "title": "Nestlé anuncia investimento R$ 7 bilhões no Brasil e 2 mil empregos - A TARDE",
         "score": 90
       },
       {
@@ -137,11 +143,6 @@
         "score": 90
       },
       {
-        "id": "layoff-tracker-novo-workforce-down-13-000-biospacebiospace",
-        "title": "Layoff Tracker: Novo workforce down 13,000 - BioSpace",
-        "score": 90
-      },
-      {
         "id": "greve-na-bacia-de-campos-avan-a-e-chega-a-cerca-de-30-unidades-offshore-trt-tenta-acordo-n",
         "title": "Greve na Bacia de Campos avança e chega a cerca de 30 unidades offshore; TRT tenta acordo nesta quarta - Clique Diário",
         "score": 90
@@ -152,8 +153,13 @@
         "score": 90
       },
       {
-        "id": "ibuild-amplia-presenc-a-nacional-e-inaugura-novas-unidades-em-tre-s-lagoas-e-bauru-em-apen",
-        "title": "iBUILD amplia presença nacional e inaugura novas unidades em Três Lagoas e Bauru em apenas nove dias - Pequenas Empresas & Grandes Negócios",
+        "id": "greve-no-setor-de-petr-leo-atinge-maca-e-bacia-de-campos-sindicato-cita-paralisa-o-por-tem",
+        "title": "Greve no setor de petróleo atinge Macaé e Bacia de Campos; sindicato cita paralisação por tempo indeterminado - G1",
+        "score": 90
+      },
+      {
+        "id": "ifood-vai-investir-r-24-bilh-es-na-opera-o-at-2027-pequenas-empresas-grandes-neg-ciospeque",
+        "title": "iFood vai investir R$ 24 bilhões na operação até 2027 - Pequenas Empresas & Grandes Negócios",
         "score": 90
       },
       {
@@ -172,6 +178,11 @@
         "score": 90
       },
       {
+        "id": "gigante-automotiva-confirma-investimento-de-r-6-bilh-es-em-f-brica-a-tardea-tarde",
+        "title": "Gigante automotiva confirma investimento de R$ 6 bilhões em fábrica - A TARDE",
+        "score": 80
+      },
+      {
         "id": "delivery-sem-gargalo-8-dicas-para-organizar-a-opera-o-do-seu-restaurante-pequenas-empresas",
         "title": "Delivery sem gargalo: 8 dicas para organizar a operação do seu restaurante - Pequenas Empresas & Grandes Negócios",
         "score": 80
@@ -179,11 +190,6 @@
       {
         "id": "mais-voos-e-infraestrutura-para-aragua-na-dorinha-ouve-demandas-de-empres-rios-para-impuls",
         "title": "Mais voos e infraestrutura para Araguaína: Dorinha ouve demandas de empresários para impulsionar a economia da região - tribunadopovoto.com.br",
-        "score": 80
-      },
-      {
-        "id": "empresa-prev-investir-r-72-milh-es-em-nova-f-brica-no-cear-di-rio-do-nordestedi-rio-do-nor",
-        "title": "Empresa prevê investir R$ 72 milhões em nova fábrica no Ceará - Diário do Nordeste",
         "score": 80
       },
       {
@@ -210,18 +216,13 @@
         "id": "uber-cuts-3-300-jobs-as-it-prepares-10-billion-robotaxi-push-people-matters-hr-newspeople-",
         "title": "Uber cuts 3,300 jobs as it prepares $10 billion robotaxi push - People Matters - HR News",
         "score": 80
-      },
-      {
-        "id": "itc-infotech-happiest-minds-merger-won-t-lead-to-layoffs-management-says-people-matters-hr",
-        "title": "ITC Infotech-Happiest Minds merger won't lead to layoffs, management says - People Matters - HR News",
-        "score": 80
       }
     ]
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 0,
-    "withoutRadar": 10,
-    "highPriorityOutsideTrends": 23
+    "withRadar": 1,
+    "withoutRadar": 9,
+    "highPriorityOutsideTrends": 22
   }
 }

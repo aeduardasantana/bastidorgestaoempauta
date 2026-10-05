@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T16:08:08.888820+00:00",
+  "updatedAt": "2026-10-05T19:06:01.643433+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "colégio eleitoral",
+          "term": "romênia x suécia",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "novak djokovic",
+          "term": "lima duarte",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "amazon prime video",
+          "term": "inss",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "aryna sabalenka",
+          "term": "carta capital",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "bless ewbank gagliasso",
+          "term": "brás",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "trt 8",
+          "term": "frança x bélgica",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "demissão",
+          "term": "itália x turquia",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,81 +66,28 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "brasil x india",
+          "term": "tudocelular",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "nestl-anuncia-investimento-r-7-bilh-es-no-brasil-e-2-mil-empregos-a-tardea-tarde",
-              "title": "Nestlé anuncia investimento R$ 7 bilhões no Brasil e 2 mil empregos - A TARDE",
-              "score": 90
-            },
-            {
-              "id": "ia-muda-fun-es-e-amplia-press-o-sobre-trabalhadores-quem-fica-com-os-ganhos-brasil-de-fato",
-              "title": "IA muda funções e amplia pressão sobre trabalhadores: quem fica com os ganhos? - Brasil de Fato",
-              "score": 90
-            },
-            {
-              "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
-              "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
-              "score": 90
-            },
-            {
-              "id": "nubank-nomeia-nova-ceo-no-m-xico-em-meio-reestrutura-o-de-lideran-a-bloomberg-l-nea-brasil",
-              "title": "Nubank nomeia nova CEO no México em meio à reestruturação de liderança - Bloomberg Línea Brasil",
-              "score": 70
-            },
-            {
-              "id": "dr-consulta-espera-parceria-com-o-sus-e-v-10-estados-para-m-a-e-expans-o-diz-ceo-bloomberg",
-              "title": "Dr. Consulta espera parceria com o SUS e vê 10 estados para M&A e expansão, diz CEO - Bloomberg Línea Brasil",
-              "score": 70
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "goldman sachs",
+          "term": "debate 2 turno",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "oncocl-nicas-vive-crise-bilion-ria-em-meio-a-disputas-com-goldman-sachs-e-banco-master-blo",
-              "title": "Oncoclínicas vive crise bilionária em meio a disputas com Goldman Sachs e Banco Master - Bloomberg Línea Brasil",
-              "score": 0
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "embaixada dos estados unidos da américa",
+          "term": "tiggo 9",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "sindicato-esclarece-empregados-da-caixa-sobre-diss-dio-no-tst-e-alerta-para-riscos-ao-act-",
-              "title": "Sindicato esclarece empregados da Caixa sobre dissídio no TST e alerta para riscos ao ACT - Sindicato dos Bancários",
-              "score": 90
-            },
-            {
-              "id": "empregados-da-caixa-votam-nova-proposta-nesta-sexta-feira-11-sindicato-dos-banc-riossindic",
-              "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - Sindicato dos Bancários",
-              "score": 90
-            },
-            {
-              "id": "dr-consulta-espera-parceria-com-o-sus-e-v-10-estados-para-m-a-e-expans-o-diz-ceo-bloomberg",
-              "title": "Dr. Consulta espera parceria com o SUS e vê 10 estados para M&A e expansão, diz CEO - Bloomberg Línea Brasil",
-              "score": 70
-            },
-            {
-              "id": "marinha-dos-eua-seleciona-a-boeing-para-o-programa-da-aeronave-f-a-xx-r7r7",
-              "title": "Marinha dos EUA seleciona a Boeing para o programa da aeronave F/A-XX - R7",
-              "score": 0
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         }
       ]
     }
@@ -152,11 +99,16 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 17,
+    "count": 18,
     "items": [
       {
+        "id": "greve-na-bacia-de-campos-suspensa-enquanto-trabalhadores-e-empresas-negociam-nova-proposta",
+        "title": "Greve na Bacia de Campos é suspensa enquanto trabalhadores e empresas negociam nova proposta - Clique Diário",
+        "score": 100
+      },
+      {
         "id": "petrobras-acompanha-negocia-es-entre-empresas-contratadas-e-trabalhadores-em-greve-em-camp",
-        "title": "Petrobras acompanha negociações entre empresas contratadas e trabalhadores em greve em Campos - Notícias Agrícolas",
+        "title": "Petrobras acompanha negociações entre empresas contratadas e trabalhadores em greve em Campos - noticiasagricolas.com.br",
         "score": 100
       },
       {
@@ -165,13 +117,28 @@
         "score": 100
       },
       {
+        "id": "layoff-tracker-foghorn-cuts-40-of-workforce-biospacebiospace",
+        "title": "Layoff Tracker: Foghorn cuts 40% of workforce - BioSpace",
+        "score": 90
+      },
+      {
+        "id": "nestl-anuncia-investimento-r-7-bilh-es-no-brasil-e-2-mil-empregos-a-tardea-tarde",
+        "title": "Nestlé anuncia investimento R$ 7 bilhões no Brasil e 2 mil empregos - A TARDE",
+        "score": 90
+      },
+      {
         "id": "sindicato-esclarece-empregados-da-caixa-sobre-diss-dio-no-tst-e-alerta-para-riscos-ao-act-",
         "title": "Sindicato esclarece empregados da Caixa sobre dissídio no TST e alerta para riscos ao ACT - Sindicato dos Bancários",
         "score": 90
       },
       {
+        "id": "ia-muda-fun-es-e-amplia-press-o-sobre-trabalhadores-quem-fica-com-os-ganhos-brasil-de-fato",
+        "title": "IA muda funções e amplia pressão sobre trabalhadores: quem fica com os ganhos? - Brasil de Fato",
+        "score": 90
+      },
+      {
         "id": "ia-pode-mudar-empregos-e-criar-novas-profiss-es-especialista-explica-o-que-vem-pela-frente",
-        "title": "IA pode mudar empregos e criar novas profissões: especialista explica o que vem pela frente - folhavitoria.com.br",
+        "title": "IA pode mudar empregos e criar novas profissões: especialista explica o que vem pela frente - Folha Vitória",
         "score": 90
       },
       {
@@ -180,18 +147,8 @@
         "score": 90
       },
       {
-        "id": "greve-na-bacia-de-campos-avan-a-e-chega-a-cerca-de-30-unidades-offshore-trt-tenta-acordo-n",
-        "title": "Greve na Bacia de Campos avança e chega a cerca de 30 unidades offshore; TRT tenta acordo nesta quarta - cliquediario.com.br",
-        "score": 90
-      },
-      {
         "id": "microsoft-layoffs-extend-to-xbox-as-268-employees-lose-jobs-people-matters-hr-newspeople-m",
         "title": "Microsoft layoffs extend to Xbox as 268 employees lose jobs - People Matters - HR News",
-        "score": 90
-      },
-      {
-        "id": "aquisi-o-de-plataforma-com-13-milh-es-de-clientes-marca-estreia-de-nova-holding-financeira",
-        "title": "Aquisição de plataforma com 13 milhões de clientes marca estreia de nova holding financeira - exame.com",
         "score": 90
       },
       {
@@ -205,8 +162,8 @@
         "score": 90
       },
       {
-        "id": "contratar-errado-na-sa-de-custa-at-15-vezes-o-sal-rio-do-profissional-pequenas-empresas-gr",
-        "title": "Contratar errado na saúde custa até 15 vezes o salário do profissional - Pequenas Empresas & Grandes Negócios",
+        "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
+        "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
         "score": 90
       },
       {
@@ -220,11 +177,6 @@
         "score": 80
       },
       {
-        "id": "layoff-tracker-novo-biomarin-enanta-dole-out-pink-slips-biospacebiospace",
-        "title": "Layoff Tracker: Novo, BioMarin, Enanta dole out pink slips - BioSpace",
-        "score": 80
-      },
-      {
         "id": "mais-voos-e-infraestrutura-para-aragua-na-dorinha-ouve-demandas-de-empres-rios-para-impuls",
         "title": "Mais voos e infraestrutura para Araguaína: Dorinha ouve demandas de empresários para impulsionar a economia da região - tribunadopovoto.com.br",
         "score": 80
@@ -235,16 +187,16 @@
         "score": 80
       },
       {
-        "id": "o-m-a-da-ciberseguran-a-spx-e-embraer-articulam-fus-o-e-criam-empresa-de-r-700-milh-es-neo",
-        "title": "O M&A da cibersegurança: SPX e Embraer articulam fusão e criam empresa de R$ 700 milhões - NeoFeed",
+        "id": "para-virar-a-chave-mclaren-injeta-500-milh-es-e-vai-estrear-na-pista-dos-suvs-neofeedneofe",
+        "title": "Para virar a chave, McLaren injeta £ 500 milhões e vai estrear na pista dos SUVs - NeoFeed",
         "score": 80
       }
     ]
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 3,
-    "withoutRadar": 7,
-    "highPriorityOutsideTrends": 17
+    "withRadar": 0,
+    "withoutRadar": 10,
+    "highPriorityOutsideTrends": 18
   }
 }

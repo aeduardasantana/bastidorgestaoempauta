@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -20,4 +21,4 @@ jobs:
           user: ${{ secrets.USER }}
           password: ${{ secrets.PASS }}
           localDir: "./"
-          remoteDir: "./public_html/bastidor/"
+          remoteDir: "./public_html/bastidorgp/"

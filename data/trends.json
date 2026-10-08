@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T19:06:01.643433+00:00",
+  "updatedAt": "2026-10-08T17:14:17.151347+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "romênia x suécia",
+          "term": "polícia",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "lima duarte",
+          "term": "privatização",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "inss",
+          "term": "br-376",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "carta capital",
+          "term": "adoção",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "brás",
+          "term": "claudio castro",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "frança x bélgica",
+          "term": "zubeldia",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,15 +58,21 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "itália x turquia",
+          "term": "ruas rio de janeiro",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "rock-in-rio-bate-recorde-de-marcas-e-atrai-neg-cios-tribuna-do-sert-otribuna-do-sert-o",
+              "title": "Rock in Rio bate recorde de marcas e atrai negócios - Tribuna do Sertão",
+              "score": 70
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "tudocelular",
+          "term": "jorge oliveira",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +80,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "debate 2 turno",
+          "term": "chelsy davy",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,12 +88,18 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "tiggo 9",
+          "term": "imposto",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "wilson-grassi-defende-imposto-nico-e-mais-rigor-contra-fac-es-ag-ncia-brasilag-ncia-brasil",
+              "title": "Wilson Grassi defende imposto único e mais rigor contra facções - Agência Brasil",
+              "score": 0
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         }
       ]
     }
@@ -102,28 +114,18 @@
     "count": 18,
     "items": [
       {
+        "id": "greve-de-trabalhadores-terceirizados-chega-ao-fim-ap-s-acordo-na-bacia-de-campos-portal-vi",
+        "title": "Greve de trabalhadores terceirizados chega ao fim após acordo na Bacia de Campos - Portal Viu",
+        "score": 100
+      },
+      {
         "id": "greve-na-bacia-de-campos-suspensa-enquanto-trabalhadores-e-empresas-negociam-nova-proposta",
         "title": "Greve na Bacia de Campos é suspensa enquanto trabalhadores e empresas negociam nova proposta - Clique Diário",
         "score": 100
       },
       {
-        "id": "petrobras-acompanha-negocia-es-entre-empresas-contratadas-e-trabalhadores-em-greve-em-camp",
-        "title": "Petrobras acompanha negociações entre empresas contratadas e trabalhadores em greve em Campos - noticiasagricolas.com.br",
-        "score": 100
-      },
-      {
-        "id": "sindicato-convoca-trabalhadores-do-banrisul-para-assembleia-virtual-na-segunda-14-sindicat",
-        "title": "Sindicato convoca trabalhadores do Banrisul para assembleia virtual na segunda 14 - Sindicato dos Bancários",
-        "score": 100
-      },
-      {
-        "id": "layoff-tracker-foghorn-cuts-40-of-workforce-biospacebiospace",
-        "title": "Layoff Tracker: Foghorn cuts 40% of workforce - BioSpace",
-        "score": 90
-      },
-      {
-        "id": "nestl-anuncia-investimento-r-7-bilh-es-no-brasil-e-2-mil-empregos-a-tardea-tarde",
-        "title": "Nestlé anuncia investimento R$ 7 bilhões no Brasil e 2 mil empregos - A TARDE",
+        "id": "gigante-montadora-investe-bilh-es-e-cria-11-mil-vagas-de-empregos-a-tardea-tarde",
+        "title": "Gigante montadora investe bilhões e cria 11 mil vagas de empregos - A TARDE",
         "score": 90
       },
       {
@@ -152,13 +154,18 @@
         "score": 90
       },
       {
-        "id": "caixa-e-funcion-rios-voltam-a-negociar-nesta-quarta-greve-segue-sem-prazo-para-acabar-g1g1",
-        "title": "Caixa e funcionários voltam a negociar nesta quarta; greve segue sem prazo para acabar - G1",
+        "id": "caixa-maioria-dos-empregados-rejeita-proposta-e-greve-continua-contraf-cutcontraf-cut",
+        "title": "Caixa: Maioria dos empregados rejeita proposta e greve continua - Contraf-CUT",
         "score": 90
       },
       {
-        "id": "empregados-da-caixa-votam-nova-proposta-nesta-sexta-feira-11-sindicato-dos-banc-riossindic",
-        "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - Sindicato dos Bancários",
+        "id": "caixa-e-banc-rios-retomam-negocia-es-nesta-quarta-16-mas-greve-segue-sem-prazo-para-termin",
+        "title": "Caixa e bancários retomam negociações nesta quarta (16), mas greve segue sem prazo para terminar - Folha de S.Paulo",
+        "score": 90
+      },
+      {
+        "id": "banc-rios-do-bradesco-ter-o-assembleia-sobre-renova-o-do-acordo-de-ppr-na-ter-a-15-sindica",
+        "title": "Bancários do Bradesco terão assembleia sobre renovação do acordo de PPR na terça 15 - Sindicato dos Bancários",
         "score": 90
       },
       {
@@ -167,18 +174,23 @@
         "score": 90
       },
       {
-        "id": "byd-alcan-a-marca-de-mais-de-8-mil-empregos-diretos-em-cama-ari-a-tardea-tarde",
-        "title": "BYD alcança marca de mais de 8 mil empregos diretos em Camaçari - A TARDE",
+        "id": "assembleia-nesta-sexta-11-vai-deliberar-sobre-proposta-final-da-caixa-para-renova-o-do-act",
+        "title": "Assembleia nesta sexta (11) vai deliberar sobre proposta final da Caixa para renovação do ACT - Sindicato dos Bancários",
+        "score": 90
+      },
+      {
+        "id": "importa-o-chinesa-amea-a-at-90-dos-empregos-automotivos-no-brasil-diz-stellantis-bloomberg",
+        "title": "Importação chinesa ameaça até 90% dos empregos automotivos no Brasil, diz Stellantis - Bloomberg Línea Brasil",
         "score": 80
       },
       {
-        "id": "gigante-automotiva-confirma-investimento-de-r-6-bilh-es-em-f-brica-a-tardea-tarde",
-        "title": "Gigante automotiva confirma investimento de R$ 6 bilhões em fábrica - A TARDE",
+        "id": "skydance-corp-signals-layoffs-as-paramount-warner-bros-discovery-merger-closes-people-matt",
+        "title": "Skydance Corp signals layoffs as Paramount-Warner Bros. Discovery merger closes - People Matters - HR News",
         "score": 80
       },
       {
         "id": "mais-voos-e-infraestrutura-para-aragua-na-dorinha-ouve-demandas-de-empres-rios-para-impuls",
-        "title": "Mais voos e infraestrutura para Araguaína: Dorinha ouve demandas de empresários para impulsionar a economia da região - tribunadopovoto.com.br",
+        "title": "Mais voos e infraestrutura para Araguaína: Dorinha ouve demandas de empresários para impulsionar a economia da região - Tribuna do Povo",
         "score": 80
       },
       {
@@ -195,8 +207,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 0,
-    "withoutRadar": 10,
+    "withRadar": 2,
+    "withoutRadar": 8,
     "highPriorityOutsideTrends": 18
   }
 }

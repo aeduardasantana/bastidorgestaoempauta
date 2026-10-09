@@ -1,4 +1,29 @@
 {
-  "updatedAt": "2026-10-08",
-  "items": []
+  "updatedAt": "2026-10-09",
+  "items": [
+    {
+      "id": "yt-khVCxJPTtHE",
+      "videoId": "khVCxJPTtHE",
+      "title": "O que é NR-1????",
+      "source": "Grunn",
+      "channelId": "UCCNKG-a8v9cEn8_ROLO47AQ",
+      "date": "2026-10-09",
+      "url": "https://www.youtube.com/watch?v=khVCxJPTtHE",
+      "agenda": "NR-1 / AEP",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Exige confirmação",
+      "sourceType": "Canal de análise ou origem a validar",
+      "score": 5,
+      "summary": "Vídeo localizado no YouTube. Confira o canal e assista ao conteúdo antes de usar qualquer declaração como fonte.",
+      "angle": "Verificar se o vídeo confirma uma declaração, apresenta análise ou apenas repercute o tema. Não usar título, corte ou comentário como prova do fato.",
+      "query": "NR-1 AEP riscos psicossociais empresas",
+      "duration": "1min 14s",
+      "use": {
+        "label": "Usar apenas após assistir ao conteúdo e identificar o tipo de canal.",
+        "alert": "Não reproduzir vídeo, trecho, transcrição, imagem ou miniatura de terceiro sem autorização."
+      }
+    }
+  ]
 }

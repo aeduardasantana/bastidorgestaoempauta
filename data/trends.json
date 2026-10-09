@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T17:14:17.151347+00:00",
+  "updatedAt": "2026-10-09T16:50:43.428149+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "polícia",
+          "term": "galatasaray x kasımpaşa",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "privatização",
+          "term": "marte",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "br-376",
+          "term": "coreia do sul",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "adoção",
+          "term": "ratinho",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "claudio castro",
+          "term": "ypê",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "zubeldia",
+          "term": "robinho jr.",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,21 +58,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ruas rio de janeiro",
+          "term": "la liga",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "rock-in-rio-bate-recorde-de-marcas-e-atrai-neg-cios-tribuna-do-sert-otribuna-do-sert-o",
-              "title": "Rock in Rio bate recorde de marcas e atrai negócios - Tribuna do Sertão",
-              "score": 70
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "jorge oliveira",
+          "term": "sylvinho",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -80,26 +74,46 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "chelsy davy",
+          "term": "ana castela imagina o trabalho",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
-        },
-        {
-          "term": "imposto",
-          "source": "Google Trends",
-          "position": 10,
-          "movement": "NOVO",
           "relatedClusters": [
             {
-              "id": "wilson-grassi-defende-imposto-nico-e-mais-rigor-contra-fac-es-ag-ncia-brasilag-ncia-brasil",
-              "title": "Wilson Grassi defende imposto único e mais rigor contra facções - Agência Brasil",
+              "id": "artigo-intelig-ncia-artificial-e-mercado-de-trabalho-quem-est-preparando-as-pessoas-para-e",
+              "title": "Artigo: inteligência artificial e mercado de trabalho — quem está preparando as pessoas para essa transformação? - Deolhonailha",
+              "score": 40
+            },
+            {
+              "id": "mendon-a-prorroga-por-mais-90-dias-suspens-o-de-multas-da-nr-1-sobre-sa-de-mental-no-traba",
+              "title": "Mendonça prorroga por mais 90 dias suspensão de multas da NR-1 sobre saúde mental no trabalho - GZH",
+              "score": 40
+            },
+            {
+              "id": "como-a-intelig-ncia-artificial-est-mudando-o-mercado-de-trabalho-economia-sceconomia-sc",
+              "title": "Como a inteligência artificial está mudando o mercado de trabalho? - Economia SC",
+              "score": 40
+            },
+            {
+              "id": "ia-acelera-mudan-as-no-trabalho-e-pressiona-rh-por-novas-compet-ncias-mundo-rhmundo-rh",
+              "title": "IA acelera mudanças no trabalho e pressiona RH por novas competências - Mundo RH",
+              "score": 20
+            },
+            {
+              "id": "h-cinco-anos-trabalho-da-justi-a-com-a-sociedade-garante-direitos-popula-o-de-rua-portal-c",
+              "title": "Há cinco anos, trabalho da Justiça com a sociedade garante direitos à população de rua - Portal CNJ",
               "score": 0
             }
           ],
           "radarStatus": "EM ALTA + NO RADAR"
+        },
+        {
+          "term": "indenização",
+          "source": "Google Trends",
+          "position": 10,
+          "movement": "NOVO",
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         }
       ]
     }
@@ -124,8 +138,8 @@
         "score": 100
       },
       {
-        "id": "gigante-montadora-investe-bilh-es-e-cria-11-mil-vagas-de-empregos-a-tardea-tarde",
-        "title": "Gigante montadora investe bilhões e cria 11 mil vagas de empregos - A TARDE",
+        "id": "gigante-montadora-investe-r-16-bilh-es-e-cria-11-mil-vagas-de-empregos-a-tardea-tarde",
+        "title": "Gigante montadora investe R$ 16 bilhões e cria 11 mil vagas de empregos - A TARDE",
         "score": 90
       },
       {
@@ -144,8 +158,8 @@
         "score": 90
       },
       {
-        "id": "-falta-de-ingle-s-trava-sucessa-o-de-executivos-pequenas-empresas-grandes-neg-ciospequenas",
-        "title": "​Falta de inglês trava sucessão de executivos - Pequenas Empresas & Grandes Negócios",
+        "id": "greve-na-caixa-media-o-no-tst-termina-sem-avan-o-contraf-cutcontraf-cut",
+        "title": "Greve na Caixa: Mediação no TST termina sem avanço - Contraf-CUT",
         "score": 90
       },
       {
@@ -156,6 +170,11 @@
       {
         "id": "caixa-maioria-dos-empregados-rejeita-proposta-e-greve-continua-contraf-cutcontraf-cut",
         "title": "Caixa: Maioria dos empregados rejeita proposta e greve continua - Contraf-CUT",
+        "score": 90
+      },
+      {
+        "id": "daqui-a-pouco-come-am-as-assembleias-dos-empregados-da-caixa-contraf-cutcontraf-cut",
+        "title": "Daqui a pouco começam as assembleias dos empregados da Caixa - Contraf-CUT",
         "score": 90
       },
       {
@@ -171,11 +190,6 @@
       {
         "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
         "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
-        "score": 90
-      },
-      {
-        "id": "assembleia-nesta-sexta-11-vai-deliberar-sobre-proposta-final-da-caixa-para-renova-o-do-act",
-        "title": "Assembleia nesta sexta (11) vai deliberar sobre proposta final da Caixa para renovação do ACT - Sindicato dos Bancários",
         "score": 90
       },
       {
@@ -207,8 +221,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 2,
-    "withoutRadar": 8,
+    "withRadar": 1,
+    "withoutRadar": 9,
     "highPriorityOutsideTrends": 18
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T16:50:43.428149+00:00",
+  "updatedAt": "2026-10-12T19:39:46.866144+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,23 +10,75 @@
       "error": null,
       "items": [
         {
-          "term": "galatasaray x kasımpaşa",
+          "term": "botafogo de futebol e regatas",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "gigante-montadora-investe-r-16-bilh-es-e-cria-11-mil-vagas-de-empregos-a-tardea-tarde",
+              "title": "Gigante montadora investe R$ 16 bilhões e cria 11 mil vagas de empregos - A TARDE",
+              "score": 90
+            },
+            {
+              "id": "ia-muda-fun-es-e-amplia-press-o-sobre-trabalhadores-quem-fica-com-os-ganhos-brasil-de-fato",
+              "title": "IA muda funções e amplia pressão sobre trabalhadores: quem fica com os ganhos? - Brasil de Fato",
+              "score": 90
+            },
+            {
+              "id": "mais-voos-e-infraestrutura-para-aragua-na-dorinha-ouve-demandas-de-empres-rios-para-impuls",
+              "title": "Mais voos e infraestrutura para Araguaína: Dorinha ouve demandas de empresários para impulsionar a economia da região - Tribuna do Povo",
+              "score": 80
+            },
+            {
+              "id": "mais-de-80-das-franquias-de-educa-o-j-usam-ia-mas-desafio-agora-gerar-resultado-diz-estudo",
+              "title": "Mais de 80% das franquias de educação já usam IA, mas desafio agora é gerar resultado, diz estudo - Pequenas Empresas & Grandes Negócios",
+              "score": 60
+            },
+            {
+              "id": "gpa-vai-atr-s-das-heran-as-do-passado-e-de-fantasmas-de-mais-de-r-15-bilh-es-neofeedneofee",
+              "title": "GPA vai atrás das \"heranças do passado\" e de fantasmas de mais de R$ 15 bilhões - NeoFeed",
+              "score": 40
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "marte",
+          "term": "big brother brasil",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "ia-muda-fun-es-e-amplia-press-o-sobre-trabalhadores-quem-fica-com-os-ganhos-brasil-de-fato",
+              "title": "IA muda funções e amplia pressão sobre trabalhadores: quem fica com os ganhos? - Brasil de Fato",
+              "score": 90
+            },
+            {
+              "id": "neg-cios-as-empresas-e-companhias-do-brasil-e-do-mundo-em-bloomberg-l-nea-bloomberg-l-nea-",
+              "title": "Negócios: As empresas e Companhias do Brasil e do mundo em Bloomberg Línea - Bloomberg Línea Brasil",
+              "score": 20
+            },
+            {
+              "id": "hyundai-confirma-suv-bayon-no-brasil-para-2027-confira-os-detalhes-a-tardea-tarde",
+              "title": "Hyundai confirma SUV Bayon no Brasil para 2027: confira os detalhes - A TARDE",
+              "score": 0
+            },
+            {
+              "id": "cvc-renegocia-d-vida-de-r-370-mi-e-libera-caixa-para-investir-em-tecnologia-diz-cfo-bloomb",
+              "title": "CVC renegocia dívida de R$ 370 mi e libera caixa para investir em tecnologia, diz CFO - Bloomberg Línea Brasil",
+              "score": 0
+            },
+            {
+              "id": "santander-avan-a-em-opa-volunt-ria-no-brasil-e-divulga-laudo-de-avalia-o-neofeedneofeed",
+              "title": "Santander avança em OPA voluntária no Brasil e divulga laudo de avaliação - NeoFeed",
+              "score": 0
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "coreia do sul",
+          "term": "danilo",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +86,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ratinho",
+          "term": "uci",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +94,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ypê",
+          "term": "programa eleitoral sem som",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +102,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "robinho jr.",
+          "term": "prime video",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +110,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "la liga",
+          "term": "pastor",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +118,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "sylvinho",
+          "term": "taboão da serra",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,41 +126,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ana castela imagina o trabalho",
+          "term": "levante",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "artigo-intelig-ncia-artificial-e-mercado-de-trabalho-quem-est-preparando-as-pessoas-para-e",
-              "title": "Artigo: inteligência artificial e mercado de trabalho — quem está preparando as pessoas para essa transformação? - Deolhonailha",
-              "score": 40
-            },
-            {
-              "id": "mendon-a-prorroga-por-mais-90-dias-suspens-o-de-multas-da-nr-1-sobre-sa-de-mental-no-traba",
-              "title": "Mendonça prorroga por mais 90 dias suspensão de multas da NR-1 sobre saúde mental no trabalho - GZH",
-              "score": 40
-            },
-            {
-              "id": "como-a-intelig-ncia-artificial-est-mudando-o-mercado-de-trabalho-economia-sceconomia-sc",
-              "title": "Como a inteligência artificial está mudando o mercado de trabalho? - Economia SC",
-              "score": 40
-            },
-            {
-              "id": "ia-acelera-mudan-as-no-trabalho-e-pressiona-rh-por-novas-compet-ncias-mundo-rhmundo-rh",
-              "title": "IA acelera mudanças no trabalho e pressiona RH por novas competências - Mundo RH",
-              "score": 20
-            },
-            {
-              "id": "h-cinco-anos-trabalho-da-justi-a-com-a-sociedade-garante-direitos-popula-o-de-rua-portal-c",
-              "title": "Há cinco anos, trabalho da Justiça com a sociedade garante direitos à população de rua - Portal CNJ",
-              "score": 0
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "indenização",
+          "term": "primevideo",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -125,16 +151,11 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 18,
+    "count": 20,
     "items": [
       {
         "id": "greve-de-trabalhadores-terceirizados-chega-ao-fim-ap-s-acordo-na-bacia-de-campos-portal-vi",
         "title": "Greve de trabalhadores terceirizados chega ao fim após acordo na Bacia de Campos - Portal Viu",
-        "score": 100
-      },
-      {
-        "id": "greve-na-bacia-de-campos-suspensa-enquanto-trabalhadores-e-empresas-negociam-nova-proposta",
-        "title": "Greve na Bacia de Campos é suspensa enquanto trabalhadores e empresas negociam nova proposta - Clique Diário",
         "score": 100
       },
       {
@@ -143,13 +164,18 @@
         "score": 90
       },
       {
-        "id": "sindicato-esclarece-empregados-da-caixa-sobre-diss-dio-no-tst-e-alerta-para-riscos-ao-act-",
-        "title": "Sindicato esclarece empregados da Caixa sobre dissídio no TST e alerta para riscos ao ACT - Sindicato dos Bancários",
+        "id": "greve-offshore-suspensa-ap-s-empresas-melhorarem-proposta-salarial-o-diao-dia",
+        "title": "Greve offshore é suspensa após empresas melhorarem proposta salarial - O Dia",
         "score": 90
       },
       {
-        "id": "ia-muda-fun-es-e-amplia-press-o-sobre-trabalhadores-quem-fica-com-os-ganhos-brasil-de-fato",
-        "title": "IA muda funções e amplia pressão sobre trabalhadores: quem fica com os ganhos? - Brasil de Fato",
+        "id": "india-gcc-layoffs-estimates-range-from-5-000-to-30-000-as-ai-changes-hiring-priorities-peo",
+        "title": "India GCC layoffs: Estimates range from 5,000 to 30,000 as AI changes hiring priorities - People Matters - HR News",
+        "score": 90
+      },
+      {
+        "id": "sindicato-esclarece-empregados-da-caixa-sobre-diss-dio-no-tst-e-alerta-para-riscos-ao-act-",
+        "title": "Sindicato esclarece empregados da Caixa sobre dissídio no TST e alerta para riscos ao ACT - Sindicato dos Bancários",
         "score": 90
       },
       {
@@ -158,8 +184,18 @@
         "score": 90
       },
       {
-        "id": "greve-na-caixa-media-o-no-tst-termina-sem-avan-o-contraf-cutcontraf-cut",
-        "title": "Greve na Caixa: Mediação no TST termina sem avanço - Contraf-CUT",
+        "id": "caixa-ajuizou-diss-dio-o-que-acontece-a-partir-de-agora-sindicato-dos-banc-riossindicato-d",
+        "title": "Caixa ajuizou dissídio: o que acontece a partir de agora? - Sindicato dos Bancários",
+        "score": 90
+      },
+      {
+        "id": "caixa-aciona-a-justi-a-para-encerrar-greve-dos-banc-rios-ap-s-14-dias-uol-economiauol-econ",
+        "title": "Caixa aciona a Justiça para encerrar greve dos bancários após 14 dias - UOL Economia",
+        "score": 90
+      },
+      {
+        "id": "-falta-de-ingle-s-trava-sucessa-o-de-executivos-pequenas-empresas-grandes-neg-ciospequenas",
+        "title": "​Falta de inglês trava sucessão de executivos - Pequenas Empresas & Grandes Negócios",
         "score": 90
       },
       {
@@ -173,13 +209,18 @@
         "score": 90
       },
       {
-        "id": "daqui-a-pouco-come-am-as-assembleias-dos-empregados-da-caixa-contraf-cutcontraf-cut",
-        "title": "Daqui a pouco começam as assembleias dos empregados da Caixa - Contraf-CUT",
+        "id": "professores-de-escolas-particulares-da-grande-bh-entram-em-greve-por-tempo-indeterminado-g",
+        "title": "Professores de escolas particulares da Grande BH entram em greve por tempo indeterminado - G1",
         "score": 90
       },
       {
-        "id": "caixa-e-banc-rios-retomam-negocia-es-nesta-quarta-16-mas-greve-segue-sem-prazo-para-termin",
-        "title": "Caixa e bancários retomam negociações nesta quarta (16), mas greve segue sem prazo para terminar - Folha de S.Paulo",
+        "id": "caixa-e-funcion-rios-voltam-a-negociar-nesta-quarta-greve-segue-sem-prazo-para-acabar-g1g1",
+        "title": "Caixa e funcionários voltam a negociar nesta quarta; greve segue sem prazo para acabar - G1",
+        "score": 90
+      },
+      {
+        "id": "dona-do-famoso-pot-o-e-fen-meno-no-exterior-mineira-skala-investe-r-150-milh-es-em-nova-f-",
+        "title": "Dona do famoso ‘potão’ e fenômeno no exterior, mineira Skala investe R$ 150 milhões em nova fábrica - Exame",
         "score": 90
       },
       {
@@ -188,13 +229,8 @@
         "score": 90
       },
       {
-        "id": "funcion-rios-da-caixa-e-banco-do-brasil-entram-em-greve-indeterminada-a-partir-desta-quint",
-        "title": "Funcionários da Caixa e Banco do Brasil entram em greve indeterminada a partir desta quinta-feira - O GLOBO",
-        "score": 90
-      },
-      {
-        "id": "importa-o-chinesa-amea-a-at-90-dos-empregos-automotivos-no-brasil-diz-stellantis-bloomberg",
-        "title": "Importação chinesa ameaça até 90% dos empregos automotivos no Brasil, diz Stellantis - Bloomberg Línea Brasil",
+        "id": "layoff-tracker-caribou-layoffs-could-wipe-out-90-of-staff-biospacebiospace",
+        "title": "Layoff Tracker: Caribou layoffs could wipe out 90% of staff - BioSpace",
         "score": 80
       },
       {
@@ -221,8 +257,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 1,
-    "withoutRadar": 9,
-    "highPriorityOutsideTrends": 18
+    "withRadar": 2,
+    "withoutRadar": 8,
+    "highPriorityOutsideTrends": 20
   }
 }

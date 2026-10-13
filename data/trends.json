@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T19:39:46.866144+00:00",
+  "updatedAt": "2026-10-13T17:24:15.757780+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,75 +10,23 @@
       "error": null,
       "items": [
         {
-          "term": "botafogo de futebol e regatas",
+          "term": "programação sbt",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "gigante-montadora-investe-r-16-bilh-es-e-cria-11-mil-vagas-de-empregos-a-tardea-tarde",
-              "title": "Gigante montadora investe R$ 16 bilhões e cria 11 mil vagas de empregos - A TARDE",
-              "score": 90
-            },
-            {
-              "id": "ia-muda-fun-es-e-amplia-press-o-sobre-trabalhadores-quem-fica-com-os-ganhos-brasil-de-fato",
-              "title": "IA muda funções e amplia pressão sobre trabalhadores: quem fica com os ganhos? - Brasil de Fato",
-              "score": 90
-            },
-            {
-              "id": "mais-voos-e-infraestrutura-para-aragua-na-dorinha-ouve-demandas-de-empres-rios-para-impuls",
-              "title": "Mais voos e infraestrutura para Araguaína: Dorinha ouve demandas de empresários para impulsionar a economia da região - Tribuna do Povo",
-              "score": 80
-            },
-            {
-              "id": "mais-de-80-das-franquias-de-educa-o-j-usam-ia-mas-desafio-agora-gerar-resultado-diz-estudo",
-              "title": "Mais de 80% das franquias de educação já usam IA, mas desafio agora é gerar resultado, diz estudo - Pequenas Empresas & Grandes Negócios",
-              "score": 60
-            },
-            {
-              "id": "gpa-vai-atr-s-das-heran-as-do-passado-e-de-fantasmas-de-mais-de-r-15-bilh-es-neofeedneofee",
-              "title": "GPA vai atrás das \"heranças do passado\" e de fantasmas de mais de R$ 15 bilhões - NeoFeed",
-              "score": 40
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "big brother brasil",
+          "term": "sabah slavia praga 13/10/2026",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "ia-muda-fun-es-e-amplia-press-o-sobre-trabalhadores-quem-fica-com-os-ganhos-brasil-de-fato",
-              "title": "IA muda funções e amplia pressão sobre trabalhadores: quem fica com os ganhos? - Brasil de Fato",
-              "score": 90
-            },
-            {
-              "id": "neg-cios-as-empresas-e-companhias-do-brasil-e-do-mundo-em-bloomberg-l-nea-bloomberg-l-nea-",
-              "title": "Negócios: As empresas e Companhias do Brasil e do mundo em Bloomberg Línea - Bloomberg Línea Brasil",
-              "score": 20
-            },
-            {
-              "id": "hyundai-confirma-suv-bayon-no-brasil-para-2027-confira-os-detalhes-a-tardea-tarde",
-              "title": "Hyundai confirma SUV Bayon no Brasil para 2027: confira os detalhes - A TARDE",
-              "score": 0
-            },
-            {
-              "id": "cvc-renegocia-d-vida-de-r-370-mi-e-libera-caixa-para-investir-em-tecnologia-diz-cfo-bloomb",
-              "title": "CVC renegocia dívida de R$ 370 mi e libera caixa para investir em tecnologia, diz CFO - Bloomberg Línea Brasil",
-              "score": 0
-            },
-            {
-              "id": "santander-avan-a-em-opa-volunt-ria-no-brasil-e-divulga-laudo-de-avalia-o-neofeedneofeed",
-              "title": "Santander avança em OPA voluntária no Brasil e divulga laudo de avaliação - NeoFeed",
-              "score": 0
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "danilo",
+          "term": "sporting",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -86,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "uci",
+          "term": "galatasaray x barcelona",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -94,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "programa eleitoral sem som",
+          "term": "robbie williams",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -102,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "prime video",
+          "term": "ucl",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -110,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "pastor",
+          "term": "jogos de champions league",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -118,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "taboão da serra",
+          "term": "lucian piane",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -126,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "levante",
+          "term": "katie zacharia",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -134,7 +82,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "primevideo",
+          "term": "empresário",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -151,11 +99,16 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 20,
+    "count": 21,
     "items": [
       {
         "id": "greve-de-trabalhadores-terceirizados-chega-ao-fim-ap-s-acordo-na-bacia-de-campos-portal-vi",
         "title": "Greve de trabalhadores terceirizados chega ao fim após acordo na Bacia de Campos - Portal Viu",
+        "score": 100
+      },
+      {
+        "id": "greve-offshore-cresce-e-trt-tenta-acordo-entre-trabalhadores-e-empresas-o-diao-dia",
+        "title": "Greve offshore cresce e TRT tenta acordo entre trabalhadores e empresas - O Dia",
         "score": 100
       },
       {
@@ -179,6 +132,11 @@
         "score": 90
       },
       {
+        "id": "ia-muda-fun-es-e-amplia-press-o-sobre-trabalhadores-quem-fica-com-os-ganhos-brasil-de-fato",
+        "title": "IA muda funções e amplia pressão sobre trabalhadores: quem fica com os ganhos? - Brasil de Fato",
+        "score": 90
+      },
+      {
         "id": "ia-pode-mudar-empregos-e-criar-novas-profiss-es-especialista-explica-o-que-vem-pela-frente",
         "title": "IA pode mudar empregos e criar novas profissões: especialista explica o que vem pela frente - Folha Vitória",
         "score": 90
@@ -186,11 +144,6 @@
       {
         "id": "caixa-ajuizou-diss-dio-o-que-acontece-a-partir-de-agora-sindicato-dos-banc-riossindicato-d",
         "title": "Caixa ajuizou dissídio: o que acontece a partir de agora? - Sindicato dos Bancários",
-        "score": 90
-      },
-      {
-        "id": "caixa-aciona-a-justi-a-para-encerrar-greve-dos-banc-rios-ap-s-14-dias-uol-economiauol-econ",
-        "title": "Caixa aciona a Justiça para encerrar greve dos bancários após 14 dias - UOL Economia",
         "score": 90
       },
       {
@@ -204,28 +157,23 @@
         "score": 90
       },
       {
-        "id": "caixa-maioria-dos-empregados-rejeita-proposta-e-greve-continua-contraf-cutcontraf-cut",
-        "title": "Caixa: Maioria dos empregados rejeita proposta e greve continua - Contraf-CUT",
+        "id": "daqui-a-pouco-come-am-as-assembleias-dos-empregados-da-caixa-contraf-cutcontraf-cut",
+        "title": "Daqui a pouco começam as assembleias dos empregados da Caixa - Contraf-CUT",
         "score": 90
       },
       {
-        "id": "professores-de-escolas-particulares-da-grande-bh-entram-em-greve-por-tempo-indeterminado-g",
-        "title": "Professores de escolas particulares da Grande BH entram em greve por tempo indeterminado - G1",
+        "id": "banc-rios-rejeitam-proposta-da-caixa-e-greve-continua-uol-economiauol-economia",
+        "title": "Bancários rejeitam proposta da Caixa, e greve continua - UOL Economia",
         "score": 90
       },
       {
-        "id": "caixa-e-funcion-rios-voltam-a-negociar-nesta-quarta-greve-segue-sem-prazo-para-acabar-g1g1",
-        "title": "Caixa e funcionários voltam a negociar nesta quarta; greve segue sem prazo para acabar - G1",
+        "id": "greve-no-setor-de-petr-leo-atinge-maca-e-bacia-de-campos-sindicato-cita-paralisa-o-por-tem",
+        "title": "Greve no setor de petróleo atinge Macaé e Bacia de Campos; sindicato cita paralisação por tempo indeterminado - G1",
         "score": 90
       },
       {
-        "id": "dona-do-famoso-pot-o-e-fen-meno-no-exterior-mineira-skala-investe-r-150-milh-es-em-nova-f-",
-        "title": "Dona do famoso ‘potão’ e fenômeno no exterior, mineira Skala investe R$ 150 milhões em nova fábrica - Exame",
-        "score": 90
-      },
-      {
-        "id": "banc-rios-do-bradesco-ter-o-assembleia-sobre-renova-o-do-acordo-de-ppr-na-ter-a-15-sindica",
-        "title": "Bancários do Bradesco terão assembleia sobre renovação do acordo de PPR na terça 15 - Sindicato dos Bancários",
+        "id": "caixa-e-banc-rios-retomam-negocia-es-nesta-quarta-16-mas-greve-segue-sem-prazo-para-termin",
+        "title": "Caixa e bancários retomam negociações nesta quarta (16), mas greve segue sem prazo para terminar - Folha de S.Paulo",
         "score": 90
       },
       {
@@ -244,6 +192,11 @@
         "score": 80
       },
       {
+        "id": "empresa-prev-investir-r-72-milh-es-em-nova-f-brica-no-cear-di-rio-do-nordestedi-rio-do-nor",
+        "title": "Empresa prevê investir R$ 72 milhões em nova fábrica no Ceará - Diário do Nordeste",
+        "score": 80
+      },
+      {
         "id": "centen-rias-renovam-mix-e-opera-es-sem-abandonar-legado-valor-econ-micovalor-econ-mico",
         "title": "Centenárias renovam mix e operações sem abandonar legado - Valor Econômico",
         "score": 80
@@ -257,8 +210,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 2,
-    "withoutRadar": 8,
-    "highPriorityOutsideTrends": 20
+    "withRadar": 0,
+    "withoutRadar": 10,
+    "highPriorityOutsideTrends": 21
   }
 }

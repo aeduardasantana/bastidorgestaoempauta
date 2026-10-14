@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T17:24:15.757780+00:00",
+  "updatedAt": "2026-10-14T14:55:08.023965+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "programação sbt",
+          "term": "br-376",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,15 +18,21 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "sabah slavia praga 13/10/2026",
+          "term": "el salvador",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "costa-rica-inaugura-megapris-o-aos-moldes-de-el-salvador-sbt-newssbt-news",
+              "title": "Costa Rica inaugura megaprisão aos moldes de El Salvador - SBT News",
+              "score": 70
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "sporting",
+          "term": "russel brand",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +40,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "galatasaray x barcelona",
+          "term": "meta ai",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +48,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "robbie williams",
+          "term": "jp chermont",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +56,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ucl",
+          "term": "russell brand",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +64,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "jogos de champions league",
+          "term": "resumo novelas quem ama cuida",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,15 +72,21 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "lucian piane",
+          "term": "perdao dívida mei",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "cvc-renegocia-d-vida-de-r-370-mi-e-libera-caixa-para-investir-em-tecnologia-diz-cfo-bloomb",
+              "title": "CVC renegocia dívida de R$ 370 mi e libera caixa para investir em tecnologia, diz CFO - Bloomberg Línea Brasil",
+              "score": 0
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "katie zacharia",
+          "term": "ayres rocha",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,7 +94,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "empresário",
+          "term": "ac24horas",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -107,11 +119,6 @@
         "score": 100
       },
       {
-        "id": "greve-offshore-cresce-e-trt-tenta-acordo-entre-trabalhadores-e-empresas-o-diao-dia",
-        "title": "Greve offshore cresce e TRT tenta acordo entre trabalhadores e empresas - O Dia",
-        "score": 100
-      },
-      {
         "id": "gigante-montadora-investe-r-16-bilh-es-e-cria-11-mil-vagas-de-empregos-a-tardea-tarde",
         "title": "Gigante montadora investe R$ 16 bilhões e cria 11 mil vagas de empregos - A TARDE",
         "score": 90
@@ -119,6 +126,11 @@
       {
         "id": "greve-offshore-suspensa-ap-s-empresas-melhorarem-proposta-salarial-o-diao-dia",
         "title": "Greve offshore é suspensa após empresas melhorarem proposta salarial - O Dia",
+        "score": 90
+      },
+      {
+        "id": "tst-julga-greve-da-caixa-leg-tima-e-barra-desconto-dos-dias-parados-poder360poder360",
+        "title": "TST julga greve da Caixa legítima e barra desconto dos dias parados - Poder360",
         "score": 90
       },
       {
@@ -147,23 +159,13 @@
         "score": 90
       },
       {
-        "id": "-falta-de-ingle-s-trava-sucessa-o-de-executivos-pequenas-empresas-grandes-neg-ciospequenas",
-        "title": "​Falta de inglês trava sucessão de executivos - Pequenas Empresas & Grandes Negócios",
+        "id": "caixa-decide-acionar-o-tst-contra-greve-nacional-dos-banc-rios-folha-de-s-paulofolha-de-s-",
+        "title": "Caixa decide acionar o TST contra greve nacional dos bancários - Folha de S.Paulo",
         "score": 90
       },
       {
         "id": "microsoft-layoffs-extend-to-xbox-as-268-employees-lose-jobs-people-matters-hr-newspeople-m",
         "title": "Microsoft layoffs extend to Xbox as 268 employees lose jobs - People Matters - HR News",
-        "score": 90
-      },
-      {
-        "id": "daqui-a-pouco-come-am-as-assembleias-dos-empregados-da-caixa-contraf-cutcontraf-cut",
-        "title": "Daqui a pouco começam as assembleias dos empregados da Caixa - Contraf-CUT",
-        "score": 90
-      },
-      {
-        "id": "banc-rios-rejeitam-proposta-da-caixa-e-greve-continua-uol-economiauol-economia",
-        "title": "Bancários rejeitam proposta da Caixa, e greve continua - UOL Economia",
         "score": 90
       },
       {
@@ -177,6 +179,11 @@
         "score": 90
       },
       {
+        "id": "cristiano-ronaldo-em-novo-ramo-atleta-vai-construir-f-brica-de-r-112-milh-es-a-tardea-tard",
+        "title": "Cristiano Ronaldo em novo ramo: atleta vai construir fábrica de R$ 112 milhões - A TARDE",
+        "score": 80
+      },
+      {
         "id": "layoff-tracker-caribou-layoffs-could-wipe-out-90-of-staff-biospacebiospace",
         "title": "Layoff Tracker: Caribou layoffs could wipe out 90% of staff - BioSpace",
         "score": 80
@@ -184,6 +191,11 @@
       {
         "id": "skydance-corp-signals-layoffs-as-paramount-warner-bros-discovery-merger-closes-people-matt",
         "title": "Skydance Corp signals layoffs as Paramount-Warner Bros. Discovery merger closes - People Matters - HR News",
+        "score": 80
+      },
+      {
+        "id": "fl-vio-bolsonaro-e-lula-as-propostas-dos-candidatos-presid-ncia-que-disputam-o-2-turno-bbc",
+        "title": "Flávio Bolsonaro e Lula: as propostas dos candidatos à Presidência que disputam o 2º turno - BBC",
         "score": 80
       },
       {
@@ -210,8 +222,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 0,
-    "withoutRadar": 10,
+    "withRadar": 2,
+    "withoutRadar": 8,
     "highPriorityOutsideTrends": 21
   }
 }

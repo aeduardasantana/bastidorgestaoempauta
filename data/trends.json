@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T14:55:08.023965+00:00",
+  "updatedAt": "2026-10-15T14:42:40.848727+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,29 +10,29 @@
       "error": null,
       "items": [
         {
-          "term": "br-376",
+          "term": "poder360",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
-        },
-        {
-          "term": "el salvador",
-          "source": "Google Trends",
-          "position": 2,
-          "movement": "NOVO",
           "relatedClusters": [
             {
-              "id": "costa-rica-inaugura-megapris-o-aos-moldes-de-el-salvador-sbt-newssbt-news",
-              "title": "Costa Rica inaugura megaprisão aos moldes de El Salvador - SBT News",
-              "score": 70
+              "id": "tst-julga-greve-da-caixa-leg-tima-e-barra-desconto-dos-dias-parados-poder360poder360",
+              "title": "TST julga greve da Caixa legítima e barra desconto dos dias parados - Poder360",
+              "score": 90
             }
           ],
           "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "russel brand",
+          "term": "reino unido",
+          "source": "Google Trends",
+          "position": 2,
+          "movement": "NOVO",
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
+        },
+        {
+          "term": "rafa camara",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -40,7 +40,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "meta ai",
+          "term": "julio iglesias",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -48,7 +48,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "jp chermont",
+          "term": "al faisaly x al kholood",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -56,7 +56,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "russell brand",
+          "term": "gta 6",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -64,29 +64,44 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "resumo novelas quem ama cuida",
+          "term": "debate lula e flavio",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
-        },
-        {
-          "term": "perdao dívida mei",
-          "source": "Google Trends",
-          "position": 8,
-          "movement": "NOVO",
           "relatedClusters": [
             {
-              "id": "cvc-renegocia-d-vida-de-r-370-mi-e-libera-caixa-para-investir-em-tecnologia-diz-cfo-bloomb",
-              "title": "CVC renegocia dívida de R$ 370 mi e libera caixa para investir em tecnologia, diz CFO - Bloomberg Línea Brasil",
+              "id": "sa-de-e-combate-pobreza-as-propostas-de-fl-vio-na-ntegra-sbt-newssbt-news",
+              "title": "Saúde e combate à pobreza: as propostas de Flávio na íntegra - SBT News",
+              "score": 0
+            },
+            {
+              "id": "economia-e-trabalho-veja-as-propostas-de-lula-na-ntegra-sbt-newssbt-news",
+              "title": "Economia e trabalho: veja as propostas de Lula na íntegra - SBT News",
+              "score": 0
+            },
+            {
+              "id": "fl-vio-x-lula-o-que-defendem-para-economia-e-trabalho-sbt-newssbt-news",
+              "title": "Flávio x Lula: o que defendem para economia e trabalho - SBT News",
+              "score": 0
+            },
+            {
+              "id": "financi-rios-iniciam-negocia-o-da-campanha-nacional-2026-com-debate-sobre-reivindica-es-pr",
+              "title": "Financiários iniciam negociação da Campanha Nacional 2026 com debate sobre reivindicações prioritárias - Contraf-CUT",
               "score": 0
             }
           ],
           "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "ayres rocha",
+          "term": "gbu-43/b massive ordnance air blast",
+          "source": "Google Trends",
+          "position": 8,
+          "movement": "NOVO",
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
+        },
+        {
+          "term": "fab",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -94,7 +109,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ac24horas",
+          "term": "thiago lacerda",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -111,7 +126,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 21,
+    "count": 22,
     "items": [
       {
         "id": "greve-de-trabalhadores-terceirizados-chega-ao-fim-ap-s-acordo-na-bacia-de-campos-portal-vi",
@@ -124,13 +139,13 @@
         "score": 90
       },
       {
-        "id": "greve-offshore-suspensa-ap-s-empresas-melhorarem-proposta-salarial-o-diao-dia",
-        "title": "Greve offshore é suspensa após empresas melhorarem proposta salarial - O Dia",
+        "id": "assembleia-geral-aprova-aumento-real-e-renova-o-de-direitos-para-mais-1-830-metal-rgicos-s",
+        "title": "Assembleia geral aprova aumento real e renovação de direitos para mais 1.830 metalúrgicos - Sindicato dos Metalúrgicos de São José dos Campos",
         "score": 90
       },
       {
-        "id": "tst-julga-greve-da-caixa-leg-tima-e-barra-desconto-dos-dias-parados-poder360poder360",
-        "title": "TST julga greve da Caixa legítima e barra desconto dos dias parados - Poder360",
+        "id": "greve-offshore-suspensa-ap-s-empresas-melhorarem-proposta-salarial-o-diao-dia",
+        "title": "Greve offshore é suspensa após empresas melhorarem proposta salarial - O Dia",
         "score": 90
       },
       {
@@ -174,8 +189,8 @@
         "score": 90
       },
       {
-        "id": "caixa-e-banc-rios-retomam-negocia-es-nesta-quarta-16-mas-greve-segue-sem-prazo-para-termin",
-        "title": "Caixa e bancários retomam negociações nesta quarta (16), mas greve segue sem prazo para terminar - Folha de S.Paulo",
+        "id": "fem-cut-sp-pressiona-grupos-patronais-sem-acordo-e-protocola-avisos-de-greve-smabcsmabc",
+        "title": "FEM-CUT/SP pressiona grupos patronais sem acordo e protocola avisos de greve - SMABC",
         "score": 90
       },
       {
@@ -194,8 +209,8 @@
         "score": 80
       },
       {
-        "id": "fl-vio-bolsonaro-e-lula-as-propostas-dos-candidatos-presid-ncia-que-disputam-o-2-turno-bbc",
-        "title": "Flávio Bolsonaro e Lula: as propostas dos candidatos à Presidência que disputam o 2º turno - BBC",
+        "id": "m-dia-enxerga-opera-o-de-m-a-como-acelerador-de-crescimento-e-valoriza-o-do-neg-cio-pequen",
+        "title": "Média enxerga operação de M&A como acelerador de crescimento e valorização do negócio - Pequenas Empresas & Grandes Negócios",
         "score": 80
       },
       {
@@ -206,6 +221,11 @@
       {
         "id": "empresa-prev-investir-r-72-milh-es-em-nova-f-brica-no-cear-di-rio-do-nordestedi-rio-do-nor",
         "title": "Empresa prevê investir R$ 72 milhões em nova fábrica no Ceará - Diário do Nordeste",
+        "score": 80
+      },
+      {
+        "id": "oracle-cuts-jobs-at-abilene-data-centre-tied-to-openai-s-stargate-project-people-matters-h",
+        "title": "Oracle cuts jobs at Abilene data centre tied to OpenAI's Stargate project - People Matters - HR News",
         "score": 80
       },
       {
@@ -224,6 +244,6 @@
     "trendItems": 10,
     "withRadar": 2,
     "withoutRadar": 8,
-    "highPriorityOutsideTrends": 21
+    "highPriorityOutsideTrends": 22
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T14:42:40.848727+00:00",
+  "updatedAt": "2026-10-16T14:35:27.746892+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,21 +10,15 @@
       "error": null,
       "items": [
         {
-          "term": "poder360",
+          "term": "s27 ultra",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "tst-julga-greve-da-caixa-leg-tima-e-barra-desconto-dos-dias-parados-poder360poder360",
-              "title": "TST julga greve da Caixa legítima e barra desconto dos dias parados - Poder360",
-              "score": 90
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "reino unido",
+          "term": "liquidação",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -32,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "rafa camara",
+          "term": "verita",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -40,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "julio iglesias",
+          "term": "rztr11",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -48,15 +42,41 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "al faisaly x al kholood",
+          "term": "previsão do tempo juiz de fora",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "chile-sem-aumento-salarial-trabalhadores-da-maior-mina-de-cobre-do-mundo-anunciam-greve-es",
+              "title": "Chile: sem aumento salarial, trabalhadores da maior mina de cobre do mundo anunciam greve - Estadão",
+              "score": 100
+            },
+            {
+              "id": "m-dia-enxerga-opera-o-de-m-a-como-acelerador-de-crescimento-e-valoriza-o-do-neg-cio-pequen",
+              "title": "Média enxerga operação de M&A como acelerador de crescimento e valorização do negócio - Pequenas Empresas & Grandes Negócios",
+              "score": 80
+            },
+            {
+              "id": "mais-voos-e-infraestrutura-para-aragua-na-dorinha-ouve-demandas-de-empres-rios-para-impuls",
+              "title": "Mais voos e infraestrutura para Araguaína: Dorinha ouve demandas de empresários para impulsionar a economia da região - Tribuna do Povo",
+              "score": 80
+            },
+            {
+              "id": "ia-muda-portas-de-entrada-no-mercado-de-trabalho-e-exige-novas-habilidades-dos-jovens-di-r",
+              "title": "IA muda portas de entrada no mercado de trabalho e exige novas habilidades dos jovens - Diário do Comércio",
+              "score": 40
+            },
+            {
+              "id": "gpa-vai-atr-s-das-heran-as-do-passado-e-de-fantasmas-de-mais-de-r-15-bilh-es-neofeedneofee",
+              "title": "GPA vai atrás das \"heranças do passado\" e de fantasmas de mais de R$ 15 bilhões - NeoFeed",
+              "score": 40
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "gta 6",
+          "term": "obmep 2026",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -64,36 +84,21 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "debate lula e flavio",
+          "term": "marco antonio villa foragido",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
           "relatedClusters": [
             {
-              "id": "sa-de-e-combate-pobreza-as-propostas-de-fl-vio-na-ntegra-sbt-newssbt-news",
-              "title": "Saúde e combate à pobreza: as propostas de Flávio na íntegra - SBT News",
-              "score": 0
-            },
-            {
-              "id": "economia-e-trabalho-veja-as-propostas-de-lula-na-ntegra-sbt-newssbt-news",
-              "title": "Economia e trabalho: veja as propostas de Lula na íntegra - SBT News",
-              "score": 0
-            },
-            {
-              "id": "fl-vio-x-lula-o-que-defendem-para-economia-e-trabalho-sbt-newssbt-news",
-              "title": "Flávio x Lula: o que defendem para economia e trabalho - SBT News",
-              "score": 0
-            },
-            {
-              "id": "financi-rios-iniciam-negocia-o-da-campanha-nacional-2026-com-debate-sobre-reivindica-es-pr",
-              "title": "Financiários iniciam negociação da Campanha Nacional 2026 com debate sobre reivindicações prioritárias - Contraf-CUT",
+              "id": "00191-000854-2026-33-presid-ncia-da-rep-blica-comiss-o-de-tica-p-blica-voto-consulente-rog",
+              "title": "00191.000854/2026-33 PRESIDÊNCIA DA REPÚBLICA Comissão de Ética Pública VOTO Consulente: ROGÉRIO ANTÔNIO LUCCA Cargo: Sec - www.gov.br",
               "score": 0
             }
           ],
           "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "gbu-43/b massive ordnance air blast",
+          "term": "iphone duo",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -101,7 +106,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "fab",
+          "term": "cachoeirinha",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -109,7 +114,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "thiago lacerda",
+          "term": "iga świątek",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -129,14 +134,19 @@
     "count": 22,
     "items": [
       {
+        "id": "chile-sem-aumento-salarial-trabalhadores-da-maior-mina-de-cobre-do-mundo-anunciam-greve-es",
+        "title": "Chile: sem aumento salarial, trabalhadores da maior mina de cobre do mundo anunciam greve - Estadão",
+        "score": 100
+      },
+      {
         "id": "greve-de-trabalhadores-terceirizados-chega-ao-fim-ap-s-acordo-na-bacia-de-campos-portal-vi",
         "title": "Greve de trabalhadores terceirizados chega ao fim após acordo na Bacia de Campos - Portal Viu",
         "score": 100
       },
       {
-        "id": "gigante-montadora-investe-r-16-bilh-es-e-cria-11-mil-vagas-de-empregos-a-tardea-tarde",
-        "title": "Gigante montadora investe R$ 16 bilhões e cria 11 mil vagas de empregos - A TARDE",
-        "score": 90
+        "id": "petrobras-acompanha-negocia-es-entre-empresas-contratadas-e-trabalhadores-em-greve-em-camp",
+        "title": "Petrobras acompanha negociações entre empresas contratadas e trabalhadores em greve em Campos Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+        "score": 100
       },
       {
         "id": "assembleia-geral-aprova-aumento-real-e-renova-o-de-direitos-para-mais-1-830-metal-rgicos-s",
@@ -184,14 +194,19 @@
         "score": 90
       },
       {
-        "id": "greve-no-setor-de-petr-leo-atinge-maca-e-bacia-de-campos-sindicato-cita-paralisa-o-por-tem",
-        "title": "Greve no setor de petróleo atinge Macaé e Bacia de Campos; sindicato cita paralisação por tempo indeterminado - G1",
-        "score": 90
-      },
-      {
         "id": "fem-cut-sp-pressiona-grupos-patronais-sem-acordo-e-protocola-avisos-de-greve-smabcsmabc",
         "title": "FEM-CUT/SP pressiona grupos patronais sem acordo e protocola avisos de greve - SMABC",
         "score": 90
+      },
+      {
+        "id": "fim-da-escala-6x1-o-que-deve-mudar-para-trabalhadores-e-empresas-neg-cios-di-rio-do-nordes",
+        "title": "Fim da escala 6x1: o que deve mudar para trabalhadores e empresas - Negócios - Diário do Nordeste",
+        "score": 80
+      },
+      {
+        "id": "fim-da-escala-6x1-entenda-a-mudan-a-na-jornada-e-os-pr-ximos-passos-para-a-regulamenta-o-g",
+        "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
+        "score": 80
       },
       {
         "id": "cristiano-ronaldo-em-novo-ramo-atleta-vai-construir-f-brica-de-r-112-milh-es-a-tardea-tard",
@@ -199,13 +214,13 @@
         "score": 80
       },
       {
-        "id": "layoff-tracker-caribou-layoffs-could-wipe-out-90-of-staff-biospacebiospace",
-        "title": "Layoff Tracker: Caribou layoffs could wipe out 90% of staff - BioSpace",
+        "id": "skydance-corp-signals-layoffs-as-paramount-warner-bros-discovery-merger-closes-people-matt",
+        "title": "Skydance Corp signals layoffs as Paramount-Warner Bros. Discovery merger closes - People Matters - HR News",
         "score": 80
       },
       {
-        "id": "skydance-corp-signals-layoffs-as-paramount-warner-bros-discovery-merger-closes-people-matt",
-        "title": "Skydance Corp signals layoffs as Paramount-Warner Bros. Discovery merger closes - People Matters - HR News",
+        "id": "a-saga-da-paramount-para-levantar-us-52-bilh-es-em-d-vida-para-a-fus-o-com-a-warner-bloomb",
+        "title": "A saga da Paramount para levantar US$ 52 bilhões em dívida para a fusão com a Warner - Bloomberg Línea Brasil",
         "score": 80
       },
       {
@@ -224,18 +239,8 @@
         "score": 80
       },
       {
-        "id": "oracle-cuts-jobs-at-abilene-data-centre-tied-to-openai-s-stargate-project-people-matters-h",
-        "title": "Oracle cuts jobs at Abilene data centre tied to OpenAI's Stargate project - People Matters - HR News",
-        "score": 80
-      },
-      {
         "id": "centen-rias-renovam-mix-e-opera-es-sem-abandonar-legado-valor-econ-micovalor-econ-mico",
         "title": "Centenárias renovam mix e operações sem abandonar legado - Valor Econômico",
-        "score": 80
-      },
-      {
-        "id": "para-virar-a-chave-mclaren-injeta-500-milh-es-e-vai-estrear-na-pista-dos-suvs-neofeedneofe",
-        "title": "Para virar a chave, McLaren injeta £ 500 milhões e vai estrear na pista dos SUVs - NeoFeed",
         "score": 80
       }
     ]

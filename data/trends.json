@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T14:35:27.746892+00:00",
+  "updatedAt": "2026-10-19T16:50:08.920064+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "s27 ultra",
+          "term": "sociedade anônima do futebol",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "liquidação",
+          "term": "trabzonspor x besiktas",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "verita",
+          "term": "menina atacada por onça",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "rztr11",
+          "term": "ri happy",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,63 +42,37 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "previsão do tempo juiz de fora",
+          "term": "criança",
           "source": "Google Trends",
           "position": 5,
-          "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "chile-sem-aumento-salarial-trabalhadores-da-maior-mina-de-cobre-do-mundo-anunciam-greve-es",
-              "title": "Chile: sem aumento salarial, trabalhadores da maior mina de cobre do mundo anunciam greve - Estadão",
-              "score": 100
-            },
-            {
-              "id": "m-dia-enxerga-opera-o-de-m-a-como-acelerador-de-crescimento-e-valoriza-o-do-neg-cio-pequen",
-              "title": "Média enxerga operação de M&A como acelerador de crescimento e valorização do negócio - Pequenas Empresas & Grandes Negócios",
-              "score": 80
-            },
-            {
-              "id": "mais-voos-e-infraestrutura-para-aragua-na-dorinha-ouve-demandas-de-empres-rios-para-impuls",
-              "title": "Mais voos e infraestrutura para Araguaína: Dorinha ouve demandas de empresários para impulsionar a economia da região - Tribuna do Povo",
-              "score": 80
-            },
-            {
-              "id": "ia-muda-portas-de-entrada-no-mercado-de-trabalho-e-exige-novas-habilidades-dos-jovens-di-r",
-              "title": "IA muda portas de entrada no mercado de trabalho e exige novas habilidades dos jovens - Diário do Comércio",
-              "score": 40
-            },
-            {
-              "id": "gpa-vai-atr-s-das-heran-as-do-passado-e-de-fantasmas-de-mais-de-r-15-bilh-es-neofeedneofee",
-              "title": "GPA vai atrás das \"heranças do passado\" e de fantasmas de mais de R$ 15 bilhões - NeoFeed",
-              "score": 40
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
-        },
-        {
-          "term": "obmep 2026",
-          "source": "Google Trends",
-          "position": 6,
           "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "marco antonio villa foragido",
+          "term": "estudante de medicina",
           "source": "Google Trends",
-          "position": 7,
+          "position": 6,
           "movement": "NOVO",
           "relatedClusters": [
             {
-              "id": "00191-000854-2026-33-presid-ncia-da-rep-blica-comiss-o-de-tica-p-blica-voto-consulente-rog",
-              "title": "00191.000854/2026-33 PRESIDÊNCIA DA REPÚBLICA Comissão de Ética Pública VOTO Consulente: ROGÉRIO ANTÔNIO LUCCA Cargo: Sec - www.gov.br",
+              "id": "mais-laborat-rios-menos-hospitais-bancos-elevam-aposta-em-medicina-diagn-stica-bloomberg-l",
+              "title": "Mais laboratórios, menos hospitais: bancos elevam aposta em medicina diagnóstica - Bloomberg Línea Brasil",
               "score": 0
             }
           ],
           "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "iphone duo",
+          "term": "a.c. monza x cagliari",
+          "source": "Google Trends",
+          "position": 7,
+          "movement": "NOVO",
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
+        },
+        {
+          "term": "kings league",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -106,15 +80,21 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "cachoeirinha",
+          "term": "aposentadoria especial",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "agint-no-recurso-especial-n-1904797-ba-2020-0293851-0-relator-ministro-marco-buzzi-agravan",
+              "title": "AgInt no RECURSO ESPECIAL Nº 1904797 - BA (2020/0293851-0) RELATOR : MINISTRO MARCO BUZZI AGRAVANTE : FRIGORIFICO MUQUEM DO SAO - Superior Tribunal de Justiça",
+              "score": 10
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "iga świątek",
+          "term": "getafe",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -131,36 +111,21 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 22,
+    "count": 21,
     "items": [
-      {
-        "id": "chile-sem-aumento-salarial-trabalhadores-da-maior-mina-de-cobre-do-mundo-anunciam-greve-es",
-        "title": "Chile: sem aumento salarial, trabalhadores da maior mina de cobre do mundo anunciam greve - Estadão",
-        "score": 100
-      },
-      {
-        "id": "greve-de-trabalhadores-terceirizados-chega-ao-fim-ap-s-acordo-na-bacia-de-campos-portal-vi",
-        "title": "Greve de trabalhadores terceirizados chega ao fim após acordo na Bacia de Campos - Portal Viu",
-        "score": 100
-      },
-      {
-        "id": "petrobras-acompanha-negocia-es-entre-empresas-contratadas-e-trabalhadores-em-greve-em-camp",
-        "title": "Petrobras acompanha negociações entre empresas contratadas e trabalhadores em greve em Campos Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-        "score": 100
-      },
       {
         "id": "assembleia-geral-aprova-aumento-real-e-renova-o-de-direitos-para-mais-1-830-metal-rgicos-s",
         "title": "Assembleia geral aprova aumento real e renovação de direitos para mais 1.830 metalúrgicos - Sindicato dos Metalúrgicos de São José dos Campos",
         "score": 90
       },
       {
-        "id": "greve-offshore-suspensa-ap-s-empresas-melhorarem-proposta-salarial-o-diao-dia",
-        "title": "Greve offshore é suspensa após empresas melhorarem proposta salarial - O Dia",
+        "id": "acordo-entre-sindicato-e-empresas-encerra-greve-de-terceirizados-do-petr-leo-g1g1",
+        "title": "Acordo entre sindicato e empresas encerra greve de terceirizados do petróleo - G1",
         "score": 90
       },
       {
-        "id": "india-gcc-layoffs-estimates-range-from-5-000-to-30-000-as-ai-changes-hiring-priorities-peo",
-        "title": "India GCC layoffs: Estimates range from 5,000 to 30,000 as AI changes hiring priorities - People Matters - HR News",
+        "id": "greve-offshore-suspensa-ap-s-empresas-melhorarem-proposta-salarial-o-diao-dia",
+        "title": "Greve offshore é suspensa após empresas melhorarem proposta salarial - O Dia",
         "score": 90
       },
       {
@@ -184,8 +149,18 @@
         "score": 90
       },
       {
-        "id": "caixa-decide-acionar-o-tst-contra-greve-nacional-dos-banc-rios-folha-de-s-paulofolha-de-s-",
-        "title": "Caixa decide acionar o TST contra greve nacional dos bancários - Folha de S.Paulo",
+        "id": "greve-na-caixa-mpt-recorre-ao-tst-contraf-cutcontraf-cut",
+        "title": "Greve na Caixa: MPT recorre ao TST - Contraf-CUT",
+        "score": 90
+      },
+      {
+        "id": "greve-na-bacia-de-campos-avan-a-e-chega-a-cerca-de-30-unidades-offshore-trt-tenta-acordo-n",
+        "title": "Greve na Bacia de Campos avança e chega a cerca de 30 unidades offshore; TRT tenta acordo nesta quarta - Clique Diário",
+        "score": 90
+      },
+      {
+        "id": "greve-de-terceirizados-do-setor-de-petr-leo-chega-ao-quinto-dia-em-maca-g1g1",
+        "title": "Greve de terceirizados do setor de petróleo chega ao quinto dia em Macaé - G1",
         "score": 90
       },
       {
@@ -194,8 +169,13 @@
         "score": 90
       },
       {
-        "id": "fem-cut-sp-pressiona-grupos-patronais-sem-acordo-e-protocola-avisos-de-greve-smabcsmabc",
-        "title": "FEM-CUT/SP pressiona grupos patronais sem acordo e protocola avisos de greve - SMABC",
+        "id": "caixa-maioria-dos-empregados-rejeita-proposta-e-greve-continua-contraf-cutcontraf-cut",
+        "title": "Caixa: Maioria dos empregados rejeita proposta e greve continua - Contraf-CUT",
+        "score": 90
+      },
+      {
+        "id": "audi-ncia-de-professores-em-greve-da-grande-bh-e-escolas-privadas-termina-sem-acordo-g1g1",
+        "title": "Audiência de professores em greve da Grande BH e escolas privadas termina sem acordo - G1",
         "score": 90
       },
       {
@@ -204,8 +184,8 @@
         "score": 80
       },
       {
-        "id": "fim-da-escala-6x1-entenda-a-mudan-a-na-jornada-e-os-pr-ximos-passos-para-a-regulamenta-o-g",
-        "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
+        "id": "layoff-tracker-gsk-plans-to-lay-off-1-2k-in-belgium-biospacebiospace",
+        "title": "Layoff Tracker: GSK plans to lay off 1.2K+ in Belgium - BioSpace",
         "score": 80
       },
       {
@@ -237,11 +217,6 @@
         "id": "empresa-prev-investir-r-72-milh-es-em-nova-f-brica-no-cear-di-rio-do-nordestedi-rio-do-nor",
         "title": "Empresa prevê investir R$ 72 milhões em nova fábrica no Ceará - Diário do Nordeste",
         "score": 80
-      },
-      {
-        "id": "centen-rias-renovam-mix-e-opera-es-sem-abandonar-legado-valor-econ-micovalor-econ-mico",
-        "title": "Centenárias renovam mix e operações sem abandonar legado - Valor Econômico",
-        "score": 80
       }
     ]
   },
@@ -249,6 +224,6 @@
     "trendItems": 10,
     "withRadar": 2,
     "withoutRadar": 8,
-    "highPriorityOutsideTrends": 22
+    "highPriorityOutsideTrends": 21
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T16:50:08.920064+00:00",
+  "updatedAt": "2026-10-20T14:44:17.850964+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "sociedade anônima do futebol",
+          "term": "recém-nascido",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "trabzonspor x besiktas",
+          "term": "bebê",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "menina atacada por onça",
+          "term": "tocantins",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ri happy",
+          "term": "eric dane",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,29 +42,40 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "criança",
+          "term": "cadu de lula",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
-        },
-        {
-          "term": "estudante de medicina",
-          "source": "Google Trends",
-          "position": 6,
-          "movement": "NOVO",
           "relatedClusters": [
             {
-              "id": "mais-laborat-rios-menos-hospitais-bancos-elevam-aposta-em-medicina-diagn-stica-bloomberg-l",
-              "title": "Mais laboratórios, menos hospitais: bancos elevam aposta em medicina diagnóstica - Bloomberg Línea Brasil",
+              "id": "as-lacunas-nos-planos-de-governo-de-fl-vio-bolsonaro-e-lula-para-seguran-a-p-blica-r7r7",
+              "title": "As lacunas nos planos de governo de Flávio Bolsonaro e Lula para segurança pública - R7",
+              "score": 0
+            },
+            {
+              "id": "economia-e-trabalho-veja-as-propostas-de-lula-na-ntegra-sbt-newssbt-news",
+              "title": "Economia e trabalho: veja as propostas de Lula na íntegra - SBT News",
               "score": 0
             }
           ],
           "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "a.c. monza x cagliari",
+          "term": "nubank house",
+          "source": "Google Trends",
+          "position": 6,
+          "movement": "NOVO",
+          "relatedClusters": [
+            {
+              "id": "nubank-diz-que-n-o-busca-compra-do-brit-nico-monzo-ap-s-relatos-de-neg-cio-de-at-10-bi-blo",
+              "title": "Nubank diz que não busca compra do britânico Monzo após relatos de negócio de até £ 10 bi - Bloomberg Línea Brasil",
+              "score": 0
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
+        },
+        {
+          "term": "wizc3",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -72,7 +83,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "kings league",
+          "term": "queimados",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -80,21 +91,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "aposentadoria especial",
+          "term": "aviação",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "agint-no-recurso-especial-n-1904797-ba-2020-0293851-0-relator-ministro-marco-buzzi-agravan",
-              "title": "AgInt no RECURSO ESPECIAL Nº 1904797 - BA (2020/0293851-0) RELATOR : MINISTRO MARCO BUZZI AGRAVANTE : FRIGORIFICO MUQUEM DO SAO - Superior Tribunal de Justiça",
-              "score": 10
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "getafe",
+          "term": "anthropic",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -111,8 +116,13 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 21,
+    "count": 19,
     "items": [
+      {
+        "id": "greve-na-bacia-de-campos-suspensa-enquanto-trabalhadores-e-empresas-negociam-nova-proposta",
+        "title": "Greve na Bacia de Campos é suspensa enquanto trabalhadores e empresas negociam nova proposta - Clique Diário",
+        "score": 100
+      },
       {
         "id": "assembleia-geral-aprova-aumento-real-e-renova-o-de-direitos-para-mais-1-830-metal-rgicos-s",
         "title": "Assembleia geral aprova aumento real e renovação de direitos para mais 1.830 metalúrgicos - Sindicato dos Metalúrgicos de São José dos Campos",
@@ -121,11 +131,6 @@
       {
         "id": "acordo-entre-sindicato-e-empresas-encerra-greve-de-terceirizados-do-petr-leo-g1g1",
         "title": "Acordo entre sindicato e empresas encerra greve de terceirizados do petróleo - G1",
-        "score": 90
-      },
-      {
-        "id": "greve-offshore-suspensa-ap-s-empresas-melhorarem-proposta-salarial-o-diao-dia",
-        "title": "Greve offshore é suspensa após empresas melhorarem proposta salarial - O Dia",
         "score": 90
       },
       {
@@ -154,13 +159,13 @@
         "score": 90
       },
       {
-        "id": "greve-na-bacia-de-campos-avan-a-e-chega-a-cerca-de-30-unidades-offshore-trt-tenta-acordo-n",
-        "title": "Greve na Bacia de Campos avança e chega a cerca de 30 unidades offshore; TRT tenta acordo nesta quarta - Clique Diário",
+        "id": "greve-de-terceirizados-do-setor-de-petr-leo-chega-ao-quinto-dia-em-maca-g1g1",
+        "title": "Greve de terceirizados do setor de petróleo chega ao quinto dia em Macaé - G1",
         "score": 90
       },
       {
-        "id": "greve-de-terceirizados-do-setor-de-petr-leo-chega-ao-quinto-dia-em-maca-g1g1",
-        "title": "Greve de terceirizados do setor de petróleo chega ao quinto dia em Macaé - G1",
+        "id": "greve-na-bacia-de-campos-avan-a-e-chega-a-cerca-de-30-unidades-offshore-trt-tenta-acordo-n",
+        "title": "Greve na Bacia de Campos avança e chega a cerca de 30 unidades offshore; TRT tenta acordo nesta quarta - Clique Diário",
         "score": 90
       },
       {
@@ -174,13 +179,8 @@
         "score": 90
       },
       {
-        "id": "audi-ncia-de-professores-em-greve-da-grande-bh-e-escolas-privadas-termina-sem-acordo-g1g1",
-        "title": "Audiência de professores em greve da Grande BH e escolas privadas termina sem acordo - G1",
-        "score": 90
-      },
-      {
-        "id": "fim-da-escala-6x1-o-que-deve-mudar-para-trabalhadores-e-empresas-neg-cios-di-rio-do-nordes",
-        "title": "Fim da escala 6x1: o que deve mudar para trabalhadores e empresas - Negócios - Diário do Nordeste",
+        "id": "f-brica-cultural-abre-inscri-es-gratuitas-para-jornada-que-fortalece-neg-cios-criativos-em",
+        "title": "Fábrica Cultural abre inscrições gratuitas para jornada que fortalece negócios criativos em sete municípios baianos - Jornal Correio",
         "score": 80
       },
       {
@@ -196,11 +196,6 @@
       {
         "id": "skydance-corp-signals-layoffs-as-paramount-warner-bros-discovery-merger-closes-people-matt",
         "title": "Skydance Corp signals layoffs as Paramount-Warner Bros. Discovery merger closes - People Matters - HR News",
-        "score": 80
-      },
-      {
-        "id": "a-saga-da-paramount-para-levantar-us-52-bilh-es-em-d-vida-para-a-fus-o-com-a-warner-bloomb",
-        "title": "A saga da Paramount para levantar US$ 52 bilhões em dívida para a fusão com a Warner - Bloomberg Línea Brasil",
         "score": 80
       },
       {
@@ -224,6 +219,6 @@
     "trendItems": 10,
     "withRadar": 2,
     "withoutRadar": 8,
-    "highPriorityOutsideTrends": 21
+    "highPriorityOutsideTrends": 19
   }
 }

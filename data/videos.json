@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "items": [
+    {
+      "id": "yt-NCpLyoe-KAI",
+      "videoId": "NCpLyoe-KAI",
+      "title": "Em toda avaliação de risco psicossocial precisa ser feito AEP?",
+      "source": "Sistema ESO",
+      "channelId": "UCGNmvHRVFKKAvTzhuZfreNg",
+      "date": "2026-10-20",
+      "url": "https://www.youtube.com/watch?v=NCpLyoe-KAI",
+      "agenda": "NR-1 / AEP",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Exige confirmação",
+      "sourceType": "Canal de análise ou origem a validar",
+      "score": 5,
+      "summary": "Vídeo localizado no YouTube. Confira o canal e assista ao conteúdo antes de usar qualquer declaração como fonte.",
+      "angle": "Verificar se o vídeo confirma uma declaração, apresenta análise ou apenas repercute o tema. Não usar título, corte ou comentário como prova do fato.",
+      "query": "NR-1 AEP riscos psicossociais empresas",
+      "duration": "54s",
+      "use": {
+        "label": "Usar apenas após assistir ao conteúdo e identificar o tipo de canal.",
+        "alert": "Não reproduzir vídeo, trecho, transcrição, imagem ou miniatura de terceiro sem autorização."
+      }
+    },
     {
       "id": "yt-8lBV14tE57M",
       "videoId": "8lBV14tE57M",

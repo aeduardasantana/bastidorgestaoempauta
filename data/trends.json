@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T14:54:05.079079+00:00",
+  "updatedAt": "2026-10-22T14:54:42.772291+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "paolla oliveira",
+          "term": "tjms",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "online",
+          "term": "juiz de fora",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "currently",
+          "term": "traição",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "marta kostyuk",
+          "term": "restituição",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "downdetector",
+          "term": "judi dench",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "glee",
+          "term": "br-282",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "wege3",
+          "term": "festival",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "nvidia",
+          "term": "renata sorrah",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "tj ba",
+          "term": "peter jackson",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,7 +82,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "devedor",
+          "term": "revelando",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -99,7 +99,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 18,
+    "count": 20,
     "items": [
       {
         "id": "greve-na-bacia-de-campos-suspensa-enquanto-trabalhadores-e-empresas-negociam-nova-proposta",
@@ -107,8 +107,8 @@
         "score": 100
       },
       {
-        "id": "projeto-de-r-60-milh-es-coloca-litoral-do-nordeste-no-mapa-da-minera-o-tesouro-mineral-esc",
-        "title": "Projeto de R$ 60 milhões coloca litoral do Nordeste no mapa da mineração: tesouro mineral esconde titânio, zircônio e ouro das terras raras, e pode gerar 450 empregos - Jornal Correio",
+        "id": "com-230-lojas-rede-de-cafeterias-muda-estrat-gia-de-expans-o-para-chegar-aos-r-115-milh-es",
+        "title": "Com 230 lojas, rede de cafeterias muda estratégia de expansão para chegar aos R$ 115 milhões - Exame",
         "score": 90
       },
       {
@@ -132,8 +132,18 @@
         "score": 90
       },
       {
+        "id": "rodovi-rios-do-df-confirmam-greve-geral-ap-s-assembleia-neste-domingo-cut-dfcut-df",
+        "title": "Rodoviários do DF confirmam greve geral após assembleia neste domingo - CUT-DF",
+        "score": 90
+      },
+      {
         "id": "sindicato-esclarece-empregados-da-caixa-sobre-diss-dio-no-tst-e-alerta-para-riscos-ao-act-",
         "title": "Sindicato esclarece empregados da Caixa sobre dissídio no TST e alerta para riscos ao ACT - Sindicato dos Bancários",
+        "score": 90
+      },
+      {
+        "id": "nr-1-riscos-psicossociais-justi-a-federal-acolhe-parcialmente-pedido-da-fecomerciosp-e-sus",
+        "title": "NR-1: Riscos Psicossociais: Justiça Federal acolhe parcialmente pedido da FecomercioSP e suspende multas e outras sanções administrativas – Sincomercio - Sindicato do Comércio Varejista de Jundiaí e Região",
         "score": 90
       },
       {
@@ -157,18 +167,13 @@
         "score": 90
       },
       {
-        "id": "greve-de-terceirizados-do-setor-de-petr-leo-chega-ao-quinto-dia-em-maca-g1g1",
-        "title": "Greve de terceirizados do setor de petróleo chega ao quinto dia em Macaé - G1",
-        "score": 90
+        "id": "mei-ter-d-vida-zerada-maior-faturamento-e-mais-funcion-rios-entenda-a-nova-lei-r7r7",
+        "title": "MEI terá dívida zerada, maior faturamento e mais funcionários; entenda a nova lei - R7",
+        "score": 80
       },
       {
-        "id": "microsoft-layoffs-extend-to-xbox-as-268-employees-lose-jobs-people-matters-hr-newspeople-m",
-        "title": "Microsoft layoffs extend to Xbox as 268 employees lose jobs - People Matters - HR News",
-        "score": 90
-      },
-      {
-        "id": "lula-promete-ampliar-p-de-meia-e-investir-em-empregos-no-ltimo-mandato-jornaldosbtnews-sbt",
-        "title": "Lula promete ampliar Pé-de-Meia e investir em empregos no último mandato | #JornaldoSBTNews - SBT News",
+        "id": "-until-today-it-s-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-",
+        "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters - HR News",
         "score": 80
       },
       {
@@ -182,13 +187,18 @@
         "score": 80
       },
       {
+        "id": "informa-planeja-fazer-cis-o-dos-neg-cios-acad-micos-e-comprar-a-clarion-valor-econ-micoval",
+        "title": "Informa planeja fazer cisão dos negócios acadêmicos e comprar a Clarion - Valor Econômico",
+        "score": 80
+      },
+      {
         "id": "m-dia-enxerga-opera-o-de-m-a-como-acelerador-de-crescimento-e-valoriza-o-do-neg-cio-pequen",
         "title": "Média enxerga operação de M&A como acelerador de crescimento e valorização do negócio - Pequenas Empresas & Grandes Negócios",
         "score": 80
       },
       {
-        "id": "empresa-prev-investir-r-72-milh-es-em-nova-f-brica-no-cear-di-rio-do-nordestedi-rio-do-nor",
-        "title": "Empresa prevê investir R$ 72 milhões em nova fábrica no Ceará - Diário do Nordeste",
+        "id": "diageo-contrata-cfo-da-wpp-em-reestrutura-o-para-virar-o-jogo-com-marcas-mais-baratas-bloo",
+        "title": "Diageo contrata CFO da WPP em reestruturação para virar o jogo com marcas mais baratas - Bloomberg Línea Brasil",
         "score": 80
       }
     ]
@@ -197,6 +207,6 @@
     "trendItems": 10,
     "withRadar": 0,
     "withoutRadar": 10,
-    "highPriorityOutsideTrends": 18
+    "highPriorityOutsideTrends": 20
   }
 }

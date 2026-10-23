@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T14:54:42.772291+00:00",
+  "updatedAt": "2026-10-23T14:42:37.101613+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "tjms",
+          "term": "embraer",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "juiz de fora",
+          "term": "justa causa",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "traição",
+          "term": "campeonato saudita",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "restituição",
+          "term": "inflação",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "judi dench",
+          "term": "estádio",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,15 +50,41 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "br-282",
+          "term": "campeonato brasileiro de futebol de 2026 - série a",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "compra-da-warner-pela-paramount-cria-bomba-de-r-80-bilh-es-que-amea-a-at-a-ia-valor-econ-m",
+              "title": "Compra da Warner pela Paramount cria bomba de R$ 80 bilhões que ameaça até a IA - Valor Econômico",
+              "score": 60
+            },
+            {
+              "id": "simples-nacional-pode-abrir-at-1-42-milh-o-de-vagas-e-acrescentar-r-24-6-bilh-es-arrecada-",
+              "title": "Simples Nacional pode abrir até 1,42 milhão de vagas e acrescentar R$ 24,6 bilhões à arrecadação - Jornal Correio",
+              "score": 40
+            },
+            {
+              "id": "como-a-mahogany-faz-da-loja-franqueada-uma-plataforma-de-vendas-pequenas-empresas-grandes-",
+              "title": "Como a Mahogany faz da loja franqueada uma plataforma de vendas - Pequenas Empresas & Grandes Negócios",
+              "score": 30
+            },
+            {
+              "id": "segunda-feira-19-de-outubro-de-2026-prefeitura-de-campinasprefeitura-de-campinas",
+              "title": "Segunda-feira, 19 de outubro de 2026 - Prefeitura de Campinas",
+              "score": 10
+            },
+            {
+              "id": "informativo-de-jurisprud-ncia-n-894-30-de-junho-de-2026-aresp-2-185-324-go-rel-ministro-lu",
+              "title": "Informativo de Jurisprudência n. 894 - 30 de junho de 2026. AREsp 2.185.324-GO, Rel. Ministro Luís Carlos Gambogi (Desembargador convocado do TJMG), Rel. para acórdão Ministro Raul Araújo, Quarta Turma, por maioria, julgado em 9/6/2026. Alienação - Superior Tribunal de Justiça",
+              "score": 10
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "festival",
+          "term": "ipespe",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +92,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "renata sorrah",
+          "term": "bbdc4",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +100,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "peter jackson",
+          "term": "assalto",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,7 +108,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "revelando",
+          "term": "tse exercito do lula",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -99,7 +125,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 20,
+    "count": 19,
     "items": [
       {
         "id": "greve-na-bacia-de-campos-suspensa-enquanto-trabalhadores-e-empresas-negociam-nova-proposta",
@@ -112,8 +138,13 @@
         "score": 90
       },
       {
-        "id": "ia-e-automa-o-mudam-perfil-das-profiss-es-e-exigem-requalifica-o-de-trabalhadores-portal-i",
-        "title": "IA e automação mudam perfil das profissões e exigem requalificação de trabalhadores - Portal IPNews",
+        "id": "projeto-de-r-60-milh-es-coloca-litoral-do-nordeste-no-mapa-da-minera-o-tesouro-mineral-esc",
+        "title": "Projeto de R$ 60 milhões coloca litoral do Nordeste no mapa da mineração: tesouro mineral esconde titânio, zircônio e ouro das terras raras, e pode gerar 450 empregos - Jornal Correio",
+        "score": 90
+      },
+      {
+        "id": "assembleia-nesta-sexta-11-vai-deliberar-sobre-proposta-final-da-caixa-para-renova-o-do-act",
+        "title": "Assembleia nesta sexta (11) vai deliberar sobre proposta final da Caixa para renovação do ACT - Sindicato dos Bancários",
         "score": 90
       },
       {
@@ -124,11 +155,6 @@
       {
         "id": "acordo-entre-sindicato-e-empresas-encerra-greve-de-terceirizados-do-petr-leo-g1g1",
         "title": "Acordo entre sindicato e empresas encerra greve de terceirizados do petróleo - G1",
-        "score": 90
-      },
-      {
-        "id": "greve-na-caixa-o-que-a-contraf-cut-disse-ao-tst-em-defesa-dos-empregados-contraf-cutcontra",
-        "title": "Greve na Caixa: o que a Contraf-CUT disse ao TST em defesa dos empregados - Contraf-CUT",
         "score": 90
       },
       {
@@ -157,13 +183,8 @@
         "score": 90
       },
       {
-        "id": "caixa-ajuizou-diss-dio-o-que-acontece-a-partir-de-agora-sindicato-dos-banc-riossindicato-d",
-        "title": "Caixa ajuizou dissídio: o que acontece a partir de agora? - Sindicato dos Bancários",
-        "score": 90
-      },
-      {
-        "id": "greve-na-caixa-mpt-recorre-ao-tst-contraf-cutcontraf-cut",
-        "title": "Greve na Caixa: MPT recorre ao TST - Contraf-CUT",
+        "id": "caixa-aciona-a-justi-a-para-encerrar-greve-dos-banc-rios-ap-s-14-dias-uol-economiauol-econ",
+        "title": "Caixa aciona a Justiça para encerrar greve dos bancários após 14 dias - UOL Economia",
         "score": 90
       },
       {
@@ -177,13 +198,13 @@
         "score": 80
       },
       {
-        "id": "f-brica-cultural-abre-inscri-es-gratuitas-para-jornada-que-fortalece-neg-cios-criativos-em",
-        "title": "Fábrica Cultural abre inscrições gratuitas para jornada que fortalece negócios criativos em sete municípios baianos - Jornal Correio",
+        "id": "ri-happy-entra-com-pedido-de-recupera-o-extrajudicial-para-renegociar-r-827-milh-es-em-d-v",
+        "title": "Ri Happy entra com pedido de recuperação extrajudicial para renegociar R$ 827 milhões em dívidas - Valor Econômico",
         "score": 80
       },
       {
-        "id": "exclusive-warner-bros-india-layoffs-to-hit-top-executives-first-after-paramount-takeover-s",
-        "title": "Exclusive: Warner Bros India layoffs to hit top executives first after Paramount takeover - Storyboard18",
+        "id": "f-brica-cultural-abre-inscri-es-gratuitas-para-jornada-que-fortalece-neg-cios-criativos-em",
+        "title": "Fábrica Cultural abre inscrições gratuitas para jornada que fortalece negócios criativos em sete municípios baianos - Jornal Correio",
         "score": 80
       },
       {
@@ -192,21 +213,21 @@
         "score": 80
       },
       {
-        "id": "m-dia-enxerga-opera-o-de-m-a-como-acelerador-de-crescimento-e-valoriza-o-do-neg-cio-pequen",
-        "title": "Média enxerga operação de M&A como acelerador de crescimento e valorização do negócio - Pequenas Empresas & Grandes Negócios",
+        "id": "skydance-corp-signals-layoffs-as-paramount-warner-bros-discovery-merger-closes-people-matt",
+        "title": "Skydance Corp signals layoffs as Paramount-Warner Bros. Discovery merger closes - People Matters - HR News",
         "score": 80
       },
       {
-        "id": "diageo-contrata-cfo-da-wpp-em-reestrutura-o-para-virar-o-jogo-com-marcas-mais-baratas-bloo",
-        "title": "Diageo contrata CFO da WPP em reestruturação para virar o jogo com marcas mais baratas - Bloomberg Línea Brasil",
+        "id": "fendi-appoints-camilla-maggiori-as-chief-people-officer-people-matters-hr-newspeople-matte",
+        "title": "Fendi appoints Camilla Maggiori as Chief People Officer - People Matters - HR News",
         "score": 80
       }
     ]
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 0,
-    "withoutRadar": 10,
-    "highPriorityOutsideTrends": 20
+    "withRadar": 1,
+    "withoutRadar": 9,
+    "highPriorityOutsideTrends": 19
   }
 }

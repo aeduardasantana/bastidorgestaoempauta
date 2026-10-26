@@ -17,6 +17,19 @@ document.querySelector("#editPauta").onclick=editPauta;document.querySelector("[
 const copyDetailButton=document.createElement("button");copyDetailButton.type="button";copyDetailButton.className="text-button copy-detail";copyDetailButton.textContent="⧉ Copiar análise";copyDetailButton.title="Copiar todas as informações para analisar no ChatGPT";document.querySelector("#detailDialog .dialog-head [data-close]").before(copyDetailButton);
 function currentDetailItem(){const title=document.querySelector("#detailTitle")?.textContent;return [...news,...videos].find(item=>item.title===title)}
 function copyFallback(text){const area=document.createElement("textarea");area.value=text;area.setAttribute("readonly","");area.style.position="fixed";area.style.opacity="0";document.body.append(area);area.select();document.execCommand("copy");area.remove()}
+const orientacaoTeoricaParaRoteiro = `FUNDAMENTAÇÃO E VOZ AUTORAL PARA O FUTURO ROTEIRO DO GESTÃO EM PAUTA
+O conteúdo seguirá para o Chat 3 (Estruturação/Espelho), que redigirá o roteiro somente com base nos fatos validados nesta curadoria. Preserve a separação entre as etapas.
+
+A voz do programa é de Eduarda Bispo, CEO do GEB e estrategista de negócios com foco em Desenvolvimento Humano Aplicado ao Trabalho. Ela interpreta acontecimentos para empresários, gestores e lideranças; não atua como leitora de manchetes, jornalista de bancada nem comentarista partidária. O roteiro deve soar como análise própria, em português brasileiro oral e natural, com clareza, precisão e utilidade gerencial.
+
+Na CURADORIA, identifique se alguma teoria ajuda a explicar a questão de gestão concreta presente na notícia. Considere autores clássicos e contemporâneos conforme pertinência, sem limitar nem forçar nomes: Chiavenato (administração e pessoas), Peter Drucker (gestão e decisões), Maslow e Herzberg (motivação, com limites dos modelos clássicos), Edgar Schein (cultura), Mintzberg (organizações e trabalho gerencial), Porter (estratégia), Kotter (mudança), Amy Edmondson (segurança psicológica), Deci e Ryan (autodeterminação), Maslach, Karasek, Siegrist e Bakker/Demerouti (trabalho, demandas e riscos psicossociais). Esses são exemplos de repertório, NÃO uma lista obrigatória nem evidência sobre o fato.
+
+Para cada conexão teórica realmente útil, entregue: (a) autor e conceito; (b) obra, estudo ou norma identificável e verificável, sem inventar referências, citações, páginas ou DOI; (c) qual fato validado ou pergunta gerencial o conceito ilumina; (d) limites da aplicação, distinguindo modelo histórico, interpretação e evidência empírica. Se não houver conexão sólida, indique "nenhuma referência teórica necessária".
+
+No PACOTE para o Chat 3, inclua apenas as referências validadas e sugestões breves de aplicação, para que a teoria apareça naturalmente quando enriquecer a fala. Não cite autores apenas para ornamentar. Não atribua burnout, ansiedade, insegurança psicológica, assédio ou riscos da NR-1 a um caso específico sem evidência; se pertinente, formule perguntas em vez de afirmações.
+
+A sequência de análise a considerar, quando couber, é: fato verificável → decisão empresarial → organização do trabalho → implicações para pessoas → responsabilidade da liderança. Nem toda notícia permitirá todas as conexões. Evite promessas de acompanhamento futuro e conclusões jurídicas ou clínicas não sustentadas.`;
+
 async function copyDetailForChatGPT(){const item=currentDetailItem(),content=document.querySelector("#detailContent")?.innerText.trim()||"",text=`GESTÃO EM PAUTA - SOLICITAÇÃO DE ANÁLISE EDITORIAL
 
 NOTÍCIA LOCALIZADA
@@ -50,7 +63,7 @@ Acesse a publicação original e leia o corpo da matéria. O título, o score, o
 14. Informe restrições de reprodução e diferencie propriedade da informação de propriedade do texto, imagem, vídeo, tabela ou infográfico.
 15. Se o corpo da fonte não estiver acessível, declare essa limitação e não complete lacunas.
 
-IMPORTANTE: não escreva o roteiro, não monte o espelho e não faça a escalada. Essas tarefas pertencem à etapa seguinte do fluxo editorial.`;try{await navigator.clipboard.writeText(text)}catch{copyFallback(text)}copyDetailButton.textContent="✓ Copiado";setTimeout(()=>copyDetailButton.textContent="⧉ Copiar análise",1800)}
+${orientacaoTeoricaParaRoteiro}\n\nIMPORTANTE: não escreva o roteiro, não monte o espelho e não faça a escalada. Essas tarefas pertencem à etapa seguinte do fluxo editorial.`;try{await navigator.clipboard.writeText(text)}catch{copyFallback(text)}copyDetailButton.textContent="✓ Copiado";setTimeout(()=>copyDetailButton.textContent="⧉ Copiar análise",1800)}
 copyDetailButton.onclick=copyDetailForChatGPT;
 
 // A curadoria por API está desativada. Coleta, filtros e classificação são gratuitos.
@@ -137,7 +150,7 @@ O Bastidor realizou apenas descoberta e triagem preliminar por títulos, fontes 
 15. Informe restrições de reprodução: a informação pode ser noticiada com redação própria; texto, fotografia, vídeo, tabela, arte ou infográfico de terceiros não devem ser simplesmente reproduzidos.
 16. Ao final, produza uma síntese chamada “PACOTE DE CURADORIA PARA O CHAT DE ESTRUTURAÇÃO”, contendo somente acontecimentos validados, importância de cada um, fatos essenciais, conexões identificadas, possíveis análises, conteúdos em acompanhamento, possíveis séries e lacunas ainda existentes.
 
-NÃO monte escalada, espelho, ordem dos blocos, roteiro ou Mapa Mental. Essas decisões pertencem ao Chat 3.`}
+${orientacaoTeoricaParaRoteiro}\n\nNÃO monte escalada, espelho, ordem dos blocos, roteiro ou Mapa Mental. Essas decisões pertencem ao Chat 3.`}
 function updateCopyResultsButton(){const count=filter().length;copyResultsButton.disabled=!count;copyResultsButton.textContent=count?`⧉ Copiar ${count} resultado${count===1?"":"s"}`:"⧉ Sem resultados"}
 async function copyFilteredResults(){const text=filteredResultsText();try{await navigator.clipboard.writeText(text)}catch{copyFallback(text)}copyResultsButton.textContent="✓ Resultados copiados";setTimeout(updateCopyResultsButton,1800)}
 copyResultsButton.onclick=copyFilteredResults;const copyResultsObserver=new MutationObserver(updateCopyResultsButton);copyResultsObserver.observe(document.querySelector("#newsGrid"),{childList:true});updateCopyResultsButton();

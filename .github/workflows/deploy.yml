@@ -5,14 +5,29 @@ on:
     branches:
       - main
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Atualizar Radar Diário"
+    types:
+      - completed
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-bastidor-gp
+  cancel-in-progress: false
 
 jobs:
   deploy:
     name: Deploy
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: FTP Deploy Locaweb
         uses: locaweb/ftp-deploy@1.0.0

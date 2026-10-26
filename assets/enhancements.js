@@ -171,3 +171,109 @@ loadTrendStrip();
 
 
 ;
+
+
+/* Comandos padrão independentes para o fluxo de produção do Gestão em Pauta.
+   São textos estáticos; não modificam a triagem, a curadoria ou o roteiro. */
+(function gpProductionCommands() {
+  const commands = [
+  {
+    "k": "roteiro",
+    "n": "01",
+    "title": "Estruturação editorial e roteiro integral",
+    "desc": "Use no Chat de Estruturação após enviar o pacote de curadoria validado.",
+    "text": "**EXECUTE A ESTRUTURAÇÃO EDITORIAL E O ROTEIRO INTEGRAL DO GESTÃO EM PAUTA.**\n\nUtilize exclusivamente o pacote de curadoria validado nesta conversa.\n\n1. Defina a tese da edição e hierarquize os acontecimentos.\n2. Construa o espelho com abertura, escalada, blocos, matérias, transições, fechamento e estimativa de duração.\n3. Escreva o roteiro integral de gravação, do primeiro cumprimento ao encerramento, em português brasileiro oral, natural e profissional.\n4. Posicione Eduarda Bispo como CEO do GEB e estrategista de negócios com foco em Desenvolvimento Humano Aplicado ao Trabalho. A autoridade deve aparecer na análise, sem autodeclarações repetitivas.\n5. Priorize o significado empresarial dos acontecimentos: decisões, estratégia, processos, operação, pessoas, liderança e capacidade organizacional.\n6. Não transforme o programa em leitura de notícias, comentário partidário, aula acadêmica ou exposição das limitações da curadoria.\n7. Incorpore cautelas factuais naturalmente, sem gastar tempo explicando o que não foi apurado. Registre as restrições detalhadas nos alertas de gravação.\n8. Utilize referências teóricas verificadas na curadoria somente quando acrescentarem valor à análise, explicando os conceitos de maneira acessível.\n9. Utilize apenas “GEB” na apresentação.\n10. Não assuma compromissos de acompanhamento futuro. Quando pertinente, oriente o telespectador sobre o que vale acompanhar.\n11. Não force uma pauta central, conexão temática, NR-1 ou duração fixa. Use aproximadamente 15 a 25 minutos como referência, conforme a densidade dos acontecimentos.\n12. Ao final, apresente os alertas de gravação, as fontes correspondentes e as informações que precisam aparecer na tela.\n\n**Entregue o espelho e o roteiro completo, pronto para minha revisão e gravação. Não produza ainda o Mapa Mental Compass Rose.**"
+  },
+  {
+    "k": "mapa",
+    "n": "02",
+    "title": "Mapa Mental Compass Rose",
+    "desc": "Use somente após revisar e aprovar a versão final do roteiro no mesmo chat.",
+    "text": "**EXECUTE O MAPA MENTAL COMPASS ROSE DO ROTEIRO APROVADO.**\n\nUtilize exclusivamente a versão final do roteiro do Gestão em Pauta nesta conversa.\n\n1. Extraia somente os tópicos editoriais já definidos no roteiro.\n2. Organize os tópicos na ordem exata da apresentação.\n3. Cada tópico será apresentado individualmente na tela.\n4. Utilize títulos curtos, objetivos e conceituais.\n5. Não transforme frases, explicações, dados, argumentos ou perguntas do roteiro em subtópicos.\n6. Não introduza novos assuntos nem altere a estrutura aprovada.\n7. Não repita o roteiro nem escreva instruções de apresentação dentro do mapa.\n8. Preserve apenas a hierarquia necessária para organizar os blocos e seus tópicos.\n9. Entregue todo o mapa em uma única caixa de código de texto simples, pronta para copiar e colar.\n\n**Formato obrigatório:**\n\n- Primeira linha: título da edição, sem traço.\n- Primeiro nível: um espaço antes do traço (` -`).\n- Segundo nível: dois espaços antes do traço (`  -`).\n- Níveis adicionais somente quando indispensáveis.\n- Não utilizar marcadores Markdown, numeração automática ou símbolos decorativos.\n\n**O resultado deve ser um mapa de navegação por tópicos, não um resumo do roteiro.**"
+  }
+];
+  const dashboard = document.querySelector(".dashboard");
+  if (!dashboard || document.querySelector("#gpProductionCommands")) return;
+
+  const section = document.createElement("section");
+  section.id = "gpProductionCommands";
+  section.className = "prompt-workflow-section";
+  section.setAttribute("aria-labelledby", "gpPromptHeading");
+  section.innerHTML = '<div class="prompt-workflow-heading"><div><span class="eyebrow">FLUXO DE PRODUÇÃO</span><h3 id="gpPromptHeading">Comandos padrão para o ChatGPT</h3><p>Copie o comando de cada etapa e cole na conversa correspondente. Os comandos não enviam notícias automaticamente.</p></div></div>';
+  const cards = document.createElement("div");
+  cards.className = "prompt-workflow-grid";
+  section.append(cards);
+
+  commands.forEach(command => {
+    const card = document.createElement("article");
+    card.className = "prompt-workflow-card";
+    const heading = document.createElement("div");
+    heading.className = "prompt-workflow-card-top";
+    const meta = document.createElement("div");
+    const stage = document.createElement("span");
+    stage.className = "prompt-workflow-stage";
+    stage.textContent = "ETAPA " + command.n;
+    const title = document.createElement("h4");
+    title.textContent = command.title;
+    const desc = document.createElement("p");
+    desc.textContent = command.desc;
+    meta.append(stage, title, desc);
+    heading.append(meta);
+
+    const field = document.createElement("textarea");
+    field.className = "prompt-workflow-field";
+    field.id = "gpPrompt-" + command.k;
+    field.readOnly = true;
+    field.rows = 7;
+    field.value = command.text;
+    field.setAttribute("aria-label", "Comando completo: " + command.title);
+    field.spellcheck = false;
+
+    const copy = document.createElement("button");
+    copy.className = "prompt-workflow-copy";
+    copy.type = "button";
+    copy.textContent = "Copiar comando";
+    copy.setAttribute("aria-label", "Copiar comando: " + command.title);
+    copy.addEventListener("click", async () => {
+      let copied = false;
+      try {
+        if (!navigator.clipboard?.writeText) throw new Error("Clipboard API indisponível");
+        await navigator.clipboard.writeText(command.text);
+        copied = true;
+      } catch (error) {
+        field.focus();
+        field.select();
+        try { copied = !!document.execCommand("copy"); } catch (ignored) { copied = false; }
+      }
+      if (copied) {
+        copy.textContent = "✓ Copiado";
+        window.setTimeout(() => { copy.textContent = "Copiar comando"; }, 2000);
+      } else {
+        copy.textContent = "Selecione e use Ctrl+C";
+        field.focus();
+        field.select();
+      }
+    });
+    card.append(heading, field, copy);
+    cards.append(card);
+  });
+  dashboard.before(section);
+  const style = document.createElement("style");
+  style.textContent = `
+  .prompt-workflow-section{max-width:1240px;margin:26px auto 0;padding:0 max(5vw,28px)}
+  .prompt-workflow-heading{margin-bottom:16px}
+  .prompt-workflow-heading h3{font-size:25px;margin-top:5px}
+  .prompt-workflow-heading p{font-size:12px;color:#52606c;line-height:1.55;margin-top:6px}
+  .prompt-workflow-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+  .prompt-workflow-card{background:var(--white);border:1px solid var(--line);border-top:3px solid var(--gold);padding:18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+  .prompt-workflow-stage{font-size:10px;color:#936326;letter-spacing:.12em;font-weight:700}
+  .prompt-workflow-card h4{font-size:19px;margin-top:5px}
+  .prompt-workflow-card p{font-size:12px;color:#52606c;line-height:1.45;margin-top:6px;min-height:35px}
+  .prompt-workflow-field{width:100%;height:152px;min-height:110px;resize:vertical;border:1px solid var(--line);padding:11px 12px;background:#f7f5f0;color:var(--ink);font:12px/1.55 ui-monospace,SFMono-Regular,Consolas,monospace}
+  .prompt-workflow-field:focus-visible,.prompt-workflow-copy:focus-visible{outline:2px solid #80561f;outline-offset:2px}
+  .prompt-workflow-copy{align-self:flex-start;background:var(--navy);border:1px solid var(--navy);border-radius:3px;color:white;font:700 12px "DM Sans",sans-serif;padding:10px 14px;cursor:pointer}
+  .prompt-workflow-copy:hover{background:#213b55}
+  @media(max-width:760px){.prompt-workflow-grid{grid-template-columns:1fr}.prompt-workflow-card p{min-height:0}}
+  `;
+  document.head.append(style);
+})();

@@ -87,20 +87,34 @@ def is_article(item):
  return True
 
 def feed(q,n=12,locale="br"):
- FEED_STATS["queries"]+=1
+ # Primeiro descobre publicações recentes; consulta histórica apenas complementa.
+ # Mantém a mesma triagem editorial, sem limitar artificialmente a cobertura a 24 h.
  suffix="&hl=en-US&gl=US&ceid=US:en" if locale=="us" else "&hl=pt-BR&gl=BR&ceid=BR:pt-419"
- u="https://news.google.com/rss/search?q="+quote(q+" when:30d")+suffix
- try: r=ET.fromstring(urlopen(Request(u,headers=HEADERS),timeout=30).read())
- except Exception as e:
-  print("falha",e); return []
- items=[{"title":clean(i.findtext("title")),"source":clean(i.findtext("source")) or "Google Notícias","date":d(i.findtext("pubDate")or""),"url":i.findtext("link")} for i in r.findall("./channel/item")[:n] if i.findtext("title") and i.findtext("link")]
- FEED_STATS["retrieved"]+=len(items)
- article_items=[item for item in items if is_article(item)]
- FEED_STATS["rejectedNonArticle"]+=len(items)-len(article_items)
- valid=[item for item in article_items if within_window(item["date"],30)]
- FEED_STATS["rejectedByDate"]+=len(article_items)-len(valid)
- FEED_STATS["accepted"]+=len(valid)
- return valid
+ results=[]
+ seen=set()
+ for window,limit in ((1,n),(30,n)):
+  if window==30 and len(results)>=n: break
+  FEED_STATS["queries"]+=1
+  u="https://news.google.com/rss/search?q="+quote(q+f" when:{window}d")+suffix
+  try:
+   root=ET.fromstring(urlopen(Request(u,headers=HEADERS),timeout=30).read())
+  except Exception as e:
+   print("falha",window,q[:60],e)
+   continue
+  raw=[{"title":clean(i.findtext("title")),"source":clean(i.findtext("source")) or "Google Notícias","date":d(i.findtext("pubDate")or""),"url":i.findtext("link")} for i in root.findall("./channel/item")[:limit] if i.findtext("title") and i.findtext("link")]
+  FEED_STATS["retrieved"]+=len(raw)
+  valid_articles=[item for item in raw if is_article(item)]
+  FEED_STATS["rejectedNonArticle"]+=len(raw)-len(valid_articles)
+  valid=[item for item in valid_articles if within_window(item["date"],window)]
+  FEED_STATS["rejectedByDate"]+=len(valid_articles)-len(valid)
+  for item in valid:
+   key=(item["title"].casefold(),item["source"].casefold())
+   if key not in seen:
+    results.append(item)
+    seen.add(key)
+   if len(results)>=n: break
+ FEED_STATS["accepted"]+=len(results)
+ return results
 
 def origin(t,locale):
  c=feed('"'+t+'"',5,locale)

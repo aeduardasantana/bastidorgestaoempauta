@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T12:20:37.391016+00:00",
+  "updatedAt": "2026-10-27T12:22:33.341840+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -13,7 +13,7 @@
           "term": "yuri alberto",
           "source": "Google Trends",
           "position": 1,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -21,7 +21,7 @@
           "term": "eleições israel",
           "source": "Google Trends",
           "position": 2,
-          "movement": "↑",
+          "movement": "→",
           "relatedClusters": [
             {
               "id": "elei-es-2026-tudo-que-voc-precisa-saber-antes-de-votar-sbt-newssbt-news",
@@ -35,7 +35,7 @@
           "term": "scott eastwood",
           "source": "Google Trends",
           "position": 3,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -43,7 +43,7 @@
           "term": "fatima gavioli",
           "source": "Google Trends",
           "position": 4,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -51,7 +51,7 @@
           "term": "feriados novembro",
           "source": "Google Trends",
           "position": 5,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -59,7 +59,7 @@
           "term": "halloween",
           "source": "Google Trends",
           "position": 6,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -67,7 +67,7 @@
           "term": "show bts",
           "source": "Google Trends",
           "position": 7,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -75,7 +75,7 @@
           "term": "pokemon unite",
           "source": "Google Trends",
           "position": 8,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -83,7 +83,7 @@
           "term": "boletim",
           "source": "Google Trends",
           "position": 9,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -91,7 +91,7 @@
           "term": "taxa das blusinhas",
           "source": "Google Trends",
           "position": 10,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         }
@@ -105,7 +105,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 15,
+    "count": 16,
     "items": [
       {
         "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
@@ -148,8 +148,13 @@
         "score": 90
       },
       {
-        "id": "tst-julga-greve-da-caixa-leg-tima-e-barra-desconto-dos-dias-parados-poder360poder360",
-        "title": "TST julga greve da Caixa legítima e barra desconto dos dias parados - Poder360",
+        "id": "greve-na-caixa-o-que-a-contraf-cut-disse-ao-tst-em-defesa-dos-empregados-sindicarionetsind",
+        "title": "Greve na Caixa: o que a Contraf-CUT disse ao TST em defesa dos empregados - SindicarioNET",
+        "score": 90
+      },
+      {
+        "id": "rodovi-rios-fecham-acordo-com-secretaria-e-suspendem-greve-gps-bras-liagps-bras-lia",
+        "title": "Rodoviários fecham acordo com Secretaria e suspendem greve - GPS Brasília",
         "score": 90
       },
       {
@@ -188,6 +193,6 @@
     "trendItems": 10,
     "withRadar": 1,
     "withoutRadar": 9,
-    "highPriorityOutsideTrends": 15
+    "highPriorityOutsideTrends": 16
   }
 }

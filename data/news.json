@@ -562,7 +562,7 @@
       "clusterReason": "item principal do cluster"
     },
     {
-      "id": "tst-julga-greve-da-caixa-leg-tima-e-barra-desconto-dos-dias-parados-poder360poder360",
+      "id": "greve-na-caixa-o-que-a-contraf-cut-disse-ao-tst-em-defesa-dos-empregados-sindicarionetsind",
       "agenda": "Trabalho e representação",
       "impact": "Pessoas e trabalho",
       "scope": "Nacional",
@@ -570,10 +570,76 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 90,
-      "title": "TST julga greve da Caixa legítima e barra desconto dos dias parados - Poder360",
-      "source": "Poder360",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTlpQN1MyWnF6VHFBMnhrNFk4NDBwdFA4czNJR1hsRndMT29tcHlHYlRlQTI0YnAtSmlkS1Y2UU9qeEVqQmN1bkJTcUlNYW4tR2VkQnRUYmZObS1FZk1pZHhnaTNvRTNhRmRVUk56dTJ2cGxhOGtJUHozLVpfeENiMVVhNk1lMzZUR0M1QVlNb2FBRU9tSXo0bUZqV2F3SW02NHJiZ01ieUxSemV1ZDZB?oc=5",
+      "title": "Greve na Caixa: o que a Contraf-CUT disse ao TST em defesa dos empregados - SindicarioNET",
+      "source": "SindicarioNET",
+      "date": "2026-09-28",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOalo1b2tpVjE3YkZmQkFHX3FTRmd2WHo5TGg3TDlFNE9wVlZ3RGwzWHE2ekdaLTJJTDJJTVJtd3lNdTFQMVMzcXp6Y1dveWduWmRXX0ZiVlY0VGc3S0huVkxVZnRhNjFTMFN2Tmt0MDJuZ0U0a1c4SjBCTlBVMGxES2NjaThfMjNRZ1E0THZOZnU5R3RLSXdjWWxEeGxIaWRKZFFNVGxLZEtXYkhlNE9KUjE1bTFJSU0wUi1qZzZPY0dNQQ?oc=5",
+      "summary": "Candidata localizada. Cenário preliminar: Relações e força de trabalho. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
+      "angle": "Investigar emprego, jornada, negociação, distribuição de trabalho e continuidade operacional.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Relações e força de trabalho",
+        "economicTrigger": "Pessoas e operação",
+        "organizationalHypothesis": "Investigar emprego, jornada, negociação, distribuição de trabalho e continuidade operacional.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "decisão empresarial"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": false,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "workforce": [
+            "empregados",
+            "greve"
+          ]
+        },
+        "businessContext": false
+      },
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
+        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
+        "search": "convenção coletiva empresas; sindicato negociação empresas",
+        "sensation": "Segurança e pertencimento"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item principal do cluster"
+    },
+    {
+      "id": "rodovi-rios-fecham-acordo-com-secretaria-e-suspendem-greve-gps-bras-liagps-bras-lia",
+      "agenda": "Trabalho e representação",
+      "impact": "Pessoas e trabalho",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 90,
+      "title": "Rodoviários fecham acordo com Secretaria e suspendem greve - GPS Brasília",
+      "source": "GPS Brasília",
+      "date": "2026-09-28",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4bVRKeHJ2dHJ3R2szSndkQTVxd2VSdS1ZNVRsdk1nb1lwX2VuRjM0TzlVcDNEOUZiLW5zWDNEcmRqekhVR2o2YVZaVl9zc2JXd056aW0zYmRuWWlCa18zUDVQYTIzLXpEUjJjQ0dxM19qOEZKcHpwMExDNA?oc=5",
       "summary": "Candidata localizada. Cenário preliminar: Relações e força de trabalho. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
       "angle": "Investigar emprego, jornada, negociação, distribuição de trabalho e continuidade operacional.",
       "editorialPotential": {
@@ -622,17 +688,9 @@
         "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       },
-      "relatedSources": [
-        {
-          "title": "Greve na Caixa: o que a Contraf-CUT disse ao TST em defesa dos empregados - SindicarioNET",
-          "source": "SindicarioNET",
-          "date": "2026-09-28",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOalo1b2tpVjE3YkZmQkFHX3FTRmd2WHo5TGg3TDlFNE9wVlZ3RGwzWHE2ekdaLTJJTDJJTVJtd3lNdTFQMVMzcXp6Y1dveWduWmRXX0ZiVlY0VGc3S0huVkxVZnRhNjFTMFN2Tmt0MDJuZ0U0a1c4SjBCTlBVMGxES2NjaThfMjNRZ1E0THZOZnU5R3RLSXdjWWxEeGxIaWRKZFFNVGxLZEtXYkhlNE9KUjE1bTFJSU0wUi1qZzZPY0dNQQ?oc=5",
-          "score": 90
-        }
-      ],
-      "clusterSize": 2,
-      "clusterReason": "mesmo fato provável por similaridade temática, entidades e proximidade temporal"
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item principal do cluster"
     },
     {
       "id": "-until-today-it-s-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-",
@@ -2654,6 +2712,72 @@
       "clusterReason": "item principal do cluster"
     },
     {
+      "id": "bilion-rio-do-setor-de-armas-investe-us-434-mi-na-ind-stria-espacial-de-olho-em-defesa-blo",
+      "agenda": "Veículos BR — NeoFeed e Bloomberg Línea",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 40,
+      "title": "Bilionário do setor de armas investe US$ 434 mi na indústria espacial de olho em defesa - Bloomberg Línea Brasil",
+      "source": "Bloomberg Línea Brasil",
+      "date": "2026-10-15",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMDJjcFk1LTZDYklXRXlvUm50Yk9ZaXFsdFk2dzIwb1pBUm11bWRRLTVqVFpaNEVhWFFJa3JCX0tEZ0RfYlJCNlo2SzZuZDJ3NlVqVHp1X28yaVg5ZG1Jbnl0VXpud0pUYU9nTi1XWjdtUzA2eEJ6aGxoZmk3SDdjeXo0UEVTbWNlUXV4MURKcnVzNnpybTRZb2tuTmNEenRGUkZXdWJERHZLMjF6RVQ2SzFFR294bEVI0gHMAUFVX3lxTFBnR3R3bTdoZjVOcEdYQjRoR1FzbmlnWVRjQnR1WnJucl8wSUdiQ3lhS3V5ZG0yVXNRUEV6VDBrZHdac3Q2eG5rQUc4ZXRHN25XakVYZTg5cm1zd25Rb2ZqSkFPb2dlanFEek4zM3VvLThTYlFYZFZ6V1Bld3NLcURVa3hpWl9fdEltTFJXaE1UZGd3S2VpRXk5VlFOZUV1NjdoSUdpeGllQjMzd0JMelZJTGw1ODFuaUx3Ri03Nkt3S3NfaUYySjFHYlFBUA?oc=5",
+      "summary": "Candidata localizada. Cenário preliminar: Investimento ou movimentação de capital. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
+      "angle": "Confirmar quem investe, finalidade, escala e consequência empresarial concreta.",
+      "editorialPotential": {
+        "score": 4,
+        "triagePriority": "Prioridade média",
+        "event": "Investimento ou movimentação de capital",
+        "economicTrigger": "Capital e estratégia",
+        "organizationalHypothesis": "Confirmar quem investe, finalidade, escala e consequência empresarial concreta.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "mudança organizacional",
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": false,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            "investe"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "Lideranças, RH, Business Partners e donos de empresas.",
+        "interest": "Transformar um fato em decisão sobre pessoas, cultura e gestão.",
+        "search": "liderança nas empresas; gestão de pessoas; cultura organizacional",
+        "sensation": "Pertencimento e segurança"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item principal do cluster"
+    },
+    {
       "id": "gpa-vai-atr-s-das-heran-as-do-passado-e-de-fantasmas-de-mais-de-r-15-bilh-es-neofeedneofee",
       "agenda": "Veículos BR — NeoFeed e Bloomberg Línea",
       "impact": "Operação e estratégia",
@@ -2833,6 +2957,73 @@
         "semanticFamilies": {
           "investment": [
             "bilhoes"
+          ]
+        },
+        "businessContext": false
+      },
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
+        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
+        "search": "convenção coletiva empresas; sindicato negociação empresas",
+        "sensation": "Segurança e pertencimento"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item principal do cluster"
+    },
+    {
+      "id": "financi-rios-cobram-avan-os-em-sa-de-condi-es-de-trabalho-e-combate-ao-ass-dio-feebpr-org-",
+      "agenda": "Trabalho e representação",
+      "impact": "Pessoas e trabalho",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 40,
+      "title": "Financiários cobram avanços em saúde, condições de trabalho e combate ao assédio - feebpr.org.br",
+      "source": "feebpr.org.br",
+      "date": "2026-09-28",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOE1nUjl1eXU1TEpNOUFGWDBOV0tJS0NZc29lWTNsR2xSSWFEbmluVng4Ni1QSW52bUdpMDVlbzBfa1ZSOXVkcldfX1ZKek9kV2NmZXVTNHVyaENBVU1VWDhvMkQ1amxDdmRNNDVHcWktLUg0MU5XSkpzelduTko4S0pzN1BkdG9iWXV2TzFNTFl5U3J1bTFEb2ZxOGtnRmNLaXNuWnVjeEhKdl9PU2c4?oc=5",
+      "summary": "Candidata localizada. Cenário preliminar: Risco psicossocial e saúde no trabalho. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
+      "angle": "Investigar organização do trabalho, suporte, relações, liderança, prevenção e acompanhamento.",
+      "editorialPotential": {
+        "score": 4,
+        "triagePriority": "Prioridade média",
+        "event": "Risco psicossocial e saúde no trabalho",
+        "economicTrigger": "Saúde, risco e continuidade",
+        "organizationalHypothesis": "Investigar organização do trabalho, suporte, relações, liderança, prevenção e acompanhamento.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "fato concreto no título",
+          "decisão empresarial",
+          "mudança organizacional"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": false,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "people_risk": [
+            "assedio"
           ]
         },
         "businessContext": false
@@ -3126,7 +3317,7 @@
       "clusterReason": "item principal do cluster"
     },
     {
-      "id": "como-a-mahogany-faz-da-loja-franqueada-uma-plataforma-de-vendas-pequenas-empresas-grandes-",
+      "id": "setor-financeiro-amplia-interesse-por-escrito-rios-flexi-veis-e-acompanha-transformac-a-o-",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
       "scope": "Nacional",
@@ -3134,10 +3325,10 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 30,
-      "title": "Como a Mahogany faz da loja franqueada uma plataforma de vendas - Pequenas Empresas & Grandes Negócios",
+      "title": "Setor financeiro amplia interesse por escritórios flexíveis e acompanha transformação do mercado corporativo - Pequenas Empresas & Grandes Negócios",
       "source": "Pequenas Empresas & Grandes Negócios",
-      "date": "2026-10-09",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxON0lRWXh2emdNZU9URk1KWkRxeGNrbzdPU0ZLVXVtN25fbjdWdmRtc1dTVDhrejlDNjFMMVFFSU9CN25HZTNaMHhVQlFlV3U4c1ZOS0JpMXlFalZlaktSdFBORVNxZXY3MW1naU5CVWNaYVNaek13bUROdjFEOVV0RWZ6MW5KUUhRRDFhbEZ1bmdVTTBVd0s3eFQyY18tb0xSa1U3ckFDN2VjaFlDOVVFODZVZG5qUHl6MzdTMExkQVhKajNBVWxHNVo0NFlzV2J0cnlCM1NPQUdIcWNMM2VJYtIB7wFBVV95cUxNTlllUDhvMVpRYTFET3NDczFWS2RRNWtVa2Q2bllUNlgyN1FBN2RVY2FwWmk2alJheFVZN1RjdXo5NXF0UVc4Tk1ta1ZRWmF1Y080MVNvWFlyWTF4emVJMWU4OEozVFFsa3VfUFJhUkRibTlCb1BVMm15UW9rNjRiczRpbGNkbTBRNnNvYjBSUmpEbEZOWjNOOVpMU05wYlN4Yi1QZTBEa3M2Nll3ckltLWtUQ3dObzY3UkVSUVY0bGNrTHk1bDluOGdVQVpxNnF3ZUFwV25SWEtibHZiRHhlUmhYd2xfbkhBY251SlNjYw?oc=5",
+      "date": "2026-10-14",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNcHJGdTdSWTdKVXlpT2d1dURPb01ZZGRUdkNZRnVxTXBOU2JnZFJpQTVHUy10Mmg4Rkl5WnFNR2Zmb0MzQ3lQeTFLOEFpUkVPQWYtMjFmUmU0b2xmaTQ2U1U0UDNsM3M3d2QwNDlneklxSlpnVUVUSTNEUkd0cDBaLWFLLWl0TXc5bnRCYjlhbmdMMGczMldFOGtiT0hyS0Z0cWZXY3A2QzRtQnRRMHpnZ3Z4cVBmQVFYU0g5di1FeE1pTzBjMjFBWi1sSEV6YkYwY2RlV09vbE40NFZYNXVCd0d1OTRrSFZYQU51ckpqOHQ5RkdGcklXODlEdWh5Sk9PbnJ0bndtY1dCd0NXemFSd1ByNm1lSXNjbjNB0gGqAkFVX3lxTE1TV0dlSTVQZkZ3a2lFbDFsOGxCRWlCY0d5ZmVLMTdoS2ZyTkJOVDB6QjJTX01zbzBsUkwtNl9rZDB2WFVBd2JQYmxQTHM2MjVZd1d2a25sVGNfMHpRLURnc3A3TG9KU0pxcXpObnFKeEVhX2lpM0M2TW1ORFozNU83WC1vbE5HcjZqYWJaVWQ0WG8wZXB2Mlo2ZFJrYk1RVnItYXpRdV9zX2ctREpScVVpUXVmdlJsMlVXeU1UWVBudlFmUVpLQWZjaU5IYWxKTHk1RmlabDh1U0pZaW03bnQyM1hnQWp6dTZLSnk2VlNweXY1QnEtV0J4M1d1VVZwRVZQa1hQekYxUlNPdzg3SUctaUJWT3hLYXR3ZF9kRkVzbmRCSm1JWU4xVHc?oc=5",
       "summary": "Candidata localizada. Cenário preliminar: Contexto econômico ou empresarial. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
       "angle": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
       "editorialPotential": {
@@ -3190,7 +3381,7 @@
       "clusterReason": "item principal do cluster"
     },
     {
-      "id": "cineasta-amapaense-conquista-56-pre-mios-internacionais-com-amazo-nia-xama-e-concorre-a-no",
+      "id": "chef-mais-jovem-da-am-rica-latina-a-comandar-restaurante-3-estrelas-michelin-conta-como-ch",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
       "scope": "Nacional",
@@ -3198,10 +3389,74 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte jornalística ou institucional — confirmar origem",
       "score": 30,
-      "title": "Cineasta amapaense conquista 56 prêmios internacionais com “Amazônia Xamã” e concorre a novo reconhecimento na Inglaterra - Pequenas Empresas & Grandes Negócios",
+      "title": "Chef mais jovem da América Latina a comandar restaurante 3 estrelas Michelin conta como chegou ao topo - Pequenas Empresas & Grandes Negócios",
       "source": "Pequenas Empresas & Grandes Negócios",
-      "date": "2026-10-06",
-      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPV2NfWlV6amotZE9zemFNWGtMQmlhX0FMNEd4R1QxdFFDS2JEblFGRjg1Rno5bDEzVmZMd0tYRGk3X2FOdHEtM0hWVzU1RGVwWFhrRGpZMHdrbHBnMU9TV3hPdHlObUttVGR2NDRPNW0tRllVUUpmVVplV3hTRjlIYlUzR3FJcDFPMTNkWU5RUWkycm9adTdVMm1MUW9UUVIxekNlcDhIbWRFRENzWjJTYWNyV05jbFIwdlV0MldPdTBWRlM0WDNoNTlFUVFiSjNuZWZGQ0pGTTNpWlNGZ1JWUS1sT2p3WF9fV1ZLamdfc0dqQlF1d2dfQ2gzNUI0aS1RS1dpZVp2NDV5QnJUZ2JQR1BDU3hFOU45amxtUXhNa2lJWk1CWDdRblJn0gG4AkFVX3lxTE43c1VTYk1yWXVjbDZvV1Q4NmMxeGY5MHlubGxpNHloTWRfQ283YkJxdGI0TERTWjFSdWFWcmZyWGhQc09wU0hDMXdYc1RXX3hvZ1FucGROZ3lEU2ZRZ1dQalQ1TW01UGhHQnZtVzV4X1JwUzd5NDFlcmQ1V296cmc4bHJkeXItYmNTYlpjczFMcUhuR0l3cEhEVHdhb09vbkI4ZEIweVp3Nm5rX3AyYzJpUFZ5dWUta054cUVBOHRxNTluV2NVdmNqOUN3eDNUNzFsNjVMZ1JzdW95VGdXMGY3MEhJMFZfVjJYNndtWm12WmNTRnZCSDdFMXR5VWRXaUI4YUNqRENrd2RtYjJXWE1ncThJWGNDTlNiaWwwZFRycFFUSDJXc1l0Yjh6Mk01Ui04WHJ6Rnh6Yg?oc=5",
+      "date": "2026-10-10",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOdXl0ZWpscFRzX0hGMVdJS1RNRzZLc09jQTZfSXktM2g0OFhXWnc1YU9hSE8wWGY0T1RrZ2F4cUFKaTZHNFlNb2Q4SUZNYnYwLXdvZUN1UkI0MUhwcXFzVjhNQ3FrN1hiSTBHVDZFanotSUZSZ191RzRxZEloZ1RIOVpidjBfS1RfX1MzdHlaSEpfMFV6MGgzUTVOSTAtcUZTamNGNmxIQkdZQVR2YThLN2tKNGFpV3o3cWlERUlBd3NGTS1uN0RZV2Z5UVAxVVhLOUp2VzRYU0F2c0Z1QmhlZkNQWDltYXBYTlVJLXA5aGMxTGVtVmoxcDAwaWpJR0Vtb2ow0gGSAkFVX3lxTE5iRHpwSmtVSTNxRk52OE01QVVaTE1TWHI2bEUwWjYyYkFMMGlGN0NnS2lQYzNyNzB5c29BYjNtVDFkclR6TUpJeDNjZS1EV2hmbmVpdTN3NnJPcDRtYTRPaEtEYmpMTWFWdFlYMlpjOUFBR0hqM01Qd0JLbTRSN2tDN1F0OV9iMjlRdUcyYTNnb2RxYjE4ODhlRG9UM0daLTVKSWxuQkY2OUM2R3V1YmVVV3U5SEgyQWQ1VF9kNlRwT1FlaWNrNXloVjN3RWRNekxHUnlna3JJS2lRaTl5Ny1rRFlYRndJNXRyeTBuVmUxNlBfQnFmQk5XMUc2VVVjM2JEeXMxcDhNRXJiYTVFTU9hT0E?oc=5",
+      "summary": "Candidata localizada. Cenário preliminar: Contexto econômico ou empresarial. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
+      "angle": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
+      "editorialPotential": {
+        "score": 3,
+        "triagePriority": "Prioridade baixa",
+        "event": "Contexto econômico ou empresarial",
+        "economicTrigger": "Dinheiro, mercado ou reputação",
+        "organizationalHypothesis": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "fato concreto no título",
+          "decisão empresarial",
+          "mudança organizacional",
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item principal do cluster"
+    },
+    {
+      "id": "como-a-mahogany-faz-da-loja-franqueada-uma-plataforma-de-vendas-pequenas-empresas-grandes-",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 30,
+      "title": "Como a Mahogany faz da loja franqueada uma plataforma de vendas - Pequenas Empresas & Grandes Negócios",
+      "source": "Pequenas Empresas & Grandes Negócios",
+      "date": "2026-10-09",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxON0lRWXh2emdNZU9URk1KWkRxeGNrbzdPU0ZLVXVtN25fbjdWdmRtc1dTVDhrejlDNjFMMVFFSU9CN25HZTNaMHhVQlFlV3U4c1ZOS0JpMXlFalZlaktSdFBORVNxZXY3MW1naU5CVWNaYVNaek13bUROdjFEOVV0RWZ6MW5KUUhRRDFhbEZ1bmdVTTBVd0s3eFQyY18tb0xSa1U3ckFDN2VjaFlDOVVFODZVZG5qUHl6MzdTMExkQVhKajNBVWxHNVo0NFlzV2J0cnlCM1NPQUdIcWNMM2VJYtIB7wFBVV95cUxNTlllUDhvMVpRYTFET3NDczFWS2RRNWtVa2Q2bllUNlgyN1FBN2RVY2FwWmk2alJheFVZN1RjdXo5NXF0UVc4Tk1ta1ZRWmF1Y080MVNvWFlyWTF4emVJMWU4OEozVFFsa3VfUFJhUkRibTlCb1BVMm15UW9rNjRiczRpbGNkbTBRNnNvYjBSUmpEbEZOWjNOOVpMU05wYlN4Yi1QZTBEa3M2Nll3ckltLWtUQ3dObzY3UkVSUVY0bGNrTHk1bDluOGdVQVpxNnF3ZUFwV25SWEtibHZiRHhlUmhYd2xfbkhBY251SlNjYw?oc=5",
       "summary": "Candidata localizada. Cenário preliminar: Contexto econômico ou empresarial. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
       "angle": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
       "editorialPotential": {
@@ -3731,70 +3986,6 @@
       },
       "use": {
         "label": "Analisar o ato ou documento original; usar redação própria.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      },
-      "relatedSources": [],
-      "clusterSize": 1,
-      "clusterReason": "item principal do cluster"
-    },
-    {
-      "id": "rodovi-rios-de-empresas-de-turismo-do-par-convocam-assembleia-em-bel-m-para-negociar-sal-r",
-      "agenda": "Trabalho e representação",
-      "impact": "Pessoas e trabalho",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Repercussão jornalística",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 10,
-      "title": "Rodoviários de empresas de turismo do Pará convocam assembleia em Belém para negociar salários e condições de trabalho - Diário do Transporte",
-      "source": "Diário do Transporte",
-      "date": "2026-10-12",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQMXh2SlBsMVpDRHRYY3Nrc0xOcVNFcnFSTXF4NF9QVncyY0VyZ1BucTF2QjNUYllGQm16QWFSTFdHU25CUzBFZ0pQUlJRaWs2dTRKOTNURDkxLXUxRG1XY2ZNSXFDaENhdjJBaUN4QkdMTGRfUVFVczdwWTQycGlac3JyQzZHWGNzZnY3N2lucUNwWFNDTExTVkNLdmo2WlZVNVF6LUhYSHNvaW5FQ1doZVlabXpUTmg0clY5bk1xb1lqamNmVzZTbVNCcjUzYXlxRF9kcU5PbGV5dHJ5RllEUHJNV1BrM0cyWTl2OGpSUmpJZV9kV0hn0gH8AUFVX3lxTE5pM2trb2o1NXByTVVjUkVGb1YtLUlSZ1ZINGFHbll2OGpfbkd6bUxaV3VjcGNnajdSMVhWN3hjWm1JdXY0MlZTVXZSMU0yQXB2RmljSUVmV0MwQWowYk5pejNIUklScEpKN1dBWXdVTVhHQ3NQNmlyUDNyU29MeDVuRVRvZ1lDZG1Ba3ZqMnB4aDVSOFJHYm9HWHNQOEU1ejhSeVBCNlUyRGF2eDRGNFA4dXRVTVpBZDRoSm0zZF9nellFeHk3cW5HWFVRcDN4S0pzMnBCWklzQTQzdlVxRHRONUtDbksyNVZqa1o4ZnR5Y2t6S01SR1A0OWpVag?oc=5",
-      "summary": "Candidata localizada. Cenário preliminar: Contexto econômico ou empresarial. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
-      "angle": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
-      "editorialPotential": {
-        "score": 1,
-        "triagePriority": "Prioridade muito baixa",
-        "event": "Contexto econômico ou empresarial",
-        "economicTrigger": "Dinheiro, mercado ou reputação",
-        "organizationalHypothesis": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
-        "questions": [
-          "Qual decisão concreta foi tomada?",
-          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
-          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
-        ],
-        "missing": [
-          "fato concreto no título",
-          "decisão empresarial",
-          "mudança organizacional",
-          "consequência humana"
-        ],
-        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
-        "promotional": false,
-        "hardPromotional": false,
-        "materiality": true,
-        "pureFinance": false,
-        "semanticFamilies": {},
-        "businessContext": false
-      },
-      "origin": {
-        "found": false
-      },
-      "audience": {
-        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
-        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
-        "search": "convenção coletiva empresas; sindicato negociação empresas",
-        "sensation": "Segurança e pertencimento"
-      },
-      "packaging": {
-        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Noticiar com redação própria e citar a fonte.",
         "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
       },
       "relatedSources": [],
@@ -5222,6 +5413,70 @@
       "clusterReason": "item principal do cluster"
     },
     {
+      "id": "procedimento-competitivo-para-repactua-o-n-01-2026-aliena-o-da-totalidade-das-a-es-da-infr",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 0,
+      "title": "PROCEDIMENTO COMPETITIVO PARA REPACTUAÇÃO Nº 01/2026 ALIENAÇÃO DA TOTALIDADE DAS AÇÕES DA INFRAMÉRICA CONCESSIONÁRIA DO - www.gov.br",
+      "source": "www.gov.br",
+      "date": "2026-10-23",
+      "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNUjVkaDZadUl2QlNKZjNlUm9rV2Jad0xENVdmMWRydk1EY2kwbWhZYXo2UTZTUjc5NExHS1B6SVM1WmJyMk13aEl5TjdMRFgtVGM2ZGlrSU1VcXpOdE9rOXN0LVBJRThKc19LLWxBTVo5ZzJjbjhRRzg5OXpnR2RSVVhLdnlYMnc0dzlUVE5CZmR4ajF1TTIxQWFDdHZINHctbVlvcTlWRnEwN0pDUXd1a2c2R2lKY0pTcG80V0QwS0Y5ckYtRE1mNm9MWDhRSHZNakxnRnZKNVhPYVpxTWNfSzRRaVNDYlRSenBpUzZRV0lzNW1tOUYxUVVWQVhJQlpCekRLRko5UjMxYll6cjFBOUJVNVBiZWtzVnZpS2FRYVJHQy1pVVpEY3JTVHU0Q1R6eC1UNEctcmI0RGVKZUNZbDJhNjNnMUR5cGNUYWVud3pPUmpaMzhCUlVkd29MYzMzMFhyX2xfUFRjQXVwYXlneFhBQQ?oc=5",
+      "summary": "Candidata localizada. Cenário preliminar: Contexto econômico ou empresarial. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
+      "angle": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
+      "editorialPotential": {
+        "score": 0,
+        "triagePriority": "Prioridade muito baixa",
+        "event": "Contexto econômico ou empresarial",
+        "economicTrigger": "Dinheiro, mercado ou reputação",
+        "organizationalHypothesis": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "fato concreto no título",
+          "decisão empresarial",
+          "mudança organizacional",
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": false,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": false
+      },
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item principal do cluster"
+    },
+    {
       "id": "obras-da-ponte-salvador-itaparica-avan-am-com-instala-o-de-21-estaca-a-tardea-tarde",
       "agenda": "Veículos regionais — Norte e Nordeste",
       "impact": "Operação e estratégia",
@@ -5734,6 +5989,74 @@
       "clusterReason": "item principal do cluster"
     },
     {
+      "id": "gigante-sul-coreana-lg-investe-r-1-5-bilh-o-em-megaf-brica-no-brasil-jornal-correiojornal-",
+      "agenda": "Veículos regionais — Norte e Nordeste",
+      "impact": "Operação e estratégia",
+      "scope": "Estadual",
+      "territory": "Confirmar na fonte",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 0,
+      "title": "Gigante sul-coreana, LG investe R$ 1,5 bilhão em megafábrica no Brasil - Jornal Correio",
+      "source": "Jornal Correio",
+      "date": "2026-10-20",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdjdEaGlVcmJObzI5NzdTeHFzSFVRMlpaWWZQSnFqSnc2akRNRjlKU3BzQmhvVV9YMjUtdVVCampRTDNDR3I5YjI4SHlDa0xmZWduMjFOVHBRc3dSMEpHclpJWkZnZEktN0xCY3hKY0w5Zk1pUGk3aVYzc0VNSVZjXzhjYVVtSnZSczJTbG1ialBYNlhEZWMteGo5bDRlWmFhdVl3WHE1cnFjTEtIRnJiOHFmNA?oc=5",
+      "summary": "Candidata localizada. Cenário preliminar: Investimento ou movimentação de capital. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
+      "angle": "Confirmar quem investe, finalidade, escala e consequência empresarial concreta. Para pauta municipal ou estadual, confirmar o território, o ato aplicável, as empresas/setores afetados e se o efeito é local ou pode se repetir em outros lugares.",
+      "editorialPotential": {
+        "score": 0,
+        "triagePriority": "Prioridade muito baixa",
+        "event": "Investimento ou movimentação de capital",
+        "economicTrigger": "Capital e estratégia",
+        "organizationalHypothesis": "Confirmar quem investe, finalidade, escala e consequência empresarial concreta.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "fato concreto no título",
+          "decisão empresarial",
+          "mudança organizacional",
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": false,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            "investe"
+          ]
+        },
+        "businessContext": false
+      },
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "Lideranças, RH, Business Partners e donos de empresas.",
+        "interest": "Transformar um fato em decisão sobre pessoas, cultura e gestão.",
+        "search": "liderança nas empresas; gestão de pessoas; cultura organizacional",
+        "sensation": "Pertencimento e segurança"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item principal do cluster"
+    },
+    {
       "id": "em-meio-ao-avan-o-das-chinesas-toyota-corta-pre-os-de-suvs-e-corolla-e-oferece-descontos-d",
       "agenda": "Veículos regionais — Norte e Nordeste",
       "impact": "Operação e estratégia",
@@ -5874,70 +6197,6 @@
       "source": "A União",
       "date": "2026-10-16",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRkNEZnZqbkFiZndzSUR6N2llTWRKdmhiX055aUM5dFgwcXk0aG5HOXJObkdQalpnQXlUU1hWdzltR3ZMd2ZRV25HdjhIdC1VNWVyeWJpZlhnRXRES29SWmc1NDN2RzFfbjVrN29XX2pNbVZXc0xKYjQ5Smhoc3ZZdHRLeU9kdGZaT0NzZnFzZlZTb2JmeXhvU005M3FWRFA1VXlodQ?oc=5",
-      "summary": "Candidata localizada. Cenário preliminar: Contexto econômico ou empresarial. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
-      "angle": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
-      "editorialPotential": {
-        "score": 0,
-        "triagePriority": "Prioridade muito baixa",
-        "event": "Contexto econômico ou empresarial",
-        "economicTrigger": "Dinheiro, mercado ou reputação",
-        "organizationalHypothesis": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
-        "questions": [
-          "Qual decisão concreta foi tomada?",
-          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
-          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
-        ],
-        "missing": [
-          "fato concreto no título",
-          "decisão empresarial",
-          "mudança organizacional",
-          "consequência humana"
-        ],
-        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
-        "promotional": false,
-        "hardPromotional": false,
-        "materiality": false,
-        "pureFinance": false,
-        "semanticFamilies": {},
-        "businessContext": false
-      },
-      "origin": {
-        "found": false
-      },
-      "audience": {
-        "public": "Lideranças, RH, Business Partners e donos de empresas.",
-        "interest": "Transformar um fato em decisão sobre pessoas, cultura e gestão.",
-        "search": "liderança nas empresas; gestão de pessoas; cultura organizacional",
-        "sensation": "Pertencimento e segurança"
-      },
-      "packaging": {
-        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Noticiar com redação própria e citar a fonte.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      },
-      "relatedSources": [],
-      "clusterSize": 1,
-      "clusterReason": "item principal do cluster"
-    },
-    {
-      "id": "goldman-sachs-aponta-fatores-que-fazem-de-joias-e-rel-gios-de-luxo-um-investimento-bloombe",
-      "agenda": "Veículos BR — NeoFeed e Bloomberg Línea",
-      "impact": "Operação e estratégia",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Repercussão jornalística",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 0,
-      "title": "Goldman Sachs aponta fatores que fazem de joias e relógios de luxo um investimento - Bloomberg Línea Brasil",
-      "source": "Bloomberg Línea Brasil",
-      "date": "2026-10-15",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU3M5OEF2RnRaMmVxSlB0R0ZVLXA1cFJKbzlCOElBZjc5a1otNFQ0NXhPWG9PeVlhaktna19NRmtsc21lWk1fc29jSUprYjhYTXJXUDhBcE9uSUN1RHBENFJmZ3BveVlwUURCMm9Takt0MVB0aXNwZm1FZkthVjJoZ0hCS0c2czFXbVV4M3ozOWZSOUZGUmJKZW5yYmNQUlZieTdSWkFRdmNWNm5jcjM1dDdjdFZwcHVlREpkaHpMbGRaRUsza052LXQ4dWjSAeABQVVfeXFMTnZwQ1dySXhndnFzVC1la19GTm85eXdDV3ZVWUFKUU5nU2dURzFvODlpSEdwMzQ4MTk2N0tFVndlZktSTFFlNzliTEtrTzRVMFZwR0pQZHVzZEJuRnZWNkxodFc4ZjJYeldaWkl0ZFZMRkE3cXhZYTdpT0ZvMVB5a0NWOUYtVTNkdkJYQUVCRzV3UG9FOFdvTDJOQVFuU2FreDh4Q3lZamRYaWktRDRwRWhCRmZIWU8wSjNyZVctVVhndUQ0RENzaFBzUjktb2F5TkhiRnBiRFNtS2dNcFk1dG4?oc=5",
       "summary": "Candidata localizada. Cenário preliminar: Contexto econômico ou empresarial. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
       "angle": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
       "editorialPotential": {
@@ -6698,6 +6957,70 @@
       "clusterReason": "item principal do cluster"
     },
     {
+      "id": "candidatos-ao-senado-refor-am-atua-o-contra-ministros-do-stf-e-pelo-fim-das-bets-o-popular",
+      "agenda": "Veículos regionais — Centro-Oeste",
+      "impact": "Operação e estratégia",
+      "scope": "Estadual",
+      "territory": "Confirmar na fonte",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
+      "score": 0,
+      "title": "Candidatos ao Senado reforçam atuação contra ministros do STF e pelo fim das bets - O Popular",
+      "source": "O Popular",
+      "date": "2026-10-01",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYnZxQWVoQTJ3MDRjVjVxUlNCcUlwcjlEQVpFczhkVEdDMWplQk5FX29wa2x0M0RkNy16M05EN3VIUlZQMFhHU3BQMk9rVVZEeEZVVURnNkhNeVBOd1hmNHFCYnlYOVpqanVfam9EakttbHd1VlRSVnRfUl8tWnVuNk5BSnNmMnI0NEg2M3FvR3ZWMVNyTjhqZUF0dEwwQ3ZJdFJXVnRHVkVvLWxXZlZ3elI4empDaXlIbzdBdW93?oc=5",
+      "summary": "Candidata localizada. Cenário preliminar: Contexto econômico ou empresarial. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
+      "angle": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano. Para pauta municipal ou estadual, confirmar o território, o ato aplicável, as empresas/setores afetados e se o efeito é local ou pode se repetir em outros lugares.",
+      "editorialPotential": {
+        "score": 0,
+        "triagePriority": "Prioridade muito baixa",
+        "event": "Contexto econômico ou empresarial",
+        "economicTrigger": "Dinheiro, mercado ou reputação",
+        "organizationalHypothesis": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "fato concreto no título",
+          "decisão empresarial",
+          "mudança organizacional",
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": false,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": false
+      },
+      "origin": {
+        "found": false
+      },
+      "audience": {
+        "public": "Lideranças, RH, Business Partners e donos de empresas.",
+        "interest": "Transformar um fato em decisão sobre pessoas, cultura e gestão.",
+        "search": "liderança nas empresas; gestão de pessoas; cultura organizacional",
+        "sensation": "Pertencimento e segurança"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item principal do cluster"
+    },
+    {
       "id": "reportagem-especial-trabalho-remoto-dist-ncia-segura-revista-prote-orevista-prote-o",
       "agenda": "NR-1 / AEP",
       "impact": "Risco jurídico/regulatório",
@@ -6749,70 +7072,6 @@
         "interest": "Reduzir risco e entender o que precisa ser diagnosticado, gerenciado ou acompanhado.",
         "search": "NR-1 empresas; riscos psicossociais; AEP",
         "sensation": "Segurança"
-      },
-      "packaging": {
-        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
-        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
-        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
-        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
-        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
-      },
-      "use": {
-        "label": "Noticiar com redação própria e citar a fonte.",
-        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
-      },
-      "relatedSources": [],
-      "clusterSize": 1,
-      "clusterReason": "item principal do cluster"
-    },
-    {
-      "id": "ft-chefe-da-porsche-considera-injusto-r-tulo-de-c-tico-dos-el-tricos-mas-n-o-espere-um-911",
-      "agenda": "Veículos BR — Valor",
-      "impact": "Operação e estratégia",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Repercussão jornalística",
-      "sourceType": "Fonte jornalística ou institucional — confirmar origem",
-      "score": 0,
-      "title": "FT: Chefe da Porsche considera ‘injusto’ rótulo de cético dos elétricos, mas não espere um 911 na lista - Valor Econômico",
-      "source": "Valor Econômico",
-      "date": "2026-09-30",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPX2x5VmtMSnBvaWVDay0yUUhpaVRZNnJydGlvNENEMVRGTThzc2RlOThyLURYSmJtZWg0T3VXWEp3REoxZ0NxMGJDMTR4Q1JhR2FUU0t6bTlWRkhrS2hETXg4MDNXY1JRaGg0bU9HeURMQnZXVDM1a1dVb0xOUHFYOUFQMjZCWnVxZUFxM3oybm80NkNERzdLcDEwOXd0VU8weWNVQXgxME52WnJySTlLRW1SQVJqcjhTQzNyLUFuazU0cUxEcTZrcTM5OHQtSmpOWDdaQzJGRFl5dkdBQkhva0ZVemRSdllzRXBIaW9R0gH8AUFVX3lxTE5GZ0YwWG9zSm9jQXZvX3dxc3pRWG1QOXhzdXo5Z0piOFlfRnA2eUlTSENxZ2VWLVNZeDVUbGR1OGIyOEY1dnhsSlp4MjV2TGVoSGp6ZV9BR3Vxdy1ublZ0QWtkclhYVlBkV2ctaVRHNExES3o4WVlKVnJVSzR5MWIxQTdfQ21QLUFrdlVZQTMxYjFmLUtaR3Ewa2dXRnMxbS15Wm03ODJqMDQ5am90cDI2T3FGWkw0c1RpX1ZtWGstM2tNYkFoS01oeVVQVVhhcWExNFNjaGwzN3BxUjRBRjk0djA2cWFjRllyeld0S20tTjIwU245Mkg4OVlSMA?oc=5",
-      "summary": "Candidata localizada. Cenário preliminar: Contexto econômico ou empresarial. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
-      "angle": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
-      "editorialPotential": {
-        "score": 0,
-        "triagePriority": "Prioridade muito baixa",
-        "event": "Contexto econômico ou empresarial",
-        "economicTrigger": "Dinheiro, mercado ou reputação",
-        "organizationalHypothesis": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
-        "questions": [
-          "Qual decisão concreta foi tomada?",
-          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
-          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
-        ],
-        "missing": [
-          "fato concreto no título",
-          "decisão empresarial",
-          "mudança organizacional",
-          "consequência humana"
-        ],
-        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
-        "promotional": false,
-        "hardPromotional": false,
-        "materiality": false,
-        "pureFinance": false,
-        "semanticFamilies": {},
-        "businessContext": false
-      },
-      "origin": {
-        "found": false
-      },
-      "audience": {
-        "public": "Lideranças, RH, Business Partners e donos de empresas.",
-        "interest": "Transformar um fato em decisão sobre pessoas, cultura e gestão.",
-        "search": "liderança nas empresas; gestão de pessoas; cultura organizacional",
-        "sensation": "Pertencimento e segurança"
       },
       "packaging": {
         "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",

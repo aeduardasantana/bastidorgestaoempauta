@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T16:33:47.856488+00:00",
+  "updatedAt": "2026-10-27T12:20:37.391016+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "trabzonspor",
+          "term": "yuri alberto",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,18 +18,10 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "coritiba x grêmio",
+          "term": "eleições israel",
           "source": "Google Trends",
           "position": 2,
-          "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
-        },
-        {
-          "term": "eleicoes israel",
-          "source": "Google Trends",
-          "position": 3,
-          "movement": "NOVO",
+          "movement": "↑",
           "relatedClusters": [
             {
               "id": "elei-es-2026-tudo-que-voc-precisa-saber-antes-de-votar-sbt-newssbt-news",
@@ -40,7 +32,15 @@
           "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "pagamento",
+          "term": "scott eastwood",
+          "source": "Google Trends",
+          "position": 3,
+          "movement": "NOVO",
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
+        },
+        {
+          "term": "fatima gavioli",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -48,7 +48,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "besiktas",
+          "term": "feriados novembro",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -56,21 +56,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "gasolina hoje",
+          "term": "halloween",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "governo-zera-tributos-da-gasolina-e-renova-subs-dio-do-etanol-e-diesel-a-uni-oa-uni-o",
-              "title": "Governo zera tributos da gasolina e renova subsídio do etanol e diesel - A União",
-              "score": 0
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ballon dor",
+          "term": "show bts",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -78,7 +72,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "polícia militar de santa catarina",
+          "term": "pokemon unite",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -86,7 +80,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "boeing 747",
+          "term": "boletim",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -94,7 +88,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "andre fernandes",
+          "term": "taxa das blusinhas",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -111,8 +105,13 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 14,
+    "count": 15,
     "items": [
+      {
+        "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
+        "title": "Sindicato convoca trabalhadores da alimentação para assembleia sobre negociação coletiva e possível greve - RCN 67",
+        "score": 100
+      },
       {
         "id": "greve-de-trabalhadores-terceirizados-chega-ao-fim-ap-s-acordo-na-bacia-de-campos-portal-vi",
         "title": "Greve de trabalhadores terceirizados chega ao fim após acordo na Bacia de Campos - Portal Viu",
@@ -124,13 +123,18 @@
         "score": 100
       },
       {
-        "id": "layoff-tracker-tango-plans-14-workforce-cut-mainly-of-research-staff-biospacebiospace",
-        "title": "Layoff Tracker: Tango plans 14% workforce cut, mainly of research staff - BioSpace",
+        "id": "supermercado-anuncia-corte-de-3-mil-empregos-e-amplia-uso-de-intelig-ncia-artificial-ag-nc",
+        "title": "Supermercado anuncia corte de 3 mil empregos e amplia uso de inteligência artificial - Agência GBC",
         "score": 90
       },
       {
         "id": "com-230-lojas-rede-de-cafeterias-muda-estrat-gia-de-expans-o-para-chegar-aos-r-115-milh-es",
         "title": "Com 230 lojas, rede de cafeterias muda estratégia de expansão para chegar aos R$ 115 milhões - Exame",
+        "score": 90
+      },
+      {
+        "id": "ia-e-automa-o-mudam-perfil-das-profiss-es-e-exigem-requalifica-o-de-trabalhadores-portal-i",
+        "title": "IA e automação mudam perfil das profissões e exigem requalificação de trabalhadores - Portal IPNews",
         "score": 90
       },
       {
@@ -144,19 +148,9 @@
         "score": 90
       },
       {
-        "id": "greve-na-caixa-o-que-a-contraf-cut-disse-ao-tst-em-defesa-dos-empregados-sindicarionetsind",
-        "title": "Greve na Caixa: o que a Contraf-CUT disse ao TST em defesa dos empregados - SindicarioNET",
+        "id": "tst-julga-greve-da-caixa-leg-tima-e-barra-desconto-dos-dias-parados-poder360poder360",
+        "title": "TST julga greve da Caixa legítima e barra desconto dos dias parados - Poder360",
         "score": 90
-      },
-      {
-        "id": "rodovi-rios-do-df-confirmam-greve-geral-ap-s-assembleia-neste-domingo-cut-dfcut-df",
-        "title": "Rodoviários do DF confirmam greve geral após assembleia neste domingo - CUT-DF",
-        "score": 90
-      },
-      {
-        "id": "mei-ter-d-vida-zerada-maior-faturamento-e-mais-funcion-rios-entenda-a-nova-lei-r7r7",
-        "title": "MEI terá dívida zerada, maior faturamento e mais funcionários; entenda a nova lei - R7",
-        "score": 80
       },
       {
         "id": "-until-today-it-s-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-",
@@ -164,13 +158,13 @@
         "score": 80
       },
       {
-        "id": "f-brica-cultural-abre-inscri-es-gratuitas-para-jornada-que-fortalece-neg-cios-criativos-em",
-        "title": "Fábrica Cultural abre inscrições gratuitas para jornada que fortalece negócios criativos em sete municípios baianos - Jornal Correio",
+        "id": "skydance-corp-signals-layoffs-as-paramount-warner-bros-discovery-merger-closes-people-matt",
+        "title": "Skydance Corp signals layoffs as Paramount-Warner Bros. Discovery merger closes - People Matters - HR News",
         "score": 80
       },
       {
-        "id": "skydance-corp-signals-layoffs-as-paramount-warner-bros-discovery-merger-closes-people-matt",
-        "title": "Skydance Corp signals layoffs as Paramount-Warner Bros. Discovery merger closes - People Matters - HR News",
+        "id": "a-saga-da-paramount-para-levantar-us-52-bilh-es-em-d-vida-para-a-fus-o-com-a-warner-bloomb",
+        "title": "A saga da Paramount para levantar US$ 52 bilhões em dívida para a fusão com a Warner - Bloomberg Línea Brasil",
         "score": 80
       },
       {
@@ -182,13 +176,18 @@
         "id": "m-dia-enxerga-opera-o-de-m-a-como-acelerador-de-crescimento-e-valoriza-o-do-neg-cio-pequen",
         "title": "Média enxerga operação de M&A como acelerador de crescimento e valorização do negócio - Pequenas Empresas & Grandes Negócios",
         "score": 80
+      },
+      {
+        "id": "empregos-globais-como-a-ia-mudou-o-recrutamento-de-trabalhadores-na-am-rica-latina-bloombe",
+        "title": "Empregos globais: como a IA mudou o recrutamento de trabalhadores na América Latina - Bloomberg Línea Brasil",
+        "score": 80
       }
     ]
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 2,
-    "withoutRadar": 8,
-    "highPriorityOutsideTrends": 14
+    "withRadar": 1,
+    "withoutRadar": 9,
+    "highPriorityOutsideTrends": 15
   }
 }

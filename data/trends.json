@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T12:22:33.341840+00:00",
+  "updatedAt": "2026-10-27T12:34:31.732134+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,22 +10,49 @@
       "error": null,
       "items": [
         {
-          "term": "yuri alberto",
+          "term": "downdetector",
           "source": "Google Trends",
           "position": 1,
-          "movement": "→",
+          "movement": "NOVO",
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
+        },
+        {
+          "term": "yuri alberto",
+          "source": "Google Trends",
+          "position": 2,
+          "movement": "↓",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
           "term": "eleições israel",
           "source": "Google Trends",
-          "position": 2,
-          "movement": "→",
+          "position": 3,
+          "movement": "↓",
           "relatedClusters": [
             {
-              "id": "elei-es-2026-tudo-que-voc-precisa-saber-antes-de-votar-sbt-newssbt-news",
-              "title": "Eleições 2026: Tudo que você precisa saber antes de votar - SBT News",
+              "id": "secret-rio-de-mobilidade-de-salvador-fala-sobre-redu-o-da-frota-nas-elei-es-e-pedido-de-pr",
+              "title": "Secretário de Mobilidade de Salvador fala sobre redução da frota nas eleições e pedido de prisão - R7",
+              "score": 0
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
+        },
+        {
+          "term": "flávio bolsonaro lula",
+          "source": "Google Trends",
+          "position": 4,
+          "movement": "NOVO",
+          "relatedClusters": [
+            {
+              "id": "como-est-argentina-de-milei-que-inspira-campanha-de-fl-vio-sbt-newssbt-news",
+              "title": "Como está Argentina de Milei, que inspira campanha de Flávio - SBT News",
+              "score": 0
+            },
+            {
+              "id": "indicadores-sociais-e-pib-melhoraram-com-lula-bolsonaro-controlou-d-vida-uol-economiauol-e",
+              "title": "Indicadores sociais e PIB melhoraram com Lula; Bolsonaro controlou dívida - UOL Economia",
               "score": 0
             }
           ],
@@ -34,64 +61,48 @@
         {
           "term": "scott eastwood",
           "source": "Google Trends",
-          "position": 3,
-          "movement": "→",
+          "position": 5,
+          "movement": "↓",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
           "term": "fatima gavioli",
           "source": "Google Trends",
-          "position": 4,
-          "movement": "→",
+          "position": 6,
+          "movement": "↓",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
           "term": "feriados novembro",
           "source": "Google Trends",
-          "position": 5,
-          "movement": "→",
+          "position": 7,
+          "movement": "↓",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
           "term": "halloween",
           "source": "Google Trends",
-          "position": 6,
-          "movement": "→",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
-        },
-        {
-          "term": "show bts",
-          "source": "Google Trends",
-          "position": 7,
-          "movement": "→",
+          "position": 8,
+          "movement": "↓",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
           "term": "pokemon unite",
           "source": "Google Trends",
-          "position": 8,
-          "movement": "→",
+          "position": 9,
+          "movement": "↓",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
           "term": "boletim",
           "source": "Google Trends",
-          "position": 9,
-          "movement": "→",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
-        },
-        {
-          "term": "taxa das blusinhas",
-          "source": "Google Trends",
           "position": 10,
-          "movement": "→",
+          "movement": "↓",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         }
@@ -191,8 +202,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 1,
-    "withoutRadar": 9,
+    "withRadar": 2,
+    "withoutRadar": 8,
     "highPriorityOutsideTrends": 16
   }
 }

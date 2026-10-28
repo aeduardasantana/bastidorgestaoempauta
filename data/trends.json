@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T12:34:31.732134+00:00",
+  "updatedAt": "2026-10-28T15:35:32.347871+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "downdetector",
+          "term": "novak djokovic",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,91 +18,74 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "yuri alberto",
+          "term": "quem ama cuida?",
           "source": "Google Trends",
           "position": 2,
-          "movement": "↓",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "eleições israel",
+          "term": "anistia",
           "source": "Google Trends",
           "position": 3,
-          "movement": "↓",
-          "relatedClusters": [
-            {
-              "id": "secret-rio-de-mobilidade-de-salvador-fala-sobre-redu-o-da-frota-nas-elei-es-e-pedido-de-pr",
-              "title": "Secretário de Mobilidade de Salvador fala sobre redução da frota nas eleições e pedido de prisão - R7",
-              "score": 0
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "movement": "NOVO",
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "flávio bolsonaro lula",
+          "term": "downdetector",
           "source": "Google Trends",
           "position": 4,
-          "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "como-est-argentina-de-milei-que-inspira-campanha-de-fl-vio-sbt-newssbt-news",
-              "title": "Como está Argentina de Milei, que inspira campanha de Flávio - SBT News",
-              "score": 0
-            },
-            {
-              "id": "indicadores-sociais-e-pib-melhoraram-com-lula-bolsonaro-controlou-d-vida-uol-economiauol-e",
-              "title": "Indicadores sociais e PIB melhoraram com Lula; Bolsonaro controlou dívida - UOL Economia",
-              "score": 0
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "movement": "↓",
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "scott eastwood",
+          "term": "carlos vinicius",
           "source": "Google Trends",
           "position": 5,
-          "movement": "↓",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "fatima gavioli",
+          "term": "rodovia padre manoel da nóbrega",
           "source": "Google Trends",
           "position": 6,
-          "movement": "↓",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "feriados novembro",
+          "term": "camboja",
           "source": "Google Trends",
           "position": 7,
-          "movement": "↓",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "halloween",
+          "term": "santiago caputo",
           "source": "Google Trends",
           "position": 8,
-          "movement": "↓",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "pokemon unite",
+          "term": "movi3",
           "source": "Google Trends",
           "position": 9,
-          "movement": "↓",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "boletim",
+          "term": "aliquota cbs",
           "source": "Google Trends",
           "position": 10,
-          "movement": "↓",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         }
@@ -116,7 +99,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 16,
+    "count": 15,
     "items": [
       {
         "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
@@ -134,6 +117,11 @@
         "score": 100
       },
       {
+        "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
+        "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
+        "score": 90
+      },
+      {
         "id": "supermercado-anuncia-corte-de-3-mil-empregos-e-amplia-uso-de-intelig-ncia-artificial-ag-nc",
         "title": "Supermercado anuncia corte de 3 mil empregos e amplia uso de inteligência artificial - Agência GBC",
         "score": 90
@@ -149,23 +137,23 @@
         "score": 90
       },
       {
+        "id": "brasil-supera-62-mil-academias-em-dez-anos-de-expansa-o-pequenas-empresas-grandes-neg-cios",
+        "title": "Brasil supera 62 mil academias em dez anos de expansão - Pequenas Empresas & Grandes Negócios",
+        "score": 90
+      },
+      {
+        "id": "tja-aposta-na-creator-economy-e-amplia-expansa-o-internacional-pequenas-empresas-grandes-n",
+        "title": "TJA aposta na creator economy e amplia expansão internacional - Pequenas Empresas & Grandes Negócios",
+        "score": 90
+      },
+      {
         "id": "assembleia-geral-aprova-aumento-real-e-renova-o-de-direitos-para-mais-1-830-metal-rgicos-s",
         "title": "Assembleia geral aprova aumento real e renovação de direitos para mais 1.830 metalúrgicos - Sindicato dos Metalúrgicos de São José dos Campos",
         "score": 90
       },
       {
-        "id": "amazon-cuts-nearly-1-000-jobs-in-latest-layoffs-impacting-teams-in-india-and-uk-people-mat",
-        "title": "Amazon cuts nearly 1,000 jobs in latest layoffs, impacting teams in India and UK - People Matters - HR News",
-        "score": 90
-      },
-      {
-        "id": "greve-na-caixa-o-que-a-contraf-cut-disse-ao-tst-em-defesa-dos-empregados-sindicarionetsind",
-        "title": "Greve na Caixa: o que a Contraf-CUT disse ao TST em defesa dos empregados - SindicarioNET",
-        "score": 90
-      },
-      {
-        "id": "rodovi-rios-fecham-acordo-com-secretaria-e-suspendem-greve-gps-bras-liagps-bras-lia",
-        "title": "Rodoviários fecham acordo com Secretaria e suspendem greve - GPS Brasília",
+        "id": "tst-julga-greve-da-caixa-leg-tima-e-barra-desconto-dos-dias-parados-poder360poder360",
+        "title": "TST julga greve da Caixa legítima e barra desconto dos dias parados - Poder360",
         "score": 90
       },
       {
@@ -174,36 +162,26 @@
         "score": 80
       },
       {
+        "id": "fim-da-escala-6x1-entenda-a-mudan-a-na-jornada-e-os-pr-ximos-passos-para-a-regulamenta-o-g",
+        "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
+        "score": 80
+      },
+      {
+        "id": "grupo-escalada-amplia-operac-a-o-apo-s-crescer-com-vendedores-digitais-pequenas-empresas-g",
+        "title": "Grupo Escalada amplia operação após crescer com vendedores digitais - Pequenas Empresas & Grandes Negócios",
+        "score": 80
+      },
+      {
         "id": "skydance-corp-signals-layoffs-as-paramount-warner-bros-discovery-merger-closes-people-matt",
         "title": "Skydance Corp signals layoffs as Paramount-Warner Bros. Discovery merger closes - People Matters - HR News",
-        "score": 80
-      },
-      {
-        "id": "a-saga-da-paramount-para-levantar-us-52-bilh-es-em-d-vida-para-a-fus-o-com-a-warner-bloomb",
-        "title": "A saga da Paramount para levantar US$ 52 bilhões em dívida para a fusão com a Warner - Bloomberg Línea Brasil",
-        "score": 80
-      },
-      {
-        "id": "kotak-mahindra-bank-appoints-anup-kumar-saha-as-ceo-succeeding-ashok-vaswani-people-matter",
-        "title": "Kotak Mahindra Bank appoints Anup Kumar Saha as CEO, succeeding Ashok Vaswani - People Matters - HR News",
-        "score": 80
-      },
-      {
-        "id": "m-dia-enxerga-opera-o-de-m-a-como-acelerador-de-crescimento-e-valoriza-o-do-neg-cio-pequen",
-        "title": "Média enxerga operação de M&A como acelerador de crescimento e valorização do negócio - Pequenas Empresas & Grandes Negócios",
-        "score": 80
-      },
-      {
-        "id": "empregos-globais-como-a-ia-mudou-o-recrutamento-de-trabalhadores-na-am-rica-latina-bloombe",
-        "title": "Empregos globais: como a IA mudou o recrutamento de trabalhadores na América Latina - Bloomberg Línea Brasil",
         "score": 80
       }
     ]
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 2,
-    "withoutRadar": 8,
-    "highPriorityOutsideTrends": 16
+    "withRadar": 0,
+    "withoutRadar": 10,
+    "highPriorityOutsideTrends": 15
   }
 }

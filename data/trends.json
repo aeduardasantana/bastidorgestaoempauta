@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T15:35:32.347871+00:00",
+  "updatedAt": "2026-10-29T15:43:30.576684+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "novak djokovic",
+          "term": "meghan, duquesa de sussex",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,15 +18,41 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "quem ama cuida?",
+          "term": "polícia civil do estado da paraíba",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "megaf-brica-de-celulose-em-ms-chega-a-81-das-obras-e-prev-opera-o-em-2027-correio-do-estad",
+              "title": "Megafábrica de celulose em MS chega a 81% das obras e prevê operação em 2027 - Correio do Estado",
+              "score": 70
+            },
+            {
+              "id": "cr-ditos-presumidos-de-icms-decis-o-do-stf-representa-avan-o-para-empresas-e-refor-a-limit",
+              "title": "Créditos presumidos de ICMS: decisão do STF representa avanço para empresas e reforça limites da tributação federal - O Bom da Notícia",
+              "score": 40
+            },
+            {
+              "id": "bilh-es-descontos-e-informa-es-o-que-est-por-tr-s-da-guerra-do-delivery-uol-economiauol-ec",
+              "title": "Bilhões, descontos e informações: o que está por trás da guerra do delivery - UOL Economia",
+              "score": 40
+            },
+            {
+              "id": "refis-2026-aprovado-na-assembleia-programa-do-governo-do-cear-para-parcelamento-e-anistia-",
+              "title": "Refis 2026: aprovado na Assembleia programa do Governo do Ceará para parcelamento e anistia de débitos fiscais - Governo do Estado do Ceará",
+              "score": 20
+            },
+            {
+              "id": "alepe-aprova-descontos-de-at-100-em-juros-e-multas-na-renegocia-o-de-d-vidas-assembleia-le",
+              "title": "Alepe aprova descontos de até 100% em juros e multas na renegociação de dívidas - Assembleia Legislativa do Estado de Pernambuco",
+              "score": 10
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "anistia",
+          "term": "al khaleej saihat al hazm 29/10/2026",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,15 +60,26 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "downdetector",
+          "term": "grande prêmio do méxico",
           "source": "Google Trends",
           "position": 4,
-          "movement": "↓",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "movement": "NOVO",
+          "relatedClusters": [
+            {
+              "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
+              "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
+              "score": 90
+            },
+            {
+              "id": "governo-de-ms-estuda-aumento-do-icms-e-pacote-fiscal-campo-grande-newscampo-grande-news",
+              "title": "Governo de MS estuda aumento do ICMS e pacote fiscal - Campo Grande News",
+              "score": 40
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "carlos vinicius",
+          "term": "ilyushin il-76",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +87,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "rodovia padre manoel da nóbrega",
+          "term": "jeffery simmons",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +95,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "camboja",
+          "term": "menino",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +103,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "santiago caputo",
+          "term": "lavagem de dinheiro",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,15 +111,21 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "movi3",
+          "term": "enquete uol fazenda 18",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "-garoto-prod-gio-rafael-fonteles-vira-aposta-do-mercado-para-a-fazenda-r7r7",
+              "title": "‘Garoto prodígio’, Rafael Fonteles vira aposta do mercado para a Fazenda - R7",
+              "score": 0
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "aliquota cbs",
+          "term": "david walliams",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -99,7 +142,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 15,
+    "count": 19,
     "items": [
       {
         "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
@@ -117,18 +160,13 @@
         "score": 100
       },
       {
-        "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
-        "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
-        "score": 90
+        "id": "julgamento-no-tst-defesa-do-movimento-sindical-reduz-perdas-no-diss-dio-mas-caixa-economiz",
+        "title": "JULGAMENTO NO TST: Defesa do movimento sindical reduz perdas no dissídio, mas Caixa economiza bilhões - Sindicato dos Bancários de Cascavel",
+        "score": 100
       },
       {
-        "id": "supermercado-anuncia-corte-de-3-mil-empregos-e-amplia-uso-de-intelig-ncia-artificial-ag-nc",
-        "title": "Supermercado anuncia corte de 3 mil empregos e amplia uso de inteligência artificial - Agência GBC",
-        "score": 90
-      },
-      {
-        "id": "com-230-lojas-rede-de-cafeterias-muda-estrat-gia-de-expans-o-para-chegar-aos-r-115-milh-es",
-        "title": "Com 230 lojas, rede de cafeterias muda estratégia de expansão para chegar aos R$ 115 milhões - Exame",
+        "id": "vigilantes-do-piau-v-o-votar-autoriza-o-para-greve-nesta-quinta-e-sexta-portal-azportal-az",
+        "title": "Vigilantes do Piauí vão votar autorização para greve nesta quinta e sexta - Portal AZ",
         "score": 90
       },
       {
@@ -142,6 +180,11 @@
         "score": 90
       },
       {
+        "id": "ita-coe-cobra-amplia-o-de-indeniza-o-por-fechamento-de-ag-ncias-e-avan-os-na-renova-o-do-a",
+        "title": "Itaú: COE cobra ampliação de indenização por fechamento de agências e avanços na renovação do ACT - Contraf-CUT",
+        "score": 90
+      },
+      {
         "id": "tja-aposta-na-creator-economy-e-amplia-expansa-o-internacional-pequenas-empresas-grandes-n",
         "title": "TJA aposta na creator economy e amplia expansão internacional - Pequenas Empresas & Grandes Negócios",
         "score": 90
@@ -152,9 +195,29 @@
         "score": 90
       },
       {
-        "id": "tst-julga-greve-da-caixa-leg-tima-e-barra-desconto-dos-dias-parados-poder360poder360",
-        "title": "TST julga greve da Caixa legítima e barra desconto dos dias parados - Poder360",
+        "id": "amazon-cuts-nearly-1-000-jobs-in-latest-layoffs-impacting-teams-in-india-and-uk-people-mat",
+        "title": "Amazon cuts nearly 1,000 jobs in latest layoffs, impacting teams in India and UK - People Matters - HR News",
         "score": 90
+      },
+      {
+        "id": "ag-ncia-de-comunica-o-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos-",
+        "title": "Agência de Comunicação - A RADIUS GLOBAL INFRASTRUCTURE INAUGURA NOVA FASE NOS INVESTIMENTOS EM INFRAESTRUTURA DIGITAL E INTEGRA A APWBRASIL À MARCA GLOBAL - Estadão Blue Studio",
+        "score": 80
+      },
+      {
+        "id": "gigante-chinesa-escolhe-cidade-do-brasil-para-f-brica-de-r-535-milh-es-a-tardea-tarde",
+        "title": "Gigante chinesa escolhe cidade do Brasil para fábrica de R$ 535 milhões - A TARDE",
+        "score": 80
+      },
+      {
+        "id": "processo-seletivo-para-contrata-o-de-assistente-t-cnico-minist-rio-das-rela-es-exteriores-",
+        "title": "Processo seletivo para contratação de assistente técnico — Ministério das Relações Exteriores - www.gov.br",
+        "score": 80
+      },
+      {
+        "id": "nlb-services-appoints-dr-varun-sachdeva-as-ceo-india-business-people-matters-hr-newspeople",
+        "title": "NLB Services appoints Dr Varun Sachdeva as CEO, India business - People Matters - HR News",
+        "score": 80
       },
       {
         "id": "-until-today-it-s-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-",
@@ -180,8 +243,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 0,
-    "withoutRadar": 10,
-    "highPriorityOutsideTrends": 15
+    "withRadar": 3,
+    "withoutRadar": 7,
+    "highPriorityOutsideTrends": 19
   }
 }

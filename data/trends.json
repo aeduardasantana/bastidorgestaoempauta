@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T15:43:30.576684+00:00",
+  "updatedAt": "2026-10-30T15:27:29.543443+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "meghan, duquesa de sussex",
+          "term": "aviação militar",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,41 +18,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "polícia civil do estado da paraíba",
+          "term": "carlos alcaraz",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "megaf-brica-de-celulose-em-ms-chega-a-81-das-obras-e-prev-opera-o-em-2027-correio-do-estad",
-              "title": "Megafábrica de celulose em MS chega a 81% das obras e prevê operação em 2027 - Correio do Estado",
-              "score": 70
-            },
-            {
-              "id": "cr-ditos-presumidos-de-icms-decis-o-do-stf-representa-avan-o-para-empresas-e-refor-a-limit",
-              "title": "Créditos presumidos de ICMS: decisão do STF representa avanço para empresas e reforça limites da tributação federal - O Bom da Notícia",
-              "score": 40
-            },
-            {
-              "id": "bilh-es-descontos-e-informa-es-o-que-est-por-tr-s-da-guerra-do-delivery-uol-economiauol-ec",
-              "title": "Bilhões, descontos e informações: o que está por trás da guerra do delivery - UOL Economia",
-              "score": 40
-            },
-            {
-              "id": "refis-2026-aprovado-na-assembleia-programa-do-governo-do-cear-para-parcelamento-e-anistia-",
-              "title": "Refis 2026: aprovado na Assembleia programa do Governo do Ceará para parcelamento e anistia de débitos fiscais - Governo do Estado do Ceará",
-              "score": 20
-            },
-            {
-              "id": "alepe-aprova-descontos-de-at-100-em-juros-e-multas-na-renegocia-o-de-d-vidas-assembleia-le",
-              "title": "Alepe aprova descontos de até 100% em juros e multas na renegociação de dívidas - Assembleia Legislativa do Estado de Pernambuco",
-              "score": 10
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "al khaleej saihat al hazm 29/10/2026",
+          "term": "xabi alonso",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -60,26 +34,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "grande prêmio do méxico",
+          "term": "pgl masters bucharest 2026",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
-              "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
-              "score": 90
-            },
-            {
-              "id": "governo-de-ms-estuda-aumento-do-icms-e-pacote-fiscal-campo-grande-newscampo-grande-news",
-              "title": "Governo de MS estuda aumento do ICMS e pacote fiscal - Campo Grande News",
-              "score": 40
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ilyushin il-76",
+          "term": "meteoritos de marte",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -87,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "jeffery simmons",
+          "term": "boca de 09",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -95,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "menino",
+          "term": "dorival júnior",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -103,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "lavagem de dinheiro",
+          "term": "hyrox",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -111,26 +74,46 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "enquete uol fazenda 18",
+          "term": "rani3",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "-garoto-prod-gio-rafael-fonteles-vira-aposta-do-mercado-para-a-fazenda-r7r7",
-              "title": "‘Garoto prodígio’, Rafael Fonteles vira aposta do mercado para a Fazenda - R7",
-              "score": 0
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "david walliams",
+          "term": "quando é a black friday",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "sa-de-mental-entra-na-linha-de-produ-o-e-desafia-ind-strias-a-mudar-a-gest-o-do-trabalho-a",
+              "title": "Saúde mental entra na linha de produção e desafia indústrias a mudar a gestão do trabalho - A Redação",
+              "score": 100
+            },
+            {
+              "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
+              "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
+              "score": 90
+            },
+            {
+              "id": "ag-ncia-de-comunica-o-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos-",
+              "title": "Agência de Comunicação - A RADIUS GLOBAL INFRASTRUCTURE INAUGURA NOVA FASE NOS INVESTIMENTOS EM INFRAESTRUTURA DIGITAL E INTEGRA A APWBRASIL À MARCA GLOBAL - Estadão Blue Studio",
+              "score": 80
+            },
+            {
+              "id": "fim-da-escala-6x1-entenda-a-mudan-a-na-jornada-e-os-pr-ximos-passos-para-a-regulamenta-o-g",
+              "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
+              "score": 80
+            },
+            {
+              "id": "megaf-brica-de-celulose-em-ms-chega-a-81-das-obras-e-prev-opera-o-em-2027-correio-do-estad",
+              "title": "Megafábrica de celulose em MS chega a 81% das obras e prevê operação em 2027 - Correio do Estado",
+              "score": 70
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         }
       ]
     }
@@ -142,8 +125,13 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 19,
+    "count": 14,
     "items": [
+      {
+        "id": "sa-de-mental-entra-na-linha-de-produ-o-e-desafia-ind-strias-a-mudar-a-gest-o-do-trabalho-a",
+        "title": "Saúde mental entra na linha de produção e desafia indústrias a mudar a gestão do trabalho - A Redação",
+        "score": 100
+      },
       {
         "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
         "title": "Sindicato convoca trabalhadores da alimentação para assembleia sobre negociação coletiva e possível greve - RCN 67",
@@ -160,9 +148,9 @@
         "score": 100
       },
       {
-        "id": "julgamento-no-tst-defesa-do-movimento-sindical-reduz-perdas-no-diss-dio-mas-caixa-economiz",
-        "title": "JULGAMENTO NO TST: Defesa do movimento sindical reduz perdas no dissídio, mas Caixa economiza bilhões - Sindicato dos Bancários de Cascavel",
-        "score": 100
+        "id": "franquias-querem-acelerar-expans-o-mas-custos-juros-e-falta-de-m-o-de-obra-amea-am-rentabi",
+        "title": "Franquias querem acelerar expansão, mas custos, juros e falta de mão de obra ameaçam rentabilidade - Pequenas Empresas & Grandes Negócios",
+        "score": 90
       },
       {
         "id": "vigilantes-do-piau-v-o-votar-autoriza-o-para-greve-nesta-quinta-e-sexta-portal-azportal-az",
@@ -170,33 +158,18 @@
         "score": 90
       },
       {
-        "id": "ia-e-automa-o-mudam-perfil-das-profiss-es-e-exigem-requalifica-o-de-trabalhadores-portal-i",
-        "title": "IA e automação mudam perfil das profissões e exigem requalificação de trabalhadores - Portal IPNews",
+        "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
+        "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
         "score": 90
       },
       {
-        "id": "brasil-supera-62-mil-academias-em-dez-anos-de-expansa-o-pequenas-empresas-grandes-neg-cios",
-        "title": "Brasil supera 62 mil academias em dez anos de expansão - Pequenas Empresas & Grandes Negócios",
-        "score": 90
-      },
-      {
-        "id": "ita-coe-cobra-amplia-o-de-indeniza-o-por-fechamento-de-ag-ncias-e-avan-os-na-renova-o-do-a",
-        "title": "Itaú: COE cobra ampliação de indenização por fechamento de agências e avanços na renovação do ACT - Contraf-CUT",
-        "score": 90
-      },
-      {
-        "id": "tja-aposta-na-creator-economy-e-amplia-expansa-o-internacional-pequenas-empresas-grandes-n",
-        "title": "TJA aposta na creator economy e amplia expansão internacional - Pequenas Empresas & Grandes Negócios",
+        "id": "com-230-lojas-rede-de-cafeterias-muda-estrat-gia-de-expans-o-para-chegar-aos-r-115-milh-es",
+        "title": "Com 230 lojas, rede de cafeterias muda estratégia de expansão para chegar aos R$ 115 milhões - Exame",
         "score": 90
       },
       {
         "id": "assembleia-geral-aprova-aumento-real-e-renova-o-de-direitos-para-mais-1-830-metal-rgicos-s",
         "title": "Assembleia geral aprova aumento real e renovação de direitos para mais 1.830 metalúrgicos - Sindicato dos Metalúrgicos de São José dos Campos",
-        "score": 90
-      },
-      {
-        "id": "amazon-cuts-nearly-1-000-jobs-in-latest-layoffs-impacting-teams-in-india-and-uk-people-mat",
-        "title": "Amazon cuts nearly 1,000 jobs in latest layoffs, impacting teams in India and UK - People Matters - HR News",
         "score": 90
       },
       {
@@ -215,36 +188,21 @@
         "score": 80
       },
       {
-        "id": "nlb-services-appoints-dr-varun-sachdeva-as-ceo-india-business-people-matters-hr-newspeople",
-        "title": "NLB Services appoints Dr Varun Sachdeva as CEO, India business - People Matters - HR News",
-        "score": 80
-      },
-      {
-        "id": "-until-today-it-s-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-",
-        "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters - HR News",
+        "id": "contratar-mais-funcion-rios-ou-pagar-hora-extra-a-conta-para-se-adaptar-ao-fim-da-escala-6",
+        "title": "Contratar mais funcionários ou pagar hora extra? A conta para se adaptar ao fim da escala 6x1 - Exame",
         "score": 80
       },
       {
         "id": "fim-da-escala-6x1-entenda-a-mudan-a-na-jornada-e-os-pr-ximos-passos-para-a-regulamenta-o-g",
         "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
         "score": 80
-      },
-      {
-        "id": "grupo-escalada-amplia-operac-a-o-apo-s-crescer-com-vendedores-digitais-pequenas-empresas-g",
-        "title": "Grupo Escalada amplia operação após crescer com vendedores digitais - Pequenas Empresas & Grandes Negócios",
-        "score": 80
-      },
-      {
-        "id": "skydance-corp-signals-layoffs-as-paramount-warner-bros-discovery-merger-closes-people-matt",
-        "title": "Skydance Corp signals layoffs as Paramount-Warner Bros. Discovery merger closes - People Matters - HR News",
-        "score": 80
       }
     ]
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 3,
-    "withoutRadar": 7,
-    "highPriorityOutsideTrends": 19
+    "withRadar": 1,
+    "withoutRadar": 9,
+    "highPriorityOutsideTrends": 14
   }
 }

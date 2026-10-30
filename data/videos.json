@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-10-30",
   "items": [
     {
       "id": "yt-NCpLyoe-KAI",
@@ -20,30 +20,6 @@
       "angle": "Verificar se o vídeo confirma uma declaração, apresenta análise ou apenas repercute o tema. Não usar título, corte ou comentário como prova do fato.",
       "query": "NR-1 AEP riscos psicossociais empresas",
       "duration": "54s",
-      "use": {
-        "label": "Usar apenas após assistir ao conteúdo e identificar o tipo de canal.",
-        "alert": "Não reproduzir vídeo, trecho, transcrição, imagem ou miniatura de terceiro sem autorização."
-      }
-    },
-    {
-      "id": "yt-8lBV14tE57M",
-      "videoId": "8lBV14tE57M",
-      "title": "ARP não é AEP  #SESMT #Ergonomia #NR17 #NR1 #RiscosPsicossociais #AEP #ARP #segurançadotrabalho",
-      "source": "Dra. Verônica - SESMT de Valor",
-      "channelId": "UCSuXAuOgeqQCn7-yZJudWXg",
-      "date": "2026-10-15",
-      "url": "https://www.youtube.com/watch?v=8lBV14tE57M",
-      "agenda": "NR-1 / AEP",
-      "impact": "Risco jurídico/regulatório",
-      "scope": "Nacional",
-      "territory": "Brasil",
-      "evidence": "Repercussão jornalística",
-      "sourceType": "Canal jornalístico - validar",
-      "score": 5,
-      "summary": "Vídeo localizado no YouTube. Confira o canal e assista ao conteúdo antes de usar qualquer declaração como fonte.",
-      "angle": "Verificar se o vídeo confirma uma declaração, apresenta análise ou apenas repercute o tema. Não usar título, corte ou comentário como prova do fato.",
-      "query": "NR-1 AEP riscos psicossociais empresas",
-      "duration": "1min 38s",
       "use": {
         "label": "Usar apenas após assistir ao conteúdo e identificar o tipo de canal.",
         "alert": "Não reproduzir vídeo, trecho, transcrição, imagem ou miniatura de terceiro sem autorização."

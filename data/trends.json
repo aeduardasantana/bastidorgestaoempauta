@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T15:27:29.543443+00:00",
+  "updatedAt": "2026-11-02T18:56:10.363284+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "aviação militar",
+          "term": "lebron james",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "carlos alcaraz",
+          "term": "br-153",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "xabi alonso",
+          "term": "iran",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "pgl masters bucharest 2026",
+          "term": "goleiro",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "meteoritos de marte",
+          "term": "irã",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "boca de 09",
+          "term": "marinha",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "dorival júnior",
+          "term": "ira",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "hyrox",
+          "term": "al ittihad",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "rani3",
+          "term": "estocar comida e agua",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,38 +82,12 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "quando é a black friday",
+          "term": "al ahly",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "sa-de-mental-entra-na-linha-de-produ-o-e-desafia-ind-strias-a-mudar-a-gest-o-do-trabalho-a",
-              "title": "Saúde mental entra na linha de produção e desafia indústrias a mudar a gestão do trabalho - A Redação",
-              "score": 100
-            },
-            {
-              "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
-              "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
-              "score": 90
-            },
-            {
-              "id": "ag-ncia-de-comunica-o-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos-",
-              "title": "Agência de Comunicação - A RADIUS GLOBAL INFRASTRUCTURE INAUGURA NOVA FASE NOS INVESTIMENTOS EM INFRAESTRUTURA DIGITAL E INTEGRA A APWBRASIL À MARCA GLOBAL - Estadão Blue Studio",
-              "score": 80
-            },
-            {
-              "id": "fim-da-escala-6x1-entenda-a-mudan-a-na-jornada-e-os-pr-ximos-passos-para-a-regulamenta-o-g",
-              "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
-              "score": 80
-            },
-            {
-              "id": "megaf-brica-de-celulose-em-ms-chega-a-81-das-obras-e-prev-opera-o-em-2027-correio-do-estad",
-              "title": "Megafábrica de celulose em MS chega a 81% das obras e prevê operação em 2027 - Correio do Estado",
-              "score": 70
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         }
       ]
     }
@@ -125,13 +99,8 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 14,
+    "count": 20,
     "items": [
-      {
-        "id": "sa-de-mental-entra-na-linha-de-produ-o-e-desafia-ind-strias-a-mudar-a-gest-o-do-trabalho-a",
-        "title": "Saúde mental entra na linha de produção e desafia indústrias a mudar a gestão do trabalho - A Redação",
-        "score": 100
-      },
       {
         "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
         "title": "Sindicato convoca trabalhadores da alimentação para assembleia sobre negociação coletiva e possível greve - RCN 67",
@@ -143,9 +112,9 @@
         "score": 100
       },
       {
-        "id": "greve-na-bacia-de-campos-suspensa-enquanto-trabalhadores-e-empresas-negociam-nova-proposta",
-        "title": "Greve na Bacia de Campos é suspensa enquanto trabalhadores e empresas negociam nova proposta - Clique Diário",
-        "score": 100
+        "id": "google-s-workforce-expansion-contrasts-with-layoffs-across-technology-sector-bw-peoplebw-p",
+        "title": "Google’s Workforce Expansion Contrasts With Layoffs Across Technology Sector - BW People",
+        "score": 90
       },
       {
         "id": "franquias-querem-acelerar-expans-o-mas-custos-juros-e-falta-de-m-o-de-obra-amea-am-rentabi",
@@ -158,13 +127,28 @@
         "score": 90
       },
       {
-        "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
-        "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
+        "id": "ebay-to-cut-9-of-workforce-in-restructuring-bw-peoplebw-people",
+        "title": "eBay To Cut 9% Of Workforce In Restructuring - BW People",
         "score": 90
       },
       {
-        "id": "com-230-lojas-rede-de-cafeterias-muda-estrat-gia-de-expans-o-para-chegar-aos-r-115-milh-es",
-        "title": "Com 230 lojas, rede de cafeterias muda estratégia de expansão para chegar aos R$ 115 milhões - Exame",
+        "id": "ia-e-automa-o-mudam-perfil-das-profiss-es-e-exigem-requalifica-o-de-trabalhadores-portal-i",
+        "title": "IA e automação mudam perfil das profissões e exigem requalificação de trabalhadores - Portal IPNews",
+        "score": 90
+      },
+      {
+        "id": "jornada-de-40-horas-e-escala-5-2-conquista-e-desafios-r-dio-pe-o-brasilr-dio-pe-o-brasil",
+        "title": "Jornada de 40 horas e escala 5×2: conquista e desafios - Rádio Peão Brasil",
+        "score": 90
+      },
+      {
+        "id": "bb-o-valor-da-negocia-o-coletiva-banc-rios-dfbanc-rios-df",
+        "title": "BB: o valor da negociação coletiva - Bancários-DF",
+        "score": 90
+      },
+      {
+        "id": "acordo-encerra-estado-de-greve-no-hospital-geral-de-carapicu-ba-correio-paulistacorreio-pa",
+        "title": "Acordo encerra estado de greve no Hospital Geral de Carapicuíba - Correio Paulista",
         "score": 90
       },
       {
@@ -188,21 +172,41 @@
         "score": 80
       },
       {
-        "id": "contratar-mais-funcion-rios-ou-pagar-hora-extra-a-conta-para-se-adaptar-ao-fim-da-escala-6",
-        "title": "Contratar mais funcionários ou pagar hora extra? A conta para se adaptar ao fim da escala 6x1 - Exame",
+        "id": "nlb-services-appoints-dr-varun-sachdeva-as-ceo-india-business-people-matters-hr-newspeople",
+        "title": "NLB Services appoints Dr Varun Sachdeva as CEO, India business - People Matters - HR News",
+        "score": 80
+      },
+      {
+        "id": "-until-today-it-s-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-",
+        "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters - HR News",
         "score": 80
       },
       {
         "id": "fim-da-escala-6x1-entenda-a-mudan-a-na-jornada-e-os-pr-ximos-passos-para-a-regulamenta-o-g",
         "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
         "score": 80
+      },
+      {
+        "id": "netflix-reportedly-set-to-restructure-and-trim-global-workforce-by-5-netflix-junkienetflix",
+        "title": "Netflix Reportedly Set to Restructure and Trim Global Workforce by 5% - Netflix Junkie",
+        "score": 80
+      },
+      {
+        "id": "skydance-corp-signals-layoffs-as-paramount-warner-bros-discovery-merger-closes-people-matt",
+        "title": "Skydance Corp signals layoffs as Paramount-Warner Bros. Discovery merger closes - People Matters - HR News",
+        "score": 80
+      },
+      {
+        "id": "a-saga-da-paramount-para-levantar-us-52-bilh-es-em-d-vida-para-a-fus-o-com-a-warner-bloomb",
+        "title": "A saga da Paramount para levantar US$ 52 bilhões em dívida para a fusão com a Warner - Bloomberg Línea Brasil",
+        "score": 80
       }
     ]
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 1,
-    "withoutRadar": 9,
-    "highPriorityOutsideTrends": 14
+    "withRadar": 0,
+    "withoutRadar": 10,
+    "highPriorityOutsideTrends": 20
   }
 }

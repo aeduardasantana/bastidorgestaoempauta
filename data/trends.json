@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T18:56:10.363284+00:00",
+  "updatedAt": "2026-11-03T16:42:05.444101+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,15 +10,41 @@
       "error": null,
       "items": [
         {
-          "term": "lebron james",
+          "term": "ministério da gestão e da inovação em serviços públicos",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
+              "title": "Sindicato convoca trabalhadores da alimentação para assembleia sobre negociação coletiva e possível greve - RCN 67",
+              "score": 100
+            },
+            {
+              "id": "ag-ncia-de-comunica-o-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos-",
+              "title": "Agência de Comunicação - A RADIUS GLOBAL INFRASTRUCTURE INAUGURA NOVA FASE NOS INVESTIMENTOS EM INFRAESTRUTURA DIGITAL E INTEGRA A APWBRASIL À MARCA GLOBAL - Estadão Blue Studio",
+              "score": 80
+            },
+            {
+              "id": "processo-seletivo-para-contrata-o-de-assistente-t-cnico-minist-rio-das-rela-es-exteriores-",
+              "title": "Processo seletivo para contratação de assistente técnico — Ministério das Relações Exteriores - www.gov.br",
+              "score": 80
+            },
+            {
+              "id": "a-saga-da-paramount-para-levantar-us-52-bilh-es-em-d-vida-para-a-fus-o-com-a-warner-bloomb",
+              "title": "A saga da Paramount para levantar US$ 52 bilhões em dívida para a fusão com a Warner - Bloomberg Línea Brasil",
+              "score": 80
+            },
+            {
+              "id": "minist-rio-do-trabalho-recebe-mais-de-4-3-mil-den-ncias-de-ass-dio-eleitoral-em-apenas-tr-",
+              "title": "Ministério do Trabalho recebe mais de 4,3 mil denúncias de assédio eleitoral em apenas três dias - Pequenas Empresas & Grandes Negócios",
+              "score": 50
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "br-153",
+          "term": "gerdau",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +52,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "iran",
+          "term": "the elder scrolls vi",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,15 +60,31 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "goleiro",
+          "term": "agência nacional de telecomunicações",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "ag-ncia-de-comunica-o-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos-",
+              "title": "Agência de Comunicação - A RADIUS GLOBAL INFRASTRUCTURE INAUGURA NOVA FASE NOS INVESTIMENTOS EM INFRAESTRUTURA DIGITAL E INTEGRA A APWBRASIL À MARCA GLOBAL - Estadão Blue Studio",
+              "score": 80
+            },
+            {
+              "id": "1-uni-o-minist-rio-de-portos-e-aeroportos-mpor-ag-ncia-nacional-de-transportes-aquavi-rios",
+              "title": "1 UNIÃO MINISTÉRIO DE PORTOS E AEROPORTOS - MPOR AGÊNCIA NACIONAL DE TRANSPORTES AQUAVIÁRIOS – ANTAQ EDITAL LEILÃO Nº 05 - www.gov.br",
+              "score": 40
+            },
+            {
+              "id": "seu-direito-ap-s-a-promulga-o-do-fim-da-escala-6x1-pelo-congresso-nacional-na-ltima-sexta-",
+              "title": "SEU DIREITO | Após a promulgação do fim da escala 6x1 pelo Congresso Nacional, na última sexta-feira (16), líderes sindicais de Goiás temem o risco de empresas e sindicatos patronais usarem manobras para manter a escala com seis dias de trabalho. O - Instagram",
+              "score": 30
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "irã",
+          "term": "rockstar",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +92,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "marinha",
+          "term": "north",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +100,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ira",
+          "term": "michel salgado",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +108,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "al ittihad",
+          "term": "gabarito ufpr 2027",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +116,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "estocar comida e agua",
+          "term": "djokovic",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,7 +124,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "al ahly",
+          "term": "valentin vacherot",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -99,7 +141,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 20,
+    "count": 18,
     "items": [
       {
         "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
@@ -112,6 +154,11 @@
         "score": 100
       },
       {
+        "id": "gigante-automotiva-investe-bilh-es-e-prev-2-mil-novos-empregos-a-tardea-tarde",
+        "title": "Gigante automotiva investe bilhões e prevê 2 mil novos empregos - A TARDE",
+        "score": 90
+      },
+      {
         "id": "google-s-workforce-expansion-contrasts-with-layoffs-across-technology-sector-bw-peoplebw-p",
         "title": "Google’s Workforce Expansion Contrasts With Layoffs Across Technology Sector - BW People",
         "score": 90
@@ -122,18 +169,18 @@
         "score": 90
       },
       {
-        "id": "vigilantes-do-piau-v-o-votar-autoriza-o-para-greve-nesta-quinta-e-sexta-portal-azportal-az",
-        "title": "Vigilantes do Piauí vão votar autorização para greve nesta quinta e sexta - Portal AZ",
-        "score": 90
-      },
-      {
-        "id": "ebay-to-cut-9-of-workforce-in-restructuring-bw-peoplebw-people",
-        "title": "eBay To Cut 9% Of Workforce In Restructuring - BW People",
+        "id": "com-230-lojas-rede-de-cafeterias-muda-estrat-gia-de-expans-o-para-chegar-aos-r-115-milh-es",
+        "title": "Com 230 lojas, rede de cafeterias muda estratégia de expansão para chegar aos R$ 115 milhões - Exame",
         "score": 90
       },
       {
         "id": "ia-e-automa-o-mudam-perfil-das-profiss-es-e-exigem-requalifica-o-de-trabalhadores-portal-i",
         "title": "IA e automação mudam perfil das profissões e exigem requalificação de trabalhadores - Portal IPNews",
+        "score": 90
+      },
+      {
+        "id": "fim-da-escala-6x1-como-a-redu-o-da-jornada-pode-beneficiar-a-sa-de-mental-dos-trabalhadore",
+        "title": "Fim da escala 6x1: como a redução da jornada pode beneficiar a saúde mental dos trabalhadores - Pequenas Empresas & Grandes Negócios",
         "score": 90
       },
       {
@@ -147,6 +194,11 @@
         "score": 90
       },
       {
+        "id": "maior-mina-de-cobre-do-mundo-enfrenta-greve-de-mil-supervisores-di-rio-causa-oper-riadi-ri",
+        "title": "Maior mina de cobre do mundo enfrenta greve de mil supervisores - Diário Causa Operária",
+        "score": 90
+      },
+      {
         "id": "acordo-encerra-estado-de-greve-no-hospital-geral-de-carapicu-ba-correio-paulistacorreio-pa",
         "title": "Acordo encerra estado de greve no Hospital Geral de Carapicuíba - Correio Paulista",
         "score": 90
@@ -157,33 +209,13 @@
         "score": 90
       },
       {
-        "id": "ag-ncia-de-comunica-o-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos-",
-        "title": "Agência de Comunicação - A RADIUS GLOBAL INFRASTRUCTURE INAUGURA NOVA FASE NOS INVESTIMENTOS EM INFRAESTRUTURA DIGITAL E INTEGRA A APWBRASIL À MARCA GLOBAL - Estadão Blue Studio",
-        "score": 80
-      },
-      {
         "id": "gigante-chinesa-escolhe-cidade-do-brasil-para-f-brica-de-r-535-milh-es-a-tardea-tarde",
         "title": "Gigante chinesa escolhe cidade do Brasil para fábrica de R$ 535 milhões - A TARDE",
         "score": 80
       },
       {
-        "id": "processo-seletivo-para-contrata-o-de-assistente-t-cnico-minist-rio-das-rela-es-exteriores-",
-        "title": "Processo seletivo para contratação de assistente técnico — Ministério das Relações Exteriores - www.gov.br",
-        "score": 80
-      },
-      {
         "id": "nlb-services-appoints-dr-varun-sachdeva-as-ceo-india-business-people-matters-hr-newspeople",
         "title": "NLB Services appoints Dr Varun Sachdeva as CEO, India business - People Matters - HR News",
-        "score": 80
-      },
-      {
-        "id": "-until-today-it-s-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-",
-        "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters - HR News",
-        "score": 80
-      },
-      {
-        "id": "fim-da-escala-6x1-entenda-a-mudan-a-na-jornada-e-os-pr-ximos-passos-para-a-regulamenta-o-g",
-        "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
         "score": 80
       },
       {
@@ -205,8 +237,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 0,
-    "withoutRadar": 10,
-    "highPriorityOutsideTrends": 20
+    "withRadar": 2,
+    "withoutRadar": 8,
+    "highPriorityOutsideTrends": 18
   }
 }

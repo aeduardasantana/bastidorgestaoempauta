@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T16:42:05.444101+00:00",
+  "updatedAt": "2026-11-04T16:41:54.738254+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,41 +10,15 @@
       "error": null,
       "items": [
         {
-          "term": "ministério da gestão e da inovação em serviços públicos",
+          "term": "rio poty hotel",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
-              "title": "Sindicato convoca trabalhadores da alimentação para assembleia sobre negociação coletiva e possível greve - RCN 67",
-              "score": 100
-            },
-            {
-              "id": "ag-ncia-de-comunica-o-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos-",
-              "title": "Agência de Comunicação - A RADIUS GLOBAL INFRASTRUCTURE INAUGURA NOVA FASE NOS INVESTIMENTOS EM INFRAESTRUTURA DIGITAL E INTEGRA A APWBRASIL À MARCA GLOBAL - Estadão Blue Studio",
-              "score": 80
-            },
-            {
-              "id": "processo-seletivo-para-contrata-o-de-assistente-t-cnico-minist-rio-das-rela-es-exteriores-",
-              "title": "Processo seletivo para contratação de assistente técnico — Ministério das Relações Exteriores - www.gov.br",
-              "score": 80
-            },
-            {
-              "id": "a-saga-da-paramount-para-levantar-us-52-bilh-es-em-d-vida-para-a-fus-o-com-a-warner-bloomb",
-              "title": "A saga da Paramount para levantar US$ 52 bilhões em dívida para a fusão com a Warner - Bloomberg Línea Brasil",
-              "score": 80
-            },
-            {
-              "id": "minist-rio-do-trabalho-recebe-mais-de-4-3-mil-den-ncias-de-ass-dio-eleitoral-em-apenas-tr-",
-              "title": "Ministério do Trabalho recebe mais de 4,3 mil denúncias de assédio eleitoral em apenas três dias - Pequenas Empresas & Grandes Negócios",
-              "score": 50
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "gerdau",
+          "term": "itaú",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -52,17 +26,25 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "the elder scrolls vi",
+          "term": "djokovic",
           "source": "Google Trends",
           "position": 3,
+          "movement": "↑",
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
+        },
+        {
+          "term": "star",
+          "source": "Google Trends",
+          "position": 4,
           "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "agência nacional de telecomunicações",
+          "term": "agência nacional de saúde suplementar",
           "source": "Google Trends",
-          "position": 4,
+          "position": 5,
           "movement": "NOVO",
           "relatedClusters": [
             {
@@ -76,23 +58,15 @@
               "score": 40
             },
             {
-              "id": "seu-direito-ap-s-a-promulga-o-do-fim-da-escala-6x1-pelo-congresso-nacional-na-ltima-sexta-",
-              "title": "SEU DIREITO | Após a promulgação do fim da escala 6x1 pelo Congresso Nacional, na última sexta-feira (16), líderes sindicais de Goiás temem o risco de empresas e sindicatos patronais usarem manobras para manter a escala com seis dias de trabalho. O - Instagram",
-              "score": 30
+              "id": "pena-justa-fortalece-assist-ncia-sa-de-e-redu-o-de-doen-as-contagiosas-nas-pris-es-portal-",
+              "title": "Pena Justa fortalece assistência à saúde e redução de doenças contagiosas nas prisões - Portal CNJ",
+              "score": 0
             }
           ],
           "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "rockstar",
-          "source": "Google Trends",
-          "position": 5,
-          "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
-        },
-        {
-          "term": "north",
+          "term": "eduardo pape",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -100,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "michel salgado",
+          "term": "paraná",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -108,7 +82,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "gabarito ufpr 2027",
+          "term": "playstation store",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -116,7 +90,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "djokovic",
+          "term": "previsao do tempo curitiba",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -124,7 +98,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "valentin vacherot",
+          "term": "rennes",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -141,7 +115,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 18,
+    "count": 17,
     "items": [
       {
         "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
@@ -154,8 +128,18 @@
         "score": 100
       },
       {
+        "id": "greve-de-nibus-em-palmas-prefeitura-afirma-que-sindicato-descumpriu-decis-o-que-exigia-fro",
+        "title": "Greve de ônibus em Palmas: prefeitura afirma que sindicato descumpriu decisão que exigia frota mínima - G1",
+        "score": 90
+      },
+      {
         "id": "gigante-automotiva-investe-bilh-es-e-prev-2-mil-novos-empregos-a-tardea-tarde",
         "title": "Gigante automotiva investe bilhões e prevê 2 mil novos empregos - A TARDE",
+        "score": 90
+      },
+      {
+        "id": "layoff-tracker-vistagen-cuts-workforce-for-second-time-in-2026-biospacebiospace",
+        "title": "Layoff Tracker: Vistagen cuts workforce for second time in 2026 - BioSpace",
         "score": 90
       },
       {
@@ -169,18 +153,13 @@
         "score": 90
       },
       {
-        "id": "com-230-lojas-rede-de-cafeterias-muda-estrat-gia-de-expans-o-para-chegar-aos-r-115-milh-es",
-        "title": "Com 230 lojas, rede de cafeterias muda estratégia de expansão para chegar aos R$ 115 milhões - Exame",
+        "id": "corte-de-gastos-de-fl-vio-pode-eliminar-2-2-milh-es-de-empregos-diz-dieese-uol-economiauol",
+        "title": "Corte de gastos de Flávio pode eliminar 2,2 milhões de empregos, diz Dieese - UOL Economia",
         "score": 90
       },
       {
         "id": "ia-e-automa-o-mudam-perfil-das-profiss-es-e-exigem-requalifica-o-de-trabalhadores-portal-i",
         "title": "IA e automação mudam perfil das profissões e exigem requalificação de trabalhadores - Portal IPNews",
-        "score": 90
-      },
-      {
-        "id": "fim-da-escala-6x1-como-a-redu-o-da-jornada-pode-beneficiar-a-sa-de-mental-dos-trabalhadore",
-        "title": "Fim da escala 6x1: como a redução da jornada pode beneficiar a saúde mental dos trabalhadores - Pequenas Empresas & Grandes Negócios",
         "score": 90
       },
       {
@@ -194,16 +173,6 @@
         "score": 90
       },
       {
-        "id": "maior-mina-de-cobre-do-mundo-enfrenta-greve-de-mil-supervisores-di-rio-causa-oper-riadi-ri",
-        "title": "Maior mina de cobre do mundo enfrenta greve de mil supervisores - Diário Causa Operária",
-        "score": 90
-      },
-      {
-        "id": "acordo-encerra-estado-de-greve-no-hospital-geral-de-carapicu-ba-correio-paulistacorreio-pa",
-        "title": "Acordo encerra estado de greve no Hospital Geral de Carapicuíba - Correio Paulista",
-        "score": 90
-      },
-      {
         "id": "assembleia-geral-aprova-aumento-real-e-renova-o-de-direitos-para-mais-1-830-metal-rgicos-s",
         "title": "Assembleia geral aprova aumento real e renovação de direitos para mais 1.830 metalúrgicos - Sindicato dos Metalúrgicos de São José dos Campos",
         "score": 90
@@ -211,6 +180,16 @@
       {
         "id": "gigante-chinesa-escolhe-cidade-do-brasil-para-f-brica-de-r-535-milh-es-a-tardea-tarde",
         "title": "Gigante chinesa escolhe cidade do Brasil para fábrica de R$ 535 milhões - A TARDE",
+        "score": 80
+      },
+      {
+        "id": "sau-de-registra-55-m-as-no-semestre-e-hospitais-cli-nicas-e-laborato-rios-lideram-operac-o",
+        "title": "Saúde registra 55 M&As no semestre e hospitais, clínicas e laboratórios lideram operações - Pequenas Empresas & Grandes Negócios",
+        "score": 80
+      },
+      {
+        "id": "processo-seletivo-para-contrata-o-de-assistente-t-cnico-minist-rio-das-rela-es-exteriores-",
+        "title": "Processo seletivo para contratação de assistente técnico — Ministério das Relações Exteriores - www.gov.br",
         "score": 80
       },
       {
@@ -222,23 +201,13 @@
         "id": "netflix-reportedly-set-to-restructure-and-trim-global-workforce-by-5-netflix-junkienetflix",
         "title": "Netflix Reportedly Set to Restructure and Trim Global Workforce by 5% - Netflix Junkie",
         "score": 80
-      },
-      {
-        "id": "skydance-corp-signals-layoffs-as-paramount-warner-bros-discovery-merger-closes-people-matt",
-        "title": "Skydance Corp signals layoffs as Paramount-Warner Bros. Discovery merger closes - People Matters - HR News",
-        "score": 80
-      },
-      {
-        "id": "a-saga-da-paramount-para-levantar-us-52-bilh-es-em-d-vida-para-a-fus-o-com-a-warner-bloomb",
-        "title": "A saga da Paramount para levantar US$ 52 bilhões em dívida para a fusão com a Warner - Bloomberg Línea Brasil",
-        "score": 80
       }
     ]
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 2,
-    "withoutRadar": 8,
-    "highPriorityOutsideTrends": 18
+    "withRadar": 1,
+    "withoutRadar": 9,
+    "highPriorityOutsideTrends": 17
   }
 }

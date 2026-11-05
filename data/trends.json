@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T16:41:54.738254+00:00",
+  "updatedAt": "2026-11-05T16:56:32.104846+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "rio poty hotel",
+          "term": "frédéric vasseur",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "itaú",
+          "term": "sheilla castro",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,15 +26,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "djokovic",
+          "term": "paraguay",
           "source": "Google Trends",
           "position": 3,
-          "movement": "↑",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "star",
+          "term": "fabiana karla",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,31 +42,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "agência nacional de saúde suplementar",
+          "term": "fogo",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "ag-ncia-de-comunica-o-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos-",
-              "title": "Agência de Comunicação - A RADIUS GLOBAL INFRASTRUCTURE INAUGURA NOVA FASE NOS INVESTIMENTOS EM INFRAESTRUTURA DIGITAL E INTEGRA A APWBRASIL À MARCA GLOBAL - Estadão Blue Studio",
-              "score": 80
-            },
-            {
-              "id": "1-uni-o-minist-rio-de-portos-e-aeroportos-mpor-ag-ncia-nacional-de-transportes-aquavi-rios",
-              "title": "1 UNIÃO MINISTÉRIO DE PORTOS E AEROPORTOS - MPOR AGÊNCIA NACIONAL DE TRANSPORTES AQUAVIÁRIOS – ANTAQ EDITAL LEILÃO Nº 05 - www.gov.br",
-              "score": 40
-            },
-            {
-              "id": "pena-justa-fortalece-assist-ncia-sa-de-e-redu-o-de-doen-as-contagiosas-nas-pris-es-portal-",
-              "title": "Pena Justa fortalece assistência à saúde e redução de doenças contagiosas nas prisões - Portal CNJ",
-              "score": 0
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "eduardo pape",
+          "term": "anitta",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -74,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "paraná",
+          "term": "nova camisa palmeiras",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -82,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "playstation store",
+          "term": "presidente do paraguai",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -90,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "previsao do tempo curitiba",
+          "term": "papa leão xiv",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -98,7 +82,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "rennes",
+          "term": "gary sinise",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -115,7 +99,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 17,
+    "count": 16,
     "items": [
       {
         "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
@@ -123,9 +107,9 @@
         "score": 100
       },
       {
-        "id": "greve-de-trabalhadores-terceirizados-chega-ao-fim-ap-s-acordo-na-bacia-de-campos-portal-vi",
-        "title": "Greve de trabalhadores terceirizados chega ao fim após acordo na Bacia de Campos - Portal Viu",
-        "score": 100
+        "id": "motoristas-do-transporte-p-blico-de-palmas-suspendem-greve-ap-s-reuni-o-g1g1",
+        "title": "Motoristas do transporte público de Palmas suspendem greve após reunião - G1",
+        "score": 90
       },
       {
         "id": "greve-de-nibus-em-palmas-prefeitura-afirma-que-sindicato-descumpriu-decis-o-que-exigia-fro",
@@ -138,23 +122,23 @@
         "score": 90
       },
       {
-        "id": "layoff-tracker-vistagen-cuts-workforce-for-second-time-in-2026-biospacebiospace",
-        "title": "Layoff Tracker: Vistagen cuts workforce for second time in 2026 - BioSpace",
-        "score": 90
-      },
-      {
         "id": "google-s-workforce-expansion-contrasts-with-layoffs-across-technology-sector-bw-peoplebw-p",
         "title": "Google’s Workforce Expansion Contrasts With Layoffs Across Technology Sector - BW People",
         "score": 90
       },
       {
-        "id": "franquias-querem-acelerar-expans-o-mas-custos-juros-e-falta-de-m-o-de-obra-amea-am-rentabi",
-        "title": "Franquias querem acelerar expansão, mas custos, juros e falta de mão de obra ameaçam rentabilidade - Pequenas Empresas & Grandes Negócios",
+        "id": "vigilantes-do-piau-v-o-votar-autoriza-o-para-greve-nesta-quinta-e-sexta-portal-azportal-az",
+        "title": "Vigilantes do Piauí vão votar autorização para greve nesta quinta e sexta - Portal AZ",
         "score": 90
       },
       {
         "id": "corte-de-gastos-de-fl-vio-pode-eliminar-2-2-milh-es-de-empregos-diz-dieese-uol-economiauol",
         "title": "Corte de gastos de Flávio pode eliminar 2,2 milhões de empregos, diz Dieese - UOL Economia",
+        "score": 90
+      },
+      {
+        "id": "ebay-to-cut-9-of-workforce-in-restructuring-bw-peoplebw-people",
+        "title": "eBay To Cut 9% Of Workforce In Restructuring - BW People",
         "score": 90
       },
       {
@@ -178,13 +162,8 @@
         "score": 90
       },
       {
-        "id": "gigante-chinesa-escolhe-cidade-do-brasil-para-f-brica-de-r-535-milh-es-a-tardea-tarde",
-        "title": "Gigante chinesa escolhe cidade do Brasil para fábrica de R$ 535 milhões - A TARDE",
-        "score": 80
-      },
-      {
-        "id": "sau-de-registra-55-m-as-no-semestre-e-hospitais-cli-nicas-e-laborato-rios-lideram-operac-o",
-        "title": "Saúde registra 55 M&As no semestre e hospitais, clínicas e laboratórios lideram operações - Pequenas Empresas & Grandes Negócios",
+        "id": "ag-ncia-de-comunica-o-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos-",
+        "title": "Agência de Comunicação - A RADIUS GLOBAL INFRASTRUCTURE INAUGURA NOVA FASE NOS INVESTIMENTOS EM INFRAESTRUTURA DIGITAL E INTEGRA A APWBRASIL À MARCA GLOBAL - Estadão Blue Studio",
         "score": 80
       },
       {
@@ -193,21 +172,21 @@
         "score": 80
       },
       {
-        "id": "nlb-services-appoints-dr-varun-sachdeva-as-ceo-india-business-people-matters-hr-newspeople",
-        "title": "NLB Services appoints Dr Varun Sachdeva as CEO, India business - People Matters - HR News",
+        "id": "-until-today-it-s-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-",
+        "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters - HR News",
         "score": 80
       },
       {
-        "id": "netflix-reportedly-set-to-restructure-and-trim-global-workforce-by-5-netflix-junkienetflix",
-        "title": "Netflix Reportedly Set to Restructure and Trim Global Workforce by 5% - Netflix Junkie",
+        "id": "fim-da-escala-6x1-entenda-a-mudan-a-na-jornada-e-os-pr-ximos-passos-para-a-regulamenta-o-g",
+        "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
         "score": 80
       }
     ]
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 1,
-    "withoutRadar": 9,
-    "highPriorityOutsideTrends": 17
+    "withRadar": 0,
+    "withoutRadar": 10,
+    "highPriorityOutsideTrends": 16
   }
 }

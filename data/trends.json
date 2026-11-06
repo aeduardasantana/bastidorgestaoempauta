@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T16:56:32.104846+00:00",
+  "updatedAt": "2026-11-06T16:25:21.644677+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "frédéric vasseur",
+          "term": "neymar pai",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "sheilla castro",
+          "term": "f1 tv",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "paraguay",
+          "term": "treino livre f1",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "fabiana karla",
+          "term": "paris open",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "fogo",
+          "term": "perícia",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "anitta",
+          "term": "tóquio",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "nova camisa palmeiras",
+          "term": "qarabag",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "presidente do paraguai",
+          "term": "assaí",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "papa leão xiv",
+          "term": "furia",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,7 +82,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "gary sinise",
+          "term": "sp500",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -99,12 +99,17 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 16,
+    "count": 13,
     "items": [
       {
         "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
         "title": "Sindicato convoca trabalhadores da alimentação para assembleia sobre negociação coletiva e possível greve - RCN 67",
         "score": 100
+      },
+      {
+        "id": "rodovi-rios-de-manaus-anunciam-greve-por-tempo-indeterminado-a-partir-de-segunda-feira-9-t",
+        "title": "Rodoviários de Manaus anunciam greve por tempo indeterminado a partir de segunda-feira (9) - Toda Hora",
+        "score": 90
       },
       {
         "id": "motoristas-do-transporte-p-blico-de-palmas-suspendem-greve-ap-s-reuni-o-g1g1",
@@ -117,18 +122,8 @@
         "score": 90
       },
       {
-        "id": "gigante-automotiva-investe-bilh-es-e-prev-2-mil-novos-empregos-a-tardea-tarde",
-        "title": "Gigante automotiva investe bilhões e prevê 2 mil novos empregos - A TARDE",
-        "score": 90
-      },
-      {
         "id": "google-s-workforce-expansion-contrasts-with-layoffs-across-technology-sector-bw-peoplebw-p",
         "title": "Google’s Workforce Expansion Contrasts With Layoffs Across Technology Sector - BW People",
-        "score": 90
-      },
-      {
-        "id": "vigilantes-do-piau-v-o-votar-autoriza-o-para-greve-nesta-quinta-e-sexta-portal-azportal-az",
-        "title": "Vigilantes do Piauí vão votar autorização para greve nesta quinta e sexta - Portal AZ",
         "score": 90
       },
       {
@@ -152,14 +147,9 @@
         "score": 90
       },
       {
-        "id": "bb-o-valor-da-negocia-o-coletiva-banc-rios-dfbanc-rios-df",
-        "title": "BB: o valor da negociação coletiva - Bancários-DF",
-        "score": 90
-      },
-      {
-        "id": "assembleia-geral-aprova-aumento-real-e-renova-o-de-direitos-para-mais-1-830-metal-rgicos-s",
-        "title": "Assembleia geral aprova aumento real e renovação de direitos para mais 1.830 metalúrgicos - Sindicato dos Metalúrgicos de São José dos Campos",
-        "score": 90
+        "id": "gigante-das-motos-anuncia-r-3-3-bilh-es-para-ampliar-f-brica-no-brasil-a-tardea-tarde",
+        "title": "Gigante das motos anuncia R$ 3,3 bilhões para ampliar fábrica no Brasil - A TARDE",
+        "score": 80
       },
       {
         "id": "ag-ncia-de-comunica-o-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos-",
@@ -172,13 +162,8 @@
         "score": 80
       },
       {
-        "id": "-until-today-it-s-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-",
-        "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters - HR News",
-        "score": 80
-      },
-      {
-        "id": "fim-da-escala-6x1-entenda-a-mudan-a-na-jornada-e-os-pr-ximos-passos-para-a-regulamenta-o-g",
-        "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
+        "id": "netflix-reportedly-set-to-restructure-and-trim-global-workforce-by-5-netflix-junkienetflix",
+        "title": "Netflix Reportedly Set to Restructure and Trim Global Workforce by 5% - Netflix Junkie",
         "score": 80
       }
     ]
@@ -187,6 +172,6 @@
     "trendItems": 10,
     "withRadar": 0,
     "withoutRadar": 10,
-    "highPriorityOutsideTrends": 16
+    "highPriorityOutsideTrends": 13
   }
 }

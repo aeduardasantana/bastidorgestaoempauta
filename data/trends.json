@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T13:26:30.443858+00:00",
+  "updatedAt": "2026-11-09T13:30:28.655426+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -13,7 +13,7 @@
           "term": "importação",
           "source": "Google Trends",
           "position": 1,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -21,7 +21,7 @@
           "term": "tj rj",
           "source": "Google Trends",
           "position": 2,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -29,7 +29,7 @@
           "term": "tjdft",
           "source": "Google Trends",
           "position": 3,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -37,7 +37,7 @@
           "term": "seed",
           "source": "Google Trends",
           "position": 4,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -45,7 +45,7 @@
           "term": "joão chianca",
           "source": "Google Trends",
           "position": 5,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -53,7 +53,7 @@
           "term": "doc",
           "source": "Google Trends",
           "position": 6,
-          "movement": "NOVO",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -61,7 +61,7 @@
           "term": "cnpj",
           "source": "Google Trends",
           "position": 7,
-          "movement": "↓",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -69,7 +69,7 @@
           "term": "nio",
           "source": "Google Trends",
           "position": 8,
-          "movement": "↓",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -77,7 +77,7 @@
           "term": "bruce willis",
           "source": "Google Trends",
           "position": 9,
-          "movement": "↓",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
@@ -85,7 +85,7 @@
           "term": "previsão do tempo goiania",
           "source": "Google Trends",
           "position": 10,
-          "movement": "↓",
+          "movement": "→",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         }
@@ -99,7 +99,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 28,
+    "count": 29,
     "items": [
       {
         "id": "sindicato-convoca-trabalhadores-da-alimentacao-para-assembleia-sobre-negociacao-coletiva-e",
@@ -177,6 +177,11 @@
         "score": 80
       },
       {
+        "id": "passagem-secreta-e-porta-blindada-o-que-o-mp-achou-na-mansao-do-ex-presidente-do-paraguaie",
+        "title": "Passagem secreta e porta blindada: o que o MP achou na mansão do ex-presidente do Paraguai",
+        "score": 80
+      },
+      {
         "id": "bytedance-dona-do-tiktok-estuda-ampliar-operacao-de-data-centers-no-brasilexame",
         "title": "ByteDance, dona do TikTok, estuda ampliar operação de data centers no Brasil",
         "score": 80
@@ -247,6 +252,6 @@
     "trendItems": 10,
     "withRadar": 0,
     "withoutRadar": 10,
-    "highPriorityOutsideTrends": 28
+    "highPriorityOutsideTrends": 29
   }
 }

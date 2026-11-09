@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-09T13:26:19.424499+00:00",
+  "generatedAt": "2026-11-09T13:30:24.280662+00:00",
   "windowDays": 30,
   "collection": {
     "queries": 126,
-    "retrieved": 210,
-    "rejectedNonArticle": 16,
+    "retrieved": 214,
+    "rejectedNonArticle": 18,
     "rejectedByDate": 73,
-    "accepted": 117
+    "accepted": 119
   },
   "directCollection": {
     "configured": 7,
@@ -21,7 +21,7 @@
       "Agência Senado": {
         "attempted": 1,
         "retrieved": 15,
-        "accepted": 4,
+        "accepted": 3,
         "errors": 0
       },
       "Agência Câmara": {
@@ -45,7 +45,7 @@
       "Exame": {
         "attempted": 1,
         "retrieved": 25,
-        "accepted": 3,
+        "accepted": 4,
         "errors": 0
       },
       "NeoFeed": {
@@ -71,22 +71,22 @@
   "matrixCoverage": {
     "configuredDirectEndpoints": 7,
     "directSourcesWithAcceptedItems": 6,
-    "directClusterShare": 0.161
+    "directClusterShare": 0.158
   },
-  "rawCandidates": 142,
-  "clusters": 137,
+  "rawCandidates": 144,
+  "clusters": 139,
   "duplicatesMerged": 5,
   "scoreBands": {
-    "80-100": 28,
+    "80-100": 29,
     "60-70": 11,
-    "40-50": 23,
+    "40-50": 24,
     "20-30": 10,
     "0-10": 65
   },
-  "highPriorityShare": 0.204,
-  "veryLowPriorityShare": 0.474,
+  "highPriorityShare": 0.209,
+  "veryLowPriorityShare": 0.468,
   "agendaDistribution": {
-    "Empresa em Pauta": 19,
+    "Empresa em Pauta": 20,
     "Poder e regras": 18,
     "Veículos BR — G1, CNN e UOL": 12,
     "Veículos BR — Band, SBT, Record e Jovem Pan": 12,
@@ -95,27 +95,29 @@
     "IA e gestão": 8,
     "Veículos BR — Valor": 7,
     "NR-1 / AEP": 7,
-    "Veículos BR — NeoFeed e Bloomberg Línea": 6,
     "Judiciário empresarial": 6,
     "Economia criativa e cultura — fomento": 5,
     "Mercado e trabalho": 5,
+    "Veículos BR — NeoFeed e Bloomberg Línea": 5,
     "Relações internacionais": 4,
     "Veículos regionais — Centro-Oeste": 3,
     "Mundo corporativo internacional": 2,
     "Veículos BR — Estadão, Folha e O Globo": 1,
     "Patrocínio e experiência de marca": 1,
+    "Fontes internacionais — AP, BBC e CNN Business": 1,
     "Business signals — capital and governance": 1,
     "Business signals — operations and workforce": 1,
     "Business signals — technology and regulation": 1,
-    "Veículos regionais — Sul": 1
+    "Veículos regionais — Sul": 1,
+    "Pessoas e liderança": 1
   },
   "eventDistribution": {
-    "Contexto econômico ou empresarial": 67,
+    "Contexto econômico ou empresarial": 68,
     "Relações e força de trabalho": 16,
-    "Tecnologia e redesenho do trabalho": 13,
-    "Mudança operacional ou produtiva": 10,
+    "Tecnologia e redesenho do trabalho": 12,
+    "Mudança operacional ou produtiva": 11,
     "Risco psicossocial e saúde no trabalho": 8,
-    "Regulação com efeito empresarial": 6,
+    "Regulação com efeito empresarial": 7,
     "Redução, reestruturação ou fechamento": 5,
     "Investimento ou movimentação de capital": 4,
     "Expansão ou aumento de capacidade": 3,
@@ -127,20 +129,20 @@
   },
   "topSources": {
     "UOL Economia": 12,
+    "Exame": 8,
     "www.gov.br": 8,
-    "Exame": 7,
     "Valor Econômico": 7,
     "R7": 6,
     "NeoFeed": 5,
     "A TARDE": 5,
     "Agência Brasil": 5,
-    "Bloomberg Linea Brasil": 5,
-    "Agência Senado": 4,
+    "G1": 4,
     "Brazil Journal": 4,
+    "Bloomberg Linea Brasil": 4,
     "Portal CNJ": 4,
     "SBT News": 4,
     "Agência Câmara": 3,
-    "G1": 3
+    "Agência Senado": 3
   },
   "qualityFlags": {
     "emptyRadar": false,

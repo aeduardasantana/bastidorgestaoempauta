@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T13:30:28.655426+00:00",
+  "updatedAt": "2026-11-09T19:16:24.900703+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,82 +10,88 @@
       "error": null,
       "items": [
         {
-          "term": "importação",
+          "term": "fable 5.2",
           "source": "Google Trends",
           "position": 1,
-          "movement": "→",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "tj rj",
+          "term": "jaden smith",
           "source": "Google Trends",
           "position": 2,
-          "movement": "→",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "tjdft",
+          "term": "sefaz mt",
           "source": "Google Trends",
           "position": 3,
-          "movement": "→",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "seed",
+          "term": "bonnie wright",
           "source": "Google Trends",
           "position": 4,
-          "movement": "→",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "joão chianca",
+          "term": "el niño 2026",
           "source": "Google Trends",
           "position": 5,
-          "movement": "→",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "doc",
+          "term": "fgts",
           "source": "Google Trends",
           "position": 6,
-          "movement": "→",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "cnpj",
+          "term": "lima duarte",
           "source": "Google Trends",
           "position": 7,
-          "movement": "→",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "nio",
+          "term": "stephen ramos",
           "source": "Google Trends",
           "position": 8,
-          "movement": "→",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "bruce willis",
+          "term": "sistema de seleção unificada",
           "source": "Google Trends",
           "position": 9,
-          "movement": "→",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "movement": "NOVO",
+          "relatedClusters": [
+            {
+              "id": "trabalho-decente-no-sistema-prisional-se-consolida-como-estrategia-de-seguranca-publica-po",
+              "title": "Trabalho decente no sistema prisional se consolida como estratégia de segurança pública - Portal CNJ",
+              "score": 0
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "previsão do tempo goiania",
+          "term": "maps",
           "source": "Google Trends",
           "position": 10,
-          "movement": "→",
+          "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         }
@@ -99,8 +105,28 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 29,
+    "count": 38,
     "items": [
+      {
+        "id": "audio-contratacao-de-associacoes-de-pcds-esta-na-pauta-da-ccjagencia-senado",
+        "title": "Áudio: Contratação de associações de PcDs está na pauta da CCJ",
+        "score": 100
+      },
+      {
+        "id": "senado-cultural-abre-as-portas-em-9-12-com-exposicao-sobre-200-anos-da-casaagencia-senado",
+        "title": "Senado Cultural abre as portas em 9/12 com exposição sobre 200 anos da Casa",
+        "score": 100
+      },
+      {
+        "id": "governo-estende-programa-gas-do-povo-ate-2031agencia-senado",
+        "title": "Governo estende programa Gás do Povo até 2031",
+        "score": 100
+      },
+      {
+        "id": "pauta-tem-inclusao-de-mulheres-com-cancer-de-mama-no-mercado-de-trabalhoagencia-senado",
+        "title": "Pauta tem inclusão de mulheres com câncer de mama no mercado de trabalho",
+        "score": 100
+      },
       {
         "id": "sindicato-convoca-trabalhadores-da-alimentacao-para-assembleia-sobre-negociacao-coletiva-e",
         "title": "Sindicato convoca trabalhadores da alimentação para assembleia sobre negociação coletiva e possível greve - RCN 67",
@@ -127,13 +153,28 @@
         "score": 90
       },
       {
-        "id": "mudancas-no-rh-183-acendem-alerta-sobre-nova-reestruturacao-na-caixa-cee-cobra-explicacoes",
-        "title": "Mudanças no RH 183 acendem alerta sobre nova reestruturação na Caixa; CEE cobra explicações - Contraf-CUT",
+        "id": "a-debacle-do-buzzfeed-que-nem-a-ai-conseguiu-salvar-ainda-brazil-journal",
+        "title": "A debacle do BuzzFeed – que nem a AI conseguiu salvar (ainda)",
         "score": 90
       },
       {
-        "id": "comissao-aprova-projeto-de-incentivo-a-producao-e-ao-uso-do-etanolagencia-camara",
-        "title": "Comissão aprova projeto de incentivo à produção e ao uso do etanol",
+        "id": "boeing-cortara-5-dos-funcionarios-da-divisao-de-aviacao-comercial-devido-a-demora-no-aumen",
+        "title": "Boeing cortará 5% dos funcionários da divisão de aviação comercial devido à demora no aumento da produção",
+        "score": 90
+      },
+      {
+        "id": "so-29-dos-profissionais-no-brasil-querem-ser-chefes-e-44-pensam-em-trocar-de-empresatimes-",
+        "title": "Só 29% dos profissionais no Brasil querem ser chefes, e 44% pensam em trocar de empresa",
+        "score": 90
+      },
+      {
+        "id": "funcionarios-terceirizados-da-coelba-entram-em-greve-e-paralisam-atividades-em-santo-anton",
+        "title": "Funcionários terceirizados da Coelba entram em greve e paralisam atividades em Santo Antônio de Jesus - Blog do Valente",
+        "score": 90
+      },
+      {
+        "id": "mudancas-no-rh-183-acendem-alerta-sobre-nova-reestruturacao-na-caixa-cee-cobra-explicacoes",
+        "title": "Mudanças no RH 183 acendem alerta sobre nova reestruturação na Caixa; CEE cobra explicações - Contraf-CUT",
         "score": 90
       },
       {
@@ -177,18 +218,38 @@
         "score": 80
       },
       {
-        "id": "passagem-secreta-e-porta-blindada-o-que-o-mp-achou-na-mansao-do-ex-presidente-do-paraguaie",
-        "title": "Passagem secreta e porta blindada: o que o MP achou na mansão do ex-presidente do Paraguai",
+        "id": "saldos-que-o-mercado-bitcoin-permitira-consultar-hoje-sao-de-antes-do-ataqueexame",
+        "title": "Saldos que o Mercado Bitcoin permitirá consultar hoje são de antes do ataque",
         "score": 80
       },
       {
-        "id": "bytedance-dona-do-tiktok-estuda-ampliar-operacao-de-data-centers-no-brasilexame",
-        "title": "ByteDance, dona do TikTok, estuda ampliar operação de data centers no Brasil",
+        "id": "para-descarbonizar-o-transporte-e-preciso-fazer-a-conta-fecharexame",
+        "title": "Para descarbonizar o transporte, é preciso fazer a conta fechar",
         "score": 80
       },
       {
-        "id": "crise-da-nvidia-tudo-o-que-se-sabe-sobre-o-caso-do-ceo-da-empresa-mais-valiosa-do-mundoexa",
-        "title": "Crise da Nvidia: tudo o que se sabe sobre o caso do CEO da empresa mais valiosa do mundo",
+        "id": "onde-estao-as-oportunidades-para-o-brasil-na-inteligencia-artificial-exame",
+        "title": "Onde estão as oportunidades para o Brasil na Inteligência Artificial?",
+        "score": 80
+      },
+      {
+        "id": "por-que-nicolas-cage-ficou-aliviado-com-o-fim-de-spider-noir-ator-revela-detalhes-da-produ",
+        "title": "Por que Nicolas Cage ficou aliviado com o fim de 'Spider-Noir'? Ator revela detalhes da produção",
+        "score": 80
+      },
+      {
+        "id": "para-brookfield-e-la-caisse-inseguranca-regulatoria-poe-investimentos-em-xeque-no-brasilne",
+        "title": "Para Brookfield e La Caisse, insegurança regulatória põe investimentos em xeque no Brasil",
+        "score": 80
+      },
+      {
+        "id": "fila-aposta-em-tecnologia-e-inovacao-para-aproveitar-crescimento-do-mercado-de-corrida-no-",
+        "title": "Fila aposta em tecnologia e inovação para aproveitar crescimento do mercado de corrida no Brasil",
+        "score": 80
+      },
+      {
+        "id": "pedro-alliana-novo-presidente-do-paraguai-pede-renuncia-de-todos-os-ministros-e-integrante",
+        "title": "Pedro Alliana, novo presidente do Paraguai, pede renúncia de todos os ministros e integrantes do alto escalão do governo",
         "score": 80
       },
       {
@@ -202,18 +263,8 @@
         "score": 80
       },
       {
-        "id": "comissao-de-educacao-aprova-projeto-que-cria-o-marco-da-educacao-integralagencia-camara",
-        "title": "Comissão de Educação aprova projeto que cria o marco da educação integral",
-        "score": 80
-      },
-      {
         "id": "gigante-das-motos-anuncia-r-3-3-bilhoes-para-ampliar-fabrica-no-brasil-a-tardea-tarde",
         "title": "Gigante das motos anuncia R$ 3,3 bilhões para ampliar fábrica no Brasil - A TARDE",
-        "score": 80
-      },
-      {
-        "id": "layoff-tracker-voyager-c4-cut-workforces-biospacebiospace",
-        "title": "Layoff Tracker: Voyager, C4 cut workforces - BioSpace",
         "score": 80
       },
       {
@@ -250,8 +301,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 0,
-    "withoutRadar": 10,
-    "highPriorityOutsideTrends": 29
+    "withRadar": 1,
+    "withoutRadar": 9,
+    "highPriorityOutsideTrends": 38
   }
 }

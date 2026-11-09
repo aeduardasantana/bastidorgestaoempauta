@@ -2,6 +2,652 @@
   "updatedAt": "2026-11-09",
   "items": [
     {
+      "id": "deep-2026-11-09-ifood-investimento-ia-concorrencia",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística — entrevista e corpo validados em 09/11/2026",
+      "score": 90,
+      "title": "'Não tem guerra no delivery. É competição', diz presidente do iFood",
+      "source": "UOL Economia",
+      "date": "2026-11-09",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/09/nao-tem-guerra-no-delivery-e-competicao-diz-presidente-do-ifood.ghtm",
+      "summary": "O iFood afirma que financiará com caixa próprio R$ 24 bilhões em investimentos até março de 2027, dos quais R$ 2 bilhões em inteligência artificial. A empresa amplia o modelo para mercados, farmácias, varejo, logística e crédito enquanto disputa no Cade os limites da concorrência no delivery.",
+      "angle": "A pauta combina três decisões de gestão: transformar um aplicativo em ecossistema, usar dados e IA para operar em escala e defender o modelo de expansão sob escrutínio concorrencial. Investigar os efeitos para restaurantes, entregadores, consumidores e novos concorrentes.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Expansão, IA e concorrência em plataforma",
+        "economicTrigger": "Capital, produtividade e regulação",
+        "organizationalHypothesis": "Investigar como investimento próprio, diversificação, IA e contratos de exclusividade redesenham a operação e distribuem poder no ecossistema.",
+        "questions": [
+          "Qual decisão concreta foi tomada e quais evidências a sustentam?",
+          "O que muda em operação, papéis, recursos, metas ou governança?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "efeito líquido sobre entregadores e restaurantes",
+          "desfecho das representações no Cade"
+        ],
+        "caveat": "Pontuação calculada pela matriz editorial após leitura do corpo da fonte; alegações do executivo permanecem atribuídas ao iFood.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            "R$ 24 bilhões",
+            "R$ 2 bilhões em IA"
+          ],
+          "technology": [
+            "inteligência artificial",
+            "modelos próprios"
+          ],
+          "expansion": [
+            "novas categorias",
+            "logística",
+            "crédito"
+          ],
+          "regulation": [
+            "Cade",
+            "concorrência"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "'Não tem guerra no delivery. É competição', diz presidente do iFood",
+        "source": "UOL Economia",
+        "date": "2026-11-09",
+        "url": "https://economia.uol.com.br/noticias/redacao/2026/11/09/nao-tem-guerra-no-delivery-e-competicao-diz-presidente-do-ifood.ghtm"
+      },
+      "audience": {
+        "public": "CEOs, operações, tecnologia, jurídico concorrencial, varejo e negócios de plataforma.",
+        "interest": "Entender como capital, dados, IA, crédito e contratos sustentam escala sem separar estratégia de responsabilidade.",
+        "search": "iFood investimento 2027; IA no delivery; concorrência Cade plataformas; ecossistema de varejo",
+        "sensation": "Curiosidade e segurança"
+      },
+      "packaging": {
+        "opening": "O iFood não está apenas disputando pedidos: está redesenhando a infraestrutura de restaurantes, varejo, logística, crédito e dados.",
+        "promise": "Entenda o que R$ 24 bilhões, IA e uma disputa no Cade revelam sobre estratégia de plataforma.",
+        "thumbnail": "APP OU ECOSSISTEMA?",
+        "description": "Gestão em Pauta analisa a expansão do iFood, o uso de IA e os conflitos concorrenciais que acompanham a escala.",
+        "keywords": "iFood, estratégia de plataforma, inteligência artificial, Cade, delivery, gestão",
+        "hashtags": "#GestaoEmPauta #Estrategia #InteligenciaArtificial #Plataformas #Concorrencia"
+      },
+      "use": {
+        "label": "Usar redação própria, citar a fonte e distinguir afirmações da empresa de dados independentes.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "relatedSources": [
+        {
+          "title": "iFood eleva investimento no Brasil a R$ 24 bilhões",
+          "source": "Veja",
+          "date": "2026-09-16",
+          "url": "https://veja.abril.com.br/economia/ifood-eleva-investimento-no-brasil-a-24-bilhoes-de-reais/",
+          "score": 70
+        }
+      ],
+      "clusterSize": 2,
+      "clusterReason": "Entrevista atual aprofundada e confirmação anterior do plano de investimento",
+      "bodyAnalysis": {
+        "status": "analisado",
+        "sourceUrl": "https://economia.uol.com.br/noticias/redacao/2026/11/09/nao-tem-guerra-no-delivery-e-competicao-diz-presidente-do-ifood.ghtm",
+        "factual_summary": "O iFood afirma que financiará com caixa próprio R$ 24 bilhões em investimentos até março de 2027, incluindo R$ 2 bilhões em IA. Ao mesmo tempo, diversifica receitas, amplia serviços para parceiros e enfrenta questionamentos concorrenciais no Cade.",
+        "facts_confirmed": [
+          "A entrevista informa R$ 24 bilhões em investimentos até março de 2027, financiados com caixa próprio.",
+          "O executivo informa R$ 2 bilhões em inteligência artificial no ano e dois modelos próprios de linguagem.",
+          "Categorias fora de restaurantes já responderiam por quase 40% da receita, segundo o presidente.",
+          "iFood e concorrentes mantêm representações no Cade sobre preços e contratos de exclusividade."
+        ],
+        "source_statements": [
+          "Diego Barreto atribui a expansão à geração de caixa e diz que IPO ou separação de negócios não estão nos planos.",
+          "Os números operacionais, de receita e investimento são declarações da companhia apresentadas na entrevista."
+        ],
+        "managerial_consequences": [
+          "Integração entre produto, dados, crédito, logística e regulação passa a ser competência central de liderança.",
+          "A escala da IA precisa ser acompanhada por governança de dados e avaliação dos efeitos sobre parceiros e trabalho."
+        ],
+        "relevance": {
+          "verdict": "GRAVAR AGORA",
+          "reason": "Há decisão material de capital, mudança de modelo operacional, adoção de IA e consequência regulatória verificáveis."
+        },
+        "editorial": {
+          "headline": "O iFood virou infraestrutura de negócios?",
+          "angle": "Como capital próprio, IA e diversificação transformam uma plataforma e elevam sua responsabilidade.",
+          "speaking_preview": "O investimento de R$ 24 bilhões importa menos como número isolado e mais como desenho de poder: produto, logística, crédito, dados e relacionamento com restaurantes passam a operar no mesmo ecossistema. A pergunta de gestão é como crescer com velocidade sem tratar governança, concorrência e impacto sobre parceiros como temas laterais.",
+          "audience": "CEOs, operações, tecnologia, varejo e jurídico concorrencial.",
+          "search_intent": "iFood investimento; IA no delivery; Cade plataformas; estratégia de ecossistema",
+          "hashtags": [
+            "#GestaoEmPauta",
+            "#Estrategia",
+            "#IA",
+            "#Plataformas",
+            "#Concorrencia"
+          ]
+        },
+        "restrictions": "Parafrasear, atribuir ao entrevistado e não tratar alegações concorrenciais como decisão final do Cade.",
+        "caution": "Distinguir fatos observáveis, números informados pela empresa e acusações ainda em análise concorrencial."
+      }
+    },
+    {
+      "id": "deep-2026-11-09-armor-energia-pivota-estrategia",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística — corpo validado e fonte institucional relacionada",
+      "score": 90,
+      "title": "Eles vão faturar R$ 370 milhões fazendo empresas gastarem menos com energia",
+      "source": "Exame",
+      "date": "2026-11-09",
+      "url": "https://exame.com/negocios/eles-vao-faturar-r-370-milhoes-fazendo-empresas-gastarem-menos-com-energia/",
+      "summary": "A Armor Energia projeta receita líquida de R$ 370 milhões em 2026, 55% acima de 2025, após reduzir a dependência do trading entre agentes e ampliar serviços para consumidores, como gestão, eficiência, baterias e geração solar. O plano inclui IA e reforço das áreas comercial, financeira e fiscal para a abertura do mercado livre.",
+      "angle": "Investigar a decisão de abandonar dependência excessiva de uma fonte de receita, transformar risco em serviço recorrente e preparar sistemas e equipes para escalar sem aumentar pessoas na mesma proporção.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Mudança de modelo de negócio e preparação para escala",
+        "economicTrigger": "Receita, risco e produtividade",
+        "organizationalHypothesis": "Investigar como a migração de trading para serviços muda competências, governança de risco, tecnologia, incentivos e desenho das equipes.",
+        "questions": [
+          "Qual decisão concreta foi tomada e quais evidências a sustentam?",
+          "O que muda em operação, papéis, recursos, metas ou governança?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "valor do investimento em tecnologia",
+          "metas de contratação e requalificação"
+        ],
+        "caveat": "Pontuação calculada pela matriz editorial após leitura do corpo e verificação da presença institucional da empresa.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "restructuring": [
+            "mudança de estratégia",
+            "redução de dependência"
+          ],
+          "expansion": [
+            "novos serviços",
+            "abertura do mercado livre"
+          ],
+          "technology": [
+            "inteligência artificial",
+            "sistemas"
+          ],
+          "operations": [
+            "gestão de energia",
+            "eficiência",
+            "baterias"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Eles vão faturar R$ 370 milhões fazendo empresas gastarem menos com energia",
+        "source": "Exame",
+        "date": "2026-11-09",
+        "url": "https://exame.com/negocios/eles-vao-faturar-r-370-milhoes-fazendo-empresas-gastarem-menos-com-energia/"
+      },
+      "audience": {
+        "public": "CEOs, estratégia, energia, operações, finanças e lideranças de transformação.",
+        "interest": "Aprender como diversificar receita, reduzir risco de contraparte e preparar a operação para um mercado em abertura.",
+        "search": "Armor Energia estratégia; mercado livre energia empresas; eficiência energética; IA energia",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "A Armor cresceu 522% e, ainda assim, decidiu mudar o negócio porque percebeu que crescimento e segurança não eram a mesma coisa.",
+        "promise": "Veja como uma empresa transforma risco de receita em serviços, tecnologia e nova capacidade de gestão.",
+        "thumbnail": "CRESCER NÃO BASTA",
+        "description": "A mudança de modelo da Armor Energia mostra como risco, serviços e IA se encontram na preparação para escalar.",
+        "keywords": "Armor Energia, mercado livre, estratégia, eficiência energética, inteligência artificial",
+        "hashtags": "#GestaoEmPauta #Estrategia #Energia #Inovacao #Lideranca"
+      },
+      "use": {
+        "label": "Usar redação própria, citar a fonte e distinguir afirmações da empresa de dados independentes.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "relatedSources": [
+        {
+          "title": "Armor Energia — presença institucional e indicadores da operação",
+          "source": "Armor Energia",
+          "date": "2026-11-09",
+          "url": "https://armorenergia.com.br/",
+          "score": 60
+        },
+        {
+          "title": "Armor Energia faz novos investimentos em IA e amplia parcerias",
+          "source": "Petronotícias",
+          "date": "2026-09-10",
+          "url": "https://petronoticias.com.br/armor-energia-faz-novos-investimentos-em-ia-e-amplia-parcerias-de-olho-na-abertura-do-mercado-livre/",
+          "score": 60
+        }
+      ],
+      "clusterSize": 3,
+      "clusterReason": "Matéria aprofundada, presença institucional e antecedente sobre IA convergem para a mesma mudança estratégica",
+      "bodyAnalysis": {
+        "status": "analisado",
+        "sourceUrl": "https://exame.com/negocios/eles-vao-faturar-r-370-milhoes-fazendo-empresas-gastarem-menos-com-energia/",
+        "factual_summary": "A Armor Energia mudou o mix de negócios para reduzir risco de contraparte, ampliar serviços aos consumidores e preparar tecnologia e áreas de apoio para a futura abertura do mercado livre.",
+        "facts_confirmed": [
+          "A empresa informa receita líquida de R$ 239 milhões em 2025 e projeção de R$ 370 milhões em 2026.",
+          "A estratégia passou a dar mais peso a gestão de energia, eficiência, baterias e geração solar.",
+          "O planejamento de 2025 a 2029 prevê produtos, sistemas, IA e reforço comercial, financeiro e fiscal.",
+          "A abertura do mercado livre para baixa tensão é um dos vetores usados pela empresa para justificar a preparação."
+        ],
+        "source_statements": [
+          "As projeções financeiras e o desenho do plano são informações atribuídas aos executivos da Armor.",
+          "A página institucional confirma atuação em comercialização, gestão, geração e soluções energéticas, mas não audita projeções."
+        ],
+        "managerial_consequences": [
+          "Diversificação exige mudar competências e indicadores, não apenas adicionar produtos.",
+          "Automação em escala precisa vir acompanhada de controles, governança de risco e plano claro para as equipes."
+        ],
+        "relevance": {
+          "verdict": "GRAVAR AGORA",
+          "reason": "A matéria mostra decisão estratégica, redesenho operacional e preparação tecnológica com números e horizonte definidos."
+        },
+        "editorial": {
+          "headline": "Quando crescer obriga a mudar o negócio",
+          "angle": "O caso Armor como lição sobre diversificação, risco e escala com IA.",
+          "speaking_preview": "O ponto forte deste caso é a decisão de mudar antes que o crescimento virasse fragilidade. A Armor reduziu dependência do trading, criou serviços recorrentes e prepara IA e áreas de apoio para uma abertura de mercado que pode multiplicar clientes. A pergunta para líderes é se processos, controles e competências estão crescendo junto com a ambição.",
+          "audience": "CEOs, estratégia, energia, finanças e transformação.",
+          "search_intent": "mudança de modelo de negócio; mercado livre energia; IA e escala; gestão de risco",
+          "hashtags": [
+            "#GestaoEmPauta",
+            "#Estrategia",
+            "#Energia",
+            "#IA",
+            "#GestaoDeRisco"
+          ]
+        },
+        "restrictions": "Atribuir projeções e alegações de desempenho à empresa; não apresentá-las como dados auditados.",
+        "caution": "Separar resultados realizados, projeções e hipóteses regulatórias futuras."
+      }
+    },
+    {
+      "id": "deep-2026-11-09-montclass-expansao-10-bilhoes",
+      "agenda": "Empresa em Pauta",
+      "impact": "Custo e caixa",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística — corpo validado e presença institucional relacionada",
+      "score": 90,
+      "title": "Como essa incorporadora pretende lançar R$ 10 bilhões sem financiamento bancário",
+      "source": "Exame",
+      "date": "2026-11-09",
+      "url": "https://exame.com/mercado-imobiliario/como-essa-incorporadora-pretende-lancar-r-10-bilhoes-sem-financiamento-bancario/",
+      "summary": "A MontClass planeja R$ 10 bilhões em lançamentos imobiliários em 18 meses, financiados com capital próprio e crédito direto aos compradores. A carteira inclui um bairro planejado, um hospital de 122 leitos e abertura de escritórios comerciais no exterior, multiplicando em mais de 13 vezes o VGV dos seis canteiros atuais.",
+      "angle": "Investigar o risco de execução de uma expansão financiada pelo próprio caixa, a governança necessária para virar credora dos clientes e a estrutura de liderança exigida por projetos, setores e territórios diferentes.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Expansão ou aumento de capacidade",
+        "economicTrigger": "Capital, crédito e execução",
+        "organizationalHypothesis": "Investigar liquidez, governança de crédito, capacidade de execução, sucessão familiar e estrutura de gestão para uma mudança de escala.",
+        "questions": [
+          "Qual decisão concreta foi tomada e quais evidências a sustentam?",
+          "O que muda em operação, papéis, recursos, metas ou governança?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "cronograma de desembolso",
+          "critérios de crédito e inadimplência",
+          "estrutura de pessoas para executar a carteira"
+        ],
+        "caveat": "Pontuação calculada pela matriz editorial após leitura do corpo; valores e metas são declarações da companhia.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "expansion": [
+            "R$ 10 bilhões em lançamentos",
+            "bairro planejado",
+            "hospital",
+            "escritórios internacionais"
+          ],
+          "investment": [
+            "capital próprio",
+            "R$ 100 milhões no hospital"
+          ],
+          "operations": [
+            "seis canteiros",
+            "gestão compatível com a escala"
+          ],
+          "leadership": [
+            "entrada da segunda geração",
+            "holding familiar"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Como essa incorporadora pretende lançar R$ 10 bilhões sem financiamento bancário",
+        "source": "Exame",
+        "date": "2026-11-09",
+        "url": "https://exame.com/mercado-imobiliario/como-essa-incorporadora-pretende-lancar-r-10-bilhoes-sem-financiamento-bancario/"
+      },
+      "audience": {
+        "public": "Donos de empresas, finanças, incorporação, conselhos, sucessores e operações.",
+        "interest": "Avaliar como crescimento acelerado pressiona caixa, crédito, governança e capacidade de execução.",
+        "search": "MontClass R$ 10 bilhões; expansão com capital próprio; sucessão empresa familiar; financiamento direto",
+        "sensation": "Curiosidade e segurança"
+      },
+      "packaging": {
+        "opening": "Uma empresa quer multiplicar por mais de 13 vezes o volume atual de projetos sem recorrer a bancos.",
+        "promise": "Entenda o que essa ambição cobra de caixa, governança, crédito e liderança.",
+        "thumbnail": "R$ 10 BI SEM BANCOS",
+        "description": "O plano da MontClass abre uma discussão sobre expansão, capital próprio e capacidade real de execução.",
+        "keywords": "MontClass, expansão, capital próprio, crédito direto, governança, empresa familiar",
+        "hashtags": "#GestaoEmPauta #Expansao #Governanca #Financas #EmpresaFamiliar"
+      },
+      "use": {
+        "label": "Usar redação própria, citar a fonte e distinguir afirmações da empresa de dados independentes.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "relatedSources": [
+        {
+          "title": "MontClass Empreendimentos — página institucional",
+          "source": "MontClass",
+          "date": "2026-11-09",
+          "url": "https://www.montclass.com.br/",
+          "score": 50
+        }
+      ],
+      "clusterSize": 2,
+      "clusterReason": "Reportagem aprofundada e presença institucional confirmam empresa e portfólio; metas financeiras seguem atribuídas",
+      "bodyAnalysis": {
+        "status": "analisado",
+        "sourceUrl": "https://exame.com/mercado-imobiliario/como-essa-incorporadora-pretende-lancar-r-10-bilhoes-sem-financiamento-bancario/",
+        "factual_summary": "A MontClass afirma que usará capital próprio e financiamento direto aos clientes para lançar R$ 10 bilhões em projetos em 18 meses, mudança de escala que combina imóveis, hospital e expansão comercial internacional.",
+        "facts_confirmed": [
+          "Seis canteiros atuais somam cerca de R$ 750 milhões de VGV, segundo a reportagem.",
+          "A companhia anuncia carteira potencial de R$ 10 bilhões para 18 meses.",
+          "O modelo proposto combina capital próprio e crédito direto ao comprador.",
+          "O plano inclui bairro planejado, hospital de 122 leitos e escritórios comerciais fora do país."
+        ],
+        "source_statements": [
+          "Valores, prazos e fontes de financiamento foram informados pela companhia à reportagem.",
+          "O CEO reconhece que a nova escala exige estrutura de gestão compatível."
+        ],
+        "managerial_consequences": [
+          "Virar credora de clientes aumenta a necessidade de controles de crédito, liquidez e cobrança.",
+          "Diversificação e internacionalização exigem governança capaz de priorizar capital e coordenar operações distintas."
+        ],
+        "relevance": {
+          "verdict": "GRAVAR AGORA",
+          "reason": "O plano reúne materialidade, decisão de financiamento, mudança de escala, sucessão e risco de execução."
+        },
+        "editorial": {
+          "headline": "A ambição cabe na estrutura?",
+          "angle": "O que R$ 10 bilhões sem bancos exigem de caixa, crédito e liderança.",
+          "speaking_preview": "O número chama atenção, mas a pauta está no método: capital próprio e financiamento direto transformam a incorporadora também em credora. Ao mesmo tempo, a empresa amplia setores, projetos e territórios. Quando a escala cresce treze vezes, liderança, controles e prioridades precisam crescer antes do canteiro.",
+          "audience": "Empresários, conselhos, finanças, sucessores e operações.",
+          "search_intent": "expansão com capital próprio; empresa familiar; governança de crédito; MontClass",
+          "hashtags": [
+            "#GestaoEmPauta",
+            "#Governanca",
+            "#Expansao",
+            "#Financas",
+            "#Lideranca"
+          ]
+        },
+        "restrictions": "Atribuir à empresa os valores prospectivos e evitar tratar VGV potencial como receita realizada.",
+        "caution": "Distinguir VGV, faturamento, investimento e disponibilidade efetiva de caixa."
+      }
+    },
+    {
+      "id": "deep-2026-11-09-kraft-heinz-maionese",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística — entrevista e corpo validados em 09/11/2026",
+      "score": 80,
+      "title": "Batalha da maionese: Heinz investe R$ 85 milhões para dobrar faturamento e virar a mais vendida",
+      "source": "Exame",
+      "date": "2026-11-09",
+      "url": "https://exame.com/negocios/batalha-da-maionese-heinz-investe-r-85-milhoes-para-dobrar-faturamento-e-virar-a-mais-vendida/",
+      "summary": "A Kraft Heinz lançou no Brasil uma fórmula voltada a receitas e destinou R$ 85 milhões a publicidade e execução no ponto de venda. A decisão acompanha alta de 90% na produção nacional de maionese em dois anos e a revisão antecipada da capacidade industrial prevista até 2028.",
+      "angle": "A pauta não é apenas um lançamento: é como pesquisa de consumo, adaptação local de produto, distribuição e capacidade fabril se combinam numa tentativa de mudar participação de mercado.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Expansão ou aumento de capacidade",
+        "economicTrigger": "Capital e crescimento",
+        "organizationalHypothesis": "Investigar coordenação entre produto, marketing, vendas, distribuição e indústria para sustentar crescimento acima do plano.",
+        "questions": [
+          "Qual decisão concreta foi tomada e quais evidências a sustentam?",
+          "O que muda em operação, papéis, recursos, metas ou governança?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "valor da nova rodada industrial",
+          "efeitos sobre turnos, equipes e fornecedores"
+        ],
+        "caveat": "Pontuação calculada pela matriz editorial após leitura do corpo; números de mercado e produção são atribuídos à empresa.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            "R$ 85 milhões"
+          ],
+          "expansion": [
+            "produção cresceu 90%",
+            "nova rodada industrial"
+          ],
+          "operations": [
+            "capacidade",
+            "produção",
+            "envase",
+            "distribuição"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Batalha da maionese: Heinz investe R$ 85 milhões para dobrar faturamento e virar a mais vendida",
+        "source": "Exame",
+        "date": "2026-11-09",
+        "url": "https://exame.com/negocios/batalha-da-maionese-heinz-investe-r-85-milhoes-para-dobrar-faturamento-e-virar-a-mais-vendida/"
+      },
+      "audience": {
+        "public": "CEOs, marketing, produto, indústria, vendas, varejo e operações.",
+        "interest": "Entender como insight de consumidor se transforma em portfólio, investimento, execução comercial e capacidade.",
+        "search": "Heinz investimento Brasil; estratégia de produto; capacidade industrial; participação de mercado",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma nova fórmula parece detalhe de produto, mas aqui ela aciona R$ 85 milhões, distribuição e nova capacidade industrial.",
+        "promise": "Veja como estratégia de mercado só funciona quando produto, fábrica e ponto de venda crescem juntos.",
+        "thumbnail": "PRODUTO MUDA A OPERAÇÃO",
+        "description": "A ofensiva da Heinz mostra como pesquisa de consumo, investimento e capacidade fabril se conectam.",
+        "keywords": "Kraft Heinz, estratégia de produto, investimento, capacidade industrial, varejo",
+        "hashtags": "#GestaoEmPauta #Estrategia #Operacoes #Marketing #Industria"
+      },
+      "use": {
+        "label": "Usar redação própria, citar a fonte e distinguir afirmações da empresa de dados independentes.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "Reportagem direta com entrevista e dados atribuídos à companhia",
+      "bodyAnalysis": {
+        "status": "analisado",
+        "sourceUrl": "https://exame.com/negocios/batalha-da-maionese-heinz-investe-r-85-milhoes-para-dobrar-faturamento-e-virar-a-mais-vendida/",
+        "factual_summary": "A Kraft Heinz conectou uma adaptação de produto ao consumidor brasileiro a R$ 85 milhões em marketing e ponto de venda, enquanto revê capacidade industrial após produção crescer acima do planejado.",
+        "facts_confirmed": [
+          "R$ 35 milhões foram anunciados para publicidade e R$ 50 milhões para visibilidade no ponto de venda.",
+          "A nova fórmula levou dois anos de desenvolvimento e substitui versões anteriores em potes e sachês.",
+          "A produção nacional de maionese cresceu 90% em dois anos e 30% em 2026, segundo a empresa.",
+          "A companhia informa que iniciou nova rodada de investimento industrial, sem divulgar o valor."
+        ],
+        "source_statements": [
+          "Metas de liderança, participação e crescimento foram apresentadas pelo presidente da Kraft Heinz Brasil.",
+          "Os dados de participação citados na matéria foram divulgados pelas próprias empresas com referência à Nielsen."
+        ],
+        "managerial_consequences": [
+          "Estratégia de produto exige capacidade, distribuição e execução comercial sincronizadas.",
+          "Crescimento acima do plano antecipa decisões sobre capital, fornecedores, turnos e gestão de gargalos."
+        ],
+        "relevance": {
+          "verdict": "GRAVAR AGORA",
+          "reason": "Há investimento material, mudança de produto, pressão de capacidade e decisão estratégica conectadas."
+        },
+        "editorial": {
+          "headline": "Quando o produto força a fábrica",
+          "angle": "Como pesquisa de consumo vira investimento, capacidade e disputa de mercado.",
+          "speaking_preview": "O caso Heinz mostra que inovação de produto não termina na fórmula. Ela atravessa fábrica, envase, distribuição, gôndola e capital. Se a produção já cresceu acima do plano, a liderança precisa decidir antes do gargalo: onde investir, o que priorizar e como alinhar áreas que costumam trabalhar em ritmos diferentes.",
+          "audience": "Marketing, produto, indústria, vendas e liderança executiva.",
+          "search_intent": "estratégia de produto; Kraft Heinz Brasil; capacidade industrial; investimento varejo",
+          "hashtags": [
+            "#GestaoEmPauta",
+            "#Estrategia",
+            "#Operacoes",
+            "#Produto",
+            "#Industria"
+          ]
+        },
+        "restrictions": "Parafrasear e atribuir à empresa os números próprios e metas futuras.",
+        "caution": "Não confundir verba comercial de R$ 85 milhões com o valor ainda não divulgado da nova rodada industrial."
+      }
+    },
+    {
+      "id": "deep-2026-11-09-pepsico-humanoides-inovacao",
+      "agenda": "IA e gestão",
+      "impact": "Operação e estratégia",
+      "scope": "Internacional",
+      "territory": "Brasil e América Latina",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte jornalística — declaração executiva validada no corpo",
+      "score": 70,
+      "title": "Para a CEO da PepsiCo, Brasil é protagonista em inovação e região mantém estabilidade",
+      "source": "Exame Insight",
+      "date": "2026-11-09",
+      "url": "https://exame.com/insight/para-a-ceo-da-pepsico-na-america-latina-brasil-e-protagonista-em-inovacao/p",
+      "summary": "A CEO da PepsiCo para a América Latina afirmou que a região, ao lado da China, recebe os primeiros testes de uma geração de robôs humanoides da companhia. A estratégia usa Brasil e México como laboratórios de manufatura e cadeias de suprimento, mas depende de conectividade, centros de dados e previsibilidade regulatória.",
+      "angle": "Investigar por que o Brasil vira ambiente de teste, quais processos e funções entram primeiro, como trabalhadores são preparados e que governança deve existir antes de ampliar humanoides na indústria.",
+      "editorialPotential": {
+        "score": 7,
+        "triagePriority": "Prioridade alta",
+        "event": "Tecnologia e redesenho do trabalho",
+        "economicTrigger": "Tecnologia, produtividade e infraestrutura",
+        "organizationalHypothesis": "Investigar funções alteradas, critérios de teste, capacitação, segurança, autonomia e governança da automação industrial.",
+        "questions": [
+          "Qual decisão concreta foi tomada e quais evidências a sustentam?",
+          "O que muda em operação, papéis, recursos, metas ou governança?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "planta e processo dos testes",
+          "escala",
+          "cronograma",
+          "impacto nas funções e salvaguardas"
+        ],
+        "caveat": "Há confirmação da declaração executiva, mas detalhes operacionais do teste não foram informados.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "technology": [
+            "robôs humanoides",
+            "manufatura inteligente"
+          ],
+          "operations": [
+            "cadeia de suprimentos",
+            "infraestrutura"
+          ],
+          "workforce": [
+            "reformas laborais",
+            "funções a investigar"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Para a CEO da PepsiCo, Brasil é protagonista em inovação e região mantém estabilidade",
+        "source": "Exame Insight",
+        "date": "2026-11-09",
+        "url": "https://exame.com/insight/para-a-ceo-da-pepsico-na-america-latina-brasil-e-protagonista-em-inovacao/p"
+      },
+      "audience": {
+        "public": "CEOs, indústria, operações, RH, segurança, tecnologia e transformação.",
+        "interest": "Antecipar critérios de teste, impacto sobre funções, capacitação e governança de robôs na manufatura.",
+        "search": "PepsiCo robôs humanoides Brasil; IA na indústria; automação trabalho; manufatura inteligente",
+        "sensation": "Curiosidade e segurança"
+      },
+      "packaging": {
+        "opening": "O Brasil entrou na primeira geração de testes de humanoides de uma multinacional — mas a pergunta de gestão começa antes do robô chegar à linha.",
+        "promise": "Entenda o que precisa ser definido sobre processo, pessoas, segurança e governança.",
+        "thumbnail": "HUMANOIDES NA FÁBRICA",
+        "description": "A declaração da PepsiCo abre uma pauta sobre automação industrial, trabalho e governança no Brasil.",
+        "keywords": "PepsiCo, robôs humanoides, automação industrial, inteligência artificial, trabalho",
+        "hashtags": "#GestaoEmPauta #InteligenciaArtificial #Industria #FuturoDoTrabalho #Governanca"
+      },
+      "use": {
+        "label": "Usar redação própria, citar a fonte e distinguir afirmações da empresa de dados independentes.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "Declaração executiva direta; detalhes do projeto ainda precisam de confirmação institucional",
+      "bodyAnalysis": {
+        "status": "analisado",
+        "sourceUrl": "https://exame.com/insight/para-a-ceo-da-pepsico-na-america-latina-brasil-e-protagonista-em-inovacao/p",
+        "factual_summary": "A liderança regional da PepsiCo informou que América Latina e China são os primeiros ambientes de teste de humanoides da companhia, situando a iniciativa numa estratégia de manufatura e cadeia de suprimentos.",
+        "facts_confirmed": [
+          "A executiva declarou que a primeira geração de humanoides da PepsiCo está sendo testada na América Latina e na China.",
+          "Brasil e México foram destacados como mercados relevantes para inovação regional.",
+          "A matéria conecta a estratégia a manufatura e cadeias de suprimento resilientes.",
+          "A executiva apontou conectividade, centros de dados e previsibilidade regulatória como condições para ampliar investimento."
+        ],
+        "source_statements": [
+          "A existência dos testes está sustentada por declaração da CEO regional, não por documento técnico apresentado na matéria.",
+          "Local exato, processo, fornecedor, escala e efeitos sobre postos de trabalho não foram detalhados."
+        ],
+        "managerial_consequences": [
+          "Pilotos de automação exigem critérios de segurança, supervisão humana e avaliação de impacto nas funções.",
+          "Escala tecnológica depende de infraestrutura e de um plano de capacitação, não apenas do equipamento."
+        ],
+        "relevance": {
+          "verdict": "GRAVAR AGORA",
+          "reason": "O teste traz uma decisão tecnológica concreta e abre questões materiais de operação, trabalho e governança."
+        },
+        "editorial": {
+          "headline": "Quem governa o teste do humanoide?",
+          "angle": "O Brasil como laboratório de automação e a responsabilidade da liderança antes da escala.",
+          "speaking_preview": "O dado novo é que a América Latina participa da primeira geração de testes de humanoides da PepsiCo. Isso não autoriza prever demissões nem produtividade. Autoriza perguntas melhores: qual processo está sendo testado, com quais critérios de segurança, como trabalhadores participam e que evidência fará a liderança ampliar ou interromper o piloto.",
+          "audience": "Indústria, operações, RH, segurança e tecnologia.",
+          "search_intent": "humanoides na indústria; PepsiCo inovação Brasil; IA e trabalho; governança de automação",
+          "hashtags": [
+            "#GestaoEmPauta",
+            "#IA",
+            "#Industria",
+            "#Trabalho",
+            "#Governanca"
+          ]
+        },
+        "restrictions": "Não inferir substituição de empregos nem escala do projeto; manter a afirmação atribuída à executiva.",
+        "caution": "A matéria confirma a declaração, mas não fornece documentação técnica ou detalhes operacionais do teste."
+      }
+    },
+    {
       "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
       "agenda": "Trabalho e representação",
       "impact": "Pessoas e trabalho",
@@ -7097,5 +7743,11 @@
       "clusterSize": 1,
       "clusterReason": "item principal do cluster"
     }
-  ]
+  ],
+  "researchRun": {
+    "publishedAt": "2026-11-09T13:16:06.893Z",
+    "method": "pesquisa aprofundada em fontes diretas",
+    "curatedItems": 5,
+    "note": "Lote editorial com leitura do corpo, links canônicos e fontes relacionadas; preserva as regras de score e acrescenta validação."
+  }
 }

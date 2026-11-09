@@ -6,19 +6,27 @@ on:
     paths:
       - "scripts/atualizar_radar.py"
       - "scripts/atualizar_tendencias.py"
+      - "data/sources.json"
+      - "tests/test_radar.py"
       - ".github/workflows/atualizar-radar.yml"
   schedule:
     - cron: "0 9,11 * * 1-5" # 06:00 e 08:00 America/Sao_Paulo; independente do horário de publicação do vídeo
 permissions:
   contents: write
+concurrency:
+  group: atualizar-radar-diario
+  cancel-in-progress: false
 jobs:
   radar:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Validar matriz de fontes
+        run: python -m json.tool data/sources.json >/dev/null
       - name: Testar classificação do radar
         run: python tests/test_radar.py
       - name: Atualizar radar

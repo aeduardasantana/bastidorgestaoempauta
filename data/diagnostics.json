@@ -1,79 +1,152 @@
 {
-  "generatedAt": "2026-11-09T12:53:42.557334+00:00",
+  "generatedAt": "2026-11-09T13:26:19.424499+00:00",
   "windowDays": 30,
   "collection": {
-    "queries": 324,
-    "retrieved": 230,
+    "queries": 126,
+    "retrieved": 210,
     "rejectedNonArticle": 16,
-    "rejectedByDate": 77,
-    "accepted": 133
+    "rejectedByDate": 73,
+    "accepted": 117
   },
-  "rawCandidates": 111,
-  "clusters": 107,
-  "duplicatesMerged": 4,
+  "directCollection": {
+    "configured": 7,
+    "attempted": 7,
+    "retrieved": 105,
+    "rejectedNonArticle": 0,
+    "rejectedByDate": 0,
+    "rejectedByTopic": 82,
+    "accepted": 23,
+    "errors": 0,
+    "sources": {
+      "Agência Senado": {
+        "attempted": 1,
+        "retrieved": 15,
+        "accepted": 4,
+        "errors": 0
+      },
+      "Agência Câmara": {
+        "attempted": 1,
+        "retrieved": 20,
+        "accepted": 3,
+        "errors": 0
+      },
+      "Agência Brasil": {
+        "attempted": 1,
+        "retrieved": 10,
+        "accepted": 5,
+        "errors": 0
+      },
+      "Brazil Journal": {
+        "attempted": 1,
+        "retrieved": 15,
+        "accepted": 4,
+        "errors": 0
+      },
+      "Exame": {
+        "attempted": 1,
+        "retrieved": 25,
+        "accepted": 3,
+        "errors": 0
+      },
+      "NeoFeed": {
+        "attempted": 1,
+        "retrieved": 10,
+        "accepted": 4,
+        "errors": 0
+      },
+      "Times Brasil | CNBC": {
+        "attempted": 1,
+        "retrieved": 10,
+        "accepted": 0,
+        "errors": 0
+      }
+    }
+  },
+  "originResolution": {
+    "eligible": 23,
+    "lookups": 12,
+    "resolved": 2
+  },
+  "preservedCurated": 5,
+  "matrixCoverage": {
+    "configuredDirectEndpoints": 7,
+    "directSourcesWithAcceptedItems": 6,
+    "directClusterShare": 0.161
+  },
+  "rawCandidates": 142,
+  "clusters": 137,
+  "duplicatesMerged": 5,
   "scoreBands": {
-    "80-100": 15,
-    "60-70": 6,
-    "40-50": 16,
-    "20-30": 11,
-    "0-10": 59
+    "80-100": 28,
+    "60-70": 11,
+    "40-50": 23,
+    "20-30": 10,
+    "0-10": 65
   },
-  "highPriorityShare": 0.14,
-  "veryLowPriorityShare": 0.551,
+  "highPriorityShare": 0.204,
+  "veryLowPriorityShare": 0.474,
   "agendaDistribution": {
+    "Empresa em Pauta": 19,
+    "Poder e regras": 18,
     "Veículos BR — G1, CNN e UOL": 12,
     "Veículos BR — Band, SBT, Record e Jovem Pan": 12,
-    "Poder e regras": 11,
     "Trabalho e representação": 9,
     "Veículos regionais — Norte e Nordeste": 8,
     "IA e gestão": 8,
     "Veículos BR — Valor": 7,
     "NR-1 / AEP": 7,
     "Veículos BR — NeoFeed e Bloomberg Línea": 6,
+    "Judiciário empresarial": 6,
     "Economia criativa e cultura — fomento": 5,
-    "Empresa em Pauta": 5,
-    "Judiciário empresarial": 5,
+    "Mercado e trabalho": 5,
     "Relações internacionais": 4,
     "Veículos regionais — Centro-Oeste": 3,
+    "Mundo corporativo internacional": 2,
     "Veículos BR — Estadão, Folha e O Globo": 1,
+    "Patrocínio e experiência de marca": 1,
     "Business signals — capital and governance": 1,
     "Business signals — operations and workforce": 1,
     "Business signals — technology and regulation": 1,
     "Veículos regionais — Sul": 1
   },
   "eventDistribution": {
-    "Contexto econômico ou empresarial": 60,
-    "Tecnologia e redesenho do trabalho": 11,
-    "Relações e força de trabalho": 9,
+    "Contexto econômico ou empresarial": 67,
+    "Relações e força de trabalho": 16,
+    "Tecnologia e redesenho do trabalho": 13,
+    "Mudança operacional ou produtiva": 10,
     "Risco psicossocial e saúde no trabalho": 8,
-    "Regulação com efeito empresarial": 7,
-    "Mudança operacional ou produtiva": 5,
-    "Redução, reestruturação ou fechamento": 3,
-    "Investimento ou movimentação de capital": 2,
-    "Expansão ou aumento de capacidade": 1,
-    "Crise financeira ou reorganização judicial": 1
+    "Regulação com efeito empresarial": 6,
+    "Redução, reestruturação ou fechamento": 5,
+    "Investimento ou movimentação de capital": 4,
+    "Expansão ou aumento de capacidade": 3,
+    "Expansão, IA e concorrência em plataforma": 1,
+    "Mudança de modelo de negócio e preparação para escala": 1,
+    "Fusão, aquisição ou mudança de controle": 1,
+    "Crise financeira ou reorganização judicial": 1,
+    "Patrocínio, experiência e ativação de marca": 1
   },
   "topSources": {
-    "UOL Economia": 11,
+    "UOL Economia": 12,
     "www.gov.br": 8,
+    "Exame": 7,
     "Valor Econômico": 7,
+    "R7": 6,
+    "NeoFeed": 5,
     "A TARDE": 5,
-    "R7": 5,
-    "SBT News": 5,
+    "Agência Brasil": 5,
     "Bloomberg Linea Brasil": 5,
+    "Agência Senado": 4,
+    "Brazil Journal": 4,
     "Portal CNJ": 4,
-    "G1": 3,
-    "GZH": 3,
-    "Pequenas Empresas & Grandes Negócios": 3,
-    "O Popular": 3,
-    "Prefeitura de Campinas": 2,
-    "Exame": 2,
-    "ncnews.com.br": 2
+    "SBT News": 4,
+    "Agência Câmara": 3,
+    "G1": 3
   },
   "qualityFlags": {
     "emptyRadar": false,
     "highPriorityInflation": false,
     "lowPriorityNoise": false,
-    "duplicatePressure": false
+    "duplicatePressure": false,
+    "directSourcesUnavailable": false
   }
 }

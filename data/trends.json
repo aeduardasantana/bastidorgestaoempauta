@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T12:53:55.168299+00:00",
+  "updatedAt": "2026-11-09T13:26:30.443858+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "cnpj",
+          "term": "importação",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "nio",
+          "term": "tj rj",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "bruce willis",
+          "term": "tjdft",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "previsão do tempo goiania",
+          "term": "seed",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "caf",
+          "term": "joão chianca",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "correios",
+          "term": "doc",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,34 +58,34 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "energisa",
+          "term": "cnpj",
           "source": "Google Trends",
           "position": 7,
-          "movement": "NOVO",
+          "movement": "↓",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "cop 31",
+          "term": "nio",
           "source": "Google Trends",
           "position": 8,
-          "movement": "NOVO",
+          "movement": "↓",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "calendario 2027",
+          "term": "bruce willis",
           "source": "Google Trends",
           "position": 9,
-          "movement": "NOVO",
+          "movement": "↓",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "celesc",
+          "term": "previsão do tempo goiania",
           "source": "Google Trends",
           "position": 10,
-          "movement": "NOVO",
+          "movement": "↓",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
         }
@@ -99,31 +99,56 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 15,
+    "count": 28,
     "items": [
       {
-        "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
+        "id": "sindicato-convoca-trabalhadores-da-alimentacao-para-assembleia-sobre-negociacao-coletiva-e",
         "title": "Sindicato convoca trabalhadores da alimentação para assembleia sobre negociação coletiva e possível greve - RCN 67",
         "score": 100
       },
       {
-        "id": "trabalhadores-da-metro-transportes-do-sul-em-greve-jornal-de-neg-ciosjornal-de-neg-cios",
+        "id": "trabalhadores-da-metro-transportes-do-sul-em-greve-jornal-de-negociosjornal-de-negocios",
         "title": "Trabalhadores da Metro Transportes do Sul em greve - Jornal de Negócios",
         "score": 100
       },
       {
-        "id": "mudan-as-no-rh-183-acendem-alerta-sobre-nova-reestrutura-o-na-caixa-cee-cobra-explica-es-c",
+        "id": "deep-2026-11-09-ifood-investimento-ia-concorrencia",
+        "title": "'Não tem guerra no delivery. É competição', diz presidente do iFood",
+        "score": 90
+      },
+      {
+        "id": "deep-2026-11-09-armor-energia-pivota-estrategia",
+        "title": "Eles vão faturar R$ 370 milhões fazendo empresas gastarem menos com energia",
+        "score": 90
+      },
+      {
+        "id": "deep-2026-11-09-montclass-expansao-10-bilhoes",
+        "title": "Como essa incorporadora pretende lançar R$ 10 bilhões sem financiamento bancário",
+        "score": 90
+      },
+      {
+        "id": "mudancas-no-rh-183-acendem-alerta-sobre-nova-reestruturacao-na-caixa-cee-cobra-explicacoes",
         "title": "Mudanças no RH 183 acendem alerta sobre nova reestruturação na Caixa; CEE cobra explicações - Contraf-CUT",
         "score": 90
       },
       {
-        "id": "greve-de-nibus-anunciada-para-segunda-feira-9-em-manaus-am-postam-post",
+        "id": "comissao-aprova-projeto-de-incentivo-a-producao-e-ao-uso-do-etanolagencia-camara",
+        "title": "Comissão aprova projeto de incentivo à produção e ao uso do etanol",
+        "score": 90
+      },
+      {
+        "id": "greve-de-onibus-e-anunciada-para-segunda-feira-9-em-manaus-am-postam-post",
         "title": "Greve de ônibus é anunciada para segunda-feira (9) em Manaus - AM POST",
         "score": 90
       },
       {
-        "id": "greve-de-nibus-em-palmas-prefeitura-afirma-que-sindicato-descumpriu-decis-o-que-exigia-fro",
+        "id": "greve-de-onibus-em-palmas-prefeitura-afirma-que-sindicato-descumpriu-decisao-que-exigia-fr",
         "title": "Greve de ônibus em Palmas: prefeitura afirma que sindicato descumpriu decisão que exigia frota mínima - G1",
+        "score": 90
+      },
+      {
+        "id": "googles-workforce-expansion-contrasts-with-layoffs-across-technology-sector-bw-peoplebw-pe",
+        "title": "Google’s Workforce Expansion Contrasts With Layoffs Across Technology Sector - BW People",
         "score": 90
       },
       {
@@ -132,47 +157,87 @@
         "score": 90
       },
       {
-        "id": "corte-de-gastos-de-fl-vio-pode-eliminar-2-2-milh-es-de-empregos-diz-dieese-uol-economiauol",
+        "id": "corte-de-gastos-de-flavio-pode-eliminar-2-2-milhoes-de-empregos-diz-dieese-uol-economiauol",
         "title": "Corte de gastos de Flávio pode eliminar 2,2 milhões de empregos, diz Dieese - UOL Economia",
         "score": 90
       },
       {
-        "id": "jornada-de-40-horas-e-escala-5-2-conquista-e-desafios-r-dio-pe-o-brasilr-dio-pe-o-brasil",
+        "id": "jornada-de-40-horas-e-escala-52-conquista-e-desafios-radio-peao-brasilradio-peao-brasil",
         "title": "Jornada de 40 horas e escala 5×2: conquista e desafios - Rádio Peão Brasil",
         "score": 90
       },
       {
-        "id": "elon-musk-investe-r-105-bilh-es-em-f-brica-de-ia-do-tamanho-de-1-300-maracan-s-a-tardea-ta",
+        "id": "deep-2026-11-09-kraft-heinz-maionese",
+        "title": "Batalha da maionese: Heinz investe R$ 85 milhões para dobrar faturamento e virar a mais vendida",
+        "score": 80
+      },
+      {
+        "id": "audio-artesao-de-baixa-renda-pode-se-tornar-segurado-especial-da-previdenciaagencia-senado",
+        "title": "Áudio: Artesão de baixa renda pode se tornar segurado especial da Previdência",
+        "score": 80
+      },
+      {
+        "id": "bytedance-dona-do-tiktok-estuda-ampliar-operacao-de-data-centers-no-brasilexame",
+        "title": "ByteDance, dona do TikTok, estuda ampliar operação de data centers no Brasil",
+        "score": 80
+      },
+      {
+        "id": "crise-da-nvidia-tudo-o-que-se-sabe-sobre-o-caso-do-ceo-da-empresa-mais-valiosa-do-mundoexa",
+        "title": "Crise da Nvidia: tudo o que se sabe sobre o caso do CEO da empresa mais valiosa do mundo",
+        "score": 80
+      },
+      {
+        "id": "maple-bear-volta-para-casa-e-adquire-escola-no-canadaneofeed",
+        "title": "Maple Bear “volta para casa” e adquire escola no Canadá",
+        "score": 80
+      },
+      {
+        "id": "elon-musk-investe-r-105-bilhoes-em-fabrica-de-ia-do-tamanho-de-1-300-maracanas-a-tardea-ta",
         "title": "Elon Musk investe R$ 105 bilhões em fábrica de IA do tamanho de 1.300 Maracanãs - A TARDE",
         "score": 80
       },
       {
-        "id": "gigante-das-motos-anuncia-r-3-3-bilh-es-para-ampliar-f-brica-no-brasil-a-tardea-tarde",
+        "id": "comissao-de-educacao-aprova-projeto-que-cria-o-marco-da-educacao-integralagencia-camara",
+        "title": "Comissão de Educação aprova projeto que cria o marco da educação integral",
+        "score": 80
+      },
+      {
+        "id": "gigante-das-motos-anuncia-r-3-3-bilhoes-para-ampliar-fabrica-no-brasil-a-tardea-tarde",
         "title": "Gigante das motos anuncia R$ 3,3 bilhões para ampliar fábrica no Brasil - A TARDE",
         "score": 80
       },
       {
-        "id": "opera-o-tapa-buracos-atende-avenidas-princesa-d-oeste-e-iguatemi-nesta-quinta-feira-prefei",
+        "id": "layoff-tracker-voyager-c4-cut-workforces-biospacebiospace",
+        "title": "Layoff Tracker: Voyager, C4 cut workforces - BioSpace",
+        "score": 80
+      },
+      {
+        "id": "operacao-tapa-buracos-atende-avenidas-princesa-doeste-e-iguatemi-nesta-quinta-feira-prefei",
         "title": "Operação Tapa-buracos atende avenidas Princesa d’Oeste e Iguatemi nesta quinta-feira - Prefeitura de Campinas",
         "score": 80
       },
       {
-        "id": "ag-ncia-de-comunica-o-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos-",
+        "id": "o-choque-de-desanimo-que-o-mercado-esta-precificandobrazil-journal",
+        "title": "O ‘choque de desânimo’ que o mercado está precificando",
+        "score": 80
+      },
+      {
+        "id": "agencia-de-comunicacao-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos",
         "title": "Agência de Comunicação - A RADIUS GLOBAL INFRASTRUCTURE INAUGURA NOVA FASE NOS INVESTIMENTOS EM INFRAESTRUTURA DIGITAL E INTEGRA A APWBRASIL À MARCA GLOBAL - Estadão Blue Studio",
         "score": 80
       },
       {
-        "id": "processo-seletivo-para-contrata-o-de-assistente-t-cnico-minist-rio-das-rela-es-exteriores-",
+        "id": "processo-seletivo-para-contratacao-de-assistente-tecnico-ministerio-das-relacoes-exteriore",
         "title": "Processo seletivo para contratação de assistente técnico — Ministério das Relações Exteriores - www.gov.br",
         "score": 80
       },
       {
-        "id": "microsoft-abre-programa-de-demiss-o-volunt-ria-para-60-mil-funcion-rios-uol-economiauol-ec",
+        "id": "microsoft-abre-programa-de-demissao-voluntaria-para-60-mil-funcionarios-uol-economiauol-ec",
         "title": "Microsoft abre programa de demissão voluntária para 60 mil funcionários - UOL Economia",
         "score": 80
       },
       {
-        "id": "fim-da-escala-6x1-entenda-a-mudan-a-na-jornada-e-os-pr-ximos-passos-para-a-regulamenta-o-g",
+        "id": "fim-da-escala-6x1-entenda-a-mudanca-na-jornada-e-os-proximos-passos-para-a-regulamentacao-",
         "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
         "score": 80
       }
@@ -182,6 +247,6 @@
     "trendItems": 10,
     "withRadar": 0,
     "withoutRadar": 10,
-    "highPriorityOutsideTrends": 15
+    "highPriorityOutsideTrends": 28
   }
 }

@@ -7,6 +7,7 @@ from urllib.parse import quote
 from urllib.request import Request,urlopen
 import json,os,re,unicodedata,xml.etree.ElementTree as ET
 from urllib.parse import urlencode
+# Disparo manual de atualização: 2026-11-09
 
 # Agenda, consulta, consequência, localidade editorial e idioma da busca.
 STREAMS={

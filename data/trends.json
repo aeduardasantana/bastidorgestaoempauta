@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:25:21.644677+00:00",
+  "updatedAt": "2026-11-09T12:53:55.168299+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "neymar pai",
+          "term": "cnpj",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "f1 tv",
+          "term": "nio",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "treino livre f1",
+          "term": "bruce willis",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "paris open",
+          "term": "previsão do tempo goiania",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "perícia",
+          "term": "caf",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "tóquio",
+          "term": "correios",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "qarabag",
+          "term": "energisa",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "assaí",
+          "term": "cop 31",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "furia",
+          "term": "calendario 2027",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,7 +82,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "sp500",
+          "term": "celesc",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -99,7 +99,7 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 13,
+    "count": 15,
     "items": [
       {
         "id": "sindicato-convoca-trabalhadores-da-alimenta-o-para-assembleia-sobre-negocia-o-coletiva-e-p",
@@ -107,13 +107,18 @@
         "score": 100
       },
       {
-        "id": "rodovi-rios-de-manaus-anunciam-greve-por-tempo-indeterminado-a-partir-de-segunda-feira-9-t",
-        "title": "Rodoviários de Manaus anunciam greve por tempo indeterminado a partir de segunda-feira (9) - Toda Hora",
+        "id": "trabalhadores-da-metro-transportes-do-sul-em-greve-jornal-de-neg-ciosjornal-de-neg-cios",
+        "title": "Trabalhadores da Metro Transportes do Sul em greve - Jornal de Negócios",
+        "score": 100
+      },
+      {
+        "id": "mudan-as-no-rh-183-acendem-alerta-sobre-nova-reestrutura-o-na-caixa-cee-cobra-explica-es-c",
+        "title": "Mudanças no RH 183 acendem alerta sobre nova reestruturação na Caixa; CEE cobra explicações - Contraf-CUT",
         "score": 90
       },
       {
-        "id": "motoristas-do-transporte-p-blico-de-palmas-suspendem-greve-ap-s-reuni-o-g1g1",
-        "title": "Motoristas do transporte público de Palmas suspendem greve após reunião - G1",
+        "id": "greve-de-nibus-anunciada-para-segunda-feira-9-em-manaus-am-postam-post",
+        "title": "Greve de ônibus é anunciada para segunda-feira (9) em Manaus - AM POST",
         "score": 90
       },
       {
@@ -122,8 +127,8 @@
         "score": 90
       },
       {
-        "id": "google-s-workforce-expansion-contrasts-with-layoffs-across-technology-sector-bw-peoplebw-p",
-        "title": "Google’s Workforce Expansion Contrasts With Layoffs Across Technology Sector - BW People",
+        "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
+        "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
         "score": 90
       },
       {
@@ -132,23 +137,23 @@
         "score": 90
       },
       {
-        "id": "ebay-to-cut-9-of-workforce-in-restructuring-bw-peoplebw-people",
-        "title": "eBay To Cut 9% Of Workforce In Restructuring - BW People",
-        "score": 90
-      },
-      {
-        "id": "ia-e-automa-o-mudam-perfil-das-profiss-es-e-exigem-requalifica-o-de-trabalhadores-portal-i",
-        "title": "IA e automação mudam perfil das profissões e exigem requalificação de trabalhadores - Portal IPNews",
-        "score": 90
-      },
-      {
         "id": "jornada-de-40-horas-e-escala-5-2-conquista-e-desafios-r-dio-pe-o-brasilr-dio-pe-o-brasil",
         "title": "Jornada de 40 horas e escala 5×2: conquista e desafios - Rádio Peão Brasil",
         "score": 90
       },
       {
+        "id": "elon-musk-investe-r-105-bilh-es-em-f-brica-de-ia-do-tamanho-de-1-300-maracan-s-a-tardea-ta",
+        "title": "Elon Musk investe R$ 105 bilhões em fábrica de IA do tamanho de 1.300 Maracanãs - A TARDE",
+        "score": 80
+      },
+      {
         "id": "gigante-das-motos-anuncia-r-3-3-bilh-es-para-ampliar-f-brica-no-brasil-a-tardea-tarde",
         "title": "Gigante das motos anuncia R$ 3,3 bilhões para ampliar fábrica no Brasil - A TARDE",
+        "score": 80
+      },
+      {
+        "id": "opera-o-tapa-buracos-atende-avenidas-princesa-d-oeste-e-iguatemi-nesta-quinta-feira-prefei",
+        "title": "Operação Tapa-buracos atende avenidas Princesa d’Oeste e Iguatemi nesta quinta-feira - Prefeitura de Campinas",
         "score": 80
       },
       {
@@ -162,8 +167,13 @@
         "score": 80
       },
       {
-        "id": "netflix-reportedly-set-to-restructure-and-trim-global-workforce-by-5-netflix-junkienetflix",
-        "title": "Netflix Reportedly Set to Restructure and Trim Global Workforce by 5% - Netflix Junkie",
+        "id": "microsoft-abre-programa-de-demiss-o-volunt-ria-para-60-mil-funcion-rios-uol-economiauol-ec",
+        "title": "Microsoft abre programa de demissão voluntária para 60 mil funcionários - UOL Economia",
+        "score": 80
+      },
+      {
+        "id": "fim-da-escala-6x1-entenda-a-mudan-a-na-jornada-e-os-pr-ximos-passos-para-a-regulamenta-o-g",
+        "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
         "score": 80
       }
     ]
@@ -172,6 +182,6 @@
     "trendItems": 10,
     "withRadar": 0,
     "withoutRadar": 10,
-    "highPriorityOutsideTrends": 13
+    "highPriorityOutsideTrends": 15
   }
 }

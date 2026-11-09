@@ -3,10 +3,9 @@ from email.utils import parsedate_to_datetime
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import parse_qsl,quote,urlencode,urlsplit,urlunsplit
 from urllib.request import Request,urlopen
 import json,os,re,unicodedata,xml.etree.ElementTree as ET
-from urllib.parse import urlencode
 # Disparo manual de atualização: 2026-11-09
 
 # Agenda, consulta, consequência, localidade editorial e idioma da busca.
@@ -65,11 +64,102 @@ STREAMS={
 }
 HEADERS={"User-Agent":"Mozilla/5.0 (BastidorGestaoEmPauta/1.0)"}
 FEED_STATS={"queries":0,"retrieved":0,"rejectedNonArticle":0,"rejectedByDate":0,"accepted":0}
+DIRECT_STATS={"configured":0,"attempted":0,"retrieved":0,"rejectedNonArticle":0,"rejectedByDate":0,"rejectedByTopic":0,"accepted":0,"errors":0,"sources":{}}
+ORIGIN_STATS={"eligible":0,"lookups":0,"resolved":0}
+MATRIX_PATH=Path("data/sources.json")
 
 def clean(t): return re.sub(r"<[^>]+>","",unescape(t or "")).strip()
 def d(v):
- try: return parsedate_to_datetime(v).date().isoformat()
- except: return datetime.now(timezone.utc).date().isoformat()
+ if not v:return ""
+ try:return parsedate_to_datetime(v).date().isoformat()
+ except:pass
+ try:return datetime.fromisoformat(v.strip().replace("Z","+00:00")).date().isoformat()
+ except:return ""
+
+def canonical_url(url):
+ try:
+  parts=urlsplit(url or "")
+  tracking={"utm_source","utm_medium","utm_campaign","utm_term","utm_content","gclid","fbclid","output"}
+  query=urlencode([(k,v) for k,v in parse_qsl(parts.query,keep_blank_values=True) if k.lower() not in tracking])
+  return urlunsplit((parts.scheme,parts.netloc.lower(),parts.path.rstrip("/") or "/",query,""))
+ except:return url or ""
+
+def xml_value(node,names):
+ for element in node.iter():
+  local=element.tag.split("}")[-1].lower()
+  if local in names and element.text and element.text.strip():return element.text.strip()
+ return ""
+
+def xml_link(node):
+ for element in node.iter():
+  if element.tag.split("}")[-1].lower()!="link":continue
+  href=(element.attrib.get("href") or "").strip()
+  rel=(element.attrib.get("rel") or "alternate").lower()
+  if href and rel in ("alternate",""):return href
+  if element.text and element.text.strip():return element.text.strip()
+ return ""
+
+def load_matrix_endpoints(path=MATRIX_PATH):
+ """Transforma a matriz editorial em configuração executável de coleta direta."""
+ try:data=json.loads(path.read_text(encoding="utf-8"))
+ except Exception as error:
+  print("falha matriz",type(error).__name__);return []
+ endpoints=[]
+ for source in data.get("sources",[]):
+  discovery=source.get("discovery") or {}
+  if not discovery.get("active") or discovery.get("adapter")!="rss":continue
+  for endpoint in discovery.get("endpoints",[]):
+   if not endpoint.get("url"):continue
+   endpoints.append({"matrixSource":source.get("source","Matriz de fontes"),**endpoint})
+ DIRECT_STATS["configured"]=len(endpoints)
+ return endpoints
+
+def direct_topic_match(item,endpoint):
+ text=" "+norm(item.get("title","")+" "+item.get("sourceSummary",""))+" "
+ if any(has_phrase(text,term) for term in HARD_PROMO_TERMS):return False
+ signals=set(family_hits(text))
+ if endpoint.get("agenda")=="Poder e regras":
+  return bool(signals&{"regulation","workforce","people_risk","distress"}) or any(has_phrase(text,t) for t in BUSINESS_CONTEXT)
+ return bool(signals) and (any(has_phrase(text,t) for t in BUSINESS_CONTEXT) or any(has_phrase(text,t) for t in MATERIALITY_TERMS))
+
+def direct_feed(endpoint,days=30):
+ """Lê RSS/Atom canônico de uma fonte da matriz sem passar por agregador."""
+ name=endpoint.get("name") or endpoint.get("matrixSource") or "Fonte direta"
+ stats=DIRECT_STATS["sources"].setdefault(name,{"attempted":0,"retrieved":0,"accepted":0,"errors":0})
+ DIRECT_STATS["attempted"]+=1;stats["attempted"]+=1
+ try:
+  payload=urlopen(Request(endpoint["url"],headers=HEADERS),timeout=30).read()
+  root=ET.fromstring(payload)
+ except Exception as error:
+  DIRECT_STATS["errors"]+=1;stats["errors"]+=1
+  print("falha fonte direta",name,type(error).__name__);return []
+ nodes=list(root.findall(".//item"))+list(root.findall(".//{*}entry"))
+ maximum=int(endpoint.get("maxItems",40));raw=[]
+ for node in nodes[:maximum]:
+  title=clean(xml_value(node,{"title"}))
+  url=canonical_url(xml_link(node))
+  date=d(xml_value(node,{"pubdate","published","updated","date"}))
+  summary=clean(xml_value(node,{"description","summary","encoded","content"}))[:3000]
+  if title and url:raw.append({"title":title,"source":name,"date":date,"url":url,"sourceSummary":summary})
+ DIRECT_STATS["retrieved"]+=len(raw);stats["retrieved"]+=len(raw)
+ articles=[item for item in raw if is_article(item)]
+ DIRECT_STATS["rejectedNonArticle"]+=len(raw)-len(articles)
+ dated=[item for item in articles if within_window(item["date"],days)]
+ DIRECT_STATS["rejectedByDate"]+=len(articles)-len(dated)
+ relevant=[item for item in dated if direct_topic_match(item,endpoint)]
+ DIRECT_STATS["rejectedByTopic"]+=len(dated)-len(relevant)
+ for item in relevant:
+  item.update({
+   "agenda":endpoint.get("agenda","Empresa em Pauta"),
+   "impact":endpoint.get("impact","Operação e estratégia"),
+   "scope":endpoint.get("scope","Nacional"),
+   "territory":endpoint.get("territory","Brasil"),
+   "locale":endpoint.get("locale","br"),
+   "discoveryAdapter":"direct_rss",
+   "matrixSource":endpoint.get("matrixSource",name)
+  })
+ DIRECT_STATS["accepted"]+=len(relevant);stats["accepted"]+=len(relevant)
+ return relevant
 
 def within_window(date_iso,days=30):
  try:
@@ -188,8 +278,10 @@ def has_phrase(text,phrase):
 def family_hits(text):
  return {name:[term for term in terms if has_phrase(text,term)] for name,terms in SEMANTIC_FAMILIES.items() if any(has_phrase(text,term) for term in terms)}
 
-def editorial_potential(title,agenda,evidence):
- text=" "+norm(title)+" "
+def editorial_potential(title,agenda,evidence,context=""):
+ # A régua não muda; fontes diretas podem acrescentar o resumo fornecido no RSS.
+ # Isso evita que uma manchete vaga esconda uma decisão material descrita pela própria fonte.
+ text=" "+norm(title+" "+context)+" "
  hits=family_hits(text)
  business_context=any(has_phrase(text,t) for t in BUSINESS_CONTEXT)
  public_context=any(has_phrase(text,t) for t in PUBLIC_INVESTMENT_CONTEXT)
@@ -254,7 +346,7 @@ def cluster_signature(item):
  return families,tokens,entities
 
 def merge_duplicates(items):
- ordered=sorted(items,key=lambda x:((1 if x["evidence"]=="Documento/ato oficial" else 0),x["score"],x["date"]),reverse=True)
+ ordered=sorted(items,key=lambda x:((1 if x.get("bodyAnalysis",{}).get("status","").startswith("analisado") else 0),(1 if x["evidence"]=="Documento/ato oficial" else 0),(1 if x.get("discoveryAdapter")=="direct_rss" else 0),x["score"],x["date"]),reverse=True)
  result=[]
  for item in ordered:
   families,tokens,entities=cluster_signature(item);match=None;match_reason=""
@@ -275,7 +367,7 @@ def merge_duplicates(items):
    item["relatedSources"]=[];item["clusterSize"]=1;item["clusterReason"]="item principal do cluster";result.append(item)
  return result
 
-def radar_diagnostics(raw_items,clustered_items,feed_stats):
+def radar_diagnostics(raw_items,clustered_items,feed_stats,direct_stats=None,origin_stats=None,preserved_curated=0):
  score_bands={"80-100":0,"60-70":0,"40-50":0,"20-30":0,"0-10":0}
  agendas={};events={};sources={}
  for item in clustered_items:
@@ -288,10 +380,21 @@ def radar_diagnostics(raw_items,clustered_items,feed_stats):
  duplicate_count=max(0,len(raw_items)-len(clustered_items))
  high=sum(1 for x in clustered_items if x.get("score",0)>=80)
  low=sum(1 for x in clustered_items if x.get("score",0)<=10)
+ direct_stats=direct_stats or {}
+ direct_count=sum(1 for item in clustered_items if item.get("discoveryAdapter")=="direct_rss")
+ direct_sources=sum(1 for stats in direct_stats.get("sources",{}).values() if stats.get("accepted",0)>0)
  return {
   "generatedAt":datetime.now(timezone.utc).isoformat(),
   "windowDays":30,
   "collection":feed_stats,
+  "directCollection":direct_stats,
+  "originResolution":origin_stats or {},
+  "preservedCurated":preserved_curated,
+  "matrixCoverage":{
+   "configuredDirectEndpoints":direct_stats.get("configured",0),
+   "directSourcesWithAcceptedItems":direct_sources,
+   "directClusterShare":round(direct_count/max(1,len(clustered_items)),3)
+  },
   "rawCandidates":len(raw_items),
   "clusters":len(clustered_items),
   "duplicatesMerged":duplicate_count,
@@ -305,9 +408,28 @@ def radar_diagnostics(raw_items,clustered_items,feed_stats):
    "emptyRadar":len(clustered_items)==0,
    "highPriorityInflation":high/max(1,len(clustered_items))>0.35,
    "lowPriorityNoise":low/max(1,len(clustered_items))>0.60,
-   "duplicatePressure":duplicate_count/max(1,len(raw_items))>0.30
+   "duplicatePressure":duplicate_count/max(1,len(raw_items))>0.30,
+   "directSourcesUnavailable":direct_stats.get("configured",0)>0 and direct_sources==0
   }
  }
+
+def load_curated_items(path=Path("data/news.json"),days=30):
+ """Preserva curadorias já validadas; a coleta não deve apagar trabalho editorial."""
+ try:data=json.loads(path.read_text(encoding="utf-8"))
+ except:return []
+ return [item for item in data.get("items",[]) if item.get("bodyAnalysis",{}).get("status","").startswith("analisado") and within_window(item.get("date",""),days)]
+
+def resolve_origins(items,max_lookups=12):
+ """Aprofunda somente os melhores candidatos, em vez de repetir uma busca para cada ruído."""
+ eligible=[item for item in items if not item.get("origin",{}).get("found") and item.get("score",0)>=60]
+ ORIGIN_STATS["eligible"]=len(eligible)
+ for item in eligible[:max_lookups]:
+  ORIGIN_STATS["lookups"]+=1
+  located=origin(item["title"],item.get("locale","br"))
+  if located.get("found"):ORIGIN_STATS["resolved"]+=1
+  item["origin"]=located
+ for item in eligible[max_lookups:]:
+  item["origin"]={"found":False,"reason":"Origem não expandida nesta rodada; priorização limitada aos candidatos de maior score."}
 
 def audience_for(agenda):
  base={
@@ -480,35 +602,60 @@ def youtube_videos():
  for x in found:x["duration"]=durations.get(x["videoId"],x["duration"])
  return sorted(found,key=lambda x:(x["score"],x["date"]),reverse=True)
 
-items=[]; seen=set()
+# --- EXECUÇÃO DA COLETA ---
+preserved_items=load_curated_items()
+items=list(preserved_items)
+seen_urls={canonical_url(item.get("url","")) for item in items}
+seen_titles={(norm(item.get("title","")),item.get("source","").casefold()) for item in items}
+
+def append_candidate(x,agenda,impact,scope,locale,territory=None):
+ url=canonical_url(x.get("url",""));title_key=(norm(x.get("title","")),x.get("source","").casefold())
+ if not url or url in seen_urls or title_key in seen_titles:return
+ seen_urls.add(url);seen_titles.add(title_key)
+ use,evidence=safety(x)
+ context=x.get("sourceSummary","")
+ potential=editorial_potential(x["title"],agenda,evidence,context)
+ score=potential["score"]*10
+ local=(" Para pauta municipal ou estadual, confirmar o território, o ato aplicável, as empresas/setores afetados e se o efeito é local ou pode se repetir em outros lugares." if scope in ["Municipal","Estadual"] else "")
+ compare=(" Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil — sem presumir equivalência." if scope=="Internacional" else "")
+ direct=x.get("discoveryAdapter")=="direct_rss"
+ origin_data={"found":True,"title":x["title"],"source":x["source"],"date":x["date"],"url":url} if direct else {"found":False}
+ source_type=("Fonte direta da matriz — abrir e validar o corpo" if direct else "Fonte localizada por agregador — abrir a publicação original")
+ summary=(f"Candidata localizada diretamente na matriz. Cenário preliminar: {potential['event']}. O resumo da fonte ajudou a priorizar, mas o corpo ainda precisa ser validado." if direct else f"Candidata localizada por descoberta ampla. Cenário preliminar: {potential['event']}. Abra a publicação original antes de concluir relevância ou consequência.")
+ key=(x["title"]+x["source"]).lower()
+ items.append({
+  "id":re.sub(r"[^a-z0-9]+","-",norm(key))[:90],
+  "agenda":agenda,"impact":impact,"scope":scope,
+  "territory":territory or ("Confirmar na fonte" if scope in ["Municipal","Estadual"] else ("Brasil" if scope in ["Federal","Nacional"] else "Internacional")),
+  "evidence":evidence,"sourceType":source_type,"score":score,
+  "title":x["title"],"source":x["source"],"date":x["date"],"url":url,
+  "summary":summary,"angle":potential["organizationalHypothesis"]+local+compare,
+  "editorialPotential":potential,"origin":origin_data,
+  "audience":audience_for(agenda),"packaging":packaging_for(agenda,impact),"use":use,
+  "discoveryAdapter":x.get("discoveryAdapter","google_news_rss"),
+  "matrixSource":x.get("matrixSource","Google Notícias"),"locale":locale
+ })
+
+# 1) A matriz abre as fontes canônicas configuradas e traz URLs diretas.
+matrix_endpoints=load_matrix_endpoints()
+for endpoint in matrix_endpoints:
+ for x in direct_feed(endpoint):
+  append_candidate(x,x["agenda"],x["impact"],x["scope"],x["locale"],x.get("territory"))
+
+# 2) O Google Notícias permanece como descoberta ampla e redundância, não como fonte única.
 for stream,(query,impact,scope,locale) in STREAMS.items():
  for x in feed(query,12,locale):
-  key=(x["title"]+x["source"]).lower()
-  if key in seen: continue
-  seen.add(key)
-  use,evidence=safety(x)
   agenda="Empresa em Pauta" if stream.startswith("Empresa em Pauta") else ("Mercado e trabalho" if stream.startswith("Sinal setorial") else ("Poder e regras" if stream.startswith("Poder e regras") else ("Relações internacionais" if stream.startswith("Relações internacionais") else stream)))
-  potential=editorial_potential(x["title"],agenda,evidence)
-  score=potential["score"]*10
-  local=(" Para pauta municipal ou estadual, confirmar o território, o ato aplicável, as empresas/setores afetados e se o efeito é local ou pode se repetir em outros lugares." if scope in ["Municipal","Estadual"] else "")
-  compare=(" Para pauta internacional, acrescentar: qual prática, contexto regulatório ou cultura corporativa pode ser comparada ao Brasil — sem presumir equivalência." if scope=="Internacional" else "")
-  items.append({
-   "id":re.sub(r"[^a-z0-9]+","-",key)[:90],
-   "agenda":agenda,
-   "impact":impact,"scope":scope,
-   "territory":"Confirmar na fonte" if scope in ["Municipal","Estadual"] else ("Brasil" if scope in ["Federal","Nacional"] else "Internacional"),
-   "evidence":evidence,"sourceType":"Fonte jornalística ou institucional — confirmar origem","score":score,**x,
-   "summary":f"Candidata localizada. Cenário preliminar: {potential['event']}. Abra a fonte: o título não confirma decisão, consequência organizacional ou efeito humano.",
-   "angle":potential["organizationalHypothesis"]+local+compare,
-   "editorialPotential":potential,
-   "origin":origin(x["title"],locale),"audience":audience_for(agenda),"packaging":packaging_for(agenda,impact),"use":use
-  })
+  append_candidate(x,agenda,impact,scope,locale)
+
 raw_items=list(items)
 items=merge_duplicates(items)
 items.sort(key=lambda x:(x["score"],x["date"]),reverse=True)
-diagnostics=radar_diagnostics(raw_items,items,FEED_STATS)
+# 3) A segunda passagem procura a origem apenas para candidatos fortes ainda sem fonte canônica.
+resolve_origins(items)
+diagnostics=radar_diagnostics(raw_items,items,FEED_STATS,DIRECT_STATS,ORIGIN_STATS,len(preserved_items))
 # A análise com IA é sob demanda: a coleta e os filtros não consomem crédito.
-Path("data/news.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
+Path("data/news.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"researchRun":{"method":"matriz direta + descoberta ampla + expansão seletiva","directEndpoints":len(matrix_endpoints),"curatedPreserved":len(preserved_items)},"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
 Path("data/diagnostics.json").write_text(json.dumps(diagnostics,ensure_ascii=False,indent=2),encoding="utf-8")
 videos=youtube_videos()
 Path("data/videos.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":videos},ensure_ascii=False,indent=2),encoding="utf-8")

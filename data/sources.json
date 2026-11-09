@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18",
+  "updatedAt": "2026-11-09",
   "sources": [
     {
       "source": "Google Notícias",
@@ -9,7 +9,12 @@
       "flow": "Descoberta",
       "function": "Localiza candidatos a pauta em múltiplos veículos e fontes oficiais.",
       "alignment": "Radar amplo de empresas, trabalho, regulação e relações internacionais.",
-      "care": "Nunca citar como fonte final. Abrir a publicação original antes de usar."
+      "care": "Nunca citar como fonte final. Abrir a publicação original antes de usar.",
+      "discovery": {
+        "active": true,
+        "adapter": "google_news_rss",
+        "role": "descoberta ampla e redundância"
+      }
     },
     {
       "source": "Bing News",
@@ -59,7 +64,34 @@
       "flow": "Descoberta, confirmação e acompanhamento",
       "function": "Projetos, tramitação, aprovação e sanção de medidas com efeito empresarial.",
       "alignment": "Regulação, tributação, trabalho e infraestrutura.",
-      "care": "Notícia legislativa não confirma vigência; buscar lei, ato ou Diário Oficial."
+      "care": "Notícia legislativa não confirma vigência; buscar lei, ato ou Diário Oficial.",
+      "discovery": {
+        "active": true,
+        "adapter": "rss",
+        "role": "fonte direta oficial",
+        "endpoints": [
+          {
+            "name": "Agência Senado",
+            "url": "https://www12.senado.leg.br/noticias/feed/todasnoticias/RSS",
+            "agenda": "Poder e regras",
+            "impact": "Risco jurídico/regulatório",
+            "scope": "Federal",
+            "territory": "Brasil",
+            "locale": "br",
+            "maxItems": 50
+          },
+          {
+            "name": "Agência Câmara",
+            "url": "https://www.camara.leg.br/noticias/rss/ultimas-noticias",
+            "agenda": "Poder e regras",
+            "impact": "Risco jurídico/regulatório",
+            "scope": "Federal",
+            "territory": "Brasil",
+            "locale": "br",
+            "maxItems": 50
+          }
+        ]
+      }
     },
     {
       "source": "Planalto e Diário Oficial",
@@ -112,6 +144,33 @@
       "care": "Sobrepõe conteúdo genérico e capacitação; usar como sinal, nunca como prova única."
     },
     {
+      "source": "Agência Brasil",
+      "group": "Obrigação, trabalho e economia",
+      "type": "Jornalística pública",
+      "status": "Monitorada diretamente",
+      "flow": "Descoberta, contexto, confirmação e acompanhamento",
+      "function": "Atos públicos, trabalho, economia e políticas com consequência para empresas.",
+      "alignment": "Poder e regras, mercado e trabalho, dados e decisões públicas.",
+      "care": "Distinguir anúncio, previsão e ato já publicado; quando houver norma, abrir o documento oficial.",
+      "discovery": {
+        "active": true,
+        "adapter": "rss",
+        "role": "fonte direta jornalística pública",
+        "endpoints": [
+          {
+            "name": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
+            "agenda": "Mercado e trabalho",
+            "impact": "Risco jurídico/regulatório",
+            "scope": "Nacional",
+            "territory": "Brasil",
+            "locale": "br",
+            "maxItems": 60
+          }
+        ]
+      }
+    },
+    {
       "source": "CNI, Fecomércio e associações setoriais",
       "group": "Sinal setorial",
       "type": "Fonte representativa interessada",
@@ -149,7 +208,24 @@
       "flow": "Descoberta, contexto, contraponto e acompanhamento",
       "function": "CEOs, governança, crédito, tecnologia e movimentos corporativos.",
       "alignment": "Empresa em Pauta e decisão de liderança.",
-      "care": "Fato jornalístico requer confirmação quando houver ato, dado ou documento disponível."
+      "care": "Fato jornalístico requer confirmação quando houver ato, dado ou documento disponível.",
+      "discovery": {
+        "active": true,
+        "adapter": "rss",
+        "role": "fonte direta jornalística",
+        "endpoints": [
+          {
+            "name": "Brazil Journal",
+            "url": "https://braziljournal.com/feed/",
+            "agenda": "Empresa em Pauta",
+            "impact": "Operação e estratégia",
+            "scope": "Nacional",
+            "territory": "Confirmar na fonte",
+            "locale": "br",
+            "maxItems": 50
+          }
+        ]
+      }
     },
     {
       "source": "Exame, PEGN e InfoMoney Business",
@@ -159,7 +235,24 @@
       "flow": "Descoberta, contexto, contraponto e acompanhamento",
       "function": "Negócios, inovação, empreendedorismo, mercado e gestão.",
       "alignment": "Empresas, estratégia, IA, trabalho e crescimento.",
-      "care": "Priorizar notícias, análises e casos com fato empresarial, mudança, tendência, dado ou implicação gerencial identificável. Rebaixar listas, publieditorial, conteúdo promocional, opinião genérica e materiais sem acontecimento relevante. Uma análise pode ser útil quando houver dado, tendência sustentada, transformação de mercado, decisão, mudança no trabalho, risco, oportunidade ou problema gerencial concreto."
+      "care": "Priorizar notícias, análises e casos com fato empresarial, mudança, tendência, dado ou implicação gerencial identificável. Rebaixar listas, publieditorial, conteúdo promocional, opinião genérica e materiais sem acontecimento relevante. Uma análise pode ser útil quando houver dado, tendência sustentada, transformação de mercado, decisão, mudança no trabalho, risco, oportunidade ou problema gerencial concreto.",
+      "discovery": {
+        "active": true,
+        "adapter": "rss",
+        "role": "fonte direta jornalística",
+        "endpoints": [
+          {
+            "name": "Exame",
+            "url": "https://exame.com/feed/",
+            "agenda": "Empresa em Pauta",
+            "impact": "Operação e estratégia",
+            "scope": "Nacional",
+            "territory": "Confirmar na fonte",
+            "locale": "br",
+            "maxItems": 60
+          }
+        ]
+      }
     },
     {
       "source": "NeoFeed e Bloomberg Línea",
@@ -169,7 +262,51 @@
       "flow": "Descoberta, contexto, contraponto e acompanhamento",
       "function": "Inovação, capital, tecnologia e negócios nacionais e internacionais.",
       "alignment": "Movimentos de mercado e comparações corporativas.",
-      "care": "Priorizar mudança, decisão, fato, dado, conflito, transformação, risco, oportunidade ou pressão sobre empresas. Separar análise jornalística de fato confirmado e rebaixar conteúdo promocional, listas, dicas genéricas ou opinião sem acontecimento novo."
+      "care": "Priorizar mudança, decisão, fato, dado, conflito, transformação, risco, oportunidade ou pressão sobre empresas. Separar análise jornalística de fato confirmado e rebaixar conteúdo promocional, listas, dicas genéricas ou opinião sem acontecimento novo.",
+      "discovery": {
+        "active": true,
+        "adapter": "rss",
+        "role": "fonte direta jornalística",
+        "endpoints": [
+          {
+            "name": "NeoFeed",
+            "url": "https://neofeed.com.br/feed/",
+            "agenda": "Empresa em Pauta",
+            "impact": "Operação e estratégia",
+            "scope": "Nacional",
+            "territory": "Confirmar na fonte",
+            "locale": "br",
+            "maxItems": 50
+          }
+        ]
+      }
+    },
+    {
+      "source": "Times Brasil | CNBC",
+      "group": "Decisão empresarial",
+      "type": "Jornalística",
+      "status": "Monitorada diretamente",
+      "flow": "Descoberta, contexto, contraponto e acompanhamento",
+      "function": "Empresas, tecnologia, energia, finanças e decisões de gestão.",
+      "alignment": "Empresa em Pauta, IA, operação, estratégia e mercado.",
+      "care": "Separar conteúdo próprio, republicação internacional e material comercial; confirmar atos e números na fonte primária quando disponível.",
+      "discovery": {
+        "active": true,
+        "adapter": "rss",
+        "role": "fonte direta jornalística",
+        "endpoints": [
+          {
+            "name": "Times Brasil | CNBC",
+            "url": "https://timesbrasil.com.br/feed/",
+            "agenda": "Empresa em Pauta",
+            "impact": "Operação e estratégia",
+            "scope": "Nacional",
+            "territory": "Confirmar na fonte",
+            "locale": "br",
+            "maxItems": 60
+          }
+        ]
+      }
     },
     {
       "source": "IBGE, Ipea e dados públicos",

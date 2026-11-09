@@ -11,6 +11,12 @@ Central editorial estática para o programa **Gestão em Pauta**, do GEB - Grupo
 A seleção fica armazenada apenas no navegador utilizado.
 
 ## Atualização automática
-O arquivo `data/news.json` será preenchido pelo workflow `.github/workflows/atualizar-radar.yml`, que coleta RSS do Google Notícias a partir das consultas definidas em `scripts/atualizar_radar.py`.
+O workflow `.github/workflows/atualizar-radar.yml` atualiza `data/news.json` em três passagens:
+
+1. abre os RSS canônicos ativados na matriz `data/sources.json`;
+2. usa o Google Notícias apenas para descoberta ampla e redundância;
+3. expande a busca de origem somente para candidatos fortes ainda sem fonte canônica.
+
+As curadorias com corpo já validado são preservadas entre execuções. `data/diagnostics.json` registra cobertura da matriz, desempenho de cada fonte direta, uso do agregador, expansão de origem, ruído e duplicatas.
 
 O domínio personalizado previsto é `bastidorgp.grupoeduardabispo.com.br`.

@@ -87,7 +87,7 @@ const copyResultsButton=document.createElement("button");copyResultsButton.type=
 const resultsActions=document.createElement("div");resultsActions.className="results-actions";const clearSelectionButton=document.querySelector("#clearSelection");clearSelectionButton.before(resultsActions);resultsActions.append(copyResultsButton,clearSelectionButton);
 function selectedOptionText(selector){const select=document.querySelector(selector);return select?.selectedOptions?.[0]?.textContent?.trim()||"Não informado"}
 function listText(values){return Array.isArray(values)&&values.length?values.map(value=>`- ${value}`).join("\n"):"- Não informado"}
-function resultForChatGPT(item,index){const potential=item.editorialPotential||{},body=item.bodyAnalysis||{},origin=item.origin||{},related=item.relatedSources||[],audience=audienceFor(item),packaging=packagingFor(item),use=item.use||{};return `RESULTADO ${index+1}
+function resultForChatGPT(item,index){const potential=item.editorialPotential||{},body=item.bodyAnalysis||{},origin=item.origin||{},related=item.relatedSources||[],audience=audienceFor(item),packaging=packagingFor(item),use=item.use||{};const bodyRecord=Object.keys(body).length?JSON.stringify(body,null,2):"Nenhuma análise individual do corpo armazenada neste resultado.";const originalRefs=item.references||item.bibliography||item.bibliographicReferences||body.references||body.bibliography||null;const referenceRecord=originalRefs?JSON.stringify(originalRefs,null,2):"Nenhuma referência bibliográfica individual registrada neste resultado.";return `RESULTADO ${index+1}
 Título localizado: ${item.title||"Não informado"}
 Fonte exibida: ${item.source||"Não identificada"}
 Data: ${item.date||"Não identificada"}
@@ -113,7 +113,11 @@ Alerta de reprodução: ${use.alert||"Confirmar direitos e não reproduzir texto
 Curadoria anterior do corpo: ${body.status||"Não executada"}${body.relevance?.verdict?` — ${body.relevance.verdict}: ${body.relevance.reason||""}`:""}
 Público preliminar: ${audience.public}
 Busca provável preliminar: ${audience.search}
-Empacotamento preliminar: ${packaging.thumbnail} | ${packaging.keywords}`}
+Empacotamento preliminar: ${packaging.thumbnail} | ${packaging.keywords}
+Referências bibliográficas individuais armazenadas (se houver; verificar a fonte):
+${referenceRecord}
+Ficha integral de análise do corpo já armazenada no Bastidor (se houver; distinguir status e origem dos campos):
+${bodyRecord}`}
 function filteredResultsText(){const items=filter(),search=document.querySelector("#searchInput")?.value.trim()||"Sem termo",kind=mode==="news"?"Notícias":"Vídeos";return `GESTÃO EM PAUTA — SOLICITAÇÃO DE CURADORIA GERAL
 
 RESULTADOS ATUALMENTE FILTRADOS NO BASTIDOR
@@ -149,6 +153,30 @@ O Bastidor realizou apenas descoberta e triagem preliminar por títulos, fontes 
 13. Para os conteúdos viáveis, proponha manchete baseada no corpo, perspectiva própria de análise, público interessado, motivo de interesse, pesquisas prováveis, palavras-chave, hashtags e uma breve prévia do que Eduarda poderia desenvolver.
 14. Informe o que ainda precisa ser apurado antes de utilizar cada conteúdo.
 15. Informe restrições de reprodução: a informação pode ser noticiada com redação própria; texto, fotografia, vídeo, tabela, arte ou infográfico de terceiros não devem ser simplesmente reproduzidos.
+
+PÚBLICO EDITORIAL E IMPACTO ECONÔMICO/MERCADOLÓGICO
+O Gestão em Pauta é um programa de múltiplas notícias para empresários, gestores, empreendedores, fornecedores, parceiros comerciais, profissionais e pessoas interessadas nos acontecimentos que movimentam os negócios e o mercado de trabalho brasileiro. Não oriente a análise exclusivamente à administração da organização noticiada.
+
+Para cada acontecimento, investigue conforme a pertinência: (a) o que aconteceu e o estágio real da decisão; (b) a dimensão econômica ou setorial; (c) quais mercados podem ser alcançados; (d) as relações entre empresas, clientes, parceiros, fornecedores, concorrentes, trabalhadores e consumidores; (e) consequências já verificadas; (f) oportunidades ou riscos plausíveis e fundamentados; (g) como tecnologia, concorrência, contratos, investimentos, hábitos de consumo e regulação podem atingir outros negócios. Explique o mecanismo que liga o fato ao impacto. Não converta hipóteses em fatos, nem transforme toda notícia em exercício de planejamento interno da empresa citada.
+
+CURADORIA COMPARATIVA E HIERARQUIA
+Avalie TODOS os resultados recebidos; identifique duplicatas, repercussões do mesmo fato e acontecimentos independentes. Compare relevância e atualidade; impacto econômico e social; interesse do público brasileiro; utilidade para empresários e profissionais; originalidade da análise; qualidade das fontes; potencial legítimo de interesse, clique e retenção; e diversidade editorial. Não selecione por valor financeiro, fama da empresa ou score isolado.
+
+Classifique cada acontecimento, após apuração, como aprofundamento, notícia desenvolvida, radar, acompanhamento, reserva ou descarte. Justifique escolhas e exclusões relevantes. Preserve a amplitude do programa multitemático sem incluir todos os resultados automaticamente.
+
+APROFUNDAMENTO DOCUMENTAL E SOLICITAÇÃO DE FICHAS
+A exportação coletiva preserva campos informativos já armazenados no resultado quando existirem, inclusive ficha de análise do corpo e referências individuais. O status da ficha não substitui a confirmação na fonte original. A falta de dados no texto exportado não significa que o acontecimento seja pouco relevante.
+
+Se faltar evidência essencial para decidir ou aprofundar, ANTES de finalizar a curadoria indique nominalmente:
+- notícia que requer a função individual “Copiar análise”;
+- informação ou referência que está faltando;
+- por que essa informação é necessária à decisão editorial;
+- qual ficha a responsável deve copiar.
+Solicite somente as fichas indispensáveis; não peça automaticamente todas. Não declare validada a notícia com lacunas factuais essenciais.
+
+RELATÓRIO DE COBERTURA E ENTREGA
+Antes do pacote de estruturação, apresente quantidade de resultados recebidos e efetivamente avaliados; duplicatas e agrupamentos; notícias escolhidas e motivos; reservas e exclusões relevantes; hierarquia proposta; impactos econômicos e mercadológicos; público interessado em cada pauta; e fontes ou fichas pendentes.
+
 16. Ao final, produza uma síntese chamada “PACOTE DE CURADORIA PARA O CHAT DE ESTRUTURAÇÃO”, contendo somente acontecimentos validados, importância de cada um, fatos essenciais, conexões identificadas, possíveis análises, conteúdos em acompanhamento, possíveis séries e lacunas ainda existentes.
 
 ${orientacaoTeoricaParaRoteiro}\n\nPÚBLICO-ALVO E IMPACTOS NO MERCADO\n\nA análise deve partir do acontecimento e de sua repercussão no ecossistema empresarial brasileiro. Para cada notícia candidata, identifique quem pode ser alcançado — pequenos e médios empresários, clientes, fornecedores, parceiros, concorrentes, prestadores de serviços, profissionais e consumidores — e por qual mecanismo: demanda, contratos, preços, logística, crédito, tecnologias, serviços, concorrência, emprego, remuneração ou hábitos de consumo, conforme a evidência disponível.\n\nDiferencie impacto já comprovado, declaração de fonte interessada, projeção empresarial e possível desdobramento a investigar. Considere informações sobre comportamento de consumo, saúde ou trabalho quando realmente pertinentes, sem relações causais especulativas.\n\nNa escolha, priorize relevância setorial, utilidade concreta para o público, alcance no Brasil, originalidade do ângulo, qualidade da apuração e diversidade de notícias. Não confunda ensinar a empresa da manchete a executar sua estratégia com explicar o que a decisão dela significa para os demais agentes do mercado.\n\nANTES de emitir o pacote final, informe quantos resultados foram recebidos e avaliados, quais foram agrupados como duplicatas, quais foram incluídos e excluídos, com justificativas, e quais fichas individuais do Bastidor faltam para decidir ou aprofundar. Solicite essas fichas nominalmente antes de concluir uma pauta que dependa delas; não presuma que a cópia em massa contém a riqueza da análise individual. Não trate ausência de ficha como prova de baixa relevância.\n\nNÃO monte escalada, espelho, ordem dos blocos, roteiro ou Mapa Mental. Essas decisões pertencem ao Chat 3.`}

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T13:07:32.983212+00:00",
+  "updatedAt": "2026-11-10T16:39:35.298781+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,35 +10,34 @@
       "error": null,
       "items": [
         {
-          "term": "vazamento de informações",
+          "term": "dezembro",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
           "relatedClusters": [
             {
-              "id": "pf-prende-ex-servidor-do-stj-suspeito-de-vazar-informacoes-sigilosasagencia-brasil",
-              "title": "PF prende ex-servidor do STJ suspeito de vazar informações sigilosas",
+              "id": "governo-prorroga-ate-9-de-dezembro-desoneracao-da-gasolina-e-do-etanolagencia-brasil",
+              "title": "Governo prorroga até 9 de dezembro desoneração da gasolina e do etanol",
               "score": 70
+            },
+            {
+              "id": "abono-salarial-tem-r-64-milhoes-que-nao-foram-sacados-prazo-termina-em-dezembro-r7r7",
+              "title": "Abono salarial tem R$ 64 milhões que não foram sacados; prazo termina em dezembro - R7",
+              "score": 40
             }
           ],
           "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "abastecimento de água fortaleza",
+          "term": "petr4",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "ele-transformou-residuos-em-um-negocio-de-r-72-milhoes-agora-quer-monitorar-agua-com-franq",
-              "title": "Ele transformou resíduos em um negócio de R$ 72 milhões. Agora quer monitorar água com franquias - Exame",
-              "score": 50
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "barco",
+          "term": "psg x bayern",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -46,21 +45,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "mega sena 3084",
+          "term": "pastor",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "mega-sena-sorteia-premio-de-r-3-5-milhoes-nesta-terca-feiraagencia-brasil",
-              "title": "Mega-Sena sorteia prêmio de R$ 3,5 milhões nesta terça-feira",
-              "score": 0
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "red dead redemption 2",
+          "term": "crime organizado",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -68,7 +61,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "astronauta",
+          "term": "nations league",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -76,35 +69,23 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "reestruturação",
+          "term": "lavagem de dinheiro",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "mudancas-no-rh-183-acendem-alerta-sobre-nova-reestruturacao-na-caixa-cee-cobra-explicacoes",
-              "title": "Mudanças no RH 183 acendem alerta sobre nova reestruturação na Caixa; CEE cobra explicações - Contraf-CUT",
-              "score": 90
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "daniel erthal",
+          "term": "motoboy",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "daniel-lancaster-leva-licoes-de-brasilia-a-final-do-endurance-brasil-pequenas-empresas-gra",
-              "title": "Daniel Lancaster leva lições de Brasília à final do Endurance Brasil - Pequenas Empresas & Grandes Negócios",
-              "score": 30
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "zak miller",
+          "term": "concurso prf",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -112,38 +93,12 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "jogo brasil",
+          "term": "egie3",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "jornada-de-40-horas-e-escala-52-conquista-e-desafios-radio-peao-brasilradio-peao-brasil",
-              "title": "Jornada de 40 horas e escala 5×2: conquista e desafios - Rádio Peão Brasil",
-              "score": 90
-            },
-            {
-              "id": "opiniao-uma-gigante-coreana-foi-a-falencia-no-brasil-os-bastidores-assustambrazil-journal",
-              "title": "OPINIÃO. Uma gigante coreana foi à falência no Brasil. Os bastidores assustam",
-              "score": 80
-            },
-            {
-              "id": "para-brookfield-e-la-caisse-inseguranca-regulatoria-poe-investimentos-em-xeque-no-brasilne",
-              "title": "Para Brookfield e La Caisse, insegurança regulatória põe investimentos em xeque no Brasil",
-              "score": 80
-            },
-            {
-              "id": "gigante-das-motos-anuncia-r-3-3-bilhoes-para-ampliar-fabrica-no-brasil-a-tardea-tarde",
-              "title": "Gigante das motos anuncia R$ 3,3 bilhões para ampliar fábrica no Brasil - A TARDE",
-              "score": 80
-            },
-            {
-              "id": "lucro-da-jbs-cai-afetado-por-cotas-da-china-apesar-de-melhora-da-operacao-nos-eua-bloomber",
-              "title": "Lucro da JBS cai afetado por cotas da China apesar de melhora da operação nos EUA - Bloomberg Linea Brasil",
-              "score": 70
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         }
       ]
     }
@@ -155,8 +110,23 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 32,
+    "count": 37,
     "items": [
+      {
+        "id": "ci-pede-auditoria-em-concessao-rodoviaria-entre-ro-e-mtagencia-senado",
+        "title": "CI pede auditoria em concessão rodoviária entre RO e MT",
+        "score": 100
+      },
+      {
+        "id": "politica-nacional-de-incentivo-a-fabricacao-de-motores-vai-a-camaraagencia-senado",
+        "title": "Política Nacional de Incentivo à Fabricação de Motores vai à Câmara",
+        "score": 100
+      },
+      {
+        "id": "projeto-institui-politica-de-protecao-dos-trabalhadores-conhecidos-como-chapasagencia-cama",
+        "title": "Projeto institui política de proteção dos trabalhadores conhecidos como chapas",
+        "score": 100
+      },
       {
         "id": "incerteza-fiscal-trava-emissoes-de-divida-e-fecha-a-torneira-do-credito-corporativoneofeed",
         "title": "Incerteza fiscal trava emissões de dívida e fecha a torneira do crédito corporativo",
@@ -178,18 +148,13 @@
         "score": 100
       },
       {
-        "id": "audio-contratacao-de-associacoes-de-pcds-esta-na-pauta-da-ccjagencia-senado",
-        "title": "Áudio: Contratação de associações de PcDs está na pauta da CCJ",
-        "score": 100
-      },
-      {
         "id": "sindicato-convoca-trabalhadores-da-alimentacao-para-assembleia-sobre-negociacao-coletiva-e",
         "title": "Sindicato convoca trabalhadores da alimentação para assembleia sobre negociação coletiva e possível greve - RCN 67",
         "score": 100
       },
       {
-        "id": "os-planos-da-gigante-dos-supermercados-de-r-10-bilhoes-apos-a-compra-do-st-marcheexame",
-        "title": "Os planos da gigante dos supermercados de R$ 10 bilhões após a compra do St. Marche",
+        "id": "receita-da-tsmc-avanca-em-outubro-com-expansao-global-do-setor-de-chipstimes-brasil-cnbc",
+        "title": "Receita da TSMC avança em outubro com expansão global do setor de chips",
         "score": 90
       },
       {
@@ -229,7 +194,12 @@
       },
       {
         "id": "funcionarios-terceirizados-da-coelba-entram-em-greve-e-paralisam-atividades-em-santo-anton",
-        "title": "Funcionários terceirizados da Coelba entram em greve e paralisam atividades em Santo Antônio de Jesus - Blog do Valente",
+        "title": "Funcionários terceirizados da Coelba entram em greve e paralisam atividades em Santo Antônio de Jesus - Informe Cruz",
+        "score": 90
+      },
+      {
+        "id": "mudancas-no-rh-183-acendem-alerta-sobre-nova-reestruturacao-na-caixa-cee-cobra-explicacoes",
+        "title": "Mudanças no RH 183 acendem alerta sobre nova reestruturação na Caixa; CEE cobra explicações - Contraf-CUT",
         "score": 90
       },
       {
@@ -263,28 +233,33 @@
         "score": 90
       },
       {
-        "id": "articulacao-de-faccoes-exige-resposta-coordenada-diz-procuradoragencia-brasil",
-        "title": "Articulação de facções exige resposta coordenada, diz procurador",
+        "id": "jornada-de-40-horas-e-escala-52-conquista-e-desafios-radio-peao-brasilradio-peao-brasil",
+        "title": "Jornada de 40 horas e escala 5×2: conquista e desafios - Rádio Peão Brasil",
+        "score": 90
+      },
+      {
+        "id": "sessao-especial-celebra-os-80-anos-da-secretaria-geral-da-mesaagencia-senado",
+        "title": "Sessão especial celebra os 80 anos da Secretaria-Geral da Mesa",
         "score": 80
       },
       {
-        "id": "google-nvidia-microsoft-e-outras-gigantes-da-tecnologia-investem-us-26-bi-na-anthropicexam",
-        "title": "Google, Nvidia, Microsoft e outras gigantes da tecnologia investem US$ 26 bi na Anthropic",
+        "id": "opiniao-uma-gigante-coreana-foi-a-falencia-no-brasil-os-bastidores-assustambrazil-journal",
+        "title": "OPINIÃO. Uma gigante coreana foi à falência no Brasil. Os bastidores assustam",
         "score": 80
       },
       {
-        "id": "pf-investiga-desvio-de-recursos-de-emendas-pix-em-operacao-na-bahiatimes-brasil-cnbc",
-        "title": "PF investiga desvio de recursos de “emendas PIX” em operação na Bahia",
+        "id": "tim-nega-venda-e-mira-expansao-no-brasil-temos-forca-patrimonial-diz-ceoexame",
+        "title": "TIM nega venda e mira expansão no Brasil: 'temos força patrimonial', diz CEO",
         "score": 80
       },
       {
-        "id": "raizen-compra-r-1-7-bilhao-em-creditos-fiscais-da-cosan-por-r-237-milhoestimes-brasil-cnbc",
-        "title": "Raízen compra R$ 1,7 bilhão em créditos fiscais da Cosan por R$ 237 milhões",
+        "id": "empresa-testa-tecnologia-de-ia-que-otimiza-precos-do-transporte-rodoviarioexame",
+        "title": "Empresa testa tecnologia de IA que otimiza preços do transporte rodoviário",
         "score": 80
       },
       {
-        "id": "juros-elevados-e-falta-de-recursos-dificultam-avanco-dos-investimentos-indicador-abaixo-de",
-        "title": "Juros elevados e falta de recursos dificultam avanço dos investimentos, indicador abaixo de 20% do PIB desde 2014",
+        "id": "paramount-e-hbo-max-terao-pacote-conjunto-no-inicio-de-2027-diz-ceoexame",
+        "title": "Paramount+ e HBO Max terão pacote conjunto no início de 2027, diz CEO",
         "score": 80
       },
       {
@@ -293,8 +268,13 @@
         "score": 80
       },
       {
-        "id": "elon-musk-investe-r-105-bilhoes-em-fabrica-de-ia-do-tamanho-de-1-300-maracanas-a-tardea-ta",
-        "title": "Elon Musk investe R$ 105 bilhões em fábrica de IA do tamanho de 1.300 Maracanãs - A TARDE",
+        "id": "para-brookfield-e-la-caisse-inseguranca-regulatoria-poe-investimentos-em-xeque-no-brasilne",
+        "title": "Para Brookfield e La Caisse, insegurança regulatória põe investimentos em xeque no Brasil",
+        "score": 80
+      },
+      {
+        "id": "gigante-das-motos-anuncia-r-3-3-bilhoes-para-ampliar-fabrica-no-brasil-a-tardea-tarde",
+        "title": "Gigante das motos anuncia R$ 3,3 bilhões para ampliar fábrica no Brasil - A TARDE",
         "score": 80
       },
       {
@@ -321,8 +301,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 6,
-    "withoutRadar": 4,
-    "highPriorityOutsideTrends": 32
+    "withRadar": 1,
+    "withoutRadar": 9,
+    "highPriorityOutsideTrends": 37
   }
 }

@@ -1,3 +1,4 @@
+# Reexecução extraordinária editorial solicitada para 10/11/2026; sem alteração de horários, fontes ou classificação.
 name: Atualizar Radar Diário
 on:
   workflow_dispatch:

@@ -147,6 +147,7 @@ Data da cópia (não é a data da coleta): ${gpDateTime(new Date().toISOString()
 Origem: ${radarRunInfo?.method||"método não identificado"}
 Tipo: ${kind}
 Período: ${selectedOptionText("#period")}
+Observação sobre o filtro: o radar preserva a data de publicação, mas nem todas as fontes informam a hora exata; “últimas 24 horas” é aproximação por data, não comprovação de janela horária exata.
 Agenda: ${selectedOptionText("#agenda")}
 Consequência: ${selectedOptionText("#impact")}
 Fonte/evidência: ${selectedOptionText("#evidence")}

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T16:39:35.298781+00:00",
+  "updatedAt": "2026-11-10T21:45:26.426184+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,26 +10,15 @@
       "error": null,
       "items": [
         {
-          "term": "dezembro",
+          "term": "advogado",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "governo-prorroga-ate-9-de-dezembro-desoneracao-da-gasolina-e-do-etanolagencia-brasil",
-              "title": "Governo prorroga até 9 de dezembro desoneração da gasolina e do etanol",
-              "score": 70
-            },
-            {
-              "id": "abono-salarial-tem-r-64-milhoes-que-nao-foram-sacados-prazo-termina-em-dezembro-r7r7",
-              "title": "Abono salarial tem R$ 64 milhões que não foram sacados; prazo termina em dezembro - R7",
-              "score": 40
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "petr4",
+          "term": "vacinação",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -37,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "psg x bayern",
+          "term": "esports",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -45,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "pastor",
+          "term": "isis valverde",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -53,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "crime organizado",
+          "term": "raiz4",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -61,15 +50,41 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "nations league",
+          "term": "superliga brasileira de voleibol feminino - série a",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "senado-aprova-incentivo-a-contratacao-de-mulheres-com-cancer-de-mamaagencia-senado",
+              "title": "Senado aprova incentivo à contratação de mulheres com câncer de mama",
+              "score": 100
+            },
+            {
+              "id": "incerteza-fiscal-trava-emissoes-de-divida-e-fecha-a-torneira-do-credito-corporativoneofeed",
+              "title": "Incerteza fiscal trava emissões de dívida e fecha a torneira do crédito corporativo",
+              "score": 100
+            },
+            {
+              "id": "grupo-fleury-e-bradsaude-criam-a-fleuryonco-rede-de-clinicas-oncologicas-com-r-72-milhoese",
+              "title": "Grupo Fleury e Bradsaúde criam a 'FleuryOnco', rede de clínicas oncológicas com R$ 72 milhões",
+              "score": 90
+            },
+            {
+              "id": "a-segunda-jornada-de-greve-na-industria-da-carne-volta-a-conseguir-um-apoio-proximo-dos-90",
+              "title": "A segunda jornada de greve na indústria da carne volta a conseguir um apoio próximo dos 90% - Demócrata",
+              "score": 90
+            },
+            {
+              "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
+              "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
+              "score": 90
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "lavagem de dinheiro",
+          "term": "josh downs",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -77,7 +92,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "motoboy",
+          "term": "comércio",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -85,7 +100,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "concurso prf",
+          "term": "influencer vivi motta",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -93,7 +108,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "egie3",
+          "term": "bar belfer",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -110,21 +125,11 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 37,
+    "count": 35,
     "items": [
       {
-        "id": "ci-pede-auditoria-em-concessao-rodoviaria-entre-ro-e-mtagencia-senado",
-        "title": "CI pede auditoria em concessão rodoviária entre RO e MT",
-        "score": 100
-      },
-      {
-        "id": "politica-nacional-de-incentivo-a-fabricacao-de-motores-vai-a-camaraagencia-senado",
-        "title": "Política Nacional de Incentivo à Fabricação de Motores vai à Câmara",
-        "score": 100
-      },
-      {
-        "id": "projeto-institui-politica-de-protecao-dos-trabalhadores-conhecidos-como-chapasagencia-cama",
-        "title": "Projeto institui política de proteção dos trabalhadores conhecidos como chapas",
+        "id": "senado-aprova-incentivo-a-contratacao-de-mulheres-com-cancer-de-mamaagencia-senado",
+        "title": "Senado aprova incentivo à contratação de mulheres com câncer de mama",
         "score": 100
       },
       {
@@ -133,33 +138,33 @@
         "score": 100
       },
       {
-        "id": "confucio-pede-mais-credito-para-pequenos-produtores-da-regiao-amazonicaagencia-senado",
-        "title": "Confúcio pede mais crédito para pequenos produtores da região amazônica",
-        "score": 100
-      },
-      {
-        "id": "paulo-paim-agradece-a-apoiadores-e-faz-balanco-de-trajetoria-no-senadoagencia-senado",
-        "title": "Paulo Paim agradece a apoiadores e faz balanço de trajetória no Senado",
-        "score": 100
-      },
-      {
-        "id": "plenario-vota-projeto-que-protege-recursos-para-internet-em-escolas-publicasagencia-senado",
-        "title": "Plenário vota projeto que protege recursos para internet em escolas públicas",
-        "score": 100
-      },
-      {
         "id": "sindicato-convoca-trabalhadores-da-alimentacao-para-assembleia-sobre-negociacao-coletiva-e",
         "title": "Sindicato convoca trabalhadores da alimentação para assembleia sobre negociação coletiva e possível greve - RCN 67",
         "score": 100
       },
       {
-        "id": "receita-da-tsmc-avanca-em-outubro-com-expansao-global-do-setor-de-chipstimes-brasil-cnbc",
-        "title": "Receita da TSMC avança em outubro com expansão global do setor de chips",
+        "id": "video-comissao-de-infraestrutura-contesta-leilao-de-rodovia-entre-rondonia-e-mato-grossoag",
+        "title": "Vídeo: Comissão de Infraestrutura contesta leilão de rodovia entre Rondônia e Mato Grosso",
+        "score": 90
+      },
+      {
+        "id": "camara-aprova-renegociacao-de-dividas-rurais-de-produtores-prejudicados-por-eventos-climat",
+        "title": "Câmara aprova renegociação de dívidas rurais de produtores prejudicados por eventos climáticos extremos; acompanhe",
+        "score": 90
+      },
+      {
+        "id": "grupo-fleury-e-bradsaude-criam-a-fleuryonco-rede-de-clinicas-oncologicas-com-r-72-milhoese",
+        "title": "Grupo Fleury e Bradsaúde criam a 'FleuryOnco', rede de clínicas oncológicas com R$ 72 milhões",
         "score": 90
       },
       {
         "id": "jornada-amazonia-inicia-nova-fase-com-aporte-de-r-7-mi-para-bioeconomia-d24amd24am",
         "title": "Jornada Amazônia inicia nova fase com aporte de R$ 7 mi para bioeconomia - D24AM",
+        "score": 90
+      },
+      {
+        "id": "a-segunda-jornada-de-greve-na-industria-da-carne-volta-a-conseguir-um-apoio-proximo-dos-90",
+        "title": "A segunda jornada de greve na indústria da carne volta a conseguir um apoio próximo dos 90% - Demócrata",
         "score": 90
       },
       {
@@ -188,13 +193,8 @@
         "score": 90
       },
       {
-        "id": "sem-concorrencia-conasa-entrega-proposta-para-leilao-de-r-15-4-bilhoesneofeed",
-        "title": "Sem concorrência, Conasa entrega proposta para leilão de R$ 15,4 bilhões",
-        "score": 90
-      },
-      {
         "id": "funcionarios-terceirizados-da-coelba-entram-em-greve-e-paralisam-atividades-em-santo-anton",
-        "title": "Funcionários terceirizados da Coelba entram em greve e paralisam atividades em Santo Antônio de Jesus - Informe Cruz",
+        "title": "Funcionários terceirizados da Coelba entram em greve e paralisam atividades em Santo Antônio de Jesus - Blog do Valente",
         "score": 90
       },
       {
@@ -205,6 +205,11 @@
       {
         "id": "greve-de-onibus-e-anunciada-para-segunda-feira-9-em-manaus-am-postam-post",
         "title": "Greve de ônibus é anunciada para segunda-feira (9) em Manaus - AM POST",
+        "score": 90
+      },
+      {
+        "id": "motoristas-do-transporte-publico-de-palmas-suspendem-greve-apos-reuniao-g1g1",
+        "title": "Motoristas do transporte público de Palmas suspendem greve após reunião - G1",
         "score": 90
       },
       {
@@ -238,8 +243,13 @@
         "score": 90
       },
       {
-        "id": "sessao-especial-celebra-os-80-anos-da-secretaria-geral-da-mesaagencia-senado",
-        "title": "Sessão especial celebra os 80 anos da Secretaria-Geral da Mesa",
+        "id": "confucio-homenageia-servidores-pelos-80-anos-da-secretaria-geral-da-mesaagencia-senado",
+        "title": "Confúcio homenageia servidores pelos 80 anos da Secretaria-Geral da Mesa",
+        "score": 80
+      },
+      {
+        "id": "bc-do-paraguai-ja-ressarciu-93-dos-clientes-do-banco-uenoagencia-brasil",
+        "title": "BC do Paraguai já ressarciu 93% dos clientes do banco Ueno",
         "score": 80
       },
       {
@@ -248,28 +258,18 @@
         "score": 80
       },
       {
-        "id": "tim-nega-venda-e-mira-expansao-no-brasil-temos-forca-patrimonial-diz-ceoexame",
-        "title": "TIM nega venda e mira expansão no Brasil: 'temos força patrimonial', diz CEO",
+        "id": "o-pente-fino-na-operacao-da-copasa-apos-100-dias-da-privatizacaoneofeed",
+        "title": "O pente-fino na operação da Copasa após 100 dias da privatização",
         "score": 80
       },
       {
-        "id": "empresa-testa-tecnologia-de-ia-que-otimiza-precos-do-transporte-rodoviarioexame",
-        "title": "Empresa testa tecnologia de IA que otimiza preços do transporte rodoviário",
-        "score": 80
-      },
-      {
-        "id": "paramount-e-hbo-max-terao-pacote-conjunto-no-inicio-de-2027-diz-ceoexame",
-        "title": "Paramount+ e HBO Max terão pacote conjunto no início de 2027, diz CEO",
+        "id": "fratellino-lanca-delivery-de-massas-com-tecnologia-alimentar-e-operacao-com-um-funcionario",
+        "title": "Fratellino lança delivery de massas com tecnologia alimentar e operação com um funcionário - Pequenas Empresas & Grandes Negócios",
         "score": 80
       },
       {
         "id": "deep-2026-11-09-kraft-heinz-maionese",
         "title": "Batalha da maionese: Heinz investe R$ 85 milhões para dobrar faturamento e virar a mais vendida",
-        "score": 80
-      },
-      {
-        "id": "para-brookfield-e-la-caisse-inseguranca-regulatoria-poe-investimentos-em-xeque-no-brasilne",
-        "title": "Para Brookfield e La Caisse, insegurança regulatória põe investimentos em xeque no Brasil",
         "score": 80
       },
       {
@@ -296,6 +296,11 @@
         "id": "until-today-its-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-te",
         "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters - HR News",
         "score": 80
+      },
+      {
+        "id": "fim-da-escala-6x1-entenda-a-mudanca-na-jornada-e-os-proximos-passos-para-a-regulamentacao-",
+        "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
+        "score": 80
       }
     ]
   },
@@ -303,6 +308,6 @@
     "trendItems": 10,
     "withRadar": 1,
     "withoutRadar": 9,
-    "highPriorityOutsideTrends": 37
+    "highPriorityOutsideTrends": 35
   }
 }

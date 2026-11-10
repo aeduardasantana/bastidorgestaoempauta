@@ -1,0 +1,2334 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-10T21:45:19+00:00",
+  "runs": [
+    {
+      "runId": "gh-42907958236-1",
+      "generatedAt": "2026-11-10T21:45:19+00:00",
+      "generatedAtLocal": "2026-11-10T18:45:19-03:00",
+      "timezone": "America/Sao_Paulo",
+      "trigger": "push",
+      "sourceCommit": "ec1e346e4bccedc56748d0e2ade6c101e597144d",
+      "total": 166,
+      "newArticles": 48,
+      "seenAgain": 113,
+      "preservedOnly": 5
+    }
+  ],
+  "articles": {
+    "senado-aprova-incentivo-a-contratacao-de-mulheres-com-cancer-de-mamaagencia-senado": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "senado-aprova-incentivo-a-contratacao-de-mulheres-com-cancer-de-mamaagencia-senado",
+      "title": "Senado aprova incentivo à contratação de mulheres com câncer de mama",
+      "source": "Agência Senado",
+      "publishedDate": "2026-11-10"
+    },
+    "incerteza-fiscal-trava-emissoes-de-divida-e-fecha-a-torneira-do-credito-corporativoneofeed": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "incerteza-fiscal-trava-emissoes-de-divida-e-fecha-a-torneira-do-credito-corporativoneofeed",
+      "title": "Incerteza fiscal trava emissões de dívida e fecha a torneira do crédito corporativo",
+      "source": "NeoFeed",
+      "publishedDate": "2026-11-10"
+    },
+    "sindicato-convoca-trabalhadores-da-alimentacao-para-assembleia-sobre-negociacao-coletiva-e": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "sindicato-convoca-trabalhadores-da-alimentacao-para-assembleia-sobre-negociacao-coletiva-e",
+      "title": "Sindicato convoca trabalhadores da alimentação para assembleia sobre negociação coletiva e possível greve - RCN 67",
+      "source": "RCN 67",
+      "publishedDate": "2026-10-26"
+    },
+    "video-comissao-de-infraestrutura-contesta-leilao-de-rodovia-entre-rondonia-e-mato-grossoag": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "video-comissao-de-infraestrutura-contesta-leilao-de-rodovia-entre-rondonia-e-mato-grossoag",
+      "title": "Vídeo: Comissão de Infraestrutura contesta leilão de rodovia entre Rondônia e Mato Grosso",
+      "source": "Agência Senado",
+      "publishedDate": "2026-11-10"
+    },
+    "camara-aprova-renegociacao-de-dividas-rurais-de-produtores-prejudicados-por-eventos-climat": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "camara-aprova-renegociacao-de-dividas-rurais-de-produtores-prejudicados-por-eventos-climat",
+      "title": "Câmara aprova renegociação de dívidas rurais de produtores prejudicados por eventos climáticos extremos; acompanhe",
+      "source": "Agência Câmara",
+      "publishedDate": "2026-11-10"
+    },
+    "grupo-fleury-e-bradsaude-criam-a-fleuryonco-rede-de-clinicas-oncologicas-com-r-72-milhoese": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "grupo-fleury-e-bradsaude-criam-a-fleuryonco-rede-de-clinicas-oncologicas-com-r-72-milhoese",
+      "title": "Grupo Fleury e Bradsaúde criam a 'FleuryOnco', rede de clínicas oncológicas com R$ 72 milhões",
+      "source": "Exame",
+      "publishedDate": "2026-11-10"
+    },
+    "jornada-amazonia-inicia-nova-fase-com-aporte-de-r-7-mi-para-bioeconomia-d24amd24am": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "jornada-amazonia-inicia-nova-fase-com-aporte-de-r-7-mi-para-bioeconomia-d24amd24am",
+      "title": "Jornada Amazônia inicia nova fase com aporte de R$ 7 mi para bioeconomia - D24AM",
+      "source": "D24AM",
+      "publishedDate": "2026-11-10"
+    },
+    "a-segunda-jornada-de-greve-na-industria-da-carne-volta-a-conseguir-um-apoio-proximo-dos-90": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "a-segunda-jornada-de-greve-na-industria-da-carne-volta-a-conseguir-um-apoio-proximo-dos-90",
+      "title": "A segunda jornada de greve na indústria da carne volta a conseguir um apoio próximo dos 90% - Demócrata",
+      "source": "Demócrata",
+      "publishedDate": "2026-11-10"
+    },
+    "deep-2026-11-09-ifood-investimento-ia-concorrencia": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": null,
+      "lastSeenRunId": null,
+      "seenCount": 0,
+      "recentRunIds": [],
+      "id": "deep-2026-11-09-ifood-investimento-ia-concorrencia",
+      "title": "'Não tem guerra no delivery. É competição', diz presidente do iFood",
+      "source": "UOL Economia",
+      "publishedDate": "2026-11-09"
+    },
+    "deep-2026-11-09-armor-energia-pivota-estrategia": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": null,
+      "lastSeenRunId": null,
+      "seenCount": 0,
+      "recentRunIds": [],
+      "id": "deep-2026-11-09-armor-energia-pivota-estrategia",
+      "title": "Eles vão faturar R$ 370 milhões fazendo empresas gastarem menos com energia",
+      "source": "Exame",
+      "publishedDate": "2026-11-09"
+    },
+    "deep-2026-11-09-montclass-expansao-10-bilhoes": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": null,
+      "lastSeenRunId": null,
+      "seenCount": 0,
+      "recentRunIds": [],
+      "id": "deep-2026-11-09-montclass-expansao-10-bilhoes",
+      "title": "Como essa incorporadora pretende lançar R$ 10 bilhões sem financiamento bancário",
+      "source": "Exame",
+      "publishedDate": "2026-11-09"
+    },
+    "a-debacle-do-buzzfeed-que-nem-a-ai-conseguiu-salvar-ainda-brazil-journal": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "a-debacle-do-buzzfeed-que-nem-a-ai-conseguiu-salvar-ainda-brazil-journal",
+      "title": "A debacle do BuzzFeed – que nem a AI conseguiu salvar (ainda)",
+      "source": "Brazil Journal",
+      "publishedDate": "2026-11-09"
+    },
+    "jbs-adquire-flora-por-us-542-milhoes-e-entra-no-mercado-de-cuidados-pessoaisneofeed": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "jbs-adquire-flora-por-us-542-milhoes-e-entra-no-mercado-de-cuidados-pessoaisneofeed",
+      "title": "JBS adquire Flora por US$ 542 milhões e entra no mercado de cuidados pessoais",
+      "source": "NeoFeed",
+      "publishedDate": "2026-11-09"
+    },
+    "funcionarios-terceirizados-da-coelba-entram-em-greve-e-paralisam-atividades-em-santo-anton": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "funcionarios-terceirizados-da-coelba-entram-em-greve-e-paralisam-atividades-em-santo-anton",
+      "title": "Funcionários terceirizados da Coelba entram em greve e paralisam atividades em Santo Antônio de Jesus - Blog do Valente",
+      "source": "Blog do Valente",
+      "publishedDate": "2026-11-09"
+    },
+    "mudancas-no-rh-183-acendem-alerta-sobre-nova-reestruturacao-na-caixa-cee-cobra-explicacoes": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "mudancas-no-rh-183-acendem-alerta-sobre-nova-reestruturacao-na-caixa-cee-cobra-explicacoes",
+      "title": "Mudanças no RH 183 acendem alerta sobre nova reestruturação na Caixa; CEE cobra explicações - Contraf-CUT",
+      "source": "Contraf-CUT",
+      "publishedDate": "2026-11-07"
+    },
+    "greve-de-onibus-e-anunciada-para-segunda-feira-9-em-manaus-am-postam-post": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "greve-de-onibus-e-anunciada-para-segunda-feira-9-em-manaus-am-postam-post",
+      "title": "Greve de ônibus é anunciada para segunda-feira (9) em Manaus - AM POST",
+      "source": "AM POST",
+      "publishedDate": "2026-11-06"
+    },
+    "motoristas-do-transporte-publico-de-palmas-suspendem-greve-apos-reuniao-g1g1": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "motoristas-do-transporte-publico-de-palmas-suspendem-greve-apos-reuniao-g1g1",
+      "title": "Motoristas do transporte público de Palmas suspendem greve após reunião - G1",
+      "source": "G1",
+      "publishedDate": "2026-11-04"
+    },
+    "greve-de-onibus-em-palmas-prefeitura-afirma-que-sindicato-descumpriu-decisao-que-exigia-fr": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "greve-de-onibus-em-palmas-prefeitura-afirma-que-sindicato-descumpriu-decisao-que-exigia-fr",
+      "title": "Greve de ônibus em Palmas: prefeitura afirma que sindicato descumpriu decisão que exigia frota mínima - G1",
+      "source": "G1",
+      "publishedDate": "2026-11-03"
+    },
+    "googles-workforce-expansion-contrasts-with-layoffs-across-technology-sector-bw-peoplebw-pe": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "googles-workforce-expansion-contrasts-with-layoffs-across-technology-sector-bw-peoplebw-pe",
+      "title": "Google’s Workforce Expansion Contrasts With Layoffs Across Technology Sector - BW People",
+      "source": "BW People",
+      "publishedDate": "2026-10-30"
+    },
+    "google-adds-10-000-employees-in-six-months-bucking-techs-layoff-trend-people-matters-hr-ne": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "google-adds-10-000-employees-in-six-months-bucking-techs-layoff-trend-people-matters-hr-ne",
+      "title": "Google adds 10,000 employees in six months, bucking tech’s layoff trend - People Matters - HR News",
+      "source": "People Matters - HR News",
+      "publishedDate": "2026-10-29"
+    },
+    "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
+      "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
+      "source": "Jornal Grande Bahia",
+      "publishedDate": "2026-10-27"
+    },
+    "corte-de-gastos-de-flavio-pode-eliminar-2-2-milhoes-de-empregos-diz-dieese-uol-economiauol": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "corte-de-gastos-de-flavio-pode-eliminar-2-2-milhoes-de-empregos-diz-dieese-uol-economiauol",
+      "title": "Corte de gastos de Flávio pode eliminar 2,2 milhões de empregos, diz Dieese - UOL Economia",
+      "source": "UOL Economia",
+      "publishedDate": "2026-10-22"
+    },
+    "jornada-de-40-horas-e-escala-52-conquista-e-desafios-radio-peao-brasilradio-peao-brasil": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "jornada-de-40-horas-e-escala-52-conquista-e-desafios-radio-peao-brasilradio-peao-brasil",
+      "title": "Jornada de 40 horas e escala 5×2: conquista e desafios - Rádio Peão Brasil",
+      "source": "Rádio Peão Brasil",
+      "publishedDate": "2026-10-18"
+    },
+    "confucio-homenageia-servidores-pelos-80-anos-da-secretaria-geral-da-mesaagencia-senado": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "confucio-homenageia-servidores-pelos-80-anos-da-secretaria-geral-da-mesaagencia-senado",
+      "title": "Confúcio homenageia servidores pelos 80 anos da Secretaria-Geral da Mesa",
+      "source": "Agência Senado",
+      "publishedDate": "2026-11-10"
+    },
+    "bc-do-paraguai-ja-ressarciu-93-dos-clientes-do-banco-uenoagencia-brasil": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "bc-do-paraguai-ja-ressarciu-93-dos-clientes-do-banco-uenoagencia-brasil",
+      "title": "BC do Paraguai já ressarciu 93% dos clientes do banco Ueno",
+      "source": "Agência Brasil",
+      "publishedDate": "2026-11-10"
+    },
+    "opiniao-uma-gigante-coreana-foi-a-falencia-no-brasil-os-bastidores-assustambrazil-journal": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "opiniao-uma-gigante-coreana-foi-a-falencia-no-brasil-os-bastidores-assustambrazil-journal",
+      "title": "OPINIÃO. Uma gigante coreana foi à falência no Brasil. Os bastidores assustam",
+      "source": "Brazil Journal",
+      "publishedDate": "2026-11-10"
+    },
+    "o-pente-fino-na-operacao-da-copasa-apos-100-dias-da-privatizacaoneofeed": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "o-pente-fino-na-operacao-da-copasa-apos-100-dias-da-privatizacaoneofeed",
+      "title": "O pente-fino na operação da Copasa após 100 dias da privatização",
+      "source": "NeoFeed",
+      "publishedDate": "2026-11-10"
+    },
+    "fratellino-lanca-delivery-de-massas-com-tecnologia-alimentar-e-operacao-com-um-funcionario": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "fratellino-lanca-delivery-de-massas-com-tecnologia-alimentar-e-operacao-com-um-funcionario",
+      "title": "Fratellino lança delivery de massas com tecnologia alimentar e operação com um funcionário - Pequenas Empresas & Grandes Negócios",
+      "source": "Pequenas Empresas & Grandes Negócios",
+      "publishedDate": "2026-11-10"
+    },
+    "deep-2026-11-09-kraft-heinz-maionese": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": null,
+      "lastSeenRunId": null,
+      "seenCount": 0,
+      "recentRunIds": [],
+      "id": "deep-2026-11-09-kraft-heinz-maionese",
+      "title": "Batalha da maionese: Heinz investe R$ 85 milhões para dobrar faturamento e virar a mais vendida",
+      "source": "Exame",
+      "publishedDate": "2026-11-09"
+    },
+    "gigante-das-motos-anuncia-r-3-3-bilhoes-para-ampliar-fabrica-no-brasil-a-tardea-tarde": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "gigante-das-motos-anuncia-r-3-3-bilhoes-para-ampliar-fabrica-no-brasil-a-tardea-tarde",
+      "title": "Gigante das motos anuncia R$ 3,3 bilhões para ampliar fábrica no Brasil - A TARDE",
+      "source": "A TARDE",
+      "publishedDate": "2026-11-06"
+    },
+    "operacao-tapa-buracos-atende-avenidas-princesa-doeste-e-iguatemi-nesta-quinta-feira-prefei": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "operacao-tapa-buracos-atende-avenidas-princesa-doeste-e-iguatemi-nesta-quinta-feira-prefei",
+      "title": "Operação Tapa-buracos atende avenidas Princesa d’Oeste e Iguatemi nesta quinta-feira - Prefeitura de Campinas",
+      "source": "Prefeitura de Campinas",
+      "publishedDate": "2026-11-05"
+    },
+    "agencia-de-comunicacao-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "agencia-de-comunicacao-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos",
+      "title": "Agência de Comunicação - A RADIUS GLOBAL INFRASTRUCTURE INAUGURA NOVA FASE NOS INVESTIMENTOS EM INFRAESTRUTURA DIGITAL E INTEGRA A APWBRASIL À MARCA GLOBAL - Estadão Blue Studio",
+      "source": "Estadão Blue Studio",
+      "publishedDate": "2026-10-28"
+    },
+    "processo-seletivo-para-contratacao-de-assistente-tecnico-ministerio-das-relacoes-exteriore": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "processo-seletivo-para-contratacao-de-assistente-tecnico-ministerio-das-relacoes-exteriore",
+      "title": "Processo seletivo para contratação de assistente técnico — Ministério das Relações Exteriores - www.gov.br",
+      "source": "www.gov.br",
+      "publishedDate": "2026-10-27"
+    },
+    "until-today-its-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-te": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "until-today-its-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-te",
+      "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters - HR News",
+      "source": "People Matters - HR News",
+      "publishedDate": "2026-10-22"
+    },
+    "fim-da-escala-6x1-entenda-a-mudanca-na-jornada-e-os-proximos-passos-para-a-regulamentacao-": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "fim-da-escala-6x1-entenda-a-mudanca-na-jornada-e-os-proximos-passos-para-a-regulamentacao-",
+      "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
+      "source": "GZH",
+      "publishedDate": "2026-10-15"
+    },
+    "lucro-da-jbs-cai-afetado-por-cotas-da-china-apesar-de-melhora-da-operacao-nos-eua-bloomber": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "lucro-da-jbs-cai-afetado-por-cotas-da-china-apesar-de-melhora-da-operacao-nos-eua-bloomber",
+      "title": "Lucro da JBS cai afetado por cotas da China apesar de melhora da operação nos EUA - Bloomberg Linea Brasil",
+      "source": "Bloomberg Linea Brasil",
+      "publishedDate": "2026-11-10"
+    },
+    "byd-passa-a-produzir-carros-24-horas-por-dia-em-fabrica-de-camacari-e-contrata-mais-2-mil-": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "byd-passa-a-produzir-carros-24-horas-por-dia-em-fabrica-de-camacari-e-contrata-mais-2-mil-",
+      "title": "BYD passa a produzir carros 24 horas por dia em fábrica de Camaçari e contrata mais 2 mil funcionários - Jornal Correio",
+      "source": "Jornal Correio",
+      "publishedDate": "2026-11-10"
+    },
+    "deep-2026-11-09-pepsico-humanoides-inovacao": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": null,
+      "lastSeenRunId": null,
+      "seenCount": 0,
+      "recentRunIds": [],
+      "id": "deep-2026-11-09-pepsico-humanoides-inovacao",
+      "title": "Para a CEO da PepsiCo, Brasil é protagonista em inovação e região mantém estabilidade",
+      "source": "Exame Insight",
+      "publishedDate": "2026-11-09"
+    },
+    "sdl-coordenacao-executiva-de-regulacao-de-distribuicao-e-logistica-gov-brgov-br": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "sdl-coordenacao-executiva-de-regulacao-de-distribuicao-e-logistica-gov-brgov-br",
+      "title": "SDL COORDENAÇÃO EXECUTIVA DE REGULAÇÃO DE DISTRIBUIÇÃO E LOGÍSTICA - GOV.BR",
+      "source": "GOV.BR",
+      "publishedDate": "2026-11-08"
+    },
+    "noticias-de-recuperacao-judicial-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-li": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "noticias-de-recuperacao-judicial-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-li",
+      "title": "Notícias de Recuperação judicial - Bloomberg Línea Brasil - Bloomberg Linea Brasil",
+      "source": "Bloomberg Linea Brasil",
+      "publishedDate": "2026-11-07"
+    },
+    "aline-sordili-de-37-estudios-ao-fechamento-da-multinacional-de-bets-arrise-no-brasil-uol-e": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "aline-sordili-de-37-estudios-ao-fechamento-da-multinacional-de-bets-arrise-no-brasil-uol-e",
+      "title": "Aline Sordili: De 37 estúdios ao fechamento da multinacional de bets Arrise no Brasil - UOL Economia",
+      "source": "UOL Economia",
+      "publishedDate": "2026-11-06"
+    },
+    "nova-regra-do-inss-permite-2a-analise-de-beneficio-por-incapacidade-e-afeta-ate-5-8-milhoe": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "nova-regra-do-inss-permite-2a-analise-de-beneficio-por-incapacidade-e-afeta-ate-5-8-milhoe",
+      "title": "Nova regra do INSS permite 2ª análise de benefício por incapacidade e afeta até 5,8 milhões - R7",
+      "source": "R7",
+      "publishedDate": "2026-11-06"
+    },
+    "vision-tempest-avalia-novas-compras-apos-fusao-valor-economicovalor-economico": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "vision-tempest-avalia-novas-compras-apos-fusao-valor-economicovalor-economico",
+      "title": "Vision Tempest avalia novas compras após fusão - Valor Econômico",
+      "source": "Valor Econômico",
+      "publishedDate": "2026-11-05"
+    },
+    "yduqs-aprova-incorporacao-da-afya-e-convoca-assembleia-para-votar-operacao-uol-economiauol": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "yduqs-aprova-incorporacao-da-afya-e-convoca-assembleia-para-votar-operacao-uol-economiauol",
+      "title": "Yduqs aprova incorporação da Afya e convoca assembleia para votar operação - UOL Economia",
+      "source": "UOL Economia",
+      "publishedDate": "2026-11-04"
+    },
+    "toyota-e-honda-retomam-producao-na-tailandia-apos-inundacoes-valor-economicovalor-economic": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "toyota-e-honda-retomam-producao-na-tailandia-apos-inundacoes-valor-economicovalor-economic",
+      "title": "Toyota e Honda retomam produção na Tailândia após inundações - Valor Econômico",
+      "source": "Valor Econômico",
+      "publishedDate": "2026-10-20"
+    },
+    "na-disputa-pela-alta-renda-santander-brasil-vai-exportar-sua-recompensa-para-a-operacao-gl": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "na-disputa-pela-alta-renda-santander-brasil-vai-exportar-sua-recompensa-para-a-operacao-gl",
+      "title": "Na disputa pela alta renda, Santander Brasil vai exportar sua “recompensa” para a operação global - NeoFeed",
+      "source": "NeoFeed",
+      "publishedDate": "2026-10-16"
+    },
+    "globe-investimentos-dos-irmaos-batista-conclui-aquisicao-da-avibras-aeroco-valor-economico": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "globe-investimentos-dos-irmaos-batista-conclui-aquisicao-da-avibras-aeroco-valor-economico",
+      "title": "Globe Investimentos, dos irmãos Batista, conclui aquisição da Avibras Aeroco - Valor Econômico",
+      "source": "Valor Econômico",
+      "publishedDate": "2026-10-15"
+    },
+    "vivo-eleva-lucro-em-30-1-no-3o-trimestre-com-avanco-de-receita-e-ebitdatimes-brasil-cnbc": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "vivo-eleva-lucro-em-30-1-no-3o-trimestre-com-avanco-de-receita-e-ebitdatimes-brasil-cnbc",
+      "title": "Vivo eleva lucro em 30,1% no 3º trimestre, com avanço de receita e EBITDA",
+      "source": "Times Brasil | CNBC",
+      "publishedDate": "2026-11-10"
+    },
+    "cummins-vai-investir-r-600-mi-na-fabrica-de-guarulhos-valor-economicovalor-economico": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "cummins-vai-investir-r-600-mi-na-fabrica-de-guarulhos-valor-economicovalor-economico",
+      "title": "Cummins vai investir R$ 600 mi na fábrica de Guarulhos - Valor Econômico",
+      "source": "Valor Econômico",
+      "publishedDate": "2026-11-09"
+    },
+    "trabalhador-podera-autorizar-bancos-a-consultar-extrato-do-fgtsagencia-brasil": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "trabalhador-podera-autorizar-bancos-a-consultar-extrato-do-fgtsagencia-brasil",
+      "title": "Trabalhador poderá autorizar bancos a consultar extrato do FGTS",
+      "source": "Agência Brasil",
+      "publishedDate": "2026-11-10"
+    },
+    "brasil-e-espanha-firmam-acordo-para-estimular-taxacao-de-super-ricosagencia-brasil": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "brasil-e-espanha-firmam-acordo-para-estimular-taxacao-de-super-ricosagencia-brasil",
+      "title": "Brasil e Espanha firmam acordo para estimular taxação de super-ricos",
+      "source": "Agência Brasil",
+      "publishedDate": "2026-11-10"
+    },
+    "o-que-saiu-do-papel-desde-belem-cop31-anuncia-investimentos-e-faz-balanco-da-acao-climatic": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "o-que-saiu-do-papel-desde-belem-cop31-anuncia-investimentos-e-faz-balanco-da-acao-climatic",
+      "title": "O que saiu do papel desde Belém? COP31 anuncia investimentos e faz balanço da ação climática",
+      "source": "Exame",
+      "publishedDate": "2026-11-10"
+    },
+    "ferrari-de-r-55-milhoes-e-vendida-mas-comprador-nao-pode-leva-la-para-casa-entendaexame": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "ferrari-de-r-55-milhoes-e-vendida-mas-comprador-nao-pode-leva-la-para-casa-entendaexame",
+      "title": "Ferrari de R$ 55 milhões é vendida, mas comprador não pode levá-la para casa; entenda",
+      "source": "Exame",
+      "publishedDate": "2026-11-10"
+    },
+    "gp-de-sao-paulo-bate-recorde-de-publico-e-injeta-r-2-5-bilhoes-na-economia-da-capitalexame": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "gp-de-sao-paulo-bate-recorde-de-publico-e-injeta-r-2-5-bilhoes-na-economia-da-capitalexame",
+      "title": "GP de São Paulo bate recorde de público e injeta R$ 2,5 bilhões na economia da capital",
+      "source": "Exame",
+      "publishedDate": "2026-11-10"
+    },
+    "o-golfe-tem-um-novo-padrinho-o-algoritmoexame": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "o-golfe-tem-um-novo-padrinho-o-algoritmoexame",
+      "title": "O golfe tem um novo padrinho: o algoritmo",
+      "source": "Exame",
+      "publishedDate": "2026-11-10"
+    },
+    "aneel-deve-definir-em-dezembro-modelo-tarifario-que-pode-baratear-conta-de-luz-para-consum": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "aneel-deve-definir-em-dezembro-modelo-tarifario-que-pode-baratear-conta-de-luz-para-consum",
+      "title": "Aneel deve definir em dezembro modelo tarifário que pode baratear conta de luz para consumidores de baixa tensão",
+      "source": "Times Brasil | CNBC",
+      "publishedDate": "2026-11-10"
+    },
+    "o-que-pensa-a-chinesa-que-comprou-a-csn-cimentosbrazil-journal": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "o-que-pensa-a-chinesa-que-comprou-a-csn-cimentosbrazil-journal",
+      "title": "O que pensa a chinesa que comprou a CSN Cimentos",
+      "source": "Brazil Journal",
+      "publishedDate": "2026-11-09"
+    },
+    "no-magalu-o-micro-ganha-do-macro-e-mostra-um-filme-melhor-que-a-fotoneofeed": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "no-magalu-o-micro-ganha-do-macro-e-mostra-um-filme-melhor-que-a-fotoneofeed",
+      "title": "No Magalu, o micro ganha do macro e mostra um filme melhor que a foto",
+      "source": "NeoFeed",
+      "publishedDate": "2026-11-09"
+    },
+    "empresa-condenada-por-cartel-vence-licitacao-de-r-632-milhoes-para-fornecer-trens-a-bahia-": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "empresa-condenada-por-cartel-vence-licitacao-de-r-632-milhoes-para-fornecer-trens-a-bahia-",
+      "title": "Empresa condenada por cartel vence licitação de R$ 632 milhões para fornecer trens à Bahia - Jornal Correio",
+      "source": "Jornal Correio",
+      "publishedDate": "2026-11-09"
+    },
+    "wpp-tem-queda-de-2-na-receita-liquida-do-terceiro-trimestre-para-2-4-bilhoes-de-libras-val": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "wpp-tem-queda-de-2-na-receita-liquida-do-terceiro-trimestre-para-2-4-bilhoes-de-libras-val",
+      "title": "WPP tem queda de 2% na receita líquida do terceiro trimestre, para 2,4 bilhões de libras - Valor Econômico",
+      "source": "Valor Econômico",
+      "publishedDate": "2026-10-29"
+    },
+    "ele-transformou-residuos-em-um-negocio-de-r-72-milhoes-agora-quer-monitorar-agua-com-franq": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "ele-transformou-residuos-em-um-negocio-de-r-72-milhoes-agora-quer-monitorar-agua-com-franq",
+      "title": "Ele transformou resíduos em um negócio de R$ 72 milhões. Agora quer monitorar água com franquias - Exame",
+      "source": "Exame",
+      "publishedDate": "2026-10-19"
+    },
+    "um-popstar-em-apuros-o-impasse-de-governanca-da-nvidia-sobre-o-ceo-jensen-huangneofeed": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "um-popstar-em-apuros-o-impasse-de-governanca-da-nvidia-sobre-o-ceo-jensen-huangneofeed",
+      "title": "Um “popstar” em apuros: o impasse de governança da Nvidia sobre o CEO Jensen Huang",
+      "source": "NeoFeed",
+      "publishedDate": "2026-11-10"
+    },
+    "abono-salarial-tem-r-64-milhoes-que-nao-foram-sacados-prazo-termina-em-dezembro-r7r7": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "abono-salarial-tem-r-64-milhoes-que-nao-foram-sacados-prazo-termina-em-dezembro-r7r7",
+      "title": "Abono salarial tem R$ 64 milhões que não foram sacados; prazo termina em dezembro - R7",
+      "source": "R7",
+      "publishedDate": "2026-11-10"
+    },
+    "com-descontos-de-ate-95-sobre-multas-de-icms-estado-propoe-novo-refis-oeste-noticiasoeste-": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "com-descontos-de-ate-95-sobre-multas-de-icms-estado-propoe-novo-refis-oeste-noticiasoeste-",
+      "title": "Com descontos de até 95% sobre multas de ICMS, Estado propõe novo Refis - Oeste Notícias",
+      "source": "Oeste Notícias",
+      "publishedDate": "2026-11-10"
+    },
+    "por-que-a-southern-copper-vale-o-triplo-da-vale-faturando-so-um-tercobrazil-journal": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "por-que-a-southern-copper-vale-o-triplo-da-vale-faturando-so-um-tercobrazil-journal",
+      "title": "Por que a Southern Copper vale o triplo da Vale – faturando só um terço",
+      "source": "Brazil Journal",
+      "publishedDate": "2026-11-09"
+    },
+    "epr-triangulo-lucra-r-37-5-milhoes-no-terceiro-trimestre-alta-de-22-3-uol-economiauol-econ": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "epr-triangulo-lucra-r-37-5-milhoes-no-terceiro-trimestre-alta-de-22-3-uol-economiauol-econ",
+      "title": "EPR Triângulo lucra R$ 37,5 milhões no terceiro trimestre, alta de 22,3% - UOL Economia",
+      "source": "UOL Economia",
+      "publishedDate": "2026-11-09"
+    },
+    "-queremos-conquistar-o-coracao-dos-baianos-diz-patrocinador-da-fonte-a-tardea-tarde": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "-queremos-conquistar-o-coracao-dos-baianos-diz-patrocinador-da-fonte-a-tardea-tarde",
+      "title": "\"Queremos conquistar o coração dos baianos\", diz patrocinador da Fonte - A TARDE",
+      "source": "A TARDE",
+      "publishedDate": "2026-11-09"
+    },
+    "agu-consulta-empresas-sobre-riscos-psicossociais-da-nr-1-revista-empreenderevista-empreend": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "agu-consulta-empresas-sobre-riscos-psicossociais-da-nr-1-revista-empreenderevista-empreend",
+      "title": "AGU consulta empresas sobre riscos psicossociais da NR-1 - Revista Empreende",
+      "source": "Revista Empreende",
+      "publishedDate": "2026-11-06"
+    },
+    "simpar-reverte-prejuizo-e-tem-lucro-ajustado-de-r-137-0-milhoes-no-terceiro-trimestre-uol-": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "simpar-reverte-prejuizo-e-tem-lucro-ajustado-de-r-137-0-milhoes-no-terceiro-trimestre-uol-",
+      "title": "SIMPAR reverte prejuízo e tem lucro ajustado de R$ 137,0 milhões no terceiro trimestre - UOL Economia",
+      "source": "UOL Economia",
+      "publishedDate": "2026-11-05"
+    },
+    "nr-1-em-vigor-o-que-muda-na-gestao-dos-riscos-psicossociais-g1g1": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "nr-1-em-vigor-o-que-muda-na-gestao-dos-riscos-psicossociais-g1g1",
+      "title": "NR-1 em vigor: o que muda na gestão dos riscos psicossociais - G1",
+      "source": "G1",
+      "publishedDate": "2026-10-30"
+    },
+    "mte-propoe-definicao-de-riscos-psicossociais-e-integracao-entre-nr-1-e-nr-17-revista-prote": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "mte-propoe-definicao-de-riscos-psicossociais-e-integracao-entre-nr-1-e-nr-17-revista-prote",
+      "title": "MTE propõe definição de riscos psicossociais e integração entre NR 1 e NR 17 - Revista Proteção",
+      "source": "Revista Proteção",
+      "publishedDate": "2026-10-30"
+    },
+    "sabesp-e-autuada-em-116-infracoes-trabalhistas-apos-fiscalizacao-sobre-programas-de-deslig": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "sabesp-e-autuada-em-116-infracoes-trabalhistas-apos-fiscalizacao-sobre-programas-de-deslig",
+      "title": "Sabesp é autuada em 116 infrações trabalhistas após fiscalização sobre programas de desligamento - Governo Federal",
+      "source": "Governo Federal",
+      "publishedDate": "2026-10-26"
+    },
+    "ceo-do-airbnb-faz-alerta-sobre-ia-voce-pode-perder-seu-emprego-se-nao-tiver-estas-habilida": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "ceo-do-airbnb-faz-alerta-sobre-ia-voce-pode-perder-seu-emprego-se-nao-tiver-estas-habilida",
+      "title": "CEO do Airbnb faz alerta sobre IA: “Você pode perder seu emprego se não tiver estas habilidades” - ncnews.com.br",
+      "source": "ncnews.com.br",
+      "publishedDate": "2026-10-26"
+    },
+    "wellhub-fecha-patrocinio-de-tres-anos-com-o-miami-open-live-mkt-newslive-mkt-news": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "wellhub-fecha-patrocinio-de-tres-anos-com-o-miami-open-live-mkt-newslive-mkt-news",
+      "title": "Wellhub fecha patrocínio de três anos com o Miami Open - Live MKT News",
+      "source": "Live MKT News",
+      "publishedDate": "2026-10-26"
+    },
+    "creditos-presumidos-de-icms-decisao-do-stf-representa-avanco-para-empresas-e-reforca-limit": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "creditos-presumidos-de-icms-decisao-do-stf-representa-avanco-para-empresas-e-reforca-limit",
+      "title": "Créditos presumidos de ICMS: decisão do STF representa avanço para empresas e reforça limites da tributação federal - O Bom da Notícia",
+      "source": "O Bom da Notícia",
+      "publishedDate": "2026-10-19"
+    },
+    "inteligencia-artificial-muda-mercado-de-trabalho-e-ameaca-espaco-de-profissionais-iniciant": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "inteligencia-artificial-muda-mercado-de-trabalho-e-ameaca-espaco-de-profissionais-iniciant",
+      "title": "Inteligência artificial muda mercado de trabalho e ameaça espaço de profissionais iniciantes - Capital Digital",
+      "source": "Capital Digital",
+      "publishedDate": "2026-10-19"
+    },
+    "nr-1-precisa-de-clareza-e-de-adiamento-ate-2027-fecomerciospfecomerciosp": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "nr-1-precisa-de-clareza-e-de-adiamento-ate-2027-fecomerciospfecomerciosp",
+      "title": "NR-1 precisa de clareza e de adiamento até 2027 - FecomercioSP",
+      "source": "FecomercioSP",
+      "publishedDate": "2026-10-17"
+    },
+    "nr-1-26-de-maio-de-2026-marcou-a-mudanca-no-pgr-veja-o-que-o-rh-precisa-fazer-agora-revist": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "nr-1-26-de-maio-de-2026-marcou-a-mudanca-no-pgr-veja-o-que-o-rh-precisa-fazer-agora-revist",
+      "title": "NR-1: 26 de maio de 2026 marcou a mudança no PGR — veja o que o RH precisa fazer agora - Revista Oeste",
+      "source": "Revista Oeste",
+      "publishedDate": "2026-10-17"
+    },
+    "nr-1-justica-acolhe-pedido-da-fecomerciosp-e-suspende-multas-sobre-riscos-psicossociais-fe": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "nr-1-justica-acolhe-pedido-da-fecomerciosp-e-suspende-multas-sobre-riscos-psicossociais-fe",
+      "title": "NR-1: Justiça acolhe pedido da FecomercioSP e suspende multas sobre riscos psicossociais - FecomercioSP",
+      "source": "FecomercioSP",
+      "publishedDate": "2026-10-16"
+    },
+    "portaria-mte-no-1-758-altera-a-nr-28-pdf-ministerio-do-trabalho-e-emprego-www-gov-brwww-go": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "portaria-mte-no-1-758-altera-a-nr-28-pdf-ministerio-do-trabalho-e-emprego-www-gov-brwww-go",
+      "title": "Portaria MTE nº 1.758 (Altera a NR-28).pdf — Ministério do Trabalho e Emprego - www.gov.br",
+      "source": "www.gov.br",
+      "publishedDate": "2026-10-14"
+    },
+    "1-uniao-ministerio-de-portos-e-aeroportos-mpor-agencia-nacional-de-transportes-aquaviarios": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "1-uniao-ministerio-de-portos-e-aeroportos-mpor-agencia-nacional-de-transportes-aquaviarios",
+      "title": "1 UNIÃO MINISTÉRIO DE PORTOS E AEROPORTOS - MPOR AGÊNCIA NACIONAL DE TRANSPORTES AQUAVIÁRIOS – ANTAQ EDITAL LEILÃO Nº 04 - www.gov.br",
+      "source": "www.gov.br",
+      "publishedDate": "2026-10-13"
+    },
+    "senado-recebe-acordao-do-tcu-que-propoe-aliquota-de-11-3-para-a-cbsagencia-senado": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "senado-recebe-acordao-do-tcu-que-propoe-aliquota-de-11-3-para-a-cbsagencia-senado",
+      "title": "Senado recebe acórdão do TCU que propõe alíquota de 11,3% para a CBS",
+      "source": "Agência Senado",
+      "publishedDate": "2026-11-10"
+    },
+    "ia-pode-ajudar-a-responder-desastres-naturais-dizem-cientistas-ao-g20agencia-brasil": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "ia-pode-ajudar-a-responder-desastres-naturais-dizem-cientistas-ao-g20agencia-brasil",
+      "title": "IA pode ajudar a responder desastres naturais, dizem cientistas ao G20",
+      "source": "Agência Brasil",
+      "publishedDate": "2026-11-10"
+    },
+    "nova-regra-do-vr-e-va-comeca-a-vigorar-mas-uso-do-cartao-em-qualquer-maquina-sera-gradual-": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "nova-regra-do-vr-e-va-comeca-a-vigorar-mas-uso-do-cartao-em-qualquer-maquina-sera-gradual-",
+      "title": "Nova regra do VR e VA começa a vigorar, mas uso do cartão em qualquer máquina será gradual - R7",
+      "source": "R7",
+      "publishedDate": "2026-11-07"
+    },
+    "daniel-lancaster-leva-licoes-de-brasilia-a-final-do-endurance-brasil-pequenas-empresas-gra": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "daniel-lancaster-leva-licoes-de-brasilia-a-final-do-endurance-brasil-pequenas-empresas-gra",
+      "title": "Daniel Lancaster leva lições de Brasília à final do Endurance Brasil - Pequenas Empresas & Grandes Negócios",
+      "source": "Pequenas Empresas & Grandes Negócios",
+      "publishedDate": "2026-10-30"
+    },
+    "inteligencia-artificial-muda-funcoes-e-exige-novas-habilidades-veja-o-que-aponta-relatorio": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "inteligencia-artificial-muda-funcoes-e-exige-novas-habilidades-veja-o-que-aponta-relatorio",
+      "title": "Inteligência artificial muda funções e exige novas habilidades; veja o que aponta relatório - ncnews.com.br",
+      "source": "ncnews.com.br",
+      "publishedDate": "2026-10-27"
+    },
+    "seu-direito-apos-a-promulgacao-do-fim-da-escala-6x1-pelo-congresso-nacional-na-ultima-sext": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "seu-direito-apos-a-promulgacao-do-fim-da-escala-6x1-pelo-congresso-nacional-na-ultima-sext",
+      "title": "SEU DIREITO | Após a promulgação do fim da escala 6x1 pelo Congresso Nacional, na última sexta-feira (16), líderes sindicais de Goiás temem o risco de empresas e sindicatos patrona",
+      "source": "Instagram",
+      "publishedDate": "2026-10-23"
+    },
+    "como-filhos-transformam-empresas-familiares-sem-abandonar-o-legado-dos-pais-pequenas-empre": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "como-filhos-transformam-empresas-familiares-sem-abandonar-o-legado-dos-pais-pequenas-empre",
+      "title": "Como filhos transformam empresas familiares sem abandonar o legado dos pais - Pequenas Empresas & Grandes Negócios",
+      "source": "Pequenas Empresas & Grandes Negócios",
+      "publishedDate": "2026-10-16"
+    },
+    "adesao-do-brasil-a-acordo-contra-crimes-ambientais-sera-analisada-pela-creagencia-senado": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "adesao-do-brasil-a-acordo-contra-crimes-ambientais-sera-analisada-pela-creagencia-senado",
+      "title": "Adesão do Brasil a acordo contra crimes ambientais será analisada pela CRE",
+      "source": "Agência Senado",
+      "publishedDate": "2026-11-10"
+    },
+    "infracoes-no-inquerito-das-fake-news-nao-podem-cair-no-esquecimento-diz-aminagencia-senado": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "infracoes-no-inquerito-das-fake-news-nao-podem-cair-no-esquecimento-diz-aminagencia-senado",
+      "title": "Infrações no inquérito das fake news não podem cair no esquecimento, diz Amin",
+      "source": "Agência Senado",
+      "publishedDate": "2026-11-10"
+    },
+    "refis-2026-aprovado-na-assembleia-programa-do-governo-do-ceara-para-parcelamento-e-anistia": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "refis-2026-aprovado-na-assembleia-programa-do-governo-do-ceara-para-parcelamento-e-anistia",
+      "title": "Refis 2026: aprovado na Assembleia programa do Governo do Ceará para parcelamento e anistia de débitos fiscais - Governo do Estado do Ceará",
+      "source": "Governo do Estado do Ceará",
+      "publishedDate": "2026-10-28"
+    },
+    "por-que-88-das-empresas-usam-ia-mas-so-um-terco-fatura-de-verdade-bra1-com-brbra1-com-br": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "por-que-88-das-empresas-usam-ia-mas-so-um-terco-fatura-de-verdade-bra1-com-brbra1-com-br",
+      "title": "Por que 88% das empresas usam IA mas só um terço fatura de verdade? - bra1.com.br",
+      "source": "bra1.com.br",
+      "publishedDate": "2026-10-28"
+    },
+    "redesenho-do-trabalho-com-inteligencia-artificial-rh-pra-vocerh-pra-voce": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "redesenho-do-trabalho-com-inteligencia-artificial-rh-pra-vocerh-pra-voce",
+      "title": "Redesenho do trabalho com inteligência artificial - RH Pra Você",
+      "source": "RH Pra Você",
+      "publishedDate": "2026-10-14"
+    },
+    "o-paradoxo-da-produtividade-com-inteligencia-artificial-rh-pra-vocerh-pra-voce": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "o-paradoxo-da-produtividade-com-inteligencia-artificial-rh-pra-vocerh-pra-voce",
+      "title": "O paradoxo da produtividade com inteligência artificial - RH Pra Você",
+      "source": "RH Pra Você",
+      "publishedDate": "2026-10-14"
+    },
+    "laudo-tecnico-para-avaliar-personalidade-do-agente-e-dispensavel-stjstj": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "laudo-tecnico-para-avaliar-personalidade-do-agente-e-dispensavel-stjstj",
+      "title": "laudo técnico para avaliar personalidade do agente é dispensável - STJ",
+      "source": "STJ",
+      "publishedDate": "2026-11-05"
+    },
+    "lula-defende-ia-brasileira-e-promete-regulamentar-plataformas-digitais-valor-economicovalo": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "lula-defende-ia-brasileira-e-promete-regulamentar-plataformas-digitais-valor-economicovalo",
+      "title": "Lula defende IA brasileira e promete regulamentar plataformas digitais - Valor Econômico",
+      "source": "Valor Econômico",
+      "publishedDate": "2026-10-29"
+    },
+    "unico-transforma-selfie-em-identidade-global-aumenta-produtividade-com-ia-e-reduz-time-blo": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "unico-transforma-selfie-em-identidade-global-aumenta-produtividade-com-ia-e-reduz-time-blo",
+      "title": "Unico transforma selfie em identidade global, aumenta produtividade com IA e reduz time - Bloomberg Linea Brasil",
+      "source": "Bloomberg Linea Brasil",
+      "publishedDate": "2026-10-29"
+    },
+    "alepe-aprova-descontos-de-ate-100-em-juros-e-multas-na-renegociacao-de-dividas-assembleia-": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "alepe-aprova-descontos-de-ate-100-em-juros-e-multas-na-renegociacao-de-dividas-assembleia-",
+      "title": "Alepe aprova descontos de até 100% em juros e multas na renegociação de dívidas - Assembleia Legislativa do Estado de Pernambuco",
+      "source": "Assembleia Legislativa do Estado de Pernambuco",
+      "publishedDate": "2026-10-28"
+    },
+    "pedido-de-ipo-da-anthropic-mostra-crescimento-e-custos-explosivos-com-ia-uol-economiauol-e": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "pedido-de-ipo-da-anthropic-mostra-crescimento-e-custos-explosivos-com-ia-uol-economiauol-e",
+      "title": "Pedido de IPO da Anthropic mostra crescimento e custos explosivos com IA - UOL Economia",
+      "source": "UOL Economia",
+      "publishedDate": "2026-10-26"
+    },
+    "barclays-vai-eliminar-5-000-vagas-com-avanco-da-ia-apos-resultado-abaixo-do-esperado-bloom": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "barclays-vai-eliminar-5-000-vagas-com-avanco-da-ia-apos-resultado-abaixo-do-esperado-bloom",
+      "title": "Barclays vai eliminar 5.000 vagas com avanço da IA após resultado abaixo do esperado - Bloomberg Linea Brasil",
+      "source": "Bloomberg Linea Brasil",
+      "publishedDate": "2026-10-22"
+    },
+    "s-p-500-e-nasdaq-fecham-com-forte-queda-conforme-novas-duvidas-sobre-ia-levam-a-vendas-no-": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "s-p-500-e-nasdaq-fecham-com-forte-queda-conforme-novas-duvidas-sobre-ia-levam-a-vendas-no-",
+      "title": "S&P 500 e Nasdaq fecham com forte queda, conforme novas dúvidas sobre IA levam a vendas no setor de tecnologia - UOL Economia",
+      "source": "UOL Economia",
+      "publishedDate": "2026-10-22"
+    },
+    "indices-reagem-em-wall-street-mas-caem-na-europa-por-ia-e-petroleo-uol-economiauol-economi": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "indices-reagem-em-wall-street-mas-caem-na-europa-por-ia-e-petroleo-uol-economiauol-economi",
+      "title": "Índices reagem em Wall Street, mas caem na Europa, por IA e petróleo - UOL Economia",
+      "source": "UOL Economia",
+      "publishedDate": "2026-10-20"
+    },
+    "segunda-feira-19-de-outubro-de-2026-prefeitura-de-campinasprefeitura-de-campinas": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "segunda-feira-19-de-outubro-de-2026-prefeitura-de-campinasprefeitura-de-campinas",
+      "title": "Segunda-feira, 19 de outubro de 2026 - Prefeitura de Campinas",
+      "source": "Prefeitura de Campinas",
+      "publishedDate": "2026-10-19"
+    },
+    "rodoviarios-de-empresas-de-turismo-do-para-convocam-assembleia-em-belem-para-negociar-sala": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "rodoviarios-de-empresas-de-turismo-do-para-convocam-assembleia-em-belem-para-negociar-sala",
+      "title": "Rodoviários de empresas de turismo do Pará convocam assembleia em Belém para negociar salários e condições de trabalho - Diário do Transporte",
+      "source": "Diário do Transporte",
+      "publishedDate": "2026-10-12"
+    },
+    "brasil-conclui-destinacao-de-r-28-3-bilhoes-em-titulos-sustentaveisagencia-brasil": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "brasil-conclui-destinacao-de-r-28-3-bilhoes-em-titulos-sustentaveisagencia-brasil",
+      "title": "Brasil conclui destinação de R$ 28,3 bilhões em títulos sustentáveis",
+      "source": "Agência Brasil",
+      "publishedDate": "2026-11-10"
+    },
+    "dweck-defende-regulacao-tecnologica-e-papel-indutor-do-estadoagencia-brasil": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "dweck-defende-regulacao-tecnologica-e-papel-indutor-do-estadoagencia-brasil",
+      "title": "Dweck defende regulação tecnológica e papel indutor do Estado",
+      "source": "Agência Brasil",
+      "publishedDate": "2026-11-10"
+    },
+    "dino-audiencia-e-sobre-aplicacao-de-5x2-e-nao-para-questionar-medidaagencia-brasil": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "dino-audiencia-e-sobre-aplicacao-de-5x2-e-nao-para-questionar-medidaagencia-brasil",
+      "title": "Dino: audiência é sobre aplicação de 5x2 e não para questionar medida",
+      "source": "Agência Brasil",
+      "publishedDate": "2026-11-10"
+    },
+    "dell-technologies-mostra-como-transformar-projetos-de-ia-em-resultados-concretosexame": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "dell-technologies-mostra-como-transformar-projetos-de-ia-em-resultados-concretosexame",
+      "title": "Dell Technologies mostra como transformar projetos de IA em resultados concretos",
+      "source": "Exame",
+      "publishedDate": "2026-11-10"
+    },
+    "gta-6-ganha-novo-teaser-de-gameplay-anunciando-preload-do-jogo-estadaoestadao": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "gta-6-ganha-novo-teaser-de-gameplay-anunciando-preload-do-jogo-estadaoestadao",
+      "title": "GTA 6 ganha novo teaser de gameplay anunciando preload do jogo - Estadão",
+      "source": "Estadão",
+      "publishedDate": "2026-11-10"
+    },
+    "dois-anos-apos-meta-de-eliminar-lixoes-brasil-ainda-tem-cerca-de-2-700-unidades-irregulare": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "dois-anos-apos-meta-de-eliminar-lixoes-brasil-ainda-tem-cerca-de-2-700-unidades-irregulare",
+      "title": "Dois anos após meta de eliminar lixões, Brasil ainda tem cerca de 2.700 unidades irregulares - R7",
+      "source": "R7",
+      "publishedDate": "2026-11-10"
+    },
+    "aprimoramento-de-provas-em-casos-de-exploracao-humana-mobiliza-grupo-de-trabalho-do-cnj-po": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "aprimoramento-de-provas-em-casos-de-exploracao-humana-mobiliza-grupo-de-trabalho-do-cnj-po",
+      "title": "Aprimoramento de provas em casos de exploração humana mobiliza grupo de trabalho do CNJ - Portal CNJ",
+      "source": "Portal CNJ",
+      "publishedDate": "2026-11-10"
+    },
+    "em-nota-tecnica-cnj-apoia-tratado-que-amplia-acesso-a-justica-em-causas-ambientais-portal-": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "em-nota-tecnica-cnj-apoia-tratado-que-amplia-acesso-a-justica-em-causas-ambientais-portal-",
+      "title": "Em nota técnica, CNJ apoia tratado que amplia acesso à Justiça em causas ambientais - Portal CNJ",
+      "source": "Portal CNJ",
+      "publishedDate": "2026-11-10"
+    },
+    "congresso-em-belem-reune-especialistas-para-discutir-direitos-e-acesso-a-justica-portal-cn": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "congresso-em-belem-reune-especialistas-para-discutir-direitos-e-acesso-a-justica-portal-cn",
+      "title": "Congresso em Belém reúne especialistas para discutir direitos e acesso à Justiça - Portal CNJ",
+      "source": "Portal CNJ",
+      "publishedDate": "2026-11-10"
+    },
+    "cnj-discutira-sistema-socioeducativo-em-evento-de-quatro-dias-com-dados-ineditos-portal-cn": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "cnj-discutira-sistema-socioeducativo-em-evento-de-quatro-dias-com-dados-ineditos-portal-cn",
+      "title": "CNJ discutirá sistema socioeducativo em evento de quatro dias com dados inéditos - Portal CNJ",
+      "source": "Portal CNJ",
+      "publishedDate": "2026-11-10"
+    },
+    "cnj-firma-parceria-com-a-unicef-para-fortalecer-direitos-da-infancia-portal-cnjportal-cnj": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "cnj-firma-parceria-com-a-unicef-para-fortalecer-direitos-da-infancia-portal-cnjportal-cnj",
+      "title": "CNJ firma parceria com a Unicef para fortalecer direitos da infância - Portal CNJ",
+      "source": "Portal CNJ",
+      "publishedDate": "2026-11-10"
+    },
+    "conselho-da-nvidia-abre-investigacao-contra-jensen-huang-por-suposto-caso-com-espia-chines": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "conselho-da-nvidia-abre-investigacao-contra-jensen-huang-por-suposto-caso-com-espia-chines",
+      "title": "Conselho da Nvidia abre investigação contra Jensen Huang por suposto caso com espiã chinesa - Valor Econômico",
+      "source": "Valor Econômico",
+      "publishedDate": "2026-11-09"
+    },
+    "cofre-israelense-e-leitura-ocular-veja-detalhes-da-sala-secreta-de-pena-bandband": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "cofre-israelense-e-leitura-ocular-veja-detalhes-da-sala-secreta-de-pena-bandband",
+      "title": "Cofre israelense e leitura ocular: veja detalhes da sala secreta de Peña - Band",
+      "source": "Band",
+      "publishedDate": "2026-11-09"
+    },
+    "especialista-explica-como-o-governo-gerencia-os-recursos-do-fundo-amazonia-r7r7": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "especialista-explica-como-o-governo-gerencia-os-recursos-do-fundo-amazonia-r7r7",
+      "title": "Especialista explica como o governo gerencia os recursos do Fundo Amazônia - R7",
+      "source": "R7",
+      "publishedDate": "2026-11-09"
+    },
+    "congresso-entra-na-reta-final-com-orcamento-bets-e-imposto-seletivo-entre-prioridades-r7r7": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "congresso-entra-na-reta-final-com-orcamento-bets-e-imposto-seletivo-entre-prioridades-r7r7",
+      "title": "Congresso entra na reta final com Orçamento, bets e Imposto Seletivo entre prioridades - R7",
+      "source": "R7",
+      "publishedDate": "2026-11-09"
+    },
+    "curtailment-trava-r-11-bi-em-investimentos-no-ceara-e-cria-obstaculo-para-energias-renovav": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "curtailment-trava-r-11-bi-em-investimentos-no-ceara-e-cria-obstaculo-para-energias-renovav",
+      "title": "Curtailment trava R$ 11 bi em investimentos no Ceará e cria obstáculo para energias renováveis - Diário do Nordeste",
+      "source": "Diário do Nordeste",
+      "publishedDate": "2026-11-09"
+    },
+    "o-curtailment-o-leilao-e-a-eterna-desconfianca-diario-do-nordestediario-do-nordeste": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "o-curtailment-o-leilao-e-a-eterna-desconfianca-diario-do-nordestediario-do-nordeste",
+      "title": "O curtailment, o leilão e a eterna desconfiança - Diário do Nordeste",
+      "source": "Diário do Nordeste",
+      "publishedDate": "2026-11-09"
+    },
+    "trabalho-decente-no-sistema-prisional-se-consolida-como-estrategia-de-seguranca-publica-po": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "trabalho-decente-no-sistema-prisional-se-consolida-como-estrategia-de-seguranca-publica-po",
+      "title": "Trabalho decente no sistema prisional se consolida como estratégia de segurança pública - Portal CNJ",
+      "source": "Portal CNJ",
+      "publishedDate": "2026-11-09"
+    },
+    "dia-mundial-da-adocao-aplicativo-a-dot-sna-viabilizou-mais-de-300-adocoes-em-seis-meses-de": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "dia-mundial-da-adocao-aplicativo-a-dot-sna-viabilizou-mais-de-300-adocoes-em-seis-meses-de",
+      "title": "Dia Mundial da Adoção: aplicativo A.dot SNA viabilizou mais de 300 adoções em seis meses de nacionalização - Portal CNJ",
+      "source": "Portal CNJ",
+      "publishedDate": "2026-11-09"
+    },
+    "lula-acena-ao-mercado-e-promete-responsabilidade-fiscal-em-pronunciamento-bandband": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "lula-acena-ao-mercado-e-promete-responsabilidade-fiscal-em-pronunciamento-bandband",
+      "title": "Lula acena ao mercado e promete responsabilidade fiscal em pronunciamento - Band",
+      "source": "Band",
+      "publishedDate": "2026-11-08"
+    },
+    "feriados-em-2027-terao-mais-datas-em-dias-uteis-que-podem-permitir-emendas-r7r7": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "feriados-em-2027-terao-mais-datas-em-dias-uteis-que-podem-permitir-emendas-r7r7",
+      "title": "Feriados em 2027 terão mais datas em dias úteis, que podem permitir emendas - R7",
+      "source": "R7",
+      "publishedDate": "2026-11-08"
+    },
+    "estado-indenizara-proprietario-de-carro-roubado-leiloado-como-sucata-tjsptjsp": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "estado-indenizara-proprietario-de-carro-roubado-leiloado-como-sucata-tjsptjsp",
+      "title": "Estado indenizará proprietário de carro roubado leiloado como sucata - TJSP",
+      "source": "TJSP",
+      "publishedDate": "2026-11-08"
+    },
+    "noticias-de-bebidas-alcoolicas-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-line": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "noticias-de-bebidas-alcoolicas-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-line",
+      "title": "Notícias de Bebidas alcoólicas - Bloomberg Línea Brasil - Bloomberg Linea Brasil",
+      "source": "Bloomberg Linea Brasil",
+      "publishedDate": "2026-11-07"
+    },
+    "noticias-de-azul-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-linea-brasil": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "noticias-de-azul-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-linea-brasil",
+      "title": "Notícias de Azul - Bloomberg Línea Brasil - Bloomberg Linea Brasil",
+      "source": "Bloomberg Linea Brasil",
+      "publishedDate": "2026-11-07"
+    },
+    "noticias-de-csn-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-linea-brasil": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "noticias-de-csn-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-linea-brasil",
+      "title": "Notícias de CSN - Bloomberg Línea Brasil - Bloomberg Linea Brasil",
+      "source": "Bloomberg Linea Brasil",
+      "publishedDate": "2026-11-07"
+    },
+    "noticias-de-fernando-haddad-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-linea-b": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "noticias-de-fernando-haddad-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-linea-b",
+      "title": "Notícias de Fernando Haddad - Bloomberg Línea Brasil - Bloomberg Linea Brasil",
+      "source": "Bloomberg Linea Brasil",
+      "publishedDate": "2026-11-07"
+    },
+    "noticias-de-spx-capital-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-linea-brasi": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "noticias-de-spx-capital-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-linea-brasi",
+      "title": "Notícias de SPX Capital - Bloomberg Línea Brasil - Bloomberg Linea Brasil",
+      "source": "Bloomberg Linea Brasil",
+      "publishedDate": "2026-11-07"
+    },
+    "brasil-chega-a-oito-casos-confirmados-de-coronavirus-o-popularo-popular": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "brasil-chega-a-oito-casos-confirmados-de-coronavirus-o-popularo-popular",
+      "title": "Brasil chega a oito casos confirmados de coronavírus - O Popular",
+      "source": "O Popular",
+      "publishedDate": "2026-11-07"
+    },
+    "emprego-perde-forca-e-acende-alerta-para-empresarios-sbt-newssbt-news": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "emprego-perde-forca-e-acende-alerta-para-empresarios-sbt-newssbt-news",
+      "title": "Emprego perde força e acende alerta para empresários - SBT News",
+      "source": "SBT News",
+      "publishedDate": "2026-11-06"
+    },
+    "governo-quer-apresentar-reforma-do-setor-nuclear-em-2026-sbt-newssbt-news": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "governo-quer-apresentar-reforma-do-setor-nuclear-em-2026-sbt-newssbt-news",
+      "title": "Governo quer apresentar reforma do setor nuclear em 2026 - SBT News",
+      "source": "SBT News",
+      "publishedDate": "2026-11-06"
+    },
+    "selic-elevada-afeta-orcamento-familiar-e-de-empresas-alerta-economista-o-liberalo-liberal": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "selic-elevada-afeta-orcamento-familiar-e-de-empresas-alerta-economista-o-liberalo-liberal",
+      "title": "Selic elevada afeta orçamento familiar e de empresas, alerta economista - O Liberal",
+      "source": "O Liberal",
+      "publishedDate": "2026-11-06"
+    },
+    "estetica-in-nordeste-chega-a-8a-edicao-com-foco-em-inovacao-saude-e-bem-estar-diario-do-no": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "estetica-in-nordeste-chega-a-8a-edicao-com-foco-em-inovacao-saude-e-bem-estar-diario-do-no",
+      "title": "Estética In Nordeste chega à 8ª edição com foco em inovação, saúde e bem-estar - Diário do Nordeste",
+      "source": "Diário do Nordeste",
+      "publishedDate": "2026-11-06"
+    },
+    "governo-aprova-terras-raras-como-minerais-de-alta-prioridade-de-investimento-no-brasil-a-t": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "governo-aprova-terras-raras-como-minerais-de-alta-prioridade-de-investimento-no-brasil-a-t",
+      "title": "Governo aprova terras raras como minerais de alta prioridade de investimento no Brasil - A TARDE",
+      "source": "A TARDE",
+      "publishedDate": "2026-11-06"
+    },
+    "noticias-de-moelis-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-linea-brasil": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "noticias-de-moelis-bloomberg-linea-brasil-bloomberg-linea-brasilbloomberg-linea-brasil",
+      "title": "Notícias de Moelis - Bloomberg Línea Brasil - Bloomberg Linea Brasil",
+      "source": "Bloomberg Linea Brasil",
+      "publishedDate": "2026-11-05"
+    },
+    "juros-altos-perguntas-que-empresarios-devem-saber-responder-sbt-newssbt-news": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "juros-altos-perguntas-que-empresarios-devem-saber-responder-sbt-newssbt-news",
+      "title": "Juros altos: perguntas que empresários devem saber responder - SBT News",
+      "source": "SBT News",
+      "publishedDate": "2026-11-05"
+    },
+    "placa-solar-transicao-energetica-justa-e-o-prognostico-para-os-proximos-anos-a-tardea-tard": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "placa-solar-transicao-energetica-justa-e-o-prognostico-para-os-proximos-anos-a-tardea-tard",
+      "title": "Placa Solar: transição energética justa e o prognóstico para os próximos anos - A TARDE",
+      "source": "A TARDE",
+      "publishedDate": "2026-11-05"
+    },
+    "ciclovia-vai-ser-construida-debaixo-do-mar-com-acesso-a-br-101-a-tardea-tarde": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "ciclovia-vai-ser-construida-debaixo-do-mar-com-acesso-a-br-101-a-tardea-tarde",
+      "title": "Ciclovia vai ser construída debaixo do mar com acesso à BR-101 - A TARDE",
+      "source": "A TARDE",
+      "publishedDate": "2026-11-05"
+    },
+    "governo-oferece-descontos-de-ate-95-no-refis-2026-politica-piauipolitica-piaui": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "governo-oferece-descontos-de-ate-95-no-refis-2026-politica-piauipolitica-piaui",
+      "title": "Governo oferece descontos de até 95% no Refis 2026 - Política Piauí",
+      "source": "Política Piauí",
+      "publishedDate": "2026-11-05"
+    },
+    "criteo-reports-third-quarter-2026-results-tradingviewtradingview": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "criteo-reports-third-quarter-2026-results-tradingviewtradingview",
+      "title": "CRITEO REPORTS THIRD QUARTER 2026 RESULTS - TradingView",
+      "source": "TradingView",
+      "publishedDate": "2026-11-04"
+    },
+    "ibovespa-cai-abaixo-dos-165-mil-pontos-na-volta-do-feriado-com-petrobras-e-preocupacoes-so": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "ibovespa-cai-abaixo-dos-165-mil-pontos-na-volta-do-feriado-com-petrobras-e-preocupacoes-so",
+      "title": "Ibovespa cai abaixo dos 165 mil pontos na volta do feriado com Petrobras e preocupações sobre economia - UOL Economia",
+      "source": "UOL Economia",
+      "publishedDate": "2026-11-03"
+    },
+    "quao-tolerantes-somos-com-ruidos-o-popularo-popular": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "quao-tolerantes-somos-com-ruidos-o-popularo-popular",
+      "title": "Quão tolerantes somos com ruídos? - O Popular",
+      "source": "O Popular",
+      "publishedDate": "2026-11-02"
+    },
+    "the-uaw-needs-a-strategy-for-the-future-of-manufacturing-socialist-projectsocialist-projec": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "the-uaw-needs-a-strategy-for-the-future-of-manufacturing-socialist-projectsocialist-projec",
+      "title": "The UAW Needs a Strategy for the Future of Manufacturing - Socialist Project",
+      "source": "Socialist Project",
+      "publishedDate": "2026-11-01"
+    },
+    "da-cana-ao-petroleo-como-industria-de-pernambuco-se-transformou-e-o-que-falta-para-setor-c": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "da-cana-ao-petroleo-como-industria-de-pernambuco-se-transformou-e-o-que-falta-para-setor-c",
+      "title": "Da cana ao petróleo: como indústria de Pernambuco se transformou e o que falta para setor crescer - G1",
+      "source": "G1",
+      "publishedDate": "2026-10-31"
+    },
+    "us-china-relations-in-the-trump-2-0-era-a-timeline-china-briefingchina-briefing": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "us-china-relations-in-the-trump-2-0-era-a-timeline-china-briefingchina-briefing",
+      "title": "US-China Relations in the Trump 2.0 Era: A Timeline - China Briefing",
+      "source": "China Briefing",
+      "publishedDate": "2026-10-30"
+    },
+    "https-gauchazh-clicrbs-com-br-sitemap-2026-10-29-xml-gzhgzh": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "https-gauchazh-clicrbs-com-br-sitemap-2026-10-29-xml-gzhgzh",
+      "title": "https://gauchazh.clicrbs.com.br/sitemap/2026/10/29.xml - GZH",
+      "source": "GZH",
+      "publishedDate": "2026-10-29"
+    },
+    "se-forcarmos-o-consumidor-agentico-vamos-levar-um-tapa-na-mao-valor-economicovalor-economi": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "se-forcarmos-o-consumidor-agentico-vamos-levar-um-tapa-na-mao-valor-economicovalor-economi",
+      "title": "‘Se forçarmos o consumidor agêntico, vamos levar um tapa na mão’ - Valor Econômico",
+      "source": "Valor Econômico",
+      "publishedDate": "2026-10-27"
+    },
+    "cenario-para-empresas-muda-apos-vitoria-de-lula-valor-economicovalor-economico": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "cenario-para-empresas-muda-apos-vitoria-de-lula-valor-economicovalor-economico",
+      "title": "Cenário para empresas muda após vitória de Lula - Valor Econômico",
+      "source": "Valor Econômico",
+      "publishedDate": "2026-10-27"
+    },
+    "lei-rouanet-ministerio-da-cultura-www-gov-brwww-gov-br": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "lei-rouanet-ministerio-da-cultura-www-gov-brwww-gov-br",
+      "title": "Lei Rouanet — Ministério da Cultura - www.gov.br",
+      "source": "www.gov.br",
+      "publishedDate": "2026-10-27"
+    },
+    "entenda-o-que-e-o-circuit-breaker-e-quantas-vezes-o-mecanismo-ja-foi-acionado-na-bolsa-o-p": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "entenda-o-que-e-o-circuit-breaker-e-quantas-vezes-o-mecanismo-ja-foi-acionado-na-bolsa-o-p",
+      "title": "Entenda o que é o circuit breaker e quantas vezes o mecanismo já foi acionado na Bolsa - O Popular",
+      "source": "O Popular",
+      "publishedDate": "2026-10-26"
+    },
+    "republica-popular-da-china-ministerio-das-relacoes-exteriores-www-gov-brwww-gov-br": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "republica-popular-da-china-ministerio-das-relacoes-exteriores-www-gov-brwww-gov-br",
+      "title": "República Popular da China — Ministério das Relações Exteriores - www.gov.br",
+      "source": "www.gov.br",
+      "publishedDate": "2026-10-26"
+    },
+    "ifood-beneficios-ganha-escala-com-compra-da-caju-e-avanca-no-setor-valor-economicovalor-ec": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "ifood-beneficios-ganha-escala-com-compra-da-caju-e-avanca-no-setor-valor-economicovalor-ec",
+      "title": "iFood Benefícios ganha escala com compra da Caju e avança no setor - Valor Econômico",
+      "source": "Valor Econômico",
+      "publishedDate": "2026-10-23"
+    },
+    "procedimento-competitivo-para-repactuacao-no-01-2026-alienacao-da-totalidade-das-acoes-da-": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "procedimento-competitivo-para-repactuacao-no-01-2026-alienacao-da-totalidade-das-acoes-da-",
+      "title": "PROCEDIMENTO COMPETITIVO PARA REPACTUAÇÃO Nº 01/2026 ALIENAÇÃO DA TOTALIDADE DAS AÇÕES DA INFRAMÉRICA CONCESSIONÁRIA DO - www.gov.br",
+      "source": "www.gov.br",
+      "publishedDate": "2026-10-23"
+    },
+    "projeto-amplia-protecao-a-pessoas-com-autismo-na-adolescencia-e-na-vida-adulta-tribuna-do-": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "projeto-amplia-protecao-a-pessoas-com-autismo-na-adolescencia-e-na-vida-adulta-tribuna-do-",
+      "title": "Projeto amplia proteção a pessoas com autismo na adolescência e na vida adulta - Tribuna do Sertão",
+      "source": "Tribuna do Sertão",
+      "publishedDate": "2026-10-22"
+    },
+    "grant-thornton-desiste-de-negociacoes-com-fundos-de-private-equity-na-india-valor-economic": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "grant-thornton-desiste-de-negociacoes-com-fundos-de-private-equity-na-india-valor-economic",
+      "title": "Grant Thornton desiste de negociações com fundos de private equity na Índia - Valor Econômico",
+      "source": "Valor Econômico",
+      "publishedDate": "2026-10-21"
+    },
+    "at-t-lucra-mais-que-o-esperado-no-3o-trimestre-e-eleva-projecao-anual-uol-economiauol-econ": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "at-t-lucra-mais-que-o-esperado-no-3o-trimestre-e-eleva-projecao-anual-uol-economiauol-econ",
+      "title": "AT&T lucra mais que o esperado no 3º trimestre e eleva projeção anual - UOL Economia",
+      "source": "UOL Economia",
+      "publishedDate": "2026-10-21"
+    },
+    "transporte-de-plantas-ministerio-das-relacoes-exteriores-www-gov-brwww-gov-br": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "transporte-de-plantas-ministerio-das-relacoes-exteriores-www-gov-brwww-gov-br",
+      "title": "Transporte de plantas — Ministério das Relações Exteriores - www.gov.br",
+      "source": "www.gov.br",
+      "publishedDate": "2026-10-21"
+    },
+    "retorno-ao-brasil-ministerio-das-relacoes-exteriores-www-gov-brwww-gov-br": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "retorno-ao-brasil-ministerio-das-relacoes-exteriores-www-gov-brwww-gov-br",
+      "title": "Retorno ao Brasil — Ministério das Relações Exteriores - www.gov.br",
+      "source": "www.gov.br",
+      "publishedDate": "2026-10-21"
+    },
+    "chamamento-publico-04-2026-multiartes-pnab-ciclo-2-sao-leopoldo-rs-sao-leopoldo-rssao-leop": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "chamamento-publico-04-2026-multiartes-pnab-ciclo-2-sao-leopoldo-rs-sao-leopoldo-rssao-leop",
+      "title": "Chamamento Público 04/2026 - MULTIARTES_PNAB - Ciclo 2 São Leopoldo/RS - São Leopoldo - RS",
+      "source": "São Leopoldo - RS",
+      "publishedDate": "2026-10-21"
+    },
+    "fisioterapeutas-podem-se-tornar-obrigatorios-nas-empresas-entenda-novo-pl-viva-com-brviva-": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "fisioterapeutas-podem-se-tornar-obrigatorios-nas-empresas-entenda-novo-pl-viva-com-brviva-",
+      "title": "Fisioterapeutas podem se tornar obrigatórios nas empresas? Entenda novo PL - viva.com.br",
+      "source": "viva.com.br",
+      "publishedDate": "2026-10-20"
+    },
+    "para-quem-nao-vale-o-fim-da-escala-6x1-e-o-limite-de-40-horas-semanais-uol-economiauol-eco": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "para-quem-nao-vale-o-fim-da-escala-6x1-e-o-limite-de-40-horas-semanais-uol-economiauol-eco",
+      "title": "Para quem não vale o fim da escala 6x1 e o limite de 40 horas semanais? - UOL Economia",
+      "source": "UOL Economia",
+      "publishedDate": "2026-10-16"
+    },
+    "governanca-e-eficiencia-o-valor-da-cultura-valor-economicovalor-economico": {
+      "firstSeenAt": "2026-11-10T21:45:19+00:00",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "governanca-e-eficiencia-o-valor-da-cultura-valor-economicovalor-economico",
+      "title": "Governança e eficiência: o valor da cultura - Valor Econômico",
+      "source": "Valor Econômico",
+      "publishedDate": "2026-10-14"
+    },
+    "com-a-industria-5-0-empresas-buscam-equilibrar-tecnologia-e-capital-humano-em-uma-nova-fas": {
+      "firstSeenAt": null,
+      "legacyFirstSeenDate": "2026-11-10",
+      "lastSeenAt": "2026-11-10T21:45:19+00:00",
+      "lastSeenRunId": "gh-42907958236-1",
+      "seenCount": 1,
+      "recentRunIds": [
+        "gh-42907958236-1"
+      ],
+      "id": "com-a-industria-5-0-empresas-buscam-equilibrar-tecnologia-e-capital-humano-em-uma-nova-fas",
+      "title": "Com a indústria 5.0, empresas buscam equilibrar tecnologia e capital humano em uma nova fase da transformação digital - Mirian Gasparin",
+      "source": "Mirian Gasparin",
+      "publishedDate": "2026-10-13"
+    }
+  }
+}

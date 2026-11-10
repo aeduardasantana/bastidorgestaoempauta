@@ -1,4 +1,5 @@
 from datetime import datetime,timezone,timedelta
+from zoneinfo import ZoneInfo
 from email.utils import parsedate_to_datetime
 from html import unescape
 from html.parser import HTMLParser
@@ -602,15 +603,92 @@ def youtube_videos():
  for x in found:x["duration"]=durations.get(x["videoId"],x["duration"])
  return sorted(found,key=lambda x:(x["score"],x["date"]),reverse=True)
 
+
+def radar_run_context(now_utc=None):
+ """Identifica a execução real, separada da data de publicação de cada notícia."""
+ now_utc=now_utc or datetime.now(timezone.utc)
+ github_id=os.environ.get("GITHUB_RUN_ID","").strip()
+ attempt=os.environ.get("GITHUB_RUN_ATTEMPT","1").strip()
+ run_id=(f"gh-{github_id}-{attempt}" if github_id else "local-"+now_utc.strftime("%Y%m%dT%H%M%SZ"))
+ return {"runId":run_id,"generatedAt":now_utc.isoformat(timespec="seconds"),"generatedAtLocal":now_utc.astimezone(ZoneInfo("America/Sao_Paulo")).isoformat(timespec="seconds"),"timezone":"America/Sao_Paulo","trigger":os.environ.get("GITHUB_EVENT_NAME","manual/local"),"sourceCommit":os.environ.get("GITHUB_SHA","")}
+
+def attach_radar_history(items,preserved_ids,rediscovered_ids,prior_snapshot,run,history_path=Path("data/news-history.json")):
+ """Histórico de observações por ID. Preservar análise antiga não significa notícia recoletada."""
+ try:
+  history=json.loads(history_path.read_text(encoding="utf-8"))
+  if not isinstance(history,dict):history={}
+ except (OSError,ValueError,TypeError):
+  history={}
+ registry=history.get("articles") if isinstance(history.get("articles"),dict) else {}
+ old_items={x.get("id"):x for x in prior_snapshot.get("items",[]) if x.get("id")}
+ old_day=prior_snapshot.get("updatedAt")
+ current_time=run["generatedAt"]
+ fresh,repeated,preserved_only=0,0,0
+ for item in items:
+  key=item.get("id") or (item.get("source","")+"|"+item.get("title",""))
+  rec=registry.get(key) if isinstance(registry.get(key),dict) else {}
+  rec=dict(rec)
+  prior_item=old_items.get(key,{})
+  previous=bool(rec) or bool(prior_item)
+  found_now=(key not in preserved_ids) or (key in rediscovered_ids)
+  if not rec:
+   previous_trace=prior_item.get("radarTrace") or {}
+   rec={"firstSeenAt":previous_trace.get("firstSeenAt") if previous else current_time,
+        "legacyFirstSeenDate":previous_trace.get("legacyFirstSeenDate") or (old_day if previous else None),
+        "lastSeenAt":previous_trace.get("lastSeenAt"),
+        "lastSeenRunId":previous_trace.get("lastSeenRunId"),
+        "seenCount":previous_trace.get("seenCount",0),
+        "recentRunIds":list(previous_trace.get("recentRunIds") or [])}
+  if found_now:
+   if not rec.get("firstSeenAt") and not rec.get("legacyFirstSeenDate"):rec["firstSeenAt"]=current_time
+   rec["lastSeenAt"]=current_time
+   rec["lastSeenRunId"]=run["runId"]
+   ids=list(rec.get("recentRunIds") or [])
+   if run["runId"] not in ids:
+    ids.append(run["runId"])
+    rec["seenCount"]=int(rec.get("seenCount") or 0)+1
+   rec["recentRunIds"]=ids[-15:]
+   if previous:repeated+=1
+   else:fresh+=1
+  else:
+   preserved_only+=1
+  rec["id"]=key
+  rec["title"]=item.get("title","")[:180]
+  rec["source"]=item.get("source","")[:90]
+  rec["publishedDate"]=item.get("date")
+  item["radarTrace"]={"firstSeenAt":rec.get("firstSeenAt"),"legacyFirstSeenDate":rec.get("legacyFirstSeenDate"),
+    "lastSeenAt":rec.get("lastSeenAt"),"lastSeenRunId":rec.get("lastSeenRunId"),
+    "seenBeforeThisRun":previous,"foundInCurrentRun":found_now,"seenCount":rec.get("seenCount",0),
+    "recentRunIds":rec.get("recentRunIds",[])}
+  registry[key]=rec
+ runs=list(history.get("runs") or [])
+ if not any(x.get("runId")==run["runId"] for x in runs):
+  runs.append({**run,"total":len(items),"newArticles":fresh,"seenAgain":repeated,"preservedOnly":preserved_only})
+ if len(registry)>6000:
+  ordered=sorted(registry,key=lambda k:(registry[k].get("lastSeenAt") or "",registry[k].get("legacyFirstSeenDate") or ""),reverse=True)
+  registry={key:registry[key] for key in ordered[:6000]}
+ history_path.write_text(json.dumps({"version":1,"updatedAt":current_time,"runs":runs[-120:],"articles":registry},ensure_ascii=False,indent=2),encoding="utf-8")
+ return {"newArticles":fresh,"seenAgain":repeated,"preservedOnly":preserved_only,"knownArticles":len(registry)}
+
 # --- EXECUÇÃO DA COLETA ---
 preserved_items=load_curated_items()
+try:prior_snapshot=json.loads(Path("data/news.json").read_text(encoding="utf-8"))
+except (OSError,ValueError):prior_snapshot={}
 items=list(preserved_items)
+preserved_ids={item.get("id") for item in preserved_items}
+preserved_urls={canonical_url(item.get("url","")):item.get("id") for item in preserved_items}
+preserved_titles={(norm(item.get("title","")),item.get("source","").casefold()):item.get("id") for item in preserved_items}
+rediscovered_ids=set()
 seen_urls={canonical_url(item.get("url","")) for item in items}
 seen_titles={(norm(item.get("title","")),item.get("source","").casefold()) for item in items}
 
 def append_candidate(x,agenda,impact,scope,locale,territory=None):
  url=canonical_url(x.get("url",""));title_key=(norm(x.get("title","")),x.get("source","").casefold())
- if not url or url in seen_urls or title_key in seen_titles:return
+ if not url:return
+ if url in seen_urls or title_key in seen_titles:
+  matched=preserved_urls.get(url) or preserved_titles.get(title_key)
+  if matched in preserved_ids:rediscovered_ids.add(matched)
+  return
  seen_urls.add(url);seen_titles.add(title_key)
  use,evidence=safety(x)
  context=x.get("sourceSummary","")
@@ -654,8 +732,12 @@ items.sort(key=lambda x:(x["score"],x["date"]),reverse=True)
 # 3) A segunda passagem procura a origem apenas para candidatos fortes ainda sem fonte canônica.
 resolve_origins(items)
 diagnostics=radar_diagnostics(raw_items,items,FEED_STATS,DIRECT_STATS,ORIGIN_STATS,len(preserved_items))
+run=radar_run_context()
+trace_stats=attach_radar_history(items,preserved_ids,rediscovered_ids,prior_snapshot,run)
+diagnostics["radarRun"]=run
+diagnostics["traceStats"]=trace_stats
 # A análise com IA é sob demanda: a coleta e os filtros não consomem crédito.
-Path("data/news.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"researchRun":{"method":"matriz direta + descoberta ampla + expansão seletiva","directEndpoints":len(matrix_endpoints),"curatedPreserved":len(preserved_items)},"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
+Path("data/news.json").write_text(json.dumps({"updatedAt":run["generatedAtLocal"][:10],"researchRun":{"method":"matriz direta + descoberta ampla + expansão seletiva","directEndpoints":len(matrix_endpoints),"curatedPreserved":len(preserved_items),**run,**trace_stats},"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
 Path("data/diagnostics.json").write_text(json.dumps(diagnostics,ensure_ascii=False,indent=2),encoding="utf-8")
 videos=youtube_videos()
 Path("data/videos.json").write_text(json.dumps({"updatedAt":datetime.now(timezone.utc).date().isoformat(),"items":videos},ensure_ascii=False,indent=2),encoding="utf-8")

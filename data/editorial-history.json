@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-10",
+  "basis": "Edições 001 e 002 informadas como publicadas pela responsável; assuntos extraídos dos roteiros no Drive, sem conferência independente da gravação.",
+  "editions": [
+    {
+      "number": "001",
+      "date": "2026-11-09",
+      "status": "publicação informada",
+      "scriptUrl": "https://docs.google.com/document/d/1IyV4k16libRLvcBwZTRSuu0h9NzQWvj1hzJEzzRTYjw/edit",
+      "videoUrl": null,
+      "topics": [
+        {
+          "title": "iFood: expansão do delivery e serviços",
+          "terms": [
+            "ifood"
+          ],
+          "scope": "empresa/tema"
+        },
+        {
+          "title": "Kraft Heinz: maionese e mercado alimentar",
+          "terms": [
+            "heinz",
+            "kraft heinz"
+          ],
+          "scope": "empresa/tema"
+        },
+        {
+          "title": "Armor Energia: novos serviços de energia",
+          "terms": [
+            "armor energia"
+          ],
+          "scope": "empresa/tema"
+        },
+        {
+          "title": "MontClass: plano imobiliário e financiamento direto",
+          "terms": [
+            "montclass"
+          ],
+          "scope": "empresa/tema"
+        },
+        {
+          "title": "Banco Central: consulta sobre distribuição de investimentos",
+          "terms": [
+            "cdbs",
+            "distribuicao de cdb",
+            "produtos de captacao financeira"
+          ],
+          "scope": "tema específico"
+        },
+        {
+          "title": "TAG, La Caisse e Engie: investimentos suspensos em gás",
+          "terms": [
+            "engie",
+            "la caisse",
+            "transportadora associada de gas",
+            "tag"
+          ],
+          "scope": "empresa/tema"
+        },
+        {
+          "title": "PepsiCo: testes de robôs humanoides",
+          "terms": [
+            "pepsico",
+            "robos humanoides"
+          ],
+          "scope": "empresa/tema"
+        },
+        {
+          "title": "CNJ: trabalho no sistema prisional",
+          "terms": [
+            "pena justa emprega",
+            "trabalho decente no sistema prisional"
+          ],
+          "scope": "tema específico"
+        },
+        {
+          "title": "Maple Bear: expansão de escolas",
+          "terms": [
+            "maple bear"
+          ],
+          "scope": "empresa/tema"
+        },
+        {
+          "title": "TJSP: automóvel leiloado como sucata",
+          "terms": [
+            "veiculo leiloado como sucata",
+            "carro leiloado como sucata"
+          ],
+          "scope": "acontecimento"
+        }
+      ]
+    },
+    {
+      "number": "002",
+      "date": "2026-11-10",
+      "status": "publicação informada",
+      "scriptUrl": "https://docs.google.com/document/d/1eMPskRgAly62QUoe68oXYLBj0WyehfgqWo5TlxZWq74/edit",
+      "videoUrl": null,
+      "topics": [
+        {
+          "title": "Ceará: curtailment e projetos solares",
+          "terms": [
+            "curtailment",
+            "cortes de geracao",
+            "projetos solares devolvidos",
+            "absolar"
+          ],
+          "scope": "tema"
+        },
+        {
+          "title": "Escala 6x1: implementação e audiência no STF",
+          "terms": [
+            "escala 6x1",
+            "escala seis por um",
+            "jornada de 42 horas"
+          ],
+          "scope": "tema"
+        },
+        {
+          "title": "Magazine Luiza: trimestre e prévia de outubro",
+          "terms": [
+            "magalu",
+            "magazine luiza"
+          ],
+          "scope": "empresa/tema"
+        },
+        {
+          "title": "Embraer: balanço e carteira de pedidos",
+          "terms": [
+            "embraer"
+          ],
+          "scope": "empresa/tema"
+        },
+        {
+          "title": "JBS: balanço e aquisição da Flora",
+          "terms": [
+            "jbs",
+            "flora",
+            "neutrox"
+          ],
+          "scope": "empresa/tema"
+        },
+        {
+          "title": "Raízen e Cosan: créditos fiscais",
+          "terms": [
+            "raizen",
+            "cosan"
+          ],
+          "scope": "empresa/tema"
+        },
+        {
+          "title": "Captação: novas emissões de dívida",
+          "terms": [
+            "emissoes de divida",
+            "debentures",
+            "captacao corporativa"
+          ],
+          "scope": "tema"
+        }
+      ]
+    }
+  ],
+  "policy": "Correspondência por termos e empresa é alerta para comparação de fatos, não prova de que se trata da mesma notícia. Não ocultar automaticamente resultados nem alterar score."
+}

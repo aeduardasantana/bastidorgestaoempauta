@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:16:24.900703+00:00",
+  "updatedAt": "2026-11-10T13:07:32.983212+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,23 +10,35 @@
       "error": null,
       "items": [
         {
-          "term": "fable 5.2",
+          "term": "vazamento de informações",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "pf-prende-ex-servidor-do-stj-suspeito-de-vazar-informacoes-sigilosasagencia-brasil",
+              "title": "PF prende ex-servidor do STJ suspeito de vazar informações sigilosas",
+              "score": 70
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "jaden smith",
+          "term": "abastecimento de água fortaleza",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "ele-transformou-residuos-em-um-negocio-de-r-72-milhoes-agora-quer-monitorar-agua-com-franq",
+              "title": "Ele transformou resíduos em um negócio de R$ 72 milhões. Agora quer monitorar água com franquias - Exame",
+              "score": 50
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "sefaz mt",
+          "term": "barco",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,15 +46,21 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "bonnie wright",
+          "term": "mega sena 3084",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "mega-sena-sorteia-premio-de-r-3-5-milhoes-nesta-terca-feiraagencia-brasil",
+              "title": "Mega-Sena sorteia prêmio de R$ 3,5 milhões nesta terça-feira",
+              "score": 0
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "el niño 2026",
+          "term": "red dead redemption 2",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +68,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "fgts",
+          "term": "astronauta",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,42 +76,74 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "lima duarte",
+          "term": "reestruturação",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
-        },
-        {
-          "term": "stephen ramos",
-          "source": "Google Trends",
-          "position": 8,
-          "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
-        },
-        {
-          "term": "sistema de seleção unificada",
-          "source": "Google Trends",
-          "position": 9,
-          "movement": "NOVO",
           "relatedClusters": [
             {
-              "id": "trabalho-decente-no-sistema-prisional-se-consolida-como-estrategia-de-seguranca-publica-po",
-              "title": "Trabalho decente no sistema prisional se consolida como estratégia de segurança pública - Portal CNJ",
-              "score": 0
+              "id": "mudancas-no-rh-183-acendem-alerta-sobre-nova-reestruturacao-na-caixa-cee-cobra-explicacoes",
+              "title": "Mudanças no RH 183 acendem alerta sobre nova reestruturação na Caixa; CEE cobra explicações - Contraf-CUT",
+              "score": 90
             }
           ],
           "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "maps",
+          "term": "daniel erthal",
           "source": "Google Trends",
-          "position": 10,
+          "position": 8,
+          "movement": "NOVO",
+          "relatedClusters": [
+            {
+              "id": "daniel-lancaster-leva-licoes-de-brasilia-a-final-do-endurance-brasil-pequenas-empresas-gra",
+              "title": "Daniel Lancaster leva lições de Brasília à final do Endurance Brasil - Pequenas Empresas & Grandes Negócios",
+              "score": 30
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
+        },
+        {
+          "term": "zak miller",
+          "source": "Google Trends",
+          "position": 9,
           "movement": "NOVO",
           "relatedClusters": [],
           "radarStatus": "EM ALTA + SEM PAUTA"
+        },
+        {
+          "term": "jogo brasil",
+          "source": "Google Trends",
+          "position": 10,
+          "movement": "NOVO",
+          "relatedClusters": [
+            {
+              "id": "jornada-de-40-horas-e-escala-52-conquista-e-desafios-radio-peao-brasilradio-peao-brasil",
+              "title": "Jornada de 40 horas e escala 5×2: conquista e desafios - Rádio Peão Brasil",
+              "score": 90
+            },
+            {
+              "id": "opiniao-uma-gigante-coreana-foi-a-falencia-no-brasil-os-bastidores-assustambrazil-journal",
+              "title": "OPINIÃO. Uma gigante coreana foi à falência no Brasil. Os bastidores assustam",
+              "score": 80
+            },
+            {
+              "id": "para-brookfield-e-la-caisse-inseguranca-regulatoria-poe-investimentos-em-xeque-no-brasilne",
+              "title": "Para Brookfield e La Caisse, insegurança regulatória põe investimentos em xeque no Brasil",
+              "score": 80
+            },
+            {
+              "id": "gigante-das-motos-anuncia-r-3-3-bilhoes-para-ampliar-fabrica-no-brasil-a-tardea-tarde",
+              "title": "Gigante das motos anuncia R$ 3,3 bilhões para ampliar fábrica no Brasil - A TARDE",
+              "score": 80
+            },
+            {
+              "id": "lucro-da-jbs-cai-afetado-por-cotas-da-china-apesar-de-melhora-da-operacao-nos-eua-bloomber",
+              "title": "Lucro da JBS cai afetado por cotas da China apesar de melhora da operação nos EUA - Bloomberg Linea Brasil",
+              "score": 70
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         }
       ]
     }
@@ -105,26 +155,31 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 38,
+    "count": 32,
     "items": [
+      {
+        "id": "incerteza-fiscal-trava-emissoes-de-divida-e-fecha-a-torneira-do-credito-corporativoneofeed",
+        "title": "Incerteza fiscal trava emissões de dívida e fecha a torneira do crédito corporativo",
+        "score": 100
+      },
+      {
+        "id": "confucio-pede-mais-credito-para-pequenos-produtores-da-regiao-amazonicaagencia-senado",
+        "title": "Confúcio pede mais crédito para pequenos produtores da região amazônica",
+        "score": 100
+      },
+      {
+        "id": "paulo-paim-agradece-a-apoiadores-e-faz-balanco-de-trajetoria-no-senadoagencia-senado",
+        "title": "Paulo Paim agradece a apoiadores e faz balanço de trajetória no Senado",
+        "score": 100
+      },
+      {
+        "id": "plenario-vota-projeto-que-protege-recursos-para-internet-em-escolas-publicasagencia-senado",
+        "title": "Plenário vota projeto que protege recursos para internet em escolas públicas",
+        "score": 100
+      },
       {
         "id": "audio-contratacao-de-associacoes-de-pcds-esta-na-pauta-da-ccjagencia-senado",
         "title": "Áudio: Contratação de associações de PcDs está na pauta da CCJ",
-        "score": 100
-      },
-      {
-        "id": "senado-cultural-abre-as-portas-em-9-12-com-exposicao-sobre-200-anos-da-casaagencia-senado",
-        "title": "Senado Cultural abre as portas em 9/12 com exposição sobre 200 anos da Casa",
-        "score": 100
-      },
-      {
-        "id": "governo-estende-programa-gas-do-povo-ate-2031agencia-senado",
-        "title": "Governo estende programa Gás do Povo até 2031",
-        "score": 100
-      },
-      {
-        "id": "pauta-tem-inclusao-de-mulheres-com-cancer-de-mama-no-mercado-de-trabalhoagencia-senado",
-        "title": "Pauta tem inclusão de mulheres com câncer de mama no mercado de trabalho",
         "score": 100
       },
       {
@@ -133,9 +188,14 @@
         "score": 100
       },
       {
-        "id": "trabalhadores-da-metro-transportes-do-sul-em-greve-jornal-de-negociosjornal-de-negocios",
-        "title": "Trabalhadores da Metro Transportes do Sul em greve - Jornal de Negócios",
-        "score": 100
+        "id": "os-planos-da-gigante-dos-supermercados-de-r-10-bilhoes-apos-a-compra-do-st-marcheexame",
+        "title": "Os planos da gigante dos supermercados de R$ 10 bilhões após a compra do St. Marche",
+        "score": 90
+      },
+      {
+        "id": "jornada-amazonia-inicia-nova-fase-com-aporte-de-r-7-mi-para-bioeconomia-d24amd24am",
+        "title": "Jornada Amazônia inicia nova fase com aporte de R$ 7 mi para bioeconomia - D24AM",
+        "score": 90
       },
       {
         "id": "deep-2026-11-09-ifood-investimento-ia-concorrencia",
@@ -158,23 +218,18 @@
         "score": 90
       },
       {
-        "id": "boeing-cortara-5-dos-funcionarios-da-divisao-de-aviacao-comercial-devido-a-demora-no-aumen",
-        "title": "Boeing cortará 5% dos funcionários da divisão de aviação comercial devido à demora no aumento da produção",
+        "id": "jbs-adquire-flora-por-us-542-milhoes-e-entra-no-mercado-de-cuidados-pessoaisneofeed",
+        "title": "JBS adquire Flora por US$ 542 milhões e entra no mercado de cuidados pessoais",
         "score": 90
       },
       {
-        "id": "so-29-dos-profissionais-no-brasil-querem-ser-chefes-e-44-pensam-em-trocar-de-empresatimes-",
-        "title": "Só 29% dos profissionais no Brasil querem ser chefes, e 44% pensam em trocar de empresa",
+        "id": "sem-concorrencia-conasa-entrega-proposta-para-leilao-de-r-15-4-bilhoesneofeed",
+        "title": "Sem concorrência, Conasa entrega proposta para leilão de R$ 15,4 bilhões",
         "score": 90
       },
       {
         "id": "funcionarios-terceirizados-da-coelba-entram-em-greve-e-paralisam-atividades-em-santo-anton",
         "title": "Funcionários terceirizados da Coelba entram em greve e paralisam atividades em Santo Antônio de Jesus - Blog do Valente",
-        "score": 90
-      },
-      {
-        "id": "mudancas-no-rh-183-acendem-alerta-sobre-nova-reestruturacao-na-caixa-cee-cobra-explicacoes",
-        "title": "Mudanças no RH 183 acendem alerta sobre nova reestruturação na Caixa; CEE cobra explicações - Contraf-CUT",
         "score": 90
       },
       {
@@ -193,6 +248,11 @@
         "score": 90
       },
       {
+        "id": "google-adds-10-000-employees-in-six-months-bucking-techs-layoff-trend-people-matters-hr-ne",
+        "title": "Google adds 10,000 employees in six months, bucking tech’s layoff trend - People Matters - HR News",
+        "score": 90
+      },
+      {
         "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
         "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
         "score": 90
@@ -203,58 +263,33 @@
         "score": 90
       },
       {
-        "id": "jornada-de-40-horas-e-escala-52-conquista-e-desafios-radio-peao-brasilradio-peao-brasil",
-        "title": "Jornada de 40 horas e escala 5×2: conquista e desafios - Rádio Peão Brasil",
-        "score": 90
+        "id": "articulacao-de-faccoes-exige-resposta-coordenada-diz-procuradoragencia-brasil",
+        "title": "Articulação de facções exige resposta coordenada, diz procurador",
+        "score": 80
+      },
+      {
+        "id": "google-nvidia-microsoft-e-outras-gigantes-da-tecnologia-investem-us-26-bi-na-anthropicexam",
+        "title": "Google, Nvidia, Microsoft e outras gigantes da tecnologia investem US$ 26 bi na Anthropic",
+        "score": 80
+      },
+      {
+        "id": "pf-investiga-desvio-de-recursos-de-emendas-pix-em-operacao-na-bahiatimes-brasil-cnbc",
+        "title": "PF investiga desvio de recursos de “emendas PIX” em operação na Bahia",
+        "score": 80
+      },
+      {
+        "id": "raizen-compra-r-1-7-bilhao-em-creditos-fiscais-da-cosan-por-r-237-milhoestimes-brasil-cnbc",
+        "title": "Raízen compra R$ 1,7 bilhão em créditos fiscais da Cosan por R$ 237 milhões",
+        "score": 80
+      },
+      {
+        "id": "juros-elevados-e-falta-de-recursos-dificultam-avanco-dos-investimentos-indicador-abaixo-de",
+        "title": "Juros elevados e falta de recursos dificultam avanço dos investimentos, indicador abaixo de 20% do PIB desde 2014",
+        "score": 80
       },
       {
         "id": "deep-2026-11-09-kraft-heinz-maionese",
         "title": "Batalha da maionese: Heinz investe R$ 85 milhões para dobrar faturamento e virar a mais vendida",
-        "score": 80
-      },
-      {
-        "id": "audio-artesao-de-baixa-renda-pode-se-tornar-segurado-especial-da-previdenciaagencia-senado",
-        "title": "Áudio: Artesão de baixa renda pode se tornar segurado especial da Previdência",
-        "score": 80
-      },
-      {
-        "id": "saldos-que-o-mercado-bitcoin-permitira-consultar-hoje-sao-de-antes-do-ataqueexame",
-        "title": "Saldos que o Mercado Bitcoin permitirá consultar hoje são de antes do ataque",
-        "score": 80
-      },
-      {
-        "id": "para-descarbonizar-o-transporte-e-preciso-fazer-a-conta-fecharexame",
-        "title": "Para descarbonizar o transporte, é preciso fazer a conta fechar",
-        "score": 80
-      },
-      {
-        "id": "onde-estao-as-oportunidades-para-o-brasil-na-inteligencia-artificial-exame",
-        "title": "Onde estão as oportunidades para o Brasil na Inteligência Artificial?",
-        "score": 80
-      },
-      {
-        "id": "por-que-nicolas-cage-ficou-aliviado-com-o-fim-de-spider-noir-ator-revela-detalhes-da-produ",
-        "title": "Por que Nicolas Cage ficou aliviado com o fim de 'Spider-Noir'? Ator revela detalhes da produção",
-        "score": 80
-      },
-      {
-        "id": "para-brookfield-e-la-caisse-inseguranca-regulatoria-poe-investimentos-em-xeque-no-brasilne",
-        "title": "Para Brookfield e La Caisse, insegurança regulatória põe investimentos em xeque no Brasil",
-        "score": 80
-      },
-      {
-        "id": "fila-aposta-em-tecnologia-e-inovacao-para-aproveitar-crescimento-do-mercado-de-corrida-no-",
-        "title": "Fila aposta em tecnologia e inovação para aproveitar crescimento do mercado de corrida no Brasil",
-        "score": 80
-      },
-      {
-        "id": "pedro-alliana-novo-presidente-do-paraguai-pede-renuncia-de-todos-os-ministros-e-integrante",
-        "title": "Pedro Alliana, novo presidente do Paraguai, pede renúncia de todos os ministros e integrantes do alto escalão do governo",
-        "score": 80
-      },
-      {
-        "id": "maple-bear-volta-para-casa-e-adquire-escola-no-canadaneofeed",
-        "title": "Maple Bear “volta para casa” e adquire escola no Canadá",
         "score": 80
       },
       {
@@ -263,18 +298,8 @@
         "score": 80
       },
       {
-        "id": "gigante-das-motos-anuncia-r-3-3-bilhoes-para-ampliar-fabrica-no-brasil-a-tardea-tarde",
-        "title": "Gigante das motos anuncia R$ 3,3 bilhões para ampliar fábrica no Brasil - A TARDE",
-        "score": 80
-      },
-      {
         "id": "operacao-tapa-buracos-atende-avenidas-princesa-doeste-e-iguatemi-nesta-quinta-feira-prefei",
         "title": "Operação Tapa-buracos atende avenidas Princesa d’Oeste e Iguatemi nesta quinta-feira - Prefeitura de Campinas",
-        "score": 80
-      },
-      {
-        "id": "o-choque-de-desanimo-que-o-mercado-esta-precificandobrazil-journal",
-        "title": "O ‘choque de desânimo’ que o mercado está precificando",
         "score": 80
       },
       {
@@ -288,21 +313,16 @@
         "score": 80
       },
       {
-        "id": "microsoft-abre-programa-de-demissao-voluntaria-para-60-mil-funcionarios-uol-economiauol-ec",
-        "title": "Microsoft abre programa de demissão voluntária para 60 mil funcionários - UOL Economia",
-        "score": 80
-      },
-      {
-        "id": "fim-da-escala-6x1-entenda-a-mudanca-na-jornada-e-os-proximos-passos-para-a-regulamentacao-",
-        "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
+        "id": "until-today-its-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-te",
+        "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters - HR News",
         "score": 80
       }
     ]
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 1,
-    "withoutRadar": 9,
-    "highPriorityOutsideTrends": 38
+    "withRadar": 6,
+    "withoutRadar": 4,
+    "highPriorityOutsideTrends": 32
   }
 }

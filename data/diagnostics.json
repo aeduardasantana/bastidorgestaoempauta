@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-09T19:16:15.968374+00:00",
+  "generatedAt": "2026-11-10T13:07:20.132242+00:00",
   "windowDays": 30,
   "collection": {
     "queries": 126,
-    "retrieved": 217,
-    "rejectedNonArticle": 18,
-    "rejectedByDate": 64,
-    "accepted": 122
+    "retrieved": 227,
+    "rejectedNonArticle": 22,
+    "rejectedByDate": 58,
+    "accepted": 126
   },
   "directCollection": {
     "configured": 7,
@@ -27,120 +27,120 @@
       "Agência Câmara": {
         "attempted": 1,
         "retrieved": 20,
-        "accepted": 0,
+        "accepted": 1,
         "errors": 0
       },
       "Agência Brasil": {
         "attempted": 1,
         "retrieved": 10,
-        "accepted": 6,
+        "accepted": 9,
         "errors": 0
       },
       "Brazil Journal": {
         "attempted": 1,
         "retrieved": 15,
-        "accepted": 5,
+        "accepted": 4,
         "errors": 0
       },
       "Exame": {
         "attempted": 1,
         "retrieved": 25,
-        "accepted": 8,
+        "accepted": 7,
         "errors": 0
       },
       "NeoFeed": {
         "attempted": 1,
         "retrieved": 10,
-        "accepted": 5,
+        "accepted": 7,
         "errors": 0
       },
       "Times Brasil | CNBC": {
         "attempted": 1,
         "retrieved": 10,
-        "accepted": 7,
+        "accepted": 3,
         "errors": 0
       }
     }
   },
   "originResolution": {
-    "eligible": 23,
+    "eligible": 28,
     "lookups": 12,
     "resolved": 3
   },
   "preservedCurated": 5,
   "matrixCoverage": {
     "configuredDirectEndpoints": 7,
-    "directSourcesWithAcceptedItems": 6,
-    "directClusterShare": 0.248
+    "directSourcesWithAcceptedItems": 7,
+    "directClusterShare": 0.247
   },
-  "rawCandidates": 164,
-  "clusters": 157,
-  "duplicatesMerged": 7,
+  "rawCandidates": 168,
+  "clusters": 162,
+  "duplicatesMerged": 6,
   "scoreBands": {
-    "80-100": 38,
-    "60-70": 12,
-    "40-50": 27,
-    "20-30": 13,
-    "0-10": 67
+    "80-100": 37,
+    "60-70": 21,
+    "40-50": 29,
+    "20-30": 14,
+    "0-10": 61
   },
-  "highPriorityShare": 0.242,
-  "veryLowPriorityShare": 0.427,
+  "highPriorityShare": 0.228,
+  "veryLowPriorityShare": 0.377,
   "agendaDistribution": {
-    "Empresa em Pauta": 34,
-    "Poder e regras": 21,
+    "Empresa em Pauta": 29,
+    "Poder e regras": 20,
+    "Veículos regionais — Norte e Nordeste": 12,
     "Veículos BR — G1, CNN e UOL": 12,
     "Veículos BR — Band, SBT, Record e Jovem Pan": 12,
-    "Veículos regionais — Norte e Nordeste": 11,
-    "Trabalho e representação": 10,
+    "Veículos BR — NeoFeed e Bloomberg Línea": 10,
+    "Trabalho e representação": 9,
+    "Mercado e trabalho": 9,
     "IA e gestão": 8,
-    "Veículos BR — Valor": 7,
+    "Veículos BR — Valor": 8,
     "NR-1 / AEP": 7,
-    "Veículos BR — NeoFeed e Bloomberg Línea": 6,
-    "Judiciário empresarial": 6,
     "Economia criativa e cultura — fomento": 5,
-    "Mercado e trabalho": 5,
+    "Judiciário empresarial": 5,
     "Relações internacionais": 4,
+    "Mundo corporativo internacional": 3,
     "Veículos regionais — Centro-Oeste": 3,
-    "Mundo corporativo internacional": 1,
     "Veículos BR — Estadão, Folha e O Globo": 1,
     "Patrocínio e experiência de marca": 1,
+    "Business signals — capital and governance": 1,
     "Business signals — operations and workforce": 1,
     "Business signals — technology and regulation": 1,
     "Veículos regionais — Sul": 1
   },
   "eventDistribution": {
-    "Contexto econômico ou empresarial": 69,
-    "Tecnologia e redesenho do trabalho": 21,
+    "Contexto econômico ou empresarial": 62,
     "Relações e força de trabalho": 18,
-    "Mudança operacional ou produtiva": 11,
-    "Regulação com efeito empresarial": 8,
-    "Risco psicossocial e saúde no trabalho": 8,
-    "Investimento ou movimentação de capital": 6,
+    "Mudança operacional ou produtiva": 18,
+    "Tecnologia e redesenho do trabalho": 16,
+    "Investimento ou movimentação de capital": 13,
+    "Regulação com efeito empresarial": 9,
+    "Risco psicossocial e saúde no trabalho": 7,
     "Redução, reestruturação ou fechamento": 5,
-    "Expansão ou aumento de capacidade": 4,
+    "Fusão, aquisição ou mudança de controle": 4,
+    "Expansão ou aumento de capacidade": 3,
+    "Crise financeira ou reorganização judicial": 3,
     "Patrocínio, experiência e ativação de marca": 2,
     "Expansão, IA e concorrência em plataforma": 1,
-    "Mudança de modelo de negócio e preparação para escala": 1,
-    "Mudança de comando": 1,
-    "Fusão, aquisição ou mudança de controle": 1,
-    "Crise financeira ou reorganização judicial": 1
+    "Mudança de modelo de negócio e preparação para escala": 1
   },
   "topSources": {
-    "Exame": 13,
     "UOL Economia": 12,
+    "Exame": 11,
     "Agência Senado": 9,
-    "Times Brasil | CNBC": 7,
-    "www.gov.br": 7,
-    "Valor Econômico": 7,
-    "NeoFeed": 6,
+    "Agência Brasil": 9,
+    "Bloomberg Linea Brasil": 9,
+    "R7": 9,
+    "NeoFeed": 8,
+    "www.gov.br": 8,
+    "Valor Econômico": 8,
     "A TARDE": 6,
-    "R7": 6,
-    "Brazil Journal": 5,
-    "Agência Brasil": 5,
-    "Bloomberg Linea Brasil": 5,
-    "G1": 4,
-    "Portal CNJ": 4,
-    "SBT News": 4
+    "Brazil Journal": 4,
+    "G1": 3,
+    "Times Brasil | CNBC": 3,
+    "Pequenas Empresas & Grandes Negócios": 3,
+    "Diário do Nordeste": 3
   },
   "qualityFlags": {
     "emptyRadar": false,

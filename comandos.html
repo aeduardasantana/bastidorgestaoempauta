@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Comandos editoriais do Gestão em Pauta: roteiros, produção audiovisual, artigos, publicação e auditoria no Blog GEB.">
+  <title>Central de Comandos | Bastidor Gestão em Pauta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/comandos.css">
+</head>
+<body>
+  <header class="command-topbar">
+    <div class="brand">
+      <span class="eyebrow">GEB — GRUPO EDUARDA BISPO</span>
+      <h1>Gestão em Pauta <span>· Comandos</span></h1>
+    </div>
+    <a class="header-back" href="./index.html" aria-label="Voltar ao radar do Bastidor">← Voltar ao radar</a>
+  </header>
+  <main>
+    <section class="page-intro">
+      <span class="eyebrow gold">CENTRAL DE PRODUÇÃO EDITORIAL</span>
+      <h2>Da notícia ao <em>artigo publicado.</em></h2>
+      <p>Copie somente o comando da etapa em que a edição se encontra. Cada etapa tem sua própria aprovação; a pesquisa, o roteiro, o artigo e o deploy não são a mesma operação.</p>
+      <div class="intro-meta">
+        <span>Comandos 01–05</span>
+        <span>Artigos: padrão editorial v1.4</span>
+        <span>Sem API paga</span>
+      </div>
+    </section>
+    <nav class="step-nav" aria-label="Etapas editoriais">
+      <a href="#curadoria">00 · Curadoria</a>
+      <a href="#audiovisual">01–03 · Programa</a>
+      <a href="#blog">04–05 · Artigos</a>
+      <a href="#referencias">Documentação</a>
+    </nav>
+    <section class="section" id="curadoria">
+      <div class="section-header">
+        <span class="eyebrow">ETAPA 00 · DESCOBERTA</span>
+        <h2>Curadoria no radar</h2>
+        <p>Os prompts da curadoria já acompanham os resultados copiados, incluindo ID e horário da atualização. Para manter os dados da notícia junto à instrução, use os botões no painel, não um comando genérico isolado.</p>
+      </div>
+      <div class="curation-grid">
+        <article class="curation-card">
+          <span class="tag">LOTE DA BUSCA</span>
+          <h3>Curadoria geral</h3>
+          <p>Filtre as notícias no Bastidor, copie o conjunto de resultados e realize a comparação com edições anteriores. A curadoria indica quais assuntos estão prontos e quais precisam de apuração individual.</p>
+          <a href="./index.html#newsGrid">Abrir resultados do radar ↗</a>
+        </article>
+        <article class="curation-card">
+          <span class="tag">APURAÇÃO SELETIVA</span>
+          <h3>Análise individual</h3>
+          <p>Quando a curadoria solicitar uma ficha específica, abra a notícia e use “Copiar análise”. Não é necessário aprofundar todas as notícias do lote.</p>
+          <a href="./index.html#newsGrid">Abrir notícias no radar ↗</a>
+        </article>
+      </div>
+    </section>
+    <section class="section" id="audiovisual">
+      <div class="section-header">
+        <span class="eyebrow">ETAPAS 01–03 · EDIÇÃO AUDIOVISUAL</span>
+        <h2>Roteiro, gravação e memória</h2>
+        <p>O roteiro é aprovado antes dos materiais de gravação; depois da publicação, a memória editorial registra o que foi efetivamente exibido.</p>
+      </div>
+      <div id="audiovisualCommands" class="command-grid" aria-live="polite"></div>
+    </section>
+    <section class="section" id="blog">
+      <div class="section-header">
+        <span class="eyebrow">ETAPAS 04–05 · BLOG GEB</span>
+        <h2>Criação e publicação de artigos</h2>
+        <p>Um artigo jornalístico original por edição, salvo para aprovação antes do deploy. A publicação é manual e só termina depois da conferência da página no site.</p>
+      </div>
+      <div class="editorial-rule">
+        <strong>Regras que não podem ser perdidas</strong>
+        <p>Categoria Institucional · Tags Notícias e Gestão em Pauta · vídeo incorporado 16:9 após o lead · um CTA para GEB Empresarial · referências só em <code>referenciasPublicas</code> · data real da publicação · teste contra “Artigo não encontrado”.</p>
+      </div>
+      <div id="blogCommands" class="command-grid" aria-live="polite"></div>
+    </section>
+    <section class="section references" id="referencias">
+      <div class="section-header">
+        <span class="eyebrow">DOCUMENTAÇÃO OFICIAL</span>
+        <h2>Documentos de referência</h2>
+        <p>As versões do Drive continuam preservadas. A biblioteca da página incorpora as regras atuais sem substituir os documentos originais.</p>
+      </div>
+      <div class="reference-links">
+        <a id="editorialModel" href="https://docs.google.com/document/d/141kHepITt3y0mF7iLV7D9CZ3Sth63bCtMB9aMLbzaR8/edit" target="_blank" rel="noopener noreferrer">Padrão editorial dos artigos — versão 1.4 ↗</a>
+        <a href="https://docs.google.com/document/d/1-vJ7eNnkaE7CEOU5lcY28u-5y0CAfZNaCd3zZbXqU5Y/edit" target="_blank" rel="noopener noreferrer">Documento original — Comando 4 ↗</a>
+        <a href="https://docs.google.com/document/d/1vF7Dcsro1yJ7ZBxStj672Ml5vz6mxi8jzZb4EvbtnQc/edit" target="_blank" rel="noopener noreferrer">Documento original — Comando 5 ↗</a>
+        <a href="https://drive.google.com/drive/folders/136erUWrQ2ZNeLbOYPD4hGY92UUMGJEBT" target="_blank" rel="noopener noreferrer">Pasta de modelos no Google Drive ↗</a>
+      </div>
+    </section>
+  </main>
+  <footer class="command-footer">
+    <span>© 2026 GEB · Gestão em Pauta</span>
+    <a href="./index.html">Bastidor · Radar de notícias</a>
+  </footer>
+  <script src="assets/comandos-data.js"></script>
+  <script src="assets/comandos-page.js"></script>
+  <noscript><p class="noscript">Os botões de copiar exigem JavaScript. Consulte os documentos originais dos Comandos 4 e 5 nos links acima.</p></noscript>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T12:11:02.600572+00:00",
+  "updatedAt": "2026-11-11T16:42:49.540625+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "aryna sabalenka",
+          "term": "aneis do poder",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "refit",
+          "term": "aracaju",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,41 +26,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "portal 11/11",
+          "term": "karina milei",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "sinttrol-notifica-prefeitura-sobre-atraso-em-repasses-as-empresas-de-onibus-amaral-respond",
-              "title": "Sinttrol notifica Prefeitura sobre atraso em repasses às empresas de ônibus; Amaral responde que gestão não pode ser responsabilizada se trabalhadores deixarem de receber - Portal Verdade",
-              "score": 100
-            },
-            {
-              "id": "na-semana-da-cop31-cnj-apoia-aprovacao-do-acordo-de-escazu-para-fortalecer-a-justica-ambie",
-              "title": "Na semana da COP31, CNJ apoia aprovação do Acordo de Escazú para fortalecer a Justiça Ambiental - Portal CNJ",
-              "score": 0
-            },
-            {
-              "id": "aprimoramento-de-provas-em-casos-de-exploracao-humana-mobiliza-grupo-de-trabalho-do-cnj-po",
-              "title": "Aprimoramento de provas em casos de exploração humana mobiliza grupo de trabalho do CNJ - Portal CNJ",
-              "score": 0
-            },
-            {
-              "id": "cnj-discutira-sistema-socioeducativo-em-evento-de-quatro-dias-com-dados-ineditos-portal-cn",
-              "title": "CNJ discutirá sistema socioeducativo em evento de quatro dias com dados inéditos - Portal CNJ",
-              "score": 0
-            },
-            {
-              "id": "cnj-firma-parceria-com-a-unicef-para-fortalecer-direitos-da-infancia-portal-cnjportal-cnj",
-              "title": "CNJ firma parceria com a Unicef para fortalecer direitos da infância - Portal CNJ",
-              "score": 0
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "apartamento",
+          "term": "ary fontoura",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -68,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "hugo merchan",
+          "term": "joão gomes",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -76,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "bukele",
+          "term": "felipe aranda",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -84,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "bolsa família",
+          "term": "arnold vosloo",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -92,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ariel winter",
+          "term": "nota parana",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -100,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "adriane galisteu",
+          "term": "taylor fritz",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -108,7 +82,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "nations league",
+          "term": "fallen",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -125,21 +99,16 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 36,
+    "count": 31,
     "items": [
       {
-        "id": "governo-lula-prepara-ajuste-de-ate-r-80-bilhoes-entenda-o-que-pode-mudarexame",
-        "title": "Governo Lula prepara ajuste de até R$ 80 bilhões; entenda o que pode mudar",
+        "id": "trabalhadores-da-kimberly-clark-entram-em-greve-em-sjc-cbn-sao-jose-dos-campos-e-valecbn-s",
+        "title": "Trabalhadores da Kimberly-Clark entram em greve em SJC - CBN São José dos Campos e Vale",
         "score": 100
       },
       {
-        "id": "zequinha-marinho-defende-medida-provisoria-de-renegociacao-de-dividas-ruraisagencia-senado",
-        "title": "Zequinha Marinho defende medida provisória de renegociação de dívidas rurais",
-        "score": 100
-      },
-      {
-        "id": "audio-vai-a-sancao-projeto-que-incentiva-contratacao-de-mulheres-com-cancer-de-mamaagencia",
-        "title": "Áudio: Vai à sanção projeto que incentiva contratação de mulheres com câncer de mama",
+        "id": "sinttrol-notifica-prefeitura-sobre-atraso-em-repasses-amaral-responde-que-gestao-nao-pode-",
+        "title": "Sinttrol notifica Prefeitura sobre atraso em repasses; Amaral responde que gestão não pode ser responsabilizada se trabalhadores deixarem de receber - Portal Verdade",
         "score": 100
       },
       {
@@ -148,13 +117,23 @@
         "score": 100
       },
       {
+        "id": "sindicato-da-construcao-e-da-madeira-suspende-greve-no-trt-ba-trt5trt5",
+        "title": "Sindicato da construção e da madeira suspende greve no TRT-BA - TRT5",
+        "score": 90
+      },
+      {
+        "id": "congresso-prorroga-por-60-dias-mp-que-proibe-bets-no-paisagencia-brasil",
+        "title": "Congresso prorroga por 60 dias MP que proíbe bets no país",
+        "score": 90
+      },
+      {
         "id": "o-efeito-ueno-bank-crise-freia-interesse-de-empresas-brasileiras-pelo-paraguaineofeed",
         "title": "O “efeito Ueno Bank”: crise freia interesse de empresas brasileiras pelo Paraguai",
         "score": 90
       },
       {
-        "id": "a-segunda-jornada-de-greve-na-industria-da-carne-volta-a-conseguir-um-apoio-proximo-dos-90",
-        "title": "A segunda jornada de greve na indústria da carne volta a conseguir um apoio próximo dos 90% - Demócrata",
+        "id": "opep-mantem-projecao-de-producao-de-liquidos-e-reduz-estimativa-do-pib-do-brasil-para-2027",
+        "title": "Opep mantém projeção de produção de líquidos e reduz estimativa do PIB do Brasil para 2027",
         "score": 90
       },
       {
@@ -173,11 +152,6 @@
         "score": 90
       },
       {
-        "id": "a-debacle-do-buzzfeed-que-nem-a-ai-conseguiu-salvar-ainda-brazil-journal",
-        "title": "A debacle do BuzzFeed – que nem a AI conseguiu salvar (ainda)",
-        "score": 90
-      },
-      {
         "id": "funcionarios-terceirizados-da-coelba-entram-em-greve-e-paralisam-atividades-em-santo-anton",
         "title": "Funcionários terceirizados da Coelba entram em greve e paralisam atividades em Santo Antônio de Jesus - Blog do Valente",
         "score": 90
@@ -190,11 +164,6 @@
       {
         "id": "greve-de-onibus-e-anunciada-para-segunda-feira-9-em-manaus-am-postam-post",
         "title": "Greve de ônibus é anunciada para segunda-feira (9) em Manaus - AM POST",
-        "score": 90
-      },
-      {
-        "id": "motoristas-do-transporte-publico-de-palmas-suspendem-greve-apos-reuniao-g1g1",
-        "title": "Motoristas do transporte público de Palmas suspendem greve após reunião - G1",
         "score": 90
       },
       {
@@ -228,38 +197,18 @@
         "score": 90
       },
       {
-        "id": "pm-do-rio-vai-comprar-drones-para-acoes-contra-o-crime-organizadoagencia-brasil",
-        "title": "PM do Rio vai comprar drones para ações contra o crime organizado",
+        "id": "trabalhadores-espanhois-fazem-primeira-greve-geral-em-14-anosagencia-brasil",
+        "title": "Trabalhadores espanhóis fazem primeira greve geral em 14 anos",
         "score": 80
       },
       {
-        "id": "sao-paulo-recebe-festival-de-filmes-sobre-mobilidade-urbanaagencia-brasil",
-        "title": "São Paulo recebe festival de filmes sobre mobilidade urbana",
+        "id": "ceo-da-nvidia-enfrenta-pedidos-de-investigacao-e-renuncia-de-congressistas-americanos-por-",
+        "title": "CEO da Nvidia enfrenta pedidos de investigação e renúncia de congressistas americanos por relação com suposta espiã chinesa",
         "score": 80
       },
       {
-        "id": "receita-apreende-perfumes-arabes-falsificados-no-porto-do-rioagencia-brasil",
-        "title": "Receita apreende perfumes árabes falsificados no Porto do Rio",
-        "score": 80
-      },
-      {
-        "id": "a-aposta-da-cadillac-para-disputar-o-mercado-de-luxo-no-brasilexame",
-        "title": "A aposta da Cadillac para disputar o mercado de luxo no Brasil",
-        "score": 80
-      },
-      {
-        "id": "de-itaipu-ao-porto-de-santos-vulnerabilidade-expoe-infraestrutura-do-brasil-a-ciberataques",
-        "title": "De Itaipu ao Porto de Santos: vulnerabilidade expõe infraestrutura do Brasil a ciberataques",
-        "score": 80
-      },
-      {
-        "id": "deficit-de-200-mil-profissionais-deixa-infraestrutura-do-brasil-refem-do-cibercrimeexame",
-        "title": "Déficit de 200 mil profissionais deixa infraestrutura do Brasil refém do cibercrime",
-        "score": 80
-      },
-      {
-        "id": "caso-master-brb-processa-sete-ex-administradores-e-pede-bloqueio-de-benstimes-brasil-cnbc",
-        "title": "Caso Master: BRB processa sete ex-administradores e pede bloqueio de bens",
+        "id": "pedidos-da-black-friday-de-2025-tiveram-pico-na-quinta-feira-antes-do-dia-oficial-e-subira",
+        "title": "Pedidos da Black Friday de 2025 tiveram pico na quinta-feira, antes do dia oficial, e subiram 181% na última semana",
         "score": 80
       },
       {
@@ -299,7 +248,7 @@
       },
       {
         "id": "until-today-its-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-te",
-        "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters - HR News",
+        "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters Global",
         "score": 80
       },
       {
@@ -311,8 +260,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 1,
-    "withoutRadar": 9,
-    "highPriorityOutsideTrends": 36
+    "withRadar": 0,
+    "withoutRadar": 10,
+    "highPriorityOutsideTrends": 31
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T21:45:26.426184+00:00",
+  "updatedAt": "2026-11-11T12:11:02.600572+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "advogado",
+          "term": "aryna sabalenka",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "vacinação",
+          "term": "refit",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,15 +26,41 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "esports",
+          "term": "portal 11/11",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "sinttrol-notifica-prefeitura-sobre-atraso-em-repasses-as-empresas-de-onibus-amaral-respond",
+              "title": "Sinttrol notifica Prefeitura sobre atraso em repasses às empresas de ônibus; Amaral responde que gestão não pode ser responsabilizada se trabalhadores deixarem de receber - Portal Verdade",
+              "score": 100
+            },
+            {
+              "id": "na-semana-da-cop31-cnj-apoia-aprovacao-do-acordo-de-escazu-para-fortalecer-a-justica-ambie",
+              "title": "Na semana da COP31, CNJ apoia aprovação do Acordo de Escazú para fortalecer a Justiça Ambiental - Portal CNJ",
+              "score": 0
+            },
+            {
+              "id": "aprimoramento-de-provas-em-casos-de-exploracao-humana-mobiliza-grupo-de-trabalho-do-cnj-po",
+              "title": "Aprimoramento de provas em casos de exploração humana mobiliza grupo de trabalho do CNJ - Portal CNJ",
+              "score": 0
+            },
+            {
+              "id": "cnj-discutira-sistema-socioeducativo-em-evento-de-quatro-dias-com-dados-ineditos-portal-cn",
+              "title": "CNJ discutirá sistema socioeducativo em evento de quatro dias com dados inéditos - Portal CNJ",
+              "score": 0
+            },
+            {
+              "id": "cnj-firma-parceria-com-a-unicef-para-fortalecer-direitos-da-infancia-portal-cnjportal-cnj",
+              "title": "CNJ firma parceria com a Unicef para fortalecer direitos da infância - Portal CNJ",
+              "score": 0
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "isis valverde",
+          "term": "apartamento",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +68,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "raiz4",
+          "term": "hugo merchan",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,41 +76,15 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "superliga brasileira de voleibol feminino - série a",
+          "term": "bukele",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
-          "relatedClusters": [
-            {
-              "id": "senado-aprova-incentivo-a-contratacao-de-mulheres-com-cancer-de-mamaagencia-senado",
-              "title": "Senado aprova incentivo à contratação de mulheres com câncer de mama",
-              "score": 100
-            },
-            {
-              "id": "incerteza-fiscal-trava-emissoes-de-divida-e-fecha-a-torneira-do-credito-corporativoneofeed",
-              "title": "Incerteza fiscal trava emissões de dívida e fecha a torneira do crédito corporativo",
-              "score": 100
-            },
-            {
-              "id": "grupo-fleury-e-bradsaude-criam-a-fleuryonco-rede-de-clinicas-oncologicas-com-r-72-milhoese",
-              "title": "Grupo Fleury e Bradsaúde criam a 'FleuryOnco', rede de clínicas oncológicas com R$ 72 milhões",
-              "score": 90
-            },
-            {
-              "id": "a-segunda-jornada-de-greve-na-industria-da-carne-volta-a-conseguir-um-apoio-proximo-dos-90",
-              "title": "A segunda jornada de greve na indústria da carne volta a conseguir um apoio próximo dos 90% - Demócrata",
-              "score": 90
-            },
-            {
-              "id": "sindilimpba-anuncia-greve-da-limpeza-urbana-de-salvador-a-partir-de-novembro-de-2026-por-i",
-              "title": "SindilimpBA anuncia greve da limpeza urbana de Salvador a partir de novembro de 2026 por impasse sobre reajuste e insalubridade - Jornal Grande Bahia",
-              "score": 90
-            }
-          ],
-          "radarStatus": "EM ALTA + NO RADAR"
+          "relatedClusters": [],
+          "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "josh downs",
+          "term": "bolsa família",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -92,7 +92,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "comércio",
+          "term": "ariel winter",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -100,7 +100,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "influencer vivi motta",
+          "term": "adriane galisteu",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -108,7 +108,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "bar belfer",
+          "term": "nations league",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -125,16 +125,21 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 35,
+    "count": 36,
     "items": [
       {
-        "id": "senado-aprova-incentivo-a-contratacao-de-mulheres-com-cancer-de-mamaagencia-senado",
-        "title": "Senado aprova incentivo à contratação de mulheres com câncer de mama",
+        "id": "governo-lula-prepara-ajuste-de-ate-r-80-bilhoes-entenda-o-que-pode-mudarexame",
+        "title": "Governo Lula prepara ajuste de até R$ 80 bilhões; entenda o que pode mudar",
         "score": 100
       },
       {
-        "id": "incerteza-fiscal-trava-emissoes-de-divida-e-fecha-a-torneira-do-credito-corporativoneofeed",
-        "title": "Incerteza fiscal trava emissões de dívida e fecha a torneira do crédito corporativo",
+        "id": "zequinha-marinho-defende-medida-provisoria-de-renegociacao-de-dividas-ruraisagencia-senado",
+        "title": "Zequinha Marinho defende medida provisória de renegociação de dívidas rurais",
+        "score": 100
+      },
+      {
+        "id": "audio-vai-a-sancao-projeto-que-incentiva-contratacao-de-mulheres-com-cancer-de-mamaagencia",
+        "title": "Áudio: Vai à sanção projeto que incentiva contratação de mulheres com câncer de mama",
         "score": 100
       },
       {
@@ -143,23 +148,8 @@
         "score": 100
       },
       {
-        "id": "video-comissao-de-infraestrutura-contesta-leilao-de-rodovia-entre-rondonia-e-mato-grossoag",
-        "title": "Vídeo: Comissão de Infraestrutura contesta leilão de rodovia entre Rondônia e Mato Grosso",
-        "score": 90
-      },
-      {
-        "id": "camara-aprova-renegociacao-de-dividas-rurais-de-produtores-prejudicados-por-eventos-climat",
-        "title": "Câmara aprova renegociação de dívidas rurais de produtores prejudicados por eventos climáticos extremos; acompanhe",
-        "score": 90
-      },
-      {
-        "id": "grupo-fleury-e-bradsaude-criam-a-fleuryonco-rede-de-clinicas-oncologicas-com-r-72-milhoese",
-        "title": "Grupo Fleury e Bradsaúde criam a 'FleuryOnco', rede de clínicas oncológicas com R$ 72 milhões",
-        "score": 90
-      },
-      {
-        "id": "jornada-amazonia-inicia-nova-fase-com-aporte-de-r-7-mi-para-bioeconomia-d24amd24am",
-        "title": "Jornada Amazônia inicia nova fase com aporte de R$ 7 mi para bioeconomia - D24AM",
+        "id": "o-efeito-ueno-bank-crise-freia-interesse-de-empresas-brasileiras-pelo-paraguaineofeed",
+        "title": "O “efeito Ueno Bank”: crise freia interesse de empresas brasileiras pelo Paraguai",
         "score": 90
       },
       {
@@ -185,11 +175,6 @@
       {
         "id": "a-debacle-do-buzzfeed-que-nem-a-ai-conseguiu-salvar-ainda-brazil-journal",
         "title": "A debacle do BuzzFeed – que nem a AI conseguiu salvar (ainda)",
-        "score": 90
-      },
-      {
-        "id": "jbs-adquire-flora-por-us-542-milhoes-e-entra-no-mercado-de-cuidados-pessoaisneofeed",
-        "title": "JBS adquire Flora por US$ 542 milhões e entra no mercado de cuidados pessoais",
         "score": 90
       },
       {
@@ -243,13 +228,38 @@
         "score": 90
       },
       {
-        "id": "confucio-homenageia-servidores-pelos-80-anos-da-secretaria-geral-da-mesaagencia-senado",
-        "title": "Confúcio homenageia servidores pelos 80 anos da Secretaria-Geral da Mesa",
+        "id": "pm-do-rio-vai-comprar-drones-para-acoes-contra-o-crime-organizadoagencia-brasil",
+        "title": "PM do Rio vai comprar drones para ações contra o crime organizado",
         "score": 80
       },
       {
-        "id": "bc-do-paraguai-ja-ressarciu-93-dos-clientes-do-banco-uenoagencia-brasil",
-        "title": "BC do Paraguai já ressarciu 93% dos clientes do banco Ueno",
+        "id": "sao-paulo-recebe-festival-de-filmes-sobre-mobilidade-urbanaagencia-brasil",
+        "title": "São Paulo recebe festival de filmes sobre mobilidade urbana",
+        "score": 80
+      },
+      {
+        "id": "receita-apreende-perfumes-arabes-falsificados-no-porto-do-rioagencia-brasil",
+        "title": "Receita apreende perfumes árabes falsificados no Porto do Rio",
+        "score": 80
+      },
+      {
+        "id": "a-aposta-da-cadillac-para-disputar-o-mercado-de-luxo-no-brasilexame",
+        "title": "A aposta da Cadillac para disputar o mercado de luxo no Brasil",
+        "score": 80
+      },
+      {
+        "id": "de-itaipu-ao-porto-de-santos-vulnerabilidade-expoe-infraestrutura-do-brasil-a-ciberataques",
+        "title": "De Itaipu ao Porto de Santos: vulnerabilidade expõe infraestrutura do Brasil a ciberataques",
+        "score": 80
+      },
+      {
+        "id": "deficit-de-200-mil-profissionais-deixa-infraestrutura-do-brasil-refem-do-cibercrimeexame",
+        "title": "Déficit de 200 mil profissionais deixa infraestrutura do Brasil refém do cibercrime",
+        "score": 80
+      },
+      {
+        "id": "caso-master-brb-processa-sete-ex-administradores-e-pede-bloqueio-de-benstimes-brasil-cnbc",
+        "title": "Caso Master: BRB processa sete ex-administradores e pede bloqueio de bens",
         "score": 80
       },
       {
@@ -278,11 +288,6 @@
         "score": 80
       },
       {
-        "id": "operacao-tapa-buracos-atende-avenidas-princesa-doeste-e-iguatemi-nesta-quinta-feira-prefei",
-        "title": "Operação Tapa-buracos atende avenidas Princesa d’Oeste e Iguatemi nesta quinta-feira - Prefeitura de Campinas",
-        "score": 80
-      },
-      {
         "id": "agencia-de-comunicacao-a-radius-global-infrastructure-inaugura-nova-fase-nos-investimentos",
         "title": "Agência de Comunicação - A RADIUS GLOBAL INFRASTRUCTURE INAUGURA NOVA FASE NOS INVESTIMENTOS EM INFRAESTRUTURA DIGITAL E INTEGRA A APWBRASIL À MARCA GLOBAL - Estadão Blue Studio",
         "score": 80
@@ -308,6 +313,6 @@
     "trendItems": 10,
     "withRadar": 1,
     "withoutRadar": 9,
-    "highPriorityOutsideTrends": 35
+    "highPriorityOutsideTrends": 36
   }
 }

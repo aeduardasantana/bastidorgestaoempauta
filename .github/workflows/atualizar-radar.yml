@@ -1,4 +1,4 @@
-# Reexecução extraordinária editorial solicitada para 10/11/2026; sem alteração de horários, fontes ou classificação.
+# Início da curadoria editorial de 11/11/2026 por solicitação explícita; horários, fontes, score e classificação preservados.
 name: Atualizar Radar Diário
 on:
   workflow_dispatch:

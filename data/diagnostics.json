@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-11T16:42:38.841427+00:00",
+  "generatedAt": "2026-11-12T13:56:30.616912+00:00",
   "windowDays": 30,
   "collection": {
-    "queries": 126,
-    "retrieved": 240,
-    "rejectedNonArticle": 24,
-    "rejectedByDate": 62,
-    "accepted": 121
+    "queries": 125,
+    "retrieved": 214,
+    "rejectedNonArticle": 15,
+    "rejectedByDate": 66,
+    "accepted": 123
   },
   "directCollection": {
     "configured": 7,
     "attempted": 7,
-    "retrieved": 90,
+    "retrieved": 105,
     "rejectedNonArticle": 0,
     "rejectedByDate": 0,
-    "rejectedByTopic": 64,
-    "accepted": 26,
-    "errors": 1,
+    "rejectedByTopic": 71,
+    "accepted": 34,
+    "errors": 0,
     "sources": {
       "Agência Senado": {
         "attempted": 1,
-        "retrieved": 0,
-        "accepted": 0,
-        "errors": 1
+        "retrieved": 15,
+        "accepted": 4,
+        "errors": 0
       },
       "Agência Câmara": {
         "attempted": 1,
@@ -33,31 +33,31 @@
       "Agência Brasil": {
         "attempted": 1,
         "retrieved": 10,
-        "accepted": 8,
+        "accepted": 6,
         "errors": 0
       },
       "Brazil Journal": {
         "attempted": 1,
         "retrieved": 15,
-        "accepted": 3,
+        "accepted": 4,
         "errors": 0
       },
       "Exame": {
         "attempted": 1,
         "retrieved": 25,
-        "accepted": 4,
+        "accepted": 7,
         "errors": 0
       },
       "NeoFeed": {
         "attempted": 1,
         "retrieved": 10,
-        "accepted": 4,
+        "accepted": 5,
         "errors": 0
       },
       "Times Brasil | CNBC": {
         "attempted": 1,
         "retrieved": 10,
-        "accepted": 3,
+        "accepted": 4,
         "errors": 0
       }
     }
@@ -65,42 +65,43 @@
   "originResolution": {
     "eligible": 27,
     "lookups": 12,
-    "resolved": 4
+    "resolved": 3
   },
   "preservedCurated": 5,
   "matrixCoverage": {
     "configuredDirectEndpoints": 7,
-    "directSourcesWithAcceptedItems": 6,
-    "directClusterShare": 0.183
+    "directSourcesWithAcceptedItems": 7,
+    "directClusterShare": 0.216
   },
-  "rawCandidates": 148,
-  "clusters": 142,
+  "rawCandidates": 159,
+  "clusters": 153,
   "duplicatesMerged": 6,
   "scoreBands": {
-    "80-100": 31,
-    "60-70": 12,
-    "40-50": 28,
-    "20-30": 10,
-    "0-10": 61
+    "80-100": 34,
+    "60-70": 15,
+    "40-50": 30,
+    "20-30": 11,
+    "0-10": 63
   },
-  "highPriorityShare": 0.218,
-  "veryLowPriorityShare": 0.43,
+  "highPriorityShare": 0.222,
+  "veryLowPriorityShare": 0.412,
   "agendaDistribution": {
-    "Empresa em Pauta": 23,
-    "Poder e regras": 14,
-    "Trabalho e representação": 12,
+    "Empresa em Pauta": 28,
+    "Poder e regras": 18,
     "Veículos BR — Band, SBT, Record e Jovem Pan": 12,
-    "Veículos regionais — Norte e Nordeste": 11,
-    "Veículos BR — Valor": 11,
-    "Mercado e trabalho": 8,
-    "Judiciário empresarial": 8,
+    "Trabalho e representação": 11,
+    "Veículos regionais — Norte e Nordeste": 10,
+    "Veículos BR — Valor": 10,
+    "Judiciário empresarial": 9,
+    "Veículos BR — G1, CNN e UOL": 7,
     "Veículos BR — NeoFeed e Bloomberg Línea": 7,
     "IA e gestão": 7,
-    "Veículos BR — G1, CNN e UOL": 6,
+    "Mercado e trabalho": 6,
     "NR-1 / AEP": 6,
-    "Economia criativa e cultura — fomento": 4,
+    "Veículos BR — Agência Brasil": 6,
     "Mundo corporativo internacional": 3,
     "Relações internacionais": 3,
+    "Economia criativa e cultura — fomento": 3,
     "Veículos regionais — Centro-Oeste": 2,
     "Veículos BR — Estadão, Folha e O Globo": 1,
     "Patrocínio e experiência de marca": 1,
@@ -109,37 +110,38 @@
     "Veículos regionais — Sul": 1
   },
   "eventDistribution": {
-    "Contexto econômico ou empresarial": 65,
-    "Relações e força de trabalho": 19,
-    "Tecnologia e redesenho do trabalho": 12,
-    "Mudança operacional ou produtiva": 11,
+    "Contexto econômico ou empresarial": 68,
+    "Relações e força de trabalho": 18,
+    "Tecnologia e redesenho do trabalho": 15,
+    "Investimento ou movimentação de capital": 11,
+    "Mudança operacional ou produtiva": 9,
+    "Regulação com efeito empresarial": 8,
     "Risco psicossocial e saúde no trabalho": 7,
-    "Investimento ou movimentação de capital": 7,
-    "Regulação com efeito empresarial": 6,
-    "Expansão ou aumento de capacidade": 4,
-    "Redução, reestruturação ou fechamento": 4,
-    "Mudança de comando": 2,
-    "Patrocínio, experiência e ativação de marca": 2,
+    "Expansão ou aumento de capacidade": 5,
+    "Redução, reestruturação ou fechamento": 5,
+    "Crise financeira ou reorganização judicial": 2,
     "Expansão, IA e concorrência em plataforma": 1,
     "Mudança de modelo de negócio e preparação para escala": 1,
-    "Crise financeira ou reorganização judicial": 1
+    "Economia criativa e fomento": 1,
+    "Mudança de comando": 1,
+    "Patrocínio, experiência e ativação de marca": 1
   },
   "topSources": {
-    "Valor Econômico": 11,
-    "R7": 10,
-    "Exame": 9,
-    "Agência Brasil": 8,
+    "Exame": 12,
+    "Agência Brasil": 12,
+    "Valor Econômico": 10,
     "www.gov.br": 7,
     "Portal CNJ": 7,
-    "A TARDE": 6,
+    "NeoFeed": 6,
+    "R7": 6,
     "Bloomberg Linea Brasil": 6,
-    "NeoFeed": 5,
+    "SBT News": 6,
     "UOL Economia": 5,
+    "G1": 5,
     "Agência Câmara": 4,
-    "Times Brasil | CNBC": 3,
-    "G1": 3,
-    "Brazil Journal": 3,
-    "Pequenas Empresas & Grandes Negócios": 3
+    "Agência Senado": 4,
+    "Brazil Journal": 4,
+    "Diário do Nordeste": 4
   },
   "qualityFlags": {
     "emptyRadar": false,
@@ -149,17 +151,17 @@
     "directSourcesUnavailable": false
   },
   "radarRun": {
-    "runId": "gh-43060874350-1",
-    "generatedAt": "2026-11-11T16:42:38+00:00",
-    "generatedAtLocal": "2026-11-11T13:42:38-03:00",
+    "runId": "gh-43231991193-1",
+    "generatedAt": "2026-11-12T13:56:30+00:00",
+    "generatedAtLocal": "2026-11-12T10:56:30-03:00",
     "timezone": "America/Sao_Paulo",
-    "trigger": "schedule",
-    "sourceCommit": "cf9db94e7a4906a9973289918c3374e71ca284a6"
+    "trigger": "push",
+    "sourceCommit": "9ce30e0410fbbac28d6957884cfad265e471b96c"
   },
   "traceStats": {
-    "newArticles": 31,
-    "seenAgain": 106,
+    "newArticles": 68,
+    "seenAgain": 80,
     "preservedOnly": 5,
-    "knownArticles": 250
+    "knownArticles": 318
   }
 }

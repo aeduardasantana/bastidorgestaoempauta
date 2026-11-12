@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T16:42:49.540625+00:00",
+  "updatedAt": "2026-11-12T13:56:44.387708+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "aneis do poder",
+          "term": "hapv3",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "aracaju",
+          "term": "gilmar mendes",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,7 +26,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "karina milei",
+          "term": "bbse3",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
@@ -34,7 +34,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "ary fontoura",
+          "term": "azza3",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,7 +42,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "joão gomes",
+          "term": "henrique barreira",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
@@ -50,7 +50,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "felipe aranda",
+          "term": "conta gov",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +58,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "arnold vosloo",
+          "term": "govbr",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +66,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "nota parana",
+          "term": "tomate",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +74,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "taylor fritz",
+          "term": "bbas3",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,7 +82,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "fallen",
+          "term": "gov",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
@@ -99,8 +99,18 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 31,
+    "count": 34,
     "items": [
+      {
+        "id": "projeto-inclui-valorizacao-do-folclore-e-de-tradicoes-populares-em-licitacoes-de-eventos-c",
+        "title": "Projeto inclui valorização do folclore e de tradições populares em licitações de eventos culturais",
+        "score": 100
+      },
+      {
+        "id": "camara-aprova-convencao-internacional-sobre-reciclagem-segura-de-naviosagencia-camara",
+        "title": "Câmara aprova convenção internacional sobre reciclagem segura de navios",
+        "score": 100
+      },
       {
         "id": "trabalhadores-da-kimberly-clark-entram-em-greve-em-sjc-cbn-sao-jose-dos-campos-e-valecbn-s",
         "title": "Trabalhadores da Kimberly-Clark entram em greve em SJC - CBN São José dos Campos e Vale",
@@ -117,23 +127,33 @@
         "score": 100
       },
       {
+        "id": "video-cra-aprova-incentivos-a-producao-e-beneficio-para-trabalhadoras-ruraisagencia-senado",
+        "title": "Vídeo: CRA aprova incentivos à produção e benefício para trabalhadoras rurais",
+        "score": 90
+      },
+      {
+        "id": "a-lupo-investiu-r-30-milhoes-no-paraguai-e-agora-com-a-crise-que-derrubou-o-presidente-exa",
+        "title": "A Lupo investiu R$ 30 milhões no Paraguai. E agora, com a crise que derrubou o presidente?",
+        "score": 90
+      },
+      {
+        "id": "com-novo-formato-hub-de-inovacao-que-abriga-270-startups-vai-mudar-de-endereco-em-sao-paul",
+        "title": "Com novo formato, hub de inovação que abriga 270 startups vai mudar de endereço em São Paulo",
+        "score": 90
+      },
+      {
+        "id": "fleury-mira-mercado-de-r-9-bilhoes-e-aposta-na-terceirizacao-de-exames-para-crescerneofeed",
+        "title": "Fleury mira mercado de R$ 9 bilhões e aposta na terceirização de exames para crescer",
+        "score": 90
+      },
+      {
         "id": "sindicato-da-construcao-e-da-madeira-suspende-greve-no-trt-ba-trt5trt5",
         "title": "Sindicato da construção e da madeira suspende greve no TRT-BA - TRT5",
         "score": 90
       },
       {
-        "id": "congresso-prorroga-por-60-dias-mp-que-proibe-bets-no-paisagencia-brasil",
-        "title": "Congresso prorroga por 60 dias MP que proíbe bets no país",
-        "score": 90
-      },
-      {
-        "id": "o-efeito-ueno-bank-crise-freia-interesse-de-empresas-brasileiras-pelo-paraguaineofeed",
-        "title": "O “efeito Ueno Bank”: crise freia interesse de empresas brasileiras pelo Paraguai",
-        "score": 90
-      },
-      {
-        "id": "opep-mantem-projecao-de-producao-de-liquidos-e-reduz-estimativa-do-pib-do-brasil-para-2027",
-        "title": "Opep mantém projeção de produção de líquidos e reduz estimativa do PIB do Brasil para 2027",
+        "id": "jornada-amazonia-inicia-nova-fase-com-aporte-de-r-7-mi-para-bioeconomia-d24amd24am",
+        "title": "Jornada Amazônia inicia nova fase com aporte de R$ 7 mi para bioeconomia - D24AM",
         "score": 90
       },
       {
@@ -152,18 +172,13 @@
         "score": 90
       },
       {
-        "id": "funcionarios-terceirizados-da-coelba-entram-em-greve-e-paralisam-atividades-em-santo-anton",
-        "title": "Funcionários terceirizados da Coelba entram em greve e paralisam atividades em Santo Antônio de Jesus - Blog do Valente",
+        "id": "empregados-da-caixa-votam-nova-proposta-nesta-sexta-feira-11-sindicato-dos-bancariossindic",
+        "title": "Empregados da Caixa votam nova proposta nesta sexta-feira (11) - Sindicato dos Bancários",
         "score": 90
       },
       {
         "id": "mudancas-no-rh-183-acendem-alerta-sobre-nova-reestruturacao-na-caixa-cee-cobra-explicacoes",
         "title": "Mudanças no RH 183 acendem alerta sobre nova reestruturação na Caixa; CEE cobra explicações - Contraf-CUT",
-        "score": 90
-      },
-      {
-        "id": "greve-de-onibus-e-anunciada-para-segunda-feira-9-em-manaus-am-postam-post",
-        "title": "Greve de ônibus é anunciada para segunda-feira (9) em Manaus - AM POST",
         "score": 90
       },
       {
@@ -197,28 +212,28 @@
         "score": 90
       },
       {
-        "id": "trabalhadores-espanhois-fazem-primeira-greve-geral-em-14-anosagencia-brasil",
-        "title": "Trabalhadores espanhóis fazem primeira greve geral em 14 anos",
+        "id": "motiva-mira-novas-receitas-e-reducao-de-custos-com-centro-de-inovacao-para-rodovias-e-tril",
+        "title": "Motiva mira novas receitas e redução de custos com centro de inovação para rodovias e trilhos",
         "score": 80
       },
       {
-        "id": "ceo-da-nvidia-enfrenta-pedidos-de-investigacao-e-renuncia-de-congressistas-americanos-por-",
-        "title": "CEO da Nvidia enfrenta pedidos de investigação e renúncia de congressistas americanos por relação com suposta espiã chinesa",
+        "id": "fsb-holding-estrutura-fundo-para-financiar-filmes-para-cinema-e-streamingneofeed",
+        "title": "FSB Holding estrutura fundo para financiar filmes para cinema e streaming",
         "score": 80
       },
       {
-        "id": "pedidos-da-black-friday-de-2025-tiveram-pico-na-quinta-feira-antes-do-dia-oficial-e-subira",
-        "title": "Pedidos da Black Friday de 2025 tiveram pico na quinta-feira, antes do dia oficial, e subiram 181% na última semana",
+        "id": "jensen-huang-renuncia-ao-cargo-de-ceo-da-nvidiatimes-brasil-cnbc",
+        "title": "Jensen Huang renuncia ao cargo de CEO da Nvidia",
+        "score": 80
+      },
+      {
+        "id": "petrobras-quer-elevar-participacao-no-mercado-de-diesel-com-expansao-de-refinariastimes-br",
+        "title": "Petrobras quer elevar participação no mercado de diesel com expansão de refinarias",
         "score": 80
       },
       {
         "id": "opiniao-uma-gigante-coreana-foi-a-falencia-no-brasil-os-bastidores-assustambrazil-journal",
         "title": "OPINIÃO. Uma gigante coreana foi à falência no Brasil. Os bastidores assustam",
-        "score": 80
-      },
-      {
-        "id": "o-pente-fino-na-operacao-da-copasa-apos-100-dias-da-privatizacaoneofeed",
-        "title": "O pente-fino na operação da Copasa após 100 dias da privatização",
         "score": 80
       },
       {
@@ -229,6 +244,11 @@
       {
         "id": "deep-2026-11-09-kraft-heinz-maionese",
         "title": "Batalha da maionese: Heinz investe R$ 85 milhões para dobrar faturamento e virar a mais vendida",
+        "score": 80
+      },
+      {
+        "id": "elon-musk-investe-r-105-bilhoes-em-fabrica-de-ia-do-tamanho-de-1-300-maracanas-a-tardea-ta",
+        "title": "Elon Musk investe R$ 105 bilhões em fábrica de IA do tamanho de 1.300 Maracanãs - A TARDE",
         "score": 80
       },
       {
@@ -248,12 +268,7 @@
       },
       {
         "id": "until-today-its-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-te",
-        "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters Global",
-        "score": 80
-      },
-      {
-        "id": "fim-da-escala-6x1-entenda-a-mudanca-na-jornada-e-os-proximos-passos-para-a-regulamentacao-",
-        "title": "Fim da escala 6x1: entenda a mudança na jornada e os próximos passos para a regulamentação - GZH",
+        "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters - HR News",
         "score": 80
       }
     ]
@@ -262,6 +277,6 @@
     "trendItems": 10,
     "withRadar": 0,
     "withoutRadar": 10,
-    "highPriorityOutsideTrends": 31
+    "highPriorityOutsideTrends": 34
   }
 }

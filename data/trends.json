@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T13:56:44.387708+00:00",
+  "updatedAt": "2026-11-12T17:12:08.420752+00:00",
   "principle": "Tendência mede atenção; score mede prioridade de investigação; curadoria determina relevância editorial.",
   "regions": {
     "BR": {
@@ -10,7 +10,7 @@
       "error": null,
       "items": [
         {
-          "term": "hapv3",
+          "term": "fútbol club barcelona x arsenal w.f.c.",
           "source": "Google Trends",
           "position": 1,
           "movement": "NOVO",
@@ -18,7 +18,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "gilmar mendes",
+          "term": "bb seguridade",
           "source": "Google Trends",
           "position": 2,
           "movement": "NOVO",
@@ -26,15 +26,21 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "bbse3",
+          "term": "turquía - bélgica",
           "source": "Google Trends",
           "position": 3,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "china-negocia-investimento-de-us-15-bilhoes-em-energia-solar-e-eolica-na-turquiatimes-bras",
+              "title": "China negocia investimento de US$ 15 bilhões em energia solar e eólica na Turquia",
+              "score": 50
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "azza3",
+          "term": "armênia x chipre",
           "source": "Google Trends",
           "position": 4,
           "movement": "NOVO",
@@ -42,15 +48,41 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "henrique barreira",
+          "term": "ministério das comunicações",
           "source": "Google Trends",
           "position": 5,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "congresso-nacional-aprova-r-32-8-milhoes-para-o-ministerio-da-saudeagencia-senado",
+              "title": "Congresso Nacional aprova R$ 32,8 milhões para o Ministério da Saúde",
+              "score": 90
+            },
+            {
+              "id": "processo-seletivo-para-contratacao-de-assistente-tecnico-ministerio-das-relacoes-exteriore",
+              "title": "Processo seletivo para contratação de assistente técnico — Ministério das Relações Exteriores - www.gov.br",
+              "score": 80
+            },
+            {
+              "id": "1-uniao-ministerio-de-portos-e-aeroportos-mpor-agencia-nacional-de-transportes-aquaviarios",
+              "title": "1 UNIÃO MINISTÉRIO DE PORTOS E AEROPORTOS - MPOR AGÊNCIA NACIONAL DE TRANSPORTES AQUAVIÁRIOS – ANTAQ EDITAL LEILÃO Nº 05 - www.gov.br",
+              "score": 40
+            },
+            {
+              "id": "portaria-mte-no-1-758-altera-a-nr-28-pdf-ministerio-do-trabalho-e-emprego-www-gov-brwww-go",
+              "title": "Portaria MTE nº 1.758 (Altera a NR-28).pdf — Ministério do Trabalho e Emprego - www.gov.br",
+              "score": 40
+            },
+            {
+              "id": "lei-rouanet-ministerio-da-cultura-www-gov-brwww-gov-br",
+              "title": "Lei Rouanet — Ministério da Cultura - www.gov.br",
+              "score": 0
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         },
         {
-          "term": "conta gov",
+          "term": "taiwan",
           "source": "Google Trends",
           "position": 6,
           "movement": "NOVO",
@@ -58,7 +90,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "govbr",
+          "term": "douglas ruas",
           "source": "Google Trends",
           "position": 7,
           "movement": "NOVO",
@@ -66,7 +98,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "tomate",
+          "term": "tim cook",
           "source": "Google Trends",
           "position": 8,
           "movement": "NOVO",
@@ -74,7 +106,7 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "bbas3",
+          "term": "sergio moro",
           "source": "Google Trends",
           "position": 9,
           "movement": "NOVO",
@@ -82,12 +114,18 @@
           "radarStatus": "EM ALTA + SEM PAUTA"
         },
         {
-          "term": "gov",
+          "term": "turquia x bélgica",
           "source": "Google Trends",
           "position": 10,
           "movement": "NOVO",
-          "relatedClusters": [],
-          "radarStatus": "EM ALTA + SEM PAUTA"
+          "relatedClusters": [
+            {
+              "id": "china-negocia-investimento-de-us-15-bilhoes-em-energia-solar-e-eolica-na-turquiatimes-bras",
+              "title": "China negocia investimento de US$ 15 bilhões em energia solar e eólica na Turquia",
+              "score": 50
+            }
+          ],
+          "radarStatus": "EM ALTA + NO RADAR"
         }
       ]
     }
@@ -99,8 +137,23 @@
   },
   "outsideHype": {
     "threshold": 80,
-    "count": 34,
+    "count": 39,
     "items": [
+      {
+        "id": "aprovados-r-522-mi-para-modernizacao-fiscal-e-compromissos-internacionaisagencia-senado",
+        "title": "Aprovados R$ 522 mi para modernização fiscal e compromissos internacionais",
+        "score": 100
+      },
+      {
+        "id": "aprovada-dispensa-de-regras-fiscais-para-copa-do-mundo-feminina-de-2027agencia-senado",
+        "title": "Aprovada dispensa de regras fiscais para Copa do Mundo Feminina de 2027",
+        "score": 100
+      },
+      {
+        "id": "congresso-aprova-possibilidade-de-novas-nomeacoes-de-servidores-em-2026agencia-senado",
+        "title": "Congresso aprova possibilidade de novas nomeações de servidores em 2026",
+        "score": 100
+      },
       {
         "id": "projeto-inclui-valorizacao-do-folclore-e-de-tradicoes-populares-em-licitacoes-de-eventos-c",
         "title": "Projeto inclui valorização do folclore e de tradições populares em licitações de eventos culturais",
@@ -127,18 +180,8 @@
         "score": 100
       },
       {
-        "id": "video-cra-aprova-incentivos-a-producao-e-beneficio-para-trabalhadoras-ruraisagencia-senado",
-        "title": "Vídeo: CRA aprova incentivos à produção e benefício para trabalhadoras rurais",
-        "score": 90
-      },
-      {
-        "id": "a-lupo-investiu-r-30-milhoes-no-paraguai-e-agora-com-a-crise-que-derrubou-o-presidente-exa",
-        "title": "A Lupo investiu R$ 30 milhões no Paraguai. E agora, com a crise que derrubou o presidente?",
-        "score": 90
-      },
-      {
-        "id": "com-novo-formato-hub-de-inovacao-que-abriga-270-startups-vai-mudar-de-endereco-em-sao-paul",
-        "title": "Com novo formato, hub de inovação que abriga 270 startups vai mudar de endereço em São Paulo",
+        "id": "cocos-capta-us-34-milhoes-com-kaszek-enquanto-aguarda-aval-para-aquisicao-no-brasilexame",
+        "title": "Cocos capta US$ 34 milhões com Kaszek enquanto aguarda aval para aquisição no Brasil",
         "score": 90
       },
       {
@@ -147,8 +190,13 @@
         "score": 90
       },
       {
-        "id": "sindicato-da-construcao-e-da-madeira-suspende-greve-no-trt-ba-trt5trt5",
-        "title": "Sindicato da construção e da madeira suspende greve no TRT-BA - TRT5",
+        "id": "qualcomm-s-layoff-double-blow-1-000-indian-jobs-at-risk-extra-pay-to-exit-early-people-mat",
+        "title": "Qualcomm's layoff double blow: 1,000 Indian jobs at risk, extra pay to exit early - People Matters - HR News",
+        "score": 90
+      },
+      {
+        "id": "sindicato-suspende-greve-do-setor-de-construcao-apos-audiencia-no-trt-bahia-babahia-ba",
+        "title": "Sindicato suspende greve do setor de construção após audiência no TRT - bahia.ba",
         "score": 90
       },
       {
@@ -202,18 +250,38 @@
         "score": 90
       },
       {
+        "id": "intervencao-adia-beneficio-de-r-1-9-mil-e-sindicato-descarta-greve-de-onibus-em-campo-gran",
+        "title": "Intervenção adia benefício de R$ 1,9 mil e sindicato descarta greve de ônibus em Campo Grande - Midiamax",
+        "score": 90
+      },
+      {
         "id": "corte-de-gastos-de-flavio-pode-eliminar-2-2-milhoes-de-empregos-diz-dieese-uol-economiauol",
         "title": "Corte de gastos de Flávio pode eliminar 2,2 milhões de empregos, diz Dieese - UOL Economia",
         "score": 90
       },
       {
-        "id": "jornada-de-40-horas-e-escala-52-conquista-e-desafios-radio-peao-brasilradio-peao-brasil",
-        "title": "Jornada de 40 horas e escala 5×2: conquista e desafios - Rádio Peão Brasil",
-        "score": 90
+        "id": "congresso-aprova-reestruturacao-de-carreiras-na-receita-ibama-e-inssagencia-brasil",
+        "title": "Congresso aprova reestruturação de carreiras na Receita, Ibama e INSS",
+        "score": 80
       },
       {
-        "id": "motiva-mira-novas-receitas-e-reducao-de-custos-com-centro-de-inovacao-para-rodovias-e-tril",
-        "title": "Motiva mira novas receitas e redução de custos com centro de inovação para rodovias e trilhos",
+        "id": "reuso-de-computadores-pelo-governo-brasileiro-gera-economia-de-aguaagencia-brasil",
+        "title": "Reúso de computadores pelo governo brasileiro gera economia de água",
+        "score": 80
+      },
+      {
+        "id": "tchequia-x-espanha-onde-assistir-ao-vivo-horario-e-provaveis-escalacoesexame",
+        "title": "Tchéquia x Espanha: onde assistir ao vivo, horário e prováveis escalações",
+        "score": 80
+      },
+      {
+        "id": "-ray-gunn-veja-o-trailer-do-novo-filme-do-diretor-de-os-incriveis-e-ratatouille-exame",
+        "title": "'Ray Gunn': veja o trailer do novo filme do diretor de 'Os Incríveis' e 'Ratatouille'",
+        "score": 80
+      },
+      {
+        "id": "nvidia-perde-us-1-trilhao-em-oito-pregoes-antes-da-renuncia-de-jensen-huangexame",
+        "title": "Nvidia perde US$ 1 trilhão em oito pregões antes da renúncia de Jensen Huang",
         "score": 80
       },
       {
@@ -222,13 +290,13 @@
         "score": 80
       },
       {
-        "id": "jensen-huang-renuncia-ao-cargo-de-ceo-da-nvidiatimes-brasil-cnbc",
-        "title": "Jensen Huang renuncia ao cargo de CEO da Nvidia",
+        "id": "operadores-da-kalshi-especulam-que-ian-buck-da-nvidia-substituira-huang-como-ceotimes-bras",
+        "title": "Operadores da Kalshi especulam que Ian Buck, da Nvidia, substituirá Huang como CEO",
         "score": 80
       },
       {
-        "id": "petrobras-quer-elevar-participacao-no-mercado-de-diesel-com-expansao-de-refinariastimes-br",
-        "title": "Petrobras quer elevar participação no mercado de diesel com expansão de refinarias",
+        "id": "pf-afasta-dois-servidores-em-operacao-contra-venda-ilegal-de-dados-pessoaistimes-brasil-cn",
+        "title": "PF afasta dois servidores em operação contra venda ilegal de dados pessoais",
         "score": 80
       },
       {
@@ -262,11 +330,6 @@
         "score": 80
       },
       {
-        "id": "processo-seletivo-para-contratacao-de-assistente-tecnico-ministerio-das-relacoes-exteriore",
-        "title": "Processo seletivo para contratação de assistente técnico — Ministério das Relações Exteriores - www.gov.br",
-        "score": 80
-      },
-      {
         "id": "until-today-its-been-a-lovely-place-to-work-nab-workers-voice-concerns-as-india-vietnam-te",
         "title": "‘Until today, it’s been a lovely place to work’: NAB workers voice concerns as India, Vietnam teams expand - People Matters - HR News",
         "score": 80
@@ -275,8 +338,8 @@
   },
   "metrics": {
     "trendItems": 10,
-    "withRadar": 0,
-    "withoutRadar": 10,
-    "highPriorityOutsideTrends": 34
+    "withRadar": 3,
+    "withoutRadar": 7,
+    "highPriorityOutsideTrends": 39
   }
 }

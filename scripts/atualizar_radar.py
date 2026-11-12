@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.parse import parse_qsl,quote,urlencode,urlsplit,urlunsplit
 from urllib.request import Request,urlopen
 import json,os,re,unicodedata,xml.etree.ElementTree as ET
-# Disparo manual de atualização: 2026-11-09
+# Disparo manual de atualização: 2026-11-12 — pesquisa editorial; lógica e parâmetros preservados.
 
 # Agenda, consulta, consequência, localidade editorial e idioma da busca.
 STREAMS={

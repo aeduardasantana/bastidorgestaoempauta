@@ -1,17 +1,8 @@
-# Início da curadoria editorial de 11/11/2026 por solicitação explícita; horários, fontes, score e classificação preservados.
+# Radar editorial sob execução manual por decisão da gestão em 13/11/2026.
 name: Atualizar Radar Diário
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "scripts/atualizar_radar.py"
-      - "scripts/atualizar_tendencias.py"
-      - "data/sources.json"
-      - "tests/test_radar.py"
-      - ".github/workflows/atualizar-radar.yml"
-  schedule:
-    - cron: "0 9,11 * * 1-5" # 06:00 e 08:00 America/Sao_Paulo; independente do horário de publicação do vídeo
+
 permissions:
   contents: write
 concurrency:

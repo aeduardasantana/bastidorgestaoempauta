@@ -905,11 +905,11 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte consultada diretamente na curadoria manual; conferir evidência original",
       "score": 90,
-      "title": "Braskem reporta prejuízo de R$ 1,068 bilhão e mantém negociações sobre dívida",
+      "title": "Braskem registra prejuízo atribuível aos acionistas de R$ 1,068 bilhão no 3T26",
       "source": "ADVFN",
       "date": "2026-11-13",
       "url": "https://br.advfn.com/jornal/2026/11/braskem-tem-prejuizo-de-r-1-06-bilhao-no-3t26-e-mantem-negociacoes-para-reestruturar-divida",
-      "summary": "A companhia reportou prejuízo líquido de R$ 1,068 bilhão no 3T26, comparado ao prejuízo de R$ 26 milhões no 3T25. O noticiário aponta negociações relativas à estrutura da dívida; não confundir tratativas com acordo concluído.",
+      "summary": "No 3º trimestre de 2026, a Braskem divulgou prejuízo líquido de R$ 1,068 bilhão atribuível aos acionistas da companhia, comparado à perda de R$ 26 milhões nessa mesma rubrica no 3T25. O prejuízo líquido consolidado foi de aproximadamente R$ 1,195 bilhão. A companhia negocia reestruturação de dívida, mas tratativas não significam acordo concluído. Valores de resultados e estágios de negociação devem ser tratados separadamente.",
       "angle": "Investigar redução de equipe, redistribuição de tarefas, metas, comunicação e segurança no emprego. Distinguir divulgação de resultado, tratativas financeiras e eventual decisão societária.",
       "editorialPotential": {
         "score": 9,
@@ -946,7 +946,7 @@
       },
       "origin": {
         "found": true,
-        "title": "Braskem reporta prejuízo de R$ 1,068 bilhão e mantém negociações sobre dívida",
+        "title": "Braskem registra prejuízo atribuível aos acionistas de R$ 1,068 bilhão no 3T26",
         "source": "ADVFN",
         "date": "2026-11-13",
         "url": "https://br.advfn.com/jornal/2026/11/braskem-tem-prejuizo-de-r-1-06-bilhao-no-3t26-e-mantem-negociacoes-para-reestruturar-divida"
@@ -972,7 +972,16 @@
       "discoveryAdapter": "manual_verified",
       "matrixSource": "Veículos BR — Valor",
       "locale": "br",
-      "relatedSources": [],
+      "relatedSources": [
+        {
+          "source": "Braskem Relações com Investidores",
+          "url": "https://www.braskem-ri.com.br/"
+        },
+        {
+          "source": "Times Brasil / CNBC, consolidados e atribuíveis",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/braskem-tem-prejuizo-de-r-12-bilhao-no-3o-trimestre/"
+        }
+      ],
       "clusterSize": 1,
       "clusterReason": "item original de apuração manual",
       "radarTrace": {
@@ -1094,11 +1103,11 @@
       "evidence": "Repercussão jornalística",
       "sourceType": "Fonte consultada diretamente na curadoria manual; conferir evidência original",
       "score": 90,
-      "title": "MBRF informa lucro de R$ 210 milhões no 3º trimestre de 2026",
+      "title": "MBRF divulga lucro de R$ 210 milhões atribuível aos controladores no 3T26",
       "source": "InfoMoney",
       "date": "2026-11-13",
       "url": "https://www.infomoney.com.br/mercados/csn-irb-braskem-cyrela-rede-dor-e-mais-acoes-para-acompanhar-nesta-sexta-feira/",
-      "summary": "Levantamento corporativo publicado em 13/11 registra lucro líquido de R$ 210 milhões da MBRF no 3T26, mais que o dobro do mesmo trimestre de 2025. Antes de atribuir causas, confirmar a apresentação de resultados e a composição entre operações brasileiras e internacionais.",
+      "summary": "A MBRF anunciou em 12/11 resultado líquido de aproximadamente R$ 210 milhões atribuível aos acionistas controladores no 3T26, alta de 123,5% frente ao mesmo trimestre de 2025. O lucro líquido consolidado foi de aproximadamente R$ 234,5 milhões. A empresa atribui parte do desempenho à integração operacional, à diversificação geográfica e às exportações; essa explicação corporativa deve ser distinguida do resultado contábil.",
       "angle": "Investigar processo, logística, capacidade, recursos, liderança e efeitos sobre o trabalho. Comparar desempenho, operação e fornecedores com o release integral.",
       "editorialPotential": {
         "score": 9,
@@ -1135,7 +1144,7 @@
       },
       "origin": {
         "found": true,
-        "title": "MBRF informa lucro de R$ 210 milhões no 3º trimestre de 2026",
+        "title": "MBRF divulga lucro de R$ 210 milhões atribuível aos controladores no 3T26",
         "source": "InfoMoney",
         "date": "2026-11-13",
         "url": "https://www.infomoney.com.br/mercados/csn-irb-braskem-cyrela-rede-dor-e-mais-acoes-para-acompanhar-nesta-sexta-feira/"
@@ -1160,7 +1169,12 @@
       "discoveryAdapter": "manual_verified",
       "matrixSource": "Exame, PEGN e InfoMoney Business",
       "locale": "br",
-      "relatedSources": [],
+      "relatedSources": [
+        {
+          "source": "Comunicado da MBRF (fonte primária corporativa)",
+          "url": "https://www.mbrf.com/noticia/lucro-liquido-da-mbrf-cresce-123-no-3t26-e-alcanca-r-210-milhoes/"
+        }
+      ],
       "clusterSize": 1,
       "clusterReason": "item original de apuração manual",
       "radarTrace": {

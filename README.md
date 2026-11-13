@@ -10,13 +10,13 @@ Central editorial estática para o programa **Gestão em Pauta**, do GEB - Grupo
 
 A seleção fica armazenada apenas no navegador utilizado.
 
-## Atualização automática
-O workflow `.github/workflows/atualizar-radar.yml` atualiza `data/news.json` em três passagens:
+## Atualização manual do radar
 
-1. abre os RSS canônicos ativados na matriz `data/sources.json`;
-2. usa o Google Notícias apenas para descoberta ampla e redundância;
-3. expande a busca de origem somente para candidatos fortes ainda sem fonte canônica.
+Desde 13/11/2026, o radar de notícias só é atualizado mediante solicitação explícita. O workflow `.github/workflows/atualizar-radar.yml` tem exclusivamente o gatilho `workflow_dispatch`: não há execução por horário nem por mudanças no código.
 
-As curadorias com corpo já validado são preservadas entre execuções. `data/diagnostics.json` registra cobertura da matriz, desempenho de cada fonte direta, uso do agregador, expansão de origem, ruído e duplicatas.
+O comando diário copiável está na Central de Comandos (`comandos.html`, bloco "Radar · Atualizar buscas"). A execução deve investigar fontes diversas, validar os resultados, atualizar `data/news.json` e diagnósticos pertinentes e conferir o deploy. O fluxo de publicação técnica (`deploy.yml`) continua a sincronizar alterações aprovadas feitas no repositório, sem executar pesquisas por conta própria.
+
+O radar preserva a política de pesquisa da matriz `data/sources.json`. `data/diagnostics.json` documenta a cobertura, ruído e duplicatas da última coleta.
+
 
 O domínio personalizado previsto é `bastidorgp.grupoeduardabispo.com.br`.

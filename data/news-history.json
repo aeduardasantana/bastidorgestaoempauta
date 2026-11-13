@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T17:11:56+00:00",
+  "updatedAt": "2026-11-13T13:30:36.092Z",
   "runs": [
     {
       "runId": "gh-42907958236-1",
@@ -61,6 +61,18 @@
       "newArticles": 43,
       "seenAgain": 119,
       "preservedOnly": 5
+    },
+    {
+      "runId": "manual-web-20261113-133036",
+      "generatedAt": "2026-11-13T13:30:36.092Z",
+      "generatedAtLocal": "2026-11-13T10:30:36-03:00",
+      "timezone": "America/Sao_Paulo",
+      "trigger": "manual-user-explicit",
+      "total": 174,
+      "newArticles": 7,
+      "seenAgain": 0,
+      "preservedOnly": 167,
+      "method": "curadoria manual parcial"
     }
   ],
   "articles": {
@@ -5503,6 +5515,118 @@
       "title": "Dólar futuro vai a R$ 5,56 e ETF do Ibovespa recua 18% após vitória de Lula - UOL Economia",
       "source": "UOL Economia",
       "publishedDate": "2026-10-25"
+    },
+    "csn-registra-prejuizo-de-r-1-25-bilhao-no-3o-trimestre-e-enfrenta-pressao-de-custosreuters": {
+      "firstSeenAt": "2026-11-13T13:30:36.092Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-13T13:30:36.092Z",
+      "lastSeenRunId": "manual-web-20261113-133036",
+      "seenBeforeThisRun": false,
+      "foundInCurrentRun": true,
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261113-133036"
+      ],
+      "id": "csn-registra-prejuizo-de-r-1-25-bilhao-no-3o-trimestre-e-enfrenta-pressao-de-custosreuters",
+      "title": "CSN registra prejuízo de R$ 1,25 bilhão no 3º trimestre e enfrenta pressão de custos",
+      "source": "Reuters / InfoMoney",
+      "publishedDate": "2026-11-13"
+    },
+    "braskem-reporta-prejuizo-de-r-1-068-bilhao-e-mantem-negociacoes-sobre-dividaadvfn": {
+      "firstSeenAt": "2026-11-13T13:30:36.092Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-13T13:30:36.092Z",
+      "lastSeenRunId": "manual-web-20261113-133036",
+      "seenBeforeThisRun": false,
+      "foundInCurrentRun": true,
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261113-133036"
+      ],
+      "id": "braskem-reporta-prejuizo-de-r-1-068-bilhao-e-mantem-negociacoes-sobre-dividaadvfn",
+      "title": "Braskem reporta prejuízo de R$ 1,068 bilhão e mantém negociações sobre dívida",
+      "source": "ADVFN",
+      "publishedDate": "2026-11-13"
+    },
+    "senado-aprova-texto-base-do-ajuste-fiscal-quatro-pontos-ainda-serao-votadosagencia-senado": {
+      "firstSeenAt": "2026-11-13T13:30:36.092Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-13T13:30:36.092Z",
+      "lastSeenRunId": "manual-web-20261113-133036",
+      "seenBeforeThisRun": false,
+      "foundInCurrentRun": true,
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261113-133036"
+      ],
+      "id": "senado-aprova-texto-base-do-ajuste-fiscal-quatro-pontos-ainda-serao-votadosagencia-senado",
+      "title": "Senado aprova texto-base do ajuste fiscal; quatro pontos ainda serão votados",
+      "source": "Agência Senado",
+      "publishedDate": "2026-11-12"
+    },
+    "tst-considera-discriminatoria-dispensa-coletiva-de-212-empregados-da-casa-da-moedamigalhas": {
+      "firstSeenAt": "2026-11-13T13:30:36.092Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-13T13:30:36.092Z",
+      "lastSeenRunId": "manual-web-20261113-133036",
+      "seenBeforeThisRun": false,
+      "foundInCurrentRun": true,
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261113-133036"
+      ],
+      "id": "tst-considera-discriminatoria-dispensa-coletiva-de-212-empregados-da-casa-da-moedamigalhas",
+      "title": "TST considera discriminatória dispensa coletiva de 212 empregados da Casa da Moeda",
+      "source": "Migalhas",
+      "publishedDate": "2026-11-12"
+    },
+    "startup-ai-cube-anuncia-contratos-de-us-50-milhoes-em-nuvem-com-aws-e-oracleexame": {
+      "firstSeenAt": "2026-11-13T13:30:36.092Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-13T13:30:36.092Z",
+      "lastSeenRunId": "manual-web-20261113-133036",
+      "seenBeforeThisRun": false,
+      "foundInCurrentRun": true,
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261113-133036"
+      ],
+      "id": "startup-ai-cube-anuncia-contratos-de-us-50-milhoes-em-nuvem-com-aws-e-oracleexame",
+      "title": "Startup AI.CUBE anuncia contratos de US$ 50 milhões em nuvem com AWS e Oracle",
+      "source": "Exame",
+      "publishedDate": "2026-11-13"
+    },
+    "comercio-varejista-avanca-0-2-em-setembro-segundo-pesquisa-do-ibgeuol-economia": {
+      "firstSeenAt": "2026-11-13T13:30:36.092Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-13T13:30:36.092Z",
+      "lastSeenRunId": "manual-web-20261113-133036",
+      "seenBeforeThisRun": false,
+      "foundInCurrentRun": true,
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261113-133036"
+      ],
+      "id": "comercio-varejista-avanca-0-2-em-setembro-segundo-pesquisa-do-ibgeuol-economia",
+      "title": "Comércio varejista avança 0,2% em setembro, segundo pesquisa do IBGE",
+      "source": "UOL Economia",
+      "publishedDate": "2026-11-13"
+    },
+    "mbrf-informa-lucro-de-r-210-milhoes-no-3o-trimestre-de-2026infomoney": {
+      "firstSeenAt": "2026-11-13T13:30:36.092Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-13T13:30:36.092Z",
+      "lastSeenRunId": "manual-web-20261113-133036",
+      "seenBeforeThisRun": false,
+      "foundInCurrentRun": true,
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261113-133036"
+      ],
+      "id": "mbrf-informa-lucro-de-r-210-milhoes-no-3o-trimestre-de-2026infomoney",
+      "title": "MBRF informa lucro de R$ 210 milhões no 3º trimestre de 2026",
+      "source": "InfoMoney",
+      "publishedDate": "2026-11-13"
     }
   }
 }

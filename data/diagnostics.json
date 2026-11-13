@@ -166,5 +166,17 @@
     "seenAgain": 119,
     "preservedOnly": 5,
     "knownArticles": 361
+  },
+  "manualSupplement": {
+    "generatedAt": "2026-11-13T13:30:36.092Z",
+    "runId": "manual-web-20261113-133036",
+    "status": "partial_validated",
+    "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
+    "candidatesReviewed": 7,
+    "accepted": 7,
+    "duplicates": 0,
+    "preserved": 167,
+    "discarded": 0,
+    "note": "Números de collection/directCollection acima referem-se à última coleta integral em 12/11. Reexecução de 13/11 teve sucesso na coleta mas falha ao dar rebase e não foi publicada."
   }
 }

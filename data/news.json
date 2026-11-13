@@ -1,21 +1,114 @@
 {
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "researchRun": {
-    "method": "matriz direta + descoberta ampla + expansão seletiva",
+    "method": "complemento manual validado de 13/11; coleta integral anterior preservada",
     "directEndpoints": 7,
     "curatedPreserved": 5,
-    "runId": "gh-43266717823-1",
-    "generatedAt": "2026-11-12T17:11:56+00:00",
-    "generatedAtLocal": "2026-11-12T14:11:56-03:00",
+    "runId": "manual-web-20261113-133036",
+    "generatedAt": "2026-11-13T13:30:36.092Z",
+    "generatedAtLocal": "2026-11-13T10:30:36-03:00",
     "timezone": "America/Sao_Paulo",
-    "trigger": "schedule",
-    "sourceCommit": "009e2b6b3d01e874377a71c4fa1c862721ce1adc",
-    "newArticles": 43,
-    "seenAgain": 119,
-    "preservedOnly": 5,
-    "knownArticles": 361
+    "trigger": "manual-user-explicit",
+    "sourceCommit": "6313b736f63c8f8bbb0216bdcc987ebfcca433fc",
+    "newArticles": 7,
+    "seenAgain": 0,
+    "preservedOnly": 167,
+    "knownArticles": 368,
+    "manualLimited": true,
+    "previousCollector": {
+      "runId": "gh-43266717823-1",
+      "generatedAt": "2026-11-12T17:11:56+00:00"
+    },
+    "note": "Complemento de notícias verificadas manualmente; não equivale à conclusão da coleta técnica integral."
   },
   "items": [
+    {
+      "id": "tst-considera-discriminatoria-dispensa-coletiva-de-212-empregados-da-casa-da-moedamigalhas",
+      "agenda": "Trabalho e representação",
+      "impact": "Pessoas e trabalho",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente na curadoria manual; conferir evidência original",
+      "score": 100,
+      "title": "TST considera discriminatória dispensa coletiva de 212 empregados da Casa da Moeda",
+      "source": "Migalhas",
+      "date": "2026-11-12",
+      "url": "https://www.migalhas.com.br/quentes/468499/tst-anula-dispensa-em-massa-e-multa-casa-da-moeda-por-etarismo",
+      "summary": "A Subseção I Especializada em Dissídios Individuais do TST considerou discriminatório o critério de aposentadoria/proximidade de aposentadoria na seleção de 212 trabalhadores dispensados em 2018. Notícias sobre o julgamento apontam determinação de reintegração e indenização coletiva de R$ 10 milhões. Verificar processo e eventual recurso para aplicação jurídica.",
+      "angle": "Investigar redução de equipe, redistribuição de tarefas, metas, comunicação e segurança no emprego. Caso concreto com efeitos sobre políticas de desligamento e prevenção de discriminação; não generalizar a toda dispensa coletiva.",
+      "editorialPotential": {
+        "score": 10,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Redução, reestruturação ou fechamento",
+        "economicTrigger": "Pressão financeira",
+        "organizationalHypothesis": "Investigar redução de equipe, redistribuição de tarefas, metas, comunicação e segurança no emprego.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [],
+        "caveat": "Classificação preliminar baseada no título e no contexto verificado, segundo a régua existente; a seleção editorial continua exigindo análise do caso.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "restructuring": [
+            "demissao"
+          ],
+          "workforce": [
+            "trabalhadores",
+            "empregados",
+            "negociacao coletiva"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "TST considera discriminatória dispensa coletiva de 212 empregados da Casa da Moeda",
+        "source": "Migalhas",
+        "date": "2026-11-12",
+        "url": "https://www.migalhas.com.br/quentes/468499/tst-anula-dispensa-em-massa-e-multa-casa-da-moeda-por-etarismo"
+      },
+      "audience": {
+        "public": "RH, jurídico trabalhista, operações e lideranças de equipes.",
+        "interest": "Entender negociação coletiva, mobilização de trabalhadores e seus efeitos na operação.",
+        "search": "convenção coletiva empresas; sindicato negociação empresas",
+        "sensation": "Segurança e pertencimento"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "TST, TRTs e MPT",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item original de apuração manual",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-13T13:30:36.092Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-13T13:30:36.092Z",
+        "lastSeenRunId": "manual-web-20261113-133036",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-web-20261113-133036"
+        ]
+      }
+    },
     {
       "id": "aprovados-r-522-mi-para-modernizacao-fiscal-e-compromissos-internacionaisagencia-senado",
       "agenda": "Poder e regras",
@@ -707,6 +800,471 @@
           "gh-43060874350-1",
           "gh-43231991193-1",
           "gh-43266717823-1"
+        ]
+      }
+    },
+    {
+      "id": "csn-registra-prejuizo-de-r-1-25-bilhao-no-3o-trimestre-e-enfrenta-pressao-de-custosreuters",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente na curadoria manual; conferir evidência original",
+      "score": 90,
+      "title": "CSN registra prejuízo de R$ 1,25 bilhão no 3º trimestre e enfrenta pressão de custos",
+      "source": "Reuters / InfoMoney",
+      "date": "2026-11-13",
+      "url": "https://www.infomoney.com.br/mercados/csn-csna3-resultados-terceiro-trimestre-2026/",
+      "summary": "Balanço divulgado em 12/11 e repercutido em 13/11: prejuízo de cerca de R$ 1,25 bilhão, ante lucro de R$ 76 milhões no 3T25. Receita líquida de R$ 10,49 bilhões, com pressão sobre mineração, frete e custos. A venda anunciada da divisão de cimentos por R$ 12,7 bilhões é movimento separado do desempenho trimestral.",
+      "angle": "Investigar mudança de controle, integração, governança, sobreposição de papéis, autonomia e retenção. Acompanhar documentos de resultados e a diferença entre anúncio de alienação e conclusão da operação.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Fusão, aquisição ou mudança de controle",
+        "economicTrigger": "Capital e estratégia",
+        "organizationalHypothesis": "Investigar mudança de controle, integração, governança, sobreposição de papéis, autonomia e retenção.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada no título e no contexto verificado, segundo a régua existente; a seleção editorial continua exigindo análise do caso.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            "r ",
+            " "
+          ],
+          "control": [
+            "aquisicao"
+          ],
+          "operations": [
+            "operacoes",
+            "producao",
+            "logistica"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "CSN registra prejuízo de R$ 1,25 bilhão no 3º trimestre e enfrenta pressão de custos",
+        "source": "Reuters / InfoMoney",
+        "date": "2026-11-13",
+        "url": "https://www.infomoney.com.br/mercados/csn-csna3-resultados-terceiro-trimestre-2026/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Veículos BR — NeoFeed e Bloomberg Línea",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item original de apuração manual",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-13T13:30:36.092Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-13T13:30:36.092Z",
+        "lastSeenRunId": "manual-web-20261113-133036",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-web-20261113-133036"
+        ]
+      }
+    },
+    {
+      "id": "braskem-reporta-prejuizo-de-r-1-068-bilhao-e-mantem-negociacoes-sobre-dividaadvfn",
+      "agenda": "Empresa em Pauta",
+      "impact": "Custo e caixa",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente na curadoria manual; conferir evidência original",
+      "score": 90,
+      "title": "Braskem reporta prejuízo de R$ 1,068 bilhão e mantém negociações sobre dívida",
+      "source": "ADVFN",
+      "date": "2026-11-13",
+      "url": "https://br.advfn.com/jornal/2026/11/braskem-tem-prejuizo-de-r-1-06-bilhao-no-3t26-e-mantem-negociacoes-para-reestruturar-divida",
+      "summary": "A companhia reportou prejuízo líquido de R$ 1,068 bilhão no 3T26, comparado ao prejuízo de R$ 26 milhões no 3T25. O noticiário aponta negociações relativas à estrutura da dívida; não confundir tratativas com acordo concluído.",
+      "angle": "Investigar redução de equipe, redistribuição de tarefas, metas, comunicação e segurança no emprego. Distinguir divulgação de resultado, tratativas financeiras e eventual decisão societária.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Redução, reestruturação ou fechamento",
+        "economicTrigger": "Pressão financeira",
+        "organizationalHypothesis": "Investigar redução de equipe, redistribuição de tarefas, metas, comunicação e segurança no emprego.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada no título e no contexto verificado, segundo a régua existente; a seleção editorial continua exigindo análise do caso.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            "r ",
+            " "
+          ],
+          "restructuring": [
+            "reestruturacao"
+          ],
+          "operations": [
+            "operacao"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Braskem reporta prejuízo de R$ 1,068 bilhão e mantém negociações sobre dívida",
+        "source": "ADVFN",
+        "date": "2026-11-13",
+        "url": "https://br.advfn.com/jornal/2026/11/braskem-tem-prejuizo-de-r-1-06-bilhao-no-3t26-e-mantem-negociacoes-para-reestruturar-divida"
+      },
+      "audience": {
+        "public": "Donos de empresas, finanças, incorporação, conselhos, sucessores e operações.",
+        "interest": "Avaliar como crescimento acelerado pressiona caixa, crédito, governança e capacidade de execução.",
+        "search": "MontClass R$ 10 bilhões; expansão com capital próprio; sucessão empresa familiar; financiamento direto",
+        "sensation": "Curiosidade e segurança"
+      },
+      "packaging": {
+        "opening": "Uma empresa quer multiplicar por mais de 13 vezes o volume atual de projetos sem recorrer a bancos.",
+        "promise": "Entenda o que essa ambição cobra de caixa, governança, crédito e liderança.",
+        "thumbnail": "R$ 10 BI SEM BANCOS",
+        "description": "O plano da MontClass abre uma discussão sobre expansão, capital próprio e capacidade real de execução.",
+        "keywords": "MontClass, expansão, capital próprio, crédito direto, governança, empresa familiar",
+        "hashtags": "#GestaoEmPauta #Expansao #Governanca #Financas #EmpresaFamiliar"
+      },
+      "use": {
+        "label": "Usar redação própria, citar a fonte e distinguir afirmações da empresa de dados independentes.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Veículos BR — Valor",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item original de apuração manual",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-13T13:30:36.092Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-13T13:30:36.092Z",
+        "lastSeenRunId": "manual-web-20261113-133036",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-web-20261113-133036"
+        ]
+      }
+    },
+    {
+      "id": "startup-ai-cube-anuncia-contratos-de-us-50-milhoes-em-nuvem-com-aws-e-oracleexame",
+      "agenda": "IA e gestão",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente na curadoria manual; conferir evidência original",
+      "score": 90,
+      "title": "Startup AI.CUBE anuncia contratos de US$ 50 milhões em nuvem com AWS e Oracle",
+      "source": "Exame",
+      "date": "2026-11-13",
+      "url": "https://exame.com/inteligencia-artificial/ai-cube-aws-oracle-50-milhoes/",
+      "summary": "Reportagem publicada em 13/11 informa que a AI.CUBE contratou capacidade computacional que soma US$ 50 milhões com AWS e Oracle, a maior parte prevista para operações no Brasil. Os valores e planos foram informados pela própria startup; o veículo não detalha os montantes por contrato.",
+      "angle": "Investigar capacidade operacional, contratação, liderança, integração e recursos exigidos pela expansão. Separar valor contratado de faturamento, investimento realizado ou receitas futuras; fonte empresarial interessada.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Expansão ou aumento de capacidade",
+        "economicTrigger": "Capital e crescimento",
+        "organizationalHypothesis": "Investigar capacidade operacional, contratação, liderança, integração e recursos exigidos pela expansão.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada no título e no contexto verificado, segundo a régua existente; a seleção editorial continua exigindo análise do caso.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "expansion": [
+            "expansao"
+          ],
+          "investment": [
+            "us ",
+            " ",
+            "milhoes"
+          ],
+          "operations": [
+            "infraestrutura"
+          ],
+          "technology": [
+            "inteligencia artificial",
+            " ia "
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Startup AI.CUBE anuncia contratos de US$ 50 milhões em nuvem com AWS e Oracle",
+        "source": "Exame",
+        "date": "2026-11-13",
+        "url": "https://exame.com/inteligencia-artificial/ai-cube-aws-oracle-50-milhoes/"
+      },
+      "audience": {
+        "public": "CEOs, indústria, operações, RH, segurança, tecnologia e transformação.",
+        "interest": "Antecipar critérios de teste, impacto sobre funções, capacitação e governança de robôs na manufatura.",
+        "search": "PepsiCo robôs humanoides Brasil; IA na indústria; automação trabalho; manufatura inteligente",
+        "sensation": "Curiosidade e segurança"
+      },
+      "packaging": {
+        "opening": "O Brasil entrou na primeira geração de testes de humanoides de uma multinacional — mas a pergunta de gestão começa antes do robô chegar à linha.",
+        "promise": "Entenda o que precisa ser definido sobre processo, pessoas, segurança e governança.",
+        "thumbnail": "HUMANOIDES NA FÁBRICA",
+        "description": "A declaração da PepsiCo abre uma pauta sobre automação industrial, trabalho e governança no Brasil.",
+        "keywords": "PepsiCo, robôs humanoides, automação industrial, inteligência artificial, trabalho",
+        "hashtags": "#GestaoEmPauta #InteligenciaArtificial #Industria #FuturoDoTrabalho #Governanca"
+      },
+      "use": {
+        "label": "Usar redação própria, citar a fonte e distinguir afirmações da empresa de dados independentes.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Exame, PEGN e InfoMoney Business",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item original de apuração manual",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-13T13:30:36.092Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-13T13:30:36.092Z",
+        "lastSeenRunId": "manual-web-20261113-133036",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-web-20261113-133036"
+        ]
+      }
+    },
+    {
+      "id": "mbrf-informa-lucro-de-r-210-milhoes-no-3o-trimestre-de-2026infomoney",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente na curadoria manual; conferir evidência original",
+      "score": 90,
+      "title": "MBRF informa lucro de R$ 210 milhões no 3º trimestre de 2026",
+      "source": "InfoMoney",
+      "date": "2026-11-13",
+      "url": "https://www.infomoney.com.br/mercados/csn-irb-braskem-cyrela-rede-dor-e-mais-acoes-para-acompanhar-nesta-sexta-feira/",
+      "summary": "Levantamento corporativo publicado em 13/11 registra lucro líquido de R$ 210 milhões da MBRF no 3T26, mais que o dobro do mesmo trimestre de 2025. Antes de atribuir causas, confirmar a apresentação de resultados e a composição entre operações brasileiras e internacionais.",
+      "angle": "Investigar processo, logística, capacidade, recursos, liderança e efeitos sobre o trabalho. Comparar desempenho, operação e fornecedores com o release integral.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Mudança operacional ou produtiva",
+        "economicTrigger": "Operação e capacidade",
+        "organizationalHypothesis": "Investigar processo, logística, capacidade, recursos, liderança e efeitos sobre o trabalho.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada no título e no contexto verificado, segundo a régua existente; a seleção editorial continua exigindo análise do caso.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            "r ",
+            " ",
+            "milhoes"
+          ],
+          "operations": [
+            "operacao",
+            "producao",
+            "fornecedores"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "MBRF informa lucro de R$ 210 milhões no 3º trimestre de 2026",
+        "source": "InfoMoney",
+        "date": "2026-11-13",
+        "url": "https://www.infomoney.com.br/mercados/csn-irb-braskem-cyrela-rede-dor-e-mais-acoes-para-acompanhar-nesta-sexta-feira/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Exame, PEGN e InfoMoney Business",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item original de apuração manual",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-13T13:30:36.092Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-13T13:30:36.092Z",
+        "lastSeenRunId": "manual-web-20261113-133036",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-web-20261113-133036"
+        ]
+      }
+    },
+    {
+      "id": "senado-aprova-texto-base-do-ajuste-fiscal-quatro-pontos-ainda-serao-votadosagencia-senado",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte consultada diretamente na curadoria manual; conferir evidência original",
+      "score": 90,
+      "title": "Senado aprova texto-base do ajuste fiscal; quatro pontos ainda serão votados",
+      "source": "Agência Senado",
+      "date": "2026-11-12",
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/11/12/texto-principal-do-ajuste-fiscal-e-aprovado-pelo-senado",
+      "summary": "Plenário aprovou em 12/11, por 45 votos a 31, o texto principal do PLP 299/2026. Quatro destaques permanecem para votação prevista em 17/11; depois, a matéria deve passar pela Câmara. Inclui medidas propostas sobre benefícios fiscais e contenção de despesas, ainda sem vigência como lei.",
+      "angle": "Confirmar setores atingidos, obrigação, prazo e mudanças necessárias em processos, custos ou trabalho. Diferenciar aprovação parcial em casa legislativa de aprovação definitiva, sanção e vigência.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Regulação com efeito empresarial",
+        "economicTrigger": "Regra ou política pública",
+        "organizationalHypothesis": "Confirmar setores atingidos, obrigação, prazo e mudanças necessárias em processos, custos ou trabalho.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "mudança organizacional",
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada no título e no contexto verificado, segundo a régua existente; a seleção editorial continua exigindo análise do caso.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            "r ",
+            " ",
+            "bilhoes"
+          ],
+          "regulation": [
+            "regulamentacao",
+            "incentivo fiscal",
+            "tributacao"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Senado aprova texto-base do ajuste fiscal; quatro pontos ainda serão votados",
+        "source": "Agência Senado",
+        "date": "2026-11-12",
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/11/12/texto-principal-do-ajuste-fiscal-e-aprovado-pelo-senado"
+      },
+      "audience": {
+        "public": "Empresários, jurídico, financeiro, RH e gestores do setor potencialmente afetado.",
+        "interest": "Antecipar custo, obrigação, risco ou mudança operacional.",
+        "search": "nova regra para empresas; impacto de projeto de lei; regulamentação empresarial",
+        "sensation": "Segurança e liberdade"
+      },
+      "packaging": {
+        "opening": "Uma regra ou decisão pública pode alterar a rotina de empresas antes mesmo de virar uma cobrança.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "NOVA REGRA: O QUE MUDA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Senado e Câmara",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item original de apuração manual",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-13T13:30:36.092Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-13T13:30:36.092Z",
+        "lastSeenRunId": "manual-web-20261113-133036",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-web-20261113-133036"
         ]
       }
     },
@@ -2311,6 +2869,93 @@
           "gh-43060874350-1",
           "gh-43231991193-1",
           "gh-43266717823-1"
+        ]
+      }
+    },
+    {
+      "id": "comercio-varejista-avanca-0-2-em-setembro-segundo-pesquisa-do-ibgeuol-economia",
+      "agenda": "Mercado e trabalho",
+      "impact": "Custo e caixa",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente na curadoria manual; conferir evidência original",
+      "score": 80,
+      "title": "Comércio varejista avança 0,2% em setembro, segundo pesquisa do IBGE",
+      "source": "UOL Economia",
+      "date": "2026-11-13",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/13/comercio-setembro-2026.ghtm",
+      "summary": "Pesquisa Mensal de Comércio divulgada em 13/11 indica alta de 0,2% no volume de vendas do varejo em setembro ante agosto, situação próxima de estabilidade. Houve contrastes setoriais: equipamentos de informática e comunicação cresceram, enquanto móveis e eletrodomésticos recuaram. O dado agregado não descreve todas as empresas.",
+      "angle": "Investigar processo, logística, capacidade, recursos, liderança e efeitos sobre o trabalho. Conferir série dessazonalizada e diferenças entre varejo restrito e ampliado antes de produzir análise.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Mudança operacional ou produtiva",
+        "economicTrigger": "Operação e capacidade",
+        "organizationalHypothesis": "Investigar processo, logística, capacidade, recursos, liderança e efeitos sobre o trabalho.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada no título e no contexto verificado, segundo a régua existente; a seleção editorial continua exigindo análise do caso.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            " "
+          ],
+          "operations": [
+            "producao"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Comércio varejista avança 0,2% em setembro, segundo pesquisa do IBGE",
+        "source": "UOL Economia",
+        "date": "2026-11-13",
+        "url": "https://economia.uol.com.br/noticias/redacao/2026/11/13/comercio-setembro-2026.ghtm"
+      },
+      "audience": {
+        "public": "Donos de empresas, diretoria financeira, operações e RH.",
+        "interest": "Identificar efeitos sobre caixa, contratação, preço, investimento ou planejamento.",
+        "search": "mercado brasileiro empresas; custo empresarial; emprego e empresas",
+        "sensation": "Segurança e curiosidade"
+      },
+      "packaging": {
+        "opening": "A notícia de hoje traz um fato que merece atenção de empresas. A pergunta não é apenas o que aconteceu, mas qual decisão de gestão esse cenário exige.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "O QUE MUDA PARA A EMPRESA?",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Agência Brasil e IBGE",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "item original de apuração manual",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-13T13:30:36.092Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-13T13:30:36.092Z",
+        "lastSeenRunId": "manual-web-20261113-133036",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-web-20261113-133036"
         ]
       }
     },

@@ -1,9 +1,10 @@
 (function(){
   "use strict";
   const library=window.GP_COMMAND_LIBRARY;
+  const radar=document.getElementById("radarCommands");
   const audio=document.getElementById("audiovisualCommands");
   const blog=document.getElementById("blogCommands");
-  if(!library || !Array.isArray(library.commands)){for(const el of [audio,blog])el.textContent="Biblioteca de comandos indisponível. Consulte os documentos originais no final da página.";return;}
+  if(!library || !Array.isArray(library.commands)){for(const el of [radar,audio,blog])el.textContent="Biblioteca de comandos indisponível. Consulte os documentos originais no final da página.";return;}
   const build=(data)=>{
     const card=document.createElement("article");card.className="command-card";card.id="comando-"+data.n;
     const stage=document.createElement("span");stage.className="command-stage";stage.textContent="COMANDO "+data.n;
@@ -26,5 +27,5 @@
     details.append(summary,field);card.append(stage,title,desc,buttons,details);
     return card;
   };
-  for(const item of library.commands){(Number(item.n)<=3?audio:blog).append(build(item));}
+  for(const item of library.commands){(item.k==="radar"?radar:(Number(item.n)<=3?audio:blog)).append(build(item));}
 })();

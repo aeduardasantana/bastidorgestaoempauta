@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T13:30:36.092Z",
+  "updatedAt": "2026-11-16T11:45:13.000Z",
   "runs": [
     {
       "runId": "gh-42907958236-1",
@@ -73,6 +73,22 @@
       "seenAgain": 0,
       "preservedOnly": 167,
       "method": "curadoria manual parcial"
+    },
+    {
+      "runId": "manual-web-20261116-114513",
+      "generatedAt": "2026-11-16T11:45:13.000Z",
+      "generatedAtLocal": "2026-11-16T08:45:13-03:00",
+      "timezone": "America/Sao_Paulo",
+      "trigger": "manual-user-explicit",
+      "sourceCommit": "ddc14ef21b73ce8d0c36ed761c0d3de1076d160a",
+      "total": 186,
+      "newArticles": 12,
+      "seenAgain": 0,
+      "preservedOnly": 174,
+      "candidatesReviewed": 14,
+      "duplicates": 2,
+      "discarded": 0,
+      "method": "curadoria manual multifuente parcial"
     }
   ],
   "articles": {
@@ -5626,6 +5642,174 @@
       "id": "mbrf-informa-lucro-de-r-210-milhoes-no-3o-trimestre-de-2026infomoney",
       "title": "MBRF divulga lucro de R$ 210 milhões atribuível aos controladores no 3T26",
       "source": "InfoMoney",
+      "publishedDate": "2026-11-13"
+    },
+    "manual-jensen-huang-discute-possivel-retorno-ao-comando-da-nvidia-segundo-reportagem": {
+      "firstSeenAt": "2026-11-16T11:45:13.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:45:13.000Z",
+      "lastSeenRunId": "manual-web-20261116-114513",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261116-114513"
+      ],
+      "id": "manual-jensen-huang-discute-possivel-retorno-ao-comando-da-nvidia-segundo-reportagem",
+      "title": "Jensen Huang discute possível retorno ao comando da Nvidia, segundo reportagem",
+      "source": "Reuters / CNN Brasil",
+      "publishedDate": "2026-11-15"
+    },
+    "manual-fusoes-e-aquisicoes-movimentam-r-254-bilhoes-ate-setembro-valor-cresce-16": {
+      "firstSeenAt": "2026-11-16T11:45:13.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:45:13.000Z",
+      "lastSeenRunId": "manual-web-20261116-114513",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261116-114513"
+      ],
+      "id": "manual-fusoes-e-aquisicoes-movimentam-r-254-bilhoes-ate-setembro-valor-cresce-16",
+      "title": "Fusões e aquisições movimentam R$ 254 bilhões até setembro; valor cresce 16%",
+      "source": "CNN Brasil / KPMG",
+      "publishedDate": "2026-11-15"
+    },
+    "manual-receita-confirma-remissao-futura-de-contribuicoes-previdenciarias-antigas-do-mei": {
+      "firstSeenAt": "2026-11-16T11:45:13.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:45:13.000Z",
+      "lastSeenRunId": "manual-web-20261116-114513",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261116-114513"
+      ],
+      "id": "manual-receita-confirma-remissao-futura-de-contribuicoes-previdenciarias-antigas-do-mei",
+      "title": "Receita confirma remissão futura de contribuições previdenciárias antigas do MEI",
+      "source": "PGFN / Agência Brasil",
+      "publishedDate": "2026-11-13"
+    },
+    "manual-governo-nao-renova-subvencao-adicional-de-r-1-40-ao-diesel-importado": {
+      "firstSeenAt": "2026-11-16T11:45:13.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:45:13.000Z",
+      "lastSeenRunId": "manual-web-20261116-114513",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261116-114513"
+      ],
+      "id": "manual-governo-nao-renova-subvencao-adicional-de-r-1-40-ao-diesel-importado",
+      "title": "Governo não renova subvenção adicional de R$ 1,40 ao diesel importado",
+      "source": "Agência Brasil / ANP",
+      "publishedDate": "2026-11-13"
+    },
+    "manual-confianca-da-industria-recua-a-40-2-pontos-menor-indice-desde-maio-de-2020": {
+      "firstSeenAt": "2026-11-16T11:45:13.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:45:13.000Z",
+      "lastSeenRunId": "manual-web-20261116-114513",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261116-114513"
+      ],
+      "id": "manual-confianca-da-industria-recua-a-40-2-pontos-menor-indice-desde-maio-de-2020",
+      "title": "Confiança da indústria recua a 40,2 pontos, menor índice desde maio de 2020",
+      "source": "CNI / Agência Brasil",
+      "publishedDate": "2026-11-13"
+    },
+    "manual-programa-mover-regulamenta-creditos-de-reciclagem-para-reducao-tributaria-de-vei": {
+      "firstSeenAt": "2026-11-16T11:45:13.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:45:13.000Z",
+      "lastSeenRunId": "manual-web-20261116-114513",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261116-114513"
+      ],
+      "id": "manual-programa-mover-regulamenta-creditos-de-reciclagem-para-reducao-tributaria-de-vei",
+      "title": "Programa Mover regulamenta créditos de reciclagem para redução tributária de veículos elegíveis",
+      "source": "MDIC",
+      "publishedDate": "2026-11-13"
+    },
+    "manual-chamada-publica-preve-ate-r-81-milhoes-para-projetos-industriais-de-baixo-carbon": {
+      "firstSeenAt": "2026-11-16T11:45:13.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:45:13.000Z",
+      "lastSeenRunId": "manual-web-20261116-114513",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261116-114513"
+      ],
+      "id": "manual-chamada-publica-preve-ate-r-81-milhoes-para-projetos-industriais-de-baixo-carbon",
+      "title": "Chamada pública prevê até R$ 81 milhões para projetos industriais de baixo carbono",
+      "source": "MDIC / Embrapii",
+      "publishedDate": "2026-11-13"
+    },
+    "manual-receita-atualiza-pgdas-d-para-adaptacao-do-simples-a-reforma-tributaria": {
+      "firstSeenAt": "2026-11-16T11:45:13.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:45:13.000Z",
+      "lastSeenRunId": "manual-web-20261116-114513",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261116-114513"
+      ],
+      "id": "manual-receita-atualiza-pgdas-d-para-adaptacao-do-simples-a-reforma-tributaria",
+      "title": "Receita atualiza PGDAS-D para adaptação do Simples à reforma tributária",
+      "source": "Receita Federal",
+      "publishedDate": "2026-11-13"
+    },
+    "manual-tesouro-mantem-parte-das-consultas-indisponivel-apos-incidente-de-seguranca": {
+      "firstSeenAt": "2026-11-16T11:45:13.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:45:13.000Z",
+      "lastSeenRunId": "manual-web-20261116-114513",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261116-114513"
+      ],
+      "id": "manual-tesouro-mantem-parte-das-consultas-indisponivel-apos-incidente-de-seguranca",
+      "title": "Tesouro mantém parte das consultas indisponível após incidente de segurança",
+      "source": "Ministério da Fazenda / Tesouro Nacional",
+      "publishedDate": "2026-11-13"
+    },
+    "manual-industria-do-ceara-cresce-3-7-em-setembro-acima-do-resultado-nacional": {
+      "firstSeenAt": "2026-11-16T11:45:13.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:45:13.000Z",
+      "lastSeenRunId": "manual-web-20261116-114513",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261116-114513"
+      ],
+      "id": "manual-industria-do-ceara-cresce-3-7-em-setembro-acima-do-resultado-nacional",
+      "title": "Indústria do Ceará cresce 3,7% em setembro, acima do resultado nacional",
+      "source": "Secretaria do Desenvolvimento Econômico do Ceará / IBGE",
+      "publishedDate": "2026-11-13"
+    },
+    "manual-inpi-mantem-consulta-publica-aberta-sobre-registro-de-jogos-eletronicos": {
+      "firstSeenAt": "2026-11-16T11:45:13.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:45:13.000Z",
+      "lastSeenRunId": "manual-web-20261116-114513",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261116-114513"
+      ],
+      "id": "manual-inpi-mantem-consulta-publica-aberta-sobre-registro-de-jogos-eletronicos",
+      "title": "INPI mantém consulta pública aberta sobre registro de jogos eletrônicos",
+      "source": "MDIC / INPI",
+      "publishedDate": "2026-11-13"
+    },
+    "manual-senado-informa-implementacao-progressiva-da-ampliacao-da-licenca-paternidade-a-p": {
+      "firstSeenAt": "2026-11-16T11:45:13.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:45:13.000Z",
+      "lastSeenRunId": "manual-web-20261116-114513",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-web-20261116-114513"
+      ],
+      "id": "manual-senado-informa-implementacao-progressiva-da-ampliacao-da-licenca-paternidade-a-p",
+      "title": "Senado informa implementação progressiva da ampliação da licença-paternidade a partir de janeiro",
+      "source": "Agência Senado",
       "publishedDate": "2026-11-13"
     }
   }

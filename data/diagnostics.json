@@ -168,15 +168,42 @@
     "knownArticles": 361
   },
   "manualSupplement": {
-    "generatedAt": "2026-11-13T13:30:36.092Z",
-    "runId": "manual-web-20261113-133036",
+    "runId": "manual-web-20261116-114513",
+    "generatedAt": "2026-11-16T11:45:13.000Z",
+    "generatedAtLocal": "2026-11-16T08:45:13-03:00",
+    "timezone": "America/Sao_Paulo",
+    "trigger": "manual-user-explicit",
+    "sourceCommit": "ddc14ef21b73ce8d0c36ed761c0d3de1076d160a",
     "status": "partial_validated",
     "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
-    "candidatesReviewed": 7,
-    "accepted": 7,
-    "duplicates": 0,
-    "preserved": 167,
+    "candidatesReviewed": 14,
+    "accepted": 12,
+    "duplicates": 2,
+    "preserved": 174,
     "discarded": 0,
-    "note": "Números de collection/directCollection acima referem-se à última coleta integral em 12/11. Reexecução de 13/11 teve sucesso na coleta mas falha ao dar rebase e não foi publicada."
-  }
+    "sourceGroups": [
+      "órgãos oficiais e legislação",
+      "imprensa empresarial e econômica",
+      "fontes setoriais e dados",
+      "imprensa regional",
+      "imprensa internacional"
+    ],
+    "previousManualRunId": "manual-web-20261113-133036",
+    "trendStatus": "não recoletado; data/trends.json mantido como referência histórica",
+    "note": "Dois núcleos encontrados na pesquisa já presentes: comércio varejista de setembro e resultados/estratégia da Espaçolaser. A curadoria manual não equivale ao fluxo automático integral de 126 consultas."
+  },
+  "manualSupplementHistory": [
+    {
+      "generatedAt": "2026-11-13T13:30:36.092Z",
+      "runId": "manual-web-20261113-133036",
+      "status": "partial_validated",
+      "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
+      "candidatesReviewed": 7,
+      "accepted": 7,
+      "duplicates": 0,
+      "preserved": 167,
+      "discarded": 0,
+      "note": "Números de collection/directCollection acima referem-se à última coleta integral em 12/11. Reexecução de 13/11 teve sucesso na coleta mas falha ao dar rebase e não foi publicada."
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10",
-  "basis": "Edições 001 e 002 informadas como publicadas pela responsável; assuntos extraídos dos roteiros no Drive, sem conferência independente da gravação.",
+  "updatedAt": "2026-11-16",
+  "basis": "001–002 preservadas da base anterior; 003–005 catalogadas dos roteiros aprovados no Drive, publicação não verificada nesta auditoria; 006 publicação informada pela responsável, dados de vídeo não acessíveis. Conteúdos 003–006 são, até comparação com o vídeo, baseados nos roteiros e não em transcrição da gravação.",
   "editions": [
     {
       "number": "001",
@@ -159,6 +159,550 @@
           "scope": "tema"
         }
       ]
+    },
+    {
+      "number": "003",
+      "date": "2026-11-11",
+      "status": "roteiro aprovado; publicação não verificada nesta auditoria",
+      "scriptUrl": "https://docs.google.com/document/d/1lk1tbbfQepJEIBDAj5r7tkaJqT1Gd-ZIhdKMhj4IXvQ/edit",
+      "videoUrl": null,
+      "recordBasis": "roteiro integral aprovado no Drive, não conferido com vídeo",
+      "topics": [
+        {
+          "title": "BYD: terceiro turno e contratações em Camaçari",
+          "terms": [
+            "byd",
+            "camacari",
+            "atto 2",
+            "terceiro turno"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Ampliação do terceiro turno desde 09/11, demanda informada pela fabricante e logística industrial",
+          "eventDate": "2026-11-09",
+          "tier": "principal",
+          "secondaryEntities": [
+            "Atto 2"
+          ],
+          "sourceName": "BYD / Jornal Correio, conforme roteiro"
+        },
+        {
+          "title": "Fratellino: delivery proposto com um funcionário",
+          "terms": [
+            "fratellino",
+            "delivery com um funcionario"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Operação de loja com preparo deslocado para etapas anteriores; afirmações da rede ainda a observar",
+          "eventDate": "2026-11-10",
+          "tier": "principal",
+          "sourceName": "Fratellino, conforme roteiro"
+        },
+        {
+          "title": "BRB: ação contra ex-administradores ligada ao Banco Master",
+          "terms": [
+            "brb",
+            "banco de brasilia",
+            "banco master"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Ajuizamento de ação de responsabilidade após aprovação anterior dos acionistas",
+          "eventDate": "2026-11-10",
+          "tier": "principal",
+          "secondaryEntities": [
+            "Banco Master",
+            "Polícia Federal"
+          ],
+          "sourceName": "BRB, conforme roteiro"
+        },
+        {
+          "title": "Crise bancária no Paraguai: Altenburg e Lupo",
+          "terms": [
+            "paraguai",
+            "ueno bank",
+            "altenburg",
+            "lupo"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Efeitos distintos do problema Ueno Bank sobre pagamentos de funcionários e operações de empresas brasileiras",
+          "eventDate": null,
+          "tier": "principal",
+          "secondaryEntities": [
+            "Ueno Bank",
+            "Altenburg",
+            "Lupo",
+            "Câmara de Comércio Brasil-Paraguai"
+          ],
+          "sourceName": "NeoFeed, conforme roteiro"
+        },
+        {
+          "title": "Fleury e Atlântica/Bradsaúde: FleuryOnco",
+          "terms": [
+            "fleury",
+            "atlantica hospitais",
+            "bradsaude",
+            "fleuryonco",
+            "oncoclinicas"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Criação anunciada de parceria com clínicas previstas, não unidades todas já inauguradas",
+          "eventDate": "2026-11-10",
+          "tier": "principal",
+          "secondaryEntities": [
+            "Atlântica Hospitais",
+            "Oncoclínicas"
+          ],
+          "sourceName": "companhias, conforme roteiro"
+        },
+        {
+          "title": "Programa Empresa Rosa: projeto aprovado no Senado",
+          "terms": [
+            "empresa rosa",
+            "selo rosa"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Projeto aprovado em Senado, aguardando sanção presidencial",
+          "eventDate": "2026-11-10",
+          "tier": "radar",
+          "sourceName": "Senado, conforme roteiro"
+        },
+        {
+          "title": "Negociação fiscal para 2027",
+          "terms": [
+            "pacote fiscal 2027",
+            "ajuste fiscal"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Medidas em negociação no Executivo/Congresso, não lei aprovada",
+          "eventDate": null,
+          "tier": "radar",
+          "sourceName": "negociação governamental relatada no roteiro"
+        }
+      ]
+    },
+    {
+      "number": "004",
+      "date": "2026-11-12",
+      "status": "roteiro aprovado; publicação não verificada nesta auditoria",
+      "scriptUrl": "https://docs.google.com/document/d/19fgxEupUCzmIng1ODnj2uESnLPyROOYCfsEwBAG9NV0/edit",
+      "videoUrl": null,
+      "recordBasis": "roteiro integral aprovado no Drive, não conferido com vídeo",
+      "topics": [
+        {
+          "title": "Banco do Brasil: queda no lucro ajustado e risco do crédito rural",
+          "terms": [
+            "banco do brasil",
+            "credito rural",
+            "agro",
+            "custo do credito"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Balanço 3T26 divulgado em 11/11; pressão de custo do crédito e inadimplência rural",
+          "tier": "principal",
+          "eventDate": "2026-11-11",
+          "sourceName": "Banco do Brasil, conforme roteiro"
+        },
+        {
+          "title": "Azul: prejuízo menor e custo do combustível",
+          "terms": [
+            "azul",
+            "companhia aerea",
+            "combustivel de aviacao"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Balanço trimestral, operação, combustível e seletividade de rotas",
+          "tier": "principal",
+          "eventDate": "2026-11-12",
+          "sourceName": "Azul, conforme roteiro"
+        },
+        {
+          "title": "Concessões rodoviárias: Arco Norte, Agro Central e Dois de Julho",
+          "terms": [
+            "rota arco norte",
+            "rota agro central",
+            "rota dois de julho",
+            "concessoes rodoviarias"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Leilões e investimentos previstos, não obras concluídas",
+          "tier": "principal",
+          "eventDate": "2026-11-12",
+          "secondaryEntities": [
+            "Rota Arco Norte",
+            "Rota Agro Central",
+            "Rota Dois de Julho"
+          ],
+          "sourceName": "NeoFeed / concessões, conforme roteiro"
+        },
+        {
+          "title": "FSB Holding: ARK e fundo de filmes",
+          "terms": [
+            "fsb holding",
+            "ark entertainment",
+            "funcine",
+            "carmen miranda"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Fundo com meta de captação para audiovisual e projeto Carmen Miranda",
+          "tier": "principal",
+          "eventDate": null,
+          "secondaryEntities": [
+            "ARK Entertainment",
+            "Carmen Miranda"
+          ],
+          "sourceName": "NeoFeed, conforme roteiro"
+        },
+        {
+          "title": "Petrobras: planejamento de ampliação do refino de diesel",
+          "terms": [
+            "petrobras",
+            "refino de diesel",
+            "capacidade de refino"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Projetos e previsão de aumento de capacidade; não confundir com queda no preço final",
+          "tier": "radar",
+          "eventDate": null,
+          "sourceName": "Petrobras, conforme roteiro"
+        }
+      ]
+    },
+    {
+      "number": "005",
+      "date": "2026-11-13",
+      "status": "roteiro congelado; publicação não verificada nesta auditoria",
+      "scriptUrl": "https://docs.google.com/document/d/1cmwkE1f35T2KoUTfbzvIZ7igY3M_djvK4w_xHTutLDY/edit",
+      "videoUrl": null,
+      "recordBasis": "roteiro congelado no Drive, não conferido com vídeo",
+      "topics": [
+        {
+          "title": "Nvidia: saída de Jensen Huang e sucessão interina",
+          "terms": [
+            "nvidia",
+            "jensen huang",
+            "colette kress",
+            "harvey jones",
+            "sucessao nvidia"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Renúncia divulgada em 12/11 após decisão do conselho de 11/11; sucessão e impacto na liderança",
+          "tier": "principal",
+          "eventDate": "2026-11-11",
+          "people": [
+            "Jensen Huang",
+            "Colette Kress",
+            "Harvey Jones"
+          ],
+          "sourceName": "Nvidia / SEC / Exame, conforme roteiro"
+        },
+        {
+          "title": "Casa da Moeda: julgamento de dispensas de 2018",
+          "terms": [
+            "casa da moeda",
+            "tst",
+            "212 demissoes",
+            "etarismo"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Decisão do TST sobre critério de aposentadoria em demissões de 2018",
+          "tier": "principal",
+          "eventDate": "2026-11-12",
+          "originalEventDate": "2018-04",
+          "sourceName": "TST / Migalhas, conforme roteiro"
+        },
+        {
+          "title": "Petrobras: acordo para comprar participação restante na Logum",
+          "terms": [
+            "petrobras",
+            "logum",
+            "raizen",
+            "copersucar",
+            "uniduto",
+            "etanol"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Acordo de aquisição dos 70% restantes sujeito a aprovação do Cade",
+          "tier": "principal",
+          "eventDate": "2026-11-12",
+          "secondaryEntities": [
+            "Logum",
+            "Raízen Energia",
+            "Copersucar",
+            "Uniduto",
+            "Cade"
+          ],
+          "sourceName": "Petrobras, conforme roteiro"
+        },
+        {
+          "title": "Anvisa: suspensão de lote de mussarela Italy",
+          "terms": [
+            "anvisa",
+            "italy",
+            "mussarela",
+            "listeria",
+            "lote 180926"
+          ],
+          "scope": "empresa/tema",
+          "angle": "Recolhimento restrito ao lote 180926; sem generalização a toda a marca",
+          "tier": "radar",
+          "eventDate": "2026-11-12",
+          "secondaryEntities": [
+            "Agroindústria Santo Anjo"
+          ],
+          "sourceName": "Anvisa, conforme roteiro"
+        }
+      ]
+    },
+    {
+      "number": "006",
+      "date": "2026-11-16",
+      "status": "publicação informada pela responsável; vídeo e metadados não verificados",
+      "recordBasis": "roteiro integral aprovado, não conferido com o vídeo efetivamente veiculado",
+      "editorialStatus": "fechamento documental parcial: publicação declarada; conteúdo gravado ainda não auditado",
+      "researchRunId": "manual-journalism-20261116-115712",
+      "researchCollectedAtLocal": "2026-11-16T08:57:12-03:00",
+      "episodeTitlePrepared": "Cosan negocia ativos, EDP perde geração e JSL faz permuta de R$ 400 milhões | Gestão em Pauta 16/11",
+      "actualVideoTitle": null,
+      "videoUrl": null,
+      "videoPublishedAt": null,
+      "videoDurationSeconds": null,
+      "thumbnailUsed": null,
+      "descriptionUsed": null,
+      "pinnedCommentUsed": null,
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1FuQe5r3D4r_ouuY7sAaS9b-EfdawNhFm",
+      "scriptUrl": "https://docs.google.com/document/d/1smkjRULSHYaUb7Otrv3PLdBPteZhc84bY-Owlf4sHMU/edit",
+      "slidesUrl": "https://docs.google.com/presentation/d/1ueLbUbkIht4uuNXYZ4e6hX5REmCUvcDn3JcmVZM7R18/edit",
+      "captionSourceUrl": "https://drive.google.com/file/d/1cCvAoRo5Y10nq61M2lhkl1K5e3zk4HCR/view",
+      "editorialClosingUrl": "https://docs.google.com/document/d/1ilioa58dhyTPOnNl5PN32IxvEWyBUXe-VeENZ3tneAc/edit",
+      "analytics": {
+        "views": null,
+        "impressions": null,
+        "clickThroughRate": null,
+        "averageViewDurationSeconds": null,
+        "retentionAt30s": null,
+        "observationWindow": null
+      },
+      "analyticsNote": "Não registrar números ou comparar retenção sem dados reais e janelas equivalentes desde publicação.",
+      "topics": [
+        {
+          "title": "Cosan: negociações reportadas de participações em Compass, Rumo e Moove",
+          "terms": [
+            "cosan",
+            "compass",
+            "rumo",
+            "moove",
+            "desinvestimentos cosan"
+          ],
+          "scope": "empresa/tema",
+          "tier": "principal",
+          "eventDate": null,
+          "sourcePublicationDate": "2026-11-16",
+          "priorRelatedEdition": "002",
+          "novelty": "Reportagem de 16/11 amplia tratativas a Compass, Rumo e Moove; distinta de créditos fiscais Raízen/Cosan tratados em 10/11.",
+          "people": [
+            "Mônica Scaramuzzo"
+          ],
+          "secondaryEntities": [
+            "Compass",
+            "Moove",
+            "Rumo",
+            "B3",
+            "CVM"
+          ],
+          "sourceName": "UOL Economia / Mônica Scaramuzzo",
+          "sourceUrl": "https://economia.uol.com.br/colunas/monica-scaramuzzo/2026/11/16/cosan-negocia-fatias-da-compass-moove-e-rumo.htm",
+          "caution": "Negociações atribuídas a fontes jornalísticas; não há confirmação de vendas concluídas.",
+          "followUp": [
+            "acordos vinculantes",
+            "comunicados à CVM",
+            "percentuais, compradores e aprovações"
+          ],
+          "excerptPotential": [
+            "Por que vender participações para reduzir dívidas?"
+          ]
+        },
+        {
+          "title": "EDP: restrições de geração e investimentos em redes",
+          "terms": [
+            "edp",
+            "joao brito martins",
+            "curtailment",
+            "cortes de geracao",
+            "redes eletricas"
+          ],
+          "scope": "empresa/tema",
+          "tier": "principal",
+          "eventDate": null,
+          "sourcePublicationDate": "2026-11-16",
+          "priorRelatedEdition": "002",
+          "novelty": "Entrevista específica com CEO e decisão empresarial sobre investimento, após cobertura do curtailment no Ceará em 10/11.",
+          "people": [
+            "João Brito Martins"
+          ],
+          "secondaryEntities": [
+            "fornecedores de equipamentos eólicos",
+            "distribuidoras em São Paulo e Espírito Santo"
+          ],
+          "sourceName": "UOL Líderes / João Brito Martins",
+          "sourceUrl": "https://economia.uol.com.br/noticias/redacao/2026/11/16/perdemos-20-da-geracao-de-energia-com-cortes-no-sistema-diz-ceo-da-edp.ghtm",
+          "caution": "Mais de 20% é afirmação do executivo, não medição independente; investimento é projeção.",
+          "followUp": [
+            "dados de cortes",
+            "evolução regulatória",
+            "investimentos executados em redes"
+          ],
+          "excerptPotential": [
+            "Energia pronta, mas produção limitada pela rede"
+          ]
+        },
+        {
+          "title": "JSL/Simpar: permuta para concentrar CS Transportes",
+          "terms": [
+            "jsl",
+            "simpar",
+            "cs transportes",
+            "permuta de ativos",
+            "jsl comercio"
+          ],
+          "scope": "empresa/tema",
+          "tier": "principal",
+          "eventDate": "2026-11-13",
+          "sourcePublicationDate": "2026-11-16",
+          "novelty": "Assinatura de contrato em 13/11 para redistribuir operações, caminhões e obrigações no grupo; não é compra à vista.",
+          "secondaryEntities": [
+            "CS Transportes",
+            "JSL Comércio",
+            "Sinal",
+            "poder concedente",
+            "clientes públicos"
+          ],
+          "sourceName": "UOL Economia / comunicado corporativo JSL",
+          "sourceUrl": "https://economia.uol.com.br/noticias/redacao/2026/11/16/jsl-faz-permuta-para-concentrar-operacoes-logisticas-do-grupo.ghtm",
+          "caution": "Valor de firma R$ 400 milhões inclui patrimônio e dívida; operação ainda condicionada.",
+          "followUp": [
+            "anuência de credores e clientes",
+            "consentimento do poder concedente",
+            "fechamento da permuta"
+          ],
+          "excerptPotential": [
+            "R$ 400 milhões em ativos, sem pagamento integral em dinheiro"
+          ]
+        },
+        {
+          "title": "Sequoia: 3T26, saída do B2C e recebíveis sob risco",
+          "terms": [
+            "sequoia",
+            "logistica b2c",
+            "b2b",
+            "recebiveis",
+            "cliente em recuperacao judicial"
+          ],
+          "scope": "empresa/tema",
+          "tier": "principal",
+          "eventDate": "2026-11-13",
+          "secondaryEventDate": "2026-04",
+          "sourcePublicationDate": "2026-11-16",
+          "novelty": "Resultados divulgados em 13/11 evidenciam prejuízo após saída anterior do B2C e recebíveis em negociação.",
+          "secondaryEntities": [
+            "cliente empresarial não identificado em recuperação judicial",
+            "serviços B2B",
+            "transporte de objetos bancários"
+          ],
+          "sourceName": "UOL Economia / indicadores divulgados pela companhia",
+          "sourceUrl": "https://economia.uol.com.br/noticias/redacao/2026/11/16/sequoia-tem-prejuizo-de-r-251-milhoes-no-terceiro-trimestre-de-2026.htm",
+          "caution": "Cliente, e não a Sequoia, entrou em recuperação judicial. R$ 23 milhões em negociação não é perda definitiva.",
+          "followUp": [
+            "balanços seguintes",
+            "recuperação de recebíveis",
+            "geração de caixa"
+          ],
+          "excerptPotential": [
+            "Quando o cliente entra em recuperação, o fornecedor também corre risco"
+          ]
+        },
+        {
+          "title": "Big techs: dívida captada para infraestrutura de inteligência artificial",
+          "terms": [
+            "inteligencia artificial",
+            "big techs",
+            "sao pedro capital",
+            "emissoes de divida",
+            "neofeed"
+          ],
+          "scope": "empresa/tema",
+          "tier": "radar",
+          "eventDate": null,
+          "studyCutoffDate": "2026-11-04",
+          "sourcePublicationDate": "2026-11-16",
+          "novelty": "Levantamento privado sobre US$ 207 bilhões em títulos de dívida para financiar expansão de IA.",
+          "secondaryEntities": [
+            "São Pedro Capital",
+            "NeoFeed",
+            "cinco grandes empresas de tecnologia não nomeadas no roteiro"
+          ],
+          "sourceName": "NeoFeed / São Pedro Capital",
+          "sourceUrl": "https://neofeed.com.br/negocios/a-conta-da-ia-big-techs-emitem-us-207-bilhoes-em-bonds-e-acendem-alerta-no-mercado-de-credito/",
+          "caution": "Montante de títulos é dado de estudo privado, não lucro, prejuízo ou insolvência.",
+          "followUp": [
+            "fluxos de caixa",
+            "retorno de investimentos",
+            "mercado de crédito"
+          ],
+          "excerptPotential": [
+            "Financiamento da IA: dívida não é lucro"
+          ]
+        },
+        {
+          "title": "Reiter Log: teste de caminhão elétrico em rotas longas",
+          "terms": [
+            "reiter log",
+            "mercedes benz",
+            "caminhao eletrico",
+            "autonomia 600 km"
+          ],
+          "scope": "empresa/tema",
+          "tier": "radar",
+          "eventDate": null,
+          "sourcePublicationDate": "2026-11-16",
+          "novelty": "Acompanhamento de teste logístico rodoviário e viabilidade de caminhão elétrico.",
+          "secondaryEntities": [
+            "Mercedes-Benz",
+            "São Paulo",
+            "Paraná",
+            "Rio de Janeiro"
+          ],
+          "sourceName": "Exame / Reiter Log",
+          "sourceUrl": "https://exame.com/negocios/apos-comprar-220-caminhoes-de-uma-vez-dois-irmaos-gauchos-fazem-nova-aposta-em-eletricos/",
+          "caution": "Até 600 km é autonomia anunciada e não desempenho confirmado em todas as rotas.",
+          "followUp": [
+            "resultados dos testes",
+            "recarga",
+            "custo operacional",
+            "eventual ampliação da frota"
+          ],
+          "excerptPotential": [
+            "O que o teste real revela sobre a autonomia anunciada"
+          ]
+        }
+      ],
+      "engagementTopics": [
+        {
+          "entity": "Cosan",
+          "question": "O que pesa mais quando é necessário escolher qual participação vender?"
+        },
+        {
+          "entity": "EDP",
+          "question": "Quem absorve os custos de capacidade elétrica que não pode operar?"
+        },
+        {
+          "entity": "JSL",
+          "question": "O que importa mais avaliar numa permuta: contratos, dívidas ou continuidade do serviço?"
+        },
+        {
+          "entity": "Sequoia",
+          "question": "Como manter uma operação quando um cliente importante atrasa pagamentos?"
+        }
+      ],
+      "notesForNextCuration": "Usar correspondência de marca, personagens, temas e fatos como alerta comparativo; não descartar automaticamente nova reportagem material. Conferir o vídeo antes de tratar os tópicos planejados como efetivamente veiculados."
     }
   ],
   "policy": "Correspondência por termos e empresa é alerta para comparação de fatos, não prova de que se trata da mesma notícia. Não ocultar automaticamente resultados nem alterar score."

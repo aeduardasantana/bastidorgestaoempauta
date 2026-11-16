@@ -1,29 +1,29 @@
 {
   "updatedAt": "2026-11-16",
   "researchRun": {
-    "method": "curadoria manual multifuente validada; último coletor integral preservado",
+    "method": "apuração manual dirigida de notícias empresariais com publicação verificada em 16/11/2026; sem execução de coleta integral",
     "directEndpoints": 7,
-    "curatedPreserved": 174,
-    "runId": "manual-web-20261116-114513",
-    "generatedAt": "2026-11-16T11:45:13.000Z",
-    "generatedAtLocal": "2026-11-16T08:45:13-03:00",
+    "curatedPreserved": 186,
+    "runId": "manual-journalism-20261116-115712",
+    "generatedAt": "2026-11-16T11:57:12.000Z",
+    "generatedAtLocal": "2026-11-16T08:57:12-03:00",
     "timezone": "America/Sao_Paulo",
     "trigger": "manual-user-explicit",
-    "sourceCommit": "ddc14ef21b73ce8d0c36ed761c0d3de1076d160a",
+    "sourceCommit": "b2a2a0689ee33a083d8862d5eea80aba56af3547",
     "newArticles": 12,
     "seenAgain": 0,
-    "preservedOnly": 174,
-    "knownArticles": 380,
+    "preservedOnly": 186,
+    "knownArticles": 392,
     "manualLimited": true,
     "previousCollector": {
       "runId": "gh-43266717823-1",
       "generatedAt": "2026-11-12T17:11:56+00:00"
     },
     "previousResearchRun": {
-      "runId": "manual-web-20261113-133036",
-      "generatedAt": "2026-11-13T13:30:36.092Z"
+      "runId": "manual-web-20261116-114513",
+      "generatedAt": "2026-11-16T11:45:13.000Z"
     },
-    "note": "Atualização manual com 14 pautas finalistas: 12 novas, 2 já cobertas por registros anteriores. Os dados de collection/directCollection permanecem de 12/11; Trends não recoletado."
+    "note": "Correção da cobertura de hoje. Todas as novas entradas trazem data de publicação 16/11, e publishedAt/eventDate separados; 3T26 e acontecimentos prévios não são fatos ocorridos em 16/11."
   },
   "items": [
     {
@@ -804,6 +804,255 @@
           "gh-43060874350-1",
           "gh-43231991193-1",
           "gh-43266717823-1"
+        ]
+      }
+    },
+    {
+      "id": "manual-16nov-jsl-e-simpar-assinam-permuta-para-reunir-operacoes-da-cs-transportes-na-compan",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente em 16/11; divulgação de resultados e alegações de partes identificadas no resumo",
+      "score": 90,
+      "title": "JSL e Simpar assinam permuta para reunir operações da CS Transportes na companhia logística",
+      "source": "UOL Economia / fato relevante da JSL",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T08:30:00-03:00",
+      "eventDate": "2026-11-13",
+      "reportingStatus": "Contrato anunciado em 13/11, condições pendentes; nova cobertura em 16/11",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/jsl-faz-permuta-para-concentrar-operacoes-logisticas-do-grupo.ghtm",
+      "summary": "Reportagem publicada em 16/11 detalha contrato de permuta firmado em 13/11 entre subsidiárias da JSL e Simpar. A operação, paga com ativos, atribui valor de firma de R$ 400 milhões à CS Transportes e depende de consentimentos de credores, clientes e poder concedente, além de cisão parcial. Ainda não é aquisição consumada.",
+      "angle": "Explicar consolidação operacional, integração de equipes, contratos com clientes públicos, governança de grupos e riscos de execução após aprovações.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Mudança operacional ou produtiva",
+        "economicTrigger": "Dinheiro, mercado ou capacidade operacional",
+        "organizationalHypothesis": "Explicar consolidação operacional, integração de equipes, contratos com clientes públicos, governança de grupos e riscos de execução após aprovações.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "Confirmar documento de RI quando houver resultado ou fato relevante"
+        ],
+        "caveat": "Prioridade editorial provisória aplicada à ficha manual. Não substitui a classificação pelo algoritmo existente; fontes primárias adicionais podem ser exigidas antes do roteiro.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "JSL e Simpar assinam permuta para reunir operações da CS Transportes na companhia logística",
+        "source": "UOL Economia / fato relevante da JSL",
+        "date": "2026-11-16",
+        "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/jsl-faz-permuta-para-concentrar-operacoes-logisticas-do-grupo.ghtm"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "matéria distinta publicada em 16/11; data de publicação separada do acontecimento",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-16T11:57:12.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-16T11:57:12.000Z",
+        "lastSeenRunId": "manual-journalism-20261116-115712",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261116-115712"
+        ]
+      }
+    },
+    {
+      "id": "manual-16nov-edp-relata-cortes-de-mais-de-20-de-sua-geracao-potencial-e-redireciona-investi",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente em 16/11; divulgação de resultados e alegações de partes identificadas no resumo",
+      "score": 90,
+      "title": "EDP relata cortes de mais de 20% de sua geração potencial e redireciona investimentos para redes",
+      "source": "UOL Líderes — entrevista com CEO da EDP",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T05:30:00-03:00",
+      "eventDate": "2026-11-16",
+      "reportingStatus": "Declaração de executivo e planos empresariais, não comprovação independente de toda a perda",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/perdemos-20-da-geracao-de-energia-com-cortes-no-sistema-diz-ceo-da-edp.ghtm",
+      "summary": "Em entrevista publicada em 16/11, João Brito Martins, CEO da EDP na América do Sul, afirmou que cortes obrigatórios de geração impediram a produção de mais de 20% da energia potencial do grupo no último ano. A empresa planeja priorizar redes, com cerca de R$ 7 bilhões previstos até 2028 e mais R$ 10 bilhões até 2030 em distribuidoras. Valores são planos futuros, não execução.",
+      "angle": "Investigar perdas de receita, risco de desmobilização de fornecedores, formação de capacidade produtiva, integração de redes e custo de infraestrutura.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Mudança operacional ou produtiva",
+        "economicTrigger": "Dinheiro, mercado ou capacidade operacional",
+        "organizationalHypothesis": "Investigar perdas de receita, risco de desmobilização de fornecedores, formação de capacidade produtiva, integração de redes e custo de infraestrutura.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "Confirmar documento de RI quando houver resultado ou fato relevante"
+        ],
+        "caveat": "Prioridade editorial provisória aplicada à ficha manual. Não substitui a classificação pelo algoritmo existente; fontes primárias adicionais podem ser exigidas antes do roteiro.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "EDP relata cortes de mais de 20% de sua geração potencial e redireciona investimentos para redes",
+        "source": "UOL Líderes — entrevista com CEO da EDP",
+        "date": "2026-11-16",
+        "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/perdemos-20-da-geracao-de-energia-com-cortes-no-sistema-diz-ceo-da-edp.ghtm"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "matéria distinta publicada em 16/11; data de publicação separada do acontecimento",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-16T11:57:12.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-16T11:57:12.000Z",
+        "lastSeenRunId": "manual-journalism-20261116-115712",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261116-115712"
+        ]
+      }
+    },
+    {
+      "id": "manual-16nov-sequoia-divulga-prejuizo-no-3t26-e-reorganizacao-apos-encerramento-da-logistic",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente em 16/11; divulgação de resultados e alegações de partes identificadas no resumo",
+      "score": 90,
+      "title": "Sequoia divulga prejuízo no 3T26 e reorganização após encerramento da logística B2C",
+      "source": "UOL Economia / dados informados pela companhia",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T08:08:00-03:00",
+      "eventDate": "2026-09-30",
+      "reportingStatus": "Divulgação de resultados históricos em 16/11 e reorganização já iniciada",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/sequoia-tem-prejuizo-de-r-251-milhoes-no-terceiro-trimestre-de-2026.htm",
+      "summary": "Balanço do 3T26 divulgado na imprensa em 16/11 mostra prejuízo líquido de R$ 25,1 milhões, dívida líquida de R$ 323,5 milhões e receita de R$ 146,5 milhões. A empresa encerrou logística B2C em abril e concentrou negócios em logística B2B e objetos bancários. Cliente B2B em recuperação judicial afetou recebíveis; fonte ressalva que a reportagem foi automatizada a partir de informações empresariais.",
+      "angle": "Acompanhar efeitos de encerramento de atividade, riscos na carteira de clientes, decisão de portfólio, capital de giro e reorganização de processos.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Redução, reestruturação ou fechamento",
+        "economicTrigger": "Dinheiro, mercado ou capacidade operacional",
+        "organizationalHypothesis": "Acompanhar efeitos de encerramento de atividade, riscos na carteira de clientes, decisão de portfólio, capital de giro e reorganização de processos.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "Confirmar documento de RI quando houver resultado ou fato relevante"
+        ],
+        "caveat": "Prioridade editorial provisória aplicada à ficha manual. Não substitui a classificação pelo algoritmo existente; fontes primárias adicionais podem ser exigidas antes do roteiro.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Sequoia divulga prejuízo no 3T26 e reorganização após encerramento da logística B2C",
+        "source": "UOL Economia / dados informados pela companhia",
+        "date": "2026-11-16",
+        "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/sequoia-tem-prejuizo-de-r-251-milhoes-no-terceiro-trimestre-de-2026.htm"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "matéria distinta publicada em 16/11; data de publicação separada do acontecimento",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-16T11:57:12.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-16T11:57:12.000Z",
+        "lastSeenRunId": "manual-journalism-20261116-115712",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261116-115712"
         ]
       }
     },
@@ -2891,6 +3140,173 @@
       }
     },
     {
+      "id": "manual-16nov-cosan-negocia-vendas-de-participacoes-em-compass-moove-e-rumo-em-reestruturaca",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente em 16/11; divulgação de resultados e alegações de partes identificadas no resumo",
+      "score": 80,
+      "title": "Cosan negocia vendas de participações em Compass, Moove e Rumo em reestruturação financeira",
+      "source": "UOL Economia — Mônica Scaramuzzo",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T05:30:00-03:00",
+      "eventDate": "2026-11-16",
+      "reportingStatus": "Negociação reportada, ainda não concluída",
+      "url": "https://economia.uol.com.br/colunas/monica-scaramuzzo/2026/11/16/cosan-negocia-fatias-da-compass-moove-e-rumo.htm",
+      "summary": "Reportagem de Mônica Scaramuzzo publicada em 16/11 relata que a Cosan conversa com investidores internacionais sobre participações em Compass, Moove e Rumo como parte da reorganização financeira. As tratativas foram atribuídas a fontes da reportagem e não equivalem a anúncios de vendas concluídas.",
+      "angle": "Confrontar desalavancagem, escolha de ativos, efeitos em controle corporativo, estratégia e equipes; buscar fatos relevantes antes de afirmar percentuais fechados.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Fusão, aquisição ou mudança de controle",
+        "economicTrigger": "Dinheiro, mercado ou capacidade operacional",
+        "organizationalHypothesis": "Confrontar desalavancagem, escolha de ativos, efeitos em controle corporativo, estratégia e equipes; buscar fatos relevantes antes de afirmar percentuais fechados.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "Confirmar documento de RI quando houver resultado ou fato relevante"
+        ],
+        "caveat": "Prioridade editorial provisória aplicada à ficha manual. Não substitui a classificação pelo algoritmo existente; fontes primárias adicionais podem ser exigidas antes do roteiro.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Cosan negocia vendas de participações em Compass, Moove e Rumo em reestruturação financeira",
+        "source": "UOL Economia — Mônica Scaramuzzo",
+        "date": "2026-11-16",
+        "url": "https://economia.uol.com.br/colunas/monica-scaramuzzo/2026/11/16/cosan-negocia-fatias-da-compass-moove-e-rumo.htm"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Valor Econômico",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "matéria distinta publicada em 16/11; data de publicação separada do acontecimento",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-16T11:57:12.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-16T11:57:12.000Z",
+        "lastSeenRunId": "manual-journalism-20261116-115712",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261116-115712"
+        ]
+      }
+    },
+    {
+      "id": "manual-16nov-cinco-grandes-empresas-de-tecnologia-captam-us-207-bilhoes-em-titulos-para-fin",
+      "agenda": "IA e gestão",
+      "impact": "Custo e caixa",
+      "scope": "Internacional",
+      "territory": "Estados Unidos e Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente em 16/11; divulgação de resultados e alegações de partes identificadas no resumo",
+      "score": 80,
+      "title": "Cinco grandes empresas de tecnologia captam US$ 207 bilhões em títulos para financiar infraestrutura de IA",
+      "source": "NeoFeed / levantamento São Pedro Capital",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T07:57:00-03:00",
+      "eventDate": "2026-11-04",
+      "reportingStatus": "Estudo privado reportado em 16/11; dados acumulados até 04/11",
+      "url": "https://neofeed.com.br/negocios/a-conta-da-ia-big-techs-emitem-us-207-bilhoes-em-bonds-e-acendem-alerta-no-mercado-de-credito/",
+      "summary": "Levantamento da São Pedro Capital publicado pelo NeoFeed em 16/11 contabiliza US$ 207 bilhões em títulos emitidos por cinco hyperscalers de janeiro a 4 de novembro de 2026, contra US$ 93,2 bilhões em 2025, conforme metodologia da fonte. Alertas de risco dependem de geração de caixa futura e não confirmam inadimplência.",
+      "angle": "Debater capex versus fluxo de caixa, prazo de retorno do investimento, obsolescência tecnológica e concentração de fornecedores de infraestrutura.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Investimento ou movimentação de capital",
+        "economicTrigger": "Dinheiro, mercado ou capacidade operacional",
+        "organizationalHypothesis": "Debater capex versus fluxo de caixa, prazo de retorno do investimento, obsolescência tecnológica e concentração de fornecedores de infraestrutura.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "Confirmar documento de RI quando houver resultado ou fato relevante"
+        ],
+        "caveat": "Prioridade editorial provisória aplicada à ficha manual. Não substitui a classificação pelo algoritmo existente; fontes primárias adicionais podem ser exigidas antes do roteiro.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Cinco grandes empresas de tecnologia captam US$ 207 bilhões em títulos para financiar infraestrutura de IA",
+        "source": "NeoFeed / levantamento São Pedro Capital",
+        "date": "2026-11-16",
+        "url": "https://neofeed.com.br/negocios/a-conta-da-ia-big-techs-emitem-us-207-bilhoes-em-bonds-e-acendem-alerta-no-mercado-de-credito/"
+      },
+      "audience": {
+        "public": "CEOs, indústria, operações, RH, segurança, tecnologia e transformação.",
+        "interest": "Antecipar critérios de teste, impacto sobre funções, capacitação e governança de robôs na manufatura.",
+        "search": "PepsiCo robôs humanoides Brasil; IA na indústria; automação trabalho; manufatura inteligente",
+        "sensation": "Curiosidade e segurança"
+      },
+      "packaging": {
+        "opening": "O Brasil entrou na primeira geração de testes de humanoides de uma multinacional — mas a pergunta de gestão começa antes do robô chegar à linha.",
+        "promise": "Entenda o que precisa ser definido sobre processo, pessoas, segurança e governança.",
+        "thumbnail": "HUMANOIDES NA FÁBRICA",
+        "description": "A declaração da PepsiCo abre uma pauta sobre automação industrial, trabalho e governança no Brasil.",
+        "keywords": "PepsiCo, robôs humanoides, automação industrial, inteligência artificial, trabalho",
+        "hashtags": "#GestaoEmPauta #InteligenciaArtificial #Industria #FuturoDoTrabalho #Governanca"
+      },
+      "use": {
+        "label": "Usar redação própria, citar a fonte e distinguir afirmações da empresa de dados independentes.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "NeoFeed e Bloomberg Línea",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "matéria distinta publicada em 16/11; data de publicação separada do acontecimento",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-16T11:57:12.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-16T11:57:12.000Z",
+        "lastSeenRunId": "manual-journalism-20261116-115712",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261116-115712"
+        ]
+      }
+    },
+    {
       "id": "manual-jensen-huang-discute-possivel-retorno-ao-comando-da-nvidia-segundo-reportagem",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
@@ -4497,6 +4913,172 @@
       }
     },
     {
+      "id": "manual-16nov-reiter-log-inicia-teste-de-caminhao-eletrico-de-longa-autonomia-em-operacao-ro",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Rio Grande do Sul, Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente em 16/11; divulgação de resultados e alegações de partes identificadas no resumo",
+      "score": 70,
+      "title": "Reiter Log inicia teste de caminhão elétrico de longa autonomia em operação rodoviária",
+      "source": "Exame — reportagem de Daniel Giussani",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T08:02:00-03:00",
+      "eventDate": "2026-11-16",
+      "reportingStatus": "Teste de frota anunciado em reportagem, não adoção em toda a operação",
+      "url": "https://exame.com/negocios/apos-comprar-220-caminhoes-de-uma-vez-dois-irmaos-gauchos-fazem-nova-aposta-em-eletricos/",
+      "summary": "Reportagem da Exame em 16/11 informa que a Reiter Log investe em um teste com caminhão elétrico eActros 600 da Mercedes-Benz para avaliar rotas entre São Paulo, Paraná e Rio de Janeiro. O teste segue compra anterior de 220 caminhões a gás; não significa conversão integral da frota a elétricos.",
+      "angle": "Examinar autonomia, planejamento de rotas, custo total de propriedade, infraestrutura de recarga, treinamento de equipes e inovação operacional.",
+      "editorialPotential": {
+        "score": 7,
+        "triagePriority": "Prioridade alta",
+        "event": "Mudança operacional ou produtiva",
+        "economicTrigger": "Dinheiro, mercado ou capacidade operacional",
+        "organizationalHypothesis": "Examinar autonomia, planejamento de rotas, custo total de propriedade, infraestrutura de recarga, treinamento de equipes e inovação operacional.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "Confirmar documento de RI quando houver resultado ou fato relevante"
+        ],
+        "caveat": "Prioridade editorial provisória aplicada à ficha manual. Não substitui a classificação pelo algoritmo existente; fontes primárias adicionais podem ser exigidas antes do roteiro.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Reiter Log inicia teste de caminhão elétrico de longa autonomia em operação rodoviária",
+        "source": "Exame — reportagem de Daniel Giussani",
+        "date": "2026-11-16",
+        "url": "https://exame.com/negocios/apos-comprar-220-caminhoes-de-uma-vez-dois-irmaos-gauchos-fazem-nova-aposta-em-eletricos/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Exame, PEGN e InfoMoney Business",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "matéria distinta publicada em 16/11; data de publicação separada do acontecimento",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-16T11:57:12.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-16T11:57:12.000Z",
+        "lastSeenRunId": "manual-journalism-20261116-115712",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261116-115712"
+        ]
+      }
+    },
+    {
+      "id": "manual-16nov-mitre-realty-aumenta-lucro-no-3t26-mas-mantem-cautela-com-novos-lancamentos",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente em 16/11; divulgação de resultados e alegações de partes identificadas no resumo",
+      "score": 70,
+      "title": "Mitre Realty aumenta lucro no 3T26, mas mantém cautela com novos lançamentos",
+      "source": "UOL Economia / resultados da Mitre Realty",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T08:12:00-03:00",
+      "eventDate": "2026-09-30",
+      "reportingStatus": "Resultado do terceiro trimestre divulgado hoje; decisões de vendas no período passado",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/mitre-realty-lucra-r-157-milhoes-no-terceiro-trimestre-de-2026-alta-de-816.htm",
+      "summary": "A Mitre Realty registrou lucro de R$ 15,7 milhões no 3T26, alta de 81,6% ante um ano antes. Segundo a companhia, não houve lançamentos no trimestre; vendas vieram principalmente de imóveis em estoque, em cenário de juros elevados e cautela dos compradores. Dado trimestral não deve ser apresentado como resultado de novembro.",
+      "angle": "Relacionar disciplina de lançamentos, prazo de decisão dos clientes, gestão de estoque e estrutura de capital no mercado imobiliário.",
+      "editorialPotential": {
+        "score": 7,
+        "triagePriority": "Prioridade alta",
+        "event": "Mudança operacional ou produtiva",
+        "economicTrigger": "Dinheiro, mercado ou capacidade operacional",
+        "organizationalHypothesis": "Relacionar disciplina de lançamentos, prazo de decisão dos clientes, gestão de estoque e estrutura de capital no mercado imobiliário.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "Confirmar documento de RI quando houver resultado ou fato relevante"
+        ],
+        "caveat": "Prioridade editorial provisória aplicada à ficha manual. Não substitui a classificação pelo algoritmo existente; fontes primárias adicionais podem ser exigidas antes do roteiro.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Mitre Realty aumenta lucro no 3T26, mas mantém cautela com novos lançamentos",
+        "source": "UOL Economia / resultados da Mitre Realty",
+        "date": "2026-11-16",
+        "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/mitre-realty-lucra-r-157-milhoes-no-terceiro-trimestre-de-2026-alta-de-816.htm"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "matéria distinta publicada em 16/11; data de publicação separada do acontecimento",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-16T11:57:12.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-16T11:57:12.000Z",
+        "lastSeenRunId": "manual-journalism-20261116-115712",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261116-115712"
+        ]
+      }
+    },
+    {
       "id": "manual-receita-confirma-remissao-futura-de-contribuicoes-previdenciarias-antigas-do-mei",
       "agenda": "Poder e regras",
       "impact": "Risco jurídico/regulatório",
@@ -5636,6 +6218,255 @@
       }
     },
     {
+      "id": "manual-16nov-general-shopping-passa-a-prejuizo-ajustado-de-r-38-9-milhoes-no-3t26",
+      "agenda": "Empresa em Pauta",
+      "impact": "Custo e caixa",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente em 16/11; divulgação de resultados e alegações de partes identificadas no resumo",
+      "score": 60,
+      "title": "General Shopping passa a prejuízo ajustado de R$ 38,9 milhões no 3T26",
+      "source": "UOL Economia / dados da General Shopping",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T08:08:00-03:00",
+      "eventDate": "2026-09-30",
+      "reportingStatus": "Resultado trimestral divulgado em 16/11; não significa pedido de recuperação judicial",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/general-shopping-reverte-lucro-ajustado-e-tem-prejuizo-de-r-389-milhoes-no-terceiro-trimestre.htm",
+      "summary": "General Shopping informou prejuízo líquido ajustado de R$ 38,9 milhões no 3T26, revertendo lucro ajustado de R$ 21,2 milhões, enquanto a receita líquida recuou 18,8%. O grupo reportou estratégia de permuta de ativos imobiliários para equacionar dívidas. Não há notícia de recuperação judicial nessa fonte.",
+      "angle": "Explorar peso de financiamento, gestão de ativos, queda de receita, decisões de liquidez e prioridades operacionais dos shoppings.",
+      "editorialPotential": {
+        "score": 6,
+        "triagePriority": "Prioridade alta",
+        "event": "Crise financeira ou reorganização judicial",
+        "economicTrigger": "Dinheiro, mercado ou capacidade operacional",
+        "organizationalHypothesis": "Explorar peso de financiamento, gestão de ativos, queda de receita, decisões de liquidez e prioridades operacionais dos shoppings.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "Confirmar documento de RI quando houver resultado ou fato relevante"
+        ],
+        "caveat": "Prioridade editorial provisória aplicada à ficha manual. Não substitui a classificação pelo algoritmo existente; fontes primárias adicionais podem ser exigidas antes do roteiro.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "General Shopping passa a prejuízo ajustado de R$ 38,9 milhões no 3T26",
+        "source": "UOL Economia / dados da General Shopping",
+        "date": "2026-11-16",
+        "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/general-shopping-reverte-lucro-ajustado-e-tem-prejuizo-de-r-389-milhoes-no-terceiro-trimestre.htm"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "matéria distinta publicada em 16/11; data de publicação separada do acontecimento",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-16T11:57:12.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-16T11:57:12.000Z",
+        "lastSeenRunId": "manual-journalism-20261116-115712",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261116-115712"
+        ]
+      }
+    },
+    {
+      "id": "manual-16nov-via-sp-serra-reverte-prejuizo-e-divulga-avanco-de-obras-e-aporte-publico",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Estadual",
+      "territory": "São Paulo, Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente em 16/11; divulgação de resultados e alegações de partes identificadas no resumo",
+      "score": 60,
+      "title": "Via SP Serra reverte prejuízo e divulga avanço de obras e aporte público",
+      "source": "UOL Economia / dados da Via SP Serra",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T08:12:00-03:00",
+      "eventDate": "2026-09-30",
+      "reportingStatus": "Balanço de 3T26 publicado hoje; dados de obra até setembro",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/via-sp-serra-reverte-prejuizo-e-lucra-r-611-milhoes-no-terceiro-trimestre.htm",
+      "summary": "Balanço do 3T26 reportado em 16/11 aponta lucro líquido de R$ 61,1 milhões, contra prejuízo de R$ 6,5 milhões no comparativo. A companhia informou avanço físico de 73,21% nas obras até setembro e recebimento de aporte público de R$ 830,6 milhões no trimestre, vinculado à medição de obras.",
+      "angle": "Investigar execução de contrato de concessão, evolução física versus financeira, riscos de obra, capacidade operacional e aportes de poder concedente.",
+      "editorialPotential": {
+        "score": 6,
+        "triagePriority": "Prioridade alta",
+        "event": "Mudança operacional ou produtiva",
+        "economicTrigger": "Dinheiro, mercado ou capacidade operacional",
+        "organizationalHypothesis": "Investigar execução de contrato de concessão, evolução física versus financeira, riscos de obra, capacidade operacional e aportes de poder concedente.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "Confirmar documento de RI quando houver resultado ou fato relevante"
+        ],
+        "caveat": "Prioridade editorial provisória aplicada à ficha manual. Não substitui a classificação pelo algoritmo existente; fontes primárias adicionais podem ser exigidas antes do roteiro.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Via SP Serra reverte prejuízo e divulga avanço de obras e aporte público",
+        "source": "UOL Economia / dados da Via SP Serra",
+        "date": "2026-11-16",
+        "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/via-sp-serra-reverte-prejuizo-e-lucra-r-611-milhoes-no-terceiro-trimestre.htm"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "matéria distinta publicada em 16/11; data de publicação separada do acontecimento",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-16T11:57:12.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-16T11:57:12.000Z",
+        "lastSeenRunId": "manual-journalism-20261116-115712",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261116-115712"
+        ]
+      }
+    },
+    {
+      "id": "manual-16nov-rodovias-das-colinas-registra-lucro-menor-apesar-de-avanco-operacional-no-3t26",
+      "agenda": "Empresa em Pauta",
+      "impact": "Custo e caixa",
+      "scope": "Estadual",
+      "territory": "São Paulo, Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente em 16/11; divulgação de resultados e alegações de partes identificadas no resumo",
+      "score": 60,
+      "title": "Rodovias das Colinas registra lucro menor apesar de avanço operacional no 3T26",
+      "source": "UOL Economia / dados da concessionária",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T08:14:00-03:00",
+      "eventDate": "2026-09-30",
+      "reportingStatus": "Dados de balanço do 3T26 reportados em 16/11",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/rodovias-das-colinas-lucra-r-539-milhoes-no-terceiro-trimestre-queda-de-162.htm",
+      "summary": "Concessionária Rodovias das Colinas divulgou lucro de R$ 53,9 milhões no 3T26, queda de 16,2%, apesar de receita líquida ajustada de R$ 257,9 milhões e Ebitda ajustado de R$ 209,5 milhões. A empresa associa recuo de lucro ao resultado financeiro e ao ajuste de provisão de manutenção.",
+      "angle": "Interpretar diferença entre operação e resultado financeiro, despesas de manutenção, investimentos e equilíbrio econômico dos contratos.",
+      "editorialPotential": {
+        "score": 6,
+        "triagePriority": "Prioridade alta",
+        "event": "Contexto econômico ou empresarial",
+        "economicTrigger": "Dinheiro, mercado ou capacidade operacional",
+        "organizationalHypothesis": "Interpretar diferença entre operação e resultado financeiro, despesas de manutenção, investimentos e equilíbrio econômico dos contratos.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "Confirmar documento de RI quando houver resultado ou fato relevante"
+        ],
+        "caveat": "Prioridade editorial provisória aplicada à ficha manual. Não substitui a classificação pelo algoritmo existente; fontes primárias adicionais podem ser exigidas antes do roteiro.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Rodovias das Colinas registra lucro menor apesar de avanço operacional no 3T26",
+        "source": "UOL Economia / dados da concessionária",
+        "date": "2026-11-16",
+        "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/rodovias-das-colinas-lucra-r-539-milhoes-no-terceiro-trimestre-queda-de-162.htm"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "matéria distinta publicada em 16/11; data de publicação separada do acontecimento",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-16T11:57:12.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-16T11:57:12.000Z",
+        "lastSeenRunId": "manual-journalism-20261116-115712",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261116-115712"
+        ]
+      }
+    },
+    {
       "id": "manual-fusoes-e-aquisicoes-movimentam-r-254-bilhoes-ate-setembro-valor-cresce-16",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
@@ -6372,6 +7203,89 @@
         "recentRunIds": [
           "gh-43231991193-1",
           "gh-43266717823-1"
+        ]
+      }
+    },
+    {
+      "id": "manual-16nov-setor-de-shoppings-altera-composicao-de-lojas-e-amplia-aposta-em-gastronomia",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente em 16/11; divulgação de resultados e alegações de partes identificadas no resumo",
+      "score": 50,
+      "title": "Setor de shoppings altera composição de lojas e amplia aposta em gastronomia",
+      "source": "Exame — Guilherme Gonçalves",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T07:01:00-03:00",
+      "eventDate": "2026-11-16",
+      "reportingStatus": "Análise setorial publicada hoje com acontecimentos passados, não inauguração nova nesta manhã",
+      "url": "https://exame.com/negocios/por-que-o-brasileiro-ama-tanto-ir-ao-shopping-e-o-que-mudou-neste-setor-de-r-2009-bilhoes/",
+      "summary": "Reportagem da Exame publicada em 16/11 aponta mudanças no mix de shoppings, com alimentação ganhando participação diante do varejo de moda e exemplos de ampliações como a do MorumbiShopping realizada em março. O número R$ 200,9 bilhões refere-se ao setor no estudo citado, e não a investimento divulgado hoje.",
+      "angle": "Discutir transformação de portfólio, experiência do consumidor, mix de locatários, ocupação e realocação de investimento em imóveis comerciais.",
+      "editorialPotential": {
+        "score": 5,
+        "triagePriority": "Prioridade média",
+        "event": "Mudança operacional ou produtiva",
+        "economicTrigger": "Dinheiro, mercado ou capacidade operacional",
+        "organizationalHypothesis": "Discutir transformação de portfólio, experiência do consumidor, mix de locatários, ocupação e realocação de investimento em imóveis comerciais.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "Confirmar documento de RI quando houver resultado ou fato relevante"
+        ],
+        "caveat": "Prioridade editorial provisória aplicada à ficha manual. Não substitui a classificação pelo algoritmo existente; fontes primárias adicionais podem ser exigidas antes do roteiro.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Setor de shoppings altera composição de lojas e amplia aposta em gastronomia",
+        "source": "Exame — Guilherme Gonçalves",
+        "date": "2026-11-16",
+        "url": "https://exame.com/negocios/por-que-o-brasileiro-ama-tanto-ir-ao-shopping-e-o-que-mudou-neste-setor-de-r-2009-bilhoes/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Exame, PEGN e InfoMoney Business",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "matéria distinta publicada em 16/11; data de publicação separada do acontecimento",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-16T11:57:12.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-16T11:57:12.000Z",
+        "lastSeenRunId": "manual-journalism-20261116-115712",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261116-115712"
         ]
       }
     },
@@ -7463,6 +8377,89 @@
           "gh-43060874350-1",
           "gh-43231991193-1",
           "gh-43266717823-1"
+        ]
+      }
+    },
+    {
+      "id": "manual-16nov-rodovias-do-tiete-reporta-lucro-de-r-38-8-milhoes-no-terceiro-trimestre",
+      "agenda": "Empresa em Pauta",
+      "impact": "Custo e caixa",
+      "scope": "Estadual",
+      "territory": "São Paulo, Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente em 16/11; divulgação de resultados e alegações de partes identificadas no resumo",
+      "score": 40,
+      "title": "Rodovias do Tietê reporta lucro de R$ 38,8 milhões no terceiro trimestre",
+      "source": "UOL Economia / dados da concessionária",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T08:12:00-03:00",
+      "eventDate": "2026-09-30",
+      "reportingStatus": "Resultado de 3T26 divulgado em notícia de hoje",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/rodovias-do-tiete-lucra-r-388-milhoes-no-terceiro-trimestre.htm",
+      "summary": "Reportagem do UOL publicada em 16/11 registra lucro de R$ 38,8 milhões da concessionária Rodovias do Tietê no terceiro trimestre de 2026. Falta checagem aprofundada do balanço original antes de inferir causas ou consequências operacionais.",
+      "angle": "Confrontar o lucro informado com receita de pedágios, custo de manutenção, investimentos, dívida e prestação de serviço.",
+      "editorialPotential": {
+        "score": 4,
+        "triagePriority": "Prioridade média",
+        "event": "Contexto econômico ou empresarial",
+        "economicTrigger": "Dinheiro, mercado ou capacidade operacional",
+        "organizationalHypothesis": "Confrontar o lucro informado com receita de pedágios, custo de manutenção, investimentos, dívida e prestação de serviço.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "Confirmar documento de RI quando houver resultado ou fato relevante"
+        ],
+        "caveat": "Prioridade editorial provisória aplicada à ficha manual. Não substitui a classificação pelo algoritmo existente; fontes primárias adicionais podem ser exigidas antes do roteiro.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Rodovias do Tietê reporta lucro de R$ 38,8 milhões no terceiro trimestre",
+        "source": "UOL Economia / dados da concessionária",
+        "date": "2026-11-16",
+        "url": "https://economia.uol.com.br/noticias/redacao/2026/11/16/rodovias-do-tiete-lucra-r-388-milhoes-no-terceiro-trimestre.htm"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "matéria distinta publicada em 16/11; data de publicação separada do acontecimento",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-16T11:57:12.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-16T11:57:12.000Z",
+        "lastSeenRunId": "manual-journalism-20261116-115712",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261116-115712"
         ]
       }
     },

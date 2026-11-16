@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T11:45:13.000Z",
+  "updatedAt": "2026-11-16T11:57:12.000Z",
   "runs": [
     {
       "runId": "gh-42907958236-1",
@@ -89,6 +89,19 @@
       "duplicates": 2,
       "discarded": 0,
       "method": "curadoria manual multifuente parcial"
+    },
+    {
+      "runId": "manual-journalism-20261116-115712",
+      "generatedAt": "2026-11-16T11:57:12.000Z",
+      "generatedAtLocal": "2026-11-16T08:57:12-03:00",
+      "timezone": "America/Sao_Paulo",
+      "trigger": "manual-user-explicit",
+      "sourceCommit": "b2a2a0689ee33a083d8862d5eea80aba56af3547",
+      "total": 198,
+      "newArticles": 12,
+      "seenAgain": 0,
+      "preservedOnly": 186,
+      "method": "apuração manual dirigida de notícias publicadas hoje"
     }
   ],
   "articles": {
@@ -5811,6 +5824,174 @@
       "title": "Senado informa implementação progressiva da ampliação da licença-paternidade a partir de janeiro",
       "source": "Agência Senado",
       "publishedDate": "2026-11-13"
+    },
+    "manual-16nov-cosan-negocia-vendas-de-participacoes-em-compass-moove-e-rumo-em-reestruturaca": {
+      "firstSeenAt": "2026-11-16T11:57:12.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:57:12.000Z",
+      "lastSeenRunId": "manual-journalism-20261116-115712",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-journalism-20261116-115712"
+      ],
+      "id": "manual-16nov-cosan-negocia-vendas-de-participacoes-em-compass-moove-e-rumo-em-reestruturaca",
+      "title": "Cosan negocia vendas de participações em Compass, Moove e Rumo em reestruturação financeira",
+      "source": "UOL Economia — Mônica Scaramuzzo",
+      "publishedDate": "2026-11-16"
+    },
+    "manual-16nov-jsl-e-simpar-assinam-permuta-para-reunir-operacoes-da-cs-transportes-na-compan": {
+      "firstSeenAt": "2026-11-16T11:57:12.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:57:12.000Z",
+      "lastSeenRunId": "manual-journalism-20261116-115712",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-journalism-20261116-115712"
+      ],
+      "id": "manual-16nov-jsl-e-simpar-assinam-permuta-para-reunir-operacoes-da-cs-transportes-na-compan",
+      "title": "JSL e Simpar assinam permuta para reunir operações da CS Transportes na companhia logística",
+      "source": "UOL Economia / fato relevante da JSL",
+      "publishedDate": "2026-11-16"
+    },
+    "manual-16nov-edp-relata-cortes-de-mais-de-20-de-sua-geracao-potencial-e-redireciona-investi": {
+      "firstSeenAt": "2026-11-16T11:57:12.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:57:12.000Z",
+      "lastSeenRunId": "manual-journalism-20261116-115712",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-journalism-20261116-115712"
+      ],
+      "id": "manual-16nov-edp-relata-cortes-de-mais-de-20-de-sua-geracao-potencial-e-redireciona-investi",
+      "title": "EDP relata cortes de mais de 20% de sua geração potencial e redireciona investimentos para redes",
+      "source": "UOL Líderes — entrevista com CEO da EDP",
+      "publishedDate": "2026-11-16"
+    },
+    "manual-16nov-sequoia-divulga-prejuizo-no-3t26-e-reorganizacao-apos-encerramento-da-logistic": {
+      "firstSeenAt": "2026-11-16T11:57:12.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:57:12.000Z",
+      "lastSeenRunId": "manual-journalism-20261116-115712",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-journalism-20261116-115712"
+      ],
+      "id": "manual-16nov-sequoia-divulga-prejuizo-no-3t26-e-reorganizacao-apos-encerramento-da-logistic",
+      "title": "Sequoia divulga prejuízo no 3T26 e reorganização após encerramento da logística B2C",
+      "source": "UOL Economia / dados informados pela companhia",
+      "publishedDate": "2026-11-16"
+    },
+    "manual-16nov-cinco-grandes-empresas-de-tecnologia-captam-us-207-bilhoes-em-titulos-para-fin": {
+      "firstSeenAt": "2026-11-16T11:57:12.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:57:12.000Z",
+      "lastSeenRunId": "manual-journalism-20261116-115712",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-journalism-20261116-115712"
+      ],
+      "id": "manual-16nov-cinco-grandes-empresas-de-tecnologia-captam-us-207-bilhoes-em-titulos-para-fin",
+      "title": "Cinco grandes empresas de tecnologia captam US$ 207 bilhões em títulos para financiar infraestrutura de IA",
+      "source": "NeoFeed / levantamento São Pedro Capital",
+      "publishedDate": "2026-11-16"
+    },
+    "manual-16nov-reiter-log-inicia-teste-de-caminhao-eletrico-de-longa-autonomia-em-operacao-ro": {
+      "firstSeenAt": "2026-11-16T11:57:12.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:57:12.000Z",
+      "lastSeenRunId": "manual-journalism-20261116-115712",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-journalism-20261116-115712"
+      ],
+      "id": "manual-16nov-reiter-log-inicia-teste-de-caminhao-eletrico-de-longa-autonomia-em-operacao-ro",
+      "title": "Reiter Log inicia teste de caminhão elétrico de longa autonomia em operação rodoviária",
+      "source": "Exame — reportagem de Daniel Giussani",
+      "publishedDate": "2026-11-16"
+    },
+    "manual-16nov-mitre-realty-aumenta-lucro-no-3t26-mas-mantem-cautela-com-novos-lancamentos": {
+      "firstSeenAt": "2026-11-16T11:57:12.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:57:12.000Z",
+      "lastSeenRunId": "manual-journalism-20261116-115712",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-journalism-20261116-115712"
+      ],
+      "id": "manual-16nov-mitre-realty-aumenta-lucro-no-3t26-mas-mantem-cautela-com-novos-lancamentos",
+      "title": "Mitre Realty aumenta lucro no 3T26, mas mantém cautela com novos lançamentos",
+      "source": "UOL Economia / resultados da Mitre Realty",
+      "publishedDate": "2026-11-16"
+    },
+    "manual-16nov-general-shopping-passa-a-prejuizo-ajustado-de-r-38-9-milhoes-no-3t26": {
+      "firstSeenAt": "2026-11-16T11:57:12.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:57:12.000Z",
+      "lastSeenRunId": "manual-journalism-20261116-115712",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-journalism-20261116-115712"
+      ],
+      "id": "manual-16nov-general-shopping-passa-a-prejuizo-ajustado-de-r-38-9-milhoes-no-3t26",
+      "title": "General Shopping passa a prejuízo ajustado de R$ 38,9 milhões no 3T26",
+      "source": "UOL Economia / dados da General Shopping",
+      "publishedDate": "2026-11-16"
+    },
+    "manual-16nov-via-sp-serra-reverte-prejuizo-e-divulga-avanco-de-obras-e-aporte-publico": {
+      "firstSeenAt": "2026-11-16T11:57:12.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:57:12.000Z",
+      "lastSeenRunId": "manual-journalism-20261116-115712",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-journalism-20261116-115712"
+      ],
+      "id": "manual-16nov-via-sp-serra-reverte-prejuizo-e-divulga-avanco-de-obras-e-aporte-publico",
+      "title": "Via SP Serra reverte prejuízo e divulga avanço de obras e aporte público",
+      "source": "UOL Economia / dados da Via SP Serra",
+      "publishedDate": "2026-11-16"
+    },
+    "manual-16nov-rodovias-das-colinas-registra-lucro-menor-apesar-de-avanco-operacional-no-3t26": {
+      "firstSeenAt": "2026-11-16T11:57:12.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:57:12.000Z",
+      "lastSeenRunId": "manual-journalism-20261116-115712",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-journalism-20261116-115712"
+      ],
+      "id": "manual-16nov-rodovias-das-colinas-registra-lucro-menor-apesar-de-avanco-operacional-no-3t26",
+      "title": "Rodovias das Colinas registra lucro menor apesar de avanço operacional no 3T26",
+      "source": "UOL Economia / dados da concessionária",
+      "publishedDate": "2026-11-16"
+    },
+    "manual-16nov-rodovias-do-tiete-reporta-lucro-de-r-38-8-milhoes-no-terceiro-trimestre": {
+      "firstSeenAt": "2026-11-16T11:57:12.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:57:12.000Z",
+      "lastSeenRunId": "manual-journalism-20261116-115712",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-journalism-20261116-115712"
+      ],
+      "id": "manual-16nov-rodovias-do-tiete-reporta-lucro-de-r-38-8-milhoes-no-terceiro-trimestre",
+      "title": "Rodovias do Tietê reporta lucro de R$ 38,8 milhões no terceiro trimestre",
+      "source": "UOL Economia / dados da concessionária",
+      "publishedDate": "2026-11-16"
+    },
+    "manual-16nov-setor-de-shoppings-altera-composicao-de-lojas-e-amplia-aposta-em-gastronomia": {
+      "firstSeenAt": "2026-11-16T11:57:12.000Z",
+      "legacyFirstSeenDate": null,
+      "lastSeenAt": "2026-11-16T11:57:12.000Z",
+      "lastSeenRunId": "manual-journalism-20261116-115712",
+      "seenCount": 1,
+      "recentRunIds": [
+        "manual-journalism-20261116-115712"
+      ],
+      "id": "manual-16nov-setor-de-shoppings-altera-composicao-de-lojas-e-amplia-aposta-em-gastronomia",
+      "title": "Setor de shoppings altera composição de lojas e amplia aposta em gastronomia",
+      "source": "Exame — Guilherme Gonçalves",
+      "publishedDate": "2026-11-16"
     }
   }
 }

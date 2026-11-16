@@ -168,29 +168,29 @@
     "knownArticles": 361
   },
   "manualSupplement": {
-    "runId": "manual-web-20261116-114513",
-    "generatedAt": "2026-11-16T11:45:13.000Z",
-    "generatedAtLocal": "2026-11-16T08:45:13-03:00",
+    "runId": "manual-journalism-20261116-115712",
+    "generatedAt": "2026-11-16T11:57:12.000Z",
+    "generatedAtLocal": "2026-11-16T08:57:12-03:00",
     "timezone": "America/Sao_Paulo",
     "trigger": "manual-user-explicit",
-    "sourceCommit": "ddc14ef21b73ce8d0c36ed761c0d3de1076d160a",
-    "status": "partial_validated",
+    "status": "partial_validated_today",
     "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
-    "candidatesReviewed": 14,
+    "candidatesReviewed": 12,
     "accepted": 12,
-    "duplicates": 2,
-    "preserved": 174,
+    "duplicates": 0,
+    "preserved": 186,
     "discarded": 0,
+    "withPublicationDateToday": 12,
+    "withoutTime": 0,
     "sourceGroups": [
-      "órgãos oficiais e legislação",
-      "imprensa empresarial e econômica",
-      "fontes setoriais e dados",
-      "imprensa regional",
-      "imprensa internacional"
+      "empresas e RI noticiadas",
+      "imprensa econômica nacional",
+      "imprensa setorial",
+      "entrevista executiva"
     ],
-    "previousManualRunId": "manual-web-20261113-133036",
-    "trendStatus": "não recoletado; data/trends.json mantido como referência histórica",
-    "note": "Dois núcleos encontrados na pesquisa já presentes: comércio varejista de setembro e resultados/estratégia da Espaçolaser. A curadoria manual não equivale ao fluxo automático integral de 126 consultas."
+    "previousManualRunId": "manual-web-20261116-114513",
+    "trendStatus": "não recoletado",
+    "note": "Ampliação de cobertura com publicações de hoje. Não reexecutada integralmente matriz. EventDate e publishedAt preservam distinção temporal."
   },
   "manualSupplementHistory": [
     {
@@ -204,6 +204,31 @@
       "preserved": 167,
       "discarded": 0,
       "note": "Números de collection/directCollection acima referem-se à última coleta integral em 12/11. Reexecução de 13/11 teve sucesso na coleta mas falha ao dar rebase e não foi publicada."
+    },
+    {
+      "runId": "manual-web-20261116-114513",
+      "generatedAt": "2026-11-16T11:45:13.000Z",
+      "generatedAtLocal": "2026-11-16T08:45:13-03:00",
+      "timezone": "America/Sao_Paulo",
+      "trigger": "manual-user-explicit",
+      "sourceCommit": "ddc14ef21b73ce8d0c36ed761c0d3de1076d160a",
+      "status": "partial_validated",
+      "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
+      "candidatesReviewed": 14,
+      "accepted": 12,
+      "duplicates": 2,
+      "preserved": 174,
+      "discarded": 0,
+      "sourceGroups": [
+        "órgãos oficiais e legislação",
+        "imprensa empresarial e econômica",
+        "fontes setoriais e dados",
+        "imprensa regional",
+        "imprensa internacional"
+      ],
+      "previousManualRunId": "manual-web-20261113-133036",
+      "trendStatus": "não recoletado; data/trends.json mantido como referência histórica",
+      "note": "Dois núcleos encontrados na pesquisa já presentes: comércio varejista de setembro e resultados/estratégia da Espaçolaser. A curadoria manual não equivale ao fluxo automático integral de 126 consultas."
     }
   ]
 }

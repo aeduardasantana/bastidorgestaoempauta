@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "researchRun": {
-    "method": "apuração manual dirigida de notícias empresariais com publicação verificada em 16/11/2026; sem execução de coleta integral",
+    "method": "apuração manual dirigida com documentos oficiais, mídia econômica, fontes setoriais e regional; não houve coleta integral da matriz",
     "directEndpoints": 7,
-    "curatedPreserved": 186,
-    "runId": "manual-journalism-20261116-115712",
-    "generatedAt": "2026-11-16T11:57:12.000Z",
-    "generatedAtLocal": "2026-11-16T08:57:12-03:00",
+    "curatedPreserved": 198,
+    "runId": "manual-journalism-20261117-132428",
+    "generatedAt": "2026-11-17T13:24:28.620Z",
+    "generatedAtLocal": "2026-11-17T10:24:28.620-03:00",
     "timezone": "America/Sao_Paulo",
     "trigger": "manual-user-explicit",
     "sourceCommit": "b2a2a0689ee33a083d8862d5eea80aba56af3547",
-    "newArticles": 12,
+    "newArticles": 8,
     "seenAgain": 0,
-    "preservedOnly": 186,
-    "knownArticles": 392,
+    "preservedOnly": 198,
+    "knownArticles": 198,
     "manualLimited": true,
     "previousCollector": {
       "runId": "gh-43266717823-1",
@@ -23,7 +23,8 @@
       "runId": "manual-web-20261116-114513",
       "generatedAt": "2026-11-16T11:45:13.000Z"
     },
-    "note": "Correção da cobertura de hoje. Todas as novas entradas trazem data de publicação 16/11, e publishedAt/eventDate separados; 3T26 e acontecimentos prévios não são fatos ocorridos em 16/11."
+    "note": "Correção da cobertura de hoje. Todas as novas entradas trazem data de publicação 16/11, e publishedAt/eventDate separados; 3T26 e acontecimentos prévios não são fatos ocorridos em 16/11.",
+    "coverageCutoffLocal": "2026-11-17T10:21:00-03:00"
   },
   "items": [
     {
@@ -1053,6 +1054,95 @@
         "seenCount": 1,
         "recentRunIds": [
           "manual-journalism-20261116-115712"
+        ]
+      }
+    },
+    {
+      "id": "manual-17nov-cni",
+      "agenda": "Empresa em Pauta",
+      "impact": "Custo e caixa",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Fonte institucional",
+      "sourceType": "Fonte consultada diretamente na curadoria de 17/11; ver reportingStatus",
+      "score": 90,
+      "title": "CNI mapeia entre R$ 31 bilhões e R$ 90,7 bilhões ligados à economia circular",
+      "source": "CNI — relatório setorial",
+      "date": "2026-11-14",
+      "eventDate": "2026-11-14",
+      "reportingStatus": "Estudo divulgado em 14/11; não equivale a novos aportes ou desembolsos de novembro.",
+      "url": "https://imprensa.portaldaindustria.com.br/posicionamentos/estudo-da-cni-revela-mercado-de-r-907-bilhoes-em-economia-circular/",
+      "summary": "Levantamento da CNI estima de R$ 31 bi a R$ 90,7 bi em operações de finanças sustentáveis destinadas à economia circular. Os valores representam faixa mapeada e não novos investimentos realizados em novembro.",
+      "angle": "Avaliar acesso a capital verde, retorno operacional, processos produtivos e fornecedores.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Mudança operacional ou produtiva",
+        "economicTrigger": "Operação e capacidade",
+        "organizationalHypothesis": "Investigar processo, logística, capacidade, recursos, liderança e efeitos sobre o trabalho.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            "bilhoes"
+          ],
+          "operations": [
+            "operacoes"
+          ]
+        },
+        "businessContext": false
+      },
+      "origin": {
+        "found": true,
+        "title": "CNI mapeia entre R$ 31 bilhões e R$ 90,7 bilhões ligados à economia circular",
+        "source": "CNI — relatório setorial",
+        "date": "2026-11-14",
+        "url": "https://imprensa.portaldaindustria.com.br/posicionamentos/estudo-da-cni-revela-mercado-de-r-907-bilhoes-em-economia-circular/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "CNI, Fecomércio e associações setoriais",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "publicação verificada em apuração manual, não duplicada no conjunto anterior",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-17T13:24:28.620Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-17T13:24:28.620Z",
+        "lastSeenRunId": "manual-journalism-20261117-132428",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261117-132428"
         ]
       }
     },
@@ -3140,6 +3230,97 @@
       }
     },
     {
+      "id": "manual-17nov-pivot",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente na curadoria de 17/11; ver reportingStatus",
+      "score": 80,
+      "title": "São Pedro Capital compra participação minoritária na Pivot e incorpora Ricardo Cesar ao conselho",
+      "source": "NeoFeed",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T07:54:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Aquisição minoritária anunciada; valor não divulgado; Paula Nadal permanece CEO.",
+      "url": "https://neofeed.com.br/negocios/sao-pedro-capital-entra-em-rp-com-compra-de-fatia-da-pivot-e-coloca-ricardo-cesar-como-chairman/",
+      "summary": "Segundo entrevista do NeoFeed, a São Pedro Capital anunciou aquisição minoritária da Pivot em 17/11, sem revelar valor. Ricardo Cesar terá posição no conselho executivo. A eficiência por IA é expectativa dos envolvidos, não resultado medido.",
+      "angle": "Investigar redesenho de cargos por IA, governança, integração de sócios e retenção de talentos.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Fusão, aquisição ou mudança de controle",
+        "economicTrigger": "Capital e estratégia",
+        "organizationalHypothesis": "Investigar mudança de controle, integração, governança, sobreposição de papéis, autonomia e retenção.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": false,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "control": [
+            "aquisicao",
+            "incorpora"
+          ],
+          "technology": [
+            " ia "
+          ]
+        },
+        "businessContext": false
+      },
+      "origin": {
+        "found": true,
+        "title": "São Pedro Capital compra participação minoritária na Pivot e incorpora Ricardo Cesar ao conselho",
+        "source": "NeoFeed",
+        "date": "2026-11-17",
+        "url": "https://neofeed.com.br/negocios/sao-pedro-capital-entra-em-rp-com-compra-de-fatia-da-pivot-e-coloca-ricardo-cesar-como-chairman/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "NeoFeed e Bloomberg Línea",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "publicação verificada em apuração manual, não duplicada no conjunto anterior",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-17T13:24:28.620Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-17T13:24:28.620Z",
+        "lastSeenRunId": "manual-journalism-20261117-132428",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261117-132428"
+        ]
+      }
+    },
+    {
       "id": "manual-16nov-cosan-negocia-vendas-de-participacoes-em-compass-moove-e-rumo-em-reestruturaca",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
@@ -3303,6 +3484,186 @@
         "seenCount": 1,
         "recentRunIds": [
           "manual-journalism-20261116-115712"
+        ]
+      }
+    },
+    {
+      "id": "manual-17nov-receita",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte pública primária consultada em 17/11",
+      "score": 80,
+      "title": "Receita abre código da calculadora tributária para uso por sistemas empresariais",
+      "source": "Receita Federal",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T12:40:00-03:00",
+      "eventDate": "2026-11-13",
+      "reportingStatus": "Portaria Cotec 342 de 12/11 publicada em 13/11; divulgação em 16/11.",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+      "summary": "A Receita Federal informou a publicação aberta do código-fonte da Calculadora de Tributos no GitHub sob licença MIT. A iniciativa busca facilitar integração com sistemas de empresas, sem dispensar ajustes, testes nem acompanhamento jurídico e contábil.",
+      "angle": "Investigar integração técnica com ERP, rastreabilidade dos cálculos, custo e governança das versões.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Regulação com efeito empresarial",
+        "economicTrigger": "Regra ou política pública",
+        "organizationalHypothesis": "Confirmar setores atingidos, obrigação, prazo e mudanças necessárias em processos, custos ou trabalho.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "decisão empresarial",
+          "mudança organizacional",
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "regulation": [
+            "licenca"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Receita abre código da calculadora tributária para uso por sistemas empresariais",
+        "source": "Receita Federal",
+        "date": "2026-11-16",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Banco Central, Receita, Cade e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "publicação verificada em apuração manual, não duplicada no conjunto anterior",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-17T13:24:28.620Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-17T13:24:28.620Z",
+        "lastSeenRunId": "manual-journalism-20261117-132428",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261117-132428"
+        ]
+      }
+    },
+    {
+      "id": "manual-17nov-goiania",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Municipal",
+      "territory": "Goiânia (GO)",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente na curadoria de 17/11; ver reportingStatus",
+      "score": 80,
+      "title": "Goiânia anuncia missão à Europa para contatos comerciais e preparação do MotoGP",
+      "source": "Prefeitura de Goiânia / Jornal Opção",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T17:24:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Viagem prevista entre 17 e 24/11, reuniões ainda sem investimento ou contrato concluído.",
+      "url": "https://www.jornalopcao.com.br/ultimas-noticias/mabel-viaja-a-europa-com-empresarios-e-deputados-para-buscar-investimentos-e-conhecer-operacao-do-motogp-889254/",
+      "summary": "Prefeitura de Goiânia anunciou missão com representantes empresariais e públicos à Bélgica e a Portugal. A agenda pretende prospectar conexões comerciais e estudar operação de evento esportivo; compromissos futuros não são negócios fechados.",
+      "angle": "Acompanhar mobilidade, hotelaria, serviços, contratações e fornecedores do evento, distinguindo plano de resultado.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Grandes eventos e ecossistemas temporários",
+        "economicTrigger": "Operação e ecossistema econômico",
+        "organizationalHypothesis": "Investigar trabalhadores, fornecedores, infraestrutura, turismo, operação e impacto econômico.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "decisão empresarial",
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "operations": [
+            "operacao"
+          ],
+          "events": [
+            "evento esportivo"
+          ]
+        },
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Goiânia anuncia missão à Europa para contatos comerciais e preparação do MotoGP",
+        "source": "Prefeitura de Goiânia / Jornal Opção",
+        "date": "2026-11-16",
+        "url": "https://www.jornalopcao.com.br/ultimas-noticias/mabel-viaja-a-europa-com-empresarios-e-deputados-para-buscar-investimentos-e-conhecer-operacao-do-motogp-889254/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "O Popular e imprensa do Centro-Oeste",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "publicação verificada em apuração manual, não duplicada no conjunto anterior",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-17T13:24:28.620Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-17T13:24:28.620Z",
+        "lastSeenRunId": "manual-journalism-20261117-132428",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261117-132428"
         ]
       }
     },
@@ -6467,6 +6828,94 @@
       }
     },
     {
+      "id": "manual-17nov-concorrencia",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte pública primária consultada em 17/11",
+      "score": 60,
+      "title": "Fazenda estima benefício potencial de até R$ 50,6 bilhões com concorrência entre plataformas digitais",
+      "source": "Ministério da Fazenda — SRE",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T18:38:00-03:00",
+      "eventDate": "2026-11-16",
+      "reportingStatus": "Projeção condicionada ao PL 4.675/2025, ainda em tramitação; valores não realizados.",
+      "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/maior-concorrencia-em-plataformas-digitais-pode-gerar-mais-de-r-15-bilhoes-por-ano-em-beneficios-para-consumidores-e-empresas-brasileiras",
+      "summary": "Estudo da Secretaria de Reformas Econômicas divulgado em 16/11 estima benefícios potenciais de R$ 15,3 bi a R$ 50,6 bi por ano com maior concorrência digital. O PL 4.675/2025 ainda tramita; são cenários, não reduções efetivas de preços.",
+      "angle": "Examinar custos de plataformas, competição, dependência de marketplaces, publicidade e pagamentos.",
+      "editorialPotential": {
+        "score": 6,
+        "triagePriority": "Prioridade alta",
+        "event": "Investimento ou movimentação de capital",
+        "economicTrigger": "Capital e estratégia",
+        "organizationalHypothesis": "Confirmar quem investe, finalidade, escala e consequência empresarial concreta.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "mudança organizacional",
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            "bilhoes"
+          ]
+        },
+        "businessContext": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Fazenda estima benefício potencial de até R$ 50,6 bilhões com concorrência entre plataformas digitais",
+        "source": "Ministério da Fazenda — SRE",
+        "date": "2026-11-16",
+        "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/maior-concorrencia-em-plataformas-digitais-pode-gerar-mais-de-r-15-bilhoes-por-ano-em-beneficios-para-consumidores-e-empresas-brasileiras"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Banco Central, Receita, Cade e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "publicação verificada em apuração manual, não duplicada no conjunto anterior",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-17T13:24:28.620Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-17T13:24:28.620Z",
+        "lastSeenRunId": "manual-journalism-20261117-132428",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261117-132428"
+        ]
+      }
+    },
+    {
       "id": "manual-fusoes-e-aquisicoes-movimentam-r-254-bilhoes-ate-setembro-valor-cresce-16",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
@@ -7207,6 +7656,94 @@
       }
     },
     {
+      "id": "manual-17nov-glp",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente na curadoria de 17/11; ver reportingStatus",
+      "score": 50,
+      "title": "GLP: nova apuração detalha disputa sobre fracionamento após diretrizes do CNPE",
+      "source": "NeoFeed / MME",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T07:55:00-03:00",
+      "eventDate": "2026-11-06",
+      "reportingStatus": "MME confirmou diretrizes em 06/11; consequências adicionais de reportagem ainda exigem texto integral publicado.",
+      "url": "https://neofeed.com.br/negocios/exclusivo-governo-barra-fracionamento-do-gas-de-cozinha-em-novo-capitulo-da-guerra-do-botijao/",
+      "summary": "MME confirmou medidas de segurança, rastreabilidade e comercialização de recipientes de GLP aprovadas pelo CNPE. NeoFeed noticiou em 17/11 disputa sobre fracionamento e investimentos. Não se deve tratar estimativas de aporte nem texto ainda não publicado como obrigação consolidada.",
+      "angle": "Confrontar texto oficial da norma, argumentos de distribuidoras e revendas e investimentos condicionais.",
+      "editorialPotential": {
+        "score": 5,
+        "triagePriority": "Prioridade média",
+        "event": "Investimento ou movimentação de capital",
+        "economicTrigger": "Capital e estratégia",
+        "organizationalHypothesis": "Confirmar quem investe, finalidade, escala e consequência empresarial concreta.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "mudança organizacional",
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            "aporte"
+          ]
+        },
+        "businessContext": false
+      },
+      "origin": {
+        "found": true,
+        "title": "GLP: nova apuração detalha disputa sobre fracionamento após diretrizes do CNPE",
+        "source": "NeoFeed / MME",
+        "date": "2026-11-17",
+        "url": "https://neofeed.com.br/negocios/exclusivo-governo-barra-fracionamento-do-gas-de-cozinha-em-novo-capitulo-da-guerra-do-botijao/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "NeoFeed e Bloomberg Línea",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "publicação verificada em apuração manual, não duplicada no conjunto anterior",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-17T13:24:28.620Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-17T13:24:28.620Z",
+        "lastSeenRunId": "manual-journalism-20261117-132428",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261117-132428"
+        ]
+      }
+    },
+    {
       "id": "manual-16nov-setor-de-shoppings-altera-composicao-de-lojas-e-amplia-aposta-em-gastronomia",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
@@ -7286,6 +7823,94 @@
         "seenCount": 1,
         "recentRunIds": [
           "manual-journalism-20261116-115712"
+        ]
+      }
+    },
+    {
+      "id": "manual-17nov-comercio",
+      "agenda": "Mercado e trabalho",
+      "impact": "Mercado e reputação",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte pública primária consultada em 17/11",
+      "score": 50,
+      "title": "MDIC registra US$ 14,2 bilhões na corrente de comércio da segunda semana de novembro",
+      "source": "MDIC / Secex",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T15:03:00-03:00",
+      "eventDate": "2026-11-15",
+      "reportingStatus": "Estatística semanal preliminar; não é fechamento mensal.",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/corrente-de-comercio-brasileira-ultrapassa-us-14-bi-na-segunda-semana-de-novembro/",
+      "summary": "A Secex registrou exportações de US$ 8,09 bi e importações de US$ 6,1 bi na segunda semana de novembro, totalizando corrente de US$ 14,2 bi. Dado parcial divulgado pelo MDIC em 16/11.",
+      "angle": "Pesquisar impactos setoriais de exportação e importação, logística, fornecedores e câmbio.",
+      "editorialPotential": {
+        "score": 5,
+        "triagePriority": "Prioridade média",
+        "event": "Investimento ou movimentação de capital",
+        "economicTrigger": "Capital e estratégia",
+        "organizationalHypothesis": "Confirmar quem investe, finalidade, escala e consequência empresarial concreta.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "mudança organizacional",
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {
+          "investment": [
+            "bilhoes"
+          ]
+        },
+        "businessContext": false
+      },
+      "origin": {
+        "found": true,
+        "title": "MDIC registra US$ 14,2 bilhões na corrente de comércio da segunda semana de novembro",
+        "source": "MDIC / Secex",
+        "date": "2026-11-16",
+        "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/corrente-de-comercio-brasileira-ultrapassa-us-14-bi-na-segunda-semana-de-novembro/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Itamaraty e MDIC",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "publicação verificada em apuração manual, não duplicada no conjunto anterior",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-17T13:24:28.620Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-17T13:24:28.620Z",
+        "lastSeenRunId": "manual-journalism-20261117-132428",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261117-132428"
         ]
       }
     },
@@ -12382,6 +13007,92 @@
         "seenCount": 1,
         "recentRunIds": [
           "gh-43266717823-1"
+        ]
+      }
+    },
+    {
+      "id": "manual-17nov-cbs",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Fonte consultada diretamente na curadoria de 17/11; ver reportingStatus",
+      "score": 0,
+      "title": "Senado discute alíquota de referência de 11,3468% da CBS questionada pela indústria",
+      "source": "Agência Brasil / Senado",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T07:15:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Audiência prevista para 10h, sem resultado confirmado; alíquota de referência ainda não é definitiva.",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-explica-no-senado-aliquota-de-113-da-cbs",
+      "summary": "Audiência na Comissão de Assuntos Econômicos foi anunciada para avaliar referência de 11,3468% da CBS recomendada pelo TCU. Indústria e OAB questionam metodologia e cronograma. Alíquota final e efeitos dependem de decisão oficial posterior.",
+      "angle": "Verificar repercussões para parametrização tributária, precificação, ERP e contratos.",
+      "editorialPotential": {
+        "score": 0,
+        "triagePriority": "Prioridade muito baixa",
+        "event": "Contexto econômico ou empresarial",
+        "economicTrigger": "Dinheiro, mercado ou reputação",
+        "organizationalHypothesis": "Confirmar se o título aponta decisão, mudança operacional, consequência empresarial ou efeito humano.",
+        "questions": [
+          "Qual decisão concreta foi tomada?",
+          "O que muda no trabalho, nos papéis, nas metas ou nos recursos?",
+          "Quem absorve a consequência e qual responsabilidade cabe à liderança?"
+        ],
+        "missing": [
+          "fato concreto no título",
+          "decisão empresarial",
+          "mudança organizacional",
+          "consequência humana"
+        ],
+        "caveat": "Classificação preliminar baseada somente no título, fonte e metadados. Não confirma o conteúdo da matéria nem determina seu uso editorial.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": false,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Senado discute alíquota de referência de 11,3468% da CBS questionada pela indústria",
+        "source": "Agência Brasil / Senado",
+        "date": "2026-11-17",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-explica-no-senado-aliquota-de-113-da-cbs"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Noticiar com redação própria e citar a fonte.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Senado e Câmara",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "publicação verificada em apuração manual, não duplicada no conjunto anterior",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-17T13:24:28.620Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-17T13:24:28.620Z",
+        "lastSeenRunId": "manual-journalism-20261117-132428",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261117-132428"
         ]
       }
     },

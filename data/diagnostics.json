@@ -168,29 +168,28 @@
     "knownArticles": 361
   },
   "manualSupplement": {
-    "runId": "manual-journalism-20261116-115712",
-    "generatedAt": "2026-11-16T11:57:12.000Z",
-    "generatedAtLocal": "2026-11-16T08:57:12-03:00",
+    "runId": "manual-journalism-20261117-132428",
+    "generatedAt": "2026-11-17T13:24:28.620Z",
+    "generatedAtLocal": "2026-11-17T10:24:28.620-03:00",
     "timezone": "America/Sao_Paulo",
     "trigger": "manual-user-explicit",
-    "status": "partial_validated_today",
+    "status": "partial_manual_editorial",
+    "coverageCutoffLocal": "2026-11-17T10:21:00-03:00",
     "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
-    "candidatesReviewed": 12,
-    "accepted": 12,
+    "candidatesReviewed": 11,
+    "accepted": 8,
     "duplicates": 0,
-    "preserved": 186,
-    "discarded": 0,
-    "withPublicationDateToday": 12,
-    "withoutTime": 0,
+    "discarded": 3,
+    "preserved": 198,
+    "previousManualRunId": "manual-journalism-20261116-115712",
     "sourceGroups": [
-      "empresas e RI noticiadas",
-      "imprensa econômica nacional",
-      "imprensa setorial",
-      "entrevista executiva"
+      "órgãos federais e documentos oficiais",
+      "imprensa de negócios e econômica",
+      "imprensa e entidades setoriais",
+      "cobertura regional e município"
     ],
-    "previousManualRunId": "manual-web-20261116-114513",
-    "trendStatus": "não recoletado",
-    "note": "Ampliação de cobertura com publicações de hoje. Não reexecutada integralmente matriz. EventDate e publishedAt preservam distinção temporal."
+    "trendStatus": "não recoletado; data/trends.json mantém data de 12/11",
+    "note": "Coleta manual seletiva, não integral. Itens antigos não reclassificados. Descartados de baixa relevância ou indicadores antigos republicados. Distinguir decisão, norma, estimativa e cobertura não oficial."
   },
   "manualSupplementHistory": [
     {
@@ -229,6 +228,31 @@
       "previousManualRunId": "manual-web-20261113-133036",
       "trendStatus": "não recoletado; data/trends.json mantido como referência histórica",
       "note": "Dois núcleos encontrados na pesquisa já presentes: comércio varejista de setembro e resultados/estratégia da Espaçolaser. A curadoria manual não equivale ao fluxo automático integral de 126 consultas."
+    },
+    {
+      "runId": "manual-journalism-20261116-115712",
+      "generatedAt": "2026-11-16T11:57:12.000Z",
+      "generatedAtLocal": "2026-11-16T08:57:12-03:00",
+      "timezone": "America/Sao_Paulo",
+      "trigger": "manual-user-explicit",
+      "status": "partial_validated_today",
+      "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
+      "candidatesReviewed": 12,
+      "accepted": 12,
+      "duplicates": 0,
+      "preserved": 186,
+      "discarded": 0,
+      "withPublicationDateToday": 12,
+      "withoutTime": 0,
+      "sourceGroups": [
+        "empresas e RI noticiadas",
+        "imprensa econômica nacional",
+        "imprensa setorial",
+        "entrevista executiva"
+      ],
+      "previousManualRunId": "manual-web-20261116-114513",
+      "trendStatus": "não recoletado",
+      "note": "Ampliação de cobertura com publicações de hoje. Não reexecutada integralmente matriz. EventDate e publishedAt preservam distinção temporal."
     }
   ]
 }

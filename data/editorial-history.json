@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16",
-  "basis": "001–002 preservadas da base anterior; 003–005 catalogadas dos roteiros aprovados no Drive, publicação não verificada nesta auditoria; 006 publicação informada pela responsável, dados de vídeo não acessíveis. Conteúdos 003–006 são, até comparação com o vídeo, baseados nos roteiros e não em transcrição da gravação.",
+  "updatedAt": "2026-11-17",
+  "basis": "001–002 preservadas da base anterior; 003–005 catalogadas dos roteiros aprovados no Drive, publicação não verificada nesta auditoria; 006 publicação informada pela responsável, dados de vídeo não acessíveis. Conteúdos 003–006 são, até comparação com o vídeo, baseados nos roteiros e não em transcrição da gravação. 007: publicação informada em 17/11, vídeo/URL e conteúdo final não verificados; registro baseado no roteiro congelado e na pasta de produção da edição.",
   "editions": [
     {
       "number": "001",
@@ -703,6 +703,315 @@
         }
       ],
       "notesForNextCuration": "Usar correspondência de marca, personagens, temas e fatos como alerta comparativo; não descartar automaticamente nova reportagem material. Conferir o vídeo antes de tratar os tópicos planejados como efetivamente veiculados."
+    },
+    {
+      "number": "007",
+      "date": "2026-11-17",
+      "status": "publicação informada pela responsável; vídeo, título e dados do YouTube não verificados",
+      "recordBasis": "roteiro integral aprovado no Comando 2; não conferido com vídeo ou transcrição da gravação",
+      "editorialStatus": "fechamento documental parcial: edição declarada publicada; metadados e conteúdo final do vídeo ainda não auditados",
+      "researchRunId": "manual-journalism-20261117-132428",
+      "researchCollectedAtLocal": "2026-11-17T10:24:00-03:00",
+      "episodeTitlePrepared": "Gás de cozinha em disputa, Pivot aposta em IA e Receita abre calculadora | Gestão em Pauta 17/11",
+      "actualVideoTitle": null,
+      "videoUrl": null,
+      "videoPublishedAt": null,
+      "videoDurationSeconds": null,
+      "thumbnailUsed": null,
+      "descriptionUsed": null,
+      "pinnedCommentUsed": null,
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1duDbB93TZ96z5s97gwsLXNZOHpfS3gmh",
+      "scriptUrl": "https://docs.google.com/document/d/1cM_QSDFDeY1fo8Kpw4WHSOkyjnC-asxiqRGFOI8yXK8/edit",
+      "slidesUrl": "https://docs.google.com/presentation/d/1MDwlRDp2DLOUoqmdfuoFk3oeJyKs3NDS9qwsvr7Y0fg/edit",
+      "captionSourceUrl": "https://drive.google.com/file/d/1MycnCHWhJXjApiBfo0V0Kbg4J_LCZ3O_/view",
+      "editorialClosingUrl": "https://docs.google.com/document/d/17jXXdYEnxnRXrhAISl1yCXnO40Ql2bWNddfImo4ZDt0/edit",
+      "scriptWordCount": 1417,
+      "scriptEstimatedDuration": "12–14 minutos; não aferida na gravação",
+      "analytics": {
+        "views": null,
+        "impressions": null,
+        "clickThroughRate": null,
+        "averageViewDurationSeconds": null,
+        "retentionAt30s": null,
+        "observationWindow": null
+      },
+      "analyticsNote": "Sem URL confirmada, gravação auditada, duração ou dados reais de Analytics. Não comparar janelas diferentes ou inferir ganho de retenção por duração.",
+      "topics": [
+        {
+          "title": "GLP: CNPE e disputa da recarga fracionada de gás de cozinha",
+          "terms": [
+            "glp",
+            "gas de cozinha",
+            "botijao",
+            "fracionamento",
+            "recarga fracionada",
+            "cnpe",
+            "sindigas",
+            "abragas",
+            "paygas"
+          ],
+          "scope": "acontecimento",
+          "tier": "principal",
+          "eventDate": "2026-11-06",
+          "sourcePublicationDate": "2026-11-17",
+          "novelty": "Diretrizes aprovadas pelo CNPE em 06/11; NeoFeed publica em 17/11 novos detalhes e posições conflitantes sobre fracionamento. Não confundir data da decisão com a da reportagem.",
+          "people": [],
+          "secondaryEntities": [
+            "Ministério de Minas e Energia",
+            "CNPE",
+            "Sindigás",
+            "Abragás",
+            "PayGas",
+            "distribuidoras de GLP",
+            "revendedores",
+            "consumidores"
+          ],
+          "sourceName": "MME / CNPE; NeoFeed",
+          "sourceUrl": "https://neofeed.com.br/negocios/exclusivo-governo-barra-fracionamento-do-gas-de-cozinha-em-novo-capitulo-da-guerra-do-botijao/",
+          "officialSourceUrl": "https://www.gov.br/mme/pt-br/assuntos/noticias/novembro-26/cnpe-aprova-medidas-para-reforcar-a-seguranca-a-rastreabilidade-e-a-fiscalizacao-do-mercado-de-gas-de-cozinha/",
+          "caution": "Confirmar publicação oficial da alteração normativa. Não tratar diretrizes como proibição já plenamente em vigor. R$ 2 bi e R$ 100 mi são projeções atribuídas, não execução.",
+          "followUp": [
+            "publicação da resolução alteradora e estágio jurídico",
+            "exigências de segurança, lacre e rastreabilidade",
+            "autorização ou vedação fundamentada do fracionamento",
+            "modelos comerciais e custos ao consumidor"
+          ],
+          "engagementQuestion": "Se uma recarga menor fosse autorizada e fiscalizada, em quais situações faria diferença?",
+          "excerptPotential": [
+            "Por que o botijão precisa ser vendido cheio?",
+            "O que muda para as revendas de gás?",
+            "Segurança e concorrência no GLP."
+          ]
+        },
+        {
+          "title": "Pivot: São Pedro Capital anuncia participação minoritária e Ricardo Cesar no conselho",
+          "terms": [
+            "pivot",
+            "pivot comunicacao",
+            "sao pedro capital",
+            "ricardo cesar",
+            "paula nadal",
+            "ideal",
+            "wpp",
+            "inteligencia artificial"
+          ],
+          "scope": "acontecimento",
+          "tier": "principal",
+          "eventDate": "2026-11-17",
+          "sourcePublicationDate": "2026-11-17",
+          "novelty": "Aquisição minoritária anunciada em 17/11 e proposta de reorganizar agência com IA. Diferente de levantamento sobre dívida de big techs atribuído à São Pedro Capital na edição 006.",
+          "priorRelatedEdition": "006",
+          "people": [
+            "Ricardo Cesar",
+            "Paula Nadal"
+          ],
+          "secondaryEntities": [
+            "São Pedro Capital",
+            "Ideal",
+            "WPP",
+            "Simpar",
+            "clientes da Pivot"
+          ],
+          "sourceName": "NeoFeed / Meio & Mensagem",
+          "sourceUrl": "https://neofeed.com.br/negocios/sao-pedro-capital-entra-em-rp-com-compra-de-fatia-da-pivot-e-coloca-ricardo-cesar-como-chairman/",
+          "independentSourceUrl": "https://www.meioemensagem.com.br/comunicacao/sao-pedro-capital-investe-na-pivot-comunicacao",
+          "caution": "Valor não divulgado; quadro de profissionais e clientes atribuído aos envolvidos; produtividade por IA ainda não medida independentemente. Simpar é cliente secundário, não ligação causal com operação JSL da edição 006.",
+          "followUp": [
+            "confirmações societárias e governança",
+            "resultados operacionais e indicadores reais de IA",
+            "retenção e organização de profissionais",
+            "carteira de clientes"
+          ],
+          "engagementQuestion": "Que tarefas podem ser automatizadas sem reduzir a qualidade de um serviço profissional?",
+          "excerptPotential": [
+            "A IA pode alterar a estrutura de uma agência?",
+            "O que significa uma participação minoritária?",
+            "Automação e trabalho especializado na Pivot."
+          ]
+        },
+        {
+          "title": "Receita publica código-fonte da Calculadora de Tributos no GitHub",
+          "terms": [
+            "receita federal",
+            "calculadora de tributos",
+            "codigo-fonte",
+            "github",
+            "cbs",
+            "reforma tributaria",
+            "cotec"
+          ],
+          "scope": "acontecimento",
+          "tier": "principal",
+          "eventDate": "2026-11-13",
+          "regulatoryActDate": "2026-11-12",
+          "sourcePublicationDate": "2026-11-16",
+          "novelty": "Portaria Cotec 342 de 12/11, publicação em 13/11 e divulgação do código em repositório público no GitHub anunciada em 16/11. Não apresentar calculadora como criada somente agora.",
+          "secondaryEntities": [
+            "Receita Federal",
+            "Cotec",
+            "GitHub",
+            "fornecedores de software",
+            "contadores",
+            "empresas que emitem notas fiscais"
+          ],
+          "sourceName": "Receita Federal",
+          "sourceUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+          "caution": "Código aberto não garante conformidade, integração completa nem interpretações corretas em todos os sistemas.",
+          "followUp": [
+            "versões e manuais da calculadora",
+            "integração por fornecedores de software",
+            "testes de operações e notas fiscais",
+            "orientações normativas posteriores"
+          ],
+          "engagementQuestion": "Qual a maior dificuldade para adaptar sistemas de emissão de notas às novas regras?",
+          "excerptPotential": [
+            "A Receita abriu o código. E agora?",
+            "O que sistemas de notas precisam adaptar?",
+            "Código aberto não dispensa conferência contábil."
+          ]
+        },
+        {
+          "title": "Fazenda estima benefícios de maior concorrência em plataformas digitais",
+          "terms": [
+            "ministerio da fazenda",
+            "secretaria de reformas economicas",
+            "plataformas digitais",
+            "pl 4675 2025",
+            "cade",
+            "concorrencia",
+            "marketplace"
+          ],
+          "scope": "acontecimento",
+          "tier": "principal",
+          "eventDate": "2026-11-16",
+          "sourcePublicationDate": "2026-11-16",
+          "novelty": "Estudo oficial divulgado em 16/11 estima cenários condicionais de benefícios anuais de R$ 15,3 bi a R$ 50,6 bi relacionados à concorrência digital; PL 4.675/2025 ainda tramita.",
+          "secondaryEntities": [
+            "Ministério da Fazenda",
+            "Secretaria de Reformas Econômicas",
+            "Cade",
+            "Congresso Nacional",
+            "marketplaces",
+            "aplicativos de transporte e entrega",
+            "vendedores",
+            "consumidores"
+          ],
+          "sourceName": "Ministério da Fazenda / Secretaria de Reformas Econômicas",
+          "sourceUrl": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/maior-concorrencia-em-plataformas-digitais-pode-gerar-mais-de-r-15-bilhoes-por-ano-em-beneficios-para-consumidores-e-empresas-brasileiras",
+          "caution": "Valores são estimativas, não reduções já realizadas; PL ainda não se converteu em regra abrangente em vigor.",
+          "followUp": [
+            "tramitação do PL 4.675/2025",
+            "medidas efetivas do Cade",
+            "comissões e condições cobradas de lojistas",
+            "efeitos concorrenciais demonstrados nos preços"
+          ],
+          "engagementQuestion": "Para quem vende por plataforma, o problema principal é comissão, visibilidade ou dependência?",
+          "excerptPotential": [
+            "Quem controla o acesso ao cliente?",
+            "Qual é a diferença entre previsão e redução real de preços?",
+            "Como plataformas condicionam a venda de pequenos negócios?"
+          ]
+        },
+        {
+          "title": "Goiânia anuncia missão à Europa para contatos comerciais e observação do MotoGP",
+          "terms": [
+            "goiania",
+            "mabel",
+            "moto gp",
+            "motogp",
+            "portimao",
+            "belgica",
+            "portugal",
+            "missao comercial"
+          ],
+          "scope": "acontecimento",
+          "tier": "radar",
+          "eventDate": "2026-11-17",
+          "missionPlannedEndDate": "2026-11-24",
+          "sourcePublicationDate": "2026-11-16",
+          "novelty": "Anúncio em 16/11 da missão prevista de 17 a 24/11 com representantes públicos e empresariais; reuniões e contratos não verificados.",
+          "people": [
+            "Sandro Mabel"
+          ],
+          "secondaryEntities": [
+            "Prefeitura de Goiânia",
+            "representantes empresariais",
+            "Bélgica",
+            "Portugal",
+            "Portimão",
+            "organizadores de MotoGP"
+          ],
+          "sourceName": "Jornal Opção / Prefeitura de Goiânia",
+          "sourceUrl": "https://www.jornalopcao.com.br/ultimas-noticias/mabel-viaja-a-europa-com-empresarios-e-deputados-para-buscar-investimentos-e-conhecer-operacao-do-motogp-889254/",
+          "caution": "Missão anunciada não implica investimento, contrato ou operação executada.",
+          "followUp": [
+            "reuniões comprovadamente realizadas",
+            "acordos e investimentos documentados",
+            "planejamento e contratação de serviços para eventos"
+          ],
+          "engagementQuestion": "O que Goiânia precisa preparar para sediar um evento internacional?",
+          "excerptPotential": [
+            "O que uma missão comercial pode realmente entregar?"
+          ]
+        },
+        {
+          "title": "Senado abre debate sobre alíquota de referência da CBS de 2027",
+          "terms": [
+            "cbs",
+            "aliquota de referencia",
+            "11,3468",
+            "senado",
+            "cae",
+            "tcu",
+            "reforma tributaria"
+          ],
+          "scope": "acontecimento",
+          "tier": "radar",
+          "eventDate": "2026-11-17",
+          "sourcePublicationDate": "2026-11-13",
+          "novelty": "Audiência prevista da CAE em 17/11, tendo como referência percentual de 11,3468% recomendado pelo TCU; sem decisão final verificada.",
+          "secondaryEntities": [
+            "Comissão de Assuntos Econômicos",
+            "Senado Federal",
+            "Tribunal de Contas da União",
+            "Ministério da Fazenda",
+            "indústria",
+            "contribuintes"
+          ],
+          "sourceName": "Agência Senado / Senado Federal",
+          "sourceUrl": "https://www12.senado.leg.br/noticias/materias/2026/11/13/cae-ministro-da-fazenda-debate-aliquota-da-cbs-na-terca-feira",
+          "officialAgendaUrl": "https://legis.senado.leg.br/atividade/comissoes/comissao/38/reuniao/15036",
+          "caution": "Audiência pautada não equivale a alíquota definitiva; confirmar registro e resultado posteriores.",
+          "followUp": [
+            "resultado formal da audiência",
+            "fixação da alíquota pelo Senado",
+            "efeitos de regimes especiais e tratamentos legais"
+          ],
+          "engagementQuestion": "Qual informação concreta sobre a CBS as empresas ainda precisam receber?",
+          "excerptPotential": [
+            "Por que 11,3468% não é alíquota final?"
+          ]
+        }
+      ],
+      "engagementTopics": [
+        {
+          "entity": "GLP",
+          "question": "Em quais condições uma recarga fracionada de gás seria útil e segura?"
+        },
+        {
+          "entity": "Pivot e São Pedro Capital",
+          "question": "Quais tarefas de uma agência poderiam ser automatizadas sem perda de qualidade?"
+        },
+        {
+          "entity": "Receita Federal",
+          "question": "O que mais dificulta ajustar sistemas de notas fiscais às novas regras?"
+        },
+        {
+          "entity": "Plataformas digitais",
+          "question": "Quem vende por marketplace tem alternativas reais para negociar comissões?"
+        }
+      ],
+      "notesForNextCuration": "Publicação da edição 007 informada, mas conteúdo veiculado não auditado. Tratar GLP, Pivot, Receita, Fazenda, Goiânia e CBS como matérias presentes no ROTEIRO, não como falas efetivamente confirmadas em vídeo. Coincidência de empresa, personagem ou tema é alerta para comparar fatos. Aguardar texto do CNPE, audiência do Senado, evolução do PL 4.675/2025, números reais de Pivot, versões da Receita e resultados documentados da missão. Não repetir anúncios sem acontecimento novo."
     }
   ],
   "policy": "Correspondência por termos e empresa é alerta para comparação de fatos, não prova de que se trata da mesma notícia. Não ocultar automaticamente resultados nem alterar score."

@@ -168,28 +168,38 @@
     "knownArticles": 361
   },
   "manualSupplement": {
-    "runId": "manual-journalism-20261117-132428",
-    "generatedAt": "2026-11-17T13:24:28.620Z",
-    "generatedAtLocal": "2026-11-17T10:24:28.620-03:00",
+    "runId": "manual-journalism-20261118-125311",
+    "generatedAt": "2026-11-18T12:53:11.118Z",
+    "generatedAtLocal": "2026-11-18T09:53:11-03:00",
     "timezone": "America/Sao_Paulo",
     "trigger": "manual-user-explicit",
     "status": "partial_manual_editorial",
-    "coverageCutoffLocal": "2026-11-17T10:21:00-03:00",
+    "coverageCutoffLocal": "2026-11-18T09:53:11-03:00",
     "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
-    "candidatesReviewed": 11,
-    "accepted": 8,
-    "duplicates": 0,
+    "candidatesReviewed": 19,
+    "accepted": 15,
+    "duplicates": 1,
     "discarded": 3,
-    "preserved": 198,
-    "previousManualRunId": "manual-journalism-20261116-115712",
+    "preserved": 206,
+    "previousManualRunId": "manual-journalism-20261117-132428",
     "sourceGroups": [
-      "órgãos federais e documentos oficiais",
-      "imprensa de negócios e econômica",
-      "imprensa e entidades setoriais",
-      "cobertura regional e município"
+      "Agência Senado/Câmara e processo legislativo",
+      "Ministérios federais e fontes regulatórias",
+      "imprensa econômica / informe de companhias",
+      "imprensa e sindicato setorial",
+      "dados públicos do estado de Goiás / IBGE",
+      "RI corporativo internacional / SEC"
     ],
-    "trendStatus": "não recoletado; data/trends.json mantém data de 12/11",
-    "note": "Coleta manual seletiva, não integral. Itens antigos não reclassificados. Descartados de baixa relevância ou indicadores antigos republicados. Distinguir decisão, norma, estimativa e cobertura não oficial."
+    "duplicatesDetails": [
+      "Simpar / CS Transportes: operação relacionada ao registro JSL-Simpar de 16/11; não incluída novamente"
+    ],
+    "discardedDetails": [
+      "Agenda futura do Mercosul: não há decisão material confirmada até o corte",
+      "Agenda de votação do ajuste fiscal em 18/11: não tratar expectativa como aprovação",
+      "Menções empresariais financeiras sem verificação primária suficiente ou impacto distinto"
+    ],
+    "trendStatus": "Google Trends não recoletado; data/trends.json de 12/11 preservado sem manipular métricas",
+    "note": "Pesquisa manual complementar; métricas collection/directCollection do diagnóstico permanecem do coletor de 12/11. Sem alterar fontes, filtros, scores de registros anteriores ou rotinas. Não foram acionados disparos automáticos."
   },
   "manualSupplementHistory": [
     {
@@ -253,6 +263,30 @@
       "previousManualRunId": "manual-web-20261116-114513",
       "trendStatus": "não recoletado",
       "note": "Ampliação de cobertura com publicações de hoje. Não reexecutada integralmente matriz. EventDate e publishedAt preservam distinção temporal."
+    },
+    {
+      "runId": "manual-journalism-20261117-132428",
+      "generatedAt": "2026-11-17T13:24:28.620Z",
+      "generatedAtLocal": "2026-11-17T10:24:28.620-03:00",
+      "timezone": "America/Sao_Paulo",
+      "trigger": "manual-user-explicit",
+      "status": "partial_manual_editorial",
+      "coverageCutoffLocal": "2026-11-17T10:21:00-03:00",
+      "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
+      "candidatesReviewed": 11,
+      "accepted": 8,
+      "duplicates": 0,
+      "discarded": 3,
+      "preserved": 198,
+      "previousManualRunId": "manual-journalism-20261116-115712",
+      "sourceGroups": [
+        "órgãos federais e documentos oficiais",
+        "imprensa de negócios e econômica",
+        "imprensa e entidades setoriais",
+        "cobertura regional e município"
+      ],
+      "trendStatus": "não recoletado; data/trends.json mantém data de 12/11",
+      "note": "Coleta manual seletiva, não integral. Itens antigos não reclassificados. Descartados de baixa relevância ou indicadores antigos republicados. Distinguir decisão, norma, estimativa e cobertura não oficial."
     }
   ]
 }

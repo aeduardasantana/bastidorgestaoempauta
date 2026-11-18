@@ -1,30 +1,30 @@
 {
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "researchRun": {
-    "method": "apuração manual dirigida com documentos oficiais, mídia econômica, fontes setoriais e regional; não houve coleta integral da matriz",
-    "directEndpoints": 7,
-    "curatedPreserved": 198,
-    "runId": "manual-journalism-20261117-132428",
-    "generatedAt": "2026-11-17T13:24:28.620Z",
-    "generatedAtLocal": "2026-11-17T10:24:28.620-03:00",
+    "method": "apuração manual dirigida: fontes oficiais, documentos primários, imprensa econômica, setor automotivo e dados regionais; sem execução integral de todos os endpoints RSS",
+    "runId": "manual-journalism-20261118-125311",
+    "generatedAt": "2026-11-18T12:53:11.118Z",
+    "generatedAtLocal": "2026-11-18T09:53:11-03:00",
     "timezone": "America/Sao_Paulo",
     "trigger": "manual-user-explicit",
-    "sourceCommit": "b2a2a0689ee33a083d8862d5eea80aba56af3547",
-    "newArticles": 8,
+    "sourceCommit": "37fbb0ba2ad0218253a056e458b73416a78b9b51",
+    "coverageCutoffLocal": "2026-11-18T09:53:11-03:00",
+    "newArticles": 15,
     "seenAgain": 0,
-    "preservedOnly": 198,
-    "knownArticles": 198,
+    "preservedOnly": 206,
+    "knownArticles": 206,
+    "curatedPreserved": 206,
+    "directEndpoints": 7,
     "manualLimited": true,
     "previousCollector": {
       "runId": "gh-43266717823-1",
       "generatedAt": "2026-11-12T17:11:56+00:00"
     },
     "previousResearchRun": {
-      "runId": "manual-web-20261116-114513",
-      "generatedAt": "2026-11-16T11:45:13.000Z"
+      "runId": "manual-journalism-20261117-132428",
+      "generatedAt": "2026-11-17T13:24:28.620Z"
     },
-    "note": "Correção da cobertura de hoje. Todas as novas entradas trazem data de publicação 16/11, e publishedAt/eventDate separados; 3T26 e acontecimentos prévios não são fatos ocorridos em 16/11.",
-    "coverageCutoffLocal": "2026-11-17T10:21:00-03:00"
+    "note": "Fatos publicados ou acompanhados até o horário local indicado. Datas de divulgação, acontecimentos e períodos estatísticos foram distinguidas em publishedAt/eventDate/reportingStatus. A fonte primária ou institucional interessada não equivale a comprovação de efeitos futuros. Tendências não recoletadas."
   },
   "items": [
     {
@@ -805,6 +805,249 @@
           "gh-43060874350-1",
           "gh-43231991193-1",
           "gh-43266717823-1"
+        ]
+      }
+    },
+    {
+      "id": "manual-18nov-gm-pdv-sao-jose",
+      "agenda": "Empresa em Pauta",
+      "impact": "Pessoas e trabalho",
+      "scope": "Regional",
+      "territory": "São José dos Campos (SP)",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Imprensa setorial, sindicato e posicionamento da empresa",
+      "score": 90,
+      "title": "Trabalhadores aprovam proposta de PDV da GM em São José dos Campos, com meta de 108 adesões",
+      "source": "AutoData / Sindicato dos Metalúrgicos de SJC",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T15:30:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Proposta aprovada em assembleia de 17/11; adesões e demissões efetivas ainda não comprovadas.",
+      "url": "https://www.autodata.com.br/noticias/2026/11/17/metalurgicos-da-gm-em-sao-jose-dos-campos-aprovam-abertura-de-pdv/140406/",
+      "summary": "Metalúrgicos aprovaram abertura de plano de demissão voluntária na fábrica da GM em São José dos Campos. A empresa pretende até 108 adesões entre cerca de 3,2 mil empregados; o sindicato reivindica estabilidade para quem permanecer. Meta de adesões não significa desligamentos efetivados.",
+      "angle": "Investigar reconfiguração de equipes, negociação sindical, retenção de conhecimento e justificativas operacionais.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Decisão empresarial",
+        "economicTrigger": "Pessoas e trabalho",
+        "organizationalHypothesis": "Investigar reconfiguração de equipes, negociação sindical, retenção de conhecimento e justificativas operacionais.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Trabalhadores aprovam proposta de PDV da GM em São José dos Campos, com meta de 108 adesões",
+        "source": "AutoData / Sindicato dos Metalúrgicos de SJC",
+        "date": "2026-11-17",
+        "url": "https://www.autodata.com.br/noticias/2026/11/17/metalurgicos-da-gm-em-sao-jose-dos-campos-aprovam-abertura-de-pdv/140406/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Imprensa regional tradicional",
+      "locale": "br",
+      "relatedSources": [
+        {
+          "title": "Sindicato confirma aprovação nos dois turnos",
+          "source": "Sindicato dos Metalúrgicos de SJC",
+          "url": "https://www.sindmetalsjc.org.br/noticias/n/7484/metalurgicos-da-gm-aprovam-abertura-de-pdv"
+        }
+      ],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
+      "id": "manual-18nov-escala-5x2-decreto-anunciado",
+      "agenda": "Poder e regras",
+      "impact": "Pessoas e trabalho",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Anúncio do MTE reportado pela Agência Brasil",
+      "score": 90,
+      "title": "Ministro anuncia para 19/11 assinatura de decreto sobre transição à escala 5x2",
+      "source": "Agência Brasil",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T18:54:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Anúncio de ato futuro; verificar Diário Oficial e texto definitivo após 19/11.",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/decreto-que-regulamenta-escala-5x2-sera-assinado-quinta-feira",
+      "summary": "Em 17/11, o ministro do Trabalho informou que o Executivo pretende assinar em 19/11 um decreto de regulamentação da escala 5x2, com referência a implantação em 16/12. A assinatura e o texto final ainda não ocorreram na data desta coleta; não apresentar o anúncio como decreto publicado.",
+      "angle": "Analisar planejamento de turnos, dimensionamento, produtividade e negociações, condicionado à publicação oficial.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Regulação com efeito empresarial",
+        "economicTrigger": "Pessoas e trabalho",
+        "organizationalHypothesis": "Analisar planejamento de turnos, dimensionamento, produtividade e negociações, condicionado à publicação oficial.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Ministro anuncia para 19/11 assinatura de decreto sobre transição à escala 5x2",
+        "source": "Agência Brasil",
+        "date": "2026-11-17",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/decreto-que-regulamenta-escala-5x2-sera-assinado-quinta-feira"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "MTE",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
+      "id": "manual-18nov-credito-exportadores",
+      "agenda": "Poder e regras",
+      "impact": "Custo e caixa",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fonte oficial de processo legislativo",
+      "score": 90,
+      "title": "Senado conclui votação de ampliação de R$ 13,5 bilhões em crédito a exportadores; texto segue à sanção",
+      "source": "Agência Senado",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T18:43:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Votação em 17/11; não declarar sancionado nem liberado aos beneficiários.",
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/11/17/medida-que-amplia-credito-a-exportacoes-segue-para-sancao",
+      "summary": "O Senado aprovou o PLV 15/2026, derivado da MP 1.379/2026, para ampliar em até R$ 13,5 bilhões os recursos de financiamento do Plano Brasil Soberano a exportadores afetados por barreiras comerciais e conflitos. A medida segue à sanção: crédito autorizado não equivale a desembolso realizado.",
+      "angle": "Acompanhar sanção, condições do financiamento, elegibilidade de exportadores, fornecedores e cadeias produtivas.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Regulação com efeito empresarial",
+        "economicTrigger": "Custo e caixa",
+        "organizationalHypothesis": "Acompanhar sanção, condições do financiamento, elegibilidade de exportadores, fornecedores e cadeias produtivas.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Senado conclui votação de ampliação de R$ 13,5 bilhões em crédito a exportadores; texto segue à sanção",
+        "source": "Agência Senado",
+        "date": "2026-11-17",
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/11/17/medida-que-amplia-credito-a-exportacoes-segue-para-sancao"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Senado e Câmara",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
         ]
       }
     },
@@ -3230,6 +3473,327 @@
       }
     },
     {
+      "id": "manual-18nov-nvidia-balanco-3tri",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Internacional",
+      "territory": "Estados Unidos / cadeias globais de tecnologia",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Divulgação corporativa e relatório financeiro; números da companhia",
+      "score": 80,
+      "title": "Nvidia informa receita de US$ 115,8 bilhões no trimestre encerrado em outubro, alta anual de 103%",
+      "source": "Nvidia — Relações com Investidores",
+      "date": "2026-11-17",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Divulgação em 17/11 sobre trimestre encerrado em 25/10; não atribuir o resultado integral a novembro.",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+      "summary": "A Nvidia divulgou em 17/11 receita trimestral de US$ 115,8 bilhões e lucro líquido GAAP de US$ 65,3 bilhões no 3º trimestre fiscal de 2027, encerrado em 25/10. Os valores são resultados reportados, não projeções; o guidance do trimestre seguinte é separado.",
+      "angle": "Investigar demanda por infraestrutura de IA, capacidade produtiva, dependência de fornecedores e sucessão executiva.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Decisão empresarial",
+        "economicTrigger": "Operação e estratégia",
+        "organizationalHypothesis": "Investigar demanda por infraestrutura de IA, capacidade produtiva, dependência de fornecedores e sucessão executiva.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Nvidia informa receita de US$ 115,8 bilhões no trimestre encerrado em outubro, alta anual de 103%",
+        "source": "Nvidia — Relações com Investidores",
+        "date": "2026-11-17",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Newsrooms corporativos globais",
+      "locale": "br",
+      "relatedSources": [
+        {
+          "title": "Formulário 8-K protocolado",
+          "source": "SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm"
+        }
+      ],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
+      "id": "manual-18nov-mdic-cosmeticos-aladi",
+      "agenda": "Poder e regras",
+      "impact": "Operação e estratégia",
+      "scope": "Federal",
+      "territory": "Brasil e América Latina",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Comunicado oficial sobre Decreto 13.169/2026",
+      "score": 80,
+      "title": "Decreto internaliza acordo da Aladi que busca reduzir barreiras técnicas a exportações de cosméticos",
+      "source": "MDIC",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T16:08:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Decreto publicado em 17/11; implantação internacional depende de condições próprias do acordo.",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/acordo-facilita-exportacoes-brasileiras-de-cosmeticos-e-reduz-obstaculos-ao-comercio-na-america-latina/",
+      "summary": "Decreto 13.169/2026 internalizou no Brasil acordo de redução de obstáculos técnicos para cosméticos, higiene e perfumaria no âmbito da Aladi. A entrada em aplicação exige comunicações de ao menos duas partes e prazo de 60 dias; não confundir publicação brasileira com efeito simultâneo em todos os signatários.",
+      "angle": "Examinar regulação de rotulagem, testes, documentação de exportação e custos de conformidade para pequenas indústrias.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Regulação com efeito empresarial",
+        "economicTrigger": "Operação e estratégia",
+        "organizationalHypothesis": "Examinar regulação de rotulagem, testes, documentação de exportação e custos de conformidade para pequenas indústrias.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Decreto internaliza acordo da Aladi que busca reduzir barreiras técnicas a exportações de cosméticos",
+        "source": "MDIC",
+        "date": "2026-11-17",
+        "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/acordo-facilita-exportacoes-brasileiras-de-cosmeticos-e-reduz-obstaculos-ao-comercio-na-america-latina/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Itamaraty e MDIC",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
+      "id": "manual-18nov-mte-pacto-violencia-trabalho",
+      "agenda": "Trabalho e representação",
+      "impact": "Pessoas e trabalho",
+      "scope": "Estadual",
+      "territory": "São Paulo (SP)",
+      "evidence": "Fonte institucional",
+      "sourceType": "Comunicado oficial do MTE; proposta voluntária",
+      "score": 80,
+      "title": "MTE propõe pacto paulista voluntário para prevenir assédio, discriminação e violência laboral",
+      "source": "Ministério do Trabalho e Emprego",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T15:20:00-03:00",
+      "eventDate": "2026-11-16",
+      "reportingStatus": "Reunião em 16/11, divulgação em 17/11; proposta institucional, adesão voluntária.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/srte-sp-propoe-pacto-para-prevenir-e-combater-a-violencia-no-trabalho/",
+      "summary": "A Superintendência do Trabalho em São Paulo apresentou, após reunião de 16/11 com empregadores, sindicatos, MPT e TRT, proposta voluntária de pacto para prevenção de assédio, discriminação e violência nos ambientes de trabalho. A iniciativa não substitui deveres legais nem cria obrigação geral de adesão.",
+      "angle": "Avaliar canais de denúncia, gestão de conflitos, práticas de liderança, prevenção e monitoramento de ambientes de trabalho.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Impacto setorial",
+        "economicTrigger": "Pessoas e trabalho",
+        "organizationalHypothesis": "Avaliar canais de denúncia, gestão de conflitos, práticas de liderança, prevenção e monitoramento de ambientes de trabalho.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "MTE propõe pacto paulista voluntário para prevenir assédio, discriminação e violência laboral",
+        "source": "Ministério do Trabalho e Emprego",
+        "date": "2026-11-17",
+        "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/novembro/srte-sp-propoe-pacto-para-prevenir-e-combater-a-violencia-no-trabalho/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "MTE",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
+      "id": "manual-18nov-receita-boa-fe-transicao",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Declaração oficial em audiência pública, não ato vinculante",
+      "score": 80,
+      "title": "Receita afirma que pretende priorizar correção de erros de boa-fé na transição tributária",
+      "source": "Agência Brasil / Receita Federal",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T12:30:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Declaração de 17/11; não confundir intenção administrativa com mudança normativa consolidada.",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-receita-descarta-punicao-erros-de-boa-fe",
+      "summary": "Na CAE do Senado, o secretário da Receita Federal declarou que a administração pretende orientar empresas e privilegiar correções em falhas de boa-fé durante a transição tributária. O sistema de apuração assistida segue em testes; a fala não é imunidade geral a multas nem dispensa de obrigações.",
+      "angle": "Verificar procedimentos de ERP, escrituração, validação fiscal, contingência e publicação de regras oficiais.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Regulação com efeito empresarial",
+        "economicTrigger": "Risco jurídico/regulatório",
+        "organizationalHypothesis": "Verificar procedimentos de ERP, escrituração, validação fiscal, contingência e publicação de regras oficiais.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Receita afirma que pretende priorizar correção de erros de boa-fé na transição tributária",
+        "source": "Agência Brasil / Receita Federal",
+        "date": "2026-11-17",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-receita-descarta-punicao-erros-de-boa-fe"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Banco Central, Receita, Cade e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
       "id": "manual-17nov-pivot",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
@@ -5274,6 +5838,322 @@
       }
     },
     {
+      "id": "manual-18nov-banco-abc-anga-aquisicao",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Anúncio da companhia confrontado com imprensa econômica",
+      "score": 70,
+      "title": "Banco ABC Brasil anuncia acordo de aquisição gradual da gestora Angá, estimado em R$ 690 milhões",
+      "source": "C-Level / Folha, com Reuters",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T09:41:00-03:00",
+      "eventDate": "2026-11-14",
+      "reportingStatus": "Acordo anunciado em 14/11, reportado em 16/11; conclusão condicionada.",
+      "url": "https://c-level.folha.uol.com.br/financas/2026/11/banco-abc-brasil-anuncia-acordo-para-comprar-gestora-anga-por-r-690-milhoes.shtml",
+      "summary": "O Banco ABC Brasil comunicou acordo para adquirir inicialmente 40% da Angá e o restante de forma escalonada até 2031, com valor total estimado em R$ 690 milhões. A operação depende de condições e aprovações regulatórias; não é compra concluída em 16/11.",
+      "angle": "Analisar expansão em crédito estruturado, desenho de partnership, integração de governança e obrigações regulatórias.",
+      "editorialPotential": {
+        "score": 7,
+        "triagePriority": "Prioridade alta",
+        "event": "Decisão empresarial",
+        "economicTrigger": "Operação e estratégia",
+        "organizationalHypothesis": "Analisar expansão em crédito estruturado, desenho de partnership, integração de governança e obrigações regulatórias.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Banco ABC Brasil anuncia acordo de aquisição gradual da gestora Angá, estimado em R$ 690 milhões",
+        "source": "C-Level / Folha, com Reuters",
+        "date": "2026-11-16",
+        "url": "https://c-level.folha.uol.com.br/financas/2026/11/banco-abc-brasil-anuncia-acordo-para-comprar-gestora-anga-por-r-690-milhoes.shtml"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
+      "id": "manual-18nov-camara-incentivo-tecnologia-assistiva",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Deliberação de comissão; projeto ainda não virou lei",
+      "score": 70,
+      "title": "Comissão da Câmara aprova proposta de incentivos à inovação em tecnologia assistiva",
+      "source": "Agência Câmara",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T16:46:00-03:00",
+      "eventDate": "2026-11-16",
+      "reportingStatus": "Aprovação em comissão em 16/11; texto ainda em tramitação, sem efeito legal consolidado.",
+      "url": "https://www.camara.leg.br/noticias/1319658-comissao-aprova-incentivo-a-empresas-que-desenvolvem-tecnologias-assistivas",
+      "summary": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência aprovou substitutivo ao PL 2124/2026 que inclui tecnologias assistivas em mecanismos existentes da Lei do Bem. A proposta ainda passa por outras comissões e tramitação legislativa; não existe novo incentivo automaticamente em vigor.",
+      "angle": "Acompanhar inovação acessível, custos de pesquisa e desenvolvimento e impactos em fornecedores e usuários.",
+      "editorialPotential": {
+        "score": 7,
+        "triagePriority": "Prioridade alta",
+        "event": "Regulação com efeito empresarial",
+        "economicTrigger": "Risco jurídico/regulatório",
+        "organizationalHypothesis": "Acompanhar inovação acessível, custos de pesquisa e desenvolvimento e impactos em fornecedores e usuários.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Comissão da Câmara aprova proposta de incentivos à inovação em tecnologia assistiva",
+        "source": "Agência Câmara",
+        "date": "2026-11-16",
+        "url": "https://www.camara.leg.br/noticias/1319658-comissao-aprova-incentivo-a-empresas-que-desenvolvem-tecnologias-assistivas"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Senado e Câmara",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
+      "id": "manual-18nov-recrusul-participacao-sedes",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Informe financeiro sobre contrato; conferir fato relevante",
+      "score": 70,
+      "title": "Recrusul firma contrato para comprar 40% do Grupo Sedes por R$ 45 milhões",
+      "source": "InfoMoney — radar corporativo",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T08:26:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Noticiado em 18/11; contratação não equivale a aquisição consumada.",
+      "url": "https://www.infomoney.com.br/mercados/axia-simpar-unifique-iguatemi-e-mais-acoes-para-acompanhar-nesta-quarta-feira/",
+      "summary": "O radar corporativo de 18/11 informa assinatura de contrato da Recrusul para adquirir 40% de participação na Empresa Sedes Empreendimentos e Participações por R$ 45 milhões. A notícia confirma o contrato informado, não o fechamento definitivo.",
+      "angle": "Acompanhar condições suspensivas, financiamento da compra, integração de operação e gestão da participação.",
+      "editorialPotential": {
+        "score": 7,
+        "triagePriority": "Prioridade alta",
+        "event": "Decisão empresarial",
+        "economicTrigger": "Operação e estratégia",
+        "organizationalHypothesis": "Acompanhar condições suspensivas, financiamento da compra, integração de operação e gestão da participação.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Recrusul firma contrato para comprar 40% do Grupo Sedes por R$ 45 milhões",
+        "source": "InfoMoney — radar corporativo",
+        "date": "2026-11-18",
+        "url": "https://www.infomoney.com.br/mercados/axia-simpar-unifique-iguatemi-e-mais-acoes-para-acompanhar-nesta-quarta-feira/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
+      "id": "manual-18nov-axia-debentures",
+      "agenda": "Empresa em Pauta",
+      "impact": "Custo e caixa",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Informe de mercado sobre decisão de conselho; verificar escritura da emissão",
+      "score": 70,
+      "title": "Conselho da Axia Energia aprova emissão de debêntures de R$ 1 bilhão",
+      "source": "InfoMoney — radar corporativo",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T08:26:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Decisão de 17/11 reportada em 18/11; conferir documentos de RI e B3 para condições e eventual colocação.",
+      "url": "https://www.infomoney.com.br/mercados/axia-simpar-unifique-iguatemi-e-mais-acoes-para-acompanhar-nesta-quarta-feira/",
+      "summary": "Segundo informe de mercado publicado em 18/11, o conselho da Axia Energia aprovou em 17/11 sua 15ª emissão de debêntures simples, não conversíveis, no valor anunciado de R$ 1 bilhão. Aprovação de emissão não comprova colocação, captação ou destinação efetiva dos recursos.",
+      "angle": "Apurar condições de dívida corporativa, plano de investimento, fluxo de caixa e custo financeiro.",
+      "editorialPotential": {
+        "score": 7,
+        "triagePriority": "Prioridade alta",
+        "event": "Decisão empresarial",
+        "economicTrigger": "Custo e caixa",
+        "organizationalHypothesis": "Apurar condições de dívida corporativa, plano de investimento, fluxo de caixa e custo financeiro.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Conselho da Axia Energia aprova emissão de debêntures de R$ 1 bilhão",
+        "source": "InfoMoney — radar corporativo",
+        "date": "2026-11-18",
+        "url": "https://www.infomoney.com.br/mercados/axia-simpar-unifique-iguatemi-e-mais-acoes-para-acompanhar-nesta-quarta-feira/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
       "id": "manual-16nov-reiter-log-inicia-teste-de-caminhao-eletrico-de-longa-autonomia-em-operacao-ro",
       "agenda": "Empresa em Pauta",
       "impact": "Operação e estratégia",
@@ -6579,6 +7459,162 @@
       }
     },
     {
+      "id": "manual-18nov-goias-industria-setembro",
+      "agenda": "Mercado e trabalho",
+      "impact": "Operação e estratégia",
+      "scope": "Estadual",
+      "territory": "Goiás",
+      "evidence": "Fonte institucional",
+      "sourceType": "Resumo regional da PIM-PF; indicador histórico, não evento do dia",
+      "score": 60,
+      "title": "Produção industrial de Goiás avança 2% em 12 meses, segundo balanço divulgado pelo estado",
+      "source": "Secretaria de Indústria e Comércio de Goiás / IBGE",
+      "date": "2026-11-17",
+      "eventDate": "2026-09-30",
+      "reportingStatus": "Divulgação em 17/11 de dados acumulados até setembro de 2026.",
+      "url": "https://goias.gov.br/industriaecomercio/industria-de-goias-supera-media-nacional-no-ano-e-cresce-2-em-12-meses-com-destaque-para-os-setores-de-metalurgia-e-automotivo/",
+      "summary": "A secretaria estadual informou em 17/11 que a indústria goiana acumulou expansão de 2% nos 12 meses encerrados em setembro e de 1,2% de janeiro a setembro, com destaques em metalurgia e automotivo. A comparação é estatística retroativa.",
+      "angle": "Monitorar demanda por mão de obra industrial, fornecimento e concentração setorial na economia goiana.",
+      "editorialPotential": {
+        "score": 6,
+        "triagePriority": "Prioridade alta",
+        "event": "Impacto setorial",
+        "economicTrigger": "Operação e estratégia",
+        "organizationalHypothesis": "Monitorar demanda por mão de obra industrial, fornecimento e concentração setorial na economia goiana.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Produção industrial de Goiás avança 2% em 12 meses, segundo balanço divulgado pelo estado",
+        "source": "Secretaria de Indústria e Comércio de Goiás / IBGE",
+        "date": "2026-11-17",
+        "url": "https://goias.gov.br/industriaecomercio/industria-de-goias-supera-media-nacional-no-ano-e-cresce-2-em-12-meses-com-destaque-para-os-setores-de-metalurgia-e-automotivo/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "O Popular e imprensa do Centro-Oeste",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
+      "id": "manual-18nov-goias-varejo-setembro",
+      "agenda": "Mercado e trabalho",
+      "impact": "Mercado e reputação",
+      "scope": "Estadual",
+      "territory": "Goiás",
+      "evidence": "Fonte institucional",
+      "sourceType": "Resumo regional de indicador estatístico já divulgado; não é dado de novembro",
+      "score": 60,
+      "title": "Goiás informa crescimento de 3,3% do varejo ampliado no acumulado de janeiro a setembro",
+      "source": "Secretaria de Indústria e Comércio de Goiás / IBGE",
+      "date": "2026-11-17",
+      "eventDate": "2026-09-30",
+      "reportingStatus": "Divulgação estadual em 17/11; período medido janeiro-setembro de 2026.",
+      "url": "https://goias.gov.br/industriaecomercio/varejo-ampliado-de-goias-cresce-mais-que-o-dobro-da-media-nacional-no-ano/",
+      "summary": "Balanço estadual publicado em 17/11 informa expansão acumulada de 3,3% no varejo ampliado goiano de janeiro a setembro, ante 1,5% no Brasil, com base na PMC do IBGE. A medição é do período até setembro, não de vendas realizadas em novembro.",
+      "angle": "Analisar desempenho de segmentos comerciais, planejamento de estoque, fornecedores e custos locais.",
+      "editorialPotential": {
+        "score": 6,
+        "triagePriority": "Prioridade alta",
+        "event": "Impacto setorial",
+        "economicTrigger": "Mercado e reputação",
+        "organizationalHypothesis": "Analisar desempenho de segmentos comerciais, planejamento de estoque, fornecedores e custos locais.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Goiás informa crescimento de 3,3% do varejo ampliado no acumulado de janeiro a setembro",
+        "source": "Secretaria de Indústria e Comércio de Goiás / IBGE",
+        "date": "2026-11-17",
+        "url": "https://goias.gov.br/industriaecomercio/varejo-ampliado-de-goias-cresce-mais-que-o-dobro-da-media-nacional-no-ano/"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "O Popular e imprensa do Centro-Oeste",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
       "id": "manual-16nov-general-shopping-passa-a-prejuizo-ajustado-de-r-38-9-milhoes-no-3t26",
       "agenda": "Empresa em Pauta",
       "impact": "Custo e caixa",
@@ -7652,6 +8688,164 @@
         "recentRunIds": [
           "gh-43231991193-1",
           "gh-43266717823-1"
+        ]
+      }
+    },
+    {
+      "id": "manual-18nov-camara-urgencia-bioeconomia",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Decisão procedimental legislativa, não aprovação de conteúdo",
+      "score": 50,
+      "title": "Câmara aprova regime de urgência para propostas que incluem política nacional de bioeconomia",
+      "source": "Agência Câmara",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T16:55:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Regime de urgência em 17/11; matéria de mérito ainda depende de deliberação.",
+      "url": "https://www.camara.leg.br/noticias/1320139-copia-755",
+      "summary": "A Câmara aprovou urgência para dez propostas, entre elas o PLP 150/2022, que prevê diretrizes de política nacional de bioeconomia. O rito acelerado não significa aprovação do mérito nem criação imediata de obrigações empresariais.",
+      "angle": "Acompanhar texto e impactos potenciais em cadeias sustentáveis, inovação e fornecedores, sem antecipar obrigação.",
+      "editorialPotential": {
+        "score": 5,
+        "triagePriority": "Prioridade média",
+        "event": "Regulação com efeito empresarial",
+        "economicTrigger": "Risco jurídico/regulatório",
+        "organizationalHypothesis": "Acompanhar texto e impactos potenciais em cadeias sustentáveis, inovação e fornecedores, sem antecipar obrigação.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Câmara aprova regime de urgência para propostas que incluem política nacional de bioeconomia",
+        "source": "Agência Câmara",
+        "date": "2026-11-17",
+        "url": "https://www.camara.leg.br/noticias/1320139-copia-755"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Senado e Câmara",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
+        ]
+      }
+    },
+    {
+      "id": "manual-18nov-albardao-impacto-pesca",
+      "agenda": "Mercado e trabalho",
+      "impact": "Operação e estratégia",
+      "scope": "Regional",
+      "territory": "Rio Grande do Sul",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Reportagem com atores do setor e órgão ambiental",
+      "score": 50,
+      "title": "Reportagem acompanha impactos econômicos do Parque do Albardão sobre pesca e conservação no RS",
+      "source": "Agência Brasil",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T08:40:00-03:00",
+      "eventDate": "2026-11-18",
+      "reportingStatus": "Acompanhamento jornalístico publicado 18/11; criação do parque e impactos anteriores não são fatos ocorridos hoje.",
+      "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/parque-nacional-do-albardao-impactos-socioeconomicos",
+      "summary": "Reportagem de 18/11 examina tensões e adaptações de empresas e pescadores diante da criação anterior do Parque Nacional do Albardão, no litoral do RS. Estimativas econômicas e percepções de impacto não equivalem a benefícios realizados comprovados.",
+      "angle": "Investigar cadeias de pescado, fiscalização, custo de adaptação, turismo e conciliação entre conservação e atividade produtiva.",
+      "editorialPotential": {
+        "score": 5,
+        "triagePriority": "Prioridade média",
+        "event": "Impacto setorial",
+        "economicTrigger": "Operação e estratégia",
+        "organizationalHypothesis": "Investigar cadeias de pescado, fiscalização, custo de adaptação, turismo e conciliação entre conservação e atividade produtiva.",
+        "questions": [
+          "Qual fato está confirmado e com qual data?",
+          "Qual a consequência para processos, pessoas ou fornecedores?",
+          "Que etapa futura depende de confirmação?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual: evidência e estágio do fato registrados em reportingStatus; score editorial existente não alterado.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false
+      },
+      "origin": {
+        "found": true,
+        "title": "Reportagem acompanha impactos econômicos do Parque do Albardão sobre pesca e conservação no RS",
+        "source": "Agência Brasil",
+        "date": "2026-11-18",
+        "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/parque-nacional-do-albardao-impactos-socioeconomicos"
+      },
+      "audience": {
+        "public": "CEOs, donos de empresa, diretores de operação e RH.",
+        "interest": "Entender uma decisão concreta de liderança e o que ela revela sobre estratégia, cultura ou execução.",
+        "search": "decisão de CEO; estratégia empresarial; gestão de empresas",
+        "sensation": "Curiosidade e recompensa"
+      },
+      "packaging": {
+        "opening": "Uma decisão de liderança ganhou manchete. O ponto é entender o que ela revela sobre gestão, e não apenas acompanhar o anúncio.",
+        "promise": "Entenda o fato, o que precisa ser confirmado e a consequência empresarial que está em jogo.",
+        "thumbnail": "DECISÃO DE CEO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, liderança, desenvolvimento humano, empresas"
+      },
+      "use": {
+        "label": "Analisar o ato ou documento original; usar redação própria.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Agência Brasil",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "pauta validada manualmente contra títulos, URLs e núcleo de fato conhecidos",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-18T12:53:11.118Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-18T12:53:11.118Z",
+        "lastSeenRunId": "manual-journalism-20261118-125311",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261118-125311"
         ]
       }
     },

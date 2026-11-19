@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17",
-  "basis": "001–002 preservadas da base anterior; 003–005 catalogadas dos roteiros aprovados no Drive, publicação não verificada nesta auditoria; 006 publicação informada pela responsável, dados de vídeo não acessíveis. Conteúdos 003–006 são, até comparação com o vídeo, baseados nos roteiros e não em transcrição da gravação. 007: publicação informada em 17/11, vídeo/URL e conteúdo final não verificados; registro baseado no roteiro congelado e na pasta de produção da edição.",
+  "updatedAt": "2026-11-19",
+  "basis": "001–002 preservadas da base anterior; 003–005 catalogadas dos roteiros aprovados no Drive, publicação não verificada nesta auditoria; 006 publicação informada pela responsável, dados de vídeo não acessíveis. Conteúdos 003–006 são, até comparação com o vídeo, baseados nos roteiros e não em transcrição da gravação. 007: publicação informada em 17/11, vídeo/URL e conteúdo final não verificados; registro baseado no roteiro congelado e na pasta de produção da edição. Edição 008: publicação observada em captura de tela, sem URL ou auditoria do vídeo; título preparado documentado, duração de 13:42 indicada na captura. Edição 009: publicação declarada explicitamente pela responsável; roteiro e TXT disponíveis, porém sem link, gravação ou métricas auditáveis. Atualização do Comando 3 em 19/11/2026.",
   "editions": [
     {
       "number": "001",
@@ -1012,6 +1012,546 @@
         }
       ],
       "notesForNextCuration": "Publicação da edição 007 informada, mas conteúdo veiculado não auditado. Tratar GLP, Pivot, Receita, Fazenda, Goiânia e CBS como matérias presentes no ROTEIRO, não como falas efetivamente confirmadas em vídeo. Coincidência de empresa, personagem ou tema é alerta para comparar fatos. Aguardar texto do CNPE, audiência do Senado, evolução do PL 4.675/2025, números reais de Pivot, versões da Receita e resultados documentados da missão. Não repetir anúncios sem acontecimento novo."
+    },
+    {
+      "number": "008",
+      "date": "2026-11-18",
+      "status": "publicação observada em captura de tela enviada pela responsável; URL e gravação não auditadas",
+      "recordBasis": "roteiro integral aprovado da edição 008, pacote de curadoria e captura de tela fornecida em 19/11 que exibe a edição datada de 18/11, miniatura e duração de 13:42; comparação com áudio/vídeo não realizada",
+      "editorialStatus": "fechamento de memória documental da edição anterior, sem auditoria do conteúdo gravado",
+      "researchRunId": "manual-journalism-20261118-125311",
+      "researchCollectedAtLocal": "2026-11-18T09:53:11-03:00",
+      "episodeTitlePrepared": "Escala 5x2, GM oferece Onix e Nvidia dobra receita | Gestão em Pauta 18/11",
+      "actualVideoTitle": null,
+      "videoUrl": null,
+      "videoPublishedAt": null,
+      "videoDurationSeconds": 822,
+      "durationEvidence": "selo 13:42 em miniatura de captura de tela enviada na conversa de 19/11; não verificado no player",
+      "thumbnailUsed": null,
+      "descriptionUsed": null,
+      "pinnedCommentUsed": null,
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1H8TqfwulbctixlQsHt_PCeek2xDOny_3",
+      "scriptUrl": "https://docs.google.com/document/d/16A8f7ZHIV1ITTOQ1894DXXTZ44YNyD4eyA1h_mxuOuM/edit",
+      "slidesUrl": "https://docs.google.com/presentation/d/1WV1RD8tIWIGjvAi3geSySCS2wjXM108QltJ2xCkoIv0/edit",
+      "analytics": {
+        "views": null,
+        "impressions": null,
+        "clickThroughRate": null,
+        "averageViewDurationSeconds": null,
+        "retentionAt30s": null,
+        "observationWindow": null
+      },
+      "analyticsNote": "Somente duração indicada na captura; outras métricas não disponíveis. Janela de observação desconhecida.",
+      "topics": [
+        {
+          "title": "Escala 5x2: emenda em vigor e decreto prometido para transição",
+          "terms": [
+            "escala 5x2",
+            "escala 6x1",
+            "decreto 19/11",
+            "emenda constitucional 141",
+            "luiz marinho",
+            "flavio dino",
+            "stf"
+          ],
+          "scope": "acontecimento",
+          "tier": "principal",
+          "eventDate": "2026-11-17",
+          "sourcePublicationDate": "2026-11-17",
+          "novelty": "Decreto de regulamentação anunciado para 19/11 e controvérsia de transição; distinta do debate sobre jornada na edição 002.",
+          "people": [
+            "Luiz Marinho",
+            "Flávio Dino"
+          ],
+          "secondaryEntities": [
+            "Ministério do Trabalho",
+            "STF",
+            "Congresso Nacional",
+            "empregadores",
+            "trabalhadores"
+          ],
+          "sourceName": "Agência Brasil / Congresso",
+          "sourceUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/decreto-que-regulamenta-escala-5x2-sera-assinado-quinta-feira",
+          "caution": "Decreto prometido ainda não assinado no corte 18/11 do roteiro. Confirmar edição posterior antes de noticiar amanhã.",
+          "followUp": [
+            "assinatura/publicação do decreto",
+            "regulamentação efetiva",
+            "decisões definitivas do STF"
+          ],
+          "excerptPotential": [
+            "Como funciona a transição para cinco dias de trabalho?"
+          ]
+        },
+        {
+          "title": "Nvidia: receita trimestral dobra após troca de comando",
+          "terms": [
+            "nvidia",
+            "jensen huang",
+            "colette kress",
+            "centros de dados",
+            "receita 115,8 bilhões"
+          ],
+          "scope": "empresa/acontecimento",
+          "tier": "principal",
+          "eventDate": "2026-11-17",
+          "novelty": "Balanço trimestral divulgado depois de notícia da sucessão empresarial coberta na edição 005.",
+          "people": [
+            "Jensen Huang",
+            "Colette Kress"
+          ],
+          "secondaryEntities": [
+            "centros de dados",
+            "clientes de inteligência artificial"
+          ],
+          "sourceName": "Nvidia / RI",
+          "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+          "caution": "Receita informada para trimestre encerrado em outubro; não equivale a lucro ou retorno dos projetos de IA.",
+          "followUp": [
+            "resultado do próximo trimestre",
+            "comando definitivo",
+            "investimento dos clientes em data centers"
+          ],
+          "excerptPotential": [
+            "Receita recorde é o mesmo que lucro?"
+          ]
+        },
+        {
+          "title": "General Motors: trabalhadores aprovam PDV com carro ou dinheiro",
+          "terms": [
+            "gm",
+            "general motors",
+            "chevrolet",
+            "onix",
+            "sao jose dos campos",
+            "pdv",
+            "s10",
+            "trailblazer"
+          ],
+          "scope": "empresa/acontecimento",
+          "tier": "principal",
+          "eventDate": "2026-11-17",
+          "novelty": "Aprovação da abertura do programa em assembleia; não comprova desligamentos efetivados.",
+          "people": [
+            "Valmir Mariano"
+          ],
+          "secondaryEntities": [
+            "Sindicato dos Metalúrgicos de São José dos Campos",
+            "Chevrolet Onix",
+            "S10",
+            "Trailblazer",
+            "fornecedores"
+          ],
+          "sourceName": "Sindicato dos Metalúrgicos / AutoData",
+          "sourceUrl": "https://www.sindmetalsjc.org.br/noticias/n/7484/metalurgicos-da-gm-aprovam-abertura-de-pdv",
+          "caution": "Até 108 adesões previstas; não confundir aprovação com 108 demissões.",
+          "followUp": [
+            "adesões confirmadas",
+            "negociação sindical",
+            "estabilidade e volume produzido"
+          ],
+          "excerptPotential": [
+            "Por que um PDV oferece um automóvel?"
+          ]
+        },
+        {
+          "title": "Senado: crédito adicional de até R$ 13,5 bilhões a exportadores",
+          "terms": [
+            "senado",
+            "exportadores",
+            "plano brasil soberano",
+            "tarifas eua",
+            "credito exportacao"
+          ],
+          "scope": "acontecimento",
+          "tier": "principal",
+          "eventDate": "2026-11-17",
+          "novelty": "Texto aprovado pelo Senado segue para sanção; não é desembolso efetivo.",
+          "secondaryEntities": [
+            "Plano Brasil Soberano",
+            "fornecedores industriais",
+            "cadeias agropecuárias",
+            "exportadores"
+          ],
+          "sourceName": "Agência Senado",
+          "sourceUrl": "https://www12.senado.leg.br/noticias/materias/2026/11/17/medida-que-amplia-credito-a-exportacoes-segue-para-sancao",
+          "caution": "Autorização de crédito não equivale a operações contratadas.",
+          "followUp": [
+            "sanção",
+            "critérios",
+            "operações efetivamente contratadas"
+          ],
+          "excerptPotential": [
+            "Crédito aprovado não é dinheiro distribuído"
+          ]
+        },
+        {
+          "title": "Acordo regional para simplificar exportações brasileiras de cosméticos",
+          "terms": [
+            "cosmeticos",
+            "aladi",
+            "mdic",
+            "higiene",
+            "perfumaria"
+          ],
+          "scope": "tema/acontecimento",
+          "tier": "radar",
+          "eventDate": "2026-11-18",
+          "novelty": "Decreto de incorporação de acordo, sujeito às condições de aplicação comercial entre países.",
+          "secondaryEntities": [
+            "ALADI",
+            "MDIC",
+            "fabricantes de cosméticos"
+          ],
+          "sourceName": "MDIC",
+          "sourceUrl": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/acordo-facilita-exportacoes-brasileiras-de-cosmeticos-e-reduz-obstaculos-ao-comercio-na-america-latina/",
+          "caution": "Não implica redução geral de tarifas.",
+          "followUp": [
+            "aplicação efetiva entre países",
+            "redução de etapas/documentação"
+          ]
+        },
+        {
+          "title": "Recrusul assina contrato para comprar 40% do Grupo Sedes",
+          "terms": [
+            "recrusul",
+            "grupo sedes",
+            "imobiliario",
+            "aquisição 40%"
+          ],
+          "scope": "empresa/acontecimento",
+          "tier": "radar",
+          "eventDate": "2026-11-17",
+          "novelty": "Contrato assinado para adquirir participação, sem confirmação de conclusão da transação.",
+          "secondaryEntities": [
+            "Grupo Sedes"
+          ],
+          "sourceName": "InfoMoney / comunicado de mercado",
+          "sourceUrl": "https://www.infomoney.com.br/mercados/axia-simpar-unifique-iguatemi-e-mais-acoes-para-acompanhar-nesta-quarta-feira/",
+          "caution": "Contrato assinado não significa aquisição integralmente concluída.",
+          "followUp": [
+            "condições precedentes",
+            "fechamento da transação"
+          ]
+        }
+      ],
+      "notesForNextCuration": "Escala 5x2 e Nvidia foram cobertas com avanços materiais sobre fatos anteriores; GM tratou de PDV e não de produção automotiva; Recrusul e cosméticos já foram radar em 18/11. Empresa em comum é alerta, não descarte de novo fato."
+    },
+    {
+      "number": "009",
+      "date": "2026-11-19",
+      "status": "publicação informada explicitamente pela responsável no Comando 3; URL e conteúdo gravado não auditados",
+      "recordBasis": "roteiro V01 aprovado e congelado, espelho/curadoria, TXT de falas do Drive e arquivo textual apresentado no fechamento; vídeo não recuperado. Tópicos listados são os da edição planejada e não confirmação audiovisual.",
+      "editorialStatus": "fechamento documental parcial concluído; conferência do vídeo, título efetivo, miniatura, descrição, comentário, capítulos e estatísticas pendentes",
+      "researchRunId": "manual-journalism-20261119-complemento-regional",
+      "researchCollectedAtLocal": "2026-11-19T10:07:55-03:00",
+      "researchExportedAtLocal": "2026-11-19T10:17:00-03:00",
+      "episodeTitlePrepared": "EUA exigem licença para chips; Toyota abre fábrica e Klabin interrompe produção | Gestão em Pauta 19/11",
+      "actualVideoTitle": null,
+      "videoUrl": null,
+      "videoPublishedAt": null,
+      "videoDurationSeconds": null,
+      "thumbnailUsed": null,
+      "descriptionUsed": null,
+      "pinnedCommentUsed": null,
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1S4sI8KU0tolWllxbwzz-4QCMAcglFOSE",
+      "scriptUrl": "https://docs.google.com/document/d/1w1VgzUCspwx6Aywmx3fr2Sp8DqrnFtBlp_x6qM67bs0/edit",
+      "slidesUrl": "https://docs.google.com/presentation/d/1jJTvOptz8VWEZqeP0mzzj1kq_Kqy-5BYOSqkPVOnOBs/edit",
+      "captionSourceUrl": "https://drive.google.com/file/d/1X8PQBgRaWrkJqfSSL_rEPhJb8E4Jjxnj/view",
+      "kitYouTubePreparedUrl": "https://docs.google.com/document/d/1Sh_diJqigIMPOm8_etjkONuZIZWvqnWiuPKRpcsBw2c/edit",
+      "thumbnailPromptPreparedUrl": "https://docs.google.com/document/d/1I3dA4JzoVzH86sFL5VbJMIRblOJgR2zfV9yJYOmSzI0/edit",
+      "commentsPreparedUrl": "https://docs.google.com/document/d/1ww67xoQXRKy71fqD6eJ2rHpOZr8cd1lCO7crd98y0e0/edit",
+      "scriptWordCount": 1386,
+      "scriptEstimatedDuration": "aproximadamente 13min15s; não aferida no vídeo",
+      "actualTranscriptAvailable": false,
+      "topicsRecordedOnVideoVerified": false,
+      "verifiedSourceOfPublication": "confirmação explícita da responsável",
+      "analytics": {
+        "views": null,
+        "impressions": null,
+        "clickThroughRate": null,
+        "averageViewDurationSeconds": null,
+        "retentionAt30s": null,
+        "observationWindow": null
+      },
+      "analyticsNote": "Não houve acesso ao YouTube Studio ou URL do vídeo; métricas indisponíveis e não estimadas. Comparar apenas janelas equivalentes desde publicação.",
+      "topics": [
+        {
+          "title": "EUA: licença para determinados chips avançados destinados ao Brasil",
+          "terms": [
+            "chips avançados",
+            "semicondutores",
+            "licença exportação",
+            "brazil",
+            "brasil",
+            "bis",
+            "departamento de comercio",
+            "data centers",
+            "inteligencia artificial"
+          ],
+          "scope": "ato regulatório / Brasil",
+          "tier": "principal",
+          "eventDate": "2026-11-19",
+          "sourcePublicationDate": "2026-11-19",
+          "novelty": "Entrada em vigor de exigência americana de licenciamento para determinadas classes de chips; exceções para destinatários e obrigações de reporte; tema independente de balanço Nvidia na 008.",
+          "secondaryEntities": [
+            "Bureau of Industry and Security",
+            "Departamento de Comércio dos EUA",
+            "Indonésia",
+            "Malásia",
+            "Singapura",
+            "Tailândia",
+            "empresas de data centers",
+            "fornecedores"
+          ],
+          "sourceName": "Federal Register / BIS",
+          "sourceUrl": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf",
+          "caution": "Não é proibição universal; não afirmar atrasos efetivos sem evidência.",
+          "followUp": [
+            "implementação de licenças e exceções",
+            "eventuais atrasos confirmados em data centers no Brasil",
+            "orientações de fornecedores"
+          ],
+          "engagementQuestion": "Seu setor depende de equipamentos de computação avançada? Que etapas mais alongam a aquisição?",
+          "excerptPotential": [
+            "O Brasil está proibido de comprar chips de IA?",
+            "Quem fica fora da licença?"
+          ]
+        },
+        {
+          "title": "Toyota inaugura fábrica Sorocaba 2 e apresenta picape Corolla Deck",
+          "terms": [
+            "toyota",
+            "sorocaba",
+            "indaiatuba",
+            "corolla deck",
+            "corolla sedan",
+            "soldagem automatizada",
+            "empregos"
+          ],
+          "scope": "empresa/indústria automotiva",
+          "tier": "principal",
+          "eventDate": "2026-11-18",
+          "sourcePublicationDate": "2026-11-19",
+          "novelty": "Inauguração efetiva da segunda unidade em Sorocaba, transferência de produção do Corolla, projeções de empregos e anúncio de futura picape; não é continuação do PDV da GM noticiado na 008.",
+          "secondaryEntities": [
+            "Corolla sedã",
+            "Corolla Deck",
+            "trabalhadores",
+            "fornecedores de peças",
+            "prestadores logísticos",
+            "Indaiatuba"
+          ],
+          "sourceName": "Times Brasil / CNBC; Sindicato dos Metalúrgicos de Sorocaba",
+          "sourceUrl": "https://timesbrasil.com.br/empresas-e-negocios/toyota-inaugura-fabrica-em-sorocaba-e-amplia-capacidade-para-270-mil-veiculos-por-ano/",
+          "additionalSourceUrl": "https://smetal.org.br/imprensa/toyota-inaugura-nova-fabrica-em-sorocaba-e-anuncia-producao-de-modelo-inedito/",
+          "caution": "Capacidade instalada e meta futura de empregos não equivalem à produção efetiva nem a contratações já realizadas.",
+          "followUp": [
+            "volume de produção",
+            "novas contratações efetivas",
+            "início fabricação da Corolla Deck no primeiro semestre de 2027",
+            "integração de fornecedores"
+          ],
+          "engagementQuestion": "Qual efeito regional deve ser acompanhado primeiro: empregos, fornecedores ou produção?",
+          "excerptPotential": [
+            "Fábrica automatizada pode criar empregos?",
+            "O que mudou de Indaiatuba para Sorocaba?"
+          ]
+        },
+        {
+          "title": "Klabin: ocorrência na caldeira de recuperação e suspensão de unidade em Otacílio Costa",
+          "terms": [
+            "klabin",
+            "otacilio costa",
+            "caldeira",
+            "explosao",
+            "santa catarina",
+            "hospital",
+            "paralisação",
+            "segurança industrial"
+          ],
+          "scope": "empresa/segurança industrial",
+          "tier": "principal",
+          "eventDate": "2026-11-18",
+          "sourcePublicationDate": "2026-11-18",
+          "novelty": "Ocorrência industrial levou trabalhadores ao hospital e à suspensão operacional. Fonte oficial relatou dez encaminhamentos; veículos regionais citaram onze feridos.",
+          "secondaryEntities": [
+            "unidade Otacílio Costa",
+            "Reuters",
+            "Bombeiros",
+            "trabalhadores hospitalizados",
+            "fornecedores de embalagens"
+          ],
+          "sourceName": "Klabin / fato relevante; Reuters",
+          "sourceUrl": "https://economia.uol.com.br/noticias/reuters/2026/11/18/klabin-diz-que-10-trabalhadores-de-fabrica-em-sc-sao-levados-para-hospital-apos-ocorrencia.htm",
+          "caution": "Não atribuir causa definitiva, danos quantificados ou prazo de retomada sem apuração.",
+          "followUp": [
+            "situação dos trabalhadores",
+            "investigação técnica e Bombeiros",
+            "retomada segura da operação",
+            "efeitos operacionais comprovados"
+          ],
+          "engagementQuestion": "Qual informação sobre a ocorrência é indispensável para compreender a resposta da empresa?",
+          "excerptPotential": [
+            "O que se sabe sobre a paralisação da Klabin?",
+            "A segurança dos trabalhadores vem antes dos resultados?"
+          ]
+        },
+        {
+          "title": "Anthropic: IPO bilionário, avaliação e custos de infraestrutura",
+          "terms": [
+            "anthropic",
+            "claude",
+            "ipo",
+            "nasdaq",
+            "oferta inicial",
+            "81,3 bilhões",
+            "83 dolares",
+            "inteligencia artificial",
+            "data centers"
+          ],
+          "scope": "empresa/mercado de capitais",
+          "tier": "principal",
+          "eventDate": "2026-11-18",
+          "sourcePublicationDate": "2026-11-19",
+          "novelty": "Oferta inicial precificada em US$ 83 por ação; perspectiva de estreia na bolsa em 19/11, distinta de resultados e sucessão Nvidia tratados em 005/008.",
+          "secondaryEntities": [
+            "Claude",
+            "Nasdaq",
+            "Reuters",
+            "investidores",
+            "acionistas vendedores"
+          ],
+          "sourceName": "Anthropic / comunicado oficial; Reuters",
+          "sourceUrl": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "additionalSourceUrl": "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/",
+          "caution": "Oferta e avaliação não equivalem a dinheiro integral no caixa ou lucro; situação de estreia e preço após abertura pendentes de conferência audiovisual.",
+          "followUp": [
+            "desempenho efetivo pós-estreia",
+            "demonstrações trimestrais",
+            "gastos em computação e retorno",
+            "participação de acionistas vendedores"
+          ],
+          "engagementQuestion": "Para acompanhar empresa de IA, você observaria clientes, custos ou resultados?",
+          "excerptPotential": [
+            "Empresa avaliada em US$ 1,5 trilhão já dá lucro?",
+            "Quanto da oferta realmente entra no caixa?"
+          ]
+        },
+        {
+          "title": "Priner cancela tentativa de aumento de capital",
+          "terms": [
+            "priner",
+            "cancelamento",
+            "aumento de capital",
+            "subscricoes",
+            "r$ 100 milhoes",
+            "r$ 220 milhoes"
+          ],
+          "scope": "empresa/financiamento",
+          "tier": "radar",
+          "eventDate": "2026-11-18",
+          "sourcePublicationDate": "2026-11-19",
+          "novelty": "Cancelamento por adesão inferior ao mínimo de R$ 100 milhões na operação de até R$ 220 milhões.",
+          "secondaryEntities": [
+            "investidores",
+            "fornecedores industriais",
+            "planos de expansão"
+          ],
+          "sourceName": "Money Times / fato relevante",
+          "sourceUrl": "https://www.moneytimes.com.br/priner-prnr3-cancela-aumento-de-capital-privado-apos-subscricoes-nao-atingirem-valor-minimo-miql/",
+          "caution": "Cancelamento não comprova cancelamento de obras ou investimentos planejados.",
+          "followUp": [
+            "novo financiamento",
+            "eventuais alterações de projetos",
+            "comunicados empresariais"
+          ],
+          "engagementQuestion": "Quando uma captação falha, qual efeito merece acompanhamento primeiro?",
+          "excerptPotential": [
+            "O que significa uma captação não alcançar o mínimo?"
+          ]
+        },
+        {
+          "title": "Comissão Europeia comunica ciberataque a sistemas de pessoal",
+          "terms": [
+            "comissao europeia",
+            "ciberataque",
+            "dados pessoais",
+            "folha pagamento",
+            "sistemas de pessoal",
+            "eu commission"
+          ],
+          "scope": "instituição/segurança digital",
+          "tier": "radar",
+          "eventDate": null,
+          "sourcePublicationDate": "2026-11-19",
+          "novelty": "Divulgação pública em 19/11 de incidente que afetou sistemas de salários, jornada e despesas de funcionários; data inicial do ataque ainda desconhecida.",
+          "secondaryEntities": [
+            "empregados da Comissão Europeia",
+            "Reuters",
+            "RTP",
+            "Agência Brasil"
+          ],
+          "sourceName": "Agência Brasil / RTP / Reuters",
+          "sourceUrl": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/comissao-europeia-e-alvo-de-ciberataque",
+          "caution": "Não inventar autoria, volume de dados vazados nem início do ataque.",
+          "followUp": [
+            "origem e extensão confirmada do ataque",
+            "normalização de sistemas",
+            "notificação e assistência aos afetados"
+          ],
+          "engagementQuestion": "O que uma organização deve informar primeiro aos funcionários atingidos por incidente de dados?",
+          "excerptPotential": [
+            "O que acontece quando sistemas de RH saem do ar?"
+          ]
+        }
+      ],
+      "engagementTopics": [
+        {
+          "entity": "Chips EUA/Brasil",
+          "question": "Seu setor depende de equipamentos de computação avançada? Que etapas mais alongam a aquisição?"
+        },
+        {
+          "entity": "Toyota",
+          "question": "Na região de uma nova fábrica, onde o impacto aparece primeiro: empregos, fornecedores ou produção?"
+        },
+        {
+          "entity": "Klabin",
+          "question": "Qual informação sobre o incidente deveria ser esclarecida antes das avaliações econômicas?"
+        },
+        {
+          "entity": "Anthropic",
+          "question": "Que indicador melhor mostra se crescimento de IA está se tornando resultado econômico?"
+        },
+        {
+          "entity": "Priner",
+          "question": "Como uma captação cancelada pode afetar escolhas de investimento?"
+        },
+        {
+          "entity": "Comissão Europeia",
+          "question": "O que pessoas afetadas precisam saber logo após um ataque a sistemas de dados?"
+        }
+      ],
+      "potentialClips": [
+        {
+          "topic": "chips",
+          "title": "O Brasil está proibido de comprar chips de IA?",
+          "entry": "Há exceções importantes.",
+          "approval": "opcional, não publicar"
+        },
+        {
+          "topic": "Toyota",
+          "title": "Fábrica automatizada e empregos: como entender os números?",
+          "entry": "Outro detalhe merece atenção.",
+          "approval": "opcional, não publicar"
+        },
+        {
+          "topic": "Anthropic",
+          "title": "Avaliação de US$ 1,5 trilhão significa lucro?",
+          "entry": "O número mais chamativo é a avaliação aproximada...",
+          "approval": "opcional, não publicar"
+        }
+      ],
+      "notesForNextCuration": "As pautas 009 não devem ser consideradas gravação auditada até conferir vídeo/legendas. Nvidia em 008 e Anthropic em 009 são empresas e fatos diferentes; GM em 008 e Toyota em 009 também. Regra BIS entrou em vigor em 19/11; acompanhar licenças. Klabin exige acompanhamento humano e operacional. Futuras novidades sobre Priner, Toyota e incidente europeu só se ocorrer avanço material. Coincidências de marca/tema são alertas, não exclusões automáticas."
     }
   ],
   "policy": "Correspondência por termos e empresa é alerta para comparação de fatos, não prova de que se trata da mesma notícia. Não ocultar automaticamente resultados nem alterar score."

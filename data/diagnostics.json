@@ -168,35 +168,28 @@
     "knownArticles": 361
   },
   "manualSupplement": {
-    "runId": "manual-journalism-20261119-ampliacao",
-    "generatedAt": "2026-11-19T13:02:00.000Z",
-    "generatedAtLocal": "2026-11-19T10:02:00-03:00",
+    "runId": "manual-journalism-20261119-complemento-regional",
+    "generatedAt": "2026-11-19T13:07:55.000Z",
+    "generatedAtLocal": "2026-11-19T10:07:55-03:00",
     "timezone": "America/Sao_Paulo",
     "trigger": "manual-user-explicit-followup",
     "status": "partial_manual_editorial",
-    "coverageCutoffLocal": "2026-11-19T10:02:00-03:00",
+    "coverageCutoffLocal": "2026-11-19T10:07:55-03:00",
     "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
-    "candidatesReviewed": 9,
-    "accepted": 6,
-    "duplicates": 1,
-    "discarded": 2,
-    "preserved": 227,
-    "previousManualRunId": "manual-journalism-20261119-095131",
+    "candidatesReviewed": 2,
+    "accepted": 2,
+    "duplicates": 0,
+    "discarded": 0,
+    "preserved": 233,
+    "previousManualRunId": "manual-journalism-20261119-ampliacao",
     "sourceGroups": [
-      "Federal Register BIS / Comércio EUA",
-      "imprensa financeira nacional e comunicados CVM",
-      "varejo e indústria em Brasília",
-      "cobertura de governança corporativa"
+      "imprensa automotiva e sindicato industrial",
+      "agência pública brasileira e órgão europeu"
     ],
-    "duplicatesDetails": [
-      "IPO da Anthropic e BDRs: pauta já contemplada em registro de 19/11, sem inserir reapresentação do mesmo fato"
-    ],
-    "discardedDetails": [
-      "GTA VI e comércio eletrônico: cobertura focalizada em projeções e sinais comerciais sem validação independente de resultado agregado no corte",
-      "Discussão de precatórios de R$ 35 bilhões: análise de mercado sem novo ato regulatório confirmado nesta manhã"
-    ],
-    "trendStatus": "data/trends.json não recoletado; data da última coleta 12/11 preservada",
-    "note": "Ampliação após questionamento sobre apenas uma publicação datada de 19/11. Novas publicações de hoje integradas com eventDate distinto para eventos de 17–18/11. Estatísticas integrais do coletor de 12/11 não foram alteradas."
+    "duplicatesDetails": [],
+    "discardedDetails": [],
+    "trendStatus": "Não recoletado, arquivo preservado",
+    "note": "Complemento final ao conjunto ampliado da manhã. Mantida distinção publication date e event date; incidente de TI da Comissão divulgado hoje mas início anterior desconhecido."
   },
   "manualSupplementHistory": [
     {
@@ -353,6 +346,37 @@
       ],
       "trendStatus": "data/trends.json de 12/11 não recoletado; estatísticas e métricas não alteradas",
       "note": "Apuração manual limitada, não representa varredura integral dos 40 grupos da matriz. Estatísticas collector/scoreBands permanecem ligadas ao último coletor de 12/11. Registros anteriores preservados integralmente."
+    },
+    {
+      "runId": "manual-journalism-20261119-ampliacao",
+      "generatedAt": "2026-11-19T13:02:00.000Z",
+      "generatedAtLocal": "2026-11-19T10:02:00-03:00",
+      "timezone": "America/Sao_Paulo",
+      "trigger": "manual-user-explicit-followup",
+      "status": "partial_manual_editorial",
+      "coverageCutoffLocal": "2026-11-19T10:02:00-03:00",
+      "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
+      "candidatesReviewed": 9,
+      "accepted": 6,
+      "duplicates": 1,
+      "discarded": 2,
+      "preserved": 227,
+      "previousManualRunId": "manual-journalism-20261119-095131",
+      "sourceGroups": [
+        "Federal Register BIS / Comércio EUA",
+        "imprensa financeira nacional e comunicados CVM",
+        "varejo e indústria em Brasília",
+        "cobertura de governança corporativa"
+      ],
+      "duplicatesDetails": [
+        "IPO da Anthropic e BDRs: pauta já contemplada em registro de 19/11, sem inserir reapresentação do mesmo fato"
+      ],
+      "discardedDetails": [
+        "GTA VI e comércio eletrônico: cobertura focalizada em projeções e sinais comerciais sem validação independente de resultado agregado no corte",
+        "Discussão de precatórios de R$ 35 bilhões: análise de mercado sem novo ato regulatório confirmado nesta manhã"
+      ],
+      "trendStatus": "data/trends.json não recoletado; data da última coleta 12/11 preservada",
+      "note": "Ampliação após questionamento sobre apenas uma publicação datada de 19/11. Novas publicações de hoje integradas com eventDate distinto para eventos de 17–18/11. Estatísticas integrais do coletor de 12/11 não foram alteradas."
     }
   ]
 }

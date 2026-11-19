@@ -1,19 +1,19 @@
 {
  "updatedAt": "2026-11-19",
  "researchRun": {
-  "method": "Complemento da apuração manual da manhã, com publicações de 19/11 e atos corporativos de 17–18/11 vinculados; fontes oficiais/regulatórias e veículos econômicos, sem varredura integral de RSS",
-  "runId": "manual-journalism-20261119-ampliacao",
-  "generatedAt": "2026-11-19T13:02:00.000Z",
-  "generatedAtLocal": "2026-11-19T10:02:00-03:00",
+  "method": "apuração manual suplementar, incluindo fontes empresariais regionais, sindicais e jornalismo internacional; sem recoleta integral de RSS",
+  "runId": "manual-journalism-20261119-complemento-regional",
+  "generatedAt": "2026-11-19T13:07:55.000Z",
+  "generatedAtLocal": "2026-11-19T10:07:55-03:00",
   "timezone": "America/Sao_Paulo",
   "trigger": "manual-user-explicit-followup",
-  "sourceCommit": "7bbe01cefd3ff6e5dbab273b1756bd5219f73a75",
-  "coverageCutoffLocal": "2026-11-19T10:02:00-03:00",
-  "newArticles": 6,
+  "sourceCommit": "4d75b668dd9851f37b0e0dafdae3b6996e79a664",
+  "coverageCutoffLocal": "2026-11-19T10:07:55-03:00",
+  "newArticles": 2,
   "seenAgain": 0,
-  "preservedOnly": 227,
-  "knownArticles": 227,
-  "curatedPreserved": 227,
+  "preservedOnly": 233,
+  "knownArticles": 233,
+  "curatedPreserved": 233,
   "directEndpoints": 0,
   "manualLimited": true,
   "previousCollector": {
@@ -21,12 +21,185 @@
    "generatedAt": "2026-11-12T17:11:56+00:00"
   },
   "previousResearchRun": {
-   "runId": "manual-journalism-20261119-095131",
-   "generatedAt": "2026-11-19T12:51:31.000Z"
+   "runId": "manual-journalism-20261119-ampliacao",
+   "generatedAt": "2026-11-19T13:02:00.000Z"
   },
-  "note": "Duas datas separadas: date/publishedAt = data de divulgação pública; eventDate = data do ato ou entrada em vigor. Hoje a norma dos EUA passou a vigorar; os demais fatos corporativos vieram a público hoje, com atos anteriores. O histórico anterior foi preservado. Trends não recoletado."
+  "note": "Complemento com casos de indústria regional e incidente cibernético internacional; nine notícias com publicação em 19/11, 235 registros totais. Datas de fato preservadas. Sem varredura RSS total."
  },
  "items": [
+  {
+   "id": "manual-19nov-toyota-sorocaba-2-inauguracao",
+   "agenda": "Empresa em Pauta",
+   "impact": "Operação e estratégia",
+   "scope": "Estadual",
+   "territory": "Sorocaba (SP)",
+   "evidence": "Repercussão jornalística",
+   "sourceType": "Cobertura empresarial, imprensa setorial e sindicato confirmam inauguração e emprego",
+   "score": 90,
+   "title": "Toyota inaugura nova fábrica em Sorocaba; produção nacional entra em nova fase com 1,7 mil empregados iniciais",
+   "source": "Times Brasil | CNBC / AutoData / Sindicato dos Metalúrgicos de Sorocaba",
+   "date": "2026-11-19",
+   "publishedAt": "2026-11-19T08:56:00-03:00",
+   "eventDate": "2026-11-18",
+   "reportingStatus": "Inauguração da unidade Sorocaba 2 efetivada em 18/11, noticiada também em 19/11. A companhia cita 1.700 postos diretos iniciais; 2.000 empregados podem ser meta de expansão, não contratação adicional comprovada.",
+   "url": "https://timesbrasil.com.br/empresas-e-negocios/toyota-inaugura-fabrica-em-sorocaba-e-amplia-capacidade-para-270-mil-veiculos-por-ano/",
+   "summary": "Toyota inaugurou em 18/11 a fábrica Sorocaba 2, com informações sobre 1,7 mil trabalhadores iniciais, nova picape híbrida e ampliação da capacidade nacional. O programa de R$ 11,5 bilhões cobre investimentos até 2030, não apenas os gastos desta unidade.",
+   "angle": "Analisar expansão de capacidade, realocação de produção de Indaiatuba, fornecedores, treinamento, automação e emprego local.",
+   "editorialPotential": {
+    "score": 9,
+    "triagePriority": "Prioridade muito alta",
+    "event": "Expansão ou aumento de capacidade",
+    "economicTrigger": "Nova capacidade industrial instalada",
+    "organizationalHypothesis": "Analisar expansão de capacidade, realocação de produção de Indaiatuba, fornecedores, treinamento, automação e emprego local.",
+    "questions": [
+     "Qual fato foi confirmado e quando?",
+     "Que impacto organizacional é verificado?",
+     "O que permanece incerto?"
+    ],
+    "missing": [],
+    "caveat": "Curadoria manual com datas de fato e publicação e limites documentados em reportingStatus.",
+    "promotional": false,
+    "hardPromotional": false,
+    "materiality": true,
+    "pureFinance": false,
+    "semanticFamilies": {},
+    "businessContext": true
+   },
+   "origin": {
+    "found": true,
+    "title": "Toyota inaugura nova fábrica em Sorocaba; produção nacional entra em nova fase com 1,7 mil empregados iniciais",
+    "source": "Times Brasil | CNBC / AutoData / Sindicato dos Metalúrgicos de Sorocaba",
+    "date": "2026-11-19",
+    "url": "https://timesbrasil.com.br/empresas-e-negocios/toyota-inaugura-fabrica-em-sorocaba-e-amplia-capacidade-para-270-mil-veiculos-por-ano/"
+   },
+   "audience": {
+    "public": "Diretores industriais, RH, operações e cadeia automotiva",
+    "interest": "Como expansão e transição produtiva reconfiguram trabalho e fornecedores",
+    "search": "Toyota Sorocaba 2 inauguração 18 novembro 2026 empregos",
+    "sensation": "Atenção e responsabilidade"
+   },
+   "packaging": {
+    "opening": "Um fato empresarial exige compreensão de suas consequências e comprovação.",
+    "promise": "Veja a decisão, o contexto e o que ainda falta apurar.",
+    "thumbnail": "O QUE MUDA NA OPERAÇÃO?",
+    "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+    "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+   },
+   "use": {
+    "label": "Apurar atos e acontecimentos; citar fontes com redação própria.",
+    "alert": "Não reproduzir materiais de terceiros."
+   },
+   "discoveryAdapter": "manual_verified",
+   "matrixSource": "Imprensa regional tradicional",
+   "locale": "br",
+   "relatedSources": [
+    {
+     "title": "Cobertura do setor automotivo em 18/11",
+     "source": "AutoData",
+     "url": "https://www.autodata.com.br/noticias/2026/11/18/toyota-inaugura-sorocaba-2-e-apresenta-inedita-picape-deck/140588/"
+    },
+    {
+     "title": "Sindicato acompanha inauguração e empregos diretos",
+     "source": "SMetal Sorocaba",
+     "url": "https://smetal.org.br/imprensa/toyota-inaugura-nova-fabrica-em-sorocaba-e-anuncia-producao-de-modelo-inedito/"
+    }
+   ],
+   "clusterSize": 3,
+   "clusterReason": "Curadoria manual independente, contexto industrial e risco de dados",
+   "radarTrace": {
+    "firstSeenAt": "2026-11-19T13:07:55.000Z",
+    "legacyFirstSeenDate": null,
+    "lastSeenAt": "2026-11-19T13:07:55.000Z",
+    "lastSeenRunId": "manual-journalism-20261119-complemento-regional",
+    "seenBeforeThisRun": false,
+    "foundInCurrentRun": true,
+    "seenCount": 1,
+    "recentRunIds": [
+     "manual-journalism-20261119-complemento-regional"
+    ]
+   }
+  },
+  {
+   "id": "manual-19nov-comissao-europeia-ciberataque-dados-funcionarios",
+   "agenda": "IA e gestão",
+   "impact": "Risco jurídico/regulatório",
+   "scope": "Internacional",
+   "territory": "União Europeia",
+   "evidence": "Repercussão jornalística",
+   "sourceType": "Agência pública reporta declarações da Comissão Europeia e cobertura do Politico; extensão pendente",
+   "score": 80,
+   "title": "Comissão Europeia informa ciberataque a sistemas com dados de pessoal; alcance ainda não esclarecido",
+   "source": "Agência Brasil / RTP / Politico",
+   "date": "2026-11-19",
+   "publishedAt": "2026-11-19T08:04:00-03:00",
+   "eventDate": "2026-11-19",
+   "reportingStatus": "Incidente comunicado e noticiado em 19/11; sistemas tiveram indisponibilidade durante dias anteriores. Origem, autores e extensão da exposição dos dados ainda desconhecidos. Data de 19/11 se refere à divulgação pública e constatação do incidente em curso, não ao início do ataque.",
+   "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/comissao-europeia-e-alvo-de-ciberataque",
+   "summary": "Sistemas da Comissão Europeia que guardavam dados trabalhistas, de folha, horários e despesas médicas foram atingidos por ataque cibernético. A instituição relatou contenção majoritária, desativação de sistemas e notificações a pessoas afetadas. Não estão confirmados autoria nem volume da exposição.",
+   "angle": "Debater contingência, segurança de dados pessoais, resposta a incidentes, comunicação com trabalhadores e continuidade de serviços digitais.",
+   "editorialPotential": {
+    "score": 8,
+    "triagePriority": "Prioridade muito alta",
+    "event": "Tecnologia e redesenho do trabalho",
+    "economicTrigger": "Incidente cibernético e continuidade operacional",
+    "organizationalHypothesis": "Debater contingência, segurança de dados pessoais, resposta a incidentes, comunicação com trabalhadores e continuidade de serviços digitais.",
+    "questions": [
+     "Qual fato foi confirmado e quando?",
+     "Que impacto organizacional é verificado?",
+     "O que permanece incerto?"
+    ],
+    "missing": [],
+    "caveat": "Curadoria manual com datas de fato e publicação e limites documentados em reportingStatus.",
+    "promotional": false,
+    "hardPromotional": false,
+    "materiality": true,
+    "pureFinance": false,
+    "semanticFamilies": {},
+    "businessContext": true
+   },
+   "origin": {
+    "found": true,
+    "title": "Comissão Europeia informa ciberataque a sistemas com dados de pessoal; alcance ainda não esclarecido",
+    "source": "Agência Brasil / RTP / Politico",
+    "date": "2026-11-19",
+    "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/comissao-europeia-e-alvo-de-ciberataque"
+   },
+   "audience": {
+    "public": "TI, DPO, gestão de riscos, operações e RH",
+    "interest": "Gestão de incidentes e proteção de informações pessoais",
+    "search": "Comissão Europeia ciberataque dados funcionários novembro 2026",
+    "sensation": "Atenção e responsabilidade"
+   },
+   "packaging": {
+    "opening": "Um fato empresarial exige compreensão de suas consequências e comprovação.",
+    "promise": "Veja a decisão, o contexto e o que ainda falta apurar.",
+    "thumbnail": "O QUE MUDA NA OPERAÇÃO?",
+    "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+    "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+   },
+   "use": {
+    "label": "Apurar atos e acontecimentos; citar fontes com redação própria.",
+    "alert": "Não reproduzir materiais de terceiros."
+   },
+   "discoveryAdapter": "manual_verified",
+   "matrixSource": "OIT, OECD, Eurofound",
+   "locale": "br",
+   "relatedSources": [],
+   "clusterSize": 1,
+   "clusterReason": "Curadoria manual independente, contexto industrial e risco de dados",
+   "radarTrace": {
+    "firstSeenAt": "2026-11-19T13:07:55.000Z",
+    "legacyFirstSeenDate": null,
+    "lastSeenAt": "2026-11-19T13:07:55.000Z",
+    "lastSeenRunId": "manual-journalism-20261119-complemento-regional",
+    "seenBeforeThisRun": false,
+    "foundInCurrentRun": true,
+    "seenCount": 1,
+    "recentRunIds": [
+     "manual-journalism-20261119-complemento-regional"
+    ]
+   }
+  },
   {
    "id": "manual-19nov-us-bis-licenca-chips-brasil",
    "agenda": "Poder e regras",

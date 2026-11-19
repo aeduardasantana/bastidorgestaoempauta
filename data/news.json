@@ -1,19 +1,19 @@
 {
   "updatedAt": "2026-11-19",
   "researchRun": {
-    "method": "apuração manual editorial dirigida, com confronto de fontes oficiais, imprensa regional e econômica, entidade sindical e comunicados empresariais; sem coleta integral dos endpoints da matriz",
-    "runId": "manual-journalism-20261119-095131",
-    "generatedAt": "2026-11-19T12:51:31.000Z",
-    "generatedAtLocal": "2026-11-19T09:51:31-03:00",
+    "method": "Complemento da apuração manual da manhã, com publicações de 19/11 e atos corporativos de 17–18/11 vinculados; fontes oficiais/regulatórias e veículos econômicos, sem varredura integral de RSS",
+    "runId": "manual-journalism-20261119-ampliacao",
+    "generatedAt": "2026-11-19T13:02:00.000Z",
+    "generatedAtLocal": "2026-11-19T10:02:00-03:00",
     "timezone": "America/Sao_Paulo",
-    "trigger": "manual-user-explicit",
-    "sourceCommit": "bbf5e0700e1b52efb9f7f9bef9a61bbb12ec6f64",
-    "coverageCutoffLocal": "2026-11-19T09:51:31-03:00",
+    "trigger": "manual-user-explicit-followup",
+    "sourceCommit": "7bbe01cefd3ff6e5dbab273b1756bd5219f73a75",
+    "coverageCutoffLocal": "2026-11-19T10:02:00-03:00",
     "newArticles": 6,
     "seenAgain": 0,
-    "preservedOnly": 221,
-    "knownArticles": 221,
-    "curatedPreserved": 221,
+    "preservedOnly": 227,
+    "knownArticles": 227,
+    "curatedPreserved": 227,
     "directEndpoints": 0,
     "manualLimited": true,
     "previousCollector": {
@@ -21,12 +21,548 @@
       "generatedAt": "2026-11-12T17:11:56+00:00"
     },
     "previousResearchRun": {
-      "runId": "manual-journalism-20261118-125311",
-      "generatedAt": "2026-11-18T12:53:11.118Z"
+      "runId": "manual-journalism-20261119-095131",
+      "generatedAt": "2026-11-19T12:51:31.000Z"
     },
-    "note": "Seis registros validados com diferentes naturezas de evidência; nenhuma edição do score de notícias existentes nem alteração do algoritmo. Apurações e datas publicadas até 09h51min31s de Brasília. Tendências não recoletadas."
+    "note": "Duas datas separadas: date/publishedAt = data de divulgação pública; eventDate = data do ato ou entrada em vigor. Hoje a norma dos EUA passou a vigorar; os demais fatos corporativos vieram a público hoje, com atos anteriores. O histórico anterior foi preservado. Trends não recoletado."
   },
   "items": [
+    {
+      "id": "manual-19nov-us-bis-licenca-chips-brasil",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Internacional",
+      "territory": "Estados Unidos / Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Norma primária do Bureau of Industry and Security, publicação oficial em Federal Register com cobertura especializada brasileira",
+      "score": 90,
+      "title": "Entra em vigor nos EUA licença obrigatória para certos chips avançados destinados ao Brasil",
+      "source": "Federal Register / BIS; Folha de S.Paulo; CNN Brasil",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T04:00:00-03:00",
+      "eventDate": "2026-11-19",
+      "reportingStatus": "Regra provisória final (interim final rule) do BIS publicada e com vigência em 19/11/2026. Licenças aplicáveis a categorias específicas de chips avançados; exceções e requisitos de reporte previstos. Não é proibição universal de semicondutores.",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf",
+      "summary": "Regulamento americano estabelece, a partir de 19/11, exigência de autorização para exportação/reexportação/transferência de certos aceleradores e itens avançados de computação ao Brasil e outros países; exceção para determinados destinatários vinculados a empresas dos EUA sujeita a reporte. O prazo de análise de licenças pode afetar prazos de data centers.",
+      "angle": "Investigar cronogramas de infraestrutura de IA, conformidade de fornecedores, investimentos em data centers e dependência tecnológica, distinguindo licença de proibição total.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Regulação com efeito empresarial",
+        "economicTrigger": "Controle de exportação de chips de inteligência artificial",
+        "organizationalHypothesis": "Investigar cronogramas de infraestrutura de IA, conformidade de fornecedores, investimentos em data centers e dependência tecnológica, distinguindo licença de proibição total.",
+        "questions": [
+          "Qual decisão ou norma está comprovada?",
+          "Quando ocorreu o fato e quando foi publicado?",
+          "Qual consequência organizacional merece acompanhamento?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual suplementar: fato, publicação e estágio de comprovação constam dos metadados. Régua de pontuação preexistente mantida.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Entra em vigor nos EUA licença obrigatória para certos chips avançados destinados ao Brasil",
+        "source": "Federal Register / BIS; Folha de S.Paulo; CNN Brasil",
+        "date": "2026-11-19",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf"
+      },
+      "audience": {
+        "public": "Executivos de tecnologia, data centers, compradores corporativos e fornecedores",
+        "interest": "Compreender risco regulatório imediato de compras e implantação",
+        "search": "BIS chips avançados licença Brasil novembro 2026",
+        "sensation": "Atenção e discernimento"
+      },
+      "packaging": {
+        "opening": "O registro exige distinguir a data do fato da data da notícia.",
+        "promise": "Verifique o que ocorreu, a fonte e os efeitos para a empresa.",
+        "thumbnail": "FATO E IMPACTO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+      },
+      "use": {
+        "label": "Verificar fonte original e noticiar com redação própria.",
+        "alert": "Não copiar texto, imagem, áudio, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Newsrooms corporativos globais",
+      "locale": "br",
+      "relatedSources": [
+        {
+          "title": "Regra em vigor e efeitos em data centers no Brasil",
+          "source": "Folha de S.Paulo / C-Level",
+          "url": "https://c-level.folha.uol.com.br/ia/2026/11/restricao-dos-eua-a-exportacao-de-chips-de-ia-entra-em-vigor-e-pode-atrasar-compras-no-brasil.shtml"
+        },
+        {
+          "title": "Análise da norma sobre equipamentos e empresas brasileiras",
+          "source": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/inteligencia-artificial/por-que-o-brasil-entrou-na-lista-de-restricoes-de-chips-dos-estados-unidos/"
+        }
+      ],
+      "clusterSize": 3,
+      "clusterReason": "apuração suplementar para cobrir publicações de 19/11, checada contra fatos e URLs existentes",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-19T13:02:00.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-19T13:02:00.000Z",
+        "lastSeenRunId": "manual-journalism-20261119-ampliacao",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261119-ampliacao"
+        ]
+      }
+    },
+    {
+      "id": "manual-19nov-csn-novo-diretor-dambrosio",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Cobertura econômica de decisão do conselho da companhia",
+      "score": 80,
+      "title": "CSN elege Alexandre D’Ambrosio para diretoria executiva e amplia colegiado a nove integrantes",
+      "source": "InfoMoney / comunicado da CSN",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T07:32:00-03:00",
+      "eventDate": "2026-11-18",
+      "reportingStatus": "Notícia divulgada nesta manhã sobre eleição pelo Conselho de Administração. Decisão efetiva de governança; efeitos futuros na gestão não foram mensurados.",
+      "url": "https://www.infomoney.com.br/mercados/csn-csna3-elege-alexandre-dambrosio-como-novo-diretor-executivo/",
+      "summary": "O conselho da CSN elegeu por unanimidade Alexandre Silva D’Ambrosio como diretor executivo. A diretoria passa a contar com nove membros; o mandato do colegiado vai até dezembro de 2027, conforme cobertura da empresa.",
+      "angle": "Avaliar distribuição de responsabilidades, composição de comando, governança e prioridades gerenciais sem presumir mudanças operacionais ainda não anunciadas.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Mudança de comando",
+        "economicTrigger": "Eleição de dirigente executivo",
+        "organizationalHypothesis": "Avaliar distribuição de responsabilidades, composição de comando, governança e prioridades gerenciais sem presumir mudanças operacionais ainda não anunciadas.",
+        "questions": [
+          "Qual decisão ou norma está comprovada?",
+          "Quando ocorreu o fato e quando foi publicado?",
+          "Qual consequência organizacional merece acompanhamento?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual suplementar: fato, publicação e estágio de comprovação constam dos metadados. Régua de pontuação preexistente mantida.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "CSN elege Alexandre D’Ambrosio para diretoria executiva e amplia colegiado a nove integrantes",
+        "source": "InfoMoney / comunicado da CSN",
+        "date": "2026-11-19",
+        "url": "https://www.infomoney.com.br/mercados/csn-csna3-elege-alexandre-dambrosio-como-novo-diretor-executivo/"
+      },
+      "audience": {
+        "public": "CEOs, conselhos, executivos e lideranças industriais",
+        "interest": "Governança, formação de diretoria e sucessão",
+        "search": "CSN Alexandre D'Ambrosio diretor executivo 19 novembro 2026",
+        "sensation": "Atenção e discernimento"
+      },
+      "packaging": {
+        "opening": "O registro exige distinguir a data do fato da data da notícia.",
+        "promise": "Verifique o que ocorreu, a fonte e os efeitos para a empresa.",
+        "thumbnail": "FATO E IMPACTO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+      },
+      "use": {
+        "label": "Verificar fonte original e noticiar com redação própria.",
+        "alert": "Não copiar texto, imagem, áudio, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Exame, PEGN e InfoMoney Business",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "apuração suplementar para cobrir publicações de 19/11, checada contra fatos e URLs existentes",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-19T13:02:00.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-19T13:02:00.000Z",
+        "lastSeenRunId": "manual-journalism-20261119-ampliacao",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261119-ampliacao"
+        ]
+      }
+    },
+    {
+      "id": "manual-19nov-priner-cancela-capital",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Fato relevante da companhia em 18/11, cotejado com cobertura econômica do dia 19",
+      "score": 90,
+      "title": "Priner cancela aumento de capital após subscrições não atingirem mínimo de R$ 100 milhões",
+      "source": "Money Times / fato relevante da Priner",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T08:27:00-03:00",
+      "eventDate": "2026-11-18",
+      "reportingStatus": "Fato relevante da Priner divulgado em 18/11, repercutido na imprensa econômica em 19/11. Cancelamento confirmado. Empresa não captou o montante pretendido; planos de expansão dependem de decisões futuras.",
+      "url": "https://www.moneytimes.com.br/priner-prnr3-cancela-aumento-de-capital-privado-apos-subscricoes-nao-atingirem-valor-minimo-miql/",
+      "summary": "A Priner cancelou operação privada de até R$ 220 milhões, pois subscrições não atingiram o piso de R$ 100 milhões. As subscrições perdem validade e os recursos serão devolvidos, sem juros ou atualização. Os efeitos nos investimentos previstos para 2027 ainda são hipótese de acompanhamento.",
+      "angle": "Investigar impacto da frustração da captação em caixa, cronograma de obras, expansão industrial, fornecedores e decisões de investimento.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Investimento ou movimentação de capital",
+        "economicTrigger": "Captação frustrada e planejamento de expansão",
+        "organizationalHypothesis": "Investigar impacto da frustração da captação em caixa, cronograma de obras, expansão industrial, fornecedores e decisões de investimento.",
+        "questions": [
+          "Qual decisão ou norma está comprovada?",
+          "Quando ocorreu o fato e quando foi publicado?",
+          "Qual consequência organizacional merece acompanhamento?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual suplementar: fato, publicação e estágio de comprovação constam dos metadados. Régua de pontuação preexistente mantida.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Priner cancela aumento de capital após subscrições não atingirem mínimo de R$ 100 milhões",
+        "source": "Money Times / fato relevante da Priner",
+        "date": "2026-11-19",
+        "url": "https://www.moneytimes.com.br/priner-prnr3-cancela-aumento-de-capital-privado-apos-subscricoes-nao-atingirem-valor-minimo-miql/"
+      },
+      "audience": {
+        "public": "Gestores de projetos, CFOs, investidores e fornecedores industriais",
+        "interest": "Riscos de financiamento da expansão e execução",
+        "search": "Priner cancela aumento capital novembro 2026",
+        "sensation": "Atenção e discernimento"
+      },
+      "packaging": {
+        "opening": "O registro exige distinguir a data do fato da data da notícia.",
+        "promise": "Verifique o que ocorreu, a fonte e os efeitos para a empresa.",
+        "thumbnail": "FATO E IMPACTO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+      },
+      "use": {
+        "label": "Verificar fonte original e noticiar com redação própria.",
+        "alert": "Não copiar texto, imagem, áudio, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [
+        {
+          "title": "Comunicado registrado no agregador de fatos relevantes em 18/11",
+          "source": "Fundamentus / CVM",
+          "url": "https://www.fundamentus.com.br/fr.php"
+        },
+        {
+          "title": "Cancelamento noticiado no dia de publicação do ato",
+          "source": "Finance News",
+          "url": "https://financenews.com.br/2026/11/priner-anuncia-o-cancelamento-do-aumento-de-capital-privado/"
+        }
+      ],
+      "clusterSize": 3,
+      "clusterReason": "apuração suplementar para cobrir publicações de 19/11, checada contra fatos e URLs existentes",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-19T13:02:00.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-19T13:02:00.000Z",
+        "lastSeenRunId": "manual-journalism-20261119-ampliacao",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261119-ampliacao"
+        ]
+      }
+    },
+    {
+      "id": "manual-19nov-gps-qualidados-conclusao",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Comunicado ao mercado da GPS datado de 18/11 e cobertura econômica de 19/11",
+      "score": 90,
+      "title": "GPS conclui aquisição de 80% da Qualidados e amplia atuação em serviços de engenharia",
+      "source": "GPS / comunicado ao mercado; InfoMoney",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T08:23:00-03:00",
+      "eventDate": "2026-11-18",
+      "reportingStatus": "Conclusão da transação comunicada formalmente pela controladora em 18/11; noticiada no radar econômico desta manhã. Não confundir com anúncio de aquisição de setembro.",
+      "url": "https://www.infomoney.com.br/mercados/csn-copel-priner-gps-multiplan-toky-mbrf-e-mais-acoes-para-acompanhar-hoje/",
+      "summary": "A controlada Top Service, da GPS Participações, concluiu a compra de 80% da Qualidados Consultoria e Sistemas após cumprimento das condições precedentes. O fato novo é o fechamento da operação, não o anúncio original.",
+      "angle": "Investigar integração operacional, processos, carteira de clientes, especialização das equipes e governança após aquisição.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Fusão, aquisição ou mudança de controle",
+        "economicTrigger": "Consolidação de operação societária e integração de equipes",
+        "organizationalHypothesis": "Investigar integração operacional, processos, carteira de clientes, especialização das equipes e governança após aquisição.",
+        "questions": [
+          "Qual decisão ou norma está comprovada?",
+          "Quando ocorreu o fato e quando foi publicado?",
+          "Qual consequência organizacional merece acompanhamento?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual suplementar: fato, publicação e estágio de comprovação constam dos metadados. Régua de pontuação preexistente mantida.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "GPS conclui aquisição de 80% da Qualidados e amplia atuação em serviços de engenharia",
+        "source": "GPS / comunicado ao mercado; InfoMoney",
+        "date": "2026-11-19",
+        "url": "https://www.infomoney.com.br/mercados/csn-copel-priner-gps-multiplan-toky-mbrf-e-mais-acoes-para-acompanhar-hoje/"
+      },
+      "audience": {
+        "public": "Gestores de serviços, consultorias, operações e RH",
+        "interest": "Como integrar estruturas após aquisição",
+        "search": "GPS Qualidados 80% conclusão aquisição novembro 2026",
+        "sensation": "Atenção e discernimento"
+      },
+      "packaging": {
+        "opening": "O registro exige distinguir a data do fato da data da notícia.",
+        "promise": "Verifique o que ocorreu, a fonte e os efeitos para a empresa.",
+        "thumbnail": "FATO E IMPACTO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+      },
+      "use": {
+        "label": "Verificar fonte original e noticiar com redação própria.",
+        "alert": "Não copiar texto, imagem, áudio, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [
+        {
+          "title": "Comunicado de conclusão em 18/11, 18h40",
+          "source": "Fundamentus / CVM",
+          "url": "https://www.fundamentus.com.br/fatos_relevantes.php?papel=ggps3"
+        },
+        {
+          "title": "Notícia individual sobre aquisição finalizada",
+          "source": "ADVFN Brasil",
+          "url": "https://br.advfn.com/bolsa-de-valores/bovespa/gps-participacoes-e-empr-on-GGPS3/share-news/99746426/gps-participacoes-conclui-aquisicao-da-qualidados-e-amplia-atuacao-em-servicos-d"
+        }
+      ],
+      "clusterSize": 3,
+      "clusterReason": "apuração suplementar para cobrir publicações de 19/11, checada contra fatos e URLs existentes",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-19T13:02:00.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-19T13:02:00.000Z",
+        "lastSeenRunId": "manual-journalism-20261119-ampliacao",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261119-ampliacao"
+        ]
+      }
+    },
+    {
+      "id": "manual-19nov-toky-assembleia-investidores",
+      "agenda": "Empresa em Pauta",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Cobertura econômica com versão da companhia e registro de pauta acionária",
+      "score": 80,
+      "title": "Em recuperação judicial, Grupo Toky rejeita convocação de assembleia pedida por acionistas",
+      "source": "InfoMoney / comunicado do Grupo Toky",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T07:41:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Decisão interna aprovada em 17/11, com comunicado noticiado em 19/11. Empresa alegou falhas formais e documentos insuficientes; não tratar controvérsia jurídica como decisão judicial definitiva.",
+      "url": "https://www.infomoney.com.br/mercados/grupo-toky-toky3-decide-nao-convocar-assembleia-solicitada-por-investidores/",
+      "summary": "O conselho do Grupo Toky decidiu não convocar AGE solicitada pelo IDI e acionistas, alegando insuficiências documentais. O colegiado elegeu Fabio Ferrante para presidir o conselho. O grupo se encontra em recuperação judicial.",
+      "angle": "Avaliar controvérsia de governança, documentação da decisão, transparência com acionistas e relações entre administração e investidores.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Crise financeira ou reorganização judicial",
+        "economicTrigger": "Governança e representação de acionistas em RJ",
+        "organizationalHypothesis": "Avaliar controvérsia de governança, documentação da decisão, transparência com acionistas e relações entre administração e investidores.",
+        "questions": [
+          "Qual decisão ou norma está comprovada?",
+          "Quando ocorreu o fato e quando foi publicado?",
+          "Qual consequência organizacional merece acompanhamento?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual suplementar: fato, publicação e estágio de comprovação constam dos metadados. Régua de pontuação preexistente mantida.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Em recuperação judicial, Grupo Toky rejeita convocação de assembleia pedida por acionistas",
+        "source": "InfoMoney / comunicado do Grupo Toky",
+        "date": "2026-11-19",
+        "url": "https://www.infomoney.com.br/mercados/grupo-toky-toky3-decide-nao-convocar-assembleia-solicitada-por-investidores/"
+      },
+      "audience": {
+        "public": "Conselhos, gestores de empresas em reestruturação e investidores",
+        "interest": "Governança e deliberações em recuperação judicial",
+        "search": "Grupo Toky acionistas assembleia IDI novembro 2026",
+        "sensation": "Atenção e discernimento"
+      },
+      "packaging": {
+        "opening": "O registro exige distinguir a data do fato da data da notícia.",
+        "promise": "Verifique o que ocorreu, a fonte e os efeitos para a empresa.",
+        "thumbnail": "FATO E IMPACTO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+      },
+      "use": {
+        "label": "Verificar fonte original e noticiar com redação própria.",
+        "alert": "Não copiar texto, imagem, áudio, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [
+        {
+          "title": "Decisão do conselho e informações de registro",
+          "source": "Ledge / documentos societários",
+          "url": "https://ledge.com.br/feed/grupo-toky-toky3-nao-convoca-assembleia-pedida-por-mwmsy475"
+        }
+      ],
+      "clusterSize": 2,
+      "clusterReason": "apuração suplementar para cobrir publicações de 19/11, checada contra fatos e URLs existentes",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-19T13:02:00.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-19T13:02:00.000Z",
+        "lastSeenRunId": "manual-journalism-20261119-ampliacao",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261119-ampliacao"
+        ]
+      }
+    },
+    {
+      "id": "manual-19nov-multiplan-parkshopping-expansao",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Regional",
+      "territory": "Brasília (DF)",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Cobertura econômica e imobiliária convergente com anúncio da companhia",
+      "score": 80,
+      "title": "Multiplan inaugura expansão de 8,4 mil m² do ParkShopping, com cerca de 60 lojas",
+      "source": "Multiplan / BP Money / Estadão Conteúdo",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T09:16:00-03:00",
+      "eventDate": "2026-11-18",
+      "reportingStatus": "Expansão efetivamente inaugurada em Brasília em 18/11; repercutida em fontes econômicas nesta manhã. Investimento declarado de R$ 320 milhões, não previsão futura.",
+      "url": "https://bpmoney.com.br/negocios/empresas-na-bolsa/multiplan-mult3-decima-expansao-parkshopping-brasilia/",
+      "summary": "A Multiplan inaugurou a décima expansão do ParkShopping com 8.411 m² adicionais de área locável e aproximadamente 60 novas lojas. Fontes citam investimento de R$ 320 milhões. A ocupação efetiva e empregos gerados não devem ser inventados.",
+      "angle": "Investigar demanda de varejo, composição de lojas, gestão de shopping, integração operacional e cadeia de fornecedores.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Expansão ou aumento de capacidade",
+        "economicTrigger": "Ampliação já inaugurada de estrutura comercial",
+        "organizationalHypothesis": "Investigar demanda de varejo, composição de lojas, gestão de shopping, integração operacional e cadeia de fornecedores.",
+        "questions": [
+          "Qual decisão ou norma está comprovada?",
+          "Quando ocorreu o fato e quando foi publicado?",
+          "Qual consequência organizacional merece acompanhamento?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual suplementar: fato, publicação e estágio de comprovação constam dos metadados. Régua de pontuação preexistente mantida.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Multiplan inaugura expansão de 8,4 mil m² do ParkShopping, com cerca de 60 lojas",
+        "source": "Multiplan / BP Money / Estadão Conteúdo",
+        "date": "2026-11-19",
+        "url": "https://bpmoney.com.br/negocios/empresas-na-bolsa/multiplan-mult3-decima-expansao-parkshopping-brasilia/"
+      },
+      "audience": {
+        "public": "Empreendedores, varejistas, gestores de shoppings e serviços",
+        "interest": "Expansão de capacidade e organização do varejo",
+        "search": "Multiplan ParkShopping 60 lojas 8411 metros 2026",
+        "sensation": "Atenção e discernimento"
+      },
+      "packaging": {
+        "opening": "O registro exige distinguir a data do fato da data da notícia.",
+        "promise": "Verifique o que ocorreu, a fonte e os efeitos para a empresa.",
+        "thumbnail": "FATO E IMPACTO",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+      },
+      "use": {
+        "label": "Verificar fonte original e noticiar com redação própria.",
+        "alert": "Não copiar texto, imagem, áudio, vídeo, tabela ou infográfico de terceiro."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Exame, PEGN e InfoMoney Business",
+      "locale": "br",
+      "relatedSources": [
+        {
+          "title": "Estadão Conteúdo repercute inauguração em 18/11",
+          "source": "Estadão Conteúdo / UOL",
+          "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/18/multiplan-abre-nova-area-do-parkshopping-em-brasilia-com-60-lojas-de-michael-kors-a-lego.htm"
+        },
+        {
+          "title": "Exame investiga estratégia de ampliação do ParkShopping",
+          "source": "Exame",
+          "url": "https://exame.com/mercado-imobiliario/multiplan-investe-r-320-milhoes-e-leva-coach-e-lego-ao-parkshopping-em-brasilia/"
+        }
+      ],
+      "clusterSize": 3,
+      "clusterReason": "apuração suplementar para cobrir publicações de 19/11, checada contra fatos e URLs existentes",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-19T13:02:00.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-19T13:02:00.000Z",
+        "lastSeenRunId": "manual-journalism-20261119-ampliacao",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261119-ampliacao"
+        ]
+      }
+    },
     {
       "id": "manual-19nov-klabin-otacilio-caldeira",
       "agenda": "Empresa em Pauta",

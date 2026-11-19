@@ -168,38 +168,39 @@
     "knownArticles": 361
   },
   "manualSupplement": {
-    "runId": "manual-journalism-20261118-125311",
-    "generatedAt": "2026-11-18T12:53:11.118Z",
-    "generatedAtLocal": "2026-11-18T09:53:11-03:00",
+    "runId": "manual-journalism-20261119-095131",
+    "generatedAt": "2026-11-19T12:51:31.000Z",
+    "generatedAtLocal": "2026-11-19T09:51:31-03:00",
     "timezone": "America/Sao_Paulo",
     "trigger": "manual-user-explicit",
     "status": "partial_manual_editorial",
-    "coverageCutoffLocal": "2026-11-18T09:53:11-03:00",
+    "coverageCutoffLocal": "2026-11-19T09:51:31-03:00",
     "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
-    "candidatesReviewed": 19,
-    "accepted": 15,
-    "duplicates": 1,
+    "candidatesReviewed": 11,
+    "accepted": 6,
+    "duplicates": 2,
     "discarded": 3,
-    "preserved": 206,
-    "previousManualRunId": "manual-journalism-20261117-132428",
+    "preserved": 221,
+    "previousManualRunId": "manual-journalism-20261118-125311",
     "sourceGroups": [
-      "Agência Senado/Câmara e processo legislativo",
-      "Ministérios federais e fontes regulatórias",
-      "imprensa econômica / informe de companhias",
-      "imprensa e sindicato setorial",
-      "dados públicos do estado de Goiás / IBGE",
-      "RI corporativo internacional / SEC"
+      "Agência Senado e tramitação legislativa",
+      "RI empresarial, Reuters e cobertura regional",
+      "Sindicatos e contraponto empresarial",
+      "Imprensa econômica de investimentos e automóveis",
+      "Imprensa internacional de tecnologia e mercado",
+      "Imprensa de Franca e do setor calçadista"
     ],
     "duplicatesDetails": [
-      "Simpar / CS Transportes: operação relacionada ao registro JSL-Simpar de 16/11; não incluída novamente"
+      "Decreto de transição para jornada 5x2: anúncio de 17/11 já presente; assinatura não confirmada no corte de 09h51",
+      "Acordo da Aladi sobre cosméticos: fato principal de 17/11 já catalogado"
     ],
     "discardedDetails": [
-      "Agenda futura do Mercosul: não há decisão material confirmada até o corte",
-      "Agenda de votação do ajuste fiscal em 18/11: não tratar expectativa como aprovação",
-      "Menções empresariais financeiras sem verificação primária suficiente ou impacto distinto"
+      "Ferrero/Bold Snacks: anúncio empresarial original remonta a março/2026, não classificar repercussão de 18/11 como nova aquisição",
+      "DaiaPlam/Anápolis: expectativa sobre até 40 protocolos anunciada em 09/11, sem ato novo comprovado",
+      "China/Petrobras/navios: menção de negociação não corroborada em documento primário no corte"
     ],
-    "trendStatus": "Google Trends não recoletado; data/trends.json de 12/11 preservado sem manipular métricas",
-    "note": "Pesquisa manual complementar; métricas collection/directCollection do diagnóstico permanecem do coletor de 12/11. Sem alterar fontes, filtros, scores de registros anteriores ou rotinas. Não foram acionados disparos automáticos."
+    "trendStatus": "data/trends.json de 12/11 não recoletado; estatísticas e métricas não alteradas",
+    "note": "Apuração manual limitada, não representa varredura integral dos 40 grupos da matriz. Estatísticas collector/scoreBands permanecem ligadas ao último coletor de 12/11. Registros anteriores preservados integralmente."
   },
   "manualSupplementHistory": [
     {
@@ -287,6 +288,40 @@
       ],
       "trendStatus": "não recoletado; data/trends.json mantém data de 12/11",
       "note": "Coleta manual seletiva, não integral. Itens antigos não reclassificados. Descartados de baixa relevância ou indicadores antigos republicados. Distinguir decisão, norma, estimativa e cobertura não oficial."
+    },
+    {
+      "runId": "manual-journalism-20261118-125311",
+      "generatedAt": "2026-11-18T12:53:11.118Z",
+      "generatedAtLocal": "2026-11-18T09:53:11-03:00",
+      "timezone": "America/Sao_Paulo",
+      "trigger": "manual-user-explicit",
+      "status": "partial_manual_editorial",
+      "coverageCutoffLocal": "2026-11-18T09:53:11-03:00",
+      "previousDiagnosticGeneratedAt": "2026-11-12T17:11:56.741786+00:00",
+      "candidatesReviewed": 19,
+      "accepted": 15,
+      "duplicates": 1,
+      "discarded": 3,
+      "preserved": 206,
+      "previousManualRunId": "manual-journalism-20261117-132428",
+      "sourceGroups": [
+        "Agência Senado/Câmara e processo legislativo",
+        "Ministérios federais e fontes regulatórias",
+        "imprensa econômica / informe de companhias",
+        "imprensa e sindicato setorial",
+        "dados públicos do estado de Goiás / IBGE",
+        "RI corporativo internacional / SEC"
+      ],
+      "duplicatesDetails": [
+        "Simpar / CS Transportes: operação relacionada ao registro JSL-Simpar de 16/11; não incluída novamente"
+      ],
+      "discardedDetails": [
+        "Agenda futura do Mercosul: não há decisão material confirmada até o corte",
+        "Agenda de votação do ajuste fiscal em 18/11: não tratar expectativa como aprovação",
+        "Menções empresariais financeiras sem verificação primária suficiente ou impacto distinto"
+      ],
+      "trendStatus": "Google Trends não recoletado; data/trends.json de 12/11 preservado sem manipular métricas",
+      "note": "Pesquisa manual complementar; métricas collection/directCollection do diagnóstico permanecem do coletor de 12/11. Sem alterar fontes, filtros, scores de registros anteriores ou rotinas. Não foram acionados disparos automáticos."
     }
   ]
 }

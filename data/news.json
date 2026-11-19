@@ -1,32 +1,563 @@
 {
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-19",
   "researchRun": {
-    "method": "apuração manual dirigida: fontes oficiais, documentos primários, imprensa econômica, setor automotivo e dados regionais; sem execução integral de todos os endpoints RSS",
-    "runId": "manual-journalism-20261118-125311",
-    "generatedAt": "2026-11-18T12:53:11.118Z",
-    "generatedAtLocal": "2026-11-18T09:53:11-03:00",
+    "method": "apuração manual editorial dirigida, com confronto de fontes oficiais, imprensa regional e econômica, entidade sindical e comunicados empresariais; sem coleta integral dos endpoints da matriz",
+    "runId": "manual-journalism-20261119-095131",
+    "generatedAt": "2026-11-19T12:51:31.000Z",
+    "generatedAtLocal": "2026-11-19T09:51:31-03:00",
     "timezone": "America/Sao_Paulo",
     "trigger": "manual-user-explicit",
-    "sourceCommit": "37fbb0ba2ad0218253a056e458b73416a78b9b51",
-    "coverageCutoffLocal": "2026-11-18T09:53:11-03:00",
-    "newArticles": 15,
+    "sourceCommit": "bbf5e0700e1b52efb9f7f9bef9a61bbb12ec6f64",
+    "coverageCutoffLocal": "2026-11-19T09:51:31-03:00",
+    "newArticles": 6,
     "seenAgain": 0,
-    "preservedOnly": 206,
-    "knownArticles": 206,
-    "curatedPreserved": 206,
-    "directEndpoints": 7,
+    "preservedOnly": 221,
+    "knownArticles": 221,
+    "curatedPreserved": 221,
+    "directEndpoints": 0,
     "manualLimited": true,
     "previousCollector": {
       "runId": "gh-43266717823-1",
       "generatedAt": "2026-11-12T17:11:56+00:00"
     },
     "previousResearchRun": {
-      "runId": "manual-journalism-20261117-132428",
-      "generatedAt": "2026-11-17T13:24:28.620Z"
+      "runId": "manual-journalism-20261118-125311",
+      "generatedAt": "2026-11-18T12:53:11.118Z"
     },
-    "note": "Fatos publicados ou acompanhados até o horário local indicado. Datas de divulgação, acontecimentos e períodos estatísticos foram distinguidas em publishedAt/eventDate/reportingStatus. A fonte primária ou institucional interessada não equivale a comprovação de efeitos futuros. Tendências não recoletadas."
+    "note": "Seis registros validados com diferentes naturezas de evidência; nenhuma edição do score de notícias existentes nem alteração do algoritmo. Apurações e datas publicadas até 09h51min31s de Brasília. Tendências não recoletadas."
   },
   "items": [
+    {
+      "id": "manual-19nov-klabin-otacilio-caldeira",
+      "agenda": "Empresa em Pauta",
+      "impact": "Pessoas e trabalho",
+      "scope": "Estadual",
+      "territory": "Otacílio Costa (SC)",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Comunicado da companhia confirmado por Reuters, Corpo de Bombeiros e imprensa regional",
+      "score": 90,
+      "title": "Klabin suspende operação em Otacílio Costa após ocorrência com caldeira e hospitalizações",
+      "source": "Reuters / Comunicado ao mercado da Klabin",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T15:16:00-03:00",
+      "eventDate": "2026-11-18",
+      "reportingStatus": "Em 18/11, companhia informou dez colaboradores encaminhados ao hospital e paralisação da unidade; cobertura regional posterior mencionou onze feridos. Causa do incidente e extensão da retomada ainda não comprovadas.",
+      "url": "https://economia.uol.com.br/noticias/reuters/2026/11/18/klabin-diz-que-10-trabalhadores-de-fabrica-em-sc-sao-levados-para-hospital-apos-ocorrencia.htm",
+      "summary": "Ocorrência envolvendo caldeira de recuperação na fábrica da Klabin em Otacílio Costa mobilizou equipes de emergência. A companhia comunicou dez trabalhadores encaminhados ao hospital e suspensão de operações. O número de feridos variou em atualizações jornalísticas; não atribuir causa sem laudo.",
+      "angle": "Apurar continuidade operacional, prevenção de acidentes, gestão de crise, assistência às pessoas e comunicação entre equipes e partes interessadas.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Mudança operacional ou produtiva",
+        "economicTrigger": "Interrupção operacional e segurança dos trabalhadores",
+        "organizationalHypothesis": "Apurar continuidade operacional, prevenção de acidentes, gestão de crise, assistência às pessoas e comunicação entre equipes e partes interessadas.",
+        "questions": [
+          "Qual fato foi confirmado e em qual data?",
+          "Quais efeitos sobre processos, operações e pessoas precisam de confirmação?",
+          "Que decisão concreta de gestão decorre da apuração?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual de 19/11/2026; estágio e limites das evidências em reportingStatus. A régua técnica original não foi modificada.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Klabin suspende operação em Otacílio Costa após ocorrência com caldeira e hospitalizações",
+        "source": "Reuters / Comunicado ao mercado da Klabin",
+        "date": "2026-11-18",
+        "url": "https://economia.uol.com.br/noticias/reuters/2026/11/18/klabin-diz-que-10-trabalhadores-de-fabrica-em-sc-sao-levados-para-hospital-apos-ocorrencia.htm"
+      },
+      "audience": {
+        "public": "Diretoria industrial, SST, operações e RH",
+        "interest": "Compreender a resposta a incidente crítico e suas consequências operacionais",
+        "search": "Klabin Otacílio Costa caldeira incidente novembro 2026",
+        "sensation": "Atenção e responsabilidade"
+      },
+      "packaging": {
+        "opening": "Um fato concreto exige separar o que está comprovado do que ainda precisa ser investigado.",
+        "promise": "Entenda a decisão, as evidências e seus efeitos possíveis, sem confundir hipóteses com fatos.",
+        "thumbnail": "DECISÃO E CONSEQUÊNCIA",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+      },
+      "use": {
+        "label": "Noticiar com redação própria, abrir as fontes e checar desdobramentos.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiros."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "RI, B3 e CVM",
+      "locale": "br",
+      "relatedSources": [
+        {
+          "title": "Companhia confirma ocorrência com caldeira e atendimento às vítimas",
+          "source": "GZH / comunicado da Klabin",
+          "url": "https://gauchazh.clicrbs.com.br/viral/noticia/2026/11/caldeira-explode-em-unidade-da-klabin-em-santa-catarina-11-pessoas-ficam-feridas-cmwmpptkb014t017amyep4sl0.html"
+        },
+        {
+          "title": "Reuters: paralisação das operações da planta",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/markets/commodities/klabin-says-10-employees-injured-after-boiler-explosion-brazilian-paper-factory-2026-11-18/"
+        }
+      ],
+      "clusterSize": 3,
+      "clusterReason": "apuração manual de etapa factual distinta; cotejado com a base de 221 registros anteriores",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-19T12:51:31.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-19T12:51:31.000Z",
+        "lastSeenRunId": "manual-journalism-20261119-095131",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261119-095131"
+        ]
+      }
+    },
+    {
+      "id": "manual-19nov-plp299-senado-votacao-final",
+      "agenda": "Poder e regras",
+      "impact": "Risco jurídico/regulatório",
+      "scope": "Federal",
+      "territory": "Brasil",
+      "evidence": "Documento/ato oficial",
+      "sourceType": "Registro da tramitação e notícia oficial do Senado, com cobertura da Agência Brasil",
+      "score": 80,
+      "title": "Senado conclui votação do PLP 299/2026 de ajuste fiscal; proposta segue à Câmara",
+      "source": "Agência Senado / Agência Brasil",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T19:39:00-03:00",
+      "eventDate": "2026-11-18",
+      "reportingStatus": "Votação concluída no Senado em 18/11. Texto encaminhado para apreciação na Câmara; NÃO é lei sancionada ou medida já vigente. Projeções fiscais dependem de aprovação e execução.",
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/11/18/senado-completa-votacao-e-ajuste-fiscal-segue-para-a-camara",
+      "summary": "O Senado encerrou a votação do PLP 299/2026 após rejeitar destaques. O projeto prevê mecanismos fiscais e segue à Câmara. Estimativas de economia entre R$ 45,1 bilhões e R$ 56,1 bilhões para 2027 foram divulgadas como projeções, não resultado realizado.",
+      "angle": "Analisar efeitos potenciais sobre planejamento e decisões empresariais condicionados à tramitação; acompanhar Câmara e eventuais alterações.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Regulação com efeito empresarial",
+        "economicTrigger": "Proposta legislativa e expectativa fiscal",
+        "organizationalHypothesis": "Analisar efeitos potenciais sobre planejamento e decisões empresariais condicionados à tramitação; acompanhar Câmara e eventuais alterações.",
+        "questions": [
+          "Qual fato foi confirmado e em qual data?",
+          "Quais efeitos sobre processos, operações e pessoas precisam de confirmação?",
+          "Que decisão concreta de gestão decorre da apuração?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual de 19/11/2026; estágio e limites das evidências em reportingStatus. A régua técnica original não foi modificada.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Senado conclui votação do PLP 299/2026 de ajuste fiscal; proposta segue à Câmara",
+        "source": "Agência Senado / Agência Brasil",
+        "date": "2026-11-18",
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/11/18/senado-completa-votacao-e-ajuste-fiscal-segue-para-a-camara"
+      },
+      "audience": {
+        "public": "Empresários, gestores financeiros e planejamento estratégico",
+        "interest": "Distinguir etapa legislativa e regras efetivamente em vigor",
+        "search": "PLP 299 2026 ajuste fiscal Senado Câmara",
+        "sensation": "Atenção e responsabilidade"
+      },
+      "packaging": {
+        "opening": "Um fato concreto exige separar o que está comprovado do que ainda precisa ser investigado.",
+        "promise": "Entenda a decisão, as evidências e seus efeitos possíveis, sem confundir hipóteses com fatos.",
+        "thumbnail": "DECISÃO E CONSEQUÊNCIA",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+      },
+      "use": {
+        "label": "Noticiar com redação própria, abrir as fontes e checar desdobramentos.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiros."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Senado e Câmara",
+      "locale": "br",
+      "relatedSources": [
+        {
+          "title": "Agência Brasil: Senado aprova projeto e texto segue à Câmara",
+          "source": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-rejeita-mudancas-no-texto-e-aprova-ajuste-fiscal-do-governo"
+        },
+        {
+          "title": "Tramitação e votações do PLP 299",
+          "source": "Senado Federal",
+          "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328/votacoes"
+        }
+      ],
+      "clusterSize": 3,
+      "clusterReason": "apuração manual de etapa factual distinta; cotejado com a base de 221 registros anteriores",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-19T12:51:31.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-19T12:51:31.000Z",
+        "lastSeenRunId": "manual-journalism-20261119-095131",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261119-095131"
+        ]
+      }
+    },
+    {
+      "id": "manual-19nov-bridgestone-estado-greve",
+      "agenda": "Trabalho e representação",
+      "impact": "Pessoas e trabalho",
+      "scope": "Estadual",
+      "territory": "Santo André (SP)",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Comunicado sindical interessado confrontado com cobertura regional e posição da empresa",
+      "score": 90,
+      "title": "Trabalhadores da Bridgestone em Santo André aprovam estado de greve e cobram negociação da jornada",
+      "source": "Sintrabor / Grande ABC News",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T17:27:00-03:00",
+      "eventDate": "2026-11-17",
+      "reportingStatus": "Assembleia em 17/11 deliberou estado de greve, com prazo de 10/12 para manifestação da empresa segundo sindicato. Não foi comprovada paralisação da fábrica.",
+      "url": "https://sintrabor.org.br/trabalhadores-da-bridgestone-aprovam-estado-de-greve-em-assembleia-que-debateu-jornada-5-por-2-e-pneus-importados/",
+      "summary": "Trabalhadores da unidade Bridgestone de Santo André aprovaram estado de greve após discussão sobre implementação da jornada 5x2, pneus importados e negociação. O sindicato indica prazo de resposta; a empresa disse à imprensa regional manter diálogo e avaliar adequações.",
+      "angle": "Acompanhar negociação, organização de escalas, comunicação com equipes e impactos na produção. Não confundir estado de greve com greve efetiva.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Relações e força de trabalho",
+        "economicTrigger": "Negociação de jornada e representação dos trabalhadores",
+        "organizationalHypothesis": "Acompanhar negociação, organização de escalas, comunicação com equipes e impactos na produção. Não confundir estado de greve com greve efetiva.",
+        "questions": [
+          "Qual fato foi confirmado e em qual data?",
+          "Quais efeitos sobre processos, operações e pessoas precisam de confirmação?",
+          "Que decisão concreta de gestão decorre da apuração?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual de 19/11/2026; estágio e limites das evidências em reportingStatus. A régua técnica original não foi modificada.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Trabalhadores da Bridgestone em Santo André aprovam estado de greve e cobram negociação da jornada",
+        "source": "Sintrabor / Grande ABC News",
+        "date": "2026-11-17",
+        "url": "https://sintrabor.org.br/trabalhadores-da-bridgestone-aprovam-estado-de-greve-em-assembleia-que-debateu-jornada-5-por-2-e-pneus-importados/"
+      },
+      "audience": {
+        "public": "RH industrial, relações sindicais, gestores de operação",
+        "interest": "Compreender riscos de negociação e planejamento de jornada",
+        "search": "Bridgestone estado de greve jornada 5x2 Sintrabor novembro",
+        "sensation": "Atenção e responsabilidade"
+      },
+      "packaging": {
+        "opening": "Um fato concreto exige separar o que está comprovado do que ainda precisa ser investigado.",
+        "promise": "Entenda a decisão, as evidências e seus efeitos possíveis, sem confundir hipóteses com fatos.",
+        "thumbnail": "DECISÃO E CONSEQUÊNCIA",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+      },
+      "use": {
+        "label": "Noticiar com redação própria, abrir as fontes e checar desdobramentos.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiros."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Sindicatos e centrais",
+      "locale": "br",
+      "relatedSources": [
+        {
+          "title": "Cobertura regional inclui manifestação da Bridgestone",
+          "source": "Grande ABC News",
+          "url": "https://grandeabcnews.com.br/2026/11/18/trabalhadores-da-bridgestone-em-santo-andre-aprovam-estado-de-greve-e-dao-prazo-ate-10-de/"
+        }
+      ],
+      "clusterSize": 2,
+      "clusterReason": "apuração manual de etapa factual distinta; cotejado com a base de 221 registros anteriores",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-19T12:51:31.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-19T12:51:31.000Z",
+        "lastSeenRunId": "manual-journalism-20261119-095131",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261119-095131"
+        ]
+      }
+    },
+    {
+      "id": "manual-19nov-jetour-investimento-400milhoes",
+      "agenda": "Empresa em Pauta",
+      "impact": "Operação e estratégia",
+      "scope": "Nacional",
+      "territory": "Brasil",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Anúncio empresarial noticiado pela imprensa econômica; execução a comprovar",
+      "score": 80,
+      "title": "Jetour anuncia mais R$ 400 milhões para produção de veículos e rede no Brasil até 2027",
+      "source": "CNN Brasil",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T19:22:00-03:00",
+      "eventDate": "2026-11-18",
+      "reportingStatus": "A companhia anunciou em 18/11 aporte adicional previsto de R$ 400 milhões, com expectativa de iniciar produção em 2027. Não há comprovação de investimento já realizado nem confirmação da operação da planta.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/negocios/montadora-chinesa-preve-investir-mais-r-400-milhoes-no-brasil-ate-2027/",
+      "summary": "A Jetour comunicou intenção de investir mais R$ 400 milhões, somando-se a outros R$ 400 milhões já anunciados. Plano inclui produção nacional, novo SUV e expansão de concessionárias. Valores representam anúncios e planos, não dispêndios já executados.",
+      "angle": "Investigar cronograma de implantação, cadeia de fornecedores, qualificação de pessoal, distribuição e viabilidade da operação.",
+      "editorialPotential": {
+        "score": 8,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Expansão ou aumento de capacidade",
+        "economicTrigger": "Investimento anunciado e projeto de produção local",
+        "organizationalHypothesis": "Investigar cronograma de implantação, cadeia de fornecedores, qualificação de pessoal, distribuição e viabilidade da operação.",
+        "questions": [
+          "Qual fato foi confirmado e em qual data?",
+          "Quais efeitos sobre processos, operações e pessoas precisam de confirmação?",
+          "Que decisão concreta de gestão decorre da apuração?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual de 19/11/2026; estágio e limites das evidências em reportingStatus. A régua técnica original não foi modificada.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Jetour anuncia mais R$ 400 milhões para produção de veículos e rede no Brasil até 2027",
+        "source": "CNN Brasil",
+        "date": "2026-11-18",
+        "url": "https://www.cnnbrasil.com.br/economia/money/negocios/montadora-chinesa-preve-investir-mais-r-400-milhoes-no-brasil-ate-2027/"
+      },
+      "audience": {
+        "public": "Indústria automotiva, concessionárias, fornecedores e estratégia",
+        "interest": "Avaliar impactos potenciais de produção local e expansão comercial",
+        "search": "Jetour Brasil investimento 400 milhões produção 2027",
+        "sensation": "Atenção e responsabilidade"
+      },
+      "packaging": {
+        "opening": "Um fato concreto exige separar o que está comprovado do que ainda precisa ser investigado.",
+        "promise": "Entenda a decisão, as evidências e seus efeitos possíveis, sem confundir hipóteses com fatos.",
+        "thumbnail": "DECISÃO E CONSEQUÊNCIA",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+      },
+      "use": {
+        "label": "Noticiar com redação própria, abrir as fontes e checar desdobramentos.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiros."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Imprensa regional tradicional",
+      "locale": "br",
+      "relatedSources": [],
+      "clusterSize": 1,
+      "clusterReason": "apuração manual de etapa factual distinta; cotejado com a base de 221 registros anteriores",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-19T12:51:31.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-19T12:51:31.000Z",
+        "lastSeenRunId": "manual-journalism-20261119-095131",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261119-095131"
+        ]
+      }
+    },
+    {
+      "id": "manual-19nov-anthropic-ipo-precificacao",
+      "agenda": "IA e gestão",
+      "impact": "Mercado e reputação",
+      "scope": "Internacional",
+      "territory": "Estados Unidos / repercussão global",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Reuters e cobertura econômica pré-abertura; dados de oferta sujeitos à confirmação final",
+      "score": 70,
+      "title": "Anthropic precifica IPO a US$ 83 por ação antes da estreia prevista na Nasdaq em 19/11",
+      "source": "Reuters / Times Brasil | CNBC",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T08:15:00-03:00",
+      "eventDate": "2026-11-18",
+      "reportingStatus": "Oferta precificada em US$ 83 por ação, com captação divulgada na faixa de US$ 81 bilhões; estreia prevista para 19/11. Não inferir valorização das ações durante o pregão antes da negociação.",
+      "url": "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/",
+      "summary": "Cobertura econômica aponta precificação da oferta pública inicial da Anthropic a US$ 83 por ação, acima da faixa inicialmente indicada, e avaliação aproximada de US$ 1,5 trilhão. A abertura da negociação e desempenho futuro ainda não foram observados no corte.",
+      "angle": "Separar captação, valorização estimada, rentabilidade operacional e implementação empresarial de IA; não tratar expectativa de investidores como resultado produtivo.",
+      "editorialPotential": {
+        "score": 7,
+        "triagePriority": "Prioridade alta",
+        "event": "Investimento ou movimentação de capital",
+        "economicTrigger": "Capitalização da indústria de IA e pressão por rentabilidade",
+        "organizationalHypothesis": "Separar captação, valorização estimada, rentabilidade operacional e implementação empresarial de IA; não tratar expectativa de investidores como resultado produtivo.",
+        "questions": [
+          "Qual fato foi confirmado e em qual data?",
+          "Quais efeitos sobre processos, operações e pessoas precisam de confirmação?",
+          "Que decisão concreta de gestão decorre da apuração?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual de 19/11/2026; estágio e limites das evidências em reportingStatus. A régua técnica original não foi modificada.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Anthropic precifica IPO a US$ 83 por ação antes da estreia prevista na Nasdaq em 19/11",
+        "source": "Reuters / Times Brasil | CNBC",
+        "date": "2026-11-19",
+        "url": "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/"
+      },
+      "audience": {
+        "public": "Gestores de tecnologia, finanças corporativas e estratégia",
+        "interest": "Acompanhar financiamento da IA e riscos de expansão baseada em capital",
+        "search": "Anthropic IPO novembro 2026 83 dólares Nasdaq oferta",
+        "sensation": "Atenção e responsabilidade"
+      },
+      "packaging": {
+        "opening": "Um fato concreto exige separar o que está comprovado do que ainda precisa ser investigado.",
+        "promise": "Entenda a decisão, as evidências e seus efeitos possíveis, sem confundir hipóteses com fatos.",
+        "thumbnail": "DECISÃO E CONSEQUÊNCIA",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+      },
+      "use": {
+        "label": "Noticiar com redação própria, abrir as fontes e checar desdobramentos.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiros."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Times Brasil | CNBC",
+      "locale": "en",
+      "relatedSources": [
+        {
+          "title": "Times Brasil: preço de oferta, riscos e estreia prevista",
+          "source": "Times Brasil | CNBC",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/inteligencia-artificial/anthropic-estreia-na-nasdaq-com-maior-ipo-da-historia-em-meio-a-incertezas-sobre-o-setor-de-inteligencia-artificial/"
+        },
+        {
+          "title": "Reuters: efeito da precificação no mercado futuro",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/"
+        }
+      ],
+      "clusterSize": 3,
+      "clusterReason": "apuração manual de etapa factual distinta; cotejado com a base de 221 registros anteriores",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-19T12:51:31.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-19T12:51:31.000Z",
+        "lastSeenRunId": "manual-journalism-20261119-095131",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261119-095131"
+        ]
+      }
+    },
+    {
+      "id": "manual-19nov-jacometi-franca-80-desligamentos",
+      "agenda": "Empresa em Pauta",
+      "impact": "Pessoas e trabalho",
+      "scope": "Estadual",
+      "territory": "Franca (SP)",
+      "evidence": "Repercussão jornalística",
+      "sourceType": "Cobertura setorial e regional, declarações do proprietário e do sindicato da indústria",
+      "score": 90,
+      "title": "Jacometi Calçados antecipa cerca de 80 desligamentos em Franca em meio à retração de pedidos",
+      "source": "Exclusivo / Sampi Franca",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T14:12:00-03:00",
+      "eventDate": "2026-11-16",
+      "reportingStatus": "Imprensa regional e setorial registrou aproximadamente 80 desligamentos na Jacometi em novembro, com declarações atribuídas à empresa e ao Sindifranca. Retomada de contratações em janeiro é expectativa, não garantia.",
+      "url": "https://exclusivo.com.br/negocios/fabricante-de-calcados-demite-80-funcionarios/",
+      "summary": "A fabricante de calçados de Franca antecipou aproximadamente 80 dispensas. A cobertura atribui o quadro à redução de pedidos, às condições de exportação e ao cenário setorial. A eventual retomada futura de contratações permanece condicionada à atividade.",
+      "angle": "Investigar previsibilidade da demanda, dependência de mercados externos, distribuição de trabalho e gestão de desligamentos.",
+      "editorialPotential": {
+        "score": 9,
+        "triagePriority": "Prioridade muito alta",
+        "event": "Redução, reestruturação ou fechamento",
+        "economicTrigger": "Queda nos pedidos e dificuldades de exportação",
+        "organizationalHypothesis": "Investigar previsibilidade da demanda, dependência de mercados externos, distribuição de trabalho e gestão de desligamentos.",
+        "questions": [
+          "Qual fato foi confirmado e em qual data?",
+          "Quais efeitos sobre processos, operações e pessoas precisam de confirmação?",
+          "Que decisão concreta de gestão decorre da apuração?"
+        ],
+        "missing": [],
+        "caveat": "Curadoria manual de 19/11/2026; estágio e limites das evidências em reportingStatus. A régua técnica original não foi modificada.",
+        "promotional": false,
+        "hardPromotional": false,
+        "materiality": true,
+        "pureFinance": false,
+        "semanticFamilies": {},
+        "businessContext": true
+      },
+      "origin": {
+        "found": true,
+        "title": "Jacometi Calçados antecipa cerca de 80 desligamentos em Franca em meio à retração de pedidos",
+        "source": "Exclusivo / Sampi Franca",
+        "date": "2026-11-16",
+        "url": "https://exclusivo.com.br/negocios/fabricante-de-calcados-demite-80-funcionarios/"
+      },
+      "audience": {
+        "public": "Gestores industriais, RH, exportadores e empresários regionais",
+        "interest": "Entender efeitos humanos e operacionais de retração de pedidos",
+        "search": "Jacometi Franca 80 demissões Sindifranca novembro 2026",
+        "sensation": "Atenção e responsabilidade"
+      },
+      "packaging": {
+        "opening": "Um fato concreto exige separar o que está comprovado do que ainda precisa ser investigado.",
+        "promise": "Entenda a decisão, as evidências e seus efeitos possíveis, sem confundir hipóteses com fatos.",
+        "thumbnail": "DECISÃO E CONSEQUÊNCIA",
+        "description": "Gestão em Pauta analisa uma notícia corporativa com foco em liderança, pessoas e consequência empresarial. Fato, contexto e decisão.",
+        "keywords": "gestão empresarial, operação, trabalho, decisões, liderança"
+      },
+      "use": {
+        "label": "Noticiar com redação própria, abrir as fontes e checar desdobramentos.",
+        "alert": "Não reproduzir texto, imagem, vídeo, tabela ou infográfico de terceiros."
+      },
+      "discoveryAdapter": "manual_verified",
+      "matrixSource": "Imprensa regional tradicional",
+      "locale": "br",
+      "relatedSources": [
+        {
+          "title": "Imprensa de Franca relata declarações do proprietário e do Sindifranca",
+          "source": "Sampi Franca",
+          "url": "https://sampi.net.br/franca/noticias/3018820/local/2026/11/crise-antecipa-demissoes-em-franca-fabrica-desliga-cerca-de-80"
+        }
+      ],
+      "clusterSize": 2,
+      "clusterReason": "apuração manual de etapa factual distinta; cotejado com a base de 221 registros anteriores",
+      "radarTrace": {
+        "firstSeenAt": "2026-11-19T12:51:31.000Z",
+        "legacyFirstSeenDate": null,
+        "lastSeenAt": "2026-11-19T12:51:31.000Z",
+        "lastSeenRunId": "manual-journalism-20261119-095131",
+        "seenBeforeThisRun": false,
+        "foundInCurrentRun": true,
+        "seenCount": 1,
+        "recentRunIds": [
+          "manual-journalism-20261119-095131"
+        ]
+      }
+    },
     {
       "id": "tst-considera-discriminatoria-dispensa-coletiva-de-212-empregados-da-casa-da-moedamigalhas",
       "agenda": "Trabalho e representação",
